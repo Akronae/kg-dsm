@@ -1,0 +1,245 @@
+{
+  "Primary": {
+    "50": {
+      "value": "#ffecc7",
+      "type": "color"
+    },
+    "100": {
+      "value": "#ffe6b2",
+      "type": "color"
+    },
+    "200": {
+      "value": "#ffd889",
+      "type": "color"
+    },
+    "300": {
+      "value": "#ffcb61",
+      "type": "color"
+    },
+    "400": {
+      "value": "#ffc247",
+      "type": "color"
+    },
+    "500": {
+      "value": "#ffb00f",
+      "type": "color",
+      "description": "This is the master color of koliving. The one that is used for the logo and the identity."
+    },
+    "600": {
+      "value": "#e09600",
+      "type": "color"
+    },
+    "700": {
+      "value": "#b27800",
+      "type": "color"
+    },
+    "800": {
+      "value": "#845900",
+      "type": "color"
+    },
+    "900": {
+      "value": "#563a00",
+      "type": "color"
+    }
+  },
+  "Neutral": {
+    "50": {
+      "value": "#ffffff",
+      "type": "color",
+      "description": "Classic white"
+    },
+    "100": {
+      "value": "#000000",
+      "type": "color"
+    },
+    "200": {
+      "value": "#ebe8e4",
+      "type": "color"
+    },
+    "300": {
+      "value": "#e1ddd8",
+      "type": "color"
+    },
+    "400": {
+      "value": "#d1cdc7",
+      "type": "color"
+    },
+    "500": {
+      "value": "#aba49b",
+      "type": "color",
+      "": {
+        "1": {
+          "value": "#ffb00f1a",
+          "type": "color"
+        }
+      }
+    },
+    "600": {
+      "value": "#6f685d",
+      "type": "color"
+    },
+    "700": {
+      "value": "#4e4941",
+      "type": "color"
+    },
+    "800": {
+      "value": "#1f1f1f",
+      "type": "color"
+    },
+    "900": {
+      "value": "#0a0a0a",
+      "type": "color"
+    },
+    "Alpha": {
+      "50": {
+        "4": {
+          "value": "#ffffff66",
+          "type": "color"
+        }
+      },
+      "800": {
+        "4": {
+          "value": "#1f1f1f66",
+          "type": "color"
+        }
+      }
+    }
+  },
+  "Red": {
+    "50": {
+      "value": "#ffd2c9",
+      "type": "color"
+    },
+    "100": {
+      "value": "#ffc3c3",
+      "type": "color"
+    },
+    "200": {
+      "value": "#fe8686",
+      "type": "color"
+    },
+    "300": {
+      "value": "#fe5e5e",
+      "type": "color"
+    },
+    "400": {
+      "value": "#fd3535",
+      "type": "color"
+    },
+    "500": {
+      "value": "#fd0d0d",
+      "type": "color"
+    },
+    "600": {
+      "value": "#cc0202",
+      "type": "color"
+    },
+    "700": {
+      "value": "#ad0101",
+      "type": "color"
+    },
+    "800": {
+      "value": "#7f0101",
+      "type": "color"
+    },
+    "900": {
+      "value": "#5e0606",
+      "type": "color"
+    }
+  },
+  "Green": {
+    "50": {
+      "value": "#def4bb",
+      "type": "color"
+    },
+    "100": {
+      "value": "#d6f1a9",
+      "type": "color"
+    },
+    "200": {
+      "value": "#c5eb86",
+      "type": "color"
+    },
+    "300": {
+      "value": "#b4e563",
+      "type": "color"
+    },
+    "400": {
+      "value": "#a2e03e",
+      "type": "color"
+    },
+    "500": {
+      "value": "#91d423",
+      "type": "color"
+    },
+    "600": {
+      "value": "#83c11f",
+      "type": "color"
+    },
+    "700": {
+      "value": "#5b8516",
+      "type": "color"
+    },
+    "800": {
+      "value": "#405e0f",
+      "type": "color"
+    },
+    "900": {
+      "value": "#253609",
+      "type": "color"
+    },
+    "Alpha": {
+      "500": {
+        "2": {
+          "value": "#91d42333",
+          "type": "color"
+        }
+      }
+    }
+  },
+  "Blue": {
+    "50": {
+      "value": "#f9fbfe",
+      "type": "color"
+    },
+    "100": {
+      "value": "#d3e2fb",
+      "type": "color",
+      "description": "State hover"
+    },
+    "200": {
+      "value": "#adc9f8",
+      "type": "color",
+      "description": "Main blue"
+    },
+    "300": {
+      "value": "#88b0f5",
+      "type": "color",
+      "description": "State pressed"
+    },
+    "400": {
+      "value": "#6297f2",
+      "type": "color"
+    },
+    "500": {
+      "value": "#3c7eef",
+      "type": "color"
+    },
+    "600": {
+      "value": "#316cd1",
+      "type": "color"
+    },
+    "700": {
+      "value": "#275ab3",
+      "type": "color"
+    },
+    "800": {
+      "value": "#1c4994",
+      "type": "color"
+    },
+    "900": {
+      "value": "#0c2e67",
+      "type": "color"
+    }
+  }
+}
