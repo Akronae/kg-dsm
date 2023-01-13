@@ -3,7 +3,8 @@
     "primary": {
       "default": {
         "value": "{Primary.500}",
-        "type": "color"
+        "type": "color",
+        "description": "default"
       },
       "hover": {
         "value": "{Primary.400}",
