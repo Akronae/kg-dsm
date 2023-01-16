@@ -83,7 +83,6 @@
       "colorSurface.interactive.default": "S:3599db65bafe09d4d07130b72a40332c57bb0356,",
       "colorSurface.interactive.hover": "S:f9e4d3b0f86026a093fc60ef50dbb44cc0932d6a,",
       "colorSurface.interactive.pressed": "S:8c521e676bc076221c4243300a8671acc9cb89dc,",
-      "colorSurface.interactive.active": "S:33aca7a2194015c43405823f439420ab47346311,",
       "colorSurface.interactive.sub.default": "S:76ffc5a46c71acfbedccb0b7faef95f4e796da5b,",
       "colorSurface.interactive.sub.hover": "S:5a3777de1e14847f810b5a00c030a195941ffaf9,",
       "colorSurface.interactive.sub.pressed": "S:1e6e96300fbc9adab24adb24ebd6e490e185157a,",
@@ -91,7 +90,6 @@
       "colorSurface.interactive.danger.default": "S:6221b826b9f79fb5caacf353e29a35a132748833,",
       "colorSurface.interactive.danger.hover": "S:51d0d704d05ddf39dcaf710579c968c8f4027505,",
       "colorSurface.interactive.danger.pressed": "S:78cb9da7a00e6e09819d266f40fbbe280b374e8a,",
-      "colorSurface.interactive.danger.disable": "S:568607694c779974c30d12868da667b6caee0d44,",
       "colorTags.red-light": "S:2ded24a64e0d1a48ade62c15f17d5ed6f56091ca,",
       "colorTags.red": "S:3db6c40e866430e1eae8753190057f2d43c3e549,",
       "colorTags.red-dark": "S:b84065a758127cc2907c90c66e01d08e9a591a03,",
@@ -204,7 +202,6 @@
       "colorAction.ghost.hover": "S:237966ff06e7a2315d418eb5c32b5ef6306e27e3,",
       "colorAction.ghost.pressed": "S:72861ecad77503a0ca9b9f91feb2291ce5fb21d2,",
       "colorAction.ghost.disable": "S:7c44a84127356c9813e36fc4a276983f32bb014f,",
-      "colorSurface.disable": "S:9087d704592bf577d694d603194e2fb60d232aac,",
       "textStyle.heading.heading1": "S:8392bc900be57d721afbec0605a8bedbe95cc280,",
       "textStyle.heading.heading2": "S:5536161904f1570721dd7f4ef7951f9e8b8ecb8d,",
       "textStyle.heading.heading3": "S:f43b45efd826dc3fad1d2a759a90aa5ecb70cac0,",
@@ -221,7 +218,10 @@
       "textStyle.body.lg.underline": "S:26bc6195352ee9b0cffb37954ace01f4836a460b,",
       "textStyle.label.xs": "S:2b24b18820a1b6866781d71a7ca638934b4614cd,",
       "textStyle.label.sm": "S:34aeb0a45d210a3de178b62ce2f91236b2584b7f,",
-      "textStyle.label.md": "S:18160b2ae99f64130d03ae2c393560a6203e8934,"
+      "textStyle.label.md": "S:18160b2ae99f64130d03ae2c393560a6203e8934,",
+      "colorSurface.interactive.disabled": "S:33aca7a2194015c43405823f439420ab47346311,",
+      "colorSurface.disabled": "S:9087d704592bf577d694d603194e2fb60d232aac,",
+      "colorSurface.interactive.danger.disabled": "S:568607694c779974c30d12868da667b6caee0d44,"
     }
   }
 ]
