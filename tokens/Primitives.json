@@ -343,6 +343,24 @@
           "value": "{Neutral.200}",
           "type": "color"
         }
+      },
+      "white": {
+        "default": {
+          "value": "{colorSurface.white}",
+          "type": "color"
+        },
+        "hover": {
+          "value": "{Neutral.100}",
+          "type": "color"
+        },
+        "pressed": {
+          "value": "{Neutral.200}",
+          "type": "color"
+        },
+        "active": {
+          "value": "{Neutral.900}",
+          "type": "color"
+        }
       }
     }
   },
