@@ -223,6 +223,10 @@
       "value": "{Neutral.50}",
       "type": "color"
     },
+    "disabled": {
+      "value": "{Neutral.400}",
+      "type": "color"
+    },
     "interactive": {
       "default": {
         "value": "{Neutral.500}",
@@ -247,8 +251,12 @@
     }
   },
   "borderWidth": {
-    "sm": {
+    "md": {
       "value": "2px",
+      "type": "borderWidth"
+    },
+    "sm": {
+      "value": "1px",
       "type": "borderWidth"
     }
   },
@@ -816,6 +824,10 @@
     "950": {
       "value": "120px",
       "type": "spacing"
+    },
+    "auto": {
+      "value": "auto",
+      "type": "spacing"
     }
   },
   "button": {
@@ -853,7 +865,7 @@
   "border": {
     "active": {
       "value": {
-        "width": "{borderWidth.sm}",
+        "width": "{borderWidth.md}",
         "style": "solid",
         "color": "{colorBorder.active}"
       },
@@ -861,7 +873,7 @@
     },
     "danger": {
       "value": {
-        "width": "{borderWidth.sm}",
+        "width": "{borderWidth.md}",
         "style": "solid",
         "color": "{colorBorder.danger}"
       },
@@ -869,7 +881,7 @@
     },
     "forced": {
       "value": {
-        "width": "{borderWidth.sm}",
+        "width": "{borderWidth.md}",
         "style": "solid",
         "color": "{colorBorder.forced}"
       },
@@ -878,7 +890,7 @@
     "diminished": {
       "value": {
         "color": "{colorBorder.sub}",
-        "width": "{borderWidth.sm}",
+        "width": "{borderWidth.md}",
         "style": "solid"
       },
       "type": "border"
@@ -886,7 +898,7 @@
     "disabled": {
       "value": {
         "color": "{colorBorder.interactive.disable}",
-        "width": "{borderWidth.sm}",
+        "width": "{borderWidth.md}",
         "style": "solid"
       },
       "type": "border"
@@ -896,7 +908,7 @@
     "default": {
       "value": {
         "color": "{colorBorder.interactive.default}",
-        "width": "{borderWidth.sm}",
+        "width": "{borderWidth.md}",
         "style": "solid"
       },
       "type": "border"
@@ -904,7 +916,7 @@
     "hover": {
       "value": {
         "color": "{colorBorder.interactive.hover}",
-        "width": "{borderWidth.sm}",
+        "width": "{borderWidth.md}",
         "style": "solid"
       },
       "type": "border"
@@ -912,7 +924,7 @@
     "pressed": {
       "value": {
         "color": "{colorBorder.interactive.pressed}",
-        "width": "{borderWidth.sm}",
+        "width": "{borderWidth.md}",
         "style": "solid"
       },
       "type": "border"
@@ -920,7 +932,7 @@
     "active": {
       "value": {
         "color": "{colorBorder.active}",
-        "width": "{borderWidth.sm}",
+        "width": "{borderWidth.md}",
         "style": "solid"
       },
       "type": "border"
@@ -928,7 +940,7 @@
     "disabled": {
       "value": {
         "color": "{colorBorder.interactive.disable}",
-        "width": "{borderWidth.sm}",
+        "width": "{borderWidth.md}",
         "style": "solid"
       },
       "type": "border"
@@ -1655,5 +1667,55 @@
   "checkboxSize": {
     "value": "24px",
     "type": "sizing"
+  },
+  "boderDashed": {
+    "default": {
+      "value": {
+        "color": "{colorBorder.interactive.default}",
+        "style": "dashed",
+        "width": "{borderWidth.sm}"
+      },
+      "type": "border"
+    },
+    "hover": {
+      "value": {
+        "color": "{colorBorder.interactive.hover}",
+        "style": "dashed",
+        "width": "{borderWidth.sm}"
+      },
+      "type": "border"
+    },
+    "pressed": {
+      "value": {
+        "color": "{colorBorder.interactive.pressed}",
+        "style": "dashed",
+        "width": "{borderWidth.sm}"
+      },
+      "type": "border"
+    },
+    "active": {
+      "value": {
+        "color": "{colorBorder.interactive.active}",
+        "style": "dashed",
+        "width": "{borderWidth.sm}"
+      },
+      "type": "border"
+    },
+    "danger": {
+      "value": {
+        "color": "{colorBorder.danger}",
+        "style": "dashed",
+        "width": "{borderWidth.sm}"
+      },
+      "type": "border"
+    },
+    "disabled": {
+      "value": {
+        "color": "{colorBorder.disabled}",
+        "style": "dashed",
+        "width": "{borderWidth.sm}"
+      },
+      "type": "border"
+    }
   }
 }

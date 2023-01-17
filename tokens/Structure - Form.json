@@ -1,0 +1,74 @@
+{
+  "container": {
+    "multiple-fileUploader": {
+      "empty": {
+        "default": {
+          "value": {
+            "itemSpacing": "{spacer.300}",
+            "border": "{boderDashed.default}",
+            "verticalPadding": "{spacer.300}",
+            "horizontalPadding": "{spacer.300}",
+            "borderRadius": "{borderRadius.300}",
+            "fill": "{colorSurface.interactive.default}"
+          },
+          "type": "composition"
+        },
+        "hover": {
+          "value": {
+            "itemSpacing": "{spacer.300}",
+            "border": "{boderDashed.hover}",
+            "verticalPadding": "{spacer.300}",
+            "horizontalPadding": "{spacer.300}",
+            "borderRadius": "{borderRadius.300}",
+            "fill": "{colorSurface.interactive.hover}"
+          },
+          "type": "composition"
+        },
+        "pressed": {
+          "value": {
+            "itemSpacing": "{spacer.300}",
+            "border": "{boderDashed.pressed}",
+            "verticalPadding": "{spacer.300}",
+            "horizontalPadding": "{spacer.300}",
+            "borderRadius": "{borderRadius.300}",
+            "fill": "{colorSurface.interactive.pressed}"
+          },
+          "type": "composition"
+        },
+        "active": {
+          "value": {
+            "itemSpacing": "{spacer.300}",
+            "border": "{boderDashed.active}",
+            "verticalPadding": "{spacer.300}",
+            "horizontalPadding": "{spacer.300}",
+            "borderRadius": "{borderRadius.300}",
+            "fill": "{colorSurface.interactive.default}"
+          },
+          "type": "composition"
+        },
+        "danger": {
+          "value": {
+            "itemSpacing": "{spacer.300}",
+            "border": "{boderDashed.danger}",
+            "verticalPadding": "{spacer.300}",
+            "horizontalPadding": "{spacer.300}",
+            "borderRadius": "{borderRadius.300}",
+            "fill": "{colorSurface.interactive.default}"
+          },
+          "type": "composition"
+        },
+        "disabled": {
+          "value": {
+            "itemSpacing": "{spacer.300}",
+            "border": "{boderDashed.disabled}",
+            "verticalPadding": "{spacer.300}",
+            "horizontalPadding": "{spacer.300}",
+            "borderRadius": "{borderRadius.300}",
+            "fill": "{colorSurface.interactive.disabled}"
+          },
+          "type": "composition"
+        }
+      }
+    }
+  }
+}
