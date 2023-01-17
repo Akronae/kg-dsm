@@ -15,7 +15,8 @@
     "selectedTokenSets": {
       "Primitives": "enabled",
       "Light colors palette": "enabled",
-      "Search property": "enabled"
+      "Search property": "enabled",
+      "Structure Listing": "enabled"
     },
     "$figmaStyleReferences": {
       "colorAction.primary.default": "S:9405eb6a398f2ad3f41d513ab820c202bbc0ecdf,",

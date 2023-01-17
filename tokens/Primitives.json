@@ -232,6 +232,10 @@
         "value": "{Neutral.600}",
         "type": "color"
       },
+      "pressed": {
+        "value": "{Neutral.700}",
+        "type": "color"
+      },
       "active": {
         "value": "{Primary.500}",
         "type": "color"
@@ -318,7 +322,7 @@
           "type": "color"
         },
         "pressed": {
-          "value": "{Neutral.500}",
+          "value": "{Neutral.400}",
           "type": "color"
         },
         "active": {
@@ -900,6 +904,14 @@
     "hover": {
       "value": {
         "color": "{colorBorder.interactive.hover}",
+        "width": "{borderWidth.sm}",
+        "style": "solid"
+      },
+      "type": "border"
+    },
+    "pressed": {
+      "value": {
+        "color": "{colorBorder.interactive.pressed}",
         "width": "{borderWidth.sm}",
         "style": "solid"
       },
