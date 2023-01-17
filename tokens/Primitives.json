@@ -1543,7 +1543,7 @@
       "radio": {
         "default": {
           "value": {
-            "sizing": "{checkboxSize}",
+            "sizing": "{checkboxSize.200}",
             "fill": "{colorSurface.sub}",
             "border": "{borderInteractive.default}",
             "borderRadius": "{borderRadius.rounded}"
@@ -1552,7 +1552,7 @@
         },
         "hover": {
           "value": {
-            "sizing": "{checkboxSize}",
+            "sizing": "{checkboxSize.200}",
             "fill": "{colorSurface.sub}",
             "border": "{borderInteractive.hover}",
             "borderRadius": "{borderRadius.rounded}"
@@ -1561,7 +1561,7 @@
         },
         "danger": {
           "value": {
-            "sizing": "{checkboxSize}",
+            "sizing": "{checkboxSize.200}",
             "fill": "{colorSurface.sub}",
             "border": "{border.danger}",
             "borderRadius": "{borderRadius.rounded}"
@@ -1570,7 +1570,7 @@
         },
         "disabled": {
           "value": {
-            "sizing": "{checkboxSize}",
+            "sizing": "{checkboxSize.200}",
             "fill": "{colorSurface.disabled}",
             "border": "{border.disabled}",
             "borderRadius": "{borderRadius.rounded}"
@@ -1579,7 +1579,7 @@
         },
         "active": {
           "value": {
-            "sizing": "{checkboxSize}",
+            "sizing": "{checkboxSize.200}",
             "fill": "{colorSurface.primary}",
             "borderRadius": "{borderRadius.rounded}"
           },
@@ -1587,7 +1587,7 @@
         },
         "forced": {
           "value": {
-            "sizing": "{checkboxSize}",
+            "sizing": "{checkboxSize.200}",
             "fill": "{colorSurface.black}",
             "borderRadius": "{borderRadius.rounded}"
           },
@@ -1597,7 +1597,7 @@
       "checkbox": {
         "default": {
           "value": {
-            "sizing": "{checkboxSize}",
+            "sizing": "{checkboxSize.200}",
             "fill": "{colorSurface.sub}",
             "border": "{borderInteractive.default}",
             "borderRadius": "{borderRadius.200}"
@@ -1606,7 +1606,7 @@
         },
         "hover": {
           "value": {
-            "sizing": "{checkboxSize}",
+            "sizing": "{checkboxSize.200}",
             "fill": "{colorSurface.sub}",
             "border": "{borderInteractive.hover}",
             "borderRadius": "{borderRadius.200}"
@@ -1615,7 +1615,7 @@
         },
         "danger": {
           "value": {
-            "sizing": "{checkboxSize}",
+            "sizing": "{checkboxSize.200}",
             "fill": "{colorSurface.sub}",
             "border": "{border.danger}",
             "borderRadius": "{borderRadius.200}"
@@ -1624,7 +1624,7 @@
         },
         "disabled": {
           "value": {
-            "sizing": "{checkboxSize}",
+            "sizing": "{checkboxSize.200}",
             "fill": "{colorSurface.disabled}",
             "border": "{border.disabled}",
             "borderRadius": "{borderRadius.200}"
@@ -1633,7 +1633,7 @@
         },
         "active": {
           "value": {
-            "sizing": "{checkboxSize}",
+            "sizing": "{checkboxSize.200}",
             "fill": "{colorSurface.primary}",
             "borderRadius": "{borderRadius.200}"
           },
@@ -1641,12 +1641,53 @@
         },
         "forced": {
           "value": {
-            "sizing": "{checkboxSize}",
+            "sizing": "{checkboxSize.200}",
             "fill": "{colorSurface.black}",
             "borderRadius": "{borderRadius.200}"
           },
           "type": "composition"
         }
+      }
+    },
+    "chips": {
+      "default": {
+        "value": {
+          "fill": "{colorSurface.interactive.sub.default}",
+          "itemSpacing": "{spacer.50}",
+          "height": "{checkboxSize.400}",
+          "border": "{borderInteractive.default}",
+          "horizontalPadding": "{spacer.100}"
+        },
+        "type": "composition"
+      },
+      "hover": {
+        "value": {
+          "fill": "{colorSurface.interactive.sub.hover}",
+          "itemSpacing": "{spacer.50}",
+          "height": "{checkboxSize.400}",
+          "border": "{borderInteractive.hover}",
+          "horizontalPadding": "{spacer.100}"
+        },
+        "type": "composition"
+      },
+      "pressed": {
+        "value": {
+          "fill": "{colorSurface.interactive.sub.pressed}",
+          "itemSpacing": "{spacer.50}",
+          "height": "{checkboxSize.400}",
+          "border": "{borderInteractive.pressed}",
+          "horizontalPadding": "{spacer.100}"
+        },
+        "type": "composition"
+      },
+      "active": {
+        "value": {
+          "fill": "{colorSurface.interactive.sub.active}",
+          "itemSpacing": "{spacer.50}",
+          "height": "{checkboxSize.400}",
+          "horizontalPadding": "{spacer.100}"
+        },
+        "type": "composition"
       }
     }
   },
@@ -1665,8 +1706,30 @@
     }
   },
   "checkboxSize": {
-    "value": "24px",
-    "type": "sizing"
+    "100": {
+      "value": "16px",
+      "type": "sizing"
+    },
+    "200": {
+      "value": "24px",
+      "type": "sizing"
+    },
+    "300": {
+      "value": "32px",
+      "type": "sizing"
+    },
+    "400": {
+      "value": "40px",
+      "type": "sizing"
+    },
+    "500": {
+      "value": "48px",
+      "type": "sizing"
+    },
+    "600": {
+      "value": "56px",
+      "type": "sizing"
+    }
   },
   "boderDashed": {
     "default": {
