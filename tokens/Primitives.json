@@ -1479,7 +1479,8 @@
               "verticalPadding": "{spacer.100}",
               "horizontalPadding": "{spacer.100}",
               "borderRadius": "{borderRadius.250}",
-              "itemSpacing": "{spacer.100}"
+              "itemSpacing": "{spacer.100}",
+              "opacity": "{opacity.100}"
             },
             "type": "composition"
           }
@@ -1521,7 +1522,8 @@
               "verticalPadding": "{spacer.100}",
               "horizontalPadding": "{spacer.100}",
               "borderRadius": "{borderRadius.250}",
-              "itemSpacing": "{spacer.100}"
+              "itemSpacing": "{spacer.100}",
+              "opacity": "{opacity.100}"
             },
             "type": "composition"
           }
