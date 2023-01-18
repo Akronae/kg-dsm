@@ -1249,7 +1249,9 @@
             "itemSpacing": "{spacer.300}",
             "fill": "{colorSurface.default}",
             "borderRadius": "{borderRadius.500}",
-            "width": "{containerSize.maxWidth.sm}"
+            "width": "{containerSize.maxWidth.sm}",
+            "verticalPadding": "{spacer.300}",
+            "horizontalPadding": "{spacer.300}"
           },
           "type": "composition"
         },
@@ -1259,7 +1261,9 @@
             "fill": "{colorSurface.default}",
             "borderRadiusTopLeft": "{borderRadius.500}",
             "borderRadiusTopRight": "{borderRadius.500}",
-            "width": "{containerSize.maxWidth.sm}"
+            "width": "{containerSize.maxWidth.sm}",
+            "verticalPadding": "{spacer.200}",
+            "horizontalPadding": "{spacer.200}"
           },
           "type": "composition"
         }
@@ -1270,7 +1274,10 @@
             "itemSpacing": "{spacer.300}",
             "fill": "{colorSurface.default}",
             "borderRadius": "{borderRadius.500}",
-            "width": "{containerSize.maxWidth.md}"
+            "width": "{containerSize.maxWidth.md}",
+            "horizontalPadding": "{spacer.300}",
+            "paddingBottom": "{spacer.300}",
+            "paddingTop": "{spacer.800}"
           },
           "type": "composition"
         },
@@ -1280,10 +1287,26 @@
             "fill": "{colorSurface.default}",
             "borderRadiusTopLeft": "{borderRadius.500}",
             "borderRadiusTopRight": "{borderRadius.500}",
-            "width": "{containerSize.maxWidth.md}"
+            "width": "{containerSize.maxWidth.md}",
+            "horizontalPadding": "{spacer.200}",
+            "paddingTop": "{spacer.700}",
+            "paddingBottom": "{spacer.300}"
           },
           "type": "composition"
         }
+      },
+      "actions": {
+        "value": {
+          "fill": "{colorSurface.default}",
+          "itemSpacing": "{spacer.300}"
+        },
+        "type": "composition"
+      },
+      "content": {
+        "value": {
+          "itemSpacing": "{spacer.200}"
+        },
+        "type": "composition"
       }
     },
     "input": {
