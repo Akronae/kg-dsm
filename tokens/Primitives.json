@@ -828,6 +828,10 @@
     "auto": {
       "value": "auto",
       "type": "spacing"
+    },
+    "none": {
+      "value": "0",
+      "type": "spacing"
     }
   },
   "button": {
@@ -1350,6 +1354,48 @@
           "fill": "{colorSurface.disabled}"
         },
         "type": "composition"
+      },
+      "onWhite": {
+        "default": {
+          "value": {
+            "borderRadius": "{borderRadius.300}",
+            "fill": "{colorSurface.sub}",
+            "border": "{borderInteractive.default}"
+          },
+          "type": "composition"
+        },
+        "hover": {
+          "value": {
+            "borderRadius": "{borderRadius.300}",
+            "fill": "{colorSurface.sub}",
+            "border": "{borderInteractive.hover}"
+          },
+          "type": "composition"
+        },
+        "active": {
+          "value": {
+            "borderRadius": "{borderRadius.300}",
+            "fill": "{colorSurface.sub}",
+            "border": "{border.active}"
+          },
+          "type": "composition"
+        },
+        "danger": {
+          "value": {
+            "borderRadius": "{borderRadius.300}",
+            "fill": "{colorSurface.sub}",
+            "border": "{border.danger}"
+          },
+          "type": "composition"
+        },
+        "disabled": {
+          "value": {
+            "borderRadius": "{borderRadius.300}",
+            "fill": "{colorSurface.disabled}",
+            "border": "{borderInteractive.disabled}"
+          },
+          "type": "composition"
+        }
       }
     },
     "card": {
