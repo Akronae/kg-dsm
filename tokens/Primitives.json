@@ -837,7 +837,8 @@
         "spacing": "{spacer.100}",
         "verticalPadding": "{spacer.50}",
         "horizontalPadding": "{spacer.100}",
-        "height": "{buttonHeight.sm}"
+        "height": "{buttonHeight.sm}",
+        "itemSpacing": "{spacer.50}"
       },
       "type": "composition"
     },
@@ -847,7 +848,8 @@
         "spacing": "{spacer.100}",
         "verticalPadding": "{spacer.150}",
         "horizontalPadding": "{spacer.200}",
-        "height": "{buttonHeight.md}"
+        "height": "{buttonHeight.md}",
+        "itemSpacing": "{spacer.100}"
       },
       "type": "composition"
     },
@@ -857,7 +859,8 @@
         "spacing": "{spacer.100}",
         "verticalPadding": "{spacer.200}",
         "horizontalPadding": "{spacer.300}",
-        "height": "{buttonHeight.lg}"
+        "height": "{buttonHeight.lg}",
+        "itemSpacing": "{spacer.100}"
       },
       "type": "composition"
     }
@@ -1711,6 +1714,25 @@
           "itemSpacing": "{spacer.50}",
           "height": "{checkboxSize.400}",
           "horizontalPadding": "{spacer.100}"
+        },
+        "type": "composition"
+      }
+    },
+    "caroussel": {
+      "dots": {
+        "value": {
+          "verticalPadding": "{spacer.100}",
+          "horizontalPadding": "{spacer.100}",
+          "fill": "{colorBackground.overlay}",
+          "borderRadius": "{borderRadius.rounded}",
+          "itemSpacing": "{spacer.100}"
+        },
+        "type": "composition"
+      },
+      "picture": {
+        "value": {
+          "borderRadius": "{borderRadius.300}",
+          "border": "{border.diminished}"
         },
         "type": "composition"
       }
