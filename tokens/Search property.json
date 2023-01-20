@@ -1,1 +1,27 @@
-{}
+{
+  "container": {
+    "booking-panel": {
+      "lg": {
+        "value": {
+          "fill": "{colorSurface.white}",
+          "border": "{border.disabled}",
+          "borderRadius": "{borderRadius.500}",
+          "itemSpacing": "{spacer.300}",
+          "verticalPadding": "{spacer.300}",
+          "horizontalPadding": "{spacer.300}"
+        },
+        "type": "composition"
+      },
+      "sm": {
+        "value": {
+          "fill": "{colorSurface.white}",
+          "border": "{border.diminished}",
+          "borderRadius": "{borderRadius.400}",
+          "verticalPadding": "{spacer.150}",
+          "horizontalPadding": "{spacer.150}"
+        },
+        "type": "composition"
+      }
+    }
+  }
+}
