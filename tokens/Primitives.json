@@ -848,7 +848,7 @@
     },
     "md": {
       "value": {
-        "borderRadius": "{borderRadius.250}",
+        "borderRadius": "{borderRadius.300}",
         "spacing": "{spacer.100}",
         "verticalPadding": "{spacer.150}",
         "horizontalPadding": "{spacer.200}",
