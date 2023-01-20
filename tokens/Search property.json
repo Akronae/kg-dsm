@@ -34,6 +34,57 @@
         },
         "type": "composition"
       }
+    },
+    "carousel": {
+      "topbar": {
+        "value": {
+          "fill": "{colorSurface.white}",
+          "verticalPadding": "{spacer.200}"
+        },
+        "type": "composition"
+      },
+      "pic": {
+        "lg": {
+          "solo": {
+            "value": {
+              "border": "{border.diminished}",
+              "boxShadow": "{innerShadow.200}",
+              "borderRadius": "{borderRadius.400}"
+            },
+            "type": "composition"
+          },
+          "split-left": {
+            "value": {
+              "border": "{border.diminished}",
+              "borderRadiusTopLeft": "{borderRadius.400}",
+              "borderRadiusTopRight": "{borderRadius.200}",
+              "borderRadiusBottomRight": "{borderRadius.200}",
+              "boxShadow": "{innerShadow.200}",
+              "borderRadiusBottomLeft": "{borderRadius.400}"
+            },
+            "type": "composition"
+          },
+          "split-right": {
+            "value": {
+              "border": "{border.diminished}",
+              "borderRadiusTopLeft": "{borderRadius.200}",
+              "borderRadiusTopRight": "{borderRadius.400}",
+              "borderRadiusBottomRight": "{borderRadius.400}",
+              "boxShadow": "{innerShadow.200}",
+              "borderRadiusBottomLeft": "{borderRadius.200}"
+            },
+            "type": "composition"
+          }
+        },
+        "sm": {
+          "value": {
+            "border": "{border.diminished}",
+            "boxShadow": "{innerShadow.200}",
+            "borderRadius": "{borderRadius.300}"
+          },
+          "type": "composition"
+        }
+      }
     }
   }
 }
