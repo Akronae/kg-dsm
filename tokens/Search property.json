@@ -1,1 +1,96 @@
-{}
+{
+  "container": {
+    "booking-panel": {
+      "panel": {
+        "sm": {
+          "value": {
+            "fill": "{colorSurface.white}",
+            "borderRadius": "{borderRadius.400}",
+            "border": "{border.disabled}",
+            "verticalPadding": "{spacer.150}",
+            "horizontalPadding": "{spacer.150}"
+          },
+          "type": "composition"
+        },
+        "lg": {
+          "value": {
+            "fill": "{colorSurface.white}",
+            "borderRadius": "{borderRadius.500}",
+            "border": "{border.disabled}",
+            "verticalPadding": "{spacer.300}",
+            "horizontalPadding": "{spacer.300}",
+            "itemSpacing": "{spacer.300}"
+          },
+          "type": "composition"
+        }
+      },
+      "eligibility": {
+        "value": {
+          "verticalPadding": "{spacer.150}",
+          "horizontalPadding": "{spacer.150}",
+          "itemSpacing": "{spacer.100}",
+          "fill": "{colorSurface.sub}"
+        },
+        "type": "composition"
+      }
+    },
+    "carousel": {
+      "topbar": {
+        "value": {
+          "fill": "{colorSurface.white}",
+          "verticalPadding": "{spacer.200}"
+        },
+        "type": "composition"
+      },
+      "picture": {
+        "lg": {
+          "solo": {
+            "value": {
+              "borderRadius": "{borderRadius.400}",
+              "border": "{border.disabled}",
+              "boxShadow": "{innerShadow.200}"
+            },
+            "type": "composition"
+          },
+          "splitLeft": {
+            "value": {
+              "border": "{border.disabled}",
+              "borderRadiusTopLeft": "{borderRadius.400}",
+              "borderRadiusBottomLeft": "{borderRadius.400}",
+              "borderRadiusTopRight": "{borderRadius.200}",
+              "borderRadiusBottomRight": "{borderRadius.200}",
+              "boxShadow": "{innerShadow.200}"
+            },
+            "type": "composition"
+          },
+          "splitRight": {
+            "value": {
+              "border": "{border.disabled}",
+              "borderRadiusTopLeft": "{borderRadius.200}",
+              "borderRadiusBottomLeft": "{borderRadius.200}",
+              "borderRadiusTopRight": "{borderRadius.400}",
+              "borderRadiusBottomRight": "{borderRadius.400}",
+              "boxShadow": "{innerShadow.200}"
+            },
+            "type": "composition"
+          }
+        },
+        "sm": {
+          "value": {
+            "borderRadius": "{borderRadius.250}",
+            "boxShadow": "{innerShadow.200}",
+            "border": "{border.diminished}"
+          },
+          "type": "composition"
+        },
+        "disabled": {
+          "value": {
+            "fill": "{colorSurface.disabled}",
+            "opacity": "{opacity.100}"
+          },
+          "type": "composition"
+        }
+      }
+    }
+  }
+}
