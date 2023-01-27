@@ -628,6 +628,20 @@
     "lg": {
       "value": "150%",
       "type": "lineHeights"
+    },
+    "button": {
+      "sm": {
+        "value": "16px",
+        "type": "lineHeights"
+      },
+      "md": {
+        "value": "24px",
+        "type": "lineHeights"
+      },
+      "lg": {
+        "value": "24px",
+        "type": "lineHeights"
+      }
     }
   },
   "fontWeight": {
@@ -841,7 +855,6 @@
         "spacing": "{spacer.100}",
         "verticalPadding": "{spacer.50}",
         "horizontalPadding": "{spacer.100}",
-        "height": "{buttonHeight.sm}",
         "itemSpacing": "{spacer.50}"
       },
       "type": "composition"
@@ -852,7 +865,6 @@
         "spacing": "{spacer.100}",
         "verticalPadding": "{spacer.150}",
         "horizontalPadding": "{spacer.200}",
-        "height": "{buttonHeight.md}",
         "itemSpacing": "{spacer.100}"
       },
       "type": "composition"
@@ -863,7 +875,6 @@
         "spacing": "{spacer.100}",
         "verticalPadding": "{spacer.200}",
         "horizontalPadding": "{spacer.300}",
-        "height": "{buttonHeight.lg}",
         "itemSpacing": "{spacer.100}"
       },
       "type": "composition"
@@ -1245,6 +1256,47 @@
           "textCase": "{textCase.none}"
         },
         "type": "typography"
+      },
+      "button": {
+        "sm": {
+          "value": {
+            "fontFamily": "{fontFamily.mazzard}",
+            "fontWeight": "{fontWeight.bold}",
+            "lineHeight": "{lineHeight.button.sm}",
+            "fontSize": "{fontSize.body.sm}",
+            "letterSpacing": "{letterSpacing.default}",
+            "paragraphSpacing": "{paragraphSpacing.default}",
+            "textDecoration": "{textDecoration.none}",
+            "textCase": "{textCase.none}"
+          },
+          "type": "typography"
+        },
+        "md": {
+          "value": {
+            "fontFamily": "{fontFamily.mazzard}",
+            "fontWeight": "{fontWeight.bold}",
+            "lineHeight": "{lineHeight.button.md}",
+            "fontSize": "{fontSize.body.md}",
+            "letterSpacing": "{letterSpacing.default}",
+            "paragraphSpacing": "{paragraphSpacing.default}",
+            "textDecoration": "{textDecoration.none}",
+            "textCase": "{textCase.none}"
+          },
+          "type": "typography"
+        },
+        "lg": {
+          "value": {
+            "fontFamily": "{fontFamily.mazzard}",
+            "fontWeight": "{fontWeight.bold}",
+            "lineHeight": "{lineHeight.button.lg}",
+            "fontSize": "{fontSize.body.lg}",
+            "letterSpacing": "{letterSpacing.default}",
+            "paragraphSpacing": "{paragraphSpacing.default}",
+            "textDecoration": "{textDecoration.none}",
+            "textCase": "{textCase.none}"
+          },
+          "type": "typography"
+        }
       }
     }
   },
@@ -1629,7 +1681,7 @@
       "radio": {
         "default": {
           "value": {
-            "sizing": "{checkboxSize.200}",
+            "sizing": "{isonSize.200}",
             "fill": "{colorSurface.sub}",
             "border": "{borderInteractive.default}",
             "borderRadius": "{borderRadius.rounded}"
@@ -1638,7 +1690,7 @@
         },
         "hover": {
           "value": {
-            "sizing": "{checkboxSize.200}",
+            "sizing": "{isonSize.200}",
             "fill": "{colorSurface.sub}",
             "border": "{borderInteractive.hover}",
             "borderRadius": "{borderRadius.rounded}"
@@ -1647,7 +1699,7 @@
         },
         "danger": {
           "value": {
-            "sizing": "{checkboxSize.200}",
+            "sizing": "{isonSize.200}",
             "fill": "{colorSurface.sub}",
             "border": "{border.danger}",
             "borderRadius": "{borderRadius.rounded}"
@@ -1656,7 +1708,7 @@
         },
         "disabled": {
           "value": {
-            "sizing": "{checkboxSize.200}",
+            "sizing": "{isonSize.200}",
             "fill": "{colorSurface.disabled}",
             "border": "{border.disabled}",
             "borderRadius": "{borderRadius.rounded}"
@@ -1665,7 +1717,7 @@
         },
         "active": {
           "value": {
-            "sizing": "{checkboxSize.200}",
+            "sizing": "{isonSize.200}",
             "fill": "{colorSurface.primary}",
             "borderRadius": "{borderRadius.rounded}"
           },
@@ -1673,7 +1725,7 @@
         },
         "forced": {
           "value": {
-            "sizing": "{checkboxSize.200}",
+            "sizing": "{isonSize.200}",
             "fill": "{colorSurface.black}",
             "borderRadius": "{borderRadius.rounded}"
           },
@@ -1683,7 +1735,7 @@
       "checkbox": {
         "default": {
           "value": {
-            "sizing": "{checkboxSize.200}",
+            "sizing": "{isonSize.200}",
             "fill": "{colorSurface.sub}",
             "border": "{borderInteractive.default}",
             "borderRadius": "{borderRadius.200}"
@@ -1692,7 +1744,7 @@
         },
         "hover": {
           "value": {
-            "sizing": "{checkboxSize.200}",
+            "sizing": "{isonSize.200}",
             "fill": "{colorSurface.sub}",
             "border": "{borderInteractive.hover}",
             "borderRadius": "{borderRadius.200}"
@@ -1701,7 +1753,7 @@
         },
         "danger": {
           "value": {
-            "sizing": "{checkboxSize.200}",
+            "sizing": "{isonSize.200}",
             "fill": "{colorSurface.sub}",
             "border": "{border.danger}",
             "borderRadius": "{borderRadius.200}"
@@ -1710,7 +1762,7 @@
         },
         "disabled": {
           "value": {
-            "sizing": "{checkboxSize.200}",
+            "sizing": "{isonSize.200}",
             "fill": "{colorSurface.disabled}",
             "border": "{border.disabled}",
             "borderRadius": "{borderRadius.200}"
@@ -1719,7 +1771,7 @@
         },
         "active": {
           "value": {
-            "sizing": "{checkboxSize.200}",
+            "sizing": "{isonSize.200}",
             "fill": "{colorSurface.primary}",
             "borderRadius": "{borderRadius.200}"
           },
@@ -1727,7 +1779,7 @@
         },
         "forced": {
           "value": {
-            "sizing": "{checkboxSize.200}",
+            "sizing": "{isonSize.200}",
             "fill": "{colorSurface.black}",
             "borderRadius": "{borderRadius.200}"
           },
@@ -1740,7 +1792,7 @@
         "value": {
           "fill": "{colorSurface.interactive.sub.default}",
           "itemSpacing": "{spacer.50}",
-          "height": "{checkboxSize.400}",
+          "height": "{isonSize.400}",
           "border": "{borderInteractive.default}",
           "horizontalPadding": "{spacer.100}"
         },
@@ -1750,7 +1802,7 @@
         "value": {
           "fill": "{colorSurface.interactive.sub.hover}",
           "itemSpacing": "{spacer.50}",
-          "height": "{checkboxSize.400}",
+          "height": "{isonSize.400}",
           "border": "{borderInteractive.hover}",
           "horizontalPadding": "{spacer.100}"
         },
@@ -1760,7 +1812,7 @@
         "value": {
           "fill": "{colorSurface.interactive.sub.pressed}",
           "itemSpacing": "{spacer.50}",
-          "height": "{checkboxSize.400}",
+          "height": "{isonSize.400}",
           "border": "{borderInteractive.pressed}",
           "horizontalPadding": "{spacer.100}"
         },
@@ -1770,7 +1822,7 @@
         "value": {
           "fill": "{colorSurface.interactive.sub.active}",
           "itemSpacing": "{spacer.50}",
-          "height": "{checkboxSize.400}",
+          "height": "{isonSize.400}",
           "horizontalPadding": "{spacer.100}"
         },
         "type": "composition"
@@ -1796,21 +1848,7 @@
       }
     }
   },
-  "buttonHeight": {
-    "sm": {
-      "value": "32px",
-      "type": "sizing"
-    },
-    "md": {
-      "value": "48px",
-      "type": "sizing"
-    },
-    "lg": {
-      "value": "56px",
-      "type": "sizing"
-    }
-  },
-  "checkboxSize": {
+  "isonSize": {
     "100": {
       "value": "16px",
       "type": "sizing"
