@@ -91,6 +91,52 @@
           "type": "composition"
         }
       }
+    },
+    "stuff": {
+      "utilities": {
+        "sm": {
+          "value": {
+            "fill": "{colorSurface.white}",
+            "itemSpacing": "{spacer.50}",
+            "borderRadius": "{borderRadius.200}",
+            "verticalPadding": "{spacer.50}",
+            "horizontalPadding": "{spacer.50}"
+          },
+          "type": "composition"
+        },
+        "lg": {
+          "value": {
+            "fill": "{colorSurface.white}",
+            "itemSpacing": "{spacer.100}",
+            "borderRadius": "{borderRadius.200}",
+            "verticalPadding": "{spacer.100}",
+            "horizontalPadding": "{spacer.100}"
+          },
+          "type": "composition"
+        }
+      },
+      "amenities": {
+        "sm": {
+          "value": {
+            "fill": "{colorSurface.sub}",
+            "itemSpacing": "{spacer.50}",
+            "borderRadius": "{borderRadius.200}",
+            "verticalPadding": "{spacer.50}",
+            "horizontalPadding": "{spacer.50}"
+          },
+          "type": "composition"
+        },
+        "lg": {
+          "value": {
+            "fill": "{colorSurface.sub}",
+            "itemSpacing": "{spacer.100}",
+            "borderRadius": "{borderRadius.200}",
+            "verticalPadding": "{spacer.100}",
+            "horizontalPadding": "{spacer.100}"
+          },
+          "type": "composition"
+        }
+      }
     }
   }
 }
