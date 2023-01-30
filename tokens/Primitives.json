@@ -493,8 +493,18 @@
       "description": "Add blur bg if this gradient overlap components"
     },
     "overlap": {
-      "value": "linear-gradient(90deg, #ffffff00 0%, #ffffff 72.4%)",
-      "type": "color"
+      "onwhite": {
+        "value": "linear-gradient(90deg, {colorSurface.white} 0%, {colorSurface.white} 72.4%)",
+        "type": "color"
+      },
+      "onsub": {
+        "value": "linear-gradient(90deg,rgba({colorSurface.sub}, 1) 0%, rgba({colorSurface.sub}, 0) 72%)",
+        "type": "color"
+      },
+      "ondisabled": {
+        "value": "linear-gradient(90deg, {colorSurface.disabled} 0%, {colorSurface.disabled} 72.4%)",
+        "type": "color"
+      }
     },
     "back": {
       "value": "linear-gradient(90deg, #828282 0%, #514f4b 100%)",
@@ -1409,7 +1419,8 @@
             "horizontalPadding": "{spacer.200}",
             "verticalPadding": "{spacer.200}",
             "fill": "{colorSurface.white}",
-            "borderRadius": "{borderRadius.400}"
+            "borderRadius": "{borderRadius.400}",
+            "itemSpacing": "{spacer.200}"
           },
           "type": "composition"
         },
@@ -1418,7 +1429,8 @@
             "horizontalPadding": "{spacer.200}",
             "verticalPadding": "{spacer.200}",
             "fill": "{colorSurface.sub}",
-            "borderRadius": "{borderRadius.400}"
+            "borderRadius": "{borderRadius.400}",
+            "itemSpacing": "{spacer.200}"
           },
           "type": "composition"
         },
@@ -1428,7 +1440,8 @@
             "verticalPadding": "{spacer.200}",
             "fill": "{colorSurface.white}",
             "borderRadius": "{borderRadius.400}",
-            "boxShadow": "{dropShadow.200}"
+            "boxShadow": "{dropShadow.200}",
+            "itemSpacing": "{spacer.200}"
           },
           "type": "composition"
         },
@@ -1438,17 +1451,8 @@
             "verticalPadding": "{spacer.200}",
             "fill": "{colorSurface.white}",
             "borderRadius": "{borderRadius.400}",
-            "boxShadow": "{dropShadow.50}"
-          },
-          "type": "composition"
-        },
-        "danger": {
-          "value": {
-            "horizontalPadding": "{spacer.200}",
-            "verticalPadding": "{spacer.200}",
-            "fill": "{colorSurface.white}",
-            "borderRadius": "{borderRadius.400}",
-            "border": "{border.danger}"
+            "boxShadow": "{dropShadow.50}",
+            "itemSpacing": "{spacer.200}"
           },
           "type": "composition"
         },
@@ -1458,7 +1462,19 @@
             "verticalPadding": "{spacer.200}",
             "border": "{border.active}",
             "borderRadius": "{borderRadius.400}",
-            "fill": "{colorSurface.white}"
+            "fill": "{colorSurface.white}",
+            "itemSpacing": "{spacer.200}"
+          },
+          "type": "composition"
+        },
+        "danger": {
+          "value": {
+            "horizontalPadding": "{spacer.200}",
+            "verticalPadding": "{spacer.200}",
+            "fill": "{colorSurface.white}",
+            "borderRadius": "{borderRadius.400}",
+            "border": "{border.danger}",
+            "itemSpacing": "{spacer.200}"
           },
           "type": "composition"
         },
@@ -1468,7 +1484,8 @@
             "verticalPadding": "{spacer.200}",
             "fill": "{colorSurface.white}",
             "borderRadius": "{borderRadius.400}",
-            "border": "{border.forced}"
+            "border": "{border.forced}",
+            "itemSpacing": "{spacer.200}"
           },
           "type": "composition"
         },
@@ -1477,7 +1494,8 @@
             "horizontalPadding": "{spacer.200}",
             "verticalPadding": "{spacer.200}",
             "fill": "{colorSurface.disabled}",
-            "borderRadius": "{borderRadius.400}"
+            "borderRadius": "{borderRadius.400}",
+            "itemSpacing": "{spacer.200}"
           },
           "type": "composition"
         }

@@ -98,7 +98,7 @@
           "value": {
             "fill": "{colorSurface.white}",
             "itemSpacing": "{spacer.50}",
-            "borderRadius": "{borderRadius.200}",
+            "borderRadius": "{borderRadius.100}",
             "verticalPadding": "{spacer.50}",
             "horizontalPadding": "{spacer.50}"
           },
@@ -120,7 +120,7 @@
           "value": {
             "fill": "{colorSurface.sub}",
             "itemSpacing": "{spacer.50}",
-            "borderRadius": "{borderRadius.200}",
+            "borderRadius": "{borderRadius.100}",
             "verticalPadding": "{spacer.50}",
             "horizontalPadding": "{spacer.50}"
           },
