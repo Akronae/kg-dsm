@@ -493,18 +493,8 @@
       "description": "Add blur bg if this gradient overlap components"
     },
     "overlap": {
-      "onwhite": {
-        "value": "linear-gradient(90deg, {colorSurface.white} 0%, {colorSurface.white} 72.4%)",
-        "type": "color"
-      },
-      "onsub": {
-        "value": "linear-gradient(90deg,rgba({colorSurface.sub}, 1) 0%, rgba({colorSurface.sub}, 0) 72%)",
-        "type": "color"
-      },
-      "ondisabled": {
-        "value": "linear-gradient(90deg, {colorSurface.disabled} 0%, {colorSurface.disabled} 72.4%)",
-        "type": "color"
-      }
+      "value": "linear-gradient(90deg, #ffffff00 0%, #ffffff 72.4%)",
+      "type": "color"
     },
     "back": {
       "value": "linear-gradient(90deg, #828282 0%, #514f4b 100%)",
@@ -642,6 +632,22 @@
     "lg": {
       "value": "150%",
       "type": "lineHeights"
+    },
+    "label": {
+      "button": {
+        "sm": {
+          "value": "16px",
+          "type": "lineHeights"
+        },
+        "md": {
+          "value": "24px",
+          "type": "lineHeights"
+        },
+        "lg": {
+          "value": "24px",
+          "type": "lineHeights"
+        }
+      }
     }
   },
   "fontWeight": {
@@ -1259,6 +1265,47 @@
           "textCase": "{textCase.none}"
         },
         "type": "typography"
+      },
+      "button": {
+        "sm": {
+          "value": {
+            "fontFamily": "{fontFamily.mazzard}",
+            "fontWeight": "{fontWeight.bold}",
+            "lineHeight": "{lineHeight.label.button.sm}",
+            "fontSize": "{fontSize.body.sm}",
+            "letterSpacing": "{letterSpacing.default}",
+            "paragraphSpacing": "{paragraphSpacing.default}",
+            "textDecoration": "{textDecoration.none}",
+            "textCase": "{textCase.none}"
+          },
+          "type": "typography"
+        },
+        "md": {
+          "value": {
+            "fontFamily": "{fontFamily.mazzard}",
+            "fontWeight": "{fontWeight.bold}",
+            "lineHeight": "{lineHeight.label.button.md}",
+            "fontSize": "{fontSize.body.md}",
+            "letterSpacing": "{letterSpacing.default}",
+            "paragraphSpacing": "{paragraphSpacing.default}",
+            "textDecoration": "{textDecoration.none}",
+            "textCase": "{textCase.none}"
+          },
+          "type": "typography"
+        },
+        "lg": {
+          "value": {
+            "fontFamily": "{fontFamily.mazzard}",
+            "fontWeight": "{fontWeight.bold}",
+            "lineHeight": "{lineHeight.label.button.lg}",
+            "fontSize": "{fontSize.body.lg}",
+            "letterSpacing": "{letterSpacing.default}",
+            "paragraphSpacing": "{paragraphSpacing.default}",
+            "textDecoration": "{textDecoration.none}",
+            "textCase": "{textCase.none}"
+          },
+          "type": "typography"
+        }
       }
     }
   },
@@ -1419,8 +1466,7 @@
             "horizontalPadding": "{spacer.200}",
             "verticalPadding": "{spacer.200}",
             "fill": "{colorSurface.white}",
-            "borderRadius": "{borderRadius.400}",
-            "itemSpacing": "{spacer.200}"
+            "borderRadius": "{borderRadius.400}"
           },
           "type": "composition"
         },
@@ -1429,8 +1475,7 @@
             "horizontalPadding": "{spacer.200}",
             "verticalPadding": "{spacer.200}",
             "fill": "{colorSurface.sub}",
-            "borderRadius": "{borderRadius.400}",
-            "itemSpacing": "{spacer.200}"
+            "borderRadius": "{borderRadius.400}"
           },
           "type": "composition"
         },
@@ -1440,8 +1485,7 @@
             "verticalPadding": "{spacer.200}",
             "fill": "{colorSurface.white}",
             "borderRadius": "{borderRadius.400}",
-            "boxShadow": "{dropShadow.200}",
-            "itemSpacing": "{spacer.200}"
+            "boxShadow": "{dropShadow.200}"
           },
           "type": "composition"
         },
@@ -1451,19 +1495,7 @@
             "verticalPadding": "{spacer.200}",
             "fill": "{colorSurface.white}",
             "borderRadius": "{borderRadius.400}",
-            "boxShadow": "{dropShadow.50}",
-            "itemSpacing": "{spacer.200}"
-          },
-          "type": "composition"
-        },
-        "active": {
-          "value": {
-            "horizontalPadding": "{spacer.200}",
-            "verticalPadding": "{spacer.200}",
-            "border": "{border.active}",
-            "borderRadius": "{borderRadius.400}",
-            "fill": "{colorSurface.white}",
-            "itemSpacing": "{spacer.200}"
+            "boxShadow": "{dropShadow.50}"
           },
           "type": "composition"
         },
@@ -1473,8 +1505,17 @@
             "verticalPadding": "{spacer.200}",
             "fill": "{colorSurface.white}",
             "borderRadius": "{borderRadius.400}",
-            "border": "{border.danger}",
-            "itemSpacing": "{spacer.200}"
+            "border": "{border.danger}"
+          },
+          "type": "composition"
+        },
+        "active": {
+          "value": {
+            "horizontalPadding": "{spacer.200}",
+            "verticalPadding": "{spacer.200}",
+            "border": "{border.active}",
+            "borderRadius": "{borderRadius.400}",
+            "fill": "{colorSurface.white}"
           },
           "type": "composition"
         },
@@ -1484,8 +1525,7 @@
             "verticalPadding": "{spacer.200}",
             "fill": "{colorSurface.white}",
             "borderRadius": "{borderRadius.400}",
-            "border": "{border.forced}",
-            "itemSpacing": "{spacer.200}"
+            "border": "{border.forced}"
           },
           "type": "composition"
         },
@@ -1494,8 +1534,7 @@
             "horizontalPadding": "{spacer.200}",
             "verticalPadding": "{spacer.200}",
             "fill": "{colorSurface.disabled}",
-            "borderRadius": "{borderRadius.400}",
-            "itemSpacing": "{spacer.200}"
+            "borderRadius": "{borderRadius.400}"
           },
           "type": "composition"
         }

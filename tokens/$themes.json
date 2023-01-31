@@ -18,8 +18,7 @@
       "Search property": "enabled",
       "Structure Listing": "enabled",
       "Structure - Form": "enabled",
-      "Structure - Empty state": "enabled",
-      "Deposit property": "enabled"
+      "Structure - Empty state": "enabled"
     },
     "$figmaStyleReferences": {
       "colorAction.primary.default": "S:9405eb6a398f2ad3f41d513ab820c202bbc0ecdf,",
