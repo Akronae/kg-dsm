@@ -488,9 +488,13 @@
   },
   "gradients": {
     "background": {
-      "value": "linear-gradient(90deg, #f7f3ed00 0%, #f7f3ed 63.54%)",
+      "value": "linear-gradient(90deg, {colorSurface.white} 0%, {colorSurface.white} 100%)",
       "type": "color",
       "description": "Add blur bg if this gradient overlap components"
+    },
+    "overlap": {
+      "value": "linear-gradient(90deg, #ffffff00 0%, #ffffff 72.4%)",
+      "type": "color"
     },
     "back": {
       "value": "linear-gradient(90deg, #828282 0%, #514f4b 100%)",
@@ -628,6 +632,22 @@
     "lg": {
       "value": "150%",
       "type": "lineHeights"
+    },
+    "label": {
+      "button": {
+        "sm": {
+          "value": "16px",
+          "type": "lineHeights"
+        },
+        "md": {
+          "value": "24px",
+          "type": "lineHeights"
+        },
+        "lg": {
+          "value": "24px",
+          "type": "lineHeights"
+        }
+      }
     }
   },
   "fontWeight": {
@@ -1245,6 +1265,47 @@
           "textCase": "{textCase.none}"
         },
         "type": "typography"
+      },
+      "button": {
+        "sm": {
+          "value": {
+            "fontFamily": "{fontFamily.mazzard}",
+            "fontWeight": "{fontWeight.bold}",
+            "lineHeight": "{lineHeight.label.button.sm}",
+            "fontSize": "{fontSize.body.sm}",
+            "letterSpacing": "{letterSpacing.default}",
+            "paragraphSpacing": "{paragraphSpacing.default}",
+            "textDecoration": "{textDecoration.none}",
+            "textCase": "{textCase.none}"
+          },
+          "type": "typography"
+        },
+        "md": {
+          "value": {
+            "fontFamily": "{fontFamily.mazzard}",
+            "fontWeight": "{fontWeight.bold}",
+            "lineHeight": "{lineHeight.label.button.md}",
+            "fontSize": "{fontSize.body.md}",
+            "letterSpacing": "{letterSpacing.default}",
+            "paragraphSpacing": "{paragraphSpacing.default}",
+            "textDecoration": "{textDecoration.none}",
+            "textCase": "{textCase.none}"
+          },
+          "type": "typography"
+        },
+        "lg": {
+          "value": {
+            "fontFamily": "{fontFamily.mazzard}",
+            "fontWeight": "{fontWeight.bold}",
+            "lineHeight": "{lineHeight.label.button.lg}",
+            "fontSize": "{fontSize.body.lg}",
+            "letterSpacing": "{letterSpacing.default}",
+            "paragraphSpacing": "{paragraphSpacing.default}",
+            "textDecoration": "{textDecoration.none}",
+            "textCase": "{textCase.none}"
+          },
+          "type": "typography"
+        }
       }
     }
   },
