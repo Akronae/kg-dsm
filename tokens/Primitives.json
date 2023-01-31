@@ -1855,6 +1855,16 @@
         },
         "type": "composition"
       }
+    },
+    "menu": {
+      "value": {
+        "fill": "{colorSurface.black}",
+        "borderRadius": "{borderRadius.400}",
+        "verticalPadding": "{spacer.150}",
+        "horizontalPadding": "{spacer.150}",
+        "boxShadow": "{dropShadow.500}"
+      },
+      "type": "composition"
     }
   },
   "buttonHeight": {
