@@ -137,6 +137,24 @@
           "type": "composition"
         }
       }
+    },
+    "related": {
+      "value": {
+        "fill": "{colorBackground.default}",
+        "itemSpacing": "{spacer.200}",
+        "verticalPadding": "{spacer.500}"
+      },
+      "type": "composition"
+    },
+    "apl": {
+      "value": {
+        "fill": "{colorSurface.sub}",
+        "borderRadius": "{borderRadius.300}",
+        "itemSpacing": "{spacer.200}",
+        "verticalPadding": "{spacer.200}",
+        "horizontalPadding": "{spacer.200}"
+      },
+      "type": "composition"
     }
   }
 }
