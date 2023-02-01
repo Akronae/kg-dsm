@@ -15,7 +15,7 @@
         "lg": {
           "value": {
             "fill": "{colorSurface.white}",
-            "borderRadius": "{borderRadius.500}",
+            "borderRadius": "{borderRadius.400}",
             "border": "{border.disabled}",
             "verticalPadding": "{spacer.300}",
             "horizontalPadding": "{spacer.300}",
@@ -137,6 +137,13 @@
           "type": "composition"
         }
       }
+    },
+    "related": {
+      "value": {
+        "itemSpacing": "{spacer.200}",
+        "verticalPadding": "{spacer.500}"
+      },
+      "type": "composition"
     }
   }
 }
