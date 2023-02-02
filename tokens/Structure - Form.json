@@ -89,6 +89,40 @@
         },
         "type": "composition"
       }
+    },
+    "navBar": {
+      "mobile": {
+        "open": {
+          "value": {
+            "fill": "{colorSurface.default}",
+            "horizontalPadding": "{spacer.200}",
+            "paddingTop": "{spacer.200}",
+            "itemSpacing": "{spacer.200}",
+            "borderRadiusTopLeft": "{borderRadius.400}",
+            "borderRadiusTopRight": "{borderRadius.400}"
+          },
+          "type": "composition"
+        },
+        "closed": {
+          "value": {
+            "fill": "{colorSurface.default}",
+            "horizontalPadding": "{spacer.200}",
+            "paddingTop": "{spacer.500}",
+            "itemSpacing": "{spacer.200}",
+            "borderRadiusTopLeft": "{borderRadius.400}",
+            "borderRadiusTopRight": "{borderRadius.400}"
+          },
+          "type": "composition"
+        }
+      },
+      "desktop": {
+        "value": {
+          "fill": "{colorSurface.default}",
+          "itemSpacing": "{spacer.100}",
+          "paddingTop": "{spacer.300}"
+        },
+        "type": "composition"
+      }
     }
   }
 }
