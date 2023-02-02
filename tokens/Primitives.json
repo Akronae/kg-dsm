@@ -493,8 +493,14 @@
       "description": "Add blur bg if this gradient overlap components"
     },
     "overlap": {
-      "value": "linear-gradient(90deg, #ffffff00 0%, #ffffff 72.4%)",
-      "type": "color"
+      "onWhite": {
+        "value": "linear-gradient(90deg, #ffffff00 0%, #ffffff 72.4%)",
+        "type": "color"
+      },
+      "onSub": {
+        "value": "linear-gradient(90deg, #EBE8E400 0%, #EBE8E4 72.4%)",
+        "type": "color"
+      }
     },
     "back": {
       "value": "linear-gradient(90deg, #828282 0%, #514f4b 100%)",
@@ -1855,6 +1861,16 @@
         },
         "type": "composition"
       }
+    },
+    "menu": {
+      "value": {
+        "fill": "{colorSurface.black}",
+        "borderRadius": "{borderRadius.400}",
+        "verticalPadding": "{spacer.150}",
+        "horizontalPadding": "{spacer.150}",
+        "boxShadow": "{dropShadow.500}"
+      },
+      "type": "composition"
     }
   },
   "buttonHeight": {
