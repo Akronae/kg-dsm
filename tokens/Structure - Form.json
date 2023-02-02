@@ -108,9 +108,7 @@
             "fill": "{colorSurface.default}",
             "horizontalPadding": "{spacer.200}",
             "paddingTop": "{spacer.500}",
-            "itemSpacing": "{spacer.200}",
-            "borderRadiusTopLeft": "{borderRadius.400}",
-            "borderRadiusTopRight": "{borderRadius.400}"
+            "itemSpacing": "{spacer.200}"
           },
           "type": "composition"
         }
