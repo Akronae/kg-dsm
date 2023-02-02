@@ -144,6 +144,72 @@
         "verticalPadding": "{spacer.500}"
       },
       "type": "composition"
+    },
+    "search-bar": {
+      "item": {
+        "default": {
+          "value": {
+            "fill": "{colorSurface.interactive.white.default}",
+            "borderRadius": "{borderRadius.400}",
+            "verticalPadding": "{spacer.300}",
+            "itemSpacing": "{spacer.200}",
+            "horizontalPadding": "{spacer.300}"
+          },
+          "type": "composition"
+        },
+        "hover": {
+          "value": {
+            "fill": "{colorSurface.interactive.white.hover}",
+            "borderRadius": "{borderRadius.400}",
+            "verticalPadding": "{spacer.300}",
+            "itemSpacing": "{spacer.200}",
+            "horizontalPadding": "{spacer.300}"
+          },
+          "type": "composition"
+        },
+        "open": {
+          "value": {
+            "fill": "{colorSurface.interactive.white.default}",
+            "verticalPadding": "{spacer.300}",
+            "itemSpacing": "{spacer.200}",
+            "borderRadiusTopLeft": "{borderRadius.400}",
+            "borderRadiusTopRight": "{borderRadius.400}",
+            "borderRadiusBottomRight": "{borderRadius.300}",
+            "borderRadiusBottomLeft": "{borderRadius.300}",
+            "horizontalPadding": "{spacer.300}"
+          },
+          "type": "composition"
+        },
+        "disabled": {
+          "value": {
+            "fill": "{colorSurface.sub}",
+            "verticalPadding": "{spacer.300}",
+            "itemSpacing": "{spacer.200}",
+            "horizontalPadding": "{spacer.300}",
+            "borderRadius": "{borderRadius.400}"
+          },
+          "type": "composition"
+        }
+      },
+      "default": {
+        "value": {
+          "fill": "{colorSurface.white}",
+          "borderRadius": "{borderRadius.400}",
+          "boxShadow": "{dropShadow.500}",
+          "itemSpacing": "{spacer.200}",
+          "paddingRight": "{spacer.200}"
+        },
+        "type": "composition"
+      },
+      "open": {
+        "value": {
+          "fill": "{colorSurface.sub}",
+          "borderRadius": "{borderRadius.400}",
+          "itemSpacing": "{spacer.200}",
+          "paddingRight": "{spacer.200}"
+        },
+        "type": "composition"
+      }
     }
   }
 }
