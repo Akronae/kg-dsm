@@ -69,26 +69,6 @@
           "type": "composition"
         }
       }
-    },
-    "sideHelp": {
-      "desktop": {
-        "value": {
-          "fill": "{colorBackground.dark}",
-          "horizontalPadding": "{spacer.500}",
-          "paddingTop": "{spacer.950}",
-          "paddingBottom": "{spacer.850}"
-        },
-        "type": "composition"
-      },
-      "mobile": {
-        "value": {
-          "fill": "{colorBackground.dark}",
-          "itemSpacing": "{spacer.300}",
-          "verticalPadding": "{spacer.300}",
-          "horizontalPadding": "{spacer.200}"
-        },
-        "type": "composition"
-      }
     }
   }
 }
