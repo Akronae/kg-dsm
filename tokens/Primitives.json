@@ -185,7 +185,7 @@
       "value": "{Neutral.800}",
       "type": "color"
     },
-    "white": {
+    "light": {
       "value": "{Neutral.50}",
       "type": "color"
     },
@@ -215,7 +215,7 @@
       "value": "{Red.500}",
       "type": "color"
     },
-    "white": {
+    "light": {
       "value": "{Neutral.50}",
       "type": "color"
     },
@@ -283,7 +283,7 @@
       "value": "{Neutral.800}",
       "type": "color"
     },
-    "white": {
+    "light": {
       "value": "{Neutral.50}",
       "type": "color"
     },
@@ -352,9 +352,9 @@
           "type": "color"
         }
       },
-      "white": {
+      "light": {
         "default": {
-          "value": "{colorSurface.white}",
+          "value": "{colorSurface.light}",
           "type": "color"
         },
         "hover": {
@@ -393,7 +393,7 @@
       "value": "{Primary.500}",
       "type": "color"
     },
-    "white": {
+    "light": {
       "value": "{Neutral.50}",
       "type": "color"
     },
@@ -484,7 +484,7 @@
   },
   "gradients": {
     "background": {
-      "value": "linear-gradient(90deg, {colorSurface.white} 0%, {colorSurface.white} 100%)",
+      "value": "linear-gradient(90deg, {colorSurface.light} 0%, {colorSurface.light} 100%)",
       "type": "color",
       "description": "Add blur bg if this gradient overlap components"
     },
@@ -2938,14 +2938,14 @@
       "default": {
         "value": {
           "borderRadius": "{borderRadius.300}",
-          "fill": "{colorSurface.white}"
+          "fill": "{colorSurface.light}"
         },
         "type": "composition"
       },
       "hover": {
         "value": {
           "borderRadius": "{borderRadius.300}",
-          "fill": "{colorSurface.white}",
+          "fill": "{colorSurface.light}",
           "boxShadow": "{dropShadow.200}"
         },
         "type": "composition"
@@ -2953,7 +2953,7 @@
       "active": {
         "value": {
           "borderRadius": "{borderRadius.300}",
-          "fill": "{colorSurface.white}",
+          "fill": "{colorSurface.light}",
           "border": "{border.active}"
         },
         "type": "composition"
@@ -2961,7 +2961,7 @@
       "danger": {
         "value": {
           "borderRadius": "{borderRadius.300}",
-          "fill": "{colorSurface.white}",
+          "fill": "{colorSurface.light}",
           "border": "{border.danger}"
         },
         "type": "composition"
@@ -3022,7 +3022,7 @@
       "value": {
         "horizontalPadding": "{spacer.200}",
         "verticalPadding": "{spacer.200}",
-        "fill": "{colorSurface.white}",
+        "fill": "{colorSurface.light}",
         "borderRadius": "{borderRadius.400}"
       },
       "type": "composition"
@@ -3040,7 +3040,7 @@
       "value": {
         "horizontalPadding": "{spacer.200}",
         "verticalPadding": "{spacer.200}",
-        "fill": "{colorSurface.white}",
+        "fill": "{colorSurface.light}",
         "borderRadius": "{borderRadius.400}",
         "boxShadow": "{dropShadow.200}"
       },
@@ -3050,7 +3050,7 @@
       "value": {
         "horizontalPadding": "{spacer.200}",
         "verticalPadding": "{spacer.200}",
-        "fill": "{colorSurface.white}",
+        "fill": "{colorSurface.light}",
         "borderRadius": "{borderRadius.400}",
         "boxShadow": "{dropShadow.50}"
       },
@@ -3060,7 +3060,7 @@
       "value": {
         "horizontalPadding": "{spacer.200}",
         "verticalPadding": "{spacer.200}",
-        "fill": "{colorSurface.white}",
+        "fill": "{colorSurface.light}",
         "borderRadius": "{borderRadius.400}",
         "border": "{border.danger}"
       },
@@ -3072,7 +3072,7 @@
         "verticalPadding": "{spacer.200}",
         "border": "{border.active}",
         "borderRadius": "{borderRadius.400}",
-        "fill": "{colorSurface.white}"
+        "fill": "{colorSurface.light}"
       },
       "type": "composition"
     },
@@ -3080,7 +3080,7 @@
       "value": {
         "horizontalPadding": "{spacer.200}",
         "verticalPadding": "{spacer.200}",
-        "fill": "{colorSurface.white}",
+        "fill": "{colorSurface.light}",
         "borderRadius": "{borderRadius.400}",
         "border": "{border.forced}"
       },
@@ -3099,7 +3099,7 @@
   "popover": {
     "default": {
       "value": {
-        "fill": "{colorSurface.white}",
+        "fill": "{colorSurface.light}",
         "borderRadius": "{borderRadius.400}",
         "boxShadow": "{dropShadow.300}"
       },
@@ -3121,7 +3121,7 @@
   "tooltip": {
     "default": {
       "value": {
-        "fill": "{colorSurface.white}",
+        "fill": "{colorSurface.light}",
         "borderRadius": "{borderRadius.400}",
         "verticalPadding": "{spacer.200}",
         "horizontalPadding": "{spacer.200}",
@@ -3136,7 +3136,7 @@
       "primary": {
         "default": {
           "value": {
-            "fill": "{colorSurface.interactive.white.default}",
+            "fill": "{colorSurface.interactive.light.default}",
             "verticalPadding": "{spacer.150}",
             "horizontalPadding": "{spacer.100}",
             "borderRadius": "{borderRadius.250}",
@@ -3146,7 +3146,7 @@
         },
         "hover": {
           "value": {
-            "fill": "{colorSurface.interactive.white.hover}",
+            "fill": "{colorSurface.interactive.light.hover}",
             "verticalPadding": "{spacer.150}",
             "horizontalPadding": "{spacer.100}",
             "borderRadius": "{borderRadius.250}",
@@ -3156,7 +3156,7 @@
         },
         "pressed": {
           "value": {
-            "fill": "{colorSurface.interactive.white.pressed}",
+            "fill": "{colorSurface.interactive.light.pressed}",
             "verticalPadding": "{spacer.150}",
             "horizontalPadding": "{spacer.100}",
             "borderRadius": "{borderRadius.250}",
@@ -3166,7 +3166,7 @@
         },
         "disabled": {
           "value": {
-            "fill": "{colorSurface.interactive.white.disabled}",
+            "fill": "{colorSurface.interactive.light.disabled}",
             "verticalPadding": "{spacer.150}",
             "horizontalPadding": "{spacer.100}",
             "borderRadius": "{borderRadius.250}",
@@ -3225,7 +3225,7 @@
         "value": {
           "verticalPadding": "{spacer.100}",
           "horizontalPadding": "{spacer.100}",
-          "fill": "{colorSurface.white}",
+          "fill": "{colorSurface.light}",
           "boxShadow": "{dropShadow.300}",
           "borderRadius": "{borderRadius.300}",
           "itemSpacing": "{spacer.100}"

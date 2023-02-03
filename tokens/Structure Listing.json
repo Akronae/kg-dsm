@@ -54,7 +54,7 @@
             "horizontalPadding": "{spacer.150}",
             "border": "{borderInteractive.default}",
             "borderRadius": "{borderRadius.300}",
-            "fill": "{colorSurface.interactive.white.default}",
+            "fill": "{colorSurface.interactive.light.default}",
             "itemSpacing": "{spacer.100}"
           },
           "type": "composition"
@@ -65,7 +65,7 @@
             "horizontalPadding": "{spacer.150}",
             "border": "{borderInteractive.hover}",
             "borderRadius": "{borderRadius.300}",
-            "fill": "{colorSurface.interactive.white.hover}",
+            "fill": "{colorSurface.interactive.light.hover}",
             "itemSpacing": "{spacer.100}"
           },
           "type": "composition"
@@ -76,7 +76,7 @@
             "horizontalPadding": "{spacer.150}",
             "border": "{borderInteractive.pressed}",
             "borderRadius": "{borderRadius.300}",
-            "fill": "{colorSurface.interactive.white.pressed}",
+            "fill": "{colorSurface.interactive.light.pressed}",
             "itemSpacing": "{spacer.100}"
           },
           "type": "composition"
@@ -87,7 +87,7 @@
             "horizontalPadding": "{spacer.150}",
             "border": "{borderInteractive.active}",
             "borderRadius": "{borderRadius.300}",
-            "fill": "{colorSurface.interactive.white.default}",
+            "fill": "{colorSurface.interactive.light.default}",
             "itemSpacing": "{spacer.100}"
           },
           "type": "composition"
