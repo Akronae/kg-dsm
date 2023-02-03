@@ -2995,8 +2995,8 @@
       }
     },
     "input": {
-      "default": {
-        "onBg": {
+      "onBg": {
+        "default": {
           "value": {
             "borderRadius": "{borderRadius.300}",
             "fill": "{colorSurface.white}"
