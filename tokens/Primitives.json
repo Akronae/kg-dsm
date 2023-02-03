@@ -2974,7 +2974,7 @@
         "type": "composition"
       }
     },
-    "onWhite": {
+    "onLight": {
       "default": {
         "value": {
           "borderRadius": "{borderRadius.300}",
