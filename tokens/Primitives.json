@@ -1890,51 +1890,51 @@
         }
       },
       "primary": {
+        "md": {
+          "default": {
+            "value": {
+              "fill": "{colorAction.ghost.default}",
+              "verticalPadding": "{spacer.50}",
+              "horizontalPadding": "{spacer.50}",
+              "borderRadius": "{borderRadius.rounded}",
+              "border": "{border.diminished}"
+            },
+            "type": "composition"
+          },
+          "hover": {
+            "value": {
+              "fill": "{colorAction.ghost.hover}",
+              "verticalPadding": "{spacer.50}",
+              "horizontalPadding": "{spacer.50}",
+              "borderRadius": "{borderRadius.rounded}",
+              "border": "{border.diminished}"
+            },
+            "type": "composition"
+          },
+          "pressed": {
+            "value": {
+              "fill": "{colorAction.ghost.pressed}",
+              "verticalPadding": "{spacer.50}",
+              "horizontalPadding": "{spacer.50}",
+              "borderRadius": "{borderRadius.rounded}",
+              "border": "{border.diminished}"
+            },
+            "type": "composition"
+          },
+          "disabled": {
+            "value": {
+              "fill": "{colorAction.ghost.disabled}",
+              "verticalPadding": "{spacer.50}",
+              "horizontalPadding": "{spacer.50}",
+              "borderRadius": "{borderRadius.rounded}"
+            },
+            "type": "composition"
+          }
+        },
         "sm": {
           "default": {
             "value": {
               "fill": "{colorAction.ghost.default}",
-              "verticalPadding": "{spacer.50}",
-              "horizontalPadding": "{spacer.50}",
-              "borderRadius": "{borderRadius.rounded}",
-              "border": "{border.diminished}"
-            },
-            "type": "composition"
-          },
-          "hover": {
-            "value": {
-              "fill": "{colorAction.ghost.hover}",
-              "verticalPadding": "{spacer.50}",
-              "horizontalPadding": "{spacer.50}",
-              "borderRadius": "{borderRadius.rounded}",
-              "border": "{border.diminished}"
-            },
-            "type": "composition"
-          },
-          "pressed": {
-            "value": {
-              "fill": "{colorAction.ghost.pressed}",
-              "verticalPadding": "{spacer.50}",
-              "horizontalPadding": "{spacer.50}",
-              "borderRadius": "{borderRadius.rounded}",
-              "border": "{border.diminished}"
-            },
-            "type": "composition"
-          },
-          "disabled": {
-            "value": {
-              "fill": "{colorAction.ghost.disabled}",
-              "verticalPadding": "{spacer.50}",
-              "horizontalPadding": "{spacer.50}",
-              "borderRadius": "{borderRadius.rounded}"
-            },
-            "type": "composition"
-          }
-        },
-        "xs": {
-          "default": {
-            "value": {
-              "fill": "{colorAction.ghost.default}",
               "borderRadius": "{borderRadius.rounded}",
               "border": "{border.diminished}"
             },
@@ -1964,7 +1964,7 @@
             "type": "composition"
           }
         },
-        "md": {
+        "lg": {
           "default": {
             "value": {
               "fill": "{colorAction.ghost.default}",
@@ -2007,51 +2007,51 @@
         }
       },
       "secondary": {
+        "md": {
+          "default": {
+            "value": {
+              "fill": "{colorAction.ghost.default}",
+              "verticalPadding": "{spacer.50}",
+              "horizontalPadding": "{spacer.50}",
+              "borderRadius": "{borderRadius.rounded}",
+              "border": "{border.diminished}"
+            },
+            "type": "composition"
+          },
+          "hover": {
+            "value": {
+              "fill": "{colorAction.ghost.hover}",
+              "verticalPadding": "{spacer.50}",
+              "horizontalPadding": "{spacer.50}",
+              "borderRadius": "{borderRadius.rounded}",
+              "border": "{border.diminished}"
+            },
+            "type": "composition"
+          },
+          "pressed": {
+            "value": {
+              "fill": "{colorAction.ghost.pressed}",
+              "verticalPadding": "{spacer.50}",
+              "horizontalPadding": "{spacer.50}",
+              "borderRadius": "{borderRadius.rounded}",
+              "border": "{border.diminished}"
+            },
+            "type": "composition"
+          },
+          "disabled": {
+            "value": {
+              "fill": "{colorAction.ghost.disabled}",
+              "verticalPadding": "{spacer.50}",
+              "horizontalPadding": "{spacer.50}",
+              "borderRadius": "{borderRadius.rounded}"
+            },
+            "type": "composition"
+          }
+        },
         "sm": {
           "default": {
             "value": {
               "fill": "{colorAction.ghost.default}",
-              "verticalPadding": "{spacer.50}",
-              "horizontalPadding": "{spacer.50}",
-              "borderRadius": "{borderRadius.rounded}",
-              "border": "{border.diminished}"
-            },
-            "type": "composition"
-          },
-          "hover": {
-            "value": {
-              "fill": "{colorAction.ghost.hover}",
-              "verticalPadding": "{spacer.50}",
-              "horizontalPadding": "{spacer.50}",
-              "borderRadius": "{borderRadius.rounded}",
-              "border": "{border.diminished}"
-            },
-            "type": "composition"
-          },
-          "pressed": {
-            "value": {
-              "fill": "{colorAction.ghost.pressed}",
-              "verticalPadding": "{spacer.50}",
-              "horizontalPadding": "{spacer.50}",
-              "borderRadius": "{borderRadius.rounded}",
-              "border": "{border.diminished}"
-            },
-            "type": "composition"
-          },
-          "disabled": {
-            "value": {
-              "fill": "{colorAction.ghost.disabled}",
-              "verticalPadding": "{spacer.50}",
-              "horizontalPadding": "{spacer.50}",
-              "borderRadius": "{borderRadius.rounded}"
-            },
-            "type": "composition"
-          }
-        },
-        "xs": {
-          "default": {
-            "value": {
-              "fill": "{colorAction.ghost.default}",
               "borderRadius": "{borderRadius.rounded}",
               "border": "{border.diminished}"
             },
@@ -2081,7 +2081,7 @@
             "type": "composition"
           }
         },
-        "md": {
+        "lg": {
           "default": {
             "value": {
               "fill": "{colorAction.ghost.default}",
@@ -2124,51 +2124,51 @@
         }
       },
       "success": {
+        "md": {
+          "default": {
+            "value": {
+              "fill": "{colorAction.ghost.default}",
+              "verticalPadding": "{spacer.50}",
+              "horizontalPadding": "{spacer.50}",
+              "borderRadius": "{borderRadius.rounded}",
+              "border": "{border.diminished}"
+            },
+            "type": "composition"
+          },
+          "hover": {
+            "value": {
+              "fill": "{colorAction.ghost.hover}",
+              "verticalPadding": "{spacer.50}",
+              "horizontalPadding": "{spacer.50}",
+              "borderRadius": "{borderRadius.rounded}",
+              "border": "{border.diminished}"
+            },
+            "type": "composition"
+          },
+          "pressed": {
+            "value": {
+              "fill": "{colorAction.ghost.pressed}",
+              "verticalPadding": "{spacer.50}",
+              "horizontalPadding": "{spacer.50}",
+              "borderRadius": "{borderRadius.rounded}",
+              "border": "{border.diminished}"
+            },
+            "type": "composition"
+          },
+          "disabled": {
+            "value": {
+              "fill": "{colorAction.ghost.disabled}",
+              "verticalPadding": "{spacer.50}",
+              "horizontalPadding": "{spacer.50}",
+              "borderRadius": "{borderRadius.rounded}"
+            },
+            "type": "composition"
+          }
+        },
         "sm": {
           "default": {
             "value": {
               "fill": "{colorAction.ghost.default}",
-              "verticalPadding": "{spacer.50}",
-              "horizontalPadding": "{spacer.50}",
-              "borderRadius": "{borderRadius.rounded}",
-              "border": "{border.diminished}"
-            },
-            "type": "composition"
-          },
-          "hover": {
-            "value": {
-              "fill": "{colorAction.ghost.hover}",
-              "verticalPadding": "{spacer.50}",
-              "horizontalPadding": "{spacer.50}",
-              "borderRadius": "{borderRadius.rounded}",
-              "border": "{border.diminished}"
-            },
-            "type": "composition"
-          },
-          "pressed": {
-            "value": {
-              "fill": "{colorAction.ghost.pressed}",
-              "verticalPadding": "{spacer.50}",
-              "horizontalPadding": "{spacer.50}",
-              "borderRadius": "{borderRadius.rounded}",
-              "border": "{border.diminished}"
-            },
-            "type": "composition"
-          },
-          "disabled": {
-            "value": {
-              "fill": "{colorAction.ghost.disabled}",
-              "verticalPadding": "{spacer.50}",
-              "horizontalPadding": "{spacer.50}",
-              "borderRadius": "{borderRadius.rounded}"
-            },
-            "type": "composition"
-          }
-        },
-        "xs": {
-          "default": {
-            "value": {
-              "fill": "{colorAction.ghost.default}",
               "borderRadius": "{borderRadius.rounded}",
               "border": "{border.diminished}"
             },
@@ -2198,7 +2198,7 @@
             "type": "composition"
           }
         },
-        "md": {
+        "lg": {
           "default": {
             "value": {
               "fill": "{colorAction.ghost.default}",
@@ -2241,51 +2241,51 @@
         }
       },
       "external": {
+        "md": {
+          "default": {
+            "value": {
+              "fill": "{colorAction.ghost.default}",
+              "verticalPadding": "{spacer.50}",
+              "horizontalPadding": "{spacer.50}",
+              "borderRadius": "{borderRadius.rounded}",
+              "border": "{border.diminished}"
+            },
+            "type": "composition"
+          },
+          "hover": {
+            "value": {
+              "fill": "{colorAction.ghost.hover}",
+              "verticalPadding": "{spacer.50}",
+              "horizontalPadding": "{spacer.50}",
+              "borderRadius": "{borderRadius.rounded}",
+              "border": "{border.diminished}"
+            },
+            "type": "composition"
+          },
+          "pressed": {
+            "value": {
+              "fill": "{colorAction.ghost.pressed}",
+              "verticalPadding": "{spacer.50}",
+              "horizontalPadding": "{spacer.50}",
+              "borderRadius": "{borderRadius.rounded}",
+              "border": "{border.diminished}"
+            },
+            "type": "composition"
+          },
+          "disabled": {
+            "value": {
+              "fill": "{colorAction.ghost.disabled}",
+              "verticalPadding": "{spacer.50}",
+              "horizontalPadding": "{spacer.50}",
+              "borderRadius": "{borderRadius.rounded}"
+            },
+            "type": "composition"
+          }
+        },
         "sm": {
           "default": {
             "value": {
               "fill": "{colorAction.ghost.default}",
-              "verticalPadding": "{spacer.50}",
-              "horizontalPadding": "{spacer.50}",
-              "borderRadius": "{borderRadius.rounded}",
-              "border": "{border.diminished}"
-            },
-            "type": "composition"
-          },
-          "hover": {
-            "value": {
-              "fill": "{colorAction.ghost.hover}",
-              "verticalPadding": "{spacer.50}",
-              "horizontalPadding": "{spacer.50}",
-              "borderRadius": "{borderRadius.rounded}",
-              "border": "{border.diminished}"
-            },
-            "type": "composition"
-          },
-          "pressed": {
-            "value": {
-              "fill": "{colorAction.ghost.pressed}",
-              "verticalPadding": "{spacer.50}",
-              "horizontalPadding": "{spacer.50}",
-              "borderRadius": "{borderRadius.rounded}",
-              "border": "{border.diminished}"
-            },
-            "type": "composition"
-          },
-          "disabled": {
-            "value": {
-              "fill": "{colorAction.ghost.disabled}",
-              "verticalPadding": "{spacer.50}",
-              "horizontalPadding": "{spacer.50}",
-              "borderRadius": "{borderRadius.rounded}"
-            },
-            "type": "composition"
-          }
-        },
-        "xs": {
-          "default": {
-            "value": {
-              "fill": "{colorAction.ghost.default}",
               "borderRadius": "{borderRadius.rounded}",
               "border": "{border.diminished}"
             },
@@ -2315,7 +2315,7 @@
             "type": "composition"
           }
         },
-        "md": {
+        "lg": {
           "default": {
             "value": {
               "fill": "{colorAction.ghost.default}",
@@ -2358,51 +2358,51 @@
         }
       },
       "danger": {
+        "md": {
+          "default": {
+            "value": {
+              "fill": "{colorAction.ghost.default}",
+              "verticalPadding": "{spacer.50}",
+              "horizontalPadding": "{spacer.50}",
+              "borderRadius": "{borderRadius.rounded}",
+              "border": "{border.diminished}"
+            },
+            "type": "composition"
+          },
+          "hover": {
+            "value": {
+              "fill": "{colorAction.ghost.hover}",
+              "verticalPadding": "{spacer.50}",
+              "horizontalPadding": "{spacer.50}",
+              "borderRadius": "{borderRadius.rounded}",
+              "border": "{border.diminished}"
+            },
+            "type": "composition"
+          },
+          "pressed": {
+            "value": {
+              "fill": "{colorAction.ghost.pressed}",
+              "verticalPadding": "{spacer.50}",
+              "horizontalPadding": "{spacer.50}",
+              "borderRadius": "{borderRadius.rounded}",
+              "border": "{border.diminished}"
+            },
+            "type": "composition"
+          },
+          "disabled": {
+            "value": {
+              "fill": "{colorAction.ghost.disabled}",
+              "verticalPadding": "{spacer.50}",
+              "horizontalPadding": "{spacer.50}",
+              "borderRadius": "{borderRadius.rounded}"
+            },
+            "type": "composition"
+          }
+        },
         "sm": {
           "default": {
             "value": {
               "fill": "{colorAction.ghost.default}",
-              "verticalPadding": "{spacer.50}",
-              "horizontalPadding": "{spacer.50}",
-              "borderRadius": "{borderRadius.rounded}",
-              "border": "{border.diminished}"
-            },
-            "type": "composition"
-          },
-          "hover": {
-            "value": {
-              "fill": "{colorAction.ghost.hover}",
-              "verticalPadding": "{spacer.50}",
-              "horizontalPadding": "{spacer.50}",
-              "borderRadius": "{borderRadius.rounded}",
-              "border": "{border.diminished}"
-            },
-            "type": "composition"
-          },
-          "pressed": {
-            "value": {
-              "fill": "{colorAction.ghost.pressed}",
-              "verticalPadding": "{spacer.50}",
-              "horizontalPadding": "{spacer.50}",
-              "borderRadius": "{borderRadius.rounded}",
-              "border": "{border.diminished}"
-            },
-            "type": "composition"
-          },
-          "disabled": {
-            "value": {
-              "fill": "{colorAction.ghost.disabled}",
-              "verticalPadding": "{spacer.50}",
-              "horizontalPadding": "{spacer.50}",
-              "borderRadius": "{borderRadius.rounded}"
-            },
-            "type": "composition"
-          }
-        },
-        "xs": {
-          "default": {
-            "value": {
-              "fill": "{colorAction.ghost.default}",
               "borderRadius": "{borderRadius.rounded}",
               "border": "{border.diminished}"
             },
@@ -2432,7 +2432,7 @@
             "type": "composition"
           }
         },
-        "md": {
+        "lg": {
           "default": {
             "value": {
               "fill": "{colorAction.ghost.default}",
@@ -3077,92 +3077,80 @@
       }
     },
     "card": {
-      "interactive": {
-        "default": {
-          "value": {
-            "horizontalPadding": "{spacer.200}",
-            "verticalPadding": "{spacer.200}",
-            "fill": "{colorSurface.white}",
-            "borderRadius": "{borderRadius.400}"
-          },
-          "type": "composition"
-        },
-        "open": {
-          "value": {
-            "horizontalPadding": "{spacer.200}",
-            "verticalPadding": "{spacer.200}",
-            "fill": "{colorSurface.sub}",
-            "borderRadius": "{borderRadius.400}"
-          },
-          "type": "composition"
-        },
-        "hover": {
-          "value": {
-            "horizontalPadding": "{spacer.200}",
-            "verticalPadding": "{spacer.200}",
-            "fill": "{colorSurface.white}",
-            "borderRadius": "{borderRadius.400}",
-            "boxShadow": "{dropShadow.200}"
-          },
-          "type": "composition"
-        },
-        "pressed": {
-          "value": {
-            "horizontalPadding": "{spacer.200}",
-            "verticalPadding": "{spacer.200}",
-            "fill": "{colorSurface.white}",
-            "borderRadius": "{borderRadius.400}",
-            "boxShadow": "{dropShadow.50}"
-          },
-          "type": "composition"
-        },
-        "danger": {
-          "value": {
-            "horizontalPadding": "{spacer.200}",
-            "verticalPadding": "{spacer.200}",
-            "fill": "{colorSurface.white}",
-            "borderRadius": "{borderRadius.400}",
-            "border": "{border.danger}"
-          },
-          "type": "composition"
-        },
-        "active": {
-          "value": {
-            "horizontalPadding": "{spacer.200}",
-            "verticalPadding": "{spacer.200}",
-            "border": "{border.active}",
-            "borderRadius": "{borderRadius.400}",
-            "fill": "{colorSurface.white}"
-          },
-          "type": "composition"
-        },
-        "forced": {
-          "value": {
-            "horizontalPadding": "{spacer.200}",
-            "verticalPadding": "{spacer.200}",
-            "fill": "{colorSurface.white}",
-            "borderRadius": "{borderRadius.400}",
-            "border": "{border.forced}"
-          },
-          "type": "composition"
-        },
-        "disabled": {
-          "value": {
-            "horizontalPadding": "{spacer.200}",
-            "verticalPadding": "{spacer.200}",
-            "fill": "{colorSurface.disabled}",
-            "borderRadius": "{borderRadius.400}"
-          },
-          "type": "composition"
-        }
-      },
-      "simple": {
+      "default": {
         "value": {
-          "fill": "{colorSurface.white}",
-          "verticalPadding": "{spacer.200}",
           "horizontalPadding": "{spacer.200}",
+          "verticalPadding": "{spacer.200}",
+          "fill": "{colorSurface.white}",
+          "borderRadius": "{borderRadius.400}"
+        },
+        "type": "composition"
+      },
+      "open": {
+        "value": {
+          "horizontalPadding": "{spacer.200}",
+          "verticalPadding": "{spacer.200}",
+          "fill": "{colorSurface.sub}",
+          "borderRadius": "{borderRadius.400}"
+        },
+        "type": "composition"
+      },
+      "hover": {
+        "value": {
+          "horizontalPadding": "{spacer.200}",
+          "verticalPadding": "{spacer.200}",
+          "fill": "{colorSurface.white}",
           "borderRadius": "{borderRadius.400}",
-          "itemSpacing": "{spacer.200}"
+          "boxShadow": "{dropShadow.200}"
+        },
+        "type": "composition"
+      },
+      "pressed": {
+        "value": {
+          "horizontalPadding": "{spacer.200}",
+          "verticalPadding": "{spacer.200}",
+          "fill": "{colorSurface.white}",
+          "borderRadius": "{borderRadius.400}",
+          "boxShadow": "{dropShadow.50}"
+        },
+        "type": "composition"
+      },
+      "danger": {
+        "value": {
+          "horizontalPadding": "{spacer.200}",
+          "verticalPadding": "{spacer.200}",
+          "fill": "{colorSurface.white}",
+          "borderRadius": "{borderRadius.400}",
+          "border": "{border.danger}"
+        },
+        "type": "composition"
+      },
+      "active": {
+        "value": {
+          "horizontalPadding": "{spacer.200}",
+          "verticalPadding": "{spacer.200}",
+          "border": "{border.active}",
+          "borderRadius": "{borderRadius.400}",
+          "fill": "{colorSurface.white}"
+        },
+        "type": "composition"
+      },
+      "forced": {
+        "value": {
+          "horizontalPadding": "{spacer.200}",
+          "verticalPadding": "{spacer.200}",
+          "fill": "{colorSurface.white}",
+          "borderRadius": "{borderRadius.400}",
+          "border": "{border.forced}"
+        },
+        "type": "composition"
+      },
+      "disabled": {
+        "value": {
+          "horizontalPadding": "{spacer.200}",
+          "verticalPadding": "{spacer.200}",
+          "fill": "{colorSurface.disabled}",
+          "borderRadius": "{borderRadius.400}"
         },
         "type": "composition"
       }
