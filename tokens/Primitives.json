@@ -857,38 +857,40 @@
     }
   },
   "button": {
-    "sm": {
-      "value": {
-        "borderRadius": "{borderRadius.200}",
-        "spacing": "{spacer.100}",
-        "verticalPadding": "{spacer.100}",
-        "horizontalPadding": "{spacer.100}",
-        "height": "{buttonHeight.sm}",
-        "itemSpacing": "{spacer.50}"
+    "rectangular": {
+      "sm": {
+        "value": {
+          "borderRadius": "{borderRadius.200}",
+          "spacing": "{spacer.100}",
+          "verticalPadding": "{spacer.100}",
+          "horizontalPadding": "{spacer.100}",
+          "height": "{buttonHeight.sm}",
+          "itemSpacing": "{spacer.50}"
+        },
+        "type": "composition"
       },
-      "type": "composition"
-    },
-    "md": {
-      "value": {
-        "borderRadius": "{borderRadius.300}",
-        "spacing": "{spacer.100}",
-        "verticalPadding": "{spacer.150}",
-        "horizontalPadding": "{spacer.200}",
-        "height": "{buttonHeight.md}",
-        "itemSpacing": "{spacer.100}"
+      "md": {
+        "value": {
+          "borderRadius": "{borderRadius.300}",
+          "spacing": "{spacer.100}",
+          "verticalPadding": "{spacer.150}",
+          "horizontalPadding": "{spacer.200}",
+          "height": "{buttonHeight.md}",
+          "itemSpacing": "{spacer.100}"
+        },
+        "type": "composition"
       },
-      "type": "composition"
-    },
-    "lg": {
-      "value": {
-        "borderRadius": "{borderRadius.300}",
-        "spacing": "{spacer.100}",
-        "verticalPadding": "{spacer.200}",
-        "horizontalPadding": "{spacer.300}",
-        "height": "{buttonHeight.lg}",
-        "itemSpacing": "{spacer.100}"
-      },
-      "type": "composition"
+      "lg": {
+        "value": {
+          "borderRadius": "{borderRadius.300}",
+          "spacing": "{spacer.100}",
+          "verticalPadding": "{spacer.200}",
+          "horizontalPadding": "{spacer.300}",
+          "height": "{buttonHeight.lg}",
+          "itemSpacing": "{spacer.100}"
+        },
+        "type": "composition"
+      }
     },
     "circle": {
       "sm": {
