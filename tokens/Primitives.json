@@ -3488,20 +3488,6 @@
       "type": "composition"
     }
   },
-  "buttonHeight": {
-    "sm": {
-      "value": "32px",
-      "type": "sizing"
-    },
-    "md": {
-      "value": "48px",
-      "type": "sizing"
-    },
-    "lg": {
-      "value": "56px",
-      "type": "sizing"
-    }
-  },
   "iconSize": {
     "50": {
       "value": "14px",
