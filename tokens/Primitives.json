@@ -2996,11 +2996,13 @@
     },
     "input": {
       "default": {
-        "value": {
-          "borderRadius": "{borderRadius.300}",
-          "fill": "{colorSurface.white}"
-        },
-        "type": "composition"
+        "onBg": {
+          "value": {
+            "borderRadius": "{borderRadius.300}",
+            "fill": "{colorSurface.white}"
+          },
+          "type": "composition"
+        }
       },
       "hover": {
         "value": {
@@ -3192,7 +3194,7 @@
     },
     "dropdown": {
       "item": {
-        "default": {
+        "primary": {
           "default": {
             "value": {
               "fill": "{colorSurface.interactive.white.default}",
@@ -3280,15 +3282,17 @@
         }
       },
       "container": {
-        "value": {
-          "verticalPadding": "{spacer.100}",
-          "horizontalPadding": "{spacer.100}",
-          "fill": "{colorSurface.white}",
-          "boxShadow": "{dropShadow.300}",
-          "borderRadius": "{borderRadius.300}",
-          "itemSpacing": "{spacer.100}"
-        },
-        "type": "composition"
+        "default": {
+          "value": {
+            "verticalPadding": "{spacer.100}",
+            "horizontalPadding": "{spacer.100}",
+            "fill": "{colorSurface.white}",
+            "boxShadow": "{dropShadow.300}",
+            "borderRadius": "{borderRadius.300}",
+            "itemSpacing": "{spacer.100}"
+          },
+          "type": "composition"
+        }
       }
     },
     "toggle": {
@@ -3462,14 +3466,16 @@
       }
     },
     "menu": {
-      "value": {
-        "fill": "{colorSurface.black}",
-        "borderRadius": "{borderRadius.400}",
-        "verticalPadding": "{spacer.150}",
-        "horizontalPadding": "{spacer.150}",
-        "boxShadow": "{dropShadow.500}"
-      },
-      "type": "composition"
+      "default": {
+        "value": {
+          "fill": "{colorSurface.black}",
+          "borderRadius": "{borderRadius.400}",
+          "verticalPadding": "{spacer.150}",
+          "horizontalPadding": "{spacer.150}",
+          "boxShadow": "{dropShadow.500}"
+        },
+        "type": "composition"
+      }
     }
   },
   "buttonHeight": {
