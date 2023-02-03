@@ -892,7 +892,7 @@
               "horizontalPadding": "{spacer.100}",
               "height": "{buttonHeight.sm}",
               "itemSpacing": "{spacer.50}",
-              "fill": "{colorAction.primary.hover}"
+              "fill": "{colorAction.primary.pressed}"
             },
             "type": "composition"
           },
@@ -1044,7 +1044,7 @@
               "horizontalPadding": "{spacer.100}",
               "height": "{buttonHeight.sm}",
               "itemSpacing": "{spacer.50}",
-              "fill": "{colorAction.secondary.hover}"
+              "fill": "{colorAction.secondary.pressed}"
             },
             "type": "composition"
           },
@@ -1196,7 +1196,7 @@
               "horizontalPadding": "{spacer.100}",
               "height": "{buttonHeight.sm}",
               "itemSpacing": "{spacer.50}",
-              "fill": "{colorAction.ghost.hover}"
+              "fill": "{colorAction.ghost.pressed}"
             },
             "type": "composition"
           },
@@ -1348,7 +1348,7 @@
               "horizontalPadding": "{spacer.100}",
               "height": "{buttonHeight.sm}",
               "itemSpacing": "{spacer.50}",
-              "fill": "{colorAction.success.hover}"
+              "fill": "{colorAction.success.pressed}"
             },
             "type": "composition"
           },
@@ -1500,7 +1500,7 @@
               "horizontalPadding": "{spacer.100}",
               "height": "{buttonHeight.sm}",
               "itemSpacing": "{spacer.50}",
-              "fill": "{colorAction.external.hover}"
+              "fill": "{colorAction.external.pressed}"
             },
             "type": "composition"
           },
