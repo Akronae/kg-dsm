@@ -2867,56 +2867,58 @@
     }
   },
   "modal": {
-    "sm": {
-      "desktop": {
-        "value": {
-          "itemSpacing": "{spacer.300}",
-          "fill": "{colorSurface.default}",
-          "borderRadius": "{borderRadius.500}",
-          "width": "{containerSize.maxWidth.sm}",
-          "verticalPadding": "{spacer.300}",
-          "horizontalPadding": "{spacer.300}"
+    "size": {
+      "sm": {
+        "desktop": {
+          "value": {
+            "itemSpacing": "{spacer.300}",
+            "fill": "{colorSurface.default}",
+            "borderRadius": "{borderRadius.500}",
+            "width": "{containerSize.maxWidth.sm}",
+            "verticalPadding": "{spacer.300}",
+            "horizontalPadding": "{spacer.300}"
+          },
+          "type": "composition"
         },
-        "type": "composition"
+        "mobile": {
+          "value": {
+            "itemSpacing": "{spacer.300}",
+            "fill": "{colorSurface.default}",
+            "borderRadiusTopLeft": "{borderRadius.500}",
+            "borderRadiusTopRight": "{borderRadius.500}",
+            "width": "{containerSize.maxWidth.sm}",
+            "verticalPadding": "{spacer.200}",
+            "horizontalPadding": "{spacer.200}"
+          },
+          "type": "composition"
+        }
       },
-      "mobile": {
-        "value": {
-          "itemSpacing": "{spacer.300}",
-          "fill": "{colorSurface.default}",
-          "borderRadiusTopLeft": "{borderRadius.500}",
-          "borderRadiusTopRight": "{borderRadius.500}",
-          "width": "{containerSize.maxWidth.sm}",
-          "verticalPadding": "{spacer.200}",
-          "horizontalPadding": "{spacer.200}"
+      "lg": {
+        "desktop": {
+          "value": {
+            "itemSpacing": "{spacer.300}",
+            "fill": "{colorSurface.default}",
+            "borderRadius": "{borderRadius.500}",
+            "width": "{containerSize.maxWidth.md}",
+            "horizontalPadding": "{spacer.300}",
+            "paddingBottom": "{spacer.300}",
+            "paddingTop": "{spacer.800}"
+          },
+          "type": "composition"
         },
-        "type": "composition"
-      }
-    },
-    "lg": {
-      "desktop": {
-        "value": {
-          "itemSpacing": "{spacer.300}",
-          "fill": "{colorSurface.default}",
-          "borderRadius": "{borderRadius.500}",
-          "width": "{containerSize.maxWidth.md}",
-          "horizontalPadding": "{spacer.300}",
-          "paddingBottom": "{spacer.300}",
-          "paddingTop": "{spacer.800}"
-        },
-        "type": "composition"
-      },
-      "mobile": {
-        "value": {
-          "itemSpacing": "{spacer.300}",
-          "fill": "{colorSurface.default}",
-          "borderRadiusTopLeft": "{borderRadius.500}",
-          "borderRadiusTopRight": "{borderRadius.500}",
-          "width": "{containerSize.maxWidth.md}",
-          "horizontalPadding": "{spacer.200}",
-          "paddingTop": "{spacer.700}",
-          "paddingBottom": "{spacer.300}"
-        },
-        "type": "composition"
+        "mobile": {
+          "value": {
+            "itemSpacing": "{spacer.300}",
+            "fill": "{colorSurface.default}",
+            "borderRadiusTopLeft": "{borderRadius.500}",
+            "borderRadiusTopRight": "{borderRadius.500}",
+            "width": "{containerSize.maxWidth.md}",
+            "horizontalPadding": "{spacer.200}",
+            "paddingTop": "{spacer.700}",
+            "paddingBottom": "{spacer.300}"
+          },
+          "type": "composition"
+        }
       }
     },
     "actions": {
