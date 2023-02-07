@@ -1950,37 +1950,34 @@
         "md": {
           "default": {
             "value": {
-              "fill": "{colorAction.ghost.default}",
+              "fill": "{colorAction.secondary.default}",
               "verticalPadding": "{spacer.50}",
               "horizontalPadding": "{spacer.50}",
-              "borderRadius": "{borderRadius.rounded}",
-              "border": "{border.diminished}"
+              "borderRadius": "{borderRadius.rounded}"
             },
             "type": "composition"
           },
           "hover": {
             "value": {
-              "fill": "{colorAction.ghost.hover}",
+              "fill": "{colorAction.secondary.hover}",
               "verticalPadding": "{spacer.50}",
               "horizontalPadding": "{spacer.50}",
-              "borderRadius": "{borderRadius.rounded}",
-              "border": "{border.diminished}"
+              "borderRadius": "{borderRadius.rounded}"
             },
             "type": "composition"
           },
           "pressed": {
             "value": {
-              "fill": "{colorAction.ghost.pressed}",
+              "fill": "{colorAction.secondary.pressed}",
               "verticalPadding": "{spacer.50}",
               "horizontalPadding": "{spacer.50}",
-              "borderRadius": "{borderRadius.rounded}",
-              "border": "{border.diminished}"
+              "borderRadius": "{borderRadius.rounded}"
             },
             "type": "composition"
           },
           "disabled": {
             "value": {
-              "fill": "{colorAction.ghost.disabled}",
+              "fill": "{colorAction.secondary.disabled}",
               "verticalPadding": "{spacer.50}",
               "horizontalPadding": "{spacer.50}",
               "borderRadius": "{borderRadius.rounded}"
@@ -1991,7 +1988,7 @@
         "sm": {
           "default": {
             "value": {
-              "fill": "{colorAction.ghost.default}",
+              "fill": "{colorAction.secondary.default}",
               "borderRadius": "{borderRadius.rounded}",
               "border": "{border.diminished}"
             },
@@ -1999,7 +1996,7 @@
           },
           "hover": {
             "value": {
-              "fill": "{colorAction.ghost.hover}",
+              "fill": "{colorAction.secondary.hover}",
               "borderRadius": "{borderRadius.rounded}",
               "border": "{border.diminished}"
             },
@@ -2007,7 +2004,7 @@
           },
           "pressed": {
             "value": {
-              "fill": "{colorAction.ghost.pressed}",
+              "fill": "{colorAction.secondary.pressed}",
               "borderRadius": "{borderRadius.rounded}",
               "border": "{border.diminished}"
             },
@@ -2015,7 +2012,7 @@
           },
           "disabled": {
             "value": {
-              "fill": "{colorAction.ghost.disabled}",
+              "fill": "{colorAction.secondary.disabled}",
               "borderRadius": "{borderRadius.rounded}"
             },
             "type": "composition"
@@ -2024,37 +2021,34 @@
         "lg": {
           "default": {
             "value": {
-              "fill": "{colorAction.ghost.default}",
+              "fill": "{colorAction.secondary.default}",
               "verticalPadding": "{spacer.50}",
               "horizontalPadding": "{spacer.50}",
-              "borderRadius": "{borderRadius.rounded}",
-              "border": "{border.diminished}"
+              "borderRadius": "{borderRadius.rounded}"
             },
             "type": "composition"
           },
           "hover": {
             "value": {
-              "fill": "{colorAction.ghost.hover}",
+              "fill": "{colorAction.secondary.hover}",
               "verticalPadding": "{spacer.50}",
               "horizontalPadding": "{spacer.50}",
-              "borderRadius": "{borderRadius.rounded}",
-              "border": "{border.diminished}"
+              "borderRadius": "{borderRadius.rounded}"
             },
             "type": "composition"
           },
           "pressed": {
             "value": {
-              "fill": "{colorAction.ghost.pressed}",
+              "fill": "{colorAction.secondary.pressed}",
               "verticalPadding": "{spacer.50}",
               "horizontalPadding": "{spacer.50}",
-              "borderRadius": "{borderRadius.rounded}",
-              "border": "{border.diminished}"
+              "borderRadius": "{borderRadius.rounded}"
             },
             "type": "composition"
           },
           "disabled": {
             "value": {
-              "fill": "{colorAction.ghost.disabled}",
+              "fill": "{colorAction.secondary.disabled}",
               "verticalPadding": "{spacer.50}",
               "horizontalPadding": "{spacer.50}",
               "borderRadius": "{borderRadius.rounded}"
