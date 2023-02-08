@@ -9,7 +9,7 @@
             "verticalPadding": "{spacer.300}",
             "horizontalPadding": "{spacer.300}",
             "borderRadius": "{borderRadius.300}",
-            "fill": "{colorSurface.interactive.default}"
+            "fill": "{sem.colorSurface.interactive.default}"
           },
           "type": "composition"
         },
@@ -20,7 +20,7 @@
             "verticalPadding": "{spacer.300}",
             "horizontalPadding": "{spacer.300}",
             "borderRadius": "{borderRadius.300}",
-            "fill": "{colorSurface.interactive.hover}"
+            "fill": "{sem.colorSurface.interactive.hover}"
           },
           "type": "composition"
         },
@@ -31,7 +31,7 @@
             "verticalPadding": "{spacer.300}",
             "horizontalPadding": "{spacer.300}",
             "borderRadius": "{borderRadius.300}",
-            "fill": "{colorSurface.interactive.pressed}"
+            "fill": "{sem.colorSurface.interactive.pressed}"
           },
           "type": "composition"
         },
@@ -42,7 +42,7 @@
             "verticalPadding": "{spacer.300}",
             "horizontalPadding": "{spacer.300}",
             "borderRadius": "{borderRadius.300}",
-            "fill": "{colorSurface.interactive.default}"
+            "fill": "{sem.colorSurface.interactive.default}"
           },
           "type": "composition"
         },
@@ -53,7 +53,7 @@
             "verticalPadding": "{spacer.300}",
             "horizontalPadding": "{spacer.300}",
             "borderRadius": "{borderRadius.300}",
-            "fill": "{colorSurface.interactive.default}"
+            "fill": "{sem.colorSurface.interactive.default}"
           },
           "type": "composition"
         },
@@ -64,7 +64,7 @@
             "verticalPadding": "{spacer.300}",
             "horizontalPadding": "{spacer.300}",
             "borderRadius": "{borderRadius.300}",
-            "fill": "{colorSurface.interactive.disabled}"
+            "fill": "{sem.colorSurface.interactive.disabled}"
           },
           "type": "composition"
         }
@@ -73,7 +73,7 @@
     "sideHelp": {
       "desktop": {
         "value": {
-          "fill": "{colorBackground.dark}",
+          "fill": "{sem.colorBackground.dark}",
           "horizontalPadding": "{spacer.500}",
           "paddingTop": "{spacer.950}",
           "paddingBottom": "{spacer.850}"
@@ -82,7 +82,7 @@
       },
       "mobile": {
         "value": {
-          "fill": "{colorBackground.dark}",
+          "fill": "{sem.colorBackground.dark}",
           "itemSpacing": "{spacer.300}",
           "verticalPadding": "{spacer.300}",
           "horizontalPadding": "{spacer.200}"
@@ -94,7 +94,7 @@
       "mobile": {
         "open": {
           "value": {
-            "fill": "{colorSurface.default}",
+            "fill": "{sem.colorSurface.default}",
             "horizontalPadding": "{spacer.200}",
             "paddingTop": "{spacer.200}",
             "itemSpacing": "{spacer.200}",
@@ -105,7 +105,7 @@
         },
         "closed": {
           "value": {
-            "fill": "{colorSurface.default}",
+            "fill": "{sem.colorSurface.default}",
             "horizontalPadding": "{spacer.200}",
             "paddingTop": "{spacer.500}",
             "itemSpacing": "{spacer.200}"
@@ -115,7 +115,7 @@
       },
       "desktop": {
         "value": {
-          "fill": "{colorSurface.default}",
+          "fill": "{sem.colorSurface.default}",
           "itemSpacing": "{spacer.100}",
           "paddingTop": "{spacer.300}"
         },

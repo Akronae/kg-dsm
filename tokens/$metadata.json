@@ -1,9 +1,9 @@
 {
   "tokenSetOrder": [
-    "ref.colors.light",
-    "ref.colors.dark",
+    "light.ref.colors",
+    "dark.ref.colors",
     "ref.typography",
-    "Primitives",
+    "sem.primitives",
     "Structure Listing",
     "Structure - Form",
     "Structure - Empty state",
