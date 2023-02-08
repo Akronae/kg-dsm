@@ -5,8 +5,7 @@
     "selectedTokenSets": {
       "Primitives": "enabled",
       "Dark colors palette": "enabled",
-      "Search property": "enabled",
-      "Typography": "disabled"
+      "Search property": "enabled"
     },
     "$figmaStyleReferences": {}
   },
