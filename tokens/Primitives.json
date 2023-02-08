@@ -654,19 +654,19 @@
   },
   "fontWeight": {
     "regular": {
-      "value": "{ref.400}",
+      "value": "{ref.fontWeight.400}",
       "type": "fontWeights"
     },
     "medium": {
-      "value": "{ref.500}",
+      "value": "{ref.fontWeight.500}",
       "type": "fontWeights"
     },
     "semibold": {
-      "value": "{ref.600}",
+      "value": "{ref.fontWeight.600}",
       "type": "fontWeights"
     },
     "bold": {
-      "value": "{ref.700}",
+      "value": "{ref.fontWeight.700}",
       "type": "fontWeights"
     }
   },
