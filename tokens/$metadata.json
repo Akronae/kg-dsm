@@ -1,8 +1,8 @@
 {
   "tokenSetOrder": [
-    "Light colors palette",
-    "Dark colors palette",
-    "Typography",
+    "ref.colors.light",
+    "ref.colors.dark",
+    "ref.typography",
     "Primitives",
     "Structure Listing",
     "Structure - Form",

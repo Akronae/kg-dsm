@@ -4,12 +4,13 @@
     "name": "KG-LIGHT",
     "selectedTokenSets": {
       "Primitives": "enabled",
-      "Light colors palette": "enabled",
       "Search property": "enabled",
       "Structure Listing": "enabled",
       "Structure - Form": "enabled",
       "Structure - Empty state": "enabled",
-      "Typography": "enabled"
+      "ref.typography": "enabled",
+      "ref.colors.light": "enabled",
+      "ref.colors.dark": "disabled"
     },
     "$figmaStyleReferences": {
       "colorAction.primary.default": "S:9405eb6a398f2ad3f41d513ab820c202bbc0ecdf,",
@@ -222,12 +223,13 @@
     "name": "KG-DARK",
     "selectedTokenSets": {
       "Primitives": "enabled",
-      "Dark colors palette": "enabled",
       "Search property": "enabled",
       "Structure - Empty state": "enabled",
       "Structure - Form": "enabled",
       "Structure Listing": "enabled",
-      "Typography": "enabled"
+      "ref.typography": "enabled",
+      "ref.colors.light": "disabled",
+      "ref.colors.dark": "enabled"
     },
     "$figmaStyleReferences": {}
   }
