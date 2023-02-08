@@ -4,10 +4,10 @@
       "empty": {
         "default": {
           "value": {
-            "itemSpacing": "{spacer.300}",
+            "itemSpacing": "{ref.spacing.300}",
             "border": "{boderDashed.default}",
-            "verticalPadding": "{spacer.300}",
-            "horizontalPadding": "{spacer.300}",
+            "verticalPadding": "{ref.spacing.300}",
+            "horizontalPadding": "{ref.spacing.300}",
             "borderRadius": "{borderRadius.300}",
             "fill": "{sem.colorSurface.interactive.default}"
           },
@@ -15,10 +15,10 @@
         },
         "hover": {
           "value": {
-            "itemSpacing": "{spacer.300}",
+            "itemSpacing": "{ref.spacing.300}",
             "border": "{boderDashed.hover}",
-            "verticalPadding": "{spacer.300}",
-            "horizontalPadding": "{spacer.300}",
+            "verticalPadding": "{ref.spacing.300}",
+            "horizontalPadding": "{ref.spacing.300}",
             "borderRadius": "{borderRadius.300}",
             "fill": "{sem.colorSurface.interactive.hover}"
           },
@@ -26,10 +26,10 @@
         },
         "pressed": {
           "value": {
-            "itemSpacing": "{spacer.300}",
+            "itemSpacing": "{ref.spacing.300}",
             "border": "{boderDashed.pressed}",
-            "verticalPadding": "{spacer.300}",
-            "horizontalPadding": "{spacer.300}",
+            "verticalPadding": "{ref.spacing.300}",
+            "horizontalPadding": "{ref.spacing.300}",
             "borderRadius": "{borderRadius.300}",
             "fill": "{sem.colorSurface.interactive.pressed}"
           },
@@ -37,10 +37,10 @@
         },
         "active": {
           "value": {
-            "itemSpacing": "{spacer.300}",
+            "itemSpacing": "{ref.spacing.300}",
             "border": "{boderDashed.active}",
-            "verticalPadding": "{spacer.300}",
-            "horizontalPadding": "{spacer.300}",
+            "verticalPadding": "{ref.spacing.300}",
+            "horizontalPadding": "{ref.spacing.300}",
             "borderRadius": "{borderRadius.300}",
             "fill": "{sem.colorSurface.interactive.default}"
           },
@@ -48,10 +48,10 @@
         },
         "danger": {
           "value": {
-            "itemSpacing": "{spacer.300}",
+            "itemSpacing": "{ref.spacing.300}",
             "border": "{boderDashed.danger}",
-            "verticalPadding": "{spacer.300}",
-            "horizontalPadding": "{spacer.300}",
+            "verticalPadding": "{ref.spacing.300}",
+            "horizontalPadding": "{ref.spacing.300}",
             "borderRadius": "{borderRadius.300}",
             "fill": "{sem.colorSurface.interactive.default}"
           },
@@ -59,10 +59,10 @@
         },
         "disabled": {
           "value": {
-            "itemSpacing": "{spacer.300}",
+            "itemSpacing": "{ref.spacing.300}",
             "border": "{boderDashed.disabled}",
-            "verticalPadding": "{spacer.300}",
-            "horizontalPadding": "{spacer.300}",
+            "verticalPadding": "{ref.spacing.300}",
+            "horizontalPadding": "{ref.spacing.300}",
             "borderRadius": "{borderRadius.300}",
             "fill": "{sem.colorSurface.interactive.disabled}"
           },
@@ -74,18 +74,18 @@
       "desktop": {
         "value": {
           "fill": "{sem.colorBackground.dark}",
-          "horizontalPadding": "{spacer.500}",
-          "paddingTop": "{spacer.950}",
-          "paddingBottom": "{spacer.850}"
+          "horizontalPadding": "{ref.spacing.500}",
+          "paddingTop": "{ref.spacing.950}",
+          "paddingBottom": "{ref.spacing.850}"
         },
         "type": "composition"
       },
       "mobile": {
         "value": {
           "fill": "{sem.colorBackground.dark}",
-          "itemSpacing": "{spacer.300}",
-          "verticalPadding": "{spacer.300}",
-          "horizontalPadding": "{spacer.200}"
+          "itemSpacing": "{ref.spacing.300}",
+          "verticalPadding": "{ref.spacing.300}",
+          "horizontalPadding": "{ref.spacing.200}"
         },
         "type": "composition"
       }
@@ -95,9 +95,9 @@
         "open": {
           "value": {
             "fill": "{sem.colorSurface.default}",
-            "horizontalPadding": "{spacer.200}",
-            "paddingTop": "{spacer.200}",
-            "itemSpacing": "{spacer.200}",
+            "horizontalPadding": "{ref.spacing.200}",
+            "paddingTop": "{ref.spacing.200}",
+            "itemSpacing": "{ref.spacing.200}",
             "borderRadiusTopLeft": "{borderRadius.400}",
             "borderRadiusTopRight": "{borderRadius.400}"
           },
@@ -106,9 +106,9 @@
         "closed": {
           "value": {
             "fill": "{sem.colorSurface.default}",
-            "horizontalPadding": "{spacer.200}",
-            "paddingTop": "{spacer.500}",
-            "itemSpacing": "{spacer.200}"
+            "horizontalPadding": "{ref.spacing.200}",
+            "paddingTop": "{ref.spacing.500}",
+            "itemSpacing": "{ref.spacing.200}"
           },
           "type": "composition"
         }
@@ -116,8 +116,8 @@
       "desktop": {
         "value": {
           "fill": "{sem.colorSurface.default}",
-          "itemSpacing": "{spacer.100}",
-          "paddingTop": "{spacer.300}"
+          "itemSpacing": "{ref.spacing.100}",
+          "paddingTop": "{ref.spacing.300}"
         },
         "type": "composition"
       }

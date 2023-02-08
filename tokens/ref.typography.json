@@ -38,6 +38,40 @@
           "value": "M Black",
           "type": "fontWeights"
         }
+      },
+      "fontSize": {
+        "50": {
+          "value": "12px",
+          "type": "fontSizes"
+        },
+        "90": {
+          "value": "14px",
+          "type": "fontSizes"
+        },
+        "100": {
+          "value": "16px",
+          "type": "fontSizes"
+        },
+        "200": {
+          "value": "18px",
+          "type": "fontSizes"
+        },
+        "300": {
+          "value": "20px",
+          "type": "fontSizes"
+        },
+        "400": {
+          "value": "24px",
+          "type": "fontSizes"
+        },
+        "500": {
+          "value": "32px",
+          "type": "fontSizes"
+        },
+        "900": {
+          "value": "96px",
+          "type": "fontSizes"
+        }
       }
     }
   }

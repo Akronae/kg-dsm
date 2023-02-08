@@ -7,8 +7,8 @@
             "fill": "{sem.colorSurface.light}",
             "borderRadius": "{borderRadius.400}",
             "border": "{border.disabled}",
-            "verticalPadding": "{spacer.150}",
-            "horizontalPadding": "{spacer.150}"
+            "verticalPadding": "{ref.spacing.150}",
+            "horizontalPadding": "{ref.spacing.150}"
           },
           "type": "composition"
         },
@@ -17,18 +17,18 @@
             "fill": "{sem.colorSurface.light}",
             "borderRadius": "{borderRadius.400}",
             "border": "{border.disabled}",
-            "verticalPadding": "{spacer.300}",
-            "horizontalPadding": "{spacer.300}",
-            "itemSpacing": "{spacer.300}"
+            "verticalPadding": "{ref.spacing.300}",
+            "horizontalPadding": "{ref.spacing.300}",
+            "itemSpacing": "{ref.spacing.300}"
           },
           "type": "composition"
         }
       },
       "eligibility": {
         "value": {
-          "verticalPadding": "{spacer.150}",
-          "horizontalPadding": "{spacer.150}",
-          "itemSpacing": "{spacer.100}",
+          "verticalPadding": "{ref.spacing.150}",
+          "horizontalPadding": "{ref.spacing.150}",
+          "itemSpacing": "{ref.spacing.100}",
           "fill": "{sem.colorSurface.sub}"
         },
         "type": "composition"
@@ -38,7 +38,7 @@
       "topbar": {
         "value": {
           "fill": "{sem.colorSurface.light}",
-          "verticalPadding": "{spacer.200}"
+          "verticalPadding": "{ref.spacing.200}"
         },
         "type": "composition"
       },
@@ -48,7 +48,7 @@
             "value": {
               "borderRadius": "{borderRadius.400}",
               "border": "{border.disabled}",
-              "boxShadow": "{innerShadow.200}"
+              "boxShadow": "{ref.effects.innerShadow.200}"
             },
             "type": "composition"
           },
@@ -59,7 +59,7 @@
               "borderRadiusBottomLeft": "{borderRadius.400}",
               "borderRadiusTopRight": "{borderRadius.200}",
               "borderRadiusBottomRight": "{borderRadius.200}",
-              "boxShadow": "{innerShadow.200}"
+              "boxShadow": "{ref.effects.innerShadow.200}"
             },
             "type": "composition"
           },
@@ -70,7 +70,7 @@
               "borderRadiusBottomLeft": "{borderRadius.200}",
               "borderRadiusTopRight": "{borderRadius.400}",
               "borderRadiusBottomRight": "{borderRadius.400}",
-              "boxShadow": "{innerShadow.200}"
+              "boxShadow": "{ref.effects.innerShadow.200}"
             },
             "type": "composition"
           }
@@ -78,7 +78,7 @@
         "sm": {
           "value": {
             "borderRadius": "{borderRadius.250}",
-            "boxShadow": "{innerShadow.200}",
+            "boxShadow": "{ref.effects.innerShadow.200}",
             "border": "{border.diminished}"
           },
           "type": "composition"
@@ -86,7 +86,7 @@
         "disabled": {
           "value": {
             "fill": "{sem.colorSurface.disabled}",
-            "opacity": "{opacity.100}"
+            "opacity": "{ref.effects.opacity.40}"
           },
           "type": "composition"
         }
@@ -97,20 +97,20 @@
         "sm": {
           "value": {
             "fill": "{sem.colorSurface.light}",
-            "itemSpacing": "{spacer.50}",
+            "itemSpacing": "{ref.spacing.50}",
             "borderRadius": "{borderRadius.200}",
-            "verticalPadding": "{spacer.50}",
-            "horizontalPadding": "{spacer.50}"
+            "verticalPadding": "{ref.spacing.50}",
+            "horizontalPadding": "{ref.spacing.50}"
           },
           "type": "composition"
         },
         "lg": {
           "value": {
             "fill": "{sem.colorSurface.light}",
-            "itemSpacing": "{spacer.100}",
+            "itemSpacing": "{ref.spacing.100}",
             "borderRadius": "{borderRadius.200}",
-            "verticalPadding": "{spacer.100}",
-            "horizontalPadding": "{spacer.100}"
+            "verticalPadding": "{ref.spacing.100}",
+            "horizontalPadding": "{ref.spacing.100}"
           },
           "type": "composition"
         }
@@ -119,20 +119,20 @@
         "sm": {
           "value": {
             "fill": "{sem.colorSurface.sub}",
-            "itemSpacing": "{spacer.50}",
+            "itemSpacing": "{ref.spacing.50}",
             "borderRadius": "{borderRadius.200}",
-            "verticalPadding": "{spacer.50}",
-            "horizontalPadding": "{spacer.50}"
+            "verticalPadding": "{ref.spacing.50}",
+            "horizontalPadding": "{ref.spacing.50}"
           },
           "type": "composition"
         },
         "lg": {
           "value": {
             "fill": "{sem.colorSurface.sub}",
-            "itemSpacing": "{spacer.100}",
+            "itemSpacing": "{ref.spacing.100}",
             "borderRadius": "{borderRadius.200}",
-            "verticalPadding": "{spacer.100}",
-            "horizontalPadding": "{spacer.100}"
+            "verticalPadding": "{ref.spacing.100}",
+            "horizontalPadding": "{ref.spacing.100}"
           },
           "type": "composition"
         }
@@ -140,8 +140,8 @@
     },
     "related": {
       "value": {
-        "itemSpacing": "{spacer.200}",
-        "verticalPadding": "{spacer.500}"
+        "itemSpacing": "{ref.spacing.200}",
+        "verticalPadding": "{ref.spacing.500}"
       },
       "type": "composition"
     },
@@ -151,9 +151,9 @@
           "value": {
             "fill": "{sem.colorSurface.interactive.light.default}",
             "borderRadius": "{borderRadius.400}",
-            "verticalPadding": "{spacer.300}",
-            "itemSpacing": "{spacer.200}",
-            "horizontalPadding": "{spacer.300}"
+            "verticalPadding": "{ref.spacing.300}",
+            "itemSpacing": "{ref.spacing.200}",
+            "horizontalPadding": "{ref.spacing.300}"
           },
           "type": "composition"
         },
@@ -161,31 +161,31 @@
           "value": {
             "fill": "{sem.colorSurface.interactive.light.hover}",
             "borderRadius": "{borderRadius.400}",
-            "verticalPadding": "{spacer.300}",
-            "itemSpacing": "{spacer.200}",
-            "horizontalPadding": "{spacer.300}"
+            "verticalPadding": "{ref.spacing.300}",
+            "itemSpacing": "{ref.spacing.200}",
+            "horizontalPadding": "{ref.spacing.300}"
           },
           "type": "composition"
         },
         "open": {
           "value": {
             "fill": "{sem.colorSurface.interactive.light.default}",
-            "verticalPadding": "{spacer.300}",
-            "itemSpacing": "{spacer.200}",
+            "verticalPadding": "{ref.spacing.300}",
+            "itemSpacing": "{ref.spacing.200}",
             "borderRadiusTopLeft": "{borderRadius.400}",
             "borderRadiusTopRight": "{borderRadius.400}",
             "borderRadiusBottomRight": "{borderRadius.300}",
             "borderRadiusBottomLeft": "{borderRadius.300}",
-            "horizontalPadding": "{spacer.300}"
+            "horizontalPadding": "{ref.spacing.300}"
           },
           "type": "composition"
         },
         "disabled": {
           "value": {
             "fill": "{sem.colorSurface.sub}",
-            "verticalPadding": "{spacer.300}",
-            "itemSpacing": "{spacer.200}",
-            "horizontalPadding": "{spacer.300}",
+            "verticalPadding": "{ref.spacing.300}",
+            "itemSpacing": "{ref.spacing.200}",
+            "horizontalPadding": "{ref.spacing.300}",
             "borderRadius": "{borderRadius.400}"
           },
           "type": "composition"
@@ -195,9 +195,9 @@
         "value": {
           "fill": "{sem.colorSurface.light}",
           "borderRadius": "{borderRadius.400}",
-          "boxShadow": "{dropShadow.500}",
-          "itemSpacing": "{spacer.200}",
-          "paddingRight": "{spacer.200}"
+          "boxShadow": "{ref.effects.dropShadow.500}",
+          "itemSpacing": "{ref.spacing.200}",
+          "paddingRight": "{ref.spacing.200}"
         },
         "type": "composition"
       },
@@ -205,8 +205,8 @@
         "value": {
           "fill": "{sem.colorSurface.sub}",
           "borderRadius": "{borderRadius.400}",
-          "itemSpacing": "{spacer.200}",
-          "paddingRight": "{spacer.200}"
+          "itemSpacing": "{ref.spacing.200}",
+          "paddingRight": "{ref.spacing.200}"
         },
         "type": "composition"
       }

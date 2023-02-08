@@ -4,45 +4,45 @@
       "unFilled": {
         "default": {
           "value": {
-            "verticalPadding": "{spacer.150}",
-            "horizontalPadding": "{spacer.150}",
+            "verticalPadding": "{ref.spacing.150}",
+            "horizontalPadding": "{ref.spacing.150}",
             "border": "{borderInteractive.default}",
             "borderRadius": "{borderRadius.300}",
             "fill": "{sem.colorSurface.interactive.sub.default}",
-            "itemSpacing": "{spacer.100}"
+            "itemSpacing": "{ref.spacing.100}"
           },
           "type": "composition"
         },
         "hover": {
           "value": {
-            "verticalPadding": "{spacer.150}",
-            "horizontalPadding": "{spacer.150}",
+            "verticalPadding": "{ref.spacing.150}",
+            "horizontalPadding": "{ref.spacing.150}",
             "border": "{borderInteractive.hover}",
             "borderRadius": "{borderRadius.300}",
             "fill": "{sem.colorSurface.interactive.sub.hover}",
-            "itemSpacing": "{spacer.100}"
+            "itemSpacing": "{ref.spacing.100}"
           },
           "type": "composition"
         },
         "pressed": {
           "value": {
-            "verticalPadding": "{spacer.150}",
-            "horizontalPadding": "{spacer.150}",
+            "verticalPadding": "{ref.spacing.150}",
+            "horizontalPadding": "{ref.spacing.150}",
             "border": "{borderInteractive.pressed}",
             "borderRadius": "{borderRadius.300}",
             "fill": "{sem.colorSurface.interactive.sub.pressed}",
-            "itemSpacing": "{spacer.100}"
+            "itemSpacing": "{ref.spacing.100}"
           },
           "type": "composition"
         },
         "active": {
           "value": {
-            "verticalPadding": "{spacer.150}",
-            "horizontalPadding": "{spacer.150}",
+            "verticalPadding": "{ref.spacing.150}",
+            "horizontalPadding": "{ref.spacing.150}",
             "border": "{borderInteractive.active}",
             "borderRadius": "{borderRadius.300}",
             "fill": "{sem.colorSurface.interactive.sub.default}",
-            "itemSpacing": "{spacer.100}"
+            "itemSpacing": "{ref.spacing.100}"
           },
           "type": "composition"
         }
@@ -50,45 +50,45 @@
       "filled": {
         "default": {
           "value": {
-            "verticalPadding": "{spacer.150}",
-            "horizontalPadding": "{spacer.150}",
+            "verticalPadding": "{ref.spacing.150}",
+            "horizontalPadding": "{ref.spacing.150}",
             "border": "{borderInteractive.default}",
             "borderRadius": "{borderRadius.300}",
             "fill": "{sem.colorSurface.interactive.light.default}",
-            "itemSpacing": "{spacer.100}"
+            "itemSpacing": "{ref.spacing.100}"
           },
           "type": "composition"
         },
         "hover": {
           "value": {
-            "verticalPadding": "{spacer.150}",
-            "horizontalPadding": "{spacer.150}",
+            "verticalPadding": "{ref.spacing.150}",
+            "horizontalPadding": "{ref.spacing.150}",
             "border": "{borderInteractive.hover}",
             "borderRadius": "{borderRadius.300}",
             "fill": "{sem.colorSurface.interactive.light.hover}",
-            "itemSpacing": "{spacer.100}"
+            "itemSpacing": "{ref.spacing.100}"
           },
           "type": "composition"
         },
         "pressed": {
           "value": {
-            "verticalPadding": "{spacer.150}",
-            "horizontalPadding": "{spacer.150}",
+            "verticalPadding": "{ref.spacing.150}",
+            "horizontalPadding": "{ref.spacing.150}",
             "border": "{borderInteractive.pressed}",
             "borderRadius": "{borderRadius.300}",
             "fill": "{sem.colorSurface.interactive.light.pressed}",
-            "itemSpacing": "{spacer.100}"
+            "itemSpacing": "{ref.spacing.100}"
           },
           "type": "composition"
         },
         "active": {
           "value": {
-            "verticalPadding": "{spacer.150}",
-            "horizontalPadding": "{spacer.150}",
+            "verticalPadding": "{ref.spacing.150}",
+            "horizontalPadding": "{ref.spacing.150}",
             "border": "{borderInteractive.active}",
             "borderRadius": "{borderRadius.300}",
             "fill": "{sem.colorSurface.interactive.light.default}",
-            "itemSpacing": "{spacer.100}"
+            "itemSpacing": "{ref.spacing.100}"
           },
           "type": "composition"
         }
