@@ -546,72 +546,72 @@
   "dropShadow": {
     "50": {
       "value": {
-        "color": "#18120114",
-        "type": "dropShadow",
         "x": "0",
         "y": "2",
         "blur": "4",
-        "spread": "0"
+        "spread": "0",
+        "color": "{ref.colors.neutral.700}",
+        "type": "dropShadow"
       },
       "type": "boxShadow",
       "description": "Smallest shadow. Used for small elements who need shadow"
     },
     "100": {
       "value": {
-        "color": "#bdbca666",
-        "type": "dropShadow",
         "x": "2",
         "y": "2",
         "blur": "4",
-        "spread": "0"
+        "spread": "0",
+        "color": "{ref.colors.neutral.700}",
+        "type": "dropShadow"
       },
       "type": "boxShadow",
       "description": "Usually used for pressed state"
     },
     "200": {
       "value": {
-        "color": "#bdbca666",
-        "type": "dropShadow",
         "x": "0",
         "y": "2",
         "blur": "8",
-        "spread": "0"
+        "spread": "0",
+        "color": "{ref.colors.neutral.700}",
+        "type": "dropShadow"
       },
       "type": "boxShadow",
       "description": "Usually used as hover state"
     },
     "300": {
       "value": {
-        "color": "#bdbca633",
-        "type": "dropShadow",
         "x": "10",
         "y": "10",
         "blur": "30",
-        "spread": "0"
+        "spread": "0",
+        "color": "{ref.colors.neutral.800}",
+        "type": "dropShadow"
       },
       "type": "boxShadow",
       "description": "Main container shadow"
     },
     "400": {
       "value": {
-        "color": "#bdbca666",
-        "type": "dropShadow",
         "x": "2",
         "y": "2",
         "blur": "40",
-        "spread": "0"
+        "spread": "0",
+        "color": "{ref.colors.neutral.800}",
+        "type": "dropShadow"
       },
       "type": "boxShadow",
       "description": "High contrasted container shadow"
     },
     "500": {
       "value": {
-        "color": "#00000029",
-        "type": "dropShadow",
         "x": "0",
         "y": "40",
         "blur": "128",
-        "spread": "0"
+        "spread": "0",
+        "color": "{ref.colors.neutral.900}",
+        "type": "dropShadow"
       },
       "type": "boxShadow"
     }
@@ -619,23 +619,23 @@
   "innerShadow": {
     "100": {
       "value": {
-        "color": "#1f1f1f29",
-        "type": "innerShadow",
         "x": "0",
         "y": "0",
         "blur": "96",
-        "spread": "0"
+        "spread": "0",
+        "color": "{ref.colors.neutral.900}",
+        "type": "innerShadow"
       },
       "type": "boxShadow"
     },
     "200": {
       "value": {
-        "color": "#1f1f1f66",
-        "type": "innerShadow",
         "x": "0",
         "y": "0",
         "blur": "96",
-        "spread": "0"
+        "spread": "0",
+        "color": "{ref.colors.neutral.900}",
+        "type": "innerShadow"
       },
       "type": "boxShadow"
     }
