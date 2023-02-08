@@ -1,15 +1,5 @@
 [
   {
-    "id": "8884a39b8bc1f547c18cbe0dd09d79e3c766b42b",
-    "name": "KG-DARK",
-    "selectedTokenSets": {
-      "Primitives": "enabled",
-      "Dark colors palette": "enabled",
-      "Search property": "enabled"
-    },
-    "$figmaStyleReferences": {}
-  },
-  {
     "id": "9f7ecbe3878cdffecb3353bf24852e7551e35831",
     "name": "KG-LIGHT",
     "selectedTokenSets": {
@@ -226,5 +216,19 @@
       "colorBorder.light": "S:a88061b4fe3f866534ee22256de1e953b5f9a3c0,",
       "colorIcon.light": "S:5ba45c16783bf89a63bd1edefb61ac99594323d4,"
     }
+  },
+  {
+    "id": "8884a39b8bc1f547c18cbe0dd09d79e3c766b42b",
+    "name": "KG-DARK",
+    "selectedTokenSets": {
+      "Primitives": "enabled",
+      "Dark colors palette": "enabled",
+      "Search property": "enabled",
+      "Structure - Empty state": "enabled",
+      "Structure - Form": "enabled",
+      "Structure Listing": "enabled",
+      "Typography": "enabled"
+    },
+    "$figmaStyleReferences": {}
   }
 ]
