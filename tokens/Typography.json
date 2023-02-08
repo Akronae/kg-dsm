@@ -1,0 +1,40 @@
+{
+  "ref": {
+    "100": {
+      "value": "M Thin",
+      "type": "fontWeights"
+    },
+    "200": {
+      "value": "M ExtraLight",
+      "type": "fontWeights"
+    },
+    "300": {
+      "value": "M Light",
+      "type": "fontWeights"
+    },
+    "400": {
+      "value": "M Regular",
+      "type": "fontWeights"
+    },
+    "500": {
+      "value": "M Medium",
+      "type": "fontWeights"
+    },
+    "600": {
+      "value": "M SemiBold",
+      "type": "fontWeights"
+    },
+    "700": {
+      "value": "M Bold",
+      "type": "fontWeights"
+    },
+    "800": {
+      "value": "M ExtraBold",
+      "type": "fontWeights"
+    },
+    "900": {
+      "value": "M Black",
+      "type": "fontWeights"
+    }
+  }
+}

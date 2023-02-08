@@ -654,19 +654,19 @@
   },
   "fontWeight": {
     "regular": {
-      "value": "M Regular",
+      "value": "{ref.400}",
       "type": "fontWeights"
     },
     "medium": {
-      "value": "M Medium",
+      "value": "{ref.500}",
       "type": "fontWeights"
     },
     "semibold": {
-      "value": "M SemiBold",
+      "value": "{ref.600}",
       "type": "fontWeights"
     },
     "bold": {
-      "value": "M Bold",
+      "value": "{ref.700}",
       "type": "fontWeights"
     }
   },

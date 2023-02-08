@@ -5,7 +5,8 @@
     "selectedTokenSets": {
       "Primitives": "enabled",
       "Dark colors palette": "enabled",
-      "Search property": "enabled"
+      "Search property": "enabled",
+      "Typography": "disabled"
     },
     "$figmaStyleReferences": {}
   },
@@ -18,7 +19,8 @@
       "Search property": "enabled",
       "Structure Listing": "enabled",
       "Structure - Form": "enabled",
-      "Structure - Empty state": "enabled"
+      "Structure - Empty state": "enabled",
+      "Typography": "enabled"
     },
     "$figmaStyleReferences": {
       "colorAction.primary.default": "S:9405eb6a398f2ad3f41d513ab820c202bbc0ecdf,",
