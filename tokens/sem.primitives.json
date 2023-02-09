@@ -3112,7 +3112,7 @@
               "itemSpacing": "{ref.spacing.300}",
               "fill": "{sem.colorSurface.default}",
               "borderRadius": "{ref.borderRadius.500}",
-              "width": "{containerSize.maxWidth.sm}",
+              "width": "{ref.containerSize.maxWidth.sm}",
               "verticalPadding": "{ref.spacing.300}",
               "horizontalPadding": "{ref.spacing.300}"
             },
@@ -3124,7 +3124,7 @@
               "fill": "{sem.colorSurface.default}",
               "borderRadiusTopLeft": "{ref.borderRadius.500}",
               "borderRadiusTopRight": "{ref.borderRadius.500}",
-              "width": "{containerSize.maxWidth.sm}",
+              "width": "{ref.containerSize.maxWidth.sm}",
               "verticalPadding": "{ref.spacing.200}",
               "horizontalPadding": "{ref.spacing.200}"
             },
@@ -3137,7 +3137,7 @@
               "itemSpacing": "{ref.spacing.300}",
               "fill": "{sem.colorSurface.default}",
               "borderRadius": "{ref.borderRadius.500}",
-              "width": "{containerSize.maxWidth.md}",
+              "width": "{ref.containerSize.maxWidth.md}",
               "horizontalPadding": "{ref.spacing.300}",
               "paddingBottom": "{ref.spacing.300}",
               "paddingTop": "{ref.spacing.800}"
@@ -3150,7 +3150,7 @@
               "fill": "{sem.colorSurface.default}",
               "borderRadiusTopLeft": "{ref.borderRadius.500}",
               "borderRadiusTopRight": "{ref.borderRadius.500}",
-              "width": "{containerSize.maxWidth.md}",
+              "width": "{ref.containerSize.maxWidth.md}",
               "horizontalPadding": "{ref.spacing.200}",
               "paddingTop": "{ref.spacing.700}",
               "paddingBottom": "{ref.spacing.300}"
