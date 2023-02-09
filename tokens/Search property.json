@@ -6,7 +6,7 @@
           "value": {
             "fill": "{sem.colorSurface.light}",
             "borderRadius": "{ref.borderRadius.400}",
-            "border": "{ref.border.disabled}",
+            "border": "{sem.border.disabled}",
             "verticalPadding": "{ref.spacing.150}",
             "horizontalPadding": "{ref.spacing.150}"
           },
@@ -16,7 +16,7 @@
           "value": {
             "fill": "{sem.colorSurface.light}",
             "borderRadius": "{ref.borderRadius.400}",
-            "border": "{ref.border.disabled}",
+            "border": "{sem.border.disabled}",
             "verticalPadding": "{ref.spacing.300}",
             "horizontalPadding": "{ref.spacing.300}",
             "itemSpacing": "{ref.spacing.300}"
@@ -47,14 +47,14 @@
           "solo": {
             "value": {
               "borderRadius": "{ref.borderRadius.400}",
-              "border": "{ref.border.disabled}",
+              "border": "{sem.border.disabled}",
               "boxShadow": "{ref.effects.innerShadow.200}"
             },
             "type": "composition"
           },
           "splitLeft": {
             "value": {
-              "border": "{ref.border.disabled}",
+              "border": "{sem.border.disabled}",
               "borderRadiusTopLeft": "{ref.borderRadius.400}",
               "borderRadiusBottomLeft": "{ref.borderRadius.400}",
               "borderRadiusTopRight": "{ref.borderRadius.200}",
@@ -65,7 +65,7 @@
           },
           "splitRight": {
             "value": {
-              "border": "{ref.border.disabled}",
+              "border": "{sem.border.disabled}",
               "borderRadiusTopLeft": "{ref.borderRadius.200}",
               "borderRadiusBottomLeft": "{ref.borderRadius.200}",
               "borderRadiusTopRight": "{ref.borderRadius.400}",
@@ -79,7 +79,7 @@
           "value": {
             "borderRadius": "{ref.borderRadius.250}",
             "boxShadow": "{ref.effects.innerShadow.200}",
-            "border": "{ref.border.diminished}"
+            "border": "{sem.border.diminished}"
           },
           "type": "composition"
         },

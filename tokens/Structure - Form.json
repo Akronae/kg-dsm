@@ -5,7 +5,7 @@
         "default": {
           "value": {
             "itemSpacing": "{ref.spacing.300}",
-            "border": "{boderDashed.default}",
+            "border": "{sem.boderDashed.default}",
             "verticalPadding": "{ref.spacing.300}",
             "horizontalPadding": "{ref.spacing.300}",
             "borderRadius": "{ref.borderRadius.300}",
@@ -16,7 +16,7 @@
         "hover": {
           "value": {
             "itemSpacing": "{ref.spacing.300}",
-            "border": "{boderDashed.hover}",
+            "border": "{sem.boderDashed.hover}",
             "verticalPadding": "{ref.spacing.300}",
             "horizontalPadding": "{ref.spacing.300}",
             "borderRadius": "{ref.borderRadius.300}",
@@ -27,7 +27,7 @@
         "pressed": {
           "value": {
             "itemSpacing": "{ref.spacing.300}",
-            "border": "{boderDashed.pressed}",
+            "border": "{sem.boderDashed.pressed}",
             "verticalPadding": "{ref.spacing.300}",
             "horizontalPadding": "{ref.spacing.300}",
             "borderRadius": "{ref.borderRadius.300}",
@@ -38,7 +38,7 @@
         "active": {
           "value": {
             "itemSpacing": "{ref.spacing.300}",
-            "border": "{boderDashed.active}",
+            "border": "{sem.boderDashed.active}",
             "verticalPadding": "{ref.spacing.300}",
             "horizontalPadding": "{ref.spacing.300}",
             "borderRadius": "{ref.borderRadius.300}",
@@ -49,7 +49,7 @@
         "danger": {
           "value": {
             "itemSpacing": "{ref.spacing.300}",
-            "border": "{boderDashed.danger}",
+            "border": "{sem.boderDashed.danger}",
             "verticalPadding": "{ref.spacing.300}",
             "horizontalPadding": "{ref.spacing.300}",
             "borderRadius": "{ref.borderRadius.300}",
@@ -60,7 +60,7 @@
         "disabled": {
           "value": {
             "itemSpacing": "{ref.spacing.300}",
-            "border": "{boderDashed.disabled}",
+            "border": "{sem.boderDashed.disabled}",
             "verticalPadding": "{ref.spacing.300}",
             "horizontalPadding": "{ref.spacing.300}",
             "borderRadius": "{ref.borderRadius.300}",
