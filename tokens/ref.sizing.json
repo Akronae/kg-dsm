@@ -28,34 +28,34 @@
         }
       }
     },
-    "sizing": {
+    "dimension": {
       "50": {
         "value": "14px",
-        "type": "sizing"
+        "type": "dimension"
       },
       "100": {
         "value": "16px",
-        "type": "sizing"
+        "type": "dimension"
       },
       "200": {
         "value": "24px",
-        "type": "sizing"
+        "type": "dimension"
       },
       "300": {
         "value": "32px",
-        "type": "sizing"
+        "type": "dimension"
       },
       "400": {
         "value": "40px",
-        "type": "sizing"
+        "type": "dimension"
       },
       "500": {
         "value": "48px",
-        "type": "sizing"
+        "type": "dimension"
       },
       "600": {
         "value": "56px",
-        "type": "sizing"
+        "type": "dimension"
       }
     }
   }
