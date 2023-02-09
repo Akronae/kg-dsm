@@ -81,7 +81,7 @@
             "y": "0",
             "blur": "96",
             "spread": "0",
-            "color": "{ref.colors.neutral.900}",
+            "color": "{ref.colors.neutral.400}",
             "type": "innerShadow"
           },
           "type": "boxShadow"
@@ -90,9 +90,9 @@
           "value": {
             "x": "0",
             "y": "0",
-            "blur": "96",
+            "blur": "120",
             "spread": "0",
-            "color": "{ref.colors.neutral.900}",
+            "color": "{ref.colors.neutral.600}",
             "type": "innerShadow"
           },
           "type": "boxShadow"
