@@ -912,7 +912,6 @@
     }
   },
   "ref": {
-    "effects": {
   "borderRadius": {
     "100": {
       "value": "4px",
