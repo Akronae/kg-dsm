@@ -1,14 +1,39 @@
-{"ref": {
+{
+  "ref": {
     "breakpoint": {
       "mobile": {
-        "value": "480px",
-        "type": "dimension",
-        "description": "under"
+        "sm": {
+          "value": "320px",
+          "type": "dimension",
+          "description": "under"
+        },
+        "md": {
+          "value": "390px",
+          "type": "dimension",
+          "description": "under"
+        },
+        "lg": {
+          "value": "480px",
+          "type": "dimension",
+          "description": "under"
+        }
       },
       "tablet": {
-        "value": "768px",
-        "type": "dimension",
-        "description": "above"
+        "sm": {
+          "value": "768px",
+          "type": "dimension",
+          "description": "above"
+        },
+        "md": {
+          "value": "834px",
+          "type": "dimension",
+          "description": "above"
+        },
+        "lg": {
+          "value": "960px",
+          "type": "dimension",
+          "description": "under"
+        }
       },
       "desktop": {
         "sm": {
