@@ -4,83 +4,83 @@
       "mobile": {
         "sm": {
           "value": "320px",
-          "type": "dimension",
+          "type": "sizing",
           "description": "under"
         },
         "md": {
           "value": "390px",
-          "type": "dimension",
+          "type": "sizing",
           "description": "under"
         },
         "lg": {
           "value": "480px",
-          "type": "dimension",
+          "type": "sizing",
           "description": "under"
         }
       },
       "tablet": {
         "sm": {
           "value": "768px",
-          "type": "dimension",
+          "type": "sizing",
           "description": "above"
         },
         "md": {
           "value": "834px",
-          "type": "dimension",
+          "type": "sizing",
           "description": "above"
         },
         "lg": {
           "value": "960px",
-          "type": "dimension",
+          "type": "sizing",
           "description": "under"
         }
       },
       "desktop": {
         "sm": {
           "value": "1024px",
-          "type": "dimension",
+          "type": "sizing",
           "description": "above"
         },
         "md": {
           "value": "1280px",
-          "type": "dimension",
+          "type": "sizing",
           "description": "above"
         },
         "lg": {
           "value": "1440px",
-          "type": "dimension",
+          "type": "sizing",
           "description": "above"
         }
       }
     },
-    "dimension": {
+    "sizing": {
       "50": {
         "value": "14px",
-        "type": "dimension"
+        "type": "sizing"
       },
       "100": {
         "value": "16px",
-        "type": "dimension"
+        "type": "sizing"
       },
       "200": {
         "value": "24px",
-        "type": "dimension"
+        "type": "sizing"
       },
       "300": {
         "value": "32px",
-        "type": "dimension"
+        "type": "sizing"
       },
       "400": {
         "value": "40px",
-        "type": "dimension"
+        "type": "sizing"
       },
       "500": {
         "value": "48px",
-        "type": "dimension"
+        "type": "sizing"
       },
       "600": {
         "value": "56px",
-        "type": "dimension"
+        "type": "sizing"
       }
     }
   }
