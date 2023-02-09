@@ -1017,64 +1017,6 @@
         }
       }
     },
-    "typography": {
-      "fontFamily": {
-        "mazzard": {
-          "value": "Mazzard",
-          "type": "fontFamilies"
-        }
-      },
-      "lineHeight": {
-        "multiple": {
-          "100": {
-            "value": "100%",
-            "type": "lineHeights"
-          },
-          "150": {
-            "value": "150%",
-            "type": "lineHeights"
-          }
-        },
-        "absolute": {
-          "sm": {
-            "value": "16px",
-            "type": "lineHeights"
-          },
-          "md": {
-            "value": "24px",
-            "type": "lineHeights"
-          }
-        }
-      },
-      "letterSpacing": {
-        "default": {
-          "value": "0",
-          "type": "letterSpacing"
-        }
-      },
-      "paragraphSpacing": {
-        "default": {
-          "value": "0",
-          "type": "paragraphSpacing"
-        }
-      },
-      "textCase": {
-        "none": {
-          "value": "none",
-          "type": "textCase"
-        }
-      },
-      "textDecoration": {
-        "none": {
-          "value": "none",
-          "type": "textDecoration"
-        },
-        "underline": {
-          "value": "underline",
-          "type": "textDecoration"
-        }
-      }
-    },
     "spacing": {
       "50": {
         "value": "4px",
