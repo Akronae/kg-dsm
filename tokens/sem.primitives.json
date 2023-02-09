@@ -1136,6 +1136,38 @@
         }
       }
     },
+    "Size": {
+      "50": {
+        "value": "14px",
+        "type": "sizing"
+      },
+      "100": {
+        "value": "16px",
+        "type": "sizing"
+      },
+      "200": {
+        "value": "24px",
+        "type": "sizing"
+      },
+      "300": {
+        "value": "32px",
+        "type": "sizing"
+      },
+      "400": {
+        "value": "40px",
+        "type": "sizing"
+      },
+      "500": {
+        "value": "48px",
+        "type": "sizing"
+      },
+      "600": {
+        "value": "56px",
+        "type": "sizing"
+      }
+    }
+  },
+  "comp": {
     "popover": {
       "default": {
         "value": {
@@ -1456,36 +1488,6 @@
         "type": "composition"
       }
     },
-    "Size": {
-      "50": {
-        "value": "14px",
-        "type": "sizing"
-      },
-      "100": {
-        "value": "16px",
-        "type": "sizing"
-      },
-      "200": {
-        "value": "24px",
-        "type": "sizing"
-      },
-      "300": {
-        "value": "32px",
-        "type": "sizing"
-      },
-      "400": {
-        "value": "40px",
-        "type": "sizing"
-      },
-      "500": {
-        "value": "48px",
-        "type": "sizing"
-      },
-      "600": {
-        "value": "56px",
-        "type": "sizing"
-      }
-    },
     "link": {
       "md": {
         "default": {
@@ -1547,9 +1549,7 @@
           "type": "composition"
         }
       }
-    }
-  },
-  "comp": {
+    },
     "button": {
       "rectangular": {
         "primary": {
