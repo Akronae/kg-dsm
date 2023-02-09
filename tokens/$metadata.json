@@ -1,12 +1,17 @@
 {
   "tokenSetOrder": [
-    "light.ref.colors",
-    "dark.ref.colors",
+    "ref.palette.light",
+    "ref.palette.dark",
     "ref.typography",
+    "ref.sizing",
+    "ref.spacing",
+    "ref.border",
+    "ref.effects",
     "sem.primitives",
-    "Structure Listing",
-    "Structure - Form",
-    "Structure - Empty state",
-    "Search property"
+    "comp.web",
+    "structureListing",
+    "structureForm",
+    "structureEmpty-state",
+    "search-property"
   ]
 }

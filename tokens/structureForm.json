@@ -1,0 +1,126 @@
+{
+  "container": {
+    "multiple-fileUploader": {
+      "empty": {
+        "default": {
+          "value": {
+            "itemSpacing": "{ref.spacing.300}",
+            "border": "{sem.boderDashed.default}",
+            "verticalPadding": "{ref.spacing.300}",
+            "horizontalPadding": "{ref.spacing.300}",
+            "borderRadius": "{ref.borderRadius.300}",
+            "fill": "{sem.colorSurface.interactive.default}"
+          },
+          "type": "composition"
+        },
+        "hover": {
+          "value": {
+            "itemSpacing": "{ref.spacing.300}",
+            "border": "{sem.boderDashed.hover}",
+            "verticalPadding": "{ref.spacing.300}",
+            "horizontalPadding": "{ref.spacing.300}",
+            "borderRadius": "{ref.borderRadius.300}",
+            "fill": "{sem.colorSurface.interactive.hover}"
+          },
+          "type": "composition"
+        },
+        "pressed": {
+          "value": {
+            "itemSpacing": "{ref.spacing.300}",
+            "border": "{sem.boderDashed.pressed}",
+            "verticalPadding": "{ref.spacing.300}",
+            "horizontalPadding": "{ref.spacing.300}",
+            "borderRadius": "{ref.borderRadius.300}",
+            "fill": "{sem.colorSurface.interactive.pressed}"
+          },
+          "type": "composition"
+        },
+        "active": {
+          "value": {
+            "itemSpacing": "{ref.spacing.300}",
+            "border": "{sem.boderDashed.active}",
+            "verticalPadding": "{ref.spacing.300}",
+            "horizontalPadding": "{ref.spacing.300}",
+            "borderRadius": "{ref.borderRadius.300}",
+            "fill": "{sem.colorSurface.interactive.default}"
+          },
+          "type": "composition"
+        },
+        "danger": {
+          "value": {
+            "itemSpacing": "{ref.spacing.300}",
+            "border": "{sem.boderDashed.danger}",
+            "verticalPadding": "{ref.spacing.300}",
+            "horizontalPadding": "{ref.spacing.300}",
+            "borderRadius": "{ref.borderRadius.300}",
+            "fill": "{sem.colorSurface.interactive.default}"
+          },
+          "type": "composition"
+        },
+        "disabled": {
+          "value": {
+            "itemSpacing": "{ref.spacing.300}",
+            "border": "{sem.boderDashed.disabled}",
+            "verticalPadding": "{ref.spacing.300}",
+            "horizontalPadding": "{ref.spacing.300}",
+            "borderRadius": "{ref.borderRadius.300}",
+            "fill": "{sem.colorSurface.interactive.disabled}"
+          },
+          "type": "composition"
+        }
+      }
+    },
+    "sideHelp": {
+      "desktop": {
+        "value": {
+          "fill": "{sem.colorBackground.dark}",
+          "horizontalPadding": "{ref.spacing.500}",
+          "paddingTop": "{ref.spacing.950}",
+          "paddingBottom": "{ref.spacing.850}"
+        },
+        "type": "composition"
+      },
+      "mobile": {
+        "value": {
+          "fill": "{sem.colorBackground.dark}",
+          "itemSpacing": "{ref.spacing.300}",
+          "verticalPadding": "{ref.spacing.300}",
+          "horizontalPadding": "{ref.spacing.200}"
+        },
+        "type": "composition"
+      }
+    },
+    "navBar": {
+      "mobile": {
+        "open": {
+          "value": {
+            "fill": "{sem.colorSurface.default}",
+            "horizontalPadding": "{ref.spacing.200}",
+            "paddingTop": "{ref.spacing.200}",
+            "itemSpacing": "{ref.spacing.200}",
+            "borderRadiusTopLeft": "{ref.borderRadius.400}",
+            "borderRadiusTopRight": "{ref.borderRadius.400}"
+          },
+          "type": "composition"
+        },
+        "closed": {
+          "value": {
+            "fill": "{sem.colorSurface.default}",
+            "horizontalPadding": "{ref.spacing.200}",
+            "paddingTop": "{ref.spacing.500}",
+            "itemSpacing": "{ref.spacing.200}"
+          },
+          "type": "composition"
+        }
+      },
+      "desktop": {
+        "value": {
+          "fill": "{sem.colorSurface.default}",
+          "itemSpacing": "{ref.spacing.100}",
+          "paddingTop": "{ref.spacing.300}"
+        },
+        "type": "composition"
+      }
+    }
+  }
+}

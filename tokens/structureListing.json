@@ -1,0 +1,98 @@
+{
+  "container": {
+    "filterButton": {
+      "unFilled": {
+        "default": {
+          "value": {
+            "verticalPadding": "{ref.spacing.150}",
+            "horizontalPadding": "{ref.spacing.150}",
+            "border": "{sem.borderInteractive.default}",
+            "borderRadius": "{ref.borderRadius.300}",
+            "fill": "{sem.colorSurface.interactive.sub.default}",
+            "itemSpacing": "{ref.spacing.100}"
+          },
+          "type": "composition"
+        },
+        "hover": {
+          "value": {
+            "verticalPadding": "{ref.spacing.150}",
+            "horizontalPadding": "{ref.spacing.150}",
+            "border": "{sem.borderInteractive.hover}",
+            "borderRadius": "{ref.borderRadius.300}",
+            "fill": "{sem.colorSurface.interactive.sub.hover}",
+            "itemSpacing": "{ref.spacing.100}"
+          },
+          "type": "composition"
+        },
+        "pressed": {
+          "value": {
+            "verticalPadding": "{ref.spacing.150}",
+            "horizontalPadding": "{ref.spacing.150}",
+            "border": "{sem.borderInteractive.pressed}",
+            "borderRadius": "{ref.borderRadius.300}",
+            "fill": "{sem.colorSurface.interactive.sub.pressed}",
+            "itemSpacing": "{ref.spacing.100}"
+          },
+          "type": "composition"
+        },
+        "active": {
+          "value": {
+            "verticalPadding": "{ref.spacing.150}",
+            "horizontalPadding": "{ref.spacing.150}",
+            "border": "{sem.borderInteractive.active}",
+            "borderRadius": "{ref.borderRadius.300}",
+            "fill": "{sem.colorSurface.interactive.sub.default}",
+            "itemSpacing": "{ref.spacing.100}"
+          },
+          "type": "composition"
+        }
+      },
+      "filled": {
+        "default": {
+          "value": {
+            "verticalPadding": "{ref.spacing.150}",
+            "horizontalPadding": "{ref.spacing.150}",
+            "border": "{sem.borderInteractive.default}",
+            "borderRadius": "{ref.borderRadius.300}",
+            "fill": "{sem.colorSurface.interactive.light.default}",
+            "itemSpacing": "{ref.spacing.100}"
+          },
+          "type": "composition"
+        },
+        "hover": {
+          "value": {
+            "verticalPadding": "{ref.spacing.150}",
+            "horizontalPadding": "{ref.spacing.150}",
+            "border": "{sem.borderInteractive.hover}",
+            "borderRadius": "{ref.borderRadius.300}",
+            "fill": "{sem.colorSurface.interactive.light.hover}",
+            "itemSpacing": "{ref.spacing.100}"
+          },
+          "type": "composition"
+        },
+        "pressed": {
+          "value": {
+            "verticalPadding": "{ref.spacing.150}",
+            "horizontalPadding": "{ref.spacing.150}",
+            "border": "{sem.borderInteractive.pressed}",
+            "borderRadius": "{ref.borderRadius.300}",
+            "fill": "{sem.colorSurface.interactive.light.pressed}",
+            "itemSpacing": "{ref.spacing.100}"
+          },
+          "type": "composition"
+        },
+        "active": {
+          "value": {
+            "verticalPadding": "{ref.spacing.150}",
+            "horizontalPadding": "{ref.spacing.150}",
+            "border": "{sem.borderInteractive.active}",
+            "borderRadius": "{ref.borderRadius.300}",
+            "fill": "{sem.colorSurface.interactive.light.default}",
+            "itemSpacing": "{ref.spacing.100}"
+          },
+          "type": "composition"
+        }
+      }
+    }
+  }
+}
