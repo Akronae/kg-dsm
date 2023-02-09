@@ -9,7 +9,11 @@
       "Structure - Empty state": "enabled",
       "ref.typography": "enabled",
       "sem.primitives": "enabled",
-      "light.ref.colors": "enabled"
+      "light.ref.colors": "enabled",
+      "ref.sizing": "enabled",
+      "ref.border": "enabled",
+      "ref.effects": "enabled",
+      "ref.spacing": "enabled"
     },
     "$figmaStyleReferences": {
       "colorAction.primary.default": "S:9405eb6a398f2ad3f41d513ab820c202bbc0ecdf,",
@@ -227,7 +231,11 @@
       "Structure Listing": "enabled",
       "ref.typography": "enabled",
       "sem.primitives": "enabled",
-      "dark.ref.colors": "enabled"
+      "dark.ref.colors": "enabled",
+      "ref.sizing": "enabled",
+      "ref.border": "enabled",
+      "ref.effects": "enabled",
+      "ref.spacing": "enabled"
     },
     "$figmaStyleReferences": {}
   }

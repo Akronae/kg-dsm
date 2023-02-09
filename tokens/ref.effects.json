@@ -1,1 +1,109 @@
-{"ref":{"effects":{"dropShadow":{"50":{"value":{"x":"0","y":"2","blur":"4","spread":"0","color":"{ref.colors.neutral.700}","type":"dropShadow"},"type":"boxShadow","description":"Smallest shadow. Used for small elements who need shadow"},"100":{"value":{"x":"2","y":"2","blur":"4","spread":"0","color":"{ref.colors.neutral.700}","type":"dropShadow"},"type":"boxShadow","description":"Usually used for pressed state"},"200":{"value":{"x":"0","y":"2","blur":"8","spread":"0","color":"{ref.colors.neutral.700}","type":"dropShadow"},"type":"boxShadow","description":"Usually used as hover state"},"300":{"value":{"x":"10","y":"10","blur":"30","spread":"0","color":"{ref.colors.neutral.800}","type":"dropShadow"},"type":"boxShadow","description":"Main container shadow"},"400":{"value":{"x":"2","y":"2","blur":"40","spread":"0","color":"{ref.colors.neutral.800}","type":"dropShadow"},"type":"boxShadow","description":"High contrasted container shadow"},"500":{"value":{"x":"0","y":"40","blur":"128","spread":"0","color":"{ref.colors.neutral.900}","type":"dropShadow"},"type":"boxShadow"}},"innerShadow":{"100":{"value":{"x":"0","y":"0","blur":"96","spread":"0","color":"{ref.colors.neutral.900}","type":"innerShadow"},"type":"boxShadow"},"200":{"value":{"x":"0","y":"0","blur":"96","spread":"0","color":"{ref.colors.neutral.900}","type":"innerShadow"},"type":"boxShadow"}},"opacity":{"40":{"value":"40%","type":"opacity"}}}}}
+{
+  "ref": {
+    "effects": {
+      "dropShadow": {
+        "50": {
+          "value": {
+            "x": "0",
+            "y": "2",
+            "blur": "4",
+            "spread": "0",
+            "color": "{ref.colors.neutral.700}",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow",
+          "description": "Smallest shadow. Used for small elements who need shadow"
+        },
+        "100": {
+          "value": {
+            "x": "2",
+            "y": "2",
+            "blur": "4",
+            "spread": "0",
+            "color": "{ref.colors.neutral.700}",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow",
+          "description": "Usually used for pressed state"
+        },
+        "200": {
+          "value": {
+            "x": "0",
+            "y": "2",
+            "blur": "8",
+            "spread": "0",
+            "color": "{ref.colors.neutral.700}",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow",
+          "description": "Usually used as hover state"
+        },
+        "300": {
+          "value": {
+            "x": "10",
+            "y": "10",
+            "blur": "30",
+            "spread": "0",
+            "color": "{ref.colors.neutral.800}",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow",
+          "description": "Main container shadow"
+        },
+        "400": {
+          "value": {
+            "x": "2",
+            "y": "2",
+            "blur": "40",
+            "spread": "0",
+            "color": "{ref.colors.neutral.800}",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow",
+          "description": "High contrasted container shadow"
+        },
+        "500": {
+          "value": {
+            "x": "0",
+            "y": "40",
+            "blur": "128",
+            "spread": "0",
+            "color": "{ref.colors.neutral.900}",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        }
+      },
+      "innerShadow": {
+        "100": {
+          "value": {
+            "x": "0",
+            "y": "0",
+            "blur": "96",
+            "spread": "0",
+            "color": "{ref.colors.neutral.900}",
+            "type": "innerShadow"
+          },
+          "type": "boxShadow"
+        },
+        "200": {
+          "value": {
+            "x": "0",
+            "y": "0",
+            "blur": "96",
+            "spread": "0",
+            "color": "{ref.colors.neutral.900}",
+            "type": "innerShadow"
+          },
+          "type": "boxShadow"
+        }
+      },
+      "opacity": {
+        "40": {
+          "value": "40%",
+          "type": "opacity"
+        }
+      }
+    }
+  }
+}
