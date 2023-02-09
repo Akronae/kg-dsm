@@ -35,7 +35,7 @@
         "value": "32px",
         "type": "borderRadius"
       },
-      "rounded": {
+      "9999": {
         "value": "99999px",
         "type": "borderRadius"
       }
