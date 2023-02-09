@@ -8,6 +8,7 @@
     "ref.border",
     "ref.effects",
     "sem.primitives",
+    "comp.web",
     "structureListing",
     "structureForm",
     "structureEmpty-state",
