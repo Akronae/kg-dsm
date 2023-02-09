@@ -1136,7 +1136,7 @@
         }
       }
     },
-    "Size": {
+    "size": {
       "50": {
         "value": "14px",
         "type": "sizing"
@@ -1310,7 +1310,7 @@
       "radio": {
         "default": {
           "value": {
-            "sizing": "{ref.Size.200}",
+            "sizing": "{ref.size.200}",
             "fill": "{sem.colorSurface.sub}",
             "border": "{sem.borderInteractive.default}",
             "borderRadius": "{ref.borderRadius.rounded}"
@@ -1319,7 +1319,7 @@
         },
         "hover": {
           "value": {
-            "sizing": "{ref.Size.200}",
+            "sizing": "{ref.size.200}",
             "fill": "{sem.colorSurface.sub}",
             "border": "{sem.borderInteractive.hover}",
             "borderRadius": "{ref.borderRadius.rounded}"
@@ -1328,7 +1328,7 @@
         },
         "danger": {
           "value": {
-            "sizing": "{ref.Size.200}",
+            "sizing": "{ref.size.200}",
             "fill": "{sem.colorSurface.sub}",
             "border": "{sem.border.danger}",
             "borderRadius": "{ref.borderRadius.rounded}"
@@ -1337,7 +1337,7 @@
         },
         "disabled": {
           "value": {
-            "sizing": "{ref.Size.200}",
+            "sizing": "{ref.size.200}",
             "fill": "{sem.colorSurface.disabled}",
             "border": "{sem.border.disabled}",
             "borderRadius": "{ref.borderRadius.rounded}"
@@ -1346,7 +1346,7 @@
         },
         "active": {
           "value": {
-            "sizing": "{ref.Size.200}",
+            "sizing": "{ref.size.200}",
             "fill": "{sem.colorSurface.primary}",
             "borderRadius": "{ref.borderRadius.rounded}"
           },
@@ -1354,7 +1354,7 @@
         },
         "forced": {
           "value": {
-            "sizing": "{ref.Size.200}",
+            "sizing": "{ref.size.200}",
             "fill": "{sem.colorSurface.black}",
             "borderRadius": "{ref.borderRadius.rounded}"
           },
@@ -1364,7 +1364,7 @@
       "checkbox": {
         "default": {
           "value": {
-            "sizing": "{ref.Size.200}",
+            "sizing": "{ref.size.200}",
             "fill": "{sem.colorSurface.sub}",
             "border": "{sem.borderInteractive.default}",
             "borderRadius": "{ref.borderRadius.200}"
@@ -1373,7 +1373,7 @@
         },
         "hover": {
           "value": {
-            "sizing": "{ref.Size.200}",
+            "sizing": "{ref.size.200}",
             "fill": "{sem.colorSurface.sub}",
             "border": "{sem.borderInteractive.hover}",
             "borderRadius": "{ref.borderRadius.200}"
@@ -1382,7 +1382,7 @@
         },
         "danger": {
           "value": {
-            "sizing": "{ref.Size.200}",
+            "sizing": "{ref.size.200}",
             "fill": "{sem.colorSurface.sub}",
             "border": "{sem.border.danger}",
             "borderRadius": "{ref.borderRadius.200}"
@@ -1391,7 +1391,7 @@
         },
         "disabled": {
           "value": {
-            "sizing": "{ref.Size.200}",
+            "sizing": "{ref.size.200}",
             "fill": "{sem.colorSurface.disabled}",
             "border": "{sem.border.disabled}",
             "borderRadius": "{ref.borderRadius.200}"
@@ -1400,7 +1400,7 @@
         },
         "active": {
           "value": {
-            "sizing": "{ref.Size.200}",
+            "sizing": "{ref.size.200}",
             "fill": "{sem.colorSurface.primary}",
             "borderRadius": "{ref.borderRadius.200}"
           },
@@ -1408,7 +1408,7 @@
         },
         "forced": {
           "value": {
-            "sizing": "{ref.Size.200}",
+            "sizing": "{ref.size.200}",
             "fill": "{sem.colorSurface.black}",
             "borderRadius": "{ref.borderRadius.200}"
           },
@@ -1421,7 +1421,7 @@
         "value": {
           "fill": "{sem.colorSurface.interactive.sub.default}",
           "itemSpacing": "{ref.spacing.50}",
-          "height": "{ref.Size.400}",
+          "height": "{ref.size.400}",
           "border": "{sem.borderInteractive.default}",
           "horizontalPadding": "{ref.spacing.100}"
         },
@@ -1431,7 +1431,7 @@
         "value": {
           "fill": "{sem.colorSurface.interactive.sub.hover}",
           "itemSpacing": "{ref.spacing.50}",
-          "height": "{ref.Size.400}",
+          "height": "{ref.size.400}",
           "border": "{sem.borderInteractive.hover}",
           "horizontalPadding": "{ref.spacing.100}"
         },
@@ -1441,7 +1441,7 @@
         "value": {
           "fill": "{sem.colorSurface.interactive.sub.pressed}",
           "itemSpacing": "{ref.spacing.50}",
-          "height": "{ref.Size.400}",
+          "height": "{ref.size.400}",
           "border": "{sem.borderInteractive.pressed}",
           "horizontalPadding": "{ref.spacing.100}"
         },
@@ -1451,7 +1451,7 @@
         "value": {
           "fill": "{sem.colorSurface.interactive.sub.active}",
           "itemSpacing": "{ref.spacing.50}",
-          "height": "{ref.Size.400}",
+          "height": "{ref.size.400}",
           "horizontalPadding": "{ref.spacing.100}"
         },
         "type": "composition"
