@@ -8,7 +8,7 @@
             "border": "{boderDashed.default}",
             "verticalPadding": "{ref.spacing.300}",
             "horizontalPadding": "{ref.spacing.300}",
-            "borderRadius": "{borderRadius.300}",
+            "borderRadius": "{ref.borderRadius.300}",
             "fill": "{sem.colorSurface.interactive.default}"
           },
           "type": "composition"
@@ -19,7 +19,7 @@
             "border": "{boderDashed.hover}",
             "verticalPadding": "{ref.spacing.300}",
             "horizontalPadding": "{ref.spacing.300}",
-            "borderRadius": "{borderRadius.300}",
+            "borderRadius": "{ref.borderRadius.300}",
             "fill": "{sem.colorSurface.interactive.hover}"
           },
           "type": "composition"
@@ -30,7 +30,7 @@
             "border": "{boderDashed.pressed}",
             "verticalPadding": "{ref.spacing.300}",
             "horizontalPadding": "{ref.spacing.300}",
-            "borderRadius": "{borderRadius.300}",
+            "borderRadius": "{ref.borderRadius.300}",
             "fill": "{sem.colorSurface.interactive.pressed}"
           },
           "type": "composition"
@@ -41,7 +41,7 @@
             "border": "{boderDashed.active}",
             "verticalPadding": "{ref.spacing.300}",
             "horizontalPadding": "{ref.spacing.300}",
-            "borderRadius": "{borderRadius.300}",
+            "borderRadius": "{ref.borderRadius.300}",
             "fill": "{sem.colorSurface.interactive.default}"
           },
           "type": "composition"
@@ -52,7 +52,7 @@
             "border": "{boderDashed.danger}",
             "verticalPadding": "{ref.spacing.300}",
             "horizontalPadding": "{ref.spacing.300}",
-            "borderRadius": "{borderRadius.300}",
+            "borderRadius": "{ref.borderRadius.300}",
             "fill": "{sem.colorSurface.interactive.default}"
           },
           "type": "composition"
@@ -63,7 +63,7 @@
             "border": "{boderDashed.disabled}",
             "verticalPadding": "{ref.spacing.300}",
             "horizontalPadding": "{ref.spacing.300}",
-            "borderRadius": "{borderRadius.300}",
+            "borderRadius": "{ref.borderRadius.300}",
             "fill": "{sem.colorSurface.interactive.disabled}"
           },
           "type": "composition"
@@ -98,8 +98,8 @@
             "horizontalPadding": "{ref.spacing.200}",
             "paddingTop": "{ref.spacing.200}",
             "itemSpacing": "{ref.spacing.200}",
-            "borderRadiusTopLeft": "{borderRadius.400}",
-            "borderRadiusTopRight": "{borderRadius.400}"
+            "borderRadiusTopLeft": "{ref.borderRadius.400}",
+            "borderRadiusTopRight": "{ref.borderRadius.400}"
           },
           "type": "composition"
         },
