@@ -1,10 +1,6 @@
 {
   "ref": {
     "spacing": {
-      "0": {
-        "value": "{ref.spacing.50}*0",
-        "type": "spacing"
-      },
       "50": {
         "value": "4px",
         "type": "spacing"

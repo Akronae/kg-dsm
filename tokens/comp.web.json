@@ -481,7 +481,6 @@
             "default": {
               "value": {
                 "borderRadius": "{ref.borderRadius.300}",
-                "spacing": "{ref.spacing.100}",
                 "verticalPadding": "{ref.spacing.200}",
                 "horizontalPadding": "{ref.spacing.300}",
                 "itemSpacing": "{ref.spacing.100}",
@@ -492,7 +491,6 @@
             "hover": {
               "value": {
                 "borderRadius": "{ref.borderRadius.300}",
-                "spacing": "{ref.spacing.100}",
                 "verticalPadding": "{ref.spacing.200}",
                 "horizontalPadding": "{ref.spacing.300}",
                 "itemSpacing": "{ref.spacing.100}",
