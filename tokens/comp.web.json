@@ -1982,7 +1982,7 @@
               "borderRadiusTopRight": "{ref.borderRadius.500}",
               "width": "{sem.containerSize.maxWidth.md}",
               "horizontalPadding": "{ref.spacing.200}",
-              "paddingTop": "{ref.spacing.700}",
+              "paddingTop": "{ref.spacing.400}",
               "paddingBottom": "{ref.spacing.300}"
             },
             "type": "composition"
@@ -1990,17 +1990,90 @@
         }
       },
       "actions": {
-        "value": {
-          "fill": "{sem.colorSurface.default}",
-          "itemSpacing": "{ref.spacing.300}"
-        },
-        "type": "composition"
+        "default": {
+          "value": {
+            "fill": "{sem.colorSurface.default}",
+            "itemSpacing": "{ref.spacing.300}"
+          },
+          "type": "composition"
+        }
       },
       "content": {
-        "value": {
-          "itemSpacing": "{ref.spacing.200}"
+        "default": {
+          "value": {
+            "itemSpacing": "{ref.spacing.200}"
+          },
+          "type": "composition"
+        }
+      },
+      "closeBar": {
+        "desktop": {
+          "default": {
+            "value": {
+              "verticalPadding": "{ref.spacing.150}",
+              "horizontalPadding": "{ref.spacing.150}",
+              "borderRadiusTopLeft": "{ref.borderRadius.400}",
+              "borderRadiusTopRight": "{ref.borderRadius.400}",
+              "fill": "{sem.colorSurface.interactive.sub.default}"
+            },
+            "type": "composition"
+          },
+          "hover": {
+            "value": {
+              "verticalPadding": "{ref.spacing.150}",
+              "horizontalPadding": "{ref.spacing.150}",
+              "borderRadiusTopLeft": "{ref.borderRadius.400}",
+              "borderRadiusTopRight": "{ref.borderRadius.400}",
+              "fill": "{sem.colorSurface.interactive.sub.hover}"
+            },
+            "type": "composition"
+          },
+          "pressed": {
+            "value": {
+              "verticalPadding": "{ref.spacing.150}",
+              "horizontalPadding": "{ref.spacing.150}",
+              "borderRadiusTopLeft": "{ref.borderRadius.400}",
+              "borderRadiusTopRight": "{ref.borderRadius.400}",
+              "fill": "{sem.colorSurface.interactive.sub.pressed}"
+            },
+            "type": "composition"
+          }
         },
-        "type": "composition"
+        "mobile": {
+          "default": {
+            "value": {
+              "paddingTop": "{ref.spacing.100}",
+              "horizontalPadding": "{ref.spacing.150}",
+              "borderRadiusTopLeft": "{ref.borderRadius.400}",
+              "borderRadiusTopRight": "{ref.borderRadius.400}",
+              "fill": "{sem.colorSurface.interactive.default}",
+              "paddingBottom": "{ref.spacing.150}"
+            },
+            "type": "composition"
+          },
+          "hover": {
+            "value": {
+              "paddingTop": "{ref.spacing.100}",
+              "horizontalPadding": "{ref.spacing.150}",
+              "borderRadiusTopLeft": "{ref.borderRadius.400}",
+              "borderRadiusTopRight": "{ref.borderRadius.400}",
+              "fill": "{sem.colorSurface.interactive.hover}",
+              "paddingBottom": "{ref.spacing.150}"
+            },
+            "type": "composition"
+          },
+          "pressed": {
+            "value": {
+              "paddingTop": "{ref.spacing.100}",
+              "horizontalPadding": "{ref.spacing.150}",
+              "borderRadiusTopLeft": "{ref.borderRadius.400}",
+              "borderRadiusTopRight": "{ref.borderRadius.400}",
+              "fill": "{sem.colorSurface.interactive.pressed}",
+              "paddingBottom": "{ref.spacing.150}"
+            },
+            "type": "composition"
+          }
+        }
       }
     },
     "input": {
