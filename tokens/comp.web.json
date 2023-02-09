@@ -2097,15 +2097,6 @@
         },
         "type": "composition"
       },
-      "open": {
-        "value": {
-          "horizontalPadding": "{ref.spacing.200}",
-          "verticalPadding": "{ref.spacing.200}",
-          "fill": "{sem.colorSurface.sub}",
-          "borderRadius": "{ref.borderRadius.400}"
-        },
-        "type": "composition"
-      },
       "hover": {
         "value": {
           "horizontalPadding": "{ref.spacing.200}",
@@ -2123,6 +2114,15 @@
           "fill": "{sem.colorSurface.light}",
           "borderRadius": "{ref.borderRadius.400}",
           "boxShadow": "{ref.effects.dropShadow.50}"
+        },
+        "type": "composition"
+      },
+      "open": {
+        "value": {
+          "horizontalPadding": "{ref.spacing.200}",
+          "verticalPadding": "{ref.spacing.200}",
+          "fill": "{sem.colorSurface.sub}",
+          "borderRadius": "{ref.borderRadius.400}"
         },
         "type": "composition"
       },
