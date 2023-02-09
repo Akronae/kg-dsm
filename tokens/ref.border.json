@@ -1,5 +1,5 @@
 {
-    "ref": {
+  "ref": {
     "borderWidth": {
       "md": {
         "value": "2px",
@@ -40,4 +40,5 @@
         "type": "borderRadius"
       }
     }
-}} 
+  }
+}
