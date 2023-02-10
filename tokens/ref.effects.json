@@ -32,7 +32,7 @@
             "y": "2",
             "blur": "8",
             "spread": "0",
-            "color": "{ref.colors.neutral.400}",
+            "color": "{ref.colors.neutral.300}",
             "type": "dropShadow"
           },
           "type": "boxShadow",
