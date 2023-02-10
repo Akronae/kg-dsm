@@ -18,7 +18,7 @@
         "type": "spacing"
       },
       "300": {
-        "value": "{ref.spacing.50}*5",
+        "value": "{ref.spacing.50}*6",
         "type": "spacing"
       },
       "400": {
