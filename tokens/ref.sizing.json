@@ -54,7 +54,15 @@
       }
     },
     "sizing": {
+      "25": {
+        "value": "4px",
+        "type": "sizing"
+      },
       "50": {
+        "value": "8px",
+        "type": "sizing"
+      },
+      "90": {
         "value": "14px",
         "type": "sizing"
       },

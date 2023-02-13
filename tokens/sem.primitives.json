@@ -648,7 +648,7 @@
             "type": "typography"
           }
         },
-        "body": {
+        "paragraph": {
           "sm": {
             "default": {
               "value": {

@@ -119,7 +119,7 @@
                     "inactive": {
                       "value": {
                         "borderRadius": "{ref.borderRadius.100}",
-                        "height": "{ref.sizing.70}"
+                        "height": "{ref.sizing.25}"
                       },
                       "type": "composition"
                     },
@@ -161,12 +161,11 @@
                   "metric": {
                     "value": {
                       "fill": "{sem.colorText.diminish}",
-                      "typography": "{sem.typography.textStyle.label.body.xs}"
+                      "typography": "{sem.typography.textStyle.label.xs}"
                     },
                     "type": "composition"
                   }
-                },
-                "type": "composition"
+                }
               }
             }
           },
