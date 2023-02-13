@@ -165,7 +165,8 @@
                     },
                     "type": "composition"
                   }
-                }
+                },
+                "type": "composition"
               }
             }
           },
