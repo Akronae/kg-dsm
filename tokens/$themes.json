@@ -12,9 +12,9 @@
       "ref.palette.light": "enabled",
       "structureListing": "enabled",
       "structureEmpty-state": "enabled",
-      "search-property": "enabled",
       "structureForm": "enabled",
-      "comp.web": "enabled"
+      "comp.web": "enabled",
+      "searchProperty": "enabled"
     },
     "$figmaStyleReferences": {
       "colorAction.primary.default": "S:9405eb6a398f2ad3f41d513ab820c202bbc0ecdf,",
@@ -235,9 +235,9 @@
       "ref.palette.dark": "enabled",
       "structureListing": "enabled",
       "structureEmpty-state": "enabled",
-      "search-property": "enabled",
       "structureForm": "enabled",
-      "comp.web": "enabled"
+      "comp.web": "enabled",
+      "searchProperty": "enabled"
     },
     "$figmaStyleReferences": {}
   }
