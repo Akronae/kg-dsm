@@ -118,15 +118,17 @@
                   "container": {
                     "inactive": {
                       "value": {
-                        "height": "{ref.sizing.70}",
-                        "borderRadius": "{ref.borderRadius.100}"
+                        "borderRadius": "{ref.borderRadius.100}",
+                        "height": "{ref.sizing.70}"
                       },
                       "type": "composition"
                     },
                     "active": {
                       "value": {
-                        "height": "{ref.sizing.200}",
-                        "borderRadius": "{ref.borderRadius.200}"
+                        "sizing": "{ref.sizing.200}",
+                        "borderRadius": "{ref.borderRadius.200}",
+                        "paddingTop": "{ref.spacing.50}",
+                        "paddingBottom": "{ref.spacing.50}"
                       },
                       "type": "composition"
                     }
@@ -134,15 +136,15 @@
                   "letter": {
                     "light": {
                       "value": {
-                        "typography": "{sem.typography.textStyle.paragraph.md.strong}",
-                        "fill": "{sem.colorText.light}"
+                        "fill": "{sem.colorText.light}",
+                        "typography": "{sem.typography.textStyle.paragraph.md.strong}"
                       },
                       "type": "composition"
                     },
                     "dark": {
                       "value": {
-                        "typography": "{sem.typography.textStyle.paragraph.md.strong}",
-                        "fill": "{sem.colorText.strong}"
+                        "fill": "{sem.colorText.strong}",
+                        "typography": "{sem.typography.textStyle.paragraph.md.strong}"
                       },
                       "type": "composition"
                     }
@@ -151,24 +153,31 @@
                 "value": {
                   "number": {
                     "value": {
-                      "typography": "{sem.typography.textStyle.paragraph.lg.strong}",
-                      "fill": "{sem.colorText.strong}"
+                      "fill": "{sem.colorText.strong}",
+                      "typography": "{sem.typography.textStyle.paragraph.lg.strong}"
                     },
                     "type": "composition"
                   },
                   "metric": {
                     "value": {
-                      "typography": "{sem.typography.textStyle.label.body.xs}",
-                      "fill": "{sem.colorText.default}"
+                      "fill": "{sem.colorText.diminish}",
+                      "typography": "{sem.typography.textStyle.label.body.xs}"
                     },
                     "type": "composition"
                   }
-                }
+                },
+                "type": "other"
               }
             }
           },
           "diag": {
             "content": {
+              "container": {
+                "spacer": {
+                  "value": "{ref.spacing.300}",
+                  "type": "spacing"
+                }
+              },
               "table": {
                 "item": {
                   "spacer": {
@@ -181,12 +190,6 @@
                     "value": "{ref.spacing.100}",
                     "type": "spacing"
                   }
-                }
-              },
-              "container": {
-                "spacer": {
-                  "value": "{ref.spacing.300}",
-                  "type": "spacing"
                 }
               }
             },
