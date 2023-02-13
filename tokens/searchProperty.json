@@ -119,7 +119,7 @@
                     "inactive": {
                       "value": {
                         "borderRadius": "{ref.borderRadius.100}",
-                        "height": "{ref.sizing.50}"
+                        "height": "{ref.sizing.90}"
                       },
                       "type": "composition"
                     },
@@ -128,7 +128,7 @@
                         "borderRadius": "{ref.borderRadius.200}",
                         "paddingTop": "{ref.spacing.50}",
                         "paddingBottom": "{ref.spacing.50}",
-                        "height": "{ref.sizing.200}"
+                        "height": "{ref.sizing.300}"
                       },
                       "type": "composition"
                     }
