@@ -173,7 +173,7 @@
             "content": {
               "container": {
                 "spacer": {
-                  "value": "{ref.spacing.300}",
+                  "value": "{ref.spacing.200}",
                   "type": "spacing"
                 }
               },
@@ -256,6 +256,12 @@
                     }
                   }
                 }
+              }
+            },
+            "container": {
+              "spacer": {
+                "value": "{ref.spacing.200}",
+                "type": "spacing"
               }
             }
           },
