@@ -150,7 +150,7 @@
                     }
                   }
                 },
-                "value": {
+                "data": {
                   "number": {
                     "value": {
                       "fill": "{sem.colorText.strong}",
