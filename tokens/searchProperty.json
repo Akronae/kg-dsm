@@ -146,68 +146,6 @@
                       },
                       "type": "composition"
                     }
-                  },
-                  "colors": {
-                    "dpe": {
-                      "A": {
-                        "value": "#009035",
-                        "type": "color"
-                      },
-                      "B": {
-                        "value": "#57AA28",
-                        "type": "color"
-                      },
-                      "C": {
-                        "value": "#C8D200",
-                        "type": "color"
-                      },
-                      "D": {
-                        "value": "#FCEA26",
-                        "type": "color"
-                      },
-                      "E": {
-                        "value": "#F8BB01",
-                        "type": "color"
-                      },
-                      "F": {
-                        "value": "#EA690B",
-                        "type": "color"
-                      },
-                      "G": {
-                        "value": "#E30C1C",
-                        "type": "color"
-                      }
-                    },
-                    "ges": {
-                      "A": {
-                        "value": "#FCF0F4",
-                        "type": "color"
-                      },
-                      "B": {
-                        "value": "#D8C1DA",
-                        "type": "color"
-                      },
-                      "C": {
-                        "value": "#C6A8CC",
-                        "type": "color"
-                      },
-                      "D": {
-                        "value": "#B793BF",
-                        "type": "color"
-                      },
-                      "E": {
-                        "value": "#9E75AD",
-                        "type": "color"
-                      },
-                      "F": {
-                        "value": "#82599B",
-                        "type": "color"
-                      },
-                      "G": {
-                        "value": "#6A418F",
-                        "type": "color"
-                      }
-                    }
                   }
                 },
                 "value": {
@@ -249,6 +187,72 @@
                 "spacer": {
                   "value": "{ref.spacing.300}",
                   "type": "spacing"
+                }
+              }
+            },
+            "item": {
+              "cel": {
+                "colors": {
+                  "dpe": {
+                    "A": {
+                      "value": "#009035",
+                      "type": "color"
+                    },
+                    "B": {
+                      "value": "#57AA28",
+                      "type": "color"
+                    },
+                    "C": {
+                      "value": "#C8D200",
+                      "type": "color"
+                    },
+                    "D": {
+                      "value": "#FCEA26",
+                      "type": "color"
+                    },
+                    "E": {
+                      "value": "#F8BB01",
+                      "type": "color"
+                    },
+                    "F": {
+                      "value": "#EA690B",
+                      "type": "color"
+                    },
+                    "G": {
+                      "value": "#E30C1C",
+                      "type": "color"
+                    }
+                  },
+                  "ges": {
+                    "A": {
+                      "value": "#FCF0F4",
+                      "type": "color"
+                    },
+                    "B": {
+                      "value": "#D8C1DA",
+                      "type": "color"
+                    },
+                    "C": {
+                      "value": "#C6A8CC",
+                      "type": "color"
+                    },
+                    "D": {
+                      "value": "#B793BF",
+                      "type": "color"
+                    },
+                    "E": {
+                      "value": "#9E75AD",
+                      "type": "color"
+                    },
+                    "F": {
+                      "value": "#82599B",
+                      "type": "color"
+                    },
+                    "G": {
+                      "value": "#6A418F",
+                      "type": "color"
+                    }
+                  }
                 }
               }
             }
