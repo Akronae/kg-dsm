@@ -1,6 +1,10 @@
 {
   "ref": {
     "spacing": {
+      "25": {
+        "value": "2px",
+        "type": "spacing"
+      },
       "50": {
         "value": "4px",
         "type": "spacing"
