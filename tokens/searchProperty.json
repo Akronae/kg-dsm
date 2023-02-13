@@ -119,16 +119,16 @@
                     "inactive": {
                       "value": {
                         "borderRadius": "{ref.borderRadius.100}",
-                        "height": "{ref.sizing.25}"
+                        "height": "{ref.sizing.50}"
                       },
                       "type": "composition"
                     },
                     "active": {
                       "value": {
-                        "sizing": "{ref.sizing.200}",
                         "borderRadius": "{ref.borderRadius.200}",
                         "paddingTop": "{ref.spacing.50}",
-                        "paddingBottom": "{ref.spacing.50}"
+                        "paddingBottom": "{ref.spacing.50}",
+                        "height": "{ref.sizing.200}"
                       },
                       "type": "composition"
                     }
@@ -161,7 +161,7 @@
                   "metric": {
                     "value": {
                       "fill": "{sem.colorText.diminish}",
-                      "typography": "{sem.typography.textStyle.label.xs}"
+                      "typography": "{sem.typography.textStyle.label.body.xs}"
                     },
                     "type": "composition"
                   }
@@ -180,7 +180,7 @@
               "table": {
                 "item": {
                   "spacer": {
-                    "value": "{ref.spacing.150}",
+                    "value": "{ref.spacing.100}",
                     "type": "spacing"
                   }
                 },
