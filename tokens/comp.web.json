@@ -2541,6 +2541,22 @@
         },
         "type": "composition"
       }
+    },
+    "message": {
+      "error": {
+        "value": {
+          "typography": "{sem.typography.textStyle.paragraph.sm.strong}",
+          "fill": "{sem.colorText.danger}"
+        },
+        "type": "composition"
+      },
+      "label": {
+        "value": {
+          "typography": "{sem.typography.textStyle.label.body.sm}",
+          "fill": "{sem.colorText.strong}"
+        },
+        "type": "composition"
+      }
     }
   }
 }
