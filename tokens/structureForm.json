@@ -308,44 +308,91 @@
         }
       },
       "wizard": {
-        "steps": {
-          "content": {
-            "padding": {
-              "value": {
-                "horizontalPadding": "{ref.spacing.200}"
-              },
-              "type": "composition"
+        "desktop": {
+          "steps": {
+            "content": {
+              "padding": {
+                "value": {
+                  "horizontalPadding": "{ref.spacing.200}"
+                },
+                "type": "composition"
+              }
+            },
+            "form": {
+              "container": {
+                "value": {
+                  "itemSpacing": "{ref.spacing.600}",
+                  "verticalPadding": "{ref.spacing.500}",
+                  "width": "{sem.containerSize.maxWidth.md}"
+                },
+                "type": "composition"
+              }
             }
           },
-          "form": {
-            "container": {
-              "value": {
-                "itemSpacing": "{ref.spacing.600}",
-                "verticalPadding": "{ref.spacing.500}",
-                "width": "{sem.containerSize.maxWidth.md}"
-              },
-              "type": "composition"
+          "summary": {
+            "content": {
+              "padding": {
+                "value": {
+                  "horizontalPadding": "{ref.spacing.200}"
+                },
+                "type": "composition"
+              }
+            },
+            "form": {
+              "container": {
+                "value": {
+                  "itemSpacing": "{ref.spacing.600}",
+                  "paddingBottom": "{ref.spacing.500}",
+                  "width": "{sem.containerSize.maxWidth.md}",
+                  "paddingTop": "{ref.spacing.950}"
+                },
+                "type": "composition"
+              }
             }
           }
         },
-        "summary": {
-          "content": {
-            "padding": {
-              "value": {
-                "horizontalPadding": "{ref.spacing.200}"
-              },
-              "type": "composition"
+        "mobile": {
+          "steps": {
+            "content": {
+              "container": {
+                "value": {
+                  "horizontalPadding": "{ref.spacing.200}",
+                  "fill": "{sem.colorBackground.default}",
+                  "borderRadiusTopLeft": "{ref.borderRadius.400}",
+                  "borderRadiusTopRight": "{ref.borderRadius.400}"
+                },
+                "type": "composition"
+              }
+            },
+            "form": {
+              "container": {
+                "value": {
+                  "itemSpacing": "{ref.spacing.600}",
+                  "verticalPadding": "{ref.spacing.300}"
+                },
+                "type": "composition"
+              }
             }
           },
-          "form": {
-            "container": {
-              "value": {
-                "itemSpacing": "{ref.spacing.600}",
-                "paddingBottom": "{ref.spacing.500}",
-                "width": "{sem.containerSize.maxWidth.md}",
-                "paddingTop": "{ref.spacing.950}"
-              },
-              "type": "composition"
+          "summary": {
+            "content": {
+              "padding": {
+                "value": {
+                  "horizontalPadding": "{ref.spacing.200}"
+                },
+                "type": "composition"
+              }
+            },
+            "form": {
+              "container": {
+                "value": {
+                  "itemSpacing": "{ref.spacing.600}",
+                  "paddingBottom": "{ref.spacing.500}",
+                  "width": "{sem.containerSize.maxWidth.md}",
+                  "paddingTop": "{ref.spacing.950}"
+                },
+                "type": "composition"
+              }
             }
           }
         }
