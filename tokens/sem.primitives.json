@@ -286,6 +286,10 @@
         "value": "{ref.colors.neutral.200}",
         "type": "color"
       },
+      "dark": {
+        "value": "{ref.colors.neutral.600}",
+        "type": "color"
+      },
       "success": {
         "value": "{ref.colors.green.500}",
         "type": "color"

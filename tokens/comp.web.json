@@ -246,6 +246,95 @@
           },
           "type": "composition"
         }
+      },
+      "switch": {
+        "switch": {
+          "container": {
+            "default": {
+              "value": {
+                "borderRadius": "{ref.borderRadius.500}",
+                "fill": "{sem.colorSurface.dark}",
+                "verticalPadding": "{ref.spacing.25}",
+                "horizontalPadding": "{ref.spacing.25}",
+                "width": "{ref.sizing.500}"
+              },
+              "type": "composition"
+            },
+            "active": {
+              "value": {
+                "borderRadius": "{ref.borderRadius.500}",
+                "fill": "{sem.colorSurface.success}",
+                "verticalPadding": "{ref.spacing.25}",
+                "horizontalPadding": "{ref.spacing.25}",
+                "width": "{ref.sizing.500}"
+              },
+              "type": "composition"
+            },
+            "disabled": {
+              "value": {
+                "borderRadius": "{ref.borderRadius.500}",
+                "fill": "{sem.colorSurface.disabled}",
+                "verticalPadding": "{ref.spacing.25}",
+                "horizontalPadding": "{ref.spacing.25}",
+                "width": "{ref.sizing.500}"
+              },
+              "type": "composition"
+            }
+          },
+          "button": {
+            "container": {
+              "value": {
+                "fill": "{sem.colorSurface.light}",
+                "borderRadius": "{ref.borderRadius.9999}",
+                "sizing": "{ref.sizing.200}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{ref.sizing.100}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.default}"
+              },
+              "type": "composition"
+            }
+          }
+        },
+        "txt": {
+          "container": {
+            "value": {
+              "itemSpacing": "{ref.spacing.50}",
+              "paddingTop": "{ref.spacing.100}"
+            },
+            "type": "composition"
+          },
+          "title": {
+            "value": {
+              "typography": "{sem.typography.textStyle.label.body.md}",
+              "fill": "{sem.colorText.strong}"
+            },
+            "type": "composition"
+          },
+          "description": {
+            "value": {
+              "typography": "{sem.typography.textStyle.paragraph.md.default}",
+              "fill": "{sem.colorText.default}"
+            },
+            "type": "composition"
+          }
+        },
+        "container": {
+          "spacer": {
+            "value": {
+              "itemSpacing": "{ref.spacing.100}"
+            },
+            "type": "composition"
+          }
+        }
       }
     },
     "chips": {
