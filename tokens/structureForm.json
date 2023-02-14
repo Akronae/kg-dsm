@@ -76,7 +76,8 @@
           "fill": "{sem.colorBackground.dark}",
           "horizontalPadding": "{ref.spacing.500}",
           "paddingTop": "{ref.spacing.950}",
-          "paddingBottom": "{ref.spacing.850}"
+          "paddingBottom": "{ref.spacing.850}",
+          "width": "{sem.containerSize.maxWidth.sm}"
         },
         "type": "composition"
       },
