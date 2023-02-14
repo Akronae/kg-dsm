@@ -428,64 +428,108 @@
       }
     },
     "link": {
-      "md": {
-        "default": {
-          "value": {
-            "typography": "{sem.typography.textStyle.link.md}",
-            "fill": "{sem.colorText.link.default}"
+      "text": {
+        "md": {
+          "default": {
+            "value": {
+              "typography": "{sem.typography.textStyle.link.md}",
+              "fill": "{sem.colorText.link.default}"
+            },
+            "type": "composition"
           },
-          "type": "composition"
+          "hover": {
+            "value": {
+              "typography": "{sem.typography.textStyle.link.md}",
+              "fill": "{sem.colorText.link.hover}"
+            },
+            "type": "composition"
+          },
+          "pressed": {
+            "value": {
+              "typography": "{sem.typography.textStyle.link.md}",
+              "fill": "{sem.colorText.link.pressed}"
+            },
+            "type": "composition"
+          },
+          "disabled": {
+            "value": {
+              "typography": "{sem.typography.textStyle.link.md}",
+              "fill": "{sem.colorText.link.disabled}"
+            },
+            "type": "composition"
+          }
         },
-        "hover": {
-          "value": {
-            "typography": "{sem.typography.textStyle.link.md}",
-            "fill": "{sem.colorText.link.hover}"
+        "sm": {
+          "default": {
+            "value": {
+              "typography": "{sem.typography.textStyle.link.sm}",
+              "fill": "{sem.colorText.link.default}"
+            },
+            "type": "composition"
           },
-          "type": "composition"
-        },
-        "pressed": {
-          "value": {
-            "typography": "{sem.typography.textStyle.link.md}",
-            "fill": "{sem.colorText.link.pressed}"
+          "hover": {
+            "value": {
+              "typography": "{sem.typography.textStyle.link.sm}",
+              "fill": "{sem.colorText.link.hover}"
+            },
+            "type": "composition"
           },
-          "type": "composition"
-        },
-        "disabled": {
-          "value": {
-            "typography": "{sem.typography.textStyle.link.md}",
-            "fill": "{sem.colorText.link.disabled}"
+          "pressed": {
+            "value": {
+              "typography": "{sem.typography.textStyle.link.sm}",
+              "fill": "{sem.colorText.link.pressed}"
+            },
+            "type": "composition"
           },
-          "type": "composition"
+          "disabled": {
+            "value": {
+              "typography": "{sem.typography.textStyle.link.sm}",
+              "fill": "{sem.colorText.link.disabled}"
+            },
+            "type": "composition"
+          }
         }
       },
-      "sm": {
-        "default": {
-          "value": {
-            "typography": "{sem.typography.textStyle.link.sm}",
-            "fill": "{sem.colorText.link.default}"
+      "icon": {
+        "size": {
+          "sm": {
+            "value": {
+              "sizing": "{ref.sizing.90}"
+            },
+            "type": "composition"
           },
-          "type": "composition"
+          "md": {
+            "value": {
+              "sizing": "{ref.sizing.100}"
+            },
+            "type": "composition"
+          }
         },
-        "hover": {
-          "value": {
-            "typography": "{sem.typography.textStyle.link.sm}",
-            "fill": "{sem.colorText.link.hover}"
+        "color": {
+          "default": {
+            "value": {
+              "borderColor": "{sem.colorIcon.black}"
+            },
+            "type": "composition"
           },
-          "type": "composition"
-        },
-        "pressed": {
-          "value": {
-            "typography": "{sem.typography.textStyle.link.sm}",
-            "fill": "{sem.colorText.link.pressed}"
+          "hover": {
+            "value": {
+              "borderColor": "{sem.colorAction.primary.hover}"
+            },
+            "type": "composition"
           },
-          "type": "composition"
-        },
-        "disabled": {
-          "value": {
-            "typography": "{sem.typography.textStyle.link.sm}",
-            "fill": "{sem.colorText.link.disabled}"
+          "pressed": {
+            "value": {
+              "borderColor": "{sem.colorAction.primary.pressed}"
+            },
+            "type": "composition"
           },
-          "type": "composition"
+          "disabled": {
+            "value": {
+              "borderColor": "{sem.colorAction.primary.disabled}"
+            },
+            "type": "composition"
+          }
         }
       }
     },
