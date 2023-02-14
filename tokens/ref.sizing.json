@@ -89,6 +89,18 @@
       "600": {
         "value": "56px",
         "type": "sizing"
+      },
+      "700": {
+        "value": "320px",
+        "type": "sizing"
+      },
+      "800": {
+        "value": "448px",
+        "type": "sizing"
+      },
+      "900": {
+        "value": "536px",
+        "type": "sizing"
       }
     }
   }

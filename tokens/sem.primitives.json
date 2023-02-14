@@ -1038,13 +1038,18 @@
     },
     "containerSize": {
       "maxWidth": {
+        "xs": {
+          "value": "{ref.sizing.700}",
+          "type": "sizing",
+          "description": "max width"
+        },
         "sm": {
-          "value": "448px",
+          "value": "{ref.sizing.800}",
           "type": "sizing",
           "description": "max width"
         },
         "md": {
-          "value": "536px",
+          "value": "{ref.sizing.900}",
           "type": "sizing",
           "description": "max width"
         }
