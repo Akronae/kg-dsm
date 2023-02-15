@@ -534,942 +534,1166 @@
       }
     },
     "button": {
-      "rectangular": {
-        "container": {
-          "primary": {
-            "sm": {
-              "default": {
-                "value": {
-                  "borderRadius": "{ref.borderRadius.200}",
-                  "spacing": "{ref.spacing.100}",
-                  "verticalPadding": "{ref.spacing.100}",
-                  "horizontalPadding": "{ref.spacing.100}",
-                  "itemSpacing": "{ref.spacing.50}",
-                  "fill": "{sem.colorAction.primary.default}"
-                },
-                "type": "composition"
-              },
-              "hover": {
-                "value": {
-                  "borderRadius": "{ref.borderRadius.200}",
-                  "spacing": "{ref.spacing.100}",
-                  "verticalPadding": "{ref.spacing.100}",
-                  "horizontalPadding": "{ref.spacing.100}",
-                  "itemSpacing": "{ref.spacing.50}",
-                  "fill": "{sem.colorAction.primary.hover}"
-                },
-                "type": "composition"
-              },
-              "pressed": {
-                "value": {
-                  "borderRadius": "{ref.borderRadius.200}",
-                  "spacing": "{ref.spacing.100}",
-                  "verticalPadding": "{ref.spacing.100}",
-                  "horizontalPadding": "{ref.spacing.100}",
-                  "itemSpacing": "{ref.spacing.50}",
-                  "fill": "{sem.colorAction.primary.pressed}"
-                },
-                "type": "composition"
-              },
-              "disabled": {
-                "value": {
-                  "borderRadius": "{ref.borderRadius.200}",
-                  "spacing": "{ref.spacing.100}",
-                  "verticalPadding": "{ref.spacing.100}",
-                  "horizontalPadding": "{ref.spacing.100}",
-                  "itemSpacing": "{ref.spacing.50}",
-                  "fill": "{sem.colorAction.primary.disabled}"
-                },
-                "type": "composition"
-              }
-            },
-            "md": {
-              "default": {
-                "value": {
-                  "borderRadius": "{ref.borderRadius.300}",
-                  "spacing": "{ref.spacing.100}",
-                  "verticalPadding": "{ref.spacing.150}",
-                  "horizontalPadding": "{ref.spacing.200}",
-                  "itemSpacing": "{ref.spacing.100}",
-                  "fill": "{sem.colorAction.primary.default}"
-                },
-                "type": "composition"
-              },
-              "hover": {
-                "value": {
-                  "borderRadius": "{ref.borderRadius.300}",
-                  "spacing": "{ref.spacing.100}",
-                  "verticalPadding": "{ref.spacing.150}",
-                  "horizontalPadding": "{ref.spacing.200}",
-                  "itemSpacing": "{ref.spacing.100}",
-                  "fill": "{sem.colorAction.primary.hover}"
-                },
-                "type": "composition"
-              },
-              "pressed": {
-                "value": {
-                  "borderRadius": "{ref.borderRadius.300}",
-                  "spacing": "{ref.spacing.100}",
-                  "verticalPadding": "{ref.spacing.150}",
-                  "horizontalPadding": "{ref.spacing.200}",
-                  "itemSpacing": "{ref.spacing.100}",
-                  "fill": "{sem.colorAction.primary.pressed}"
-                },
-                "type": "composition"
-              },
-              "disabled": {
-                "value": {
-                  "borderRadius": "{ref.borderRadius.300}",
-                  "spacing": "{ref.spacing.100}",
-                  "verticalPadding": "{ref.spacing.150}",
-                  "horizontalPadding": "{ref.spacing.200}",
-                  "itemSpacing": "{ref.spacing.100}",
-                  "fill": "{sem.colorAction.primary.disabled}"
-                },
-                "type": "composition"
-              }
-            },
-            "lg": {
-              "default": {
-                "value": {
-                  "borderRadius": "{ref.borderRadius.300}",
-                  "verticalPadding": "{ref.spacing.200}",
-                  "horizontalPadding": "{ref.spacing.300}",
-                  "itemSpacing": "{ref.spacing.100}",
-                  "fill": "{sem.colorAction.primary.default}"
-                },
-                "type": "composition"
-              },
-              "hover": {
-                "value": {
-                  "borderRadius": "{ref.borderRadius.300}",
-                  "verticalPadding": "{ref.spacing.200}",
-                  "horizontalPadding": "{ref.spacing.300}",
-                  "itemSpacing": "{ref.spacing.100}",
-                  "fill": "{sem.colorAction.primary.hover}"
-                },
-                "type": "composition"
-              },
-              "pressed": {
-                "value": {
-                  "borderRadius": "{ref.borderRadius.300}",
-                  "spacing": "{ref.spacing.100}",
-                  "verticalPadding": "{ref.spacing.200}",
-                  "horizontalPadding": "{ref.spacing.300}",
-                  "itemSpacing": "{ref.spacing.100}",
-                  "fill": "{sem.colorAction.primary.pressed}"
-                },
-                "type": "composition"
-              },
-              "disabled": {
-                "value": {
-                  "borderRadius": "{ref.borderRadius.300}",
-                  "spacing": "{ref.spacing.100}",
-                  "verticalPadding": "{ref.spacing.200}",
-                  "horizontalPadding": "{ref.spacing.300}",
-                  "itemSpacing": "{ref.spacing.100}",
-                  "fill": "{sem.colorAction.primary.disabled}"
-                },
-                "type": "composition"
-              }
-            }
-          },
-          "secondary": {
-            "sm": {
-              "default": {
-                "value": {
-                  "borderRadius": "{ref.borderRadius.200}",
-                  "spacing": "{ref.spacing.100}",
-                  "verticalPadding": "{ref.spacing.100}",
-                  "horizontalPadding": "{ref.spacing.100}",
-                  "itemSpacing": "{ref.spacing.50}",
-                  "fill": "{sem.colorAction.secondary.default}"
-                },
-                "type": "composition"
-              },
-              "hover": {
-                "value": {
-                  "borderRadius": "{ref.borderRadius.200}",
-                  "spacing": "{ref.spacing.100}",
-                  "verticalPadding": "{ref.spacing.100}",
-                  "horizontalPadding": "{ref.spacing.100}",
-                  "itemSpacing": "{ref.spacing.50}",
-                  "fill": "{sem.colorAction.secondary.hover}"
-                },
-                "type": "composition"
-              },
-              "pressed": {
-                "value": {
-                  "borderRadius": "{ref.borderRadius.200}",
-                  "spacing": "{ref.spacing.100}",
-                  "verticalPadding": "{ref.spacing.100}",
-                  "horizontalPadding": "{ref.spacing.100}",
-                  "itemSpacing": "{ref.spacing.50}",
-                  "fill": "{sem.colorAction.secondary.pressed}"
-                },
-                "type": "composition"
-              },
-              "disabled": {
-                "value": {
-                  "borderRadius": "{ref.borderRadius.200}",
-                  "spacing": "{ref.spacing.100}",
-                  "verticalPadding": "{ref.spacing.100}",
-                  "horizontalPadding": "{ref.spacing.100}",
-                  "itemSpacing": "{ref.spacing.50}",
-                  "fill": "{sem.colorAction.secondary.disabled}"
-                },
-                "type": "composition"
-              }
-            },
-            "md": {
-              "default": {
-                "value": {
-                  "borderRadius": "{ref.borderRadius.300}",
-                  "spacing": "{ref.spacing.100}",
-                  "verticalPadding": "{ref.spacing.150}",
-                  "horizontalPadding": "{ref.spacing.200}",
-                  "itemSpacing": "{ref.spacing.100}",
-                  "fill": "{sem.colorAction.secondary.default}"
-                },
-                "type": "composition"
-              },
-              "hover": {
-                "value": {
-                  "borderRadius": "{ref.borderRadius.300}",
-                  "spacing": "{ref.spacing.100}",
-                  "verticalPadding": "{ref.spacing.150}",
-                  "horizontalPadding": "{ref.spacing.200}",
-                  "itemSpacing": "{ref.spacing.100}",
-                  "fill": "{sem.colorAction.secondary.hover}"
-                },
-                "type": "composition"
-              },
-              "pressed": {
-                "value": {
-                  "borderRadius": "{ref.borderRadius.300}",
-                  "spacing": "{ref.spacing.100}",
-                  "verticalPadding": "{ref.spacing.150}",
-                  "horizontalPadding": "{ref.spacing.200}",
-                  "itemSpacing": "{ref.spacing.100}",
-                  "fill": "{sem.colorAction.secondary.pressed}"
-                },
-                "type": "composition"
-              },
-              "disabled": {
-                "value": {
-                  "borderRadius": "{ref.borderRadius.300}",
-                  "spacing": "{ref.spacing.100}",
-                  "verticalPadding": "{ref.spacing.150}",
-                  "horizontalPadding": "{ref.spacing.200}",
-                  "itemSpacing": "{ref.spacing.100}",
-                  "fill": "{sem.colorAction.secondary.disabled}"
-                },
-                "type": "composition"
-              }
-            },
-            "lg": {
-              "default": {
-                "value": {
-                  "borderRadius": "{ref.borderRadius.300}",
-                  "spacing": "{ref.spacing.100}",
-                  "verticalPadding": "{ref.spacing.200}",
-                  "horizontalPadding": "{ref.spacing.300}",
-                  "itemSpacing": "{ref.spacing.100}",
-                  "fill": "{sem.colorAction.secondary.default}"
-                },
-                "type": "composition"
-              },
-              "hover": {
-                "value": {
-                  "borderRadius": "{ref.borderRadius.300}",
-                  "spacing": "{ref.spacing.100}",
-                  "verticalPadding": "{ref.spacing.200}",
-                  "horizontalPadding": "{ref.spacing.300}",
-                  "itemSpacing": "{ref.spacing.100}",
-                  "fill": "{sem.colorAction.secondary.hover}"
-                },
-                "type": "composition"
-              },
-              "pressed": {
-                "value": {
-                  "borderRadius": "{ref.borderRadius.300}",
-                  "spacing": "{ref.spacing.100}",
-                  "verticalPadding": "{ref.spacing.200}",
-                  "horizontalPadding": "{ref.spacing.300}",
-                  "itemSpacing": "{ref.spacing.100}",
-                  "fill": "{sem.colorAction.secondary.pressed}"
-                },
-                "type": "composition"
-              },
-              "disabled": {
-                "value": {
-                  "borderRadius": "{ref.borderRadius.300}",
-                  "spacing": "{ref.spacing.100}",
-                  "verticalPadding": "{ref.spacing.200}",
-                  "horizontalPadding": "{ref.spacing.300}",
-                  "itemSpacing": "{ref.spacing.100}",
-                  "fill": "{sem.colorAction.secondary.disabled}"
-                },
-                "type": "composition"
-              }
-            }
-          },
-          "ghost": {
-            "sm": {
-              "default": {
-                "value": {
-                  "borderRadius": "{ref.borderRadius.200}",
-                  "spacing": "{ref.spacing.100}",
-                  "verticalPadding": "{ref.spacing.100}",
-                  "horizontalPadding": "{ref.spacing.100}",
-                  "itemSpacing": "{ref.spacing.50}",
-                  "fill": "{sem.colorAction.ghost.default}",
-                  "border": "{sem.border.diminished}"
-                },
-                "type": "composition"
-              },
-              "hover": {
-                "value": {
-                  "borderRadius": "{ref.borderRadius.200}",
-                  "spacing": "{ref.spacing.100}",
-                  "verticalPadding": "{ref.spacing.100}",
-                  "horizontalPadding": "{ref.spacing.100}",
-                  "itemSpacing": "{ref.spacing.50}",
-                  "fill": "{sem.colorAction.ghost.hover}",
-                  "border": "{sem.border.diminished}"
-                },
-                "type": "composition"
-              },
-              "pressed": {
-                "value": {
-                  "borderRadius": "{ref.borderRadius.200}",
-                  "spacing": "{ref.spacing.100}",
-                  "verticalPadding": "{ref.spacing.100}",
-                  "horizontalPadding": "{ref.spacing.100}",
-                  "itemSpacing": "{ref.spacing.50}",
-                  "fill": "{sem.colorAction.ghost.pressed}",
-                  "border": "{sem.border.diminished}"
-                },
-                "type": "composition"
-              },
-              "disabled": {
-                "value": {
-                  "borderRadius": "{ref.borderRadius.200}",
-                  "spacing": "{ref.spacing.100}",
-                  "verticalPadding": "{ref.spacing.100}",
-                  "horizontalPadding": "{ref.spacing.100}",
-                  "itemSpacing": "{ref.spacing.50}",
-                  "fill": "{sem.colorAction.ghost.disabled}",
-                  "border": "{sem.border.diminished}"
-                },
-                "type": "composition"
-              }
-            },
-            "md": {
-              "default": {
-                "value": {
-                  "borderRadius": "{ref.borderRadius.300}",
-                  "spacing": "{ref.spacing.100}",
-                  "verticalPadding": "{ref.spacing.150}",
-                  "horizontalPadding": "{ref.spacing.200}",
-                  "itemSpacing": "{ref.spacing.100}",
-                  "fill": "{sem.colorAction.ghost.default}",
-                  "border": "{sem.border.diminished}"
-                },
-                "type": "composition"
-              },
-              "hover": {
-                "value": {
-                  "borderRadius": "{ref.borderRadius.300}",
-                  "spacing": "{ref.spacing.100}",
-                  "verticalPadding": "{ref.spacing.150}",
-                  "horizontalPadding": "{ref.spacing.200}",
-                  "itemSpacing": "{ref.spacing.100}",
-                  "fill": "{sem.colorAction.ghost.hover}",
-                  "border": "{sem.border.diminished}"
-                },
-                "type": "composition"
-              },
-              "pressed": {
-                "value": {
-                  "borderRadius": "{ref.borderRadius.300}",
-                  "spacing": "{ref.spacing.100}",
-                  "verticalPadding": "{ref.spacing.150}",
-                  "horizontalPadding": "{ref.spacing.200}",
-                  "itemSpacing": "{ref.spacing.100}",
-                  "fill": "{sem.colorAction.ghost.pressed}",
-                  "border": "{sem.border.diminished}"
-                },
-                "type": "composition"
-              },
-              "disabled": {
-                "value": {
-                  "borderRadius": "{ref.borderRadius.300}",
-                  "spacing": "{ref.spacing.100}",
-                  "verticalPadding": "{ref.spacing.150}",
-                  "horizontalPadding": "{ref.spacing.200}",
-                  "itemSpacing": "{ref.spacing.100}",
-                  "fill": "{sem.colorAction.ghost.disabled}",
-                  "border": "{sem.border.diminished}"
-                },
-                "type": "composition"
-              }
-            },
-            "lg": {
-              "default": {
-                "value": {
-                  "borderRadius": "{ref.borderRadius.300}",
-                  "spacing": "{ref.spacing.100}",
-                  "verticalPadding": "{ref.spacing.200}",
-                  "horizontalPadding": "{ref.spacing.300}",
-                  "itemSpacing": "{ref.spacing.100}",
-                  "fill": "{sem.colorAction.ghost.default}",
-                  "border": "{sem.border.diminished}"
-                },
-                "type": "composition"
-              },
-              "hover": {
-                "value": {
-                  "borderRadius": "{ref.borderRadius.300}",
-                  "spacing": "{ref.spacing.100}",
-                  "verticalPadding": "{ref.spacing.200}",
-                  "horizontalPadding": "{ref.spacing.300}",
-                  "itemSpacing": "{ref.spacing.100}",
-                  "fill": "{sem.colorAction.ghost.hover}",
-                  "border": "{sem.border.diminished}"
-                },
-                "type": "composition"
-              },
-              "pressed": {
-                "value": {
-                  "borderRadius": "{ref.borderRadius.300}",
-                  "spacing": "{ref.spacing.100}",
-                  "verticalPadding": "{ref.spacing.200}",
-                  "horizontalPadding": "{ref.spacing.300}",
-                  "itemSpacing": "{ref.spacing.100}",
-                  "fill": "{sem.colorAction.ghost.pressed}",
-                  "border": "{sem.border.diminished}"
-                },
-                "type": "composition"
-              },
-              "disabled": {
-                "value": {
-                  "borderRadius": "{ref.borderRadius.300}",
-                  "spacing": "{ref.spacing.100}",
-                  "verticalPadding": "{ref.spacing.200}",
-                  "horizontalPadding": "{ref.spacing.300}",
-                  "itemSpacing": "{ref.spacing.100}",
-                  "fill": "{sem.colorAction.ghost.disabled}",
-                  "border": "{sem.border.diminished}"
-                },
-                "type": "composition"
-              }
-            }
-          },
-          "success": {
-            "sm": {
-              "default": {
-                "value": {
-                  "borderRadius": "{ref.borderRadius.200}",
-                  "spacing": "{ref.spacing.100}",
-                  "verticalPadding": "{ref.spacing.100}",
-                  "horizontalPadding": "{ref.spacing.100}",
-                  "itemSpacing": "{ref.spacing.50}",
-                  "fill": "{sem.colorAction.success.default}"
-                },
-                "type": "composition"
-              },
-              "hover": {
-                "value": {
-                  "borderRadius": "{ref.borderRadius.200}",
-                  "spacing": "{ref.spacing.100}",
-                  "verticalPadding": "{ref.spacing.100}",
-                  "horizontalPadding": "{ref.spacing.100}",
-                  "itemSpacing": "{ref.spacing.50}",
-                  "fill": "{sem.colorAction.success.hover}"
-                },
-                "type": "composition"
-              },
-              "pressed": {
-                "value": {
-                  "borderRadius": "{ref.borderRadius.200}",
-                  "spacing": "{ref.spacing.100}",
-                  "verticalPadding": "{ref.spacing.100}",
-                  "horizontalPadding": "{ref.spacing.100}",
-                  "itemSpacing": "{ref.spacing.50}",
-                  "fill": "{sem.colorAction.success.pressed}"
-                },
-                "type": "composition"
-              },
-              "disabled": {
-                "value": {
-                  "borderRadius": "{ref.borderRadius.200}",
-                  "spacing": "{ref.spacing.100}",
-                  "verticalPadding": "{ref.spacing.100}",
-                  "horizontalPadding": "{ref.spacing.100}",
-                  "itemSpacing": "{ref.spacing.50}",
-                  "fill": "{sem.colorAction.success.disabled}"
-                },
-                "type": "composition"
-              }
-            },
-            "md": {
-              "default": {
-                "value": {
-                  "borderRadius": "{ref.borderRadius.300}",
-                  "spacing": "{ref.spacing.100}",
-                  "verticalPadding": "{ref.spacing.150}",
-                  "horizontalPadding": "{ref.spacing.200}",
-                  "itemSpacing": "{ref.spacing.100}",
-                  "fill": "{sem.colorAction.success.default}"
-                },
-                "type": "composition"
-              },
-              "hover": {
-                "value": {
-                  "borderRadius": "{ref.borderRadius.300}",
-                  "spacing": "{ref.spacing.100}",
-                  "verticalPadding": "{ref.spacing.150}",
-                  "horizontalPadding": "{ref.spacing.200}",
-                  "itemSpacing": "{ref.spacing.100}",
-                  "fill": "{sem.colorAction.success.hover}"
-                },
-                "type": "composition"
-              },
-              "pressed": {
-                "value": {
-                  "borderRadius": "{ref.borderRadius.300}",
-                  "spacing": "{ref.spacing.100}",
-                  "verticalPadding": "{ref.spacing.150}",
-                  "horizontalPadding": "{ref.spacing.200}",
-                  "itemSpacing": "{ref.spacing.100}",
-                  "fill": "{sem.colorAction.success.pressed}"
-                },
-                "type": "composition"
-              },
-              "disabled": {
-                "value": {
-                  "borderRadius": "{ref.borderRadius.300}",
-                  "spacing": "{ref.spacing.100}",
-                  "verticalPadding": "{ref.spacing.150}",
-                  "horizontalPadding": "{ref.spacing.200}",
-                  "itemSpacing": "{ref.spacing.100}",
-                  "fill": "{sem.colorAction.success.disabled}"
-                },
-                "type": "composition"
-              }
-            },
-            "lg": {
-              "default": {
-                "value": {
-                  "borderRadius": "{ref.borderRadius.300}",
-                  "spacing": "{ref.spacing.100}",
-                  "verticalPadding": "{ref.spacing.200}",
-                  "horizontalPadding": "{ref.spacing.300}",
-                  "itemSpacing": "{ref.spacing.100}",
-                  "fill": "{sem.colorAction.success.default}"
-                },
-                "type": "composition"
-              },
-              "hover": {
-                "value": {
-                  "borderRadius": "{ref.borderRadius.300}",
-                  "spacing": "{ref.spacing.100}",
-                  "verticalPadding": "{ref.spacing.200}",
-                  "horizontalPadding": "{ref.spacing.300}",
-                  "itemSpacing": "{ref.spacing.100}",
-                  "fill": "{sem.colorAction.success.hover}"
-                },
-                "type": "composition"
-              },
-              "pressed": {
-                "value": {
-                  "borderRadius": "{ref.borderRadius.300}",
-                  "spacing": "{ref.spacing.100}",
-                  "verticalPadding": "{ref.spacing.200}",
-                  "horizontalPadding": "{ref.spacing.300}",
-                  "itemSpacing": "{ref.spacing.100}",
-                  "fill": "{sem.colorAction.success.pressed}"
-                },
-                "type": "composition"
-              },
-              "disabled": {
-                "value": {
-                  "borderRadius": "{ref.borderRadius.300}",
-                  "spacing": "{ref.spacing.100}",
-                  "verticalPadding": "{ref.spacing.200}",
-                  "horizontalPadding": "{ref.spacing.300}",
-                  "itemSpacing": "{ref.spacing.100}",
-                  "fill": "{sem.colorAction.success.disabled}"
-                },
-                "type": "composition"
-              }
-            }
-          },
-          "external": {
-            "sm": {
-              "default": {
-                "value": {
-                  "borderRadius": "{ref.borderRadius.200}",
-                  "spacing": "{ref.spacing.100}",
-                  "verticalPadding": "{ref.spacing.100}",
-                  "horizontalPadding": "{ref.spacing.100}",
-                  "itemSpacing": "{ref.spacing.50}",
-                  "fill": "{sem.colorAction.external.default}"
-                },
-                "type": "composition"
-              },
-              "hover": {
-                "value": {
-                  "borderRadius": "{ref.borderRadius.200}",
-                  "spacing": "{ref.spacing.100}",
-                  "verticalPadding": "{ref.spacing.100}",
-                  "horizontalPadding": "{ref.spacing.100}",
-                  "itemSpacing": "{ref.spacing.50}",
-                  "fill": "{sem.colorAction.external.hover}"
-                },
-                "type": "composition"
-              },
-              "pressed": {
-                "value": {
-                  "borderRadius": "{ref.borderRadius.200}",
-                  "spacing": "{ref.spacing.100}",
-                  "verticalPadding": "{ref.spacing.100}",
-                  "horizontalPadding": "{ref.spacing.100}",
-                  "itemSpacing": "{ref.spacing.50}",
-                  "fill": "{sem.colorAction.external.pressed}"
-                },
-                "type": "composition"
-              },
-              "disabled": {
-                "value": {
-                  "borderRadius": "{ref.borderRadius.200}",
-                  "spacing": "{ref.spacing.100}",
-                  "verticalPadding": "{ref.spacing.100}",
-                  "horizontalPadding": "{ref.spacing.100}",
-                  "itemSpacing": "{ref.spacing.50}",
-                  "fill": "{sem.colorAction.external.disabled}"
-                },
-                "type": "composition"
-              }
-            },
-            "md": {
-              "default": {
-                "value": {
-                  "borderRadius": "{ref.borderRadius.300}",
-                  "spacing": "{ref.spacing.100}",
-                  "verticalPadding": "{ref.spacing.150}",
-                  "horizontalPadding": "{ref.spacing.200}",
-                  "itemSpacing": "{ref.spacing.100}",
-                  "fill": "{sem.colorAction.external.default}"
-                },
-                "type": "composition"
-              },
-              "hover": {
-                "value": {
-                  "borderRadius": "{ref.borderRadius.300}",
-                  "spacing": "{ref.spacing.100}",
-                  "verticalPadding": "{ref.spacing.150}",
-                  "horizontalPadding": "{ref.spacing.200}",
-                  "itemSpacing": "{ref.spacing.100}",
-                  "fill": "{sem.colorAction.external.hover}"
-                },
-                "type": "composition"
-              },
-              "pressed": {
-                "value": {
-                  "borderRadius": "{ref.borderRadius.300}",
-                  "spacing": "{ref.spacing.100}",
-                  "verticalPadding": "{ref.spacing.150}",
-                  "horizontalPadding": "{ref.spacing.200}",
-                  "itemSpacing": "{ref.spacing.100}",
-                  "fill": "{sem.colorAction.external.pressed}"
-                },
-                "type": "composition"
-              },
-              "disabled": {
-                "value": {
-                  "borderRadius": "{ref.borderRadius.300}",
-                  "spacing": "{ref.spacing.100}",
-                  "verticalPadding": "{ref.spacing.150}",
-                  "horizontalPadding": "{ref.spacing.200}",
-                  "itemSpacing": "{ref.spacing.100}",
-                  "fill": "{sem.colorAction.external.disabled}"
-                },
-                "type": "composition"
-              }
-            },
-            "lg": {
-              "default": {
-                "value": {
-                  "borderRadius": "{ref.borderRadius.300}",
-                  "spacing": "{ref.spacing.100}",
-                  "verticalPadding": "{ref.spacing.200}",
-                  "horizontalPadding": "{ref.spacing.300}",
-                  "itemSpacing": "{ref.spacing.100}",
-                  "fill": "{sem.colorAction.external.default}"
-                },
-                "type": "composition"
-              },
-              "hover": {
-                "value": {
-                  "borderRadius": "{ref.borderRadius.300}",
-                  "spacing": "{ref.spacing.100}",
-                  "verticalPadding": "{ref.spacing.200}",
-                  "horizontalPadding": "{ref.spacing.300}",
-                  "itemSpacing": "{ref.spacing.100}",
-                  "fill": "{sem.colorAction.external.hover}"
-                },
-                "type": "composition"
-              },
-              "pressed": {
-                "value": {
-                  "borderRadius": "{ref.borderRadius.300}",
-                  "spacing": "{ref.spacing.100}",
-                  "verticalPadding": "{ref.spacing.200}",
-                  "horizontalPadding": "{ref.spacing.300}",
-                  "itemSpacing": "{ref.spacing.100}",
-                  "fill": "{sem.colorAction.external.pressed}"
-                },
-                "type": "composition"
-              },
-              "disabled": {
-                "value": {
-                  "borderRadius": "{ref.borderRadius.300}",
-                  "spacing": "{ref.spacing.100}",
-                  "verticalPadding": "{ref.spacing.200}",
-                  "horizontalPadding": "{ref.spacing.300}",
-                  "itemSpacing": "{ref.spacing.100}",
-                  "fill": "{sem.colorAction.external.disabled}"
-                },
-                "type": "composition"
-              }
-            }
-          },
-          "danger": {
-            "sm": {
-              "default": {
-                "value": {
-                  "borderRadius": "{ref.borderRadius.200}",
-                  "spacing": "{ref.spacing.100}",
-                  "verticalPadding": "{ref.spacing.100}",
-                  "horizontalPadding": "{ref.spacing.100}",
-                  "itemSpacing": "{ref.spacing.50}",
-                  "fill": "{sem.colorAction.danger.default}"
-                },
-                "type": "composition"
-              },
-              "hover": {
-                "value": {
-                  "borderRadius": "{ref.borderRadius.200}",
-                  "spacing": "{ref.spacing.100}",
-                  "verticalPadding": "{ref.spacing.100}",
-                  "horizontalPadding": "{ref.spacing.100}",
-                  "itemSpacing": "{ref.spacing.50}",
-                  "fill": "{sem.colorAction.danger.hover}"
-                },
-                "type": "composition"
-              },
-              "pressed": {
-                "value": {
-                  "borderRadius": "{ref.borderRadius.200}",
-                  "spacing": "{ref.spacing.100}",
-                  "verticalPadding": "{ref.spacing.100}",
-                  "horizontalPadding": "{ref.spacing.100}",
-                  "itemSpacing": "{ref.spacing.50}",
-                  "fill": "{sem.colorAction.danger.hover}"
-                },
-                "type": "composition"
-              },
-              "disabled": {
-                "value": {
-                  "borderRadius": "{ref.borderRadius.200}",
-                  "spacing": "{ref.spacing.100}",
-                  "verticalPadding": "{ref.spacing.100}",
-                  "horizontalPadding": "{ref.spacing.100}",
-                  "itemSpacing": "{ref.spacing.50}",
-                  "fill": "{sem.colorAction.danger.disabled}"
-                },
-                "type": "composition"
-              }
-            },
-            "md": {
-              "default": {
-                "value": {
-                  "borderRadius": "{ref.borderRadius.300}",
-                  "spacing": "{ref.spacing.100}",
-                  "verticalPadding": "{ref.spacing.150}",
-                  "horizontalPadding": "{ref.spacing.200}",
-                  "itemSpacing": "{ref.spacing.100}",
-                  "fill": "{sem.colorAction.danger.default}"
-                },
-                "type": "composition"
-              },
-              "hover": {
-                "value": {
-                  "borderRadius": "{ref.borderRadius.300}",
-                  "spacing": "{ref.spacing.100}",
-                  "verticalPadding": "{ref.spacing.150}",
-                  "horizontalPadding": "{ref.spacing.200}",
-                  "itemSpacing": "{ref.spacing.100}",
-                  "fill": "{sem.colorAction.danger.hover}"
-                },
-                "type": "composition"
-              },
-              "pressed": {
-                "value": {
-                  "borderRadius": "{ref.borderRadius.300}",
-                  "spacing": "{ref.spacing.100}",
-                  "verticalPadding": "{ref.spacing.150}",
-                  "horizontalPadding": "{ref.spacing.200}",
-                  "itemSpacing": "{ref.spacing.100}",
-                  "fill": "{sem.colorAction.danger.pressed}"
-                },
-                "type": "composition"
-              },
-              "disabled": {
-                "value": {
-                  "borderRadius": "{ref.borderRadius.300}",
-                  "spacing": "{ref.spacing.100}",
-                  "verticalPadding": "{ref.spacing.150}",
-                  "horizontalPadding": "{ref.spacing.200}",
-                  "itemSpacing": "{ref.spacing.100}",
-                  "fill": "{sem.colorAction.danger.disabled}"
-                },
-                "type": "composition"
-              }
-            },
-            "lg": {
-              "default": {
-                "value": {
-                  "borderRadius": "{ref.borderRadius.300}",
-                  "spacing": "{ref.spacing.100}",
-                  "verticalPadding": "{ref.spacing.200}",
-                  "horizontalPadding": "{ref.spacing.300}",
-                  "itemSpacing": "{ref.spacing.100}",
-                  "fill": "{sem.colorAction.danger.default}"
-                },
-                "type": "composition"
-              },
-              "hover": {
-                "value": {
-                  "borderRadius": "{ref.borderRadius.300}",
-                  "spacing": "{ref.spacing.100}",
-                  "verticalPadding": "{ref.spacing.200}",
-                  "horizontalPadding": "{ref.spacing.300}",
-                  "itemSpacing": "{ref.spacing.100}",
-                  "fill": "{sem.colorAction.danger.hover}"
-                },
-                "type": "composition"
-              },
-              "pressed": {
-                "value": {
-                  "borderRadius": "{ref.borderRadius.300}",
-                  "spacing": "{ref.spacing.100}",
-                  "verticalPadding": "{ref.spacing.200}",
-                  "horizontalPadding": "{ref.spacing.300}",
-                  "itemSpacing": "{ref.spacing.100}",
-                  "fill": "{sem.colorAction.danger.pressed}"
-                },
-                "type": "composition"
-              },
-              "disabled": {
-                "value": {
-                  "borderRadius": "{ref.borderRadius.300}",
-                  "spacing": "{ref.spacing.100}",
-                  "verticalPadding": "{ref.spacing.200}",
-                  "horizontalPadding": "{ref.spacing.300}",
-                  "itemSpacing": "{ref.spacing.100}",
-                  "fill": "{sem.colorAction.danger.disabled}"
-                },
-                "type": "composition"
-              }
-            }
-          }
-        },
-        "icon": {
-          "size": {
-            "sm": {
-              "value": {
-                "sizing": "{ref.sizing.100}"
-              },
-              "type": "composition"
-            },
-            "md": {
-              "value": {
-                "sizing": "{ref.sizing.200}"
-              },
-              "type": "composition"
-            },
-            "lg": {
-              "value": {
-                "sizing": "{ref.sizing.300}"
-              },
-              "type": "composition"
-            }
-          },
-          "color": {
-            "dark": {
-              "value": {
-                "borderColor": "{sem.colorIcon.black}"
-              },
-              "type": "composition"
-            },
-            "light": {
-              "value": {
-                "borderColor": "{sem.colorIcon.light}"
-              },
-              "type": "composition"
-            }
-          }
-        },
-        "label": {
+      "primary": {
+        "rectangular": {
           "sm": {
-            "light": {
-              "value": {
-                "typography": "{sem.typography.textStyle.label.button.sm}",
-                "fill": "{sem.colorText.light}"
+            "default": {
+              "container": {
+                "value": {
+                  "borderRadius": "{sem.button.primary.rectangular.borderRadius.sm}",
+                  "verticalPadding": "{sem.button.primary.rectangular.verticalPadding.sm}",
+                  "horizontalPadding": "{sem.button.primary.rectangular.horizontalPadding.sm}",
+                  "itemSpacing": "{sem.button.primary.rectangular.spacing.sm}",
+                  "fill": "{sem.colorAction.primary.default}"
+                },
+                "type": "composition"
               },
-              "type": "composition"
+              "iconSize": {
+                "value": {
+                  "sizing": "{sem.button.primary.rectangular.sizing.sm}"
+                },
+                "type": "composition"
+              },
+              "iconColor": {
+                "value": {
+                  "borderColor": "{sem.colorIcon.light}"
+                },
+                "type": "composition"
+              },
+              "label": {
+                "value": {
+                  "typography": "{sem.typography.textStyle.label.button.sm}",
+                  "fill": "{sem.colorText.light}"
+                },
+                "type": "composition"
+              }
             },
-            "dark": {
-              "value": {
-                "typography": "{sem.typography.textStyle.label.button.sm}",
-                "fill": "{sem.colorText.strong}"
+            "hover": {
+              "container": {
+                "value": {
+                  "borderRadius": "{sem.button.primary.rectangular.borderRadius.sm}",
+                  "verticalPadding": "{sem.button.primary.rectangular.verticalPadding.sm}",
+                  "horizontalPadding": "{sem.button.primary.rectangular.horizontalPadding.sm}",
+                  "itemSpacing": "{sem.button.primary.rectangular.spacing.sm}",
+                  "fill": "{sem.colorAction.primary.hover}"
+                },
+                "type": "composition"
               },
-              "type": "composition"
+              "iconSize": {
+                "value": {
+                  "sizing": "{sem.button.primary.rectangular.sizing.sm}"
+                },
+                "type": "composition"
+              },
+              "iconColor": {
+                "value": {
+                  "borderColor": "{sem.colorIcon.light}"
+                },
+                "type": "composition"
+              },
+              "label": {
+                "value": {
+                  "typography": "{sem.typography.textStyle.label.button.sm}",
+                  "fill": "{sem.colorText.light}"
+                },
+                "type": "composition"
+              }
+            },
+            "pressed": {
+              "container": {
+                "value": {
+                  "borderRadius": "{sem.button.primary.rectangular.borderRadius.sm}",
+                  "verticalPadding": "{sem.button.primary.rectangular.verticalPadding.sm}",
+                  "horizontalPadding": "{sem.button.primary.rectangular.verticalPadding.sm}",
+                  "itemSpacing": "{sem.button.primary.rectangular.spacing.sm}",
+                  "fill": "{sem.colorAction.primary.pressed}"
+                },
+                "type": "composition"
+              },
+              "iconSize": {
+                "value": {
+                  "sizing": "{sem.button.primary.rectangular.sizing.sm}"
+                },
+                "type": "composition"
+              },
+              "iconColor": {
+                "value": {
+                  "borderColor": "{sem.colorIcon.light}"
+                },
+                "type": "composition"
+              },
+              "label": {
+                "value": {
+                  "typography": "{sem.typography.textStyle.label.button.sm}",
+                  "fill": "{sem.colorText.light}"
+                },
+                "type": "composition"
+              }
+            },
+            "disabled": {
+              "container": {
+                "value": {
+                  "borderRadius": "{sem.button.primary.rectangular.borderRadius.sm}",
+                  "verticalPadding": "{sem.button.primary.rectangular.verticalPadding.sm}",
+                  "horizontalPadding": "{sem.button.primary.rectangular.horizontalPadding.sm}",
+                  "itemSpacing": "{sem.button.primary.rectangular.spacing.sm}",
+                  "fill": "{sem.colorAction.primary.disabled}"
+                },
+                "type": "composition"
+              },
+              "iconSize": {
+                "value": {
+                  "sizing": "{sem.button.primary.rectangular.sizing.sm}"
+                },
+                "type": "composition"
+              },
+              "iconColor": {
+                "value": {
+                  "borderColor": "{sem.colorIcon.light}"
+                },
+                "type": "composition"
+              },
+              "label": {
+                "value": {
+                  "typography": "{sem.typography.textStyle.label.button.sm}",
+                  "fill": "{sem.colorText.light}"
+                },
+                "type": "composition"
+              }
             }
           },
           "md": {
-            "light": {
-              "value": {
-                "typography": "{sem.typography.textStyle.label.button.md}",
-                "fill": "{sem.colorText.light}"
+            "default": {
+              "container": {
+                "value": {
+                  "borderRadius": "{sem.button.primary.rectangular.borderRadius.md}",
+                  "verticalPadding": "{sem.button.primary.rectangular.verticalPadding.md}",
+                  "horizontalPadding": "{sem.button.primary.rectangular.horizontalPadding.md}",
+                  "itemSpacing": "{sem.button.primary.rectangular.spacing.md}",
+                  "fill": "{sem.colorAction.primary.default}"
+                },
+                "type": "composition"
               },
-              "type": "composition"
+              "iconSize": {
+                "value": {
+                  "sizing": "{sem.button.primary.rectangular.sizing.md}"
+                },
+                "type": "composition"
+              },
+              "iconColor": {
+                "value": {
+                  "borderColor": "{sem.colorIcon.light}"
+                },
+                "type": "composition"
+              },
+              "label": {
+                "value": {
+                  "typography": "{sem.typography.textStyle.label.button.md}",
+                  "fill": "{sem.colorText.light}"
+                },
+                "type": "composition"
+              }
             },
-            "dark": {
-              "value": {
-                "typography": "{sem.typography.textStyle.label.button.md}",
-                "fill": "{sem.colorText.strong}"
+            "hover": {
+              "container": {
+                "value": {
+                  "borderRadius": "{sem.button.primary.rectangular.borderRadius.md}",
+                  "verticalPadding": "{sem.button.primary.rectangular.verticalPadding.md}",
+                  "horizontalPadding": "{sem.button.primary.rectangular.horizontalPadding.md}",
+                  "itemSpacing": "{sem.button.primary.rectangular.spacing.md}",
+                  "fill": "{sem.colorAction.primary.hover}"
+                },
+                "type": "composition"
               },
-              "type": "composition"
+              "iconSize": {
+                "value": {
+                  "sizing": "{sem.button.primary.rectangular.sizing.md}"
+                },
+                "type": "composition"
+              },
+              "iconColor": {
+                "value": {
+                  "borderColor": "{sem.colorIcon.light}"
+                },
+                "type": "composition"
+              },
+              "label": {
+                "value": {
+                  "typography": "{sem.typography.textStyle.label.button.md}",
+                  "fill": "{sem.colorText.light}"
+                },
+                "type": "composition"
+              }
+            },
+            "pressed": {
+              "container": {
+                "value": {
+                  "borderRadius": "{sem.button.primary.rectangular.borderRadius.md}",
+                  "verticalPadding": "{sem.button.primary.rectangular.verticalPadding.md}",
+                  "horizontalPadding": "{sem.button.primary.rectangular.horizontalPadding.md}",
+                  "itemSpacing": "{sem.button.primary.rectangular.spacing.md}",
+                  "fill": "{sem.colorAction.primary.pressed}"
+                },
+                "type": "composition"
+              },
+              "iconSize": {
+                "value": {
+                  "sizing": "{sem.button.primary.rectangular.sizing.md}"
+                },
+                "type": "composition"
+              },
+              "iconColor": {
+                "value": {
+                  "borderColor": "{sem.colorIcon.light}"
+                },
+                "type": "composition"
+              },
+              "label": {
+                "value": {
+                  "typography": "{sem.typography.textStyle.label.button.md}",
+                  "fill": "{sem.colorText.light}"
+                },
+                "type": "composition"
+              }
+            },
+            "disabled": {
+              "container": {
+                "value": {
+                  "borderRadius": "{sem.button.primary.rectangular.borderRadius.md}",
+                  "verticalPadding": "{sem.button.primary.rectangular.verticalPadding.md}",
+                  "horizontalPadding": "{sem.button.primary.rectangular.horizontalPadding.md}",
+                  "itemSpacing": "{sem.button.primary.rectangular.spacing.md}",
+                  "fill": "{sem.colorAction.primary.disabled}"
+                },
+                "type": "composition"
+              },
+              "iconSize": {
+                "value": {
+                  "sizing": "{sem.button.primary.rectangular.sizing.md}"
+                },
+                "type": "composition"
+              },
+              "iconColor": {
+                "value": {
+                  "borderColor": "{sem.colorIcon.black}"
+                },
+                "type": "composition"
+              },
+              "label": {
+                "value": {
+                  "typography": "{sem.typography.textStyle.label.button.md}",
+                  "fill": "{sem.colorText.light}"
+                },
+                "type": "composition"
+              }
             }
           },
           "lg": {
-            "light": {
-              "value": {
-                "typography": "{sem.typography.textStyle.label.button.lg}",
-                "fill": "{sem.colorText.light}"
+            "default": {
+              "container": {
+                "value": {
+                  "borderRadius": "{sem.button.primary.rectangular.borderRadius.lg}",
+                  "verticalPadding": "{sem.button.primary.rectangular.verticalPadding.lg}",
+                  "horizontalPadding": "{sem.button.primary.rectangular.horizontalPadding.lg}",
+                  "itemSpacing": "{sem.button.primary.rectangular.spacing.lg}",
+                  "fill": "{sem.colorAction.primary.default}"
+                },
+                "type": "composition"
               },
-              "type": "composition"
+              "iconSize": {
+                "value": {
+                  "sizing": "{sem.button.primary.rectangular.sizing.lg}"
+                },
+                "type": "composition"
+              },
+              "iconColor": {
+                "value": {
+                  "borderColor": "{sem.colorIcon.black}"
+                },
+                "type": "composition"
+              },
+              "label": {
+                "value": {
+                  "typography": "{sem.typography.textStyle.label.button.lg}",
+                  "fill": "{sem.colorText.light}"
+                },
+                "type": "composition"
+              }
             },
-            "dark": {
-              "value": {
-                "typography": "{sem.typography.textStyle.label.button.lg}",
-                "fill": "{sem.colorText.strong}"
+            "hover": {
+              "container": {
+                "value": {
+                  "borderRadius": "{sem.button.primary.rectangular.borderRadius.lg}",
+                  "verticalPadding": "{sem.button.primary.rectangular.verticalPadding.lg}",
+                  "horizontalPadding": "{sem.button.primary.rectangular.horizontalPadding.lg}",
+                  "itemSpacing": "{sem.button.primary.rectangular.spacing.lg}",
+                  "fill": "{sem.colorAction.primary.hover}"
+                },
+                "type": "composition"
               },
-              "type": "composition"
+              "iconSize": {
+                "value": {
+                  "sizing": "{sem.button.primary.rectangular.sizing.lg}"
+                },
+                "type": "composition"
+              },
+              "iconColor": {
+                "value": {
+                  "borderColor": "{sem.colorIcon.black}"
+                },
+                "type": "composition"
+              },
+              "label": {
+                "value": {
+                  "typography": "{sem.typography.textStyle.label.button.lg}",
+                  "fill": "{sem.colorText.light}"
+                },
+                "type": "composition"
+              }
+            },
+            "pressed": {
+              "container": {
+                "value": {
+                  "borderRadius": "{sem.button.primary.rectangular.borderRadius.lg}",
+                  "verticalPadding": "{sem.button.primary.rectangular.verticalPadding.lg}",
+                  "horizontalPadding": "{sem.button.primary.rectangular.horizontalPadding.lg}",
+                  "itemSpacing": "{sem.button.primary.rectangular.spacing.lg}",
+                  "fill": "{sem.colorAction.primary.pressed}"
+                },
+                "type": "composition"
+              },
+              "iconSize": {
+                "value": {
+                  "sizing": "{sem.button.primary.rectangular.sizing.lg}"
+                },
+                "type": "composition"
+              },
+              "iconColor": {
+                "value": {
+                  "borderColor": "{sem.colorIcon.black}"
+                },
+                "type": "composition"
+              },
+              "label": {
+                "value": {
+                  "typography": "{sem.typography.textStyle.label.button.lg}",
+                  "fill": "{sem.colorText.light}"
+                },
+                "type": "composition"
+              }
+            },
+            "disabled": {
+              "container": {
+                "value": {
+                  "borderRadius": "{sem.button.primary.rectangular.borderRadius.lg}",
+                  "verticalPadding": "{sem.button.primary.rectangular.verticalPadding.lg}",
+                  "horizontalPadding": "{sem.button.primary.rectangular.horizontalPadding.lg}",
+                  "itemSpacing": "{sem.button.primary.rectangular.spacing.lg}",
+                  "fill": "{sem.colorAction.primary.disabled}"
+                },
+                "type": "composition"
+              },
+              "iconSize": {
+                "value": {
+                  "sizing": "{sem.button.primary.rectangular.sizing.lg}"
+                },
+                "type": "composition"
+              },
+              "iconColor": {
+                "value": {
+                  "borderColor": "{sem.colorIcon.black}"
+                },
+                "type": "composition"
+              },
+              "label": {
+                "value": {
+                  "typography": "{sem.typography.textStyle.label.button.lg}",
+                  "fill": "{sem.colorText.light}"
+                },
+                "type": "composition"
+              }
+            }
+          }
+        }
+      },
+      "secondary": {
+        "rectangular": {
+          "sm": {
+            "default": {
+              "container": {
+                "value": {
+                  "borderRadius": "{sem.button.primary.rectangular.borderRadius.sm}",
+                  "verticalPadding": "{sem.button.primary.rectangular.verticalPadding.sm}",
+                  "horizontalPadding": "{sem.button.primary.rectangular.horizontalPadding.sm}",
+                  "itemSpacing": "{sem.button.primary.rectangular.spacing.sm}",
+                  "fill": "{sem.colorAction.secondary.default}"
+                },
+                "type": "composition"
+              }
+            },
+            "hover": {
+              "container": {
+                "value": {
+                  "borderRadius": "{sem.button.primary.rectangular.borderRadius.sm}",
+                  "verticalPadding": "{sem.button.primary.rectangular.verticalPadding.sm}",
+                  "horizontalPadding": "{sem.button.primary.rectangular.horizontalPadding.sm}",
+                  "itemSpacing": "{sem.button.primary.rectangular.spacing.sm}",
+                  "fill": "{sem.colorAction.secondary.hover}"
+                },
+                "type": "composition"
+              }
+            },
+            "pressed": {
+              "container": {
+                "value": {
+                  "borderRadius": "{sem.button.primary.rectangular.borderRadius.sm}",
+                  "verticalPadding": "{sem.button.primary.rectangular.verticalPadding.sm}",
+                  "horizontalPadding": "{sem.button.primary.rectangular.horizontalPadding.sm}",
+                  "itemSpacing": "{sem.button.primary.rectangular.spacing.sm}",
+                  "fill": "{sem.colorAction.secondary.pressed}"
+                },
+                "type": "composition"
+              }
+            },
+            "disabled": {
+              "container": {
+                "value": {
+                  "borderRadius": "{sem.button.primary.rectangular.borderRadius.sm}",
+                  "verticalPadding": "{sem.button.primary.rectangular.verticalPadding.sm}",
+                  "horizontalPadding": "{sem.button.primary.rectangular.verticalPadding.sm}",
+                  "itemSpacing": "{sem.button.primary.rectangular.spacing.sm}",
+                  "fill": "{sem.colorAction.secondary.disabled}"
+                },
+                "type": "composition"
+              }
+            }
+          },
+          "md": {
+            "default": {
+              "container": {
+                "value": {
+                  "borderRadius": "{sem.button.primary.rectangular.borderRadius.md}",
+                  "verticalPadding": "{sem.button.primary.rectangular.verticalPadding.md}",
+                  "horizontalPadding": "{sem.button.primary.rectangular.horizontalPadding.md}",
+                  "itemSpacing": "{sem.button.primary.rectangular.spacing.md}",
+                  "fill": "{sem.colorAction.secondary.default}"
+                },
+                "type": "composition"
+              }
+            },
+            "hover": {
+              "container": {
+                "value": {
+                  "borderRadius": "{sem.button.primary.rectangular.borderRadius.md}",
+                  "verticalPadding": "{sem.button.primary.rectangular.verticalPadding.md}",
+                  "horizontalPadding": "{sem.button.primary.rectangular.horizontalPadding.md}",
+                  "itemSpacing": "{sem.button.primary.rectangular.spacing.md}",
+                  "fill": "{sem.colorAction.secondary.hover}"
+                },
+                "type": "composition"
+              }
+            },
+            "pressed": {
+              "container": {
+                "value": {
+                  "borderRadius": "{sem.button.primary.rectangular.borderRadius.md}",
+                  "verticalPadding": "{sem.button.primary.rectangular.verticalPadding.md}",
+                  "horizontalPadding": "{sem.button.primary.rectangular.horizontalPadding.md}",
+                  "itemSpacing": "{sem.button.primary.rectangular.spacing.md}",
+                  "fill": "{sem.colorAction.secondary.pressed}"
+                },
+                "type": "composition"
+              }
+            },
+            "disabled": {
+              "container": {
+                "value": {
+                  "borderRadius": "{sem.button.primary.rectangular.borderRadius.md}",
+                  "verticalPadding": "{sem.button.primary.rectangular.verticalPadding.md}",
+                  "horizontalPadding": "{sem.button.primary.rectangular.horizontalPadding.md}",
+                  "itemSpacing": "{sem.button.primary.rectangular.spacing.md}",
+                  "fill": "{sem.colorAction.secondary.disabled}"
+                },
+                "type": "composition"
+              }
+            }
+          },
+          "lg": {
+            "default": {
+              "container": {
+                "value": {
+                  "borderRadius": "{sem.button.primary.rectangular.borderRadius.lg}",
+                  "verticalPadding": "{sem.button.primary.rectangular.verticalPadding.lg}",
+                  "horizontalPadding": "{sem.button.primary.rectangular.horizontalPadding.lg}",
+                  "itemSpacing": "{sem.button.primary.rectangular.spacing.lg}",
+                  "fill": "{sem.colorAction.secondary.default}"
+                },
+                "type": "composition"
+              }
+            },
+            "hover": {
+              "container": {
+                "value": {
+                  "borderRadius": "{sem.button.primary.rectangular.borderRadius.lg}",
+                  "verticalPadding": "{sem.button.primary.rectangular.verticalPadding.lg}",
+                  "horizontalPadding": "{sem.button.primary.rectangular.horizontalPadding.lg}",
+                  "itemSpacing": "{sem.button.primary.rectangular.spacing.lg}",
+                  "fill": "{sem.colorAction.secondary.hover}"
+                },
+                "type": "composition"
+              }
+            },
+            "pressed": {
+              "container": {
+                "value": {
+                  "borderRadius": "{sem.button.primary.rectangular.borderRadius.lg}",
+                  "verticalPadding": "{sem.button.primary.rectangular.verticalPadding.lg}",
+                  "horizontalPadding": "{sem.button.primary.rectangular.horizontalPadding.lg}",
+                  "itemSpacing": "{sem.button.primary.rectangular.spacing.lg}",
+                  "fill": "{sem.colorAction.secondary.pressed}"
+                },
+                "type": "composition"
+              }
+            },
+            "disabled": {
+              "container": {
+                "value": {
+                  "borderRadius": "{sem.button.primary.rectangular.borderRadius.lg}",
+                  "verticalPadding": "{sem.button.primary.rectangular.verticalPadding.lg}",
+                  "horizontalPadding": "{sem.button.primary.rectangular.horizontalPadding.lg}",
+                  "itemSpacing": "{sem.button.primary.rectangular.spacing.lg}",
+                  "fill": "{sem.colorAction.secondary.disabled}"
+                },
+                "type": "composition"
+              }
+            }
+          }
+        }
+      },
+      "ghost": {
+        "rectangular": {
+          "sm": {
+            "default": {
+              "container": {
+                "value": {
+                  "borderRadius": "{sem.button.primary.rectangular.borderRadius.sm}",
+                  "verticalPadding": "{sem.button.primary.rectangular.verticalPadding.sm}",
+                  "horizontalPadding": "{sem.button.primary.rectangular.horizontalPadding.sm}",
+                  "itemSpacing": "{sem.button.primary.rectangular.spacing.sm}",
+                  "fill": "{sem.colorAction.ghost.default}",
+                  "border": "{sem.border.diminished}"
+                },
+                "type": "composition"
+              }
+            },
+            "hover": {
+              "container": {
+                "value": {
+                  "borderRadius": "{sem.button.primary.rectangular.borderRadius.sm}",
+                  "verticalPadding": "{sem.button.primary.rectangular.verticalPadding.sm}",
+                  "horizontalPadding": "{sem.button.primary.rectangular.horizontalPadding.sm}",
+                  "itemSpacing": "{sem.button.primary.rectangular.spacing.sm}",
+                  "fill": "{sem.colorAction.ghost.hover}",
+                  "border": "{sem.border.diminished}"
+                },
+                "type": "composition"
+              }
+            },
+            "pressed": {
+              "container": {
+                "value": {
+                  "borderRadius": "{sem.button.primary.rectangular.borderRadius.sm}",
+                  "verticalPadding": "{sem.button.primary.rectangular.verticalPadding.sm}",
+                  "horizontalPadding": "{sem.button.primary.rectangular.horizontalPadding.sm}",
+                  "itemSpacing": "{sem.button.primary.rectangular.spacing.sm}",
+                  "fill": "{sem.colorAction.ghost.pressed}",
+                  "border": "{sem.border.diminished}"
+                },
+                "type": "composition"
+              }
+            },
+            "disabled": {
+              "container": {
+                "value": {
+                  "borderRadius": "{sem.button.primary.rectangular.borderRadius.sm}",
+                  "verticalPadding": "{sem.button.primary.rectangular.verticalPadding.sm}",
+                  "horizontalPadding": "{sem.button.primary.rectangular.horizontalPadding.sm}",
+                  "itemSpacing": "{sem.button.primary.rectangular.spacing.sm}",
+                  "fill": "{sem.colorAction.ghost.disabled}",
+                  "border": "{sem.border.diminished}"
+                },
+                "type": "composition"
+              }
+            }
+          },
+          "md": {
+            "default": {
+              "container": {
+                "value": {
+                  "borderRadius": "{sem.button.primary.rectangular.borderRadius.md}",
+                  "verticalPadding": "{sem.button.primary.rectangular.verticalPadding.md}",
+                  "horizontalPadding": "{sem.button.primary.rectangular.horizontalPadding.md}",
+                  "itemSpacing": "{sem.button.primary.rectangular.spacing.md}",
+                  "fill": "{sem.colorAction.ghost.default}",
+                  "border": "{sem.border.diminished}"
+                },
+                "type": "composition"
+              }
+            },
+            "hover": {
+              "container": {
+                "value": {
+                  "borderRadius": "{sem.button.primary.rectangular.borderRadius.md}",
+                  "verticalPadding": "{sem.button.primary.rectangular.verticalPadding.md}",
+                  "horizontalPadding": "{sem.button.primary.rectangular.horizontalPadding.md}",
+                  "itemSpacing": "{sem.button.primary.rectangular.spacing.md}",
+                  "fill": "{sem.colorAction.ghost.hover}",
+                  "border": "{sem.border.diminished}"
+                },
+                "type": "composition"
+              }
+            },
+            "pressed": {
+              "container": {
+                "value": {
+                  "borderRadius": "{sem.button.primary.rectangular.borderRadius.md}",
+                  "verticalPadding": "{sem.button.primary.rectangular.verticalPadding.md}",
+                  "horizontalPadding": "{sem.button.primary.rectangular.horizontalPadding.md}",
+                  "itemSpacing": "{sem.button.primary.rectangular.spacing.md}",
+                  "fill": "{sem.colorAction.ghost.pressed}",
+                  "border": "{sem.border.diminished}"
+                },
+                "type": "composition"
+              }
+            },
+            "disabled": {
+              "container": {
+                "value": {
+                  "borderRadius": "{sem.button.primary.rectangular.borderRadius.md}",
+                  "verticalPadding": "{sem.button.primary.rectangular.verticalPadding.md}",
+                  "horizontalPadding": "{sem.button.primary.rectangular.horizontalPadding.md}",
+                  "itemSpacing": "{sem.button.primary.rectangular.spacing.md}",
+                  "fill": "{sem.colorAction.ghost.disabled}",
+                  "border": "{sem.border.diminished}"
+                },
+                "type": "composition"
+              }
+            }
+          },
+          "lg": {
+            "default": {
+              "container": {
+                "value": {
+                  "borderRadius": "{sem.button.primary.rectangular.borderRadius.lg}",
+                  "verticalPadding": "{sem.button.primary.rectangular.verticalPadding.lg}",
+                  "horizontalPadding": "{sem.button.primary.rectangular.horizontalPadding.lg}",
+                  "itemSpacing": "{sem.button.primary.rectangular.spacing.lg}",
+                  "fill": "{sem.colorAction.ghost.default}",
+                  "border": "{sem.border.diminished}"
+                },
+                "type": "composition"
+              }
+            },
+            "hover": {
+              "container": {
+                "value": {
+                  "borderRadius": "{sem.button.primary.rectangular.borderRadius.lg}",
+                  "verticalPadding": "{sem.button.primary.rectangular.verticalPadding.lg}",
+                  "horizontalPadding": "{sem.button.primary.rectangular.horizontalPadding.lg}",
+                  "itemSpacing": "{sem.button.primary.rectangular.spacing.lg}",
+                  "fill": "{sem.colorAction.ghost.hover}",
+                  "border": "{sem.border.diminished}"
+                },
+                "type": "composition"
+              }
+            },
+            "pressed": {
+              "container": {
+                "value": {
+                  "borderRadius": "{sem.button.primary.rectangular.borderRadius.lg}",
+                  "verticalPadding": "{sem.button.primary.rectangular.verticalPadding.lg}",
+                  "horizontalPadding": "{sem.button.primary.rectangular.horizontalPadding.lg}",
+                  "itemSpacing": "{sem.button.primary.rectangular.spacing.lg}",
+                  "fill": "{sem.colorAction.ghost.pressed}",
+                  "border": "{sem.border.diminished}"
+                },
+                "type": "composition"
+              }
+            },
+            "disabled": {
+              "container": {
+                "value": {
+                  "borderRadius": "{sem.button.primary.rectangular.borderRadius.lg}",
+                  "verticalPadding": "{sem.button.primary.rectangular.verticalPadding.lg}",
+                  "horizontalPadding": "{sem.button.primary.rectangular.horizontalPadding.lg}",
+                  "itemSpacing": "{sem.button.primary.rectangular.spacing.lg}",
+                  "fill": "{sem.colorAction.ghost.disabled}",
+                  "border": "{sem.border.diminished}"
+                },
+                "type": "composition"
+              }
+            }
+          }
+        }
+      },
+      "success": {
+        "rectangular": {
+          "sm": {
+            "default": {
+              "container": {
+                "value": {
+                  "borderRadius": "{sem.button.primary.rectangular.borderRadius.sm}",
+                  "verticalPadding": "{sem.button.primary.rectangular.verticalPadding.sm}",
+                  "horizontalPadding": "{sem.button.primary.rectangular.horizontalPadding.sm}",
+                  "itemSpacing": "{sem.button.primary.rectangular.spacing.sm}",
+                  "fill": "{sem.colorAction.success.default}"
+                },
+                "type": "composition"
+              }
+            },
+            "hover": {
+              "container": {
+                "value": {
+                  "borderRadius": "{sem.button.primary.rectangular.borderRadius.sm}",
+                  "verticalPadding": "{sem.button.primary.rectangular.verticalPadding.sm}",
+                  "horizontalPadding": "{sem.button.primary.rectangular.horizontalPadding.sm}",
+                  "itemSpacing": "{sem.button.primary.rectangular.spacing.sm}",
+                  "fill": "{sem.colorAction.success.hover}"
+                },
+                "type": "composition"
+              }
+            },
+            "pressed": {
+              "container": {
+                "value": {
+                  "borderRadius": "{sem.button.primary.rectangular.borderRadius.sm}",
+                  "verticalPadding": "{sem.button.primary.rectangular.verticalPadding.sm}",
+                  "horizontalPadding": "{sem.button.primary.rectangular.verticalPadding.sm}",
+                  "itemSpacing": "{sem.button.primary.rectangular.spacing.sm}",
+                  "fill": "{sem.colorAction.success.pressed}"
+                },
+                "type": "composition"
+              }
+            },
+            "disabled": {
+              "container": {
+                "value": {
+                  "borderRadius": "{sem.button.primary.rectangular.borderRadius.sm}",
+                  "verticalPadding": "{sem.button.primary.rectangular.verticalPadding.sm}",
+                  "horizontalPadding": "{sem.button.primary.rectangular.horizontalPadding.sm}",
+                  "itemSpacing": "{sem.button.primary.rectangular.spacing.sm}",
+                  "fill": "{sem.colorAction.success.disabled}"
+                },
+                "type": "composition"
+              }
+            }
+          },
+          "md": {
+            "default": {
+              "container": {
+                "value": {
+                  "borderRadius": "{sem.button.primary.rectangular.borderRadius.md}",
+                  "verticalPadding": "{sem.button.primary.rectangular.verticalPadding.md}",
+                  "horizontalPadding": "{sem.button.primary.rectangular.horizontalPadding.md}",
+                  "itemSpacing": "{sem.button.primary.rectangular.spacing.md}",
+                  "fill": "{sem.colorAction.success.default}"
+                },
+                "type": "composition"
+              }
+            },
+            "hover": {
+              "container": {
+                "value": {
+                  "borderRadius": "{sem.button.primary.rectangular.borderRadius.md}",
+                  "verticalPadding": "{sem.button.primary.rectangular.verticalPadding.md}",
+                  "horizontalPadding": "{sem.button.primary.rectangular.horizontalPadding.md}",
+                  "itemSpacing": "{sem.button.primary.rectangular.spacing.md}",
+                  "fill": "{sem.colorAction.success.hover}"
+                },
+                "type": "composition"
+              }
+            },
+            "pressed": {
+              "container": {
+                "value": {
+                  "borderRadius": "{sem.button.primary.rectangular.borderRadius.md}",
+                  "verticalPadding": "{sem.button.primary.rectangular.verticalPadding.md}",
+                  "horizontalPadding": "{sem.button.primary.rectangular.horizontalPadding.md}",
+                  "itemSpacing": "{sem.button.primary.rectangular.spacing.md}",
+                  "fill": "{sem.colorAction.success.pressed}"
+                },
+                "type": "composition"
+              }
+            },
+            "disabled": {
+              "container": {
+                "value": {
+                  "borderRadius": "{sem.button.primary.rectangular.borderRadius.md}",
+                  "verticalPadding": "{sem.button.primary.rectangular.verticalPadding.md}",
+                  "horizontalPadding": "{sem.button.primary.rectangular.horizontalPadding.md}",
+                  "itemSpacing": "{sem.button.primary.rectangular.spacing.md}",
+                  "fill": "{sem.colorAction.success.disabled}"
+                },
+                "type": "composition"
+              }
+            }
+          },
+          "lg": {
+            "default": {
+              "container": {
+                "value": {
+                  "borderRadius": "{sem.button.primary.rectangular.borderRadius.lg}",
+                  "verticalPadding": "{sem.button.primary.rectangular.verticalPadding.lg}",
+                  "horizontalPadding": "{sem.button.primary.rectangular.horizontalPadding.lg}",
+                  "itemSpacing": "{sem.button.primary.rectangular.spacing.lg}",
+                  "fill": "{sem.colorAction.success.default}"
+                },
+                "type": "composition"
+              }
+            },
+            "hover": {
+              "container": {
+                "value": {
+                  "borderRadius": "{sem.button.primary.rectangular.borderRadius.lg}",
+                  "verticalPadding": "{sem.button.primary.rectangular.verticalPadding.lg}",
+                  "horizontalPadding": "{sem.button.primary.rectangular.horizontalPadding.lg}",
+                  "itemSpacing": "{sem.button.primary.rectangular.spacing.lg}",
+                  "fill": "{sem.colorAction.success.hover}"
+                },
+                "type": "composition"
+              }
+            },
+            "pressed": {
+              "container": {
+                "value": {
+                  "borderRadius": "{sem.button.primary.rectangular.borderRadius.lg}",
+                  "verticalPadding": "{sem.button.primary.rectangular.verticalPadding.lg}",
+                  "horizontalPadding": "{sem.button.primary.rectangular.horizontalPadding.lg}",
+                  "itemSpacing": "{sem.button.primary.rectangular.spacing.lg}",
+                  "fill": "{sem.colorAction.success.pressed}"
+                },
+                "type": "composition"
+              }
+            },
+            "disabled": {
+              "container": {
+                "value": {
+                  "borderRadius": "{sem.button.primary.rectangular.borderRadius.lg}",
+                  "verticalPadding": "{sem.button.primary.rectangular.verticalPadding.lg}",
+                  "horizontalPadding": "{sem.button.primary.rectangular.horizontalPadding.lg}",
+                  "itemSpacing": "{sem.button.primary.rectangular.spacing.lg}",
+                  "fill": "{sem.colorAction.success.disabled}"
+                },
+                "type": "composition"
+              }
+            }
+          }
+        }
+      },
+      "external": {
+        "rectangular": {
+          "sm": {
+            "default": {
+              "container": {
+                "value": {
+                  "borderRadius": "{sem.button.primary.rectangular.borderRadius.sm}",
+                  "verticalPadding": "{sem.button.primary.rectangular.verticalPadding.sm}",
+                  "horizontalPadding": "{sem.button.primary.rectangular.horizontalPadding.sm}",
+                  "itemSpacing": "{sem.button.primary.rectangular.spacing.sm}",
+                  "fill": "{sem.colorAction.external.default}"
+                },
+                "type": "composition"
+              }
+            },
+            "hover": {
+              "container": {
+                "value": {
+                  "borderRadius": "{sem.button.primary.rectangular.borderRadius.sm}",
+                  "verticalPadding": "{sem.button.primary.rectangular.verticalPadding.sm}",
+                  "horizontalPadding": "{sem.button.primary.rectangular.horizontalPadding.sm}",
+                  "itemSpacing": "{sem.button.primary.rectangular.spacing.sm}",
+                  "fill": "{sem.colorAction.external.hover}"
+                },
+                "type": "composition"
+              }
+            },
+            "pressed": {
+              "container": {
+                "value": {
+                  "borderRadius": "{sem.button.primary.rectangular.borderRadius.sm}",
+                  "verticalPadding": "{sem.button.primary.rectangular.verticalPadding.sm}",
+                  "horizontalPadding": "{sem.button.primary.rectangular.horizontalPadding.sm}",
+                  "itemSpacing": "{sem.button.primary.rectangular.spacing.sm}",
+                  "fill": "{sem.colorAction.external.pressed}"
+                },
+                "type": "composition"
+              }
+            },
+            "disabled": {
+              "container": {
+                "value": {
+                  "borderRadius": "{sem.button.primary.rectangular.borderRadius.sm}",
+                  "verticalPadding": "{sem.button.primary.rectangular.verticalPadding.sm}",
+                  "horizontalPadding": "{sem.button.primary.rectangular.horizontalPadding.sm}",
+                  "itemSpacing": "{sem.button.primary.rectangular.spacing.sm}",
+                  "fill": "{sem.colorAction.external.disabled}"
+                },
+                "type": "composition"
+              }
+            }
+          },
+          "md": {
+            "default": {
+              "container": {
+                "value": {
+                  "borderRadius": "{sem.button.primary.rectangular.borderRadius.md}",
+                  "verticalPadding": "{sem.button.primary.rectangular.verticalPadding.md}",
+                  "horizontalPadding": "{sem.button.primary.rectangular.horizontalPadding.md}",
+                  "itemSpacing": "{sem.button.primary.rectangular.spacing.md}",
+                  "fill": "{sem.colorAction.external.default}"
+                },
+                "type": "composition"
+              }
+            },
+            "hover": {
+              "container": {
+                "value": {
+                  "borderRadius": "{sem.button.primary.rectangular.borderRadius.md}",
+                  "verticalPadding": "{sem.button.primary.rectangular.verticalPadding.md}",
+                  "horizontalPadding": "{sem.button.primary.rectangular.horizontalPadding.md}",
+                  "itemSpacing": "{sem.button.primary.rectangular.spacing.md}",
+                  "fill": "{sem.colorAction.external.hover}"
+                },
+                "type": "composition"
+              }
+            },
+            "pressed": {
+              "container": {
+                "value": {
+                  "borderRadius": "{sem.button.primary.rectangular.borderRadius.md}",
+                  "verticalPadding": "{sem.button.primary.rectangular.verticalPadding.md}",
+                  "horizontalPadding": "{sem.button.primary.rectangular.horizontalPadding.md}",
+                  "itemSpacing": "{sem.button.primary.rectangular.spacing.md}",
+                  "fill": "{sem.colorAction.external.pressed}"
+                },
+                "type": "composition"
+              }
+            },
+            "disabled": {
+              "container": {
+                "value": {
+                  "borderRadius": "{sem.button.primary.rectangular.borderRadius.md}",
+                  "verticalPadding": "{sem.button.primary.rectangular.verticalPadding.md}",
+                  "horizontalPadding": "{sem.button.primary.rectangular.horizontalPadding.md}",
+                  "itemSpacing": "{sem.button.primary.rectangular.spacing.md}",
+                  "fill": "{sem.colorAction.external.disabled}"
+                },
+                "type": "composition"
+              }
+            }
+          },
+          "lg": {
+            "default": {
+              "container": {
+                "value": {
+                  "borderRadius": "{sem.button.primary.rectangular.borderRadius.lg}",
+                  "verticalPadding": "{sem.button.primary.rectangular.verticalPadding.lg}",
+                  "horizontalPadding": "{sem.button.primary.rectangular.horizontalPadding.lg}",
+                  "itemSpacing": "{sem.button.primary.rectangular.spacing.lg}",
+                  "fill": "{sem.colorAction.external.default}"
+                },
+                "type": "composition"
+              }
+            },
+            "hover": {
+              "container": {
+                "value": {
+                  "borderRadius": "{sem.button.primary.rectangular.borderRadius.lg}",
+                  "verticalPadding": "{sem.button.primary.rectangular.verticalPadding.lg}",
+                  "horizontalPadding": "{sem.button.primary.rectangular.horizontalPadding.lg}",
+                  "itemSpacing": "{sem.button.primary.rectangular.spacing.lg}",
+                  "fill": "{sem.colorAction.external.hover}"
+                },
+                "type": "composition"
+              }
+            },
+            "pressed": {
+              "container": {
+                "value": {
+                  "borderRadius": "{sem.button.primary.rectangular.borderRadius.lg}",
+                  "verticalPadding": "{sem.button.primary.rectangular.verticalPadding.lg}",
+                  "horizontalPadding": "{sem.button.primary.rectangular.horizontalPadding.lg}",
+                  "itemSpacing": "{sem.button.primary.rectangular.spacing.lg}",
+                  "fill": "{sem.colorAction.external.pressed}"
+                },
+                "type": "composition"
+              }
+            },
+            "disabled": {
+              "container": {
+                "value": {
+                  "borderRadius": "{sem.button.primary.rectangular.borderRadius.lg}",
+                  "verticalPadding": "{sem.button.primary.rectangular.verticalPadding.lg}",
+                  "horizontalPadding": "{sem.button.primary.rectangular.horizontalPadding.lg}",
+                  "itemSpacing": "{sem.button.primary.rectangular.spacing.lg}",
+                  "fill": "{sem.colorAction.external.disabled}"
+                },
+                "type": "composition"
+              }
+            }
+          }
+        }
+      },
+      "danger": {
+        "rectangular": {
+          "sm": {
+            "default": {
+              "container": {
+                "value": {
+                  "borderRadius": "{sem.button.primary.rectangular.borderRadius.sm}",
+                  "verticalPadding": "{sem.button.primary.rectangular.verticalPadding.sm}",
+                  "horizontalPadding": "{sem.button.primary.rectangular.horizontalPadding.sm}",
+                  "itemSpacing": "{sem.button.primary.rectangular.spacing.sm}",
+                  "fill": "{sem.colorAction.danger.default}"
+                },
+                "type": "composition"
+              }
+            },
+            "hover": {
+              "container": {
+                "value": {
+                  "borderRadius": "{sem.button.primary.rectangular.borderRadius.sm}",
+                  "verticalPadding": "{sem.button.primary.rectangular.verticalPadding.sm}",
+                  "horizontalPadding": "{sem.button.primary.rectangular.horizontalPadding.sm}",
+                  "itemSpacing": "{sem.button.primary.rectangular.spacing.sm}",
+                  "fill": "{sem.colorAction.danger.hover}"
+                },
+                "type": "composition"
+              }
+            },
+            "pressed": {
+              "container": {
+                "value": {
+                  "borderRadius": "{sem.button.primary.rectangular.borderRadius.sm}",
+                  "verticalPadding": "{sem.button.primary.rectangular.verticalPadding.sm}",
+                  "horizontalPadding": "{sem.button.primary.rectangular.horizontalPadding.sm}",
+                  "itemSpacing": "{sem.button.primary.rectangular.spacing.sm}",
+                  "fill": "{sem.colorAction.danger.hover}"
+                },
+                "type": "composition"
+              }
+            },
+            "disabled": {
+              "container": {
+                "value": {
+                  "borderRadius": "{sem.button.primary.rectangular.borderRadius.sm}",
+                  "verticalPadding": "{sem.button.primary.rectangular.verticalPadding.sm}",
+                  "horizontalPadding": "{sem.button.primary.rectangular.horizontalPadding.sm}",
+                  "itemSpacing": "{sem.button.primary.rectangular.spacing.sm}",
+                  "fill": "{sem.colorAction.danger.disabled}"
+                },
+                "type": "composition"
+              }
+            }
+          },
+          "md": {
+            "default": {
+              "container": {
+                "value": {
+                  "borderRadius": "{sem.button.primary.rectangular.borderRadius.md}",
+                  "verticalPadding": "{sem.button.primary.rectangular.verticalPadding.md}",
+                  "horizontalPadding": "{sem.button.primary.rectangular.horizontalPadding.md}",
+                  "itemSpacing": "{sem.button.primary.rectangular.spacing.md}",
+                  "fill": "{sem.colorAction.danger.default}"
+                },
+                "type": "composition"
+              }
+            },
+            "hover": {
+              "container": {
+                "value": {
+                  "borderRadius": "{sem.button.primary.rectangular.borderRadius.md}",
+                  "verticalPadding": "{sem.button.primary.rectangular.verticalPadding.md}",
+                  "horizontalPadding": "{sem.button.primary.rectangular.horizontalPadding.md}",
+                  "itemSpacing": "{sem.button.primary.rectangular.spacing.md}",
+                  "fill": "{sem.colorAction.danger.hover}"
+                },
+                "type": "composition"
+              }
+            },
+            "pressed": {
+              "container": {
+                "value": {
+                  "borderRadius": "{sem.button.primary.rectangular.borderRadius.md}",
+                  "verticalPadding": "{sem.button.primary.rectangular.verticalPadding.md}",
+                  "horizontalPadding": "{sem.button.primary.rectangular.horizontalPadding.md}",
+                  "itemSpacing": "{sem.button.primary.rectangular.spacing.md}",
+                  "fill": "{sem.colorAction.danger.pressed}"
+                },
+                "type": "composition"
+              }
+            },
+            "disabled": {
+              "container": {
+                "value": {
+                  "borderRadius": "{sem.button.primary.rectangular.borderRadius.md}",
+                  "verticalPadding": "{sem.button.primary.rectangular.verticalPadding.md}",
+                  "horizontalPadding": "{sem.button.primary.rectangular.horizontalPadding.md}",
+                  "itemSpacing": "{sem.button.primary.rectangular.spacing.md}",
+                  "fill": "{sem.colorAction.danger.disabled}"
+                },
+                "type": "composition"
+              }
+            }
+          },
+          "lg": {
+            "default": {
+              "container": {
+                "value": {
+                  "borderRadius": "{sem.button.primary.rectangular.borderRadius.lg}",
+                  "verticalPadding": "{sem.button.primary.rectangular.verticalPadding.lg}",
+                  "horizontalPadding": "{sem.button.primary.rectangular.horizontalPadding.lg}",
+                  "itemSpacing": "{sem.button.primary.rectangular.spacing.lg}",
+                  "fill": "{sem.colorAction.danger.default}"
+                },
+                "type": "composition"
+              }
+            },
+            "hover": {
+              "container": {
+                "value": {
+                  "borderRadius": "{sem.button.primary.rectangular.borderRadius.lg}",
+                  "verticalPadding": "{sem.button.primary.rectangular.verticalPadding.lg}",
+                  "horizontalPadding": "{sem.button.primary.rectangular.horizontalPadding.lg}",
+                  "itemSpacing": "{sem.button.primary.rectangular.spacing.lg}",
+                  "fill": "{sem.colorAction.danger.hover}"
+                },
+                "type": "composition"
+              }
+            },
+            "pressed": {
+              "container": {
+                "value": {
+                  "borderRadius": "{sem.button.primary.rectangular.borderRadius.lg}",
+                  "verticalPadding": "{sem.button.primary.rectangular.verticalPadding.lg}",
+                  "horizontalPadding": "{sem.button.primary.rectangular.horizontalPadding.lg}",
+                  "itemSpacing": "{sem.button.primary.rectangular.spacing.lg}",
+                  "fill": "{sem.colorAction.danger.pressed}"
+                },
+                "type": "composition"
+              }
+            },
+            "disabled": {
+              "container": {
+                "value": {
+                  "borderRadius": "{sem.button.primary.rectangular.borderRadius.lg}",
+                  "verticalPadding": "{sem.button.primary.rectangular.verticalPadding.lg}",
+                  "horizontalPadding": "{sem.button.primary.rectangular.horizontalPadding.lg}",
+                  "itemSpacing": "{sem.button.primary.rectangular.spacing.lg}",
+                  "fill": "{sem.colorAction.danger.disabled}"
+                },
+                "type": "composition"
+              }
             }
           }
         }
@@ -2774,6 +2998,88 @@
           "fill": "{sem.colorIcon.black}"
         },
         "type": "composition"
+      }
+    }
+  },
+  "sem": {
+    "button": {
+      "primary": {
+        "rectangular": {
+          "borderRadius": {
+            "sm": {
+              "value": "{ref.borderRadius.200}",
+              "type": "borderRadius"
+            },
+            "md": {
+              "value": "{ref.borderRadius.250}",
+              "type": "borderRadius"
+            },
+            "lg": {
+              "value": "{ref.borderRadius.300}",
+              "type": "borderRadius"
+            },
+            "": {
+              "value": "{ref.borderRadius.400}",
+              "type": "borderRadius"
+            }
+          },
+          "spacing": {
+            "sm": {
+              "value": "{ref.spacing.50}",
+              "type": "spacing"
+            },
+            "md": {
+              "value": "{ref.spacing.100}",
+              "type": "spacing"
+            },
+            "lg": {
+              "value": "{ref.spacing.100}",
+              "type": "spacing"
+            }
+          },
+          "verticalPadding": {
+            "sm": {
+              "value": "{ref.spacing.100}",
+              "type": "spacing"
+            },
+            "md": {
+              "value": "{ref.spacing.150}",
+              "type": "spacing"
+            },
+            "lg": {
+              "value": "{ref.spacing.200}",
+              "type": "spacing"
+            }
+          },
+          "horizontalPadding": {
+            "sm": {
+              "value": "{ref.spacing.100}",
+              "type": "spacing"
+            },
+            "md": {
+              "value": "{ref.spacing.200}",
+              "type": "spacing"
+            },
+            "lg": {
+              "value": "{ref.spacing.300}",
+              "type": "spacing"
+            }
+          },
+          "sizing": {
+            "sm": {
+              "value": "{ref.sizing.100}",
+              "type": "sizing"
+            },
+            "md": {
+              "value": "{ref.sizing.200}",
+              "type": "sizing"
+            },
+            "lg": {
+              "value": "{ref.sizing.200}",
+              "type": "sizing"
+            }
+          }
+        }
       }
     }
   }
