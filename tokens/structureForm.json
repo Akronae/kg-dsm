@@ -323,7 +323,8 @@
                 "value": {
                   "itemSpacing": "{ref.spacing.600}",
                   "verticalPadding": "{ref.spacing.500}",
-                  "width": "{sem.containerSize.maxWidth.md}"
+                  "width": "{sem.containerSize.maxWidth.md}",
+                  "paddingTop": "{ref.spacing.950}"
                 },
                 "type": "composition"
               }
