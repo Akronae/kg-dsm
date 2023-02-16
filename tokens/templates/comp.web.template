@@ -12,7 +12,7 @@ comp
     "borderRadius": "{sem.button.{{shape}}.borderRadius{{shape != 'circular' ? '.' + size : ''}}}",
     "verticalPadding": "{sem.button.{{shape}}.verticalPadding.{{size}}}",
     "horizontalPadding": "{sem.button.{{shape}}.horizontalPadding.{{size}}}",
-    "itemSpacing": "{sem.button.{{shape}}.spacing.{{size}}}",
+    "itemSpacing": "{sem.button.{{shape}}.spacing{{shape != 'circular' ? '.' + size : ''}}}",
     "fill": "{sem.colorAction.{{type}}.{{state}}}"
   },
   "type": "composition"

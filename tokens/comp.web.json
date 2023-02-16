@@ -935,7 +935,7 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.sm}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.sm}",
-                  "itemSpacing": "{sem.button.circular.spacing.sm}",
+                  "itemSpacing": "{sem.button.circular.spacing}",
                   "fill": "{sem.colorAction.primary.default}",
                   "border": "none"
                 },
@@ -967,7 +967,7 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.sm}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.sm}",
-                  "itemSpacing": "{sem.button.circular.spacing.sm}",
+                  "itemSpacing": "{sem.button.circular.spacing}",
                   "fill": "{sem.colorAction.primary.hover}",
                   "border": "none"
                 },
@@ -999,7 +999,7 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.sm}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.sm}",
-                  "itemSpacing": "{sem.button.circular.spacing.sm}",
+                  "itemSpacing": "{sem.button.circular.spacing}",
                   "fill": "{sem.colorAction.primary.pressed}",
                   "border": "none"
                 },
@@ -1031,7 +1031,7 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.sm}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.sm}",
-                  "itemSpacing": "{sem.button.circular.spacing.sm}",
+                  "itemSpacing": "{sem.button.circular.spacing}",
                   "fill": "{sem.colorAction.primary.disabled}",
                   "border": "none"
                 },
@@ -1065,7 +1065,7 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.md}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.md}",
-                  "itemSpacing": "{sem.button.circular.spacing.md}",
+                  "itemSpacing": "{sem.button.circular.spacing}",
                   "fill": "{sem.colorAction.primary.default}",
                   "border": "none"
                 },
@@ -1097,7 +1097,7 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.md}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.md}",
-                  "itemSpacing": "{sem.button.circular.spacing.md}",
+                  "itemSpacing": "{sem.button.circular.spacing}",
                   "fill": "{sem.colorAction.primary.hover}",
                   "border": "none"
                 },
@@ -1129,7 +1129,7 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.md}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.md}",
-                  "itemSpacing": "{sem.button.circular.spacing.md}",
+                  "itemSpacing": "{sem.button.circular.spacing}",
                   "fill": "{sem.colorAction.primary.pressed}",
                   "border": "none"
                 },
@@ -1161,7 +1161,7 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.md}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.md}",
-                  "itemSpacing": "{sem.button.circular.spacing.md}",
+                  "itemSpacing": "{sem.button.circular.spacing}",
                   "fill": "{sem.colorAction.primary.disabled}",
                   "border": "none"
                 },
@@ -1195,7 +1195,7 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.lg}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.lg}",
-                  "itemSpacing": "{sem.button.circular.spacing.lg}",
+                  "itemSpacing": "{sem.button.circular.spacing}",
                   "fill": "{sem.colorAction.primary.default}",
                   "border": "none"
                 },
@@ -1227,7 +1227,7 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.lg}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.lg}",
-                  "itemSpacing": "{sem.button.circular.spacing.lg}",
+                  "itemSpacing": "{sem.button.circular.spacing}",
                   "fill": "{sem.colorAction.primary.hover}",
                   "border": "none"
                 },
@@ -1259,7 +1259,7 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.lg}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.lg}",
-                  "itemSpacing": "{sem.button.circular.spacing.lg}",
+                  "itemSpacing": "{sem.button.circular.spacing}",
                   "fill": "{sem.colorAction.primary.pressed}",
                   "border": "none"
                 },
@@ -1291,7 +1291,7 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.lg}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.lg}",
-                  "itemSpacing": "{sem.button.circular.spacing.lg}",
+                  "itemSpacing": "{sem.button.circular.spacing}",
                   "fill": "{sem.colorAction.primary.disabled}",
                   "border": "none"
                 },
@@ -1721,7 +1721,7 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.sm}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.sm}",
-                  "itemSpacing": "{sem.button.circular.spacing.sm}",
+                  "itemSpacing": "{sem.button.circular.spacing}",
                   "fill": "{sem.colorAction.secondary.default}",
                   "border": "none"
                 },
@@ -1753,7 +1753,7 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.sm}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.sm}",
-                  "itemSpacing": "{sem.button.circular.spacing.sm}",
+                  "itemSpacing": "{sem.button.circular.spacing}",
                   "fill": "{sem.colorAction.secondary.hover}",
                   "border": "none"
                 },
@@ -1785,7 +1785,7 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.sm}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.sm}",
-                  "itemSpacing": "{sem.button.circular.spacing.sm}",
+                  "itemSpacing": "{sem.button.circular.spacing}",
                   "fill": "{sem.colorAction.secondary.pressed}",
                   "border": "none"
                 },
@@ -1817,7 +1817,7 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.sm}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.sm}",
-                  "itemSpacing": "{sem.button.circular.spacing.sm}",
+                  "itemSpacing": "{sem.button.circular.spacing}",
                   "fill": "{sem.colorAction.secondary.disabled}",
                   "border": "none"
                 },
@@ -1851,7 +1851,7 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.md}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.md}",
-                  "itemSpacing": "{sem.button.circular.spacing.md}",
+                  "itemSpacing": "{sem.button.circular.spacing}",
                   "fill": "{sem.colorAction.secondary.default}",
                   "border": "none"
                 },
@@ -1883,7 +1883,7 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.md}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.md}",
-                  "itemSpacing": "{sem.button.circular.spacing.md}",
+                  "itemSpacing": "{sem.button.circular.spacing}",
                   "fill": "{sem.colorAction.secondary.hover}",
                   "border": "none"
                 },
@@ -1915,7 +1915,7 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.md}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.md}",
-                  "itemSpacing": "{sem.button.circular.spacing.md}",
+                  "itemSpacing": "{sem.button.circular.spacing}",
                   "fill": "{sem.colorAction.secondary.pressed}",
                   "border": "none"
                 },
@@ -1947,7 +1947,7 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.md}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.md}",
-                  "itemSpacing": "{sem.button.circular.spacing.md}",
+                  "itemSpacing": "{sem.button.circular.spacing}",
                   "fill": "{sem.colorAction.secondary.disabled}",
                   "border": "none"
                 },
@@ -1981,7 +1981,7 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.lg}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.lg}",
-                  "itemSpacing": "{sem.button.circular.spacing.lg}",
+                  "itemSpacing": "{sem.button.circular.spacing}",
                   "fill": "{sem.colorAction.secondary.default}",
                   "border": "none"
                 },
@@ -2013,7 +2013,7 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.lg}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.lg}",
-                  "itemSpacing": "{sem.button.circular.spacing.lg}",
+                  "itemSpacing": "{sem.button.circular.spacing}",
                   "fill": "{sem.colorAction.secondary.hover}",
                   "border": "none"
                 },
@@ -2045,7 +2045,7 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.lg}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.lg}",
-                  "itemSpacing": "{sem.button.circular.spacing.lg}",
+                  "itemSpacing": "{sem.button.circular.spacing}",
                   "fill": "{sem.colorAction.secondary.pressed}",
                   "border": "none"
                 },
@@ -2077,7 +2077,7 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.lg}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.lg}",
-                  "itemSpacing": "{sem.button.circular.spacing.lg}",
+                  "itemSpacing": "{sem.button.circular.spacing}",
                   "fill": "{sem.colorAction.secondary.disabled}",
                   "border": "none"
                 },
@@ -2507,7 +2507,7 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.sm}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.sm}",
-                  "itemSpacing": "{sem.button.circular.spacing.sm}",
+                  "itemSpacing": "{sem.button.circular.spacing}",
                   "fill": "{sem.colorAction.ghost.default}",
                   "border": "{sem.border.diminished}"
                 },
@@ -2539,7 +2539,7 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.sm}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.sm}",
-                  "itemSpacing": "{sem.button.circular.spacing.sm}",
+                  "itemSpacing": "{sem.button.circular.spacing}",
                   "fill": "{sem.colorAction.ghost.hover}",
                   "border": "{sem.border.diminished}"
                 },
@@ -2571,7 +2571,7 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.sm}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.sm}",
-                  "itemSpacing": "{sem.button.circular.spacing.sm}",
+                  "itemSpacing": "{sem.button.circular.spacing}",
                   "fill": "{sem.colorAction.ghost.pressed}",
                   "border": "{sem.border.diminished}"
                 },
@@ -2603,7 +2603,7 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.sm}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.sm}",
-                  "itemSpacing": "{sem.button.circular.spacing.sm}",
+                  "itemSpacing": "{sem.button.circular.spacing}",
                   "fill": "{sem.colorAction.ghost.disabled}",
                   "border": "none"
                 },
@@ -2637,7 +2637,7 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.md}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.md}",
-                  "itemSpacing": "{sem.button.circular.spacing.md}",
+                  "itemSpacing": "{sem.button.circular.spacing}",
                   "fill": "{sem.colorAction.ghost.default}",
                   "border": "{sem.border.diminished}"
                 },
@@ -2669,7 +2669,7 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.md}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.md}",
-                  "itemSpacing": "{sem.button.circular.spacing.md}",
+                  "itemSpacing": "{sem.button.circular.spacing}",
                   "fill": "{sem.colorAction.ghost.hover}",
                   "border": "{sem.border.diminished}"
                 },
@@ -2701,7 +2701,7 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.md}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.md}",
-                  "itemSpacing": "{sem.button.circular.spacing.md}",
+                  "itemSpacing": "{sem.button.circular.spacing}",
                   "fill": "{sem.colorAction.ghost.pressed}",
                   "border": "{sem.border.diminished}"
                 },
@@ -2733,7 +2733,7 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.md}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.md}",
-                  "itemSpacing": "{sem.button.circular.spacing.md}",
+                  "itemSpacing": "{sem.button.circular.spacing}",
                   "fill": "{sem.colorAction.ghost.disabled}",
                   "border": "none"
                 },
@@ -2767,7 +2767,7 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.lg}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.lg}",
-                  "itemSpacing": "{sem.button.circular.spacing.lg}",
+                  "itemSpacing": "{sem.button.circular.spacing}",
                   "fill": "{sem.colorAction.ghost.default}",
                   "border": "{sem.border.diminished}"
                 },
@@ -2799,7 +2799,7 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.lg}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.lg}",
-                  "itemSpacing": "{sem.button.circular.spacing.lg}",
+                  "itemSpacing": "{sem.button.circular.spacing}",
                   "fill": "{sem.colorAction.ghost.hover}",
                   "border": "{sem.border.diminished}"
                 },
@@ -2831,7 +2831,7 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.lg}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.lg}",
-                  "itemSpacing": "{sem.button.circular.spacing.lg}",
+                  "itemSpacing": "{sem.button.circular.spacing}",
                   "fill": "{sem.colorAction.ghost.pressed}",
                   "border": "{sem.border.diminished}"
                 },
@@ -2863,7 +2863,7 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.lg}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.lg}",
-                  "itemSpacing": "{sem.button.circular.spacing.lg}",
+                  "itemSpacing": "{sem.button.circular.spacing}",
                   "fill": "{sem.colorAction.ghost.disabled}",
                   "border": "none"
                 },
@@ -3293,7 +3293,7 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.sm}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.sm}",
-                  "itemSpacing": "{sem.button.circular.spacing.sm}",
+                  "itemSpacing": "{sem.button.circular.spacing}",
                   "fill": "{sem.colorAction.success.default}",
                   "border": "none"
                 },
@@ -3325,7 +3325,7 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.sm}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.sm}",
-                  "itemSpacing": "{sem.button.circular.spacing.sm}",
+                  "itemSpacing": "{sem.button.circular.spacing}",
                   "fill": "{sem.colorAction.success.hover}",
                   "border": "none"
                 },
@@ -3357,7 +3357,7 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.sm}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.sm}",
-                  "itemSpacing": "{sem.button.circular.spacing.sm}",
+                  "itemSpacing": "{sem.button.circular.spacing}",
                   "fill": "{sem.colorAction.success.pressed}",
                   "border": "none"
                 },
@@ -3389,7 +3389,7 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.sm}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.sm}",
-                  "itemSpacing": "{sem.button.circular.spacing.sm}",
+                  "itemSpacing": "{sem.button.circular.spacing}",
                   "fill": "{sem.colorAction.success.disabled}",
                   "border": "none"
                 },
@@ -3423,7 +3423,7 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.md}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.md}",
-                  "itemSpacing": "{sem.button.circular.spacing.md}",
+                  "itemSpacing": "{sem.button.circular.spacing}",
                   "fill": "{sem.colorAction.success.default}",
                   "border": "none"
                 },
@@ -3455,7 +3455,7 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.md}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.md}",
-                  "itemSpacing": "{sem.button.circular.spacing.md}",
+                  "itemSpacing": "{sem.button.circular.spacing}",
                   "fill": "{sem.colorAction.success.hover}",
                   "border": "none"
                 },
@@ -3487,7 +3487,7 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.md}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.md}",
-                  "itemSpacing": "{sem.button.circular.spacing.md}",
+                  "itemSpacing": "{sem.button.circular.spacing}",
                   "fill": "{sem.colorAction.success.pressed}",
                   "border": "none"
                 },
@@ -3519,7 +3519,7 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.md}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.md}",
-                  "itemSpacing": "{sem.button.circular.spacing.md}",
+                  "itemSpacing": "{sem.button.circular.spacing}",
                   "fill": "{sem.colorAction.success.disabled}",
                   "border": "none"
                 },
@@ -3553,7 +3553,7 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.lg}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.lg}",
-                  "itemSpacing": "{sem.button.circular.spacing.lg}",
+                  "itemSpacing": "{sem.button.circular.spacing}",
                   "fill": "{sem.colorAction.success.default}",
                   "border": "none"
                 },
@@ -3585,7 +3585,7 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.lg}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.lg}",
-                  "itemSpacing": "{sem.button.circular.spacing.lg}",
+                  "itemSpacing": "{sem.button.circular.spacing}",
                   "fill": "{sem.colorAction.success.hover}",
                   "border": "none"
                 },
@@ -3617,7 +3617,7 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.lg}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.lg}",
-                  "itemSpacing": "{sem.button.circular.spacing.lg}",
+                  "itemSpacing": "{sem.button.circular.spacing}",
                   "fill": "{sem.colorAction.success.pressed}",
                   "border": "none"
                 },
@@ -3649,7 +3649,7 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.lg}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.lg}",
-                  "itemSpacing": "{sem.button.circular.spacing.lg}",
+                  "itemSpacing": "{sem.button.circular.spacing}",
                   "fill": "{sem.colorAction.success.disabled}",
                   "border": "none"
                 },
@@ -4079,7 +4079,7 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.sm}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.sm}",
-                  "itemSpacing": "{sem.button.circular.spacing.sm}",
+                  "itemSpacing": "{sem.button.circular.spacing}",
                   "fill": "{sem.colorAction.external.default}",
                   "border": "none"
                 },
@@ -4111,7 +4111,7 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.sm}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.sm}",
-                  "itemSpacing": "{sem.button.circular.spacing.sm}",
+                  "itemSpacing": "{sem.button.circular.spacing}",
                   "fill": "{sem.colorAction.external.hover}",
                   "border": "none"
                 },
@@ -4143,7 +4143,7 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.sm}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.sm}",
-                  "itemSpacing": "{sem.button.circular.spacing.sm}",
+                  "itemSpacing": "{sem.button.circular.spacing}",
                   "fill": "{sem.colorAction.external.pressed}",
                   "border": "none"
                 },
@@ -4175,7 +4175,7 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.sm}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.sm}",
-                  "itemSpacing": "{sem.button.circular.spacing.sm}",
+                  "itemSpacing": "{sem.button.circular.spacing}",
                   "fill": "{sem.colorAction.external.disabled}",
                   "border": "none"
                 },
@@ -4209,7 +4209,7 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.md}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.md}",
-                  "itemSpacing": "{sem.button.circular.spacing.md}",
+                  "itemSpacing": "{sem.button.circular.spacing}",
                   "fill": "{sem.colorAction.external.default}",
                   "border": "none"
                 },
@@ -4241,7 +4241,7 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.md}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.md}",
-                  "itemSpacing": "{sem.button.circular.spacing.md}",
+                  "itemSpacing": "{sem.button.circular.spacing}",
                   "fill": "{sem.colorAction.external.hover}",
                   "border": "none"
                 },
@@ -4273,7 +4273,7 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.md}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.md}",
-                  "itemSpacing": "{sem.button.circular.spacing.md}",
+                  "itemSpacing": "{sem.button.circular.spacing}",
                   "fill": "{sem.colorAction.external.pressed}",
                   "border": "none"
                 },
@@ -4305,7 +4305,7 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.md}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.md}",
-                  "itemSpacing": "{sem.button.circular.spacing.md}",
+                  "itemSpacing": "{sem.button.circular.spacing}",
                   "fill": "{sem.colorAction.external.disabled}",
                   "border": "none"
                 },
@@ -4339,7 +4339,7 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.lg}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.lg}",
-                  "itemSpacing": "{sem.button.circular.spacing.lg}",
+                  "itemSpacing": "{sem.button.circular.spacing}",
                   "fill": "{sem.colorAction.external.default}",
                   "border": "none"
                 },
@@ -4371,7 +4371,7 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.lg}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.lg}",
-                  "itemSpacing": "{sem.button.circular.spacing.lg}",
+                  "itemSpacing": "{sem.button.circular.spacing}",
                   "fill": "{sem.colorAction.external.hover}",
                   "border": "none"
                 },
@@ -4403,7 +4403,7 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.lg}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.lg}",
-                  "itemSpacing": "{sem.button.circular.spacing.lg}",
+                  "itemSpacing": "{sem.button.circular.spacing}",
                   "fill": "{sem.colorAction.external.pressed}",
                   "border": "none"
                 },
@@ -4435,7 +4435,7 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.lg}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.lg}",
-                  "itemSpacing": "{sem.button.circular.spacing.lg}",
+                  "itemSpacing": "{sem.button.circular.spacing}",
                   "fill": "{sem.colorAction.external.disabled}",
                   "border": "none"
                 },
@@ -4865,7 +4865,7 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.sm}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.sm}",
-                  "itemSpacing": "{sem.button.circular.spacing.sm}",
+                  "itemSpacing": "{sem.button.circular.spacing}",
                   "fill": "{sem.colorAction.danger.default}",
                   "border": "none"
                 },
@@ -4897,7 +4897,7 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.sm}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.sm}",
-                  "itemSpacing": "{sem.button.circular.spacing.sm}",
+                  "itemSpacing": "{sem.button.circular.spacing}",
                   "fill": "{sem.colorAction.danger.hover}",
                   "border": "none"
                 },
@@ -4929,7 +4929,7 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.sm}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.sm}",
-                  "itemSpacing": "{sem.button.circular.spacing.sm}",
+                  "itemSpacing": "{sem.button.circular.spacing}",
                   "fill": "{sem.colorAction.danger.pressed}",
                   "border": "none"
                 },
@@ -4961,7 +4961,7 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.sm}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.sm}",
-                  "itemSpacing": "{sem.button.circular.spacing.sm}",
+                  "itemSpacing": "{sem.button.circular.spacing}",
                   "fill": "{sem.colorAction.danger.disabled}",
                   "border": "none"
                 },
@@ -4995,7 +4995,7 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.md}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.md}",
-                  "itemSpacing": "{sem.button.circular.spacing.md}",
+                  "itemSpacing": "{sem.button.circular.spacing}",
                   "fill": "{sem.colorAction.danger.default}",
                   "border": "none"
                 },
@@ -5027,7 +5027,7 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.md}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.md}",
-                  "itemSpacing": "{sem.button.circular.spacing.md}",
+                  "itemSpacing": "{sem.button.circular.spacing}",
                   "fill": "{sem.colorAction.danger.hover}",
                   "border": "none"
                 },
@@ -5059,7 +5059,7 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.md}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.md}",
-                  "itemSpacing": "{sem.button.circular.spacing.md}",
+                  "itemSpacing": "{sem.button.circular.spacing}",
                   "fill": "{sem.colorAction.danger.pressed}",
                   "border": "none"
                 },
@@ -5091,7 +5091,7 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.md}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.md}",
-                  "itemSpacing": "{sem.button.circular.spacing.md}",
+                  "itemSpacing": "{sem.button.circular.spacing}",
                   "fill": "{sem.colorAction.danger.disabled}",
                   "border": "none"
                 },
@@ -5125,7 +5125,7 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.lg}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.lg}",
-                  "itemSpacing": "{sem.button.circular.spacing.lg}",
+                  "itemSpacing": "{sem.button.circular.spacing}",
                   "fill": "{sem.colorAction.danger.default}",
                   "border": "none"
                 },
@@ -5157,7 +5157,7 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.lg}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.lg}",
-                  "itemSpacing": "{sem.button.circular.spacing.lg}",
+                  "itemSpacing": "{sem.button.circular.spacing}",
                   "fill": "{sem.colorAction.danger.hover}",
                   "border": "none"
                 },
@@ -5189,7 +5189,7 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.lg}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.lg}",
-                  "itemSpacing": "{sem.button.circular.spacing.lg}",
+                  "itemSpacing": "{sem.button.circular.spacing}",
                   "fill": "{sem.colorAction.danger.pressed}",
                   "border": "none"
                 },
@@ -5221,7 +5221,7 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.lg}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.lg}",
-                  "itemSpacing": "{sem.button.circular.spacing.lg}",
+                  "itemSpacing": "{sem.button.circular.spacing}",
                   "fill": "{sem.colorAction.danger.disabled}",
                   "border": "none"
                 },
