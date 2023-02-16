@@ -563,7 +563,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.sm}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -594,7 +594,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.sm}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -625,7 +625,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.sm}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -656,7 +656,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.sm}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -689,7 +689,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.md}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -720,7 +720,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.md}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -751,7 +751,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.md}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -782,7 +782,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.md}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -815,7 +815,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.lg}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -846,7 +846,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.lg}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -877,7 +877,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.lg}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -908,7 +908,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.lg}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -943,7 +943,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.sm}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -974,7 +974,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.sm}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -1005,7 +1005,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.sm}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -1036,7 +1036,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.sm}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -1069,7 +1069,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.md}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -1100,7 +1100,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.md}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -1131,7 +1131,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.md}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -1162,7 +1162,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.md}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -1195,7 +1195,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.lg}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -1226,7 +1226,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.lg}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -1257,7 +1257,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.lg}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -1288,7 +1288,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.lg}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -1325,7 +1325,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.sm}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -1356,7 +1356,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.sm}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -1387,7 +1387,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.sm}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -1418,7 +1418,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.sm}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -1451,7 +1451,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.md}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -1482,7 +1482,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.md}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -1513,7 +1513,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.md}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -1544,7 +1544,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.md}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -1577,7 +1577,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.lg}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -1608,7 +1608,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.lg}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -1639,7 +1639,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.lg}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -1670,7 +1670,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.lg}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -1705,7 +1705,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.sm}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -1736,7 +1736,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.sm}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -1767,7 +1767,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.sm}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -1798,7 +1798,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.sm}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -1831,7 +1831,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.md}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -1862,7 +1862,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.md}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -1893,7 +1893,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.md}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -1924,7 +1924,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.md}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -1957,7 +1957,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.lg}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -1988,7 +1988,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.lg}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -2019,7 +2019,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.lg}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -2050,7 +2050,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.lg}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -2080,14 +2080,14 @@
               },
               "iconColor": {
                 "value": {
-                  "borderColor": "{sem.colorIcon.light}"
+                  "borderColor": "{sem.colorIcon.dark}"
                 },
                 "type": "composition"
               },
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.sm}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.dark}}"
                 },
                 "type": "composition"
               }
@@ -2111,14 +2111,14 @@
               },
               "iconColor": {
                 "value": {
-                  "borderColor": "{sem.colorIcon.light}"
+                  "borderColor": "{sem.colorIcon.dark}"
                 },
                 "type": "composition"
               },
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.sm}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.dark}}"
                 },
                 "type": "composition"
               }
@@ -2142,14 +2142,14 @@
               },
               "iconColor": {
                 "value": {
-                  "borderColor": "{sem.colorIcon.light}"
+                  "borderColor": "{sem.colorIcon.dark}"
                 },
                 "type": "composition"
               },
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.sm}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.dark}}"
                 },
                 "type": "composition"
               }
@@ -2180,7 +2180,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.sm}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -2206,14 +2206,14 @@
               },
               "iconColor": {
                 "value": {
-                  "borderColor": "{sem.colorIcon.light}"
+                  "borderColor": "{sem.colorIcon.dark}"
                 },
                 "type": "composition"
               },
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.md}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.dark}}"
                 },
                 "type": "composition"
               }
@@ -2237,14 +2237,14 @@
               },
               "iconColor": {
                 "value": {
-                  "borderColor": "{sem.colorIcon.light}"
+                  "borderColor": "{sem.colorIcon.dark}"
                 },
                 "type": "composition"
               },
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.md}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.dark}}"
                 },
                 "type": "composition"
               }
@@ -2268,14 +2268,14 @@
               },
               "iconColor": {
                 "value": {
-                  "borderColor": "{sem.colorIcon.light}"
+                  "borderColor": "{sem.colorIcon.dark}"
                 },
                 "type": "composition"
               },
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.md}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.dark}}"
                 },
                 "type": "composition"
               }
@@ -2306,7 +2306,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.md}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -2332,14 +2332,14 @@
               },
               "iconColor": {
                 "value": {
-                  "borderColor": "{sem.colorIcon.light}"
+                  "borderColor": "{sem.colorIcon.dark}"
                 },
                 "type": "composition"
               },
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.lg}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.dark}}"
                 },
                 "type": "composition"
               }
@@ -2363,14 +2363,14 @@
               },
               "iconColor": {
                 "value": {
-                  "borderColor": "{sem.colorIcon.light}"
+                  "borderColor": "{sem.colorIcon.dark}"
                 },
                 "type": "composition"
               },
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.lg}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.dark}}"
                 },
                 "type": "composition"
               }
@@ -2394,14 +2394,14 @@
               },
               "iconColor": {
                 "value": {
-                  "borderColor": "{sem.colorIcon.light}"
+                  "borderColor": "{sem.colorIcon.dark}"
                 },
                 "type": "composition"
               },
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.lg}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.dark}}"
                 },
                 "type": "composition"
               }
@@ -2432,7 +2432,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.lg}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -2460,14 +2460,14 @@
               },
               "iconColor": {
                 "value": {
-                  "borderColor": "{sem.colorIcon.light}"
+                  "borderColor": "{sem.colorIcon.dark}"
                 },
                 "type": "composition"
               },
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.sm}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.dark}}"
                 },
                 "type": "composition"
               }
@@ -2491,14 +2491,14 @@
               },
               "iconColor": {
                 "value": {
-                  "borderColor": "{sem.colorIcon.light}"
+                  "borderColor": "{sem.colorIcon.dark}"
                 },
                 "type": "composition"
               },
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.sm}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.dark}}"
                 },
                 "type": "composition"
               }
@@ -2522,14 +2522,14 @@
               },
               "iconColor": {
                 "value": {
-                  "borderColor": "{sem.colorIcon.light}"
+                  "borderColor": "{sem.colorIcon.dark}"
                 },
                 "type": "composition"
               },
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.sm}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.dark}}"
                 },
                 "type": "composition"
               }
@@ -2560,7 +2560,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.sm}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -2586,14 +2586,14 @@
               },
               "iconColor": {
                 "value": {
-                  "borderColor": "{sem.colorIcon.light}"
+                  "borderColor": "{sem.colorIcon.dark}"
                 },
                 "type": "composition"
               },
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.md}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.dark}}"
                 },
                 "type": "composition"
               }
@@ -2617,14 +2617,14 @@
               },
               "iconColor": {
                 "value": {
-                  "borderColor": "{sem.colorIcon.light}"
+                  "borderColor": "{sem.colorIcon.dark}"
                 },
                 "type": "composition"
               },
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.md}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.dark}}"
                 },
                 "type": "composition"
               }
@@ -2648,14 +2648,14 @@
               },
               "iconColor": {
                 "value": {
-                  "borderColor": "{sem.colorIcon.light}"
+                  "borderColor": "{sem.colorIcon.dark}"
                 },
                 "type": "composition"
               },
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.md}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.dark}}"
                 },
                 "type": "composition"
               }
@@ -2686,7 +2686,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.md}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -2712,14 +2712,14 @@
               },
               "iconColor": {
                 "value": {
-                  "borderColor": "{sem.colorIcon.light}"
+                  "borderColor": "{sem.colorIcon.dark}"
                 },
                 "type": "composition"
               },
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.lg}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.dark}}"
                 },
                 "type": "composition"
               }
@@ -2743,14 +2743,14 @@
               },
               "iconColor": {
                 "value": {
-                  "borderColor": "{sem.colorIcon.light}"
+                  "borderColor": "{sem.colorIcon.dark}"
                 },
                 "type": "composition"
               },
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.lg}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.dark}}"
                 },
                 "type": "composition"
               }
@@ -2774,14 +2774,14 @@
               },
               "iconColor": {
                 "value": {
-                  "borderColor": "{sem.colorIcon.light}"
+                  "borderColor": "{sem.colorIcon.dark}"
                 },
                 "type": "composition"
               },
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.lg}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.dark}}"
                 },
                 "type": "composition"
               }
@@ -2812,7 +2812,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.lg}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -2849,7 +2849,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.sm}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -2880,7 +2880,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.sm}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -2911,7 +2911,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.sm}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -2942,7 +2942,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.sm}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -2975,7 +2975,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.md}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -3006,7 +3006,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.md}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -3037,7 +3037,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.md}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -3068,7 +3068,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.md}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -3101,7 +3101,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.lg}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -3132,7 +3132,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.lg}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -3163,7 +3163,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.lg}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -3194,7 +3194,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.lg}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -3229,7 +3229,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.sm}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -3260,7 +3260,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.sm}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -3291,7 +3291,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.sm}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -3322,7 +3322,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.sm}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -3355,7 +3355,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.md}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -3386,7 +3386,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.md}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -3417,7 +3417,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.md}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -3448,7 +3448,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.md}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -3481,7 +3481,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.lg}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -3512,7 +3512,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.lg}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -3543,7 +3543,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.lg}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -3574,7 +3574,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.lg}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -3611,7 +3611,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.sm}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -3642,7 +3642,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.sm}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -3673,7 +3673,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.sm}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -3704,7 +3704,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.sm}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -3737,7 +3737,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.md}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -3768,7 +3768,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.md}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -3799,7 +3799,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.md}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -3830,7 +3830,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.md}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -3863,7 +3863,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.lg}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -3894,7 +3894,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.lg}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -3925,7 +3925,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.lg}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -3956,7 +3956,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.lg}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -3991,7 +3991,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.sm}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -4022,7 +4022,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.sm}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -4053,7 +4053,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.sm}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -4084,7 +4084,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.sm}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -4117,7 +4117,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.md}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -4148,7 +4148,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.md}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -4179,7 +4179,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.md}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -4210,7 +4210,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.md}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -4243,7 +4243,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.lg}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -4274,7 +4274,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.lg}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -4305,7 +4305,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.lg}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -4336,7 +4336,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.lg}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -4373,7 +4373,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.sm}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -4404,7 +4404,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.sm}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -4435,7 +4435,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.sm}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -4466,7 +4466,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.sm}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -4499,7 +4499,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.md}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -4530,7 +4530,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.md}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -4561,7 +4561,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.md}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -4592,7 +4592,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.md}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -4625,7 +4625,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.lg}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -4656,7 +4656,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.lg}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -4687,7 +4687,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.lg}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -4718,7 +4718,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.lg}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -4753,7 +4753,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.sm}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -4784,7 +4784,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.sm}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -4815,7 +4815,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.sm}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -4846,7 +4846,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.sm}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -4879,7 +4879,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.md}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -4910,7 +4910,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.md}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -4941,7 +4941,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.md}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -4972,7 +4972,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.md}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -5005,7 +5005,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.lg}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -5036,7 +5036,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.lg}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -5067,7 +5067,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.lg}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
@@ -5098,7 +5098,7 @@
               "label": {
                 "value": {
                   "typography": "{sem.typography.textStyle.label.button.lg}",
-                  "fill": "{sem.colorText.light}"
+                  "fill": "{sem.colorText.light}}"
                 },
                 "type": "composition"
               }
