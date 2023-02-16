@@ -5749,6 +5749,15 @@
         },
         "type": "composition"
       }
+    },
+    "divider": {
+      "default": {
+        "value": {
+          "borderWidth": "{sem.divider.borderWidth}",
+          "fill": "{sem.colorBorder.disabled}"
+        },
+        "type": "composition"
+      }
     }
   },
   "sem": {
@@ -5875,11 +5884,13 @@
         "borderRadius": {
           "value": "{ref.borderRadius.9999}",
           "type": "borderRadius"
-        },
-        "spacing": {
-          "value": "{ref.spacing.100}",
-          "type": "spacing"
         }
+      }
+    },
+    "divider": {
+      "borderWidth": {
+        "value": "{ref.borderWidth.sm}",
+        "type": "borderWidth"
       }
     }
   }
