@@ -5601,7 +5601,7 @@
       },
       "iconColor": {
         "value": {
-          "fill": "{sem.colorIcon.black}"
+          "fill": "{sem.colorIcon.dark}"
         },
         "type": "composition"
       }
