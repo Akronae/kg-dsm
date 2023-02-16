@@ -1,0 +1,4576 @@
+{
+  "button": {
+    "primary": {
+      "rectangular": {
+        "sm": {
+          "default": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.rectangular.borderRadius.sm}",
+                "verticalPadding": "{sem.button.rectangular.verticalPadding.sm}",
+                "horizontalPadding": "{sem.button.rectangular.horizontalPadding.sm}",
+                "itemSpacing": "{sem.button.rectangular.spacing.sm}",
+                "fill": "{sem.colorAction.primary.default}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.rectangular.icon.sizing.sm}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.sm}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          },
+          "hover": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.rectangular.borderRadius.sm}",
+                "verticalPadding": "{sem.button.rectangular.verticalPadding.sm}",
+                "horizontalPadding": "{sem.button.rectangular.horizontalPadding.sm}",
+                "itemSpacing": "{sem.button.rectangular.spacing.sm}",
+                "fill": "{sem.colorAction.primary.hover}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.rectangular.icon.sizing.sm}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.sm}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          },
+          "pressed": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.rectangular.borderRadius.sm}",
+                "verticalPadding": "{sem.button.rectangular.verticalPadding.sm}",
+                "horizontalPadding": "{sem.button.rectangular.horizontalPadding.sm}",
+                "itemSpacing": "{sem.button.rectangular.spacing.sm}",
+                "fill": "{sem.colorAction.primary.pressed}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.rectangular.icon.sizing.sm}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.sm}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          },
+          "disabled": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.rectangular.borderRadius.sm}",
+                "verticalPadding": "{sem.button.rectangular.verticalPadding.sm}",
+                "horizontalPadding": "{sem.button.rectangular.horizontalPadding.sm}",
+                "itemSpacing": "{sem.button.rectangular.spacing.sm}",
+                "fill": "{sem.colorAction.primary.disabled}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.rectangular.icon.sizing.sm}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.sm}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          }
+        },
+        "md": {
+          "default": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.rectangular.borderRadius.md}",
+                "verticalPadding": "{sem.button.rectangular.verticalPadding.md}",
+                "horizontalPadding": "{sem.button.rectangular.horizontalPadding.md}",
+                "itemSpacing": "{sem.button.rectangular.spacing.md}",
+                "fill": "{sem.colorAction.primary.default}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.rectangular.icon.sizing.md}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.md}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          },
+          "hover": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.rectangular.borderRadius.md}",
+                "verticalPadding": "{sem.button.rectangular.verticalPadding.md}",
+                "horizontalPadding": "{sem.button.rectangular.horizontalPadding.md}",
+                "itemSpacing": "{sem.button.rectangular.spacing.md}",
+                "fill": "{sem.colorAction.primary.hover}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.rectangular.icon.sizing.md}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.md}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          },
+          "pressed": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.rectangular.borderRadius.md}",
+                "verticalPadding": "{sem.button.rectangular.verticalPadding.md}",
+                "horizontalPadding": "{sem.button.rectangular.horizontalPadding.md}",
+                "itemSpacing": "{sem.button.rectangular.spacing.md}",
+                "fill": "{sem.colorAction.primary.pressed}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.rectangular.icon.sizing.md}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.md}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          },
+          "disabled": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.rectangular.borderRadius.md}",
+                "verticalPadding": "{sem.button.rectangular.verticalPadding.md}",
+                "horizontalPadding": "{sem.button.rectangular.horizontalPadding.md}",
+                "itemSpacing": "{sem.button.rectangular.spacing.md}",
+                "fill": "{sem.colorAction.primary.disabled}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.rectangular.icon.sizing.md}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.md}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          }
+        },
+        "lg": {
+          "default": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.rectangular.borderRadius.lg}",
+                "verticalPadding": "{sem.button.rectangular.verticalPadding.lg}",
+                "horizontalPadding": "{sem.button.rectangular.horizontalPadding.lg}",
+                "itemSpacing": "{sem.button.rectangular.spacing.lg}",
+                "fill": "{sem.colorAction.primary.default}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.rectangular.icon.sizing.lg}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.lg}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          },
+          "hover": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.rectangular.borderRadius.lg}",
+                "verticalPadding": "{sem.button.rectangular.verticalPadding.lg}",
+                "horizontalPadding": "{sem.button.rectangular.horizontalPadding.lg}",
+                "itemSpacing": "{sem.button.rectangular.spacing.lg}",
+                "fill": "{sem.colorAction.primary.hover}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.rectangular.icon.sizing.lg}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.lg}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          },
+          "pressed": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.rectangular.borderRadius.lg}",
+                "verticalPadding": "{sem.button.rectangular.verticalPadding.lg}",
+                "horizontalPadding": "{sem.button.rectangular.horizontalPadding.lg}",
+                "itemSpacing": "{sem.button.rectangular.spacing.lg}",
+                "fill": "{sem.colorAction.primary.pressed}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.rectangular.icon.sizing.lg}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.lg}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          },
+          "disabled": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.rectangular.borderRadius.lg}",
+                "verticalPadding": "{sem.button.rectangular.verticalPadding.lg}",
+                "horizontalPadding": "{sem.button.rectangular.horizontalPadding.lg}",
+                "itemSpacing": "{sem.button.rectangular.spacing.lg}",
+                "fill": "{sem.colorAction.primary.disabled}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.rectangular.icon.sizing.lg}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.lg}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          }
+        }
+      },
+      "circular": {
+        "sm": {
+          "default": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.circular.borderRadius.sm}",
+                "verticalPadding": "{sem.button.circular.verticalPadding.sm}",
+                "horizontalPadding": "{sem.button.circular.horizontalPadding.sm}",
+                "itemSpacing": "{sem.button.circular.spacing.sm}",
+                "fill": "{sem.colorAction.primary.default}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.circular.icon.sizing.sm}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.sm}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          },
+          "hover": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.circular.borderRadius.sm}",
+                "verticalPadding": "{sem.button.circular.verticalPadding.sm}",
+                "horizontalPadding": "{sem.button.circular.horizontalPadding.sm}",
+                "itemSpacing": "{sem.button.circular.spacing.sm}",
+                "fill": "{sem.colorAction.primary.hover}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.circular.icon.sizing.sm}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.sm}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          },
+          "pressed": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.circular.borderRadius.sm}",
+                "verticalPadding": "{sem.button.circular.verticalPadding.sm}",
+                "horizontalPadding": "{sem.button.circular.horizontalPadding.sm}",
+                "itemSpacing": "{sem.button.circular.spacing.sm}",
+                "fill": "{sem.colorAction.primary.pressed}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.circular.icon.sizing.sm}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.sm}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          },
+          "disabled": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.circular.borderRadius.sm}",
+                "verticalPadding": "{sem.button.circular.verticalPadding.sm}",
+                "horizontalPadding": "{sem.button.circular.horizontalPadding.sm}",
+                "itemSpacing": "{sem.button.circular.spacing.sm}",
+                "fill": "{sem.colorAction.primary.disabled}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.circular.icon.sizing.sm}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.sm}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          }
+        },
+        "md": {
+          "default": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.circular.borderRadius.md}",
+                "verticalPadding": "{sem.button.circular.verticalPadding.md}",
+                "horizontalPadding": "{sem.button.circular.horizontalPadding.md}",
+                "itemSpacing": "{sem.button.circular.spacing.md}",
+                "fill": "{sem.colorAction.primary.default}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.circular.icon.sizing.md}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.md}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          },
+          "hover": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.circular.borderRadius.md}",
+                "verticalPadding": "{sem.button.circular.verticalPadding.md}",
+                "horizontalPadding": "{sem.button.circular.horizontalPadding.md}",
+                "itemSpacing": "{sem.button.circular.spacing.md}",
+                "fill": "{sem.colorAction.primary.hover}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.circular.icon.sizing.md}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.md}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          },
+          "pressed": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.circular.borderRadius.md}",
+                "verticalPadding": "{sem.button.circular.verticalPadding.md}",
+                "horizontalPadding": "{sem.button.circular.horizontalPadding.md}",
+                "itemSpacing": "{sem.button.circular.spacing.md}",
+                "fill": "{sem.colorAction.primary.pressed}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.circular.icon.sizing.md}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.md}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          },
+          "disabled": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.circular.borderRadius.md}",
+                "verticalPadding": "{sem.button.circular.verticalPadding.md}",
+                "horizontalPadding": "{sem.button.circular.horizontalPadding.md}",
+                "itemSpacing": "{sem.button.circular.spacing.md}",
+                "fill": "{sem.colorAction.primary.disabled}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.circular.icon.sizing.md}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.md}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          }
+        },
+        "lg": {
+          "default": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.circular.borderRadius.lg}",
+                "verticalPadding": "{sem.button.circular.verticalPadding.lg}",
+                "horizontalPadding": "{sem.button.circular.horizontalPadding.lg}",
+                "itemSpacing": "{sem.button.circular.spacing.lg}",
+                "fill": "{sem.colorAction.primary.default}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.circular.icon.sizing.lg}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.lg}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          },
+          "hover": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.circular.borderRadius.lg}",
+                "verticalPadding": "{sem.button.circular.verticalPadding.lg}",
+                "horizontalPadding": "{sem.button.circular.horizontalPadding.lg}",
+                "itemSpacing": "{sem.button.circular.spacing.lg}",
+                "fill": "{sem.colorAction.primary.hover}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.circular.icon.sizing.lg}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.lg}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          },
+          "pressed": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.circular.borderRadius.lg}",
+                "verticalPadding": "{sem.button.circular.verticalPadding.lg}",
+                "horizontalPadding": "{sem.button.circular.horizontalPadding.lg}",
+                "itemSpacing": "{sem.button.circular.spacing.lg}",
+                "fill": "{sem.colorAction.primary.pressed}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.circular.icon.sizing.lg}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.lg}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          },
+          "disabled": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.circular.borderRadius.lg}",
+                "verticalPadding": "{sem.button.circular.verticalPadding.lg}",
+                "horizontalPadding": "{sem.button.circular.horizontalPadding.lg}",
+                "itemSpacing": "{sem.button.circular.spacing.lg}",
+                "fill": "{sem.colorAction.primary.disabled}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.circular.icon.sizing.lg}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.lg}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          }
+        }
+      }
+    },
+    "secondary": {
+      "rectangular": {
+        "sm": {
+          "default": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.rectangular.borderRadius.sm}",
+                "verticalPadding": "{sem.button.rectangular.verticalPadding.sm}",
+                "horizontalPadding": "{sem.button.rectangular.horizontalPadding.sm}",
+                "itemSpacing": "{sem.button.rectangular.spacing.sm}",
+                "fill": "{sem.colorAction.secondary.default}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.rectangular.icon.sizing.sm}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.sm}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          },
+          "hover": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.rectangular.borderRadius.sm}",
+                "verticalPadding": "{sem.button.rectangular.verticalPadding.sm}",
+                "horizontalPadding": "{sem.button.rectangular.horizontalPadding.sm}",
+                "itemSpacing": "{sem.button.rectangular.spacing.sm}",
+                "fill": "{sem.colorAction.secondary.hover}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.rectangular.icon.sizing.sm}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.sm}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          },
+          "pressed": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.rectangular.borderRadius.sm}",
+                "verticalPadding": "{sem.button.rectangular.verticalPadding.sm}",
+                "horizontalPadding": "{sem.button.rectangular.horizontalPadding.sm}",
+                "itemSpacing": "{sem.button.rectangular.spacing.sm}",
+                "fill": "{sem.colorAction.secondary.pressed}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.rectangular.icon.sizing.sm}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.sm}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          },
+          "disabled": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.rectangular.borderRadius.sm}",
+                "verticalPadding": "{sem.button.rectangular.verticalPadding.sm}",
+                "horizontalPadding": "{sem.button.rectangular.horizontalPadding.sm}",
+                "itemSpacing": "{sem.button.rectangular.spacing.sm}",
+                "fill": "{sem.colorAction.secondary.disabled}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.rectangular.icon.sizing.sm}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.sm}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          }
+        },
+        "md": {
+          "default": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.rectangular.borderRadius.md}",
+                "verticalPadding": "{sem.button.rectangular.verticalPadding.md}",
+                "horizontalPadding": "{sem.button.rectangular.horizontalPadding.md}",
+                "itemSpacing": "{sem.button.rectangular.spacing.md}",
+                "fill": "{sem.colorAction.secondary.default}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.rectangular.icon.sizing.md}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.md}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          },
+          "hover": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.rectangular.borderRadius.md}",
+                "verticalPadding": "{sem.button.rectangular.verticalPadding.md}",
+                "horizontalPadding": "{sem.button.rectangular.horizontalPadding.md}",
+                "itemSpacing": "{sem.button.rectangular.spacing.md}",
+                "fill": "{sem.colorAction.secondary.hover}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.rectangular.icon.sizing.md}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.md}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          },
+          "pressed": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.rectangular.borderRadius.md}",
+                "verticalPadding": "{sem.button.rectangular.verticalPadding.md}",
+                "horizontalPadding": "{sem.button.rectangular.horizontalPadding.md}",
+                "itemSpacing": "{sem.button.rectangular.spacing.md}",
+                "fill": "{sem.colorAction.secondary.pressed}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.rectangular.icon.sizing.md}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.md}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          },
+          "disabled": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.rectangular.borderRadius.md}",
+                "verticalPadding": "{sem.button.rectangular.verticalPadding.md}",
+                "horizontalPadding": "{sem.button.rectangular.horizontalPadding.md}",
+                "itemSpacing": "{sem.button.rectangular.spacing.md}",
+                "fill": "{sem.colorAction.secondary.disabled}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.rectangular.icon.sizing.md}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.md}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          }
+        },
+        "lg": {
+          "default": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.rectangular.borderRadius.lg}",
+                "verticalPadding": "{sem.button.rectangular.verticalPadding.lg}",
+                "horizontalPadding": "{sem.button.rectangular.horizontalPadding.lg}",
+                "itemSpacing": "{sem.button.rectangular.spacing.lg}",
+                "fill": "{sem.colorAction.secondary.default}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.rectangular.icon.sizing.lg}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.lg}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          },
+          "hover": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.rectangular.borderRadius.lg}",
+                "verticalPadding": "{sem.button.rectangular.verticalPadding.lg}",
+                "horizontalPadding": "{sem.button.rectangular.horizontalPadding.lg}",
+                "itemSpacing": "{sem.button.rectangular.spacing.lg}",
+                "fill": "{sem.colorAction.secondary.hover}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.rectangular.icon.sizing.lg}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.lg}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          },
+          "pressed": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.rectangular.borderRadius.lg}",
+                "verticalPadding": "{sem.button.rectangular.verticalPadding.lg}",
+                "horizontalPadding": "{sem.button.rectangular.horizontalPadding.lg}",
+                "itemSpacing": "{sem.button.rectangular.spacing.lg}",
+                "fill": "{sem.colorAction.secondary.pressed}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.rectangular.icon.sizing.lg}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.lg}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          },
+          "disabled": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.rectangular.borderRadius.lg}",
+                "verticalPadding": "{sem.button.rectangular.verticalPadding.lg}",
+                "horizontalPadding": "{sem.button.rectangular.horizontalPadding.lg}",
+                "itemSpacing": "{sem.button.rectangular.spacing.lg}",
+                "fill": "{sem.colorAction.secondary.disabled}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.rectangular.icon.sizing.lg}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.lg}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          }
+        }
+      },
+      "circular": {
+        "sm": {
+          "default": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.circular.borderRadius.sm}",
+                "verticalPadding": "{sem.button.circular.verticalPadding.sm}",
+                "horizontalPadding": "{sem.button.circular.horizontalPadding.sm}",
+                "itemSpacing": "{sem.button.circular.spacing.sm}",
+                "fill": "{sem.colorAction.secondary.default}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.circular.icon.sizing.sm}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.sm}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          },
+          "hover": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.circular.borderRadius.sm}",
+                "verticalPadding": "{sem.button.circular.verticalPadding.sm}",
+                "horizontalPadding": "{sem.button.circular.horizontalPadding.sm}",
+                "itemSpacing": "{sem.button.circular.spacing.sm}",
+                "fill": "{sem.colorAction.secondary.hover}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.circular.icon.sizing.sm}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.sm}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          },
+          "pressed": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.circular.borderRadius.sm}",
+                "verticalPadding": "{sem.button.circular.verticalPadding.sm}",
+                "horizontalPadding": "{sem.button.circular.horizontalPadding.sm}",
+                "itemSpacing": "{sem.button.circular.spacing.sm}",
+                "fill": "{sem.colorAction.secondary.pressed}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.circular.icon.sizing.sm}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.sm}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          },
+          "disabled": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.circular.borderRadius.sm}",
+                "verticalPadding": "{sem.button.circular.verticalPadding.sm}",
+                "horizontalPadding": "{sem.button.circular.horizontalPadding.sm}",
+                "itemSpacing": "{sem.button.circular.spacing.sm}",
+                "fill": "{sem.colorAction.secondary.disabled}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.circular.icon.sizing.sm}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.sm}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          }
+        },
+        "md": {
+          "default": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.circular.borderRadius.md}",
+                "verticalPadding": "{sem.button.circular.verticalPadding.md}",
+                "horizontalPadding": "{sem.button.circular.horizontalPadding.md}",
+                "itemSpacing": "{sem.button.circular.spacing.md}",
+                "fill": "{sem.colorAction.secondary.default}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.circular.icon.sizing.md}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.md}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          },
+          "hover": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.circular.borderRadius.md}",
+                "verticalPadding": "{sem.button.circular.verticalPadding.md}",
+                "horizontalPadding": "{sem.button.circular.horizontalPadding.md}",
+                "itemSpacing": "{sem.button.circular.spacing.md}",
+                "fill": "{sem.colorAction.secondary.hover}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.circular.icon.sizing.md}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.md}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          },
+          "pressed": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.circular.borderRadius.md}",
+                "verticalPadding": "{sem.button.circular.verticalPadding.md}",
+                "horizontalPadding": "{sem.button.circular.horizontalPadding.md}",
+                "itemSpacing": "{sem.button.circular.spacing.md}",
+                "fill": "{sem.colorAction.secondary.pressed}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.circular.icon.sizing.md}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.md}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          },
+          "disabled": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.circular.borderRadius.md}",
+                "verticalPadding": "{sem.button.circular.verticalPadding.md}",
+                "horizontalPadding": "{sem.button.circular.horizontalPadding.md}",
+                "itemSpacing": "{sem.button.circular.spacing.md}",
+                "fill": "{sem.colorAction.secondary.disabled}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.circular.icon.sizing.md}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.md}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          }
+        },
+        "lg": {
+          "default": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.circular.borderRadius.lg}",
+                "verticalPadding": "{sem.button.circular.verticalPadding.lg}",
+                "horizontalPadding": "{sem.button.circular.horizontalPadding.lg}",
+                "itemSpacing": "{sem.button.circular.spacing.lg}",
+                "fill": "{sem.colorAction.secondary.default}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.circular.icon.sizing.lg}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.lg}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          },
+          "hover": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.circular.borderRadius.lg}",
+                "verticalPadding": "{sem.button.circular.verticalPadding.lg}",
+                "horizontalPadding": "{sem.button.circular.horizontalPadding.lg}",
+                "itemSpacing": "{sem.button.circular.spacing.lg}",
+                "fill": "{sem.colorAction.secondary.hover}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.circular.icon.sizing.lg}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.lg}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          },
+          "pressed": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.circular.borderRadius.lg}",
+                "verticalPadding": "{sem.button.circular.verticalPadding.lg}",
+                "horizontalPadding": "{sem.button.circular.horizontalPadding.lg}",
+                "itemSpacing": "{sem.button.circular.spacing.lg}",
+                "fill": "{sem.colorAction.secondary.pressed}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.circular.icon.sizing.lg}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.lg}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          },
+          "disabled": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.circular.borderRadius.lg}",
+                "verticalPadding": "{sem.button.circular.verticalPadding.lg}",
+                "horizontalPadding": "{sem.button.circular.horizontalPadding.lg}",
+                "itemSpacing": "{sem.button.circular.spacing.lg}",
+                "fill": "{sem.colorAction.secondary.disabled}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.circular.icon.sizing.lg}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.lg}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          }
+        }
+      }
+    },
+    "ghost": {
+      "rectangular": {
+        "sm": {
+          "default": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.rectangular.borderRadius.sm}",
+                "verticalPadding": "{sem.button.rectangular.verticalPadding.sm}",
+                "horizontalPadding": "{sem.button.rectangular.horizontalPadding.sm}",
+                "itemSpacing": "{sem.button.rectangular.spacing.sm}",
+                "fill": "{sem.colorAction.ghost.default}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.rectangular.icon.sizing.sm}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.dark}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.sm}",
+                "fill": "{sem.colorText.dark}}"
+              },
+              "type": "composition"
+            }
+          },
+          "hover": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.rectangular.borderRadius.sm}",
+                "verticalPadding": "{sem.button.rectangular.verticalPadding.sm}",
+                "horizontalPadding": "{sem.button.rectangular.horizontalPadding.sm}",
+                "itemSpacing": "{sem.button.rectangular.spacing.sm}",
+                "fill": "{sem.colorAction.ghost.hover}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.rectangular.icon.sizing.sm}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.dark}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.sm}",
+                "fill": "{sem.colorText.dark}}"
+              },
+              "type": "composition"
+            }
+          },
+          "pressed": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.rectangular.borderRadius.sm}",
+                "verticalPadding": "{sem.button.rectangular.verticalPadding.sm}",
+                "horizontalPadding": "{sem.button.rectangular.horizontalPadding.sm}",
+                "itemSpacing": "{sem.button.rectangular.spacing.sm}",
+                "fill": "{sem.colorAction.ghost.pressed}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.rectangular.icon.sizing.sm}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.dark}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.sm}",
+                "fill": "{sem.colorText.dark}}"
+              },
+              "type": "composition"
+            }
+          },
+          "disabled": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.rectangular.borderRadius.sm}",
+                "verticalPadding": "{sem.button.rectangular.verticalPadding.sm}",
+                "horizontalPadding": "{sem.button.rectangular.horizontalPadding.sm}",
+                "itemSpacing": "{sem.button.rectangular.spacing.sm}",
+                "fill": "{sem.colorAction.ghost.disabled}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.rectangular.icon.sizing.sm}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.sm}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          }
+        },
+        "md": {
+          "default": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.rectangular.borderRadius.md}",
+                "verticalPadding": "{sem.button.rectangular.verticalPadding.md}",
+                "horizontalPadding": "{sem.button.rectangular.horizontalPadding.md}",
+                "itemSpacing": "{sem.button.rectangular.spacing.md}",
+                "fill": "{sem.colorAction.ghost.default}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.rectangular.icon.sizing.md}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.dark}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.md}",
+                "fill": "{sem.colorText.dark}}"
+              },
+              "type": "composition"
+            }
+          },
+          "hover": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.rectangular.borderRadius.md}",
+                "verticalPadding": "{sem.button.rectangular.verticalPadding.md}",
+                "horizontalPadding": "{sem.button.rectangular.horizontalPadding.md}",
+                "itemSpacing": "{sem.button.rectangular.spacing.md}",
+                "fill": "{sem.colorAction.ghost.hover}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.rectangular.icon.sizing.md}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.dark}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.md}",
+                "fill": "{sem.colorText.dark}}"
+              },
+              "type": "composition"
+            }
+          },
+          "pressed": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.rectangular.borderRadius.md}",
+                "verticalPadding": "{sem.button.rectangular.verticalPadding.md}",
+                "horizontalPadding": "{sem.button.rectangular.horizontalPadding.md}",
+                "itemSpacing": "{sem.button.rectangular.spacing.md}",
+                "fill": "{sem.colorAction.ghost.pressed}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.rectangular.icon.sizing.md}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.dark}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.md}",
+                "fill": "{sem.colorText.dark}}"
+              },
+              "type": "composition"
+            }
+          },
+          "disabled": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.rectangular.borderRadius.md}",
+                "verticalPadding": "{sem.button.rectangular.verticalPadding.md}",
+                "horizontalPadding": "{sem.button.rectangular.horizontalPadding.md}",
+                "itemSpacing": "{sem.button.rectangular.spacing.md}",
+                "fill": "{sem.colorAction.ghost.disabled}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.rectangular.icon.sizing.md}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.md}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          }
+        },
+        "lg": {
+          "default": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.rectangular.borderRadius.lg}",
+                "verticalPadding": "{sem.button.rectangular.verticalPadding.lg}",
+                "horizontalPadding": "{sem.button.rectangular.horizontalPadding.lg}",
+                "itemSpacing": "{sem.button.rectangular.spacing.lg}",
+                "fill": "{sem.colorAction.ghost.default}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.rectangular.icon.sizing.lg}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.dark}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.lg}",
+                "fill": "{sem.colorText.dark}}"
+              },
+              "type": "composition"
+            }
+          },
+          "hover": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.rectangular.borderRadius.lg}",
+                "verticalPadding": "{sem.button.rectangular.verticalPadding.lg}",
+                "horizontalPadding": "{sem.button.rectangular.horizontalPadding.lg}",
+                "itemSpacing": "{sem.button.rectangular.spacing.lg}",
+                "fill": "{sem.colorAction.ghost.hover}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.rectangular.icon.sizing.lg}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.dark}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.lg}",
+                "fill": "{sem.colorText.dark}}"
+              },
+              "type": "composition"
+            }
+          },
+          "pressed": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.rectangular.borderRadius.lg}",
+                "verticalPadding": "{sem.button.rectangular.verticalPadding.lg}",
+                "horizontalPadding": "{sem.button.rectangular.horizontalPadding.lg}",
+                "itemSpacing": "{sem.button.rectangular.spacing.lg}",
+                "fill": "{sem.colorAction.ghost.pressed}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.rectangular.icon.sizing.lg}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.dark}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.lg}",
+                "fill": "{sem.colorText.dark}}"
+              },
+              "type": "composition"
+            }
+          },
+          "disabled": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.rectangular.borderRadius.lg}",
+                "verticalPadding": "{sem.button.rectangular.verticalPadding.lg}",
+                "horizontalPadding": "{sem.button.rectangular.horizontalPadding.lg}",
+                "itemSpacing": "{sem.button.rectangular.spacing.lg}",
+                "fill": "{sem.colorAction.ghost.disabled}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.rectangular.icon.sizing.lg}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.lg}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          }
+        }
+      },
+      "circular": {
+        "sm": {
+          "default": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.circular.borderRadius.sm}",
+                "verticalPadding": "{sem.button.circular.verticalPadding.sm}",
+                "horizontalPadding": "{sem.button.circular.horizontalPadding.sm}",
+                "itemSpacing": "{sem.button.circular.spacing.sm}",
+                "fill": "{sem.colorAction.ghost.default}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.circular.icon.sizing.sm}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.dark}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.sm}",
+                "fill": "{sem.colorText.dark}}"
+              },
+              "type": "composition"
+            }
+          },
+          "hover": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.circular.borderRadius.sm}",
+                "verticalPadding": "{sem.button.circular.verticalPadding.sm}",
+                "horizontalPadding": "{sem.button.circular.horizontalPadding.sm}",
+                "itemSpacing": "{sem.button.circular.spacing.sm}",
+                "fill": "{sem.colorAction.ghost.hover}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.circular.icon.sizing.sm}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.dark}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.sm}",
+                "fill": "{sem.colorText.dark}}"
+              },
+              "type": "composition"
+            }
+          },
+          "pressed": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.circular.borderRadius.sm}",
+                "verticalPadding": "{sem.button.circular.verticalPadding.sm}",
+                "horizontalPadding": "{sem.button.circular.horizontalPadding.sm}",
+                "itemSpacing": "{sem.button.circular.spacing.sm}",
+                "fill": "{sem.colorAction.ghost.pressed}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.circular.icon.sizing.sm}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.dark}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.sm}",
+                "fill": "{sem.colorText.dark}}"
+              },
+              "type": "composition"
+            }
+          },
+          "disabled": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.circular.borderRadius.sm}",
+                "verticalPadding": "{sem.button.circular.verticalPadding.sm}",
+                "horizontalPadding": "{sem.button.circular.horizontalPadding.sm}",
+                "itemSpacing": "{sem.button.circular.spacing.sm}",
+                "fill": "{sem.colorAction.ghost.disabled}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.circular.icon.sizing.sm}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.sm}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          }
+        },
+        "md": {
+          "default": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.circular.borderRadius.md}",
+                "verticalPadding": "{sem.button.circular.verticalPadding.md}",
+                "horizontalPadding": "{sem.button.circular.horizontalPadding.md}",
+                "itemSpacing": "{sem.button.circular.spacing.md}",
+                "fill": "{sem.colorAction.ghost.default}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.circular.icon.sizing.md}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.dark}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.md}",
+                "fill": "{sem.colorText.dark}}"
+              },
+              "type": "composition"
+            }
+          },
+          "hover": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.circular.borderRadius.md}",
+                "verticalPadding": "{sem.button.circular.verticalPadding.md}",
+                "horizontalPadding": "{sem.button.circular.horizontalPadding.md}",
+                "itemSpacing": "{sem.button.circular.spacing.md}",
+                "fill": "{sem.colorAction.ghost.hover}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.circular.icon.sizing.md}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.dark}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.md}",
+                "fill": "{sem.colorText.dark}}"
+              },
+              "type": "composition"
+            }
+          },
+          "pressed": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.circular.borderRadius.md}",
+                "verticalPadding": "{sem.button.circular.verticalPadding.md}",
+                "horizontalPadding": "{sem.button.circular.horizontalPadding.md}",
+                "itemSpacing": "{sem.button.circular.spacing.md}",
+                "fill": "{sem.colorAction.ghost.pressed}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.circular.icon.sizing.md}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.dark}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.md}",
+                "fill": "{sem.colorText.dark}}"
+              },
+              "type": "composition"
+            }
+          },
+          "disabled": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.circular.borderRadius.md}",
+                "verticalPadding": "{sem.button.circular.verticalPadding.md}",
+                "horizontalPadding": "{sem.button.circular.horizontalPadding.md}",
+                "itemSpacing": "{sem.button.circular.spacing.md}",
+                "fill": "{sem.colorAction.ghost.disabled}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.circular.icon.sizing.md}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.md}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          }
+        },
+        "lg": {
+          "default": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.circular.borderRadius.lg}",
+                "verticalPadding": "{sem.button.circular.verticalPadding.lg}",
+                "horizontalPadding": "{sem.button.circular.horizontalPadding.lg}",
+                "itemSpacing": "{sem.button.circular.spacing.lg}",
+                "fill": "{sem.colorAction.ghost.default}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.circular.icon.sizing.lg}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.dark}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.lg}",
+                "fill": "{sem.colorText.dark}}"
+              },
+              "type": "composition"
+            }
+          },
+          "hover": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.circular.borderRadius.lg}",
+                "verticalPadding": "{sem.button.circular.verticalPadding.lg}",
+                "horizontalPadding": "{sem.button.circular.horizontalPadding.lg}",
+                "itemSpacing": "{sem.button.circular.spacing.lg}",
+                "fill": "{sem.colorAction.ghost.hover}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.circular.icon.sizing.lg}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.dark}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.lg}",
+                "fill": "{sem.colorText.dark}}"
+              },
+              "type": "composition"
+            }
+          },
+          "pressed": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.circular.borderRadius.lg}",
+                "verticalPadding": "{sem.button.circular.verticalPadding.lg}",
+                "horizontalPadding": "{sem.button.circular.horizontalPadding.lg}",
+                "itemSpacing": "{sem.button.circular.spacing.lg}",
+                "fill": "{sem.colorAction.ghost.pressed}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.circular.icon.sizing.lg}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.dark}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.lg}",
+                "fill": "{sem.colorText.dark}}"
+              },
+              "type": "composition"
+            }
+          },
+          "disabled": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.circular.borderRadius.lg}",
+                "verticalPadding": "{sem.button.circular.verticalPadding.lg}",
+                "horizontalPadding": "{sem.button.circular.horizontalPadding.lg}",
+                "itemSpacing": "{sem.button.circular.spacing.lg}",
+                "fill": "{sem.colorAction.ghost.disabled}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.circular.icon.sizing.lg}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.lg}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          }
+        }
+      }
+    },
+    "success": {
+      "rectangular": {
+        "sm": {
+          "default": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.rectangular.borderRadius.sm}",
+                "verticalPadding": "{sem.button.rectangular.verticalPadding.sm}",
+                "horizontalPadding": "{sem.button.rectangular.horizontalPadding.sm}",
+                "itemSpacing": "{sem.button.rectangular.spacing.sm}",
+                "fill": "{sem.colorAction.success.default}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.rectangular.icon.sizing.sm}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.sm}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          },
+          "hover": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.rectangular.borderRadius.sm}",
+                "verticalPadding": "{sem.button.rectangular.verticalPadding.sm}",
+                "horizontalPadding": "{sem.button.rectangular.horizontalPadding.sm}",
+                "itemSpacing": "{sem.button.rectangular.spacing.sm}",
+                "fill": "{sem.colorAction.success.hover}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.rectangular.icon.sizing.sm}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.sm}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          },
+          "pressed": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.rectangular.borderRadius.sm}",
+                "verticalPadding": "{sem.button.rectangular.verticalPadding.sm}",
+                "horizontalPadding": "{sem.button.rectangular.horizontalPadding.sm}",
+                "itemSpacing": "{sem.button.rectangular.spacing.sm}",
+                "fill": "{sem.colorAction.success.pressed}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.rectangular.icon.sizing.sm}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.sm}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          },
+          "disabled": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.rectangular.borderRadius.sm}",
+                "verticalPadding": "{sem.button.rectangular.verticalPadding.sm}",
+                "horizontalPadding": "{sem.button.rectangular.horizontalPadding.sm}",
+                "itemSpacing": "{sem.button.rectangular.spacing.sm}",
+                "fill": "{sem.colorAction.success.disabled}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.rectangular.icon.sizing.sm}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.sm}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          }
+        },
+        "md": {
+          "default": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.rectangular.borderRadius.md}",
+                "verticalPadding": "{sem.button.rectangular.verticalPadding.md}",
+                "horizontalPadding": "{sem.button.rectangular.horizontalPadding.md}",
+                "itemSpacing": "{sem.button.rectangular.spacing.md}",
+                "fill": "{sem.colorAction.success.default}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.rectangular.icon.sizing.md}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.md}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          },
+          "hover": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.rectangular.borderRadius.md}",
+                "verticalPadding": "{sem.button.rectangular.verticalPadding.md}",
+                "horizontalPadding": "{sem.button.rectangular.horizontalPadding.md}",
+                "itemSpacing": "{sem.button.rectangular.spacing.md}",
+                "fill": "{sem.colorAction.success.hover}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.rectangular.icon.sizing.md}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.md}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          },
+          "pressed": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.rectangular.borderRadius.md}",
+                "verticalPadding": "{sem.button.rectangular.verticalPadding.md}",
+                "horizontalPadding": "{sem.button.rectangular.horizontalPadding.md}",
+                "itemSpacing": "{sem.button.rectangular.spacing.md}",
+                "fill": "{sem.colorAction.success.pressed}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.rectangular.icon.sizing.md}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.md}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          },
+          "disabled": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.rectangular.borderRadius.md}",
+                "verticalPadding": "{sem.button.rectangular.verticalPadding.md}",
+                "horizontalPadding": "{sem.button.rectangular.horizontalPadding.md}",
+                "itemSpacing": "{sem.button.rectangular.spacing.md}",
+                "fill": "{sem.colorAction.success.disabled}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.rectangular.icon.sizing.md}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.md}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          }
+        },
+        "lg": {
+          "default": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.rectangular.borderRadius.lg}",
+                "verticalPadding": "{sem.button.rectangular.verticalPadding.lg}",
+                "horizontalPadding": "{sem.button.rectangular.horizontalPadding.lg}",
+                "itemSpacing": "{sem.button.rectangular.spacing.lg}",
+                "fill": "{sem.colorAction.success.default}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.rectangular.icon.sizing.lg}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.lg}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          },
+          "hover": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.rectangular.borderRadius.lg}",
+                "verticalPadding": "{sem.button.rectangular.verticalPadding.lg}",
+                "horizontalPadding": "{sem.button.rectangular.horizontalPadding.lg}",
+                "itemSpacing": "{sem.button.rectangular.spacing.lg}",
+                "fill": "{sem.colorAction.success.hover}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.rectangular.icon.sizing.lg}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.lg}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          },
+          "pressed": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.rectangular.borderRadius.lg}",
+                "verticalPadding": "{sem.button.rectangular.verticalPadding.lg}",
+                "horizontalPadding": "{sem.button.rectangular.horizontalPadding.lg}",
+                "itemSpacing": "{sem.button.rectangular.spacing.lg}",
+                "fill": "{sem.colorAction.success.pressed}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.rectangular.icon.sizing.lg}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.lg}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          },
+          "disabled": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.rectangular.borderRadius.lg}",
+                "verticalPadding": "{sem.button.rectangular.verticalPadding.lg}",
+                "horizontalPadding": "{sem.button.rectangular.horizontalPadding.lg}",
+                "itemSpacing": "{sem.button.rectangular.spacing.lg}",
+                "fill": "{sem.colorAction.success.disabled}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.rectangular.icon.sizing.lg}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.lg}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          }
+        }
+      },
+      "circular": {
+        "sm": {
+          "default": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.circular.borderRadius.sm}",
+                "verticalPadding": "{sem.button.circular.verticalPadding.sm}",
+                "horizontalPadding": "{sem.button.circular.horizontalPadding.sm}",
+                "itemSpacing": "{sem.button.circular.spacing.sm}",
+                "fill": "{sem.colorAction.success.default}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.circular.icon.sizing.sm}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.sm}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          },
+          "hover": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.circular.borderRadius.sm}",
+                "verticalPadding": "{sem.button.circular.verticalPadding.sm}",
+                "horizontalPadding": "{sem.button.circular.horizontalPadding.sm}",
+                "itemSpacing": "{sem.button.circular.spacing.sm}",
+                "fill": "{sem.colorAction.success.hover}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.circular.icon.sizing.sm}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.sm}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          },
+          "pressed": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.circular.borderRadius.sm}",
+                "verticalPadding": "{sem.button.circular.verticalPadding.sm}",
+                "horizontalPadding": "{sem.button.circular.horizontalPadding.sm}",
+                "itemSpacing": "{sem.button.circular.spacing.sm}",
+                "fill": "{sem.colorAction.success.pressed}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.circular.icon.sizing.sm}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.sm}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          },
+          "disabled": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.circular.borderRadius.sm}",
+                "verticalPadding": "{sem.button.circular.verticalPadding.sm}",
+                "horizontalPadding": "{sem.button.circular.horizontalPadding.sm}",
+                "itemSpacing": "{sem.button.circular.spacing.sm}",
+                "fill": "{sem.colorAction.success.disabled}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.circular.icon.sizing.sm}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.sm}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          }
+        },
+        "md": {
+          "default": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.circular.borderRadius.md}",
+                "verticalPadding": "{sem.button.circular.verticalPadding.md}",
+                "horizontalPadding": "{sem.button.circular.horizontalPadding.md}",
+                "itemSpacing": "{sem.button.circular.spacing.md}",
+                "fill": "{sem.colorAction.success.default}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.circular.icon.sizing.md}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.md}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          },
+          "hover": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.circular.borderRadius.md}",
+                "verticalPadding": "{sem.button.circular.verticalPadding.md}",
+                "horizontalPadding": "{sem.button.circular.horizontalPadding.md}",
+                "itemSpacing": "{sem.button.circular.spacing.md}",
+                "fill": "{sem.colorAction.success.hover}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.circular.icon.sizing.md}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.md}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          },
+          "pressed": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.circular.borderRadius.md}",
+                "verticalPadding": "{sem.button.circular.verticalPadding.md}",
+                "horizontalPadding": "{sem.button.circular.horizontalPadding.md}",
+                "itemSpacing": "{sem.button.circular.spacing.md}",
+                "fill": "{sem.colorAction.success.pressed}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.circular.icon.sizing.md}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.md}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          },
+          "disabled": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.circular.borderRadius.md}",
+                "verticalPadding": "{sem.button.circular.verticalPadding.md}",
+                "horizontalPadding": "{sem.button.circular.horizontalPadding.md}",
+                "itemSpacing": "{sem.button.circular.spacing.md}",
+                "fill": "{sem.colorAction.success.disabled}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.circular.icon.sizing.md}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.md}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          }
+        },
+        "lg": {
+          "default": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.circular.borderRadius.lg}",
+                "verticalPadding": "{sem.button.circular.verticalPadding.lg}",
+                "horizontalPadding": "{sem.button.circular.horizontalPadding.lg}",
+                "itemSpacing": "{sem.button.circular.spacing.lg}",
+                "fill": "{sem.colorAction.success.default}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.circular.icon.sizing.lg}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.lg}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          },
+          "hover": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.circular.borderRadius.lg}",
+                "verticalPadding": "{sem.button.circular.verticalPadding.lg}",
+                "horizontalPadding": "{sem.button.circular.horizontalPadding.lg}",
+                "itemSpacing": "{sem.button.circular.spacing.lg}",
+                "fill": "{sem.colorAction.success.hover}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.circular.icon.sizing.lg}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.lg}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          },
+          "pressed": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.circular.borderRadius.lg}",
+                "verticalPadding": "{sem.button.circular.verticalPadding.lg}",
+                "horizontalPadding": "{sem.button.circular.horizontalPadding.lg}",
+                "itemSpacing": "{sem.button.circular.spacing.lg}",
+                "fill": "{sem.colorAction.success.pressed}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.circular.icon.sizing.lg}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.lg}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          },
+          "disabled": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.circular.borderRadius.lg}",
+                "verticalPadding": "{sem.button.circular.verticalPadding.lg}",
+                "horizontalPadding": "{sem.button.circular.horizontalPadding.lg}",
+                "itemSpacing": "{sem.button.circular.spacing.lg}",
+                "fill": "{sem.colorAction.success.disabled}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.circular.icon.sizing.lg}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.lg}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          }
+        }
+      }
+    },
+    "external": {
+      "rectangular": {
+        "sm": {
+          "default": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.rectangular.borderRadius.sm}",
+                "verticalPadding": "{sem.button.rectangular.verticalPadding.sm}",
+                "horizontalPadding": "{sem.button.rectangular.horizontalPadding.sm}",
+                "itemSpacing": "{sem.button.rectangular.spacing.sm}",
+                "fill": "{sem.colorAction.external.default}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.rectangular.icon.sizing.sm}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.sm}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          },
+          "hover": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.rectangular.borderRadius.sm}",
+                "verticalPadding": "{sem.button.rectangular.verticalPadding.sm}",
+                "horizontalPadding": "{sem.button.rectangular.horizontalPadding.sm}",
+                "itemSpacing": "{sem.button.rectangular.spacing.sm}",
+                "fill": "{sem.colorAction.external.hover}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.rectangular.icon.sizing.sm}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.sm}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          },
+          "pressed": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.rectangular.borderRadius.sm}",
+                "verticalPadding": "{sem.button.rectangular.verticalPadding.sm}",
+                "horizontalPadding": "{sem.button.rectangular.horizontalPadding.sm}",
+                "itemSpacing": "{sem.button.rectangular.spacing.sm}",
+                "fill": "{sem.colorAction.external.pressed}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.rectangular.icon.sizing.sm}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.sm}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          },
+          "disabled": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.rectangular.borderRadius.sm}",
+                "verticalPadding": "{sem.button.rectangular.verticalPadding.sm}",
+                "horizontalPadding": "{sem.button.rectangular.horizontalPadding.sm}",
+                "itemSpacing": "{sem.button.rectangular.spacing.sm}",
+                "fill": "{sem.colorAction.external.disabled}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.rectangular.icon.sizing.sm}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.sm}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          }
+        },
+        "md": {
+          "default": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.rectangular.borderRadius.md}",
+                "verticalPadding": "{sem.button.rectangular.verticalPadding.md}",
+                "horizontalPadding": "{sem.button.rectangular.horizontalPadding.md}",
+                "itemSpacing": "{sem.button.rectangular.spacing.md}",
+                "fill": "{sem.colorAction.external.default}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.rectangular.icon.sizing.md}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.md}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          },
+          "hover": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.rectangular.borderRadius.md}",
+                "verticalPadding": "{sem.button.rectangular.verticalPadding.md}",
+                "horizontalPadding": "{sem.button.rectangular.horizontalPadding.md}",
+                "itemSpacing": "{sem.button.rectangular.spacing.md}",
+                "fill": "{sem.colorAction.external.hover}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.rectangular.icon.sizing.md}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.md}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          },
+          "pressed": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.rectangular.borderRadius.md}",
+                "verticalPadding": "{sem.button.rectangular.verticalPadding.md}",
+                "horizontalPadding": "{sem.button.rectangular.horizontalPadding.md}",
+                "itemSpacing": "{sem.button.rectangular.spacing.md}",
+                "fill": "{sem.colorAction.external.pressed}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.rectangular.icon.sizing.md}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.md}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          },
+          "disabled": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.rectangular.borderRadius.md}",
+                "verticalPadding": "{sem.button.rectangular.verticalPadding.md}",
+                "horizontalPadding": "{sem.button.rectangular.horizontalPadding.md}",
+                "itemSpacing": "{sem.button.rectangular.spacing.md}",
+                "fill": "{sem.colorAction.external.disabled}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.rectangular.icon.sizing.md}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.md}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          }
+        },
+        "lg": {
+          "default": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.rectangular.borderRadius.lg}",
+                "verticalPadding": "{sem.button.rectangular.verticalPadding.lg}",
+                "horizontalPadding": "{sem.button.rectangular.horizontalPadding.lg}",
+                "itemSpacing": "{sem.button.rectangular.spacing.lg}",
+                "fill": "{sem.colorAction.external.default}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.rectangular.icon.sizing.lg}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.lg}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          },
+          "hover": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.rectangular.borderRadius.lg}",
+                "verticalPadding": "{sem.button.rectangular.verticalPadding.lg}",
+                "horizontalPadding": "{sem.button.rectangular.horizontalPadding.lg}",
+                "itemSpacing": "{sem.button.rectangular.spacing.lg}",
+                "fill": "{sem.colorAction.external.hover}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.rectangular.icon.sizing.lg}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.lg}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          },
+          "pressed": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.rectangular.borderRadius.lg}",
+                "verticalPadding": "{sem.button.rectangular.verticalPadding.lg}",
+                "horizontalPadding": "{sem.button.rectangular.horizontalPadding.lg}",
+                "itemSpacing": "{sem.button.rectangular.spacing.lg}",
+                "fill": "{sem.colorAction.external.pressed}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.rectangular.icon.sizing.lg}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.lg}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          },
+          "disabled": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.rectangular.borderRadius.lg}",
+                "verticalPadding": "{sem.button.rectangular.verticalPadding.lg}",
+                "horizontalPadding": "{sem.button.rectangular.horizontalPadding.lg}",
+                "itemSpacing": "{sem.button.rectangular.spacing.lg}",
+                "fill": "{sem.colorAction.external.disabled}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.rectangular.icon.sizing.lg}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.lg}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          }
+        }
+      },
+      "circular": {
+        "sm": {
+          "default": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.circular.borderRadius.sm}",
+                "verticalPadding": "{sem.button.circular.verticalPadding.sm}",
+                "horizontalPadding": "{sem.button.circular.horizontalPadding.sm}",
+                "itemSpacing": "{sem.button.circular.spacing.sm}",
+                "fill": "{sem.colorAction.external.default}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.circular.icon.sizing.sm}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.sm}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          },
+          "hover": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.circular.borderRadius.sm}",
+                "verticalPadding": "{sem.button.circular.verticalPadding.sm}",
+                "horizontalPadding": "{sem.button.circular.horizontalPadding.sm}",
+                "itemSpacing": "{sem.button.circular.spacing.sm}",
+                "fill": "{sem.colorAction.external.hover}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.circular.icon.sizing.sm}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.sm}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          },
+          "pressed": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.circular.borderRadius.sm}",
+                "verticalPadding": "{sem.button.circular.verticalPadding.sm}",
+                "horizontalPadding": "{sem.button.circular.horizontalPadding.sm}",
+                "itemSpacing": "{sem.button.circular.spacing.sm}",
+                "fill": "{sem.colorAction.external.pressed}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.circular.icon.sizing.sm}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.sm}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          },
+          "disabled": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.circular.borderRadius.sm}",
+                "verticalPadding": "{sem.button.circular.verticalPadding.sm}",
+                "horizontalPadding": "{sem.button.circular.horizontalPadding.sm}",
+                "itemSpacing": "{sem.button.circular.spacing.sm}",
+                "fill": "{sem.colorAction.external.disabled}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.circular.icon.sizing.sm}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.sm}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          }
+        },
+        "md": {
+          "default": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.circular.borderRadius.md}",
+                "verticalPadding": "{sem.button.circular.verticalPadding.md}",
+                "horizontalPadding": "{sem.button.circular.horizontalPadding.md}",
+                "itemSpacing": "{sem.button.circular.spacing.md}",
+                "fill": "{sem.colorAction.external.default}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.circular.icon.sizing.md}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.md}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          },
+          "hover": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.circular.borderRadius.md}",
+                "verticalPadding": "{sem.button.circular.verticalPadding.md}",
+                "horizontalPadding": "{sem.button.circular.horizontalPadding.md}",
+                "itemSpacing": "{sem.button.circular.spacing.md}",
+                "fill": "{sem.colorAction.external.hover}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.circular.icon.sizing.md}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.md}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          },
+          "pressed": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.circular.borderRadius.md}",
+                "verticalPadding": "{sem.button.circular.verticalPadding.md}",
+                "horizontalPadding": "{sem.button.circular.horizontalPadding.md}",
+                "itemSpacing": "{sem.button.circular.spacing.md}",
+                "fill": "{sem.colorAction.external.pressed}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.circular.icon.sizing.md}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.md}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          },
+          "disabled": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.circular.borderRadius.md}",
+                "verticalPadding": "{sem.button.circular.verticalPadding.md}",
+                "horizontalPadding": "{sem.button.circular.horizontalPadding.md}",
+                "itemSpacing": "{sem.button.circular.spacing.md}",
+                "fill": "{sem.colorAction.external.disabled}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.circular.icon.sizing.md}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.md}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          }
+        },
+        "lg": {
+          "default": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.circular.borderRadius.lg}",
+                "verticalPadding": "{sem.button.circular.verticalPadding.lg}",
+                "horizontalPadding": "{sem.button.circular.horizontalPadding.lg}",
+                "itemSpacing": "{sem.button.circular.spacing.lg}",
+                "fill": "{sem.colorAction.external.default}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.circular.icon.sizing.lg}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.lg}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          },
+          "hover": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.circular.borderRadius.lg}",
+                "verticalPadding": "{sem.button.circular.verticalPadding.lg}",
+                "horizontalPadding": "{sem.button.circular.horizontalPadding.lg}",
+                "itemSpacing": "{sem.button.circular.spacing.lg}",
+                "fill": "{sem.colorAction.external.hover}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.circular.icon.sizing.lg}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.lg}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          },
+          "pressed": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.circular.borderRadius.lg}",
+                "verticalPadding": "{sem.button.circular.verticalPadding.lg}",
+                "horizontalPadding": "{sem.button.circular.horizontalPadding.lg}",
+                "itemSpacing": "{sem.button.circular.spacing.lg}",
+                "fill": "{sem.colorAction.external.pressed}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.circular.icon.sizing.lg}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.lg}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          },
+          "disabled": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.circular.borderRadius.lg}",
+                "verticalPadding": "{sem.button.circular.verticalPadding.lg}",
+                "horizontalPadding": "{sem.button.circular.horizontalPadding.lg}",
+                "itemSpacing": "{sem.button.circular.spacing.lg}",
+                "fill": "{sem.colorAction.external.disabled}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.circular.icon.sizing.lg}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.lg}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          }
+        }
+      }
+    },
+    "danger": {
+      "rectangular": {
+        "sm": {
+          "default": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.rectangular.borderRadius.sm}",
+                "verticalPadding": "{sem.button.rectangular.verticalPadding.sm}",
+                "horizontalPadding": "{sem.button.rectangular.horizontalPadding.sm}",
+                "itemSpacing": "{sem.button.rectangular.spacing.sm}",
+                "fill": "{sem.colorAction.danger.default}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.rectangular.icon.sizing.sm}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.sm}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          },
+          "hover": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.rectangular.borderRadius.sm}",
+                "verticalPadding": "{sem.button.rectangular.verticalPadding.sm}",
+                "horizontalPadding": "{sem.button.rectangular.horizontalPadding.sm}",
+                "itemSpacing": "{sem.button.rectangular.spacing.sm}",
+                "fill": "{sem.colorAction.danger.hover}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.rectangular.icon.sizing.sm}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.sm}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          },
+          "pressed": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.rectangular.borderRadius.sm}",
+                "verticalPadding": "{sem.button.rectangular.verticalPadding.sm}",
+                "horizontalPadding": "{sem.button.rectangular.horizontalPadding.sm}",
+                "itemSpacing": "{sem.button.rectangular.spacing.sm}",
+                "fill": "{sem.colorAction.danger.pressed}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.rectangular.icon.sizing.sm}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.sm}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          },
+          "disabled": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.rectangular.borderRadius.sm}",
+                "verticalPadding": "{sem.button.rectangular.verticalPadding.sm}",
+                "horizontalPadding": "{sem.button.rectangular.horizontalPadding.sm}",
+                "itemSpacing": "{sem.button.rectangular.spacing.sm}",
+                "fill": "{sem.colorAction.danger.disabled}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.rectangular.icon.sizing.sm}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.sm}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          }
+        },
+        "md": {
+          "default": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.rectangular.borderRadius.md}",
+                "verticalPadding": "{sem.button.rectangular.verticalPadding.md}",
+                "horizontalPadding": "{sem.button.rectangular.horizontalPadding.md}",
+                "itemSpacing": "{sem.button.rectangular.spacing.md}",
+                "fill": "{sem.colorAction.danger.default}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.rectangular.icon.sizing.md}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.md}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          },
+          "hover": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.rectangular.borderRadius.md}",
+                "verticalPadding": "{sem.button.rectangular.verticalPadding.md}",
+                "horizontalPadding": "{sem.button.rectangular.horizontalPadding.md}",
+                "itemSpacing": "{sem.button.rectangular.spacing.md}",
+                "fill": "{sem.colorAction.danger.hover}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.rectangular.icon.sizing.md}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.md}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          },
+          "pressed": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.rectangular.borderRadius.md}",
+                "verticalPadding": "{sem.button.rectangular.verticalPadding.md}",
+                "horizontalPadding": "{sem.button.rectangular.horizontalPadding.md}",
+                "itemSpacing": "{sem.button.rectangular.spacing.md}",
+                "fill": "{sem.colorAction.danger.pressed}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.rectangular.icon.sizing.md}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.md}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          },
+          "disabled": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.rectangular.borderRadius.md}",
+                "verticalPadding": "{sem.button.rectangular.verticalPadding.md}",
+                "horizontalPadding": "{sem.button.rectangular.horizontalPadding.md}",
+                "itemSpacing": "{sem.button.rectangular.spacing.md}",
+                "fill": "{sem.colorAction.danger.disabled}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.rectangular.icon.sizing.md}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.md}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          }
+        },
+        "lg": {
+          "default": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.rectangular.borderRadius.lg}",
+                "verticalPadding": "{sem.button.rectangular.verticalPadding.lg}",
+                "horizontalPadding": "{sem.button.rectangular.horizontalPadding.lg}",
+                "itemSpacing": "{sem.button.rectangular.spacing.lg}",
+                "fill": "{sem.colorAction.danger.default}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.rectangular.icon.sizing.lg}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.lg}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          },
+          "hover": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.rectangular.borderRadius.lg}",
+                "verticalPadding": "{sem.button.rectangular.verticalPadding.lg}",
+                "horizontalPadding": "{sem.button.rectangular.horizontalPadding.lg}",
+                "itemSpacing": "{sem.button.rectangular.spacing.lg}",
+                "fill": "{sem.colorAction.danger.hover}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.rectangular.icon.sizing.lg}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.lg}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          },
+          "pressed": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.rectangular.borderRadius.lg}",
+                "verticalPadding": "{sem.button.rectangular.verticalPadding.lg}",
+                "horizontalPadding": "{sem.button.rectangular.horizontalPadding.lg}",
+                "itemSpacing": "{sem.button.rectangular.spacing.lg}",
+                "fill": "{sem.colorAction.danger.pressed}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.rectangular.icon.sizing.lg}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.lg}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          },
+          "disabled": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.rectangular.borderRadius.lg}",
+                "verticalPadding": "{sem.button.rectangular.verticalPadding.lg}",
+                "horizontalPadding": "{sem.button.rectangular.horizontalPadding.lg}",
+                "itemSpacing": "{sem.button.rectangular.spacing.lg}",
+                "fill": "{sem.colorAction.danger.disabled}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.rectangular.icon.sizing.lg}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.lg}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          }
+        }
+      },
+      "circular": {
+        "sm": {
+          "default": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.circular.borderRadius.sm}",
+                "verticalPadding": "{sem.button.circular.verticalPadding.sm}",
+                "horizontalPadding": "{sem.button.circular.horizontalPadding.sm}",
+                "itemSpacing": "{sem.button.circular.spacing.sm}",
+                "fill": "{sem.colorAction.danger.default}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.circular.icon.sizing.sm}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.sm}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          },
+          "hover": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.circular.borderRadius.sm}",
+                "verticalPadding": "{sem.button.circular.verticalPadding.sm}",
+                "horizontalPadding": "{sem.button.circular.horizontalPadding.sm}",
+                "itemSpacing": "{sem.button.circular.spacing.sm}",
+                "fill": "{sem.colorAction.danger.hover}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.circular.icon.sizing.sm}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.sm}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          },
+          "pressed": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.circular.borderRadius.sm}",
+                "verticalPadding": "{sem.button.circular.verticalPadding.sm}",
+                "horizontalPadding": "{sem.button.circular.horizontalPadding.sm}",
+                "itemSpacing": "{sem.button.circular.spacing.sm}",
+                "fill": "{sem.colorAction.danger.pressed}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.circular.icon.sizing.sm}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.sm}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          },
+          "disabled": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.circular.borderRadius.sm}",
+                "verticalPadding": "{sem.button.circular.verticalPadding.sm}",
+                "horizontalPadding": "{sem.button.circular.horizontalPadding.sm}",
+                "itemSpacing": "{sem.button.circular.spacing.sm}",
+                "fill": "{sem.colorAction.danger.disabled}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.circular.icon.sizing.sm}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.sm}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          }
+        },
+        "md": {
+          "default": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.circular.borderRadius.md}",
+                "verticalPadding": "{sem.button.circular.verticalPadding.md}",
+                "horizontalPadding": "{sem.button.circular.horizontalPadding.md}",
+                "itemSpacing": "{sem.button.circular.spacing.md}",
+                "fill": "{sem.colorAction.danger.default}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.circular.icon.sizing.md}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.md}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          },
+          "hover": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.circular.borderRadius.md}",
+                "verticalPadding": "{sem.button.circular.verticalPadding.md}",
+                "horizontalPadding": "{sem.button.circular.horizontalPadding.md}",
+                "itemSpacing": "{sem.button.circular.spacing.md}",
+                "fill": "{sem.colorAction.danger.hover}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.circular.icon.sizing.md}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.md}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          },
+          "pressed": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.circular.borderRadius.md}",
+                "verticalPadding": "{sem.button.circular.verticalPadding.md}",
+                "horizontalPadding": "{sem.button.circular.horizontalPadding.md}",
+                "itemSpacing": "{sem.button.circular.spacing.md}",
+                "fill": "{sem.colorAction.danger.pressed}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.circular.icon.sizing.md}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.md}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          },
+          "disabled": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.circular.borderRadius.md}",
+                "verticalPadding": "{sem.button.circular.verticalPadding.md}",
+                "horizontalPadding": "{sem.button.circular.horizontalPadding.md}",
+                "itemSpacing": "{sem.button.circular.spacing.md}",
+                "fill": "{sem.colorAction.danger.disabled}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.circular.icon.sizing.md}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.md}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          }
+        },
+        "lg": {
+          "default": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.circular.borderRadius.lg}",
+                "verticalPadding": "{sem.button.circular.verticalPadding.lg}",
+                "horizontalPadding": "{sem.button.circular.horizontalPadding.lg}",
+                "itemSpacing": "{sem.button.circular.spacing.lg}",
+                "fill": "{sem.colorAction.danger.default}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.circular.icon.sizing.lg}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.lg}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          },
+          "hover": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.circular.borderRadius.lg}",
+                "verticalPadding": "{sem.button.circular.verticalPadding.lg}",
+                "horizontalPadding": "{sem.button.circular.horizontalPadding.lg}",
+                "itemSpacing": "{sem.button.circular.spacing.lg}",
+                "fill": "{sem.colorAction.danger.hover}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.circular.icon.sizing.lg}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.lg}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          },
+          "pressed": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.circular.borderRadius.lg}",
+                "verticalPadding": "{sem.button.circular.verticalPadding.lg}",
+                "horizontalPadding": "{sem.button.circular.horizontalPadding.lg}",
+                "itemSpacing": "{sem.button.circular.spacing.lg}",
+                "fill": "{sem.colorAction.danger.pressed}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.circular.icon.sizing.lg}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.lg}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          },
+          "disabled": {
+            "container": {
+              "value": {
+                "borderRadius": "{sem.button.circular.borderRadius.lg}",
+                "verticalPadding": "{sem.button.circular.verticalPadding.lg}",
+                "horizontalPadding": "{sem.button.circular.horizontalPadding.lg}",
+                "itemSpacing": "{sem.button.circular.spacing.lg}",
+                "fill": "{sem.colorAction.danger.disabled}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.button.circular.icon.sizing.lg}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.colorIcon.light}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.button.lg}",
+                "fill": "{sem.colorText.light}}"
+              },
+              "type": "composition"
+            }
+          }
+        }
+      }
+    }
+  }
+}

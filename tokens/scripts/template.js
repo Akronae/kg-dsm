@@ -96,4 +96,4 @@ while (tree) {
   Object.assign(res, appendToBuds(res, parsed));
 }
 
-console.log('./res.json', JSON.stringify(res, null, 2));
+console.log(JSON.stringify(res, null, 2));
