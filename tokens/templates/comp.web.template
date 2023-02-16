@@ -1,11 +1,15 @@
-button
+// @replacepath: tokens/comp.web.json
+
+comp
+.button
 [type: 'primary' | 'secondary' | 'ghost' | 'success' | 'external' | 'danger']
 [shape: 'rectangular' | 'circular']
 [size: 'sm' | 'md' | 'lg']
 [state: 'default' | 'hover' | 'pressed' | 'disabled']
 [{ "container": {
   "value": {
-    "borderRadius": "{sem.button.{{shape}}.borderRadius.{{size}}}",
+    "border": "{{type == 'ghost' && state != 'disabled' ? '{sem.border.diminished}' : 'none'}}",
+    "borderRadius": "{sem.button.{{shape}}.borderRadius{{shape != 'circular' ? '.' + size : ''}}}",
     "verticalPadding": "{sem.button.{{shape}}.verticalPadding.{{size}}}",
     "horizontalPadding": "{sem.button.{{shape}}.horizontalPadding.{{size}}}",
     "itemSpacing": "{sem.button.{{shape}}.spacing.{{size}}}",

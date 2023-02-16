@@ -544,7 +544,8 @@
                   "verticalPadding": "{sem.button.rectangular.verticalPadding.sm}",
                   "horizontalPadding": "{sem.button.rectangular.horizontalPadding.sm}",
                   "itemSpacing": "{sem.button.rectangular.spacing.sm}",
-                  "fill": "{sem.colorAction.primary.default}"
+                  "fill": "{sem.colorAction.primary.default}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -575,7 +576,8 @@
                   "verticalPadding": "{sem.button.rectangular.verticalPadding.sm}",
                   "horizontalPadding": "{sem.button.rectangular.horizontalPadding.sm}",
                   "itemSpacing": "{sem.button.rectangular.spacing.sm}",
-                  "fill": "{sem.colorAction.primary.hover}"
+                  "fill": "{sem.colorAction.primary.hover}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -606,7 +608,8 @@
                   "verticalPadding": "{sem.button.rectangular.verticalPadding.sm}",
                   "horizontalPadding": "{sem.button.rectangular.horizontalPadding.sm}",
                   "itemSpacing": "{sem.button.rectangular.spacing.sm}",
-                  "fill": "{sem.colorAction.primary.pressed}"
+                  "fill": "{sem.colorAction.primary.pressed}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -637,7 +640,8 @@
                   "verticalPadding": "{sem.button.rectangular.verticalPadding.sm}",
                   "horizontalPadding": "{sem.button.rectangular.horizontalPadding.sm}",
                   "itemSpacing": "{sem.button.rectangular.spacing.sm}",
-                  "fill": "{sem.colorAction.primary.disabled}"
+                  "fill": "{sem.colorAction.primary.disabled}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -670,7 +674,8 @@
                   "verticalPadding": "{sem.button.rectangular.verticalPadding.md}",
                   "horizontalPadding": "{sem.button.rectangular.horizontalPadding.md}",
                   "itemSpacing": "{sem.button.rectangular.spacing.md}",
-                  "fill": "{sem.colorAction.primary.default}"
+                  "fill": "{sem.colorAction.primary.default}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -701,7 +706,8 @@
                   "verticalPadding": "{sem.button.rectangular.verticalPadding.md}",
                   "horizontalPadding": "{sem.button.rectangular.horizontalPadding.md}",
                   "itemSpacing": "{sem.button.rectangular.spacing.md}",
-                  "fill": "{sem.colorAction.primary.hover}"
+                  "fill": "{sem.colorAction.primary.hover}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -732,7 +738,8 @@
                   "verticalPadding": "{sem.button.rectangular.verticalPadding.md}",
                   "horizontalPadding": "{sem.button.rectangular.horizontalPadding.md}",
                   "itemSpacing": "{sem.button.rectangular.spacing.md}",
-                  "fill": "{sem.colorAction.primary.pressed}"
+                  "fill": "{sem.colorAction.primary.pressed}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -763,7 +770,8 @@
                   "verticalPadding": "{sem.button.rectangular.verticalPadding.md}",
                   "horizontalPadding": "{sem.button.rectangular.horizontalPadding.md}",
                   "itemSpacing": "{sem.button.rectangular.spacing.md}",
-                  "fill": "{sem.colorAction.primary.disabled}"
+                  "fill": "{sem.colorAction.primary.disabled}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -796,7 +804,8 @@
                   "verticalPadding": "{sem.button.rectangular.verticalPadding.lg}",
                   "horizontalPadding": "{sem.button.rectangular.horizontalPadding.lg}",
                   "itemSpacing": "{sem.button.rectangular.spacing.lg}",
-                  "fill": "{sem.colorAction.primary.default}"
+                  "fill": "{sem.colorAction.primary.default}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -827,7 +836,8 @@
                   "verticalPadding": "{sem.button.rectangular.verticalPadding.lg}",
                   "horizontalPadding": "{sem.button.rectangular.horizontalPadding.lg}",
                   "itemSpacing": "{sem.button.rectangular.spacing.lg}",
-                  "fill": "{sem.colorAction.primary.hover}"
+                  "fill": "{sem.colorAction.primary.hover}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -858,7 +868,8 @@
                   "verticalPadding": "{sem.button.rectangular.verticalPadding.lg}",
                   "horizontalPadding": "{sem.button.rectangular.horizontalPadding.lg}",
                   "itemSpacing": "{sem.button.rectangular.spacing.lg}",
-                  "fill": "{sem.colorAction.primary.pressed}"
+                  "fill": "{sem.colorAction.primary.pressed}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -889,7 +900,8 @@
                   "verticalPadding": "{sem.button.rectangular.verticalPadding.lg}",
                   "horizontalPadding": "{sem.button.rectangular.horizontalPadding.lg}",
                   "itemSpacing": "{sem.button.rectangular.spacing.lg}",
-                  "fill": "{sem.colorAction.primary.disabled}"
+                  "fill": "{sem.colorAction.primary.disabled}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -923,8 +935,9 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.sm}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.sm}",
-                  "itemSpacing": "{sem.button.circular.spacing}",
-                  "fill": "{sem.colorAction.primary.default}"
+                  "itemSpacing": "{sem.button.circular.spacing.sm}",
+                  "fill": "{sem.colorAction.primary.default}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -954,8 +967,9 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.sm}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.sm}",
-                  "itemSpacing": "{sem.button.circular.spacing}",
-                  "fill": "{sem.colorAction.primary.hover}"
+                  "itemSpacing": "{sem.button.circular.spacing.sm}",
+                  "fill": "{sem.colorAction.primary.hover}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -985,8 +999,9 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.sm}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.sm}",
-                  "itemSpacing": "{sem.button.circular.spacing}",
-                  "fill": "{sem.colorAction.primary.pressed}"
+                  "itemSpacing": "{sem.button.circular.spacing.sm}",
+                  "fill": "{sem.colorAction.primary.pressed}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -1016,8 +1031,9 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.sm}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.sm}",
-                  "itemSpacing": "{sem.button.circular.spacing}",
-                  "fill": "{sem.colorAction.primary.disabled}"
+                  "itemSpacing": "{sem.button.circular.spacing.sm}",
+                  "fill": "{sem.colorAction.primary.disabled}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -1049,8 +1065,9 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.md}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.md}",
-                  "itemSpacing": "{sem.button.circular.spacing}",
-                  "fill": "{sem.colorAction.primary.default}"
+                  "itemSpacing": "{sem.button.circular.spacing.md}",
+                  "fill": "{sem.colorAction.primary.default}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -1080,8 +1097,9 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.md}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.md}",
-                  "itemSpacing": "{sem.button.circular.spacing}",
-                  "fill": "{sem.colorAction.primary.hover}"
+                  "itemSpacing": "{sem.button.circular.spacing.md}",
+                  "fill": "{sem.colorAction.primary.hover}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -1111,8 +1129,9 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.md}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.md}",
-                  "itemSpacing": "{sem.button.circular.spacing}",
-                  "fill": "{sem.colorAction.primary.pressed}"
+                  "itemSpacing": "{sem.button.circular.spacing.md}",
+                  "fill": "{sem.colorAction.primary.pressed}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -1142,8 +1161,9 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.md}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.md}",
-                  "itemSpacing": "{sem.button.circular.spacing}",
-                  "fill": "{sem.colorAction.primary.disabled}"
+                  "itemSpacing": "{sem.button.circular.spacing.md}",
+                  "fill": "{sem.colorAction.primary.disabled}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -1175,8 +1195,9 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.lg}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.lg}",
-                  "itemSpacing": "{sem.button.circular.spacing}",
-                  "fill": "{sem.colorAction.primary.default}"
+                  "itemSpacing": "{sem.button.circular.spacing.lg}",
+                  "fill": "{sem.colorAction.primary.default}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -1206,8 +1227,9 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.lg}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.lg}",
-                  "itemSpacing": "{sem.button.circular.spacing}",
-                  "fill": "{sem.colorAction.primary.hover}"
+                  "itemSpacing": "{sem.button.circular.spacing.lg}",
+                  "fill": "{sem.colorAction.primary.hover}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -1237,8 +1259,9 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.lg}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.lg}",
-                  "itemSpacing": "{sem.button.circular.spacing}",
-                  "fill": "{sem.colorAction.primary.pressed}"
+                  "itemSpacing": "{sem.button.circular.spacing.lg}",
+                  "fill": "{sem.colorAction.primary.pressed}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -1268,8 +1291,9 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.lg}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.lg}",
-                  "itemSpacing": "{sem.button.circular.spacing}",
-                  "fill": "{sem.colorAction.primary.disabled}"
+                  "itemSpacing": "{sem.button.circular.spacing.lg}",
+                  "fill": "{sem.colorAction.primary.disabled}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -1306,7 +1330,8 @@
                   "verticalPadding": "{sem.button.rectangular.verticalPadding.sm}",
                   "horizontalPadding": "{sem.button.rectangular.horizontalPadding.sm}",
                   "itemSpacing": "{sem.button.rectangular.spacing.sm}",
-                  "fill": "{sem.colorAction.secondary.default}"
+                  "fill": "{sem.colorAction.secondary.default}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -1337,7 +1362,8 @@
                   "verticalPadding": "{sem.button.rectangular.verticalPadding.sm}",
                   "horizontalPadding": "{sem.button.rectangular.horizontalPadding.sm}",
                   "itemSpacing": "{sem.button.rectangular.spacing.sm}",
-                  "fill": "{sem.colorAction.secondary.hover}"
+                  "fill": "{sem.colorAction.secondary.hover}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -1368,7 +1394,8 @@
                   "verticalPadding": "{sem.button.rectangular.verticalPadding.sm}",
                   "horizontalPadding": "{sem.button.rectangular.horizontalPadding.sm}",
                   "itemSpacing": "{sem.button.rectangular.spacing.sm}",
-                  "fill": "{sem.colorAction.secondary.pressed}"
+                  "fill": "{sem.colorAction.secondary.pressed}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -1399,7 +1426,8 @@
                   "verticalPadding": "{sem.button.rectangular.verticalPadding.sm}",
                   "horizontalPadding": "{sem.button.rectangular.horizontalPadding.sm}",
                   "itemSpacing": "{sem.button.rectangular.spacing.sm}",
-                  "fill": "{sem.colorAction.secondary.disabled}"
+                  "fill": "{sem.colorAction.secondary.disabled}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -1432,7 +1460,8 @@
                   "verticalPadding": "{sem.button.rectangular.verticalPadding.md}",
                   "horizontalPadding": "{sem.button.rectangular.horizontalPadding.md}",
                   "itemSpacing": "{sem.button.rectangular.spacing.md}",
-                  "fill": "{sem.colorAction.secondary.default}"
+                  "fill": "{sem.colorAction.secondary.default}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -1463,7 +1492,8 @@
                   "verticalPadding": "{sem.button.rectangular.verticalPadding.md}",
                   "horizontalPadding": "{sem.button.rectangular.horizontalPadding.md}",
                   "itemSpacing": "{sem.button.rectangular.spacing.md}",
-                  "fill": "{sem.colorAction.secondary.hover}"
+                  "fill": "{sem.colorAction.secondary.hover}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -1494,7 +1524,8 @@
                   "verticalPadding": "{sem.button.rectangular.verticalPadding.md}",
                   "horizontalPadding": "{sem.button.rectangular.horizontalPadding.md}",
                   "itemSpacing": "{sem.button.rectangular.spacing.md}",
-                  "fill": "{sem.colorAction.secondary.pressed}"
+                  "fill": "{sem.colorAction.secondary.pressed}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -1525,7 +1556,8 @@
                   "verticalPadding": "{sem.button.rectangular.verticalPadding.md}",
                   "horizontalPadding": "{sem.button.rectangular.horizontalPadding.md}",
                   "itemSpacing": "{sem.button.rectangular.spacing.md}",
-                  "fill": "{sem.colorAction.secondary.disabled}"
+                  "fill": "{sem.colorAction.secondary.disabled}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -1558,7 +1590,8 @@
                   "verticalPadding": "{sem.button.rectangular.verticalPadding.lg}",
                   "horizontalPadding": "{sem.button.rectangular.horizontalPadding.lg}",
                   "itemSpacing": "{sem.button.rectangular.spacing.lg}",
-                  "fill": "{sem.colorAction.secondary.default}"
+                  "fill": "{sem.colorAction.secondary.default}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -1589,7 +1622,8 @@
                   "verticalPadding": "{sem.button.rectangular.verticalPadding.lg}",
                   "horizontalPadding": "{sem.button.rectangular.horizontalPadding.lg}",
                   "itemSpacing": "{sem.button.rectangular.spacing.lg}",
-                  "fill": "{sem.colorAction.secondary.hover}"
+                  "fill": "{sem.colorAction.secondary.hover}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -1620,7 +1654,8 @@
                   "verticalPadding": "{sem.button.rectangular.verticalPadding.lg}",
                   "horizontalPadding": "{sem.button.rectangular.horizontalPadding.lg}",
                   "itemSpacing": "{sem.button.rectangular.spacing.lg}",
-                  "fill": "{sem.colorAction.secondary.pressed}"
+                  "fill": "{sem.colorAction.secondary.pressed}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -1651,7 +1686,8 @@
                   "verticalPadding": "{sem.button.rectangular.verticalPadding.lg}",
                   "horizontalPadding": "{sem.button.rectangular.horizontalPadding.lg}",
                   "itemSpacing": "{sem.button.rectangular.spacing.lg}",
-                  "fill": "{sem.colorAction.secondary.disabled}"
+                  "fill": "{sem.colorAction.secondary.disabled}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -1685,8 +1721,9 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.sm}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.sm}",
-                  "itemSpacing": "{sem.button.circular.spacing}",
-                  "fill": "{sem.colorAction.secondary.default}"
+                  "itemSpacing": "{sem.button.circular.spacing.sm}",
+                  "fill": "{sem.colorAction.secondary.default}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -1716,8 +1753,9 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.sm}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.sm}",
-                  "itemSpacing": "{sem.button.circular.spacing}",
-                  "fill": "{sem.colorAction.secondary.hover}"
+                  "itemSpacing": "{sem.button.circular.spacing.sm}",
+                  "fill": "{sem.colorAction.secondary.hover}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -1747,8 +1785,9 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.sm}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.sm}",
-                  "itemSpacing": "{sem.button.circular.spacing}",
-                  "fill": "{sem.colorAction.secondary.pressed}"
+                  "itemSpacing": "{sem.button.circular.spacing.sm}",
+                  "fill": "{sem.colorAction.secondary.pressed}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -1778,8 +1817,9 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.sm}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.sm}",
-                  "itemSpacing": "{sem.button.circular.spacing}",
-                  "fill": "{sem.colorAction.secondary.disabled}"
+                  "itemSpacing": "{sem.button.circular.spacing.sm}",
+                  "fill": "{sem.colorAction.secondary.disabled}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -1811,8 +1851,9 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.md}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.md}",
-                  "itemSpacing": "{sem.button.circular.spacing}",
-                  "fill": "{sem.colorAction.secondary.default}"
+                  "itemSpacing": "{sem.button.circular.spacing.md}",
+                  "fill": "{sem.colorAction.secondary.default}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -1842,8 +1883,9 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.md}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.md}",
-                  "itemSpacing": "{sem.button.circular.spacing}",
-                  "fill": "{sem.colorAction.secondary.hover}"
+                  "itemSpacing": "{sem.button.circular.spacing.md}",
+                  "fill": "{sem.colorAction.secondary.hover}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -1873,8 +1915,9 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.md}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.md}",
-                  "itemSpacing": "{sem.button.circular.spacing}",
-                  "fill": "{sem.colorAction.secondary.pressed}"
+                  "itemSpacing": "{sem.button.circular.spacing.md}",
+                  "fill": "{sem.colorAction.secondary.pressed}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -1904,8 +1947,9 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.md}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.md}",
-                  "itemSpacing": "{sem.button.circular.spacing}",
-                  "fill": "{sem.colorAction.secondary.disabled}"
+                  "itemSpacing": "{sem.button.circular.spacing.md}",
+                  "fill": "{sem.colorAction.secondary.disabled}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -1937,8 +1981,9 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.lg}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.lg}",
-                  "itemSpacing": "{sem.button.circular.spacing}",
-                  "fill": "{sem.colorAction.secondary.default}"
+                  "itemSpacing": "{sem.button.circular.spacing.lg}",
+                  "fill": "{sem.colorAction.secondary.default}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -1968,8 +2013,9 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.lg}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.lg}",
-                  "itemSpacing": "{sem.button.circular.spacing}",
-                  "fill": "{sem.colorAction.secondary.hover}"
+                  "itemSpacing": "{sem.button.circular.spacing.lg}",
+                  "fill": "{sem.colorAction.secondary.hover}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -1999,8 +2045,9 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.lg}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.lg}",
-                  "itemSpacing": "{sem.button.circular.spacing}",
-                  "fill": "{sem.colorAction.secondary.pressed}"
+                  "itemSpacing": "{sem.button.circular.spacing.lg}",
+                  "fill": "{sem.colorAction.secondary.pressed}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -2030,8 +2077,9 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.lg}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.lg}",
-                  "itemSpacing": "{sem.button.circular.spacing}",
-                  "fill": "{sem.colorAction.secondary.disabled}"
+                  "itemSpacing": "{sem.button.circular.spacing.lg}",
+                  "fill": "{sem.colorAction.secondary.disabled}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -2068,7 +2116,8 @@
                   "verticalPadding": "{sem.button.rectangular.verticalPadding.sm}",
                   "horizontalPadding": "{sem.button.rectangular.horizontalPadding.sm}",
                   "itemSpacing": "{sem.button.rectangular.spacing.sm}",
-                  "fill": "{sem.colorAction.ghost.default}"
+                  "fill": "{sem.colorAction.ghost.default}",
+                  "border": "{sem.border.diminished}"
                 },
                 "type": "composition"
               },
@@ -2099,7 +2148,8 @@
                   "verticalPadding": "{sem.button.rectangular.verticalPadding.sm}",
                   "horizontalPadding": "{sem.button.rectangular.horizontalPadding.sm}",
                   "itemSpacing": "{sem.button.rectangular.spacing.sm}",
-                  "fill": "{sem.colorAction.ghost.hover}"
+                  "fill": "{sem.colorAction.ghost.hover}",
+                  "border": "{sem.border.diminished}"
                 },
                 "type": "composition"
               },
@@ -2130,7 +2180,8 @@
                   "verticalPadding": "{sem.button.rectangular.verticalPadding.sm}",
                   "horizontalPadding": "{sem.button.rectangular.horizontalPadding.sm}",
                   "itemSpacing": "{sem.button.rectangular.spacing.sm}",
-                  "fill": "{sem.colorAction.ghost.pressed}"
+                  "fill": "{sem.colorAction.ghost.pressed}",
+                  "border": "{sem.border.diminished}"
                 },
                 "type": "composition"
               },
@@ -2161,7 +2212,8 @@
                   "verticalPadding": "{sem.button.rectangular.verticalPadding.sm}",
                   "horizontalPadding": "{sem.button.rectangular.horizontalPadding.sm}",
                   "itemSpacing": "{sem.button.rectangular.spacing.sm}",
-                  "fill": "{sem.colorAction.ghost.disabled}"
+                  "fill": "{sem.colorAction.ghost.disabled}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -2194,7 +2246,8 @@
                   "verticalPadding": "{sem.button.rectangular.verticalPadding.md}",
                   "horizontalPadding": "{sem.button.rectangular.horizontalPadding.md}",
                   "itemSpacing": "{sem.button.rectangular.spacing.md}",
-                  "fill": "{sem.colorAction.ghost.default}"
+                  "fill": "{sem.colorAction.ghost.default}",
+                  "border": "{sem.border.diminished}"
                 },
                 "type": "composition"
               },
@@ -2225,7 +2278,8 @@
                   "verticalPadding": "{sem.button.rectangular.verticalPadding.md}",
                   "horizontalPadding": "{sem.button.rectangular.horizontalPadding.md}",
                   "itemSpacing": "{sem.button.rectangular.spacing.md}",
-                  "fill": "{sem.colorAction.ghost.hover}"
+                  "fill": "{sem.colorAction.ghost.hover}",
+                  "border": "{sem.border.diminished}"
                 },
                 "type": "composition"
               },
@@ -2256,7 +2310,8 @@
                   "verticalPadding": "{sem.button.rectangular.verticalPadding.md}",
                   "horizontalPadding": "{sem.button.rectangular.horizontalPadding.md}",
                   "itemSpacing": "{sem.button.rectangular.spacing.md}",
-                  "fill": "{sem.colorAction.ghost.pressed}"
+                  "fill": "{sem.colorAction.ghost.pressed}",
+                  "border": "{sem.border.diminished}"
                 },
                 "type": "composition"
               },
@@ -2287,7 +2342,8 @@
                   "verticalPadding": "{sem.button.rectangular.verticalPadding.md}",
                   "horizontalPadding": "{sem.button.rectangular.horizontalPadding.md}",
                   "itemSpacing": "{sem.button.rectangular.spacing.md}",
-                  "fill": "{sem.colorAction.ghost.disabled}"
+                  "fill": "{sem.colorAction.ghost.disabled}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -2320,7 +2376,8 @@
                   "verticalPadding": "{sem.button.rectangular.verticalPadding.lg}",
                   "horizontalPadding": "{sem.button.rectangular.horizontalPadding.lg}",
                   "itemSpacing": "{sem.button.rectangular.spacing.lg}",
-                  "fill": "{sem.colorAction.ghost.default}"
+                  "fill": "{sem.colorAction.ghost.default}",
+                  "border": "{sem.border.diminished}"
                 },
                 "type": "composition"
               },
@@ -2351,7 +2408,8 @@
                   "verticalPadding": "{sem.button.rectangular.verticalPadding.lg}",
                   "horizontalPadding": "{sem.button.rectangular.horizontalPadding.lg}",
                   "itemSpacing": "{sem.button.rectangular.spacing.lg}",
-                  "fill": "{sem.colorAction.ghost.hover}"
+                  "fill": "{sem.colorAction.ghost.hover}",
+                  "border": "{sem.border.diminished}"
                 },
                 "type": "composition"
               },
@@ -2382,7 +2440,8 @@
                   "verticalPadding": "{sem.button.rectangular.verticalPadding.lg}",
                   "horizontalPadding": "{sem.button.rectangular.horizontalPadding.lg}",
                   "itemSpacing": "{sem.button.rectangular.spacing.lg}",
-                  "fill": "{sem.colorAction.ghost.pressed}"
+                  "fill": "{sem.colorAction.ghost.pressed}",
+                  "border": "{sem.border.diminished}"
                 },
                 "type": "composition"
               },
@@ -2413,7 +2472,8 @@
                   "verticalPadding": "{sem.button.rectangular.verticalPadding.lg}",
                   "horizontalPadding": "{sem.button.rectangular.horizontalPadding.lg}",
                   "itemSpacing": "{sem.button.rectangular.spacing.lg}",
-                  "fill": "{sem.colorAction.ghost.disabled}"
+                  "fill": "{sem.colorAction.ghost.disabled}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -2447,8 +2507,9 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.sm}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.sm}",
-                  "itemSpacing": "{sem.button.circular.spacing}",
-                  "fill": "{sem.colorAction.ghost.default}"
+                  "itemSpacing": "{sem.button.circular.spacing.sm}",
+                  "fill": "{sem.colorAction.ghost.default}",
+                  "border": "{sem.border.diminished}"
                 },
                 "type": "composition"
               },
@@ -2478,8 +2539,9 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.sm}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.sm}",
-                  "itemSpacing": "{sem.button.circular.spacing}",
-                  "fill": "{sem.colorAction.ghost.hover}"
+                  "itemSpacing": "{sem.button.circular.spacing.sm}",
+                  "fill": "{sem.colorAction.ghost.hover}",
+                  "border": "{sem.border.diminished}"
                 },
                 "type": "composition"
               },
@@ -2509,8 +2571,9 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.sm}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.sm}",
-                  "itemSpacing": "{sem.button.circular.spacing}",
-                  "fill": "{sem.colorAction.ghost.pressed}"
+                  "itemSpacing": "{sem.button.circular.spacing.sm}",
+                  "fill": "{sem.colorAction.ghost.pressed}",
+                  "border": "{sem.border.diminished}"
                 },
                 "type": "composition"
               },
@@ -2540,8 +2603,9 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.sm}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.sm}",
-                  "itemSpacing": "{sem.button.circular.spacing}",
-                  "fill": "{sem.colorAction.ghost.disabled}"
+                  "itemSpacing": "{sem.button.circular.spacing.sm}",
+                  "fill": "{sem.colorAction.ghost.disabled}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -2573,8 +2637,9 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.md}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.md}",
-                  "itemSpacing": "{sem.button.circular.spacing}",
-                  "fill": "{sem.colorAction.ghost.default}"
+                  "itemSpacing": "{sem.button.circular.spacing.md}",
+                  "fill": "{sem.colorAction.ghost.default}",
+                  "border": "{sem.border.diminished}"
                 },
                 "type": "composition"
               },
@@ -2604,8 +2669,9 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.md}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.md}",
-                  "itemSpacing": "{sem.button.circular.spacing}",
-                  "fill": "{sem.colorAction.ghost.hover}"
+                  "itemSpacing": "{sem.button.circular.spacing.md}",
+                  "fill": "{sem.colorAction.ghost.hover}",
+                  "border": "{sem.border.diminished}"
                 },
                 "type": "composition"
               },
@@ -2635,8 +2701,9 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.md}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.md}",
-                  "itemSpacing": "{sem.button.circular.spacing}",
-                  "fill": "{sem.colorAction.ghost.pressed}"
+                  "itemSpacing": "{sem.button.circular.spacing.md}",
+                  "fill": "{sem.colorAction.ghost.pressed}",
+                  "border": "{sem.border.diminished}"
                 },
                 "type": "composition"
               },
@@ -2666,8 +2733,9 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.md}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.md}",
-                  "itemSpacing": "{sem.button.circular.spacing}",
-                  "fill": "{sem.colorAction.ghost.disabled}"
+                  "itemSpacing": "{sem.button.circular.spacing.md}",
+                  "fill": "{sem.colorAction.ghost.disabled}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -2699,8 +2767,9 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.lg}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.lg}",
-                  "itemSpacing": "{sem.button.circular.spacing}",
-                  "fill": "{sem.colorAction.ghost.default}"
+                  "itemSpacing": "{sem.button.circular.spacing.lg}",
+                  "fill": "{sem.colorAction.ghost.default}",
+                  "border": "{sem.border.diminished}"
                 },
                 "type": "composition"
               },
@@ -2730,8 +2799,9 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.lg}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.lg}",
-                  "itemSpacing": "{sem.button.circular.spacing}",
-                  "fill": "{sem.colorAction.ghost.hover}"
+                  "itemSpacing": "{sem.button.circular.spacing.lg}",
+                  "fill": "{sem.colorAction.ghost.hover}",
+                  "border": "{sem.border.diminished}"
                 },
                 "type": "composition"
               },
@@ -2761,8 +2831,9 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.lg}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.lg}",
-                  "itemSpacing": "{sem.button.circular.spacing}",
-                  "fill": "{sem.colorAction.ghost.pressed}"
+                  "itemSpacing": "{sem.button.circular.spacing.lg}",
+                  "fill": "{sem.colorAction.ghost.pressed}",
+                  "border": "{sem.border.diminished}"
                 },
                 "type": "composition"
               },
@@ -2792,8 +2863,9 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.lg}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.lg}",
-                  "itemSpacing": "{sem.button.circular.spacing}",
-                  "fill": "{sem.colorAction.ghost.disabled}"
+                  "itemSpacing": "{sem.button.circular.spacing.lg}",
+                  "fill": "{sem.colorAction.ghost.disabled}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -2830,7 +2902,8 @@
                   "verticalPadding": "{sem.button.rectangular.verticalPadding.sm}",
                   "horizontalPadding": "{sem.button.rectangular.horizontalPadding.sm}",
                   "itemSpacing": "{sem.button.rectangular.spacing.sm}",
-                  "fill": "{sem.colorAction.success.default}"
+                  "fill": "{sem.colorAction.success.default}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -2861,7 +2934,8 @@
                   "verticalPadding": "{sem.button.rectangular.verticalPadding.sm}",
                   "horizontalPadding": "{sem.button.rectangular.horizontalPadding.sm}",
                   "itemSpacing": "{sem.button.rectangular.spacing.sm}",
-                  "fill": "{sem.colorAction.success.hover}"
+                  "fill": "{sem.colorAction.success.hover}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -2892,7 +2966,8 @@
                   "verticalPadding": "{sem.button.rectangular.verticalPadding.sm}",
                   "horizontalPadding": "{sem.button.rectangular.horizontalPadding.sm}",
                   "itemSpacing": "{sem.button.rectangular.spacing.sm}",
-                  "fill": "{sem.colorAction.success.pressed}"
+                  "fill": "{sem.colorAction.success.pressed}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -2923,7 +2998,8 @@
                   "verticalPadding": "{sem.button.rectangular.verticalPadding.sm}",
                   "horizontalPadding": "{sem.button.rectangular.horizontalPadding.sm}",
                   "itemSpacing": "{sem.button.rectangular.spacing.sm}",
-                  "fill": "{sem.colorAction.success.disabled}"
+                  "fill": "{sem.colorAction.success.disabled}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -2956,7 +3032,8 @@
                   "verticalPadding": "{sem.button.rectangular.verticalPadding.md}",
                   "horizontalPadding": "{sem.button.rectangular.horizontalPadding.md}",
                   "itemSpacing": "{sem.button.rectangular.spacing.md}",
-                  "fill": "{sem.colorAction.success.default}"
+                  "fill": "{sem.colorAction.success.default}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -2987,7 +3064,8 @@
                   "verticalPadding": "{sem.button.rectangular.verticalPadding.md}",
                   "horizontalPadding": "{sem.button.rectangular.horizontalPadding.md}",
                   "itemSpacing": "{sem.button.rectangular.spacing.md}",
-                  "fill": "{sem.colorAction.success.hover}"
+                  "fill": "{sem.colorAction.success.hover}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -3018,7 +3096,8 @@
                   "verticalPadding": "{sem.button.rectangular.verticalPadding.md}",
                   "horizontalPadding": "{sem.button.rectangular.horizontalPadding.md}",
                   "itemSpacing": "{sem.button.rectangular.spacing.md}",
-                  "fill": "{sem.colorAction.success.pressed}"
+                  "fill": "{sem.colorAction.success.pressed}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -3049,7 +3128,8 @@
                   "verticalPadding": "{sem.button.rectangular.verticalPadding.md}",
                   "horizontalPadding": "{sem.button.rectangular.horizontalPadding.md}",
                   "itemSpacing": "{sem.button.rectangular.spacing.md}",
-                  "fill": "{sem.colorAction.success.disabled}"
+                  "fill": "{sem.colorAction.success.disabled}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -3082,7 +3162,8 @@
                   "verticalPadding": "{sem.button.rectangular.verticalPadding.lg}",
                   "horizontalPadding": "{sem.button.rectangular.horizontalPadding.lg}",
                   "itemSpacing": "{sem.button.rectangular.spacing.lg}",
-                  "fill": "{sem.colorAction.success.default}"
+                  "fill": "{sem.colorAction.success.default}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -3113,7 +3194,8 @@
                   "verticalPadding": "{sem.button.rectangular.verticalPadding.lg}",
                   "horizontalPadding": "{sem.button.rectangular.horizontalPadding.lg}",
                   "itemSpacing": "{sem.button.rectangular.spacing.lg}",
-                  "fill": "{sem.colorAction.success.hover}"
+                  "fill": "{sem.colorAction.success.hover}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -3144,7 +3226,8 @@
                   "verticalPadding": "{sem.button.rectangular.verticalPadding.lg}",
                   "horizontalPadding": "{sem.button.rectangular.horizontalPadding.lg}",
                   "itemSpacing": "{sem.button.rectangular.spacing.lg}",
-                  "fill": "{sem.colorAction.success.pressed}"
+                  "fill": "{sem.colorAction.success.pressed}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -3175,7 +3258,8 @@
                   "verticalPadding": "{sem.button.rectangular.verticalPadding.lg}",
                   "horizontalPadding": "{sem.button.rectangular.horizontalPadding.lg}",
                   "itemSpacing": "{sem.button.rectangular.spacing.lg}",
-                  "fill": "{sem.colorAction.success.disabled}"
+                  "fill": "{sem.colorAction.success.disabled}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -3209,8 +3293,9 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.sm}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.sm}",
-                  "itemSpacing": "{sem.button.circular.spacing}",
-                  "fill": "{sem.colorAction.success.default}"
+                  "itemSpacing": "{sem.button.circular.spacing.sm}",
+                  "fill": "{sem.colorAction.success.default}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -3240,8 +3325,9 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.sm}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.sm}",
-                  "itemSpacing": "{sem.button.circular.spacing}",
-                  "fill": "{sem.colorAction.success.hover}"
+                  "itemSpacing": "{sem.button.circular.spacing.sm}",
+                  "fill": "{sem.colorAction.success.hover}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -3271,8 +3357,9 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.sm}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.sm}",
-                  "itemSpacing": "{sem.button.circular.spacing}",
-                  "fill": "{sem.colorAction.success.pressed}"
+                  "itemSpacing": "{sem.button.circular.spacing.sm}",
+                  "fill": "{sem.colorAction.success.pressed}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -3302,8 +3389,9 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.sm}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.sm}",
-                  "itemSpacing": "{sem.button.circular.spacing}",
-                  "fill": "{sem.colorAction.success.disabled}"
+                  "itemSpacing": "{sem.button.circular.spacing.sm}",
+                  "fill": "{sem.colorAction.success.disabled}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -3335,8 +3423,9 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.md}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.md}",
-                  "itemSpacing": "{sem.button.circular.spacing}",
-                  "fill": "{sem.colorAction.success.default}"
+                  "itemSpacing": "{sem.button.circular.spacing.md}",
+                  "fill": "{sem.colorAction.success.default}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -3366,8 +3455,9 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.md}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.md}",
-                  "itemSpacing": "{sem.button.circular.spacing}",
-                  "fill": "{sem.colorAction.success.hover}"
+                  "itemSpacing": "{sem.button.circular.spacing.md}",
+                  "fill": "{sem.colorAction.success.hover}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -3397,8 +3487,9 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.md}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.md}",
-                  "itemSpacing": "{sem.button.circular.spacing}",
-                  "fill": "{sem.colorAction.success.pressed}"
+                  "itemSpacing": "{sem.button.circular.spacing.md}",
+                  "fill": "{sem.colorAction.success.pressed}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -3428,8 +3519,9 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.md}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.md}",
-                  "itemSpacing": "{sem.button.circular.spacing}",
-                  "fill": "{sem.colorAction.success.disabled}"
+                  "itemSpacing": "{sem.button.circular.spacing.md}",
+                  "fill": "{sem.colorAction.success.disabled}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -3461,8 +3553,9 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.lg}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.lg}",
-                  "itemSpacing": "{sem.button.circular.spacing}",
-                  "fill": "{sem.colorAction.success.default}"
+                  "itemSpacing": "{sem.button.circular.spacing.lg}",
+                  "fill": "{sem.colorAction.success.default}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -3492,8 +3585,9 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.lg}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.lg}",
-                  "itemSpacing": "{sem.button.circular.spacing}",
-                  "fill": "{sem.colorAction.success.hover}"
+                  "itemSpacing": "{sem.button.circular.spacing.lg}",
+                  "fill": "{sem.colorAction.success.hover}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -3523,8 +3617,9 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.lg}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.lg}",
-                  "itemSpacing": "{sem.button.circular.spacing}",
-                  "fill": "{sem.colorAction.success.pressed}"
+                  "itemSpacing": "{sem.button.circular.spacing.lg}",
+                  "fill": "{sem.colorAction.success.pressed}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -3554,8 +3649,9 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.lg}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.lg}",
-                  "itemSpacing": "{sem.button.circular.spacing}",
-                  "fill": "{sem.colorAction.success.disabled}"
+                  "itemSpacing": "{sem.button.circular.spacing.lg}",
+                  "fill": "{sem.colorAction.success.disabled}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -3592,7 +3688,8 @@
                   "verticalPadding": "{sem.button.rectangular.verticalPadding.sm}",
                   "horizontalPadding": "{sem.button.rectangular.horizontalPadding.sm}",
                   "itemSpacing": "{sem.button.rectangular.spacing.sm}",
-                  "fill": "{sem.colorAction.external.default}"
+                  "fill": "{sem.colorAction.external.default}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -3623,7 +3720,8 @@
                   "verticalPadding": "{sem.button.rectangular.verticalPadding.sm}",
                   "horizontalPadding": "{sem.button.rectangular.horizontalPadding.sm}",
                   "itemSpacing": "{sem.button.rectangular.spacing.sm}",
-                  "fill": "{sem.colorAction.external.hover}"
+                  "fill": "{sem.colorAction.external.hover}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -3654,7 +3752,8 @@
                   "verticalPadding": "{sem.button.rectangular.verticalPadding.sm}",
                   "horizontalPadding": "{sem.button.rectangular.horizontalPadding.sm}",
                   "itemSpacing": "{sem.button.rectangular.spacing.sm}",
-                  "fill": "{sem.colorAction.external.pressed}"
+                  "fill": "{sem.colorAction.external.pressed}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -3685,7 +3784,8 @@
                   "verticalPadding": "{sem.button.rectangular.verticalPadding.sm}",
                   "horizontalPadding": "{sem.button.rectangular.horizontalPadding.sm}",
                   "itemSpacing": "{sem.button.rectangular.spacing.sm}",
-                  "fill": "{sem.colorAction.external.disabled}"
+                  "fill": "{sem.colorAction.external.disabled}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -3718,7 +3818,8 @@
                   "verticalPadding": "{sem.button.rectangular.verticalPadding.md}",
                   "horizontalPadding": "{sem.button.rectangular.horizontalPadding.md}",
                   "itemSpacing": "{sem.button.rectangular.spacing.md}",
-                  "fill": "{sem.colorAction.external.default}"
+                  "fill": "{sem.colorAction.external.default}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -3749,7 +3850,8 @@
                   "verticalPadding": "{sem.button.rectangular.verticalPadding.md}",
                   "horizontalPadding": "{sem.button.rectangular.horizontalPadding.md}",
                   "itemSpacing": "{sem.button.rectangular.spacing.md}",
-                  "fill": "{sem.colorAction.external.hover}"
+                  "fill": "{sem.colorAction.external.hover}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -3780,7 +3882,8 @@
                   "verticalPadding": "{sem.button.rectangular.verticalPadding.md}",
                   "horizontalPadding": "{sem.button.rectangular.horizontalPadding.md}",
                   "itemSpacing": "{sem.button.rectangular.spacing.md}",
-                  "fill": "{sem.colorAction.external.pressed}"
+                  "fill": "{sem.colorAction.external.pressed}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -3811,7 +3914,8 @@
                   "verticalPadding": "{sem.button.rectangular.verticalPadding.md}",
                   "horizontalPadding": "{sem.button.rectangular.horizontalPadding.md}",
                   "itemSpacing": "{sem.button.rectangular.spacing.md}",
-                  "fill": "{sem.colorAction.external.disabled}"
+                  "fill": "{sem.colorAction.external.disabled}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -3844,7 +3948,8 @@
                   "verticalPadding": "{sem.button.rectangular.verticalPadding.lg}",
                   "horizontalPadding": "{sem.button.rectangular.horizontalPadding.lg}",
                   "itemSpacing": "{sem.button.rectangular.spacing.lg}",
-                  "fill": "{sem.colorAction.external.default}"
+                  "fill": "{sem.colorAction.external.default}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -3875,7 +3980,8 @@
                   "verticalPadding": "{sem.button.rectangular.verticalPadding.lg}",
                   "horizontalPadding": "{sem.button.rectangular.horizontalPadding.lg}",
                   "itemSpacing": "{sem.button.rectangular.spacing.lg}",
-                  "fill": "{sem.colorAction.external.hover}"
+                  "fill": "{sem.colorAction.external.hover}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -3906,7 +4012,8 @@
                   "verticalPadding": "{sem.button.rectangular.verticalPadding.lg}",
                   "horizontalPadding": "{sem.button.rectangular.horizontalPadding.lg}",
                   "itemSpacing": "{sem.button.rectangular.spacing.lg}",
-                  "fill": "{sem.colorAction.external.pressed}"
+                  "fill": "{sem.colorAction.external.pressed}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -3937,7 +4044,8 @@
                   "verticalPadding": "{sem.button.rectangular.verticalPadding.lg}",
                   "horizontalPadding": "{sem.button.rectangular.horizontalPadding.lg}",
                   "itemSpacing": "{sem.button.rectangular.spacing.lg}",
-                  "fill": "{sem.colorAction.external.disabled}"
+                  "fill": "{sem.colorAction.external.disabled}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -3971,8 +4079,9 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.sm}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.sm}",
-                  "itemSpacing": "{sem.button.circular.spacing}",
-                  "fill": "{sem.colorAction.external.default}"
+                  "itemSpacing": "{sem.button.circular.spacing.sm}",
+                  "fill": "{sem.colorAction.external.default}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -4002,8 +4111,9 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.sm}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.sm}",
-                  "itemSpacing": "{sem.button.circular.spacing}",
-                  "fill": "{sem.colorAction.external.hover}"
+                  "itemSpacing": "{sem.button.circular.spacing.sm}",
+                  "fill": "{sem.colorAction.external.hover}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -4033,8 +4143,9 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.sm}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.sm}",
-                  "itemSpacing": "{sem.button.circular.spacing}",
-                  "fill": "{sem.colorAction.external.pressed}"
+                  "itemSpacing": "{sem.button.circular.spacing.sm}",
+                  "fill": "{sem.colorAction.external.pressed}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -4064,8 +4175,9 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.sm}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.sm}",
-                  "itemSpacing": "{sem.button.circular.spacing}",
-                  "fill": "{sem.colorAction.external.disabled}"
+                  "itemSpacing": "{sem.button.circular.spacing.sm}",
+                  "fill": "{sem.colorAction.external.disabled}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -4097,8 +4209,9 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.md}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.md}",
-                  "itemSpacing": "{sem.button.circular.spacing}",
-                  "fill": "{sem.colorAction.external.default}"
+                  "itemSpacing": "{sem.button.circular.spacing.md}",
+                  "fill": "{sem.colorAction.external.default}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -4128,8 +4241,9 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.md}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.md}",
-                  "itemSpacing": "{sem.button.circular.spacing}",
-                  "fill": "{sem.colorAction.external.hover}"
+                  "itemSpacing": "{sem.button.circular.spacing.md}",
+                  "fill": "{sem.colorAction.external.hover}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -4159,8 +4273,9 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.md}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.md}",
-                  "itemSpacing": "{sem.button.circular.spacing}",
-                  "fill": "{sem.colorAction.external.pressed}"
+                  "itemSpacing": "{sem.button.circular.spacing.md}",
+                  "fill": "{sem.colorAction.external.pressed}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -4190,8 +4305,9 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.md}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.md}",
-                  "itemSpacing": "{sem.button.circular.spacing}",
-                  "fill": "{sem.colorAction.external.disabled}"
+                  "itemSpacing": "{sem.button.circular.spacing.md}",
+                  "fill": "{sem.colorAction.external.disabled}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -4223,8 +4339,9 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.lg}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.lg}",
-                  "itemSpacing": "{sem.button.circular.spacing}",
-                  "fill": "{sem.colorAction.external.default}"
+                  "itemSpacing": "{sem.button.circular.spacing.lg}",
+                  "fill": "{sem.colorAction.external.default}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -4254,8 +4371,9 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.lg}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.lg}",
-                  "itemSpacing": "{sem.button.circular.spacing}",
-                  "fill": "{sem.colorAction.external.hover}"
+                  "itemSpacing": "{sem.button.circular.spacing.lg}",
+                  "fill": "{sem.colorAction.external.hover}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -4285,8 +4403,9 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.lg}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.lg}",
-                  "itemSpacing": "{sem.button.circular.spacing}",
-                  "fill": "{sem.colorAction.external.pressed}"
+                  "itemSpacing": "{sem.button.circular.spacing.lg}",
+                  "fill": "{sem.colorAction.external.pressed}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -4316,8 +4435,9 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.lg}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.lg}",
-                  "itemSpacing": "{sem.button.circular.spacing}",
-                  "fill": "{sem.colorAction.external.disabled}"
+                  "itemSpacing": "{sem.button.circular.spacing.lg}",
+                  "fill": "{sem.colorAction.external.disabled}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -4354,7 +4474,8 @@
                   "verticalPadding": "{sem.button.rectangular.verticalPadding.sm}",
                   "horizontalPadding": "{sem.button.rectangular.horizontalPadding.sm}",
                   "itemSpacing": "{sem.button.rectangular.spacing.sm}",
-                  "fill": "{sem.colorAction.danger.default}"
+                  "fill": "{sem.colorAction.danger.default}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -4385,7 +4506,8 @@
                   "verticalPadding": "{sem.button.rectangular.verticalPadding.sm}",
                   "horizontalPadding": "{sem.button.rectangular.horizontalPadding.sm}",
                   "itemSpacing": "{sem.button.rectangular.spacing.sm}",
-                  "fill": "{sem.colorAction.danger.hover}"
+                  "fill": "{sem.colorAction.danger.hover}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -4416,7 +4538,8 @@
                   "verticalPadding": "{sem.button.rectangular.verticalPadding.sm}",
                   "horizontalPadding": "{sem.button.rectangular.horizontalPadding.sm}",
                   "itemSpacing": "{sem.button.rectangular.spacing.sm}",
-                  "fill": "{sem.colorAction.danger.pressed}"
+                  "fill": "{sem.colorAction.danger.pressed}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -4447,7 +4570,8 @@
                   "verticalPadding": "{sem.button.rectangular.verticalPadding.sm}",
                   "horizontalPadding": "{sem.button.rectangular.horizontalPadding.sm}",
                   "itemSpacing": "{sem.button.rectangular.spacing.sm}",
-                  "fill": "{sem.colorAction.danger.disabled}"
+                  "fill": "{sem.colorAction.danger.disabled}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -4480,7 +4604,8 @@
                   "verticalPadding": "{sem.button.rectangular.verticalPadding.md}",
                   "horizontalPadding": "{sem.button.rectangular.horizontalPadding.md}",
                   "itemSpacing": "{sem.button.rectangular.spacing.md}",
-                  "fill": "{sem.colorAction.danger.default}"
+                  "fill": "{sem.colorAction.danger.default}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -4511,7 +4636,8 @@
                   "verticalPadding": "{sem.button.rectangular.verticalPadding.md}",
                   "horizontalPadding": "{sem.button.rectangular.horizontalPadding.md}",
                   "itemSpacing": "{sem.button.rectangular.spacing.md}",
-                  "fill": "{sem.colorAction.danger.hover}"
+                  "fill": "{sem.colorAction.danger.hover}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -4542,7 +4668,8 @@
                   "verticalPadding": "{sem.button.rectangular.verticalPadding.md}",
                   "horizontalPadding": "{sem.button.rectangular.horizontalPadding.md}",
                   "itemSpacing": "{sem.button.rectangular.spacing.md}",
-                  "fill": "{sem.colorAction.danger.pressed}"
+                  "fill": "{sem.colorAction.danger.pressed}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -4573,7 +4700,8 @@
                   "verticalPadding": "{sem.button.rectangular.verticalPadding.md}",
                   "horizontalPadding": "{sem.button.rectangular.horizontalPadding.md}",
                   "itemSpacing": "{sem.button.rectangular.spacing.md}",
-                  "fill": "{sem.colorAction.danger.disabled}"
+                  "fill": "{sem.colorAction.danger.disabled}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -4606,7 +4734,8 @@
                   "verticalPadding": "{sem.button.rectangular.verticalPadding.lg}",
                   "horizontalPadding": "{sem.button.rectangular.horizontalPadding.lg}",
                   "itemSpacing": "{sem.button.rectangular.spacing.lg}",
-                  "fill": "{sem.colorAction.danger.default}"
+                  "fill": "{sem.colorAction.danger.default}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -4637,7 +4766,8 @@
                   "verticalPadding": "{sem.button.rectangular.verticalPadding.lg}",
                   "horizontalPadding": "{sem.button.rectangular.horizontalPadding.lg}",
                   "itemSpacing": "{sem.button.rectangular.spacing.lg}",
-                  "fill": "{sem.colorAction.danger.hover}"
+                  "fill": "{sem.colorAction.danger.hover}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -4668,7 +4798,8 @@
                   "verticalPadding": "{sem.button.rectangular.verticalPadding.lg}",
                   "horizontalPadding": "{sem.button.rectangular.horizontalPadding.lg}",
                   "itemSpacing": "{sem.button.rectangular.spacing.lg}",
-                  "fill": "{sem.colorAction.danger.pressed}"
+                  "fill": "{sem.colorAction.danger.pressed}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -4699,7 +4830,8 @@
                   "verticalPadding": "{sem.button.rectangular.verticalPadding.lg}",
                   "horizontalPadding": "{sem.button.rectangular.horizontalPadding.lg}",
                   "itemSpacing": "{sem.button.rectangular.spacing.lg}",
-                  "fill": "{sem.colorAction.danger.disabled}"
+                  "fill": "{sem.colorAction.danger.disabled}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -4733,8 +4865,9 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.sm}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.sm}",
-                  "itemSpacing": "{sem.button.circular.spacing}",
-                  "fill": "{sem.colorAction.danger.default}"
+                  "itemSpacing": "{sem.button.circular.spacing.sm}",
+                  "fill": "{sem.colorAction.danger.default}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -4764,8 +4897,9 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.sm}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.sm}",
-                  "itemSpacing": "{sem.button.circular.spacing}",
-                  "fill": "{sem.colorAction.danger.hover}"
+                  "itemSpacing": "{sem.button.circular.spacing.sm}",
+                  "fill": "{sem.colorAction.danger.hover}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -4795,8 +4929,9 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.sm}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.sm}",
-                  "itemSpacing": "{sem.button.circular.spacing}",
-                  "fill": "{sem.colorAction.danger.pressed}"
+                  "itemSpacing": "{sem.button.circular.spacing.sm}",
+                  "fill": "{sem.colorAction.danger.pressed}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -4826,8 +4961,9 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.sm}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.sm}",
-                  "itemSpacing": "{sem.button.circular.spacing}",
-                  "fill": "{sem.colorAction.danger.disabled}"
+                  "itemSpacing": "{sem.button.circular.spacing.sm}",
+                  "fill": "{sem.colorAction.danger.disabled}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -4859,8 +4995,9 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.md}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.md}",
-                  "itemSpacing": "{sem.button.circular.spacing}",
-                  "fill": "{sem.colorAction.danger.default}"
+                  "itemSpacing": "{sem.button.circular.spacing.md}",
+                  "fill": "{sem.colorAction.danger.default}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -4890,8 +5027,9 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.md}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.md}",
-                  "itemSpacing": "{sem.button.circular.spacing}",
-                  "fill": "{sem.colorAction.danger.hover}"
+                  "itemSpacing": "{sem.button.circular.spacing.md}",
+                  "fill": "{sem.colorAction.danger.hover}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -4921,8 +5059,9 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.md}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.md}",
-                  "itemSpacing": "{sem.button.circular.spacing}",
-                  "fill": "{sem.colorAction.danger.pressed}"
+                  "itemSpacing": "{sem.button.circular.spacing.md}",
+                  "fill": "{sem.colorAction.danger.pressed}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -4952,8 +5091,9 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.md}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.md}",
-                  "itemSpacing": "{sem.button.circular.spacing}",
-                  "fill": "{sem.colorAction.danger.disabled}"
+                  "itemSpacing": "{sem.button.circular.spacing.md}",
+                  "fill": "{sem.colorAction.danger.disabled}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -4985,8 +5125,9 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.lg}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.lg}",
-                  "itemSpacing": "{sem.button.circular.spacing}",
-                  "fill": "{sem.colorAction.danger.default}"
+                  "itemSpacing": "{sem.button.circular.spacing.lg}",
+                  "fill": "{sem.colorAction.danger.default}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -5016,8 +5157,9 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.lg}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.lg}",
-                  "itemSpacing": "{sem.button.circular.spacing}",
-                  "fill": "{sem.colorAction.danger.hover}"
+                  "itemSpacing": "{sem.button.circular.spacing.lg}",
+                  "fill": "{sem.colorAction.danger.hover}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -5047,8 +5189,9 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.lg}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.lg}",
-                  "itemSpacing": "{sem.button.circular.spacing}",
-                  "fill": "{sem.colorAction.danger.pressed}"
+                  "itemSpacing": "{sem.button.circular.spacing.lg}",
+                  "fill": "{sem.colorAction.danger.pressed}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
@@ -5078,8 +5221,9 @@
                   "borderRadius": "{sem.button.circular.borderRadius}",
                   "verticalPadding": "{sem.button.circular.verticalPadding.lg}",
                   "horizontalPadding": "{sem.button.circular.horizontalPadding.lg}",
-                  "itemSpacing": "{sem.button.circular.spacing}",
-                  "fill": "{sem.colorAction.danger.disabled}"
+                  "itemSpacing": "{sem.button.circular.spacing.lg}",
+                  "fill": "{sem.colorAction.danger.disabled}",
+                  "border": "none"
                 },
                 "type": "composition"
               },
