@@ -174,7 +174,7 @@
           },
           "heading": {
             "value": {
-              "fill": "{sem.colorText.strong}",
+              "fill": "{sem.colorText.dark}",
               "typography": "{sem.typography.textStyle.heading.heading2}"
             },
             "type": "composition"
@@ -196,7 +196,7 @@
           },
           "heading": {
             "value": {
-              "fill": "{sem.colorText.strong}",
+              "fill": "{sem.colorText.dark}",
               "typography": "{sem.typography.textStyle.heading.heading3}"
             },
             "type": "composition"
@@ -218,7 +218,7 @@
           },
           "heading": {
             "value": {
-              "fill": "{sem.colorText.strong}",
+              "fill": "{sem.colorText.dark}",
               "typography": "{sem.typography.textStyle.heading.heading4}"
             },
             "type": "composition"

@@ -109,7 +109,7 @@
               "title": {
                 "value": {
                   "typography": "{sem.typography.textStyle.heading.heading5}",
-                  "fill": "{sem.colorText.strong}"
+                  "fill": "{sem.colorText.dark}"
                 },
                 "type": "composition"
               },
@@ -143,7 +143,7 @@
                     },
                     "dark": {
                       "value": {
-                        "fill": "{sem.colorText.strong}",
+                        "fill": "{sem.colorText.dark}",
                         "typography": "{sem.typography.textStyle.paragraph.md.strong}"
                       },
                       "type": "composition"
@@ -153,7 +153,7 @@
                 "data": {
                   "number": {
                     "value": {
-                      "fill": "{sem.colorText.strong}",
+                      "fill": "{sem.colorText.dark}",
                       "typography": "{sem.typography.textStyle.paragraph.lg.strong}"
                     },
                     "type": "composition"
@@ -280,7 +280,7 @@
               "title": {
                 "value": {
                   "typography": "{sem.typography.textStyle.heading.heading3}",
-                  "fill": "{sem.colorText.strong}"
+                  "fill": "{sem.colorText.dark}"
                 },
                 "type": "composition"
               }

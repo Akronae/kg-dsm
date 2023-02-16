@@ -5376,7 +5376,7 @@
           },
           "filled": {
             "value": {
-              "fill": "{sem.colorText.strong}",
+              "fill": "{sem.colorText.dark}",
               "typography": "{sem.typography.textStyle.paragraph.md.strong}"
             },
             "type": "composition"
@@ -5567,7 +5567,7 @@
       "label": {
         "value": {
           "typography": "{sem.typography.textStyle.label.body.sm}",
-          "fill": "{sem.colorText.strong}"
+          "fill": "{sem.colorText.dark}"
         },
         "type": "composition"
       },
