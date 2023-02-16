@@ -120,7 +120,7 @@
         "value": "{ref.colors.neutral.600}",
         "type": "color"
       },
-      "strong": {
+      "dark": {
         "value": "{ref.colors.neutral.800}",
         "type": "color"
       },
@@ -182,7 +182,7 @@
         "value": "{ref.colors.primary.500}",
         "type": "color"
       },
-      "black": {
+      "dark": {
         "value": "{ref.colors.neutral.800}",
         "type": "color"
       },
