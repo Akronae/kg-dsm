@@ -5754,7 +5754,7 @@
       "default": {
         "value": {
           "borderWidth": "{sem.divider.borderWidth}",
-          "fill": "{sem.divider.borderColor}"
+          "fill": "{sem.colorBorder.disabled}"
         },
         "type": "composition"
       }
@@ -5891,10 +5891,6 @@
       "borderWidth": {
         "value": "{ref.borderWidth.sm}",
         "type": "borderWidth"
-      },
-      "borderColor": {
-        "value": "{sem.colorBorder.disabled}",
-        "type": "color"
       }
     }
   }
