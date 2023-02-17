@@ -5666,6 +5666,20 @@
         "borderRadius": {
           "value": "{ref.borderRadius.9999}",
           "type": "borderRadius"
+        },
+        "spacing": {
+          "sm": {
+            "value": "{ref.spacing.50}",
+            "type": "spacing"
+          },
+          "md": {
+            "value": "{ref.spacing.50}",
+            "type": "spacing"
+          },
+          "lg": {
+            "value": "{ref.spacing.50}",
+            "type": "spacing"
+          }
         }
       }
     },
