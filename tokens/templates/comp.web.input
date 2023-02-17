@@ -21,7 +21,7 @@ comp
 },
 "iconColor": {
   "value": {
-    "borderColor": "{sem.colorIcon.{{ state == 'error' ? 'a' : 'b' }}}"
+    "borderColor": "{sem.colorIcon.{{ state == 'error' ? 'danger' : 'default' }}}"
   },
   "type": "composition"
 },
