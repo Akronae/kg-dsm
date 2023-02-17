@@ -9,7 +9,7 @@ comp
   "value": {
     "itemSpacing": "{sem.input.placeholder.{{type}}.spacing.{{size}}}",
     "verticalPadding": "{sem.input.placeholder.{{type}}.verticalPadding}.{{size}}}",
-    "horizontalPadding": "{sem.input.placeholder.{{type}}.horizontalPadding.{{size}}}",
+    "horizontalPadding": "{sem.input.placeholder.{{type}}.horizontalPadding.{{size}}}"
   },
   "type": "composition"
 },
@@ -21,14 +21,14 @@ comp
 },
 "iconColor": {
   "value": {
-    "borderColor": "{sem.colorIcon.{{state == 'error' ? 'danger' : 'default'}}}"
+    "borderColor": "{sem.colorIcon.{{ state == 'error' ? 'a' : 'b' }}}"
   },
   "type": "composition"
 },
 "label": {
   "value": {
     "typography": "{sem.input.placeholder.label.{{size}}}",
-    "fill": "{sem.colorText.{{{default: state, danger: state, filled: 'strong'}[state]}}"
+    "fill": "{sem.colorText.{{ ({default: state, danger: state, filled: 'strong'})[state] }}}"
   },
   "type": "composition"
 }}]

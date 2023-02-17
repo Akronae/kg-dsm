@@ -67,6 +67,18 @@ function removeQuotes(str) {
   return str.replace(/"|'/g, "");
 }
 
+function getIndexOfClosingScope(str, openChar, closingChar) {
+  let i = 0;
+  let open = 0;
+  for (const char of str) {
+    if (char === openChar) open++;
+    if (char === closingChar) open--;
+    if (open === 0) return i;
+    i++;
+  }
+  return -1;
+}
+
 //////////////////////////////////////////////////////////////////////////////////////////////////
 
 const filepath = process.argv[2];
@@ -94,11 +106,11 @@ while (tree) {
 
   let eat = "";
   if (tree.startsWith("[")) {
-    eat = tree.substring(0, indexOfFirst(tree, "]") + 1);
+    eat = tree.substring(0, getIndexOfClosingScope(tree, '[', "]") + 1);
   } else {
     eat = tree.substring(0, indexOfFirst(tree, ".", "["));
   }
-  tree = tree.substring(eat.length);
+  tree = tree.substring(eat.length).trim();
 
   if (!eat) break;
 
@@ -106,7 +118,7 @@ while (tree) {
 
   eat = eat.trim();
   if (eat.startsWith("[")) {
-    eat = eat.substring(1, eat.length - 1);
+    eat = eat.substring(1, eat.length - 1).trim();
 
     if (eat.startsWith("{") && eat.endsWith("}")) {
       parsed = JSON.parse(eat);
@@ -125,7 +137,7 @@ while (tree) {
   } else {
     parsed[eat] = {};
     tree = tree.trim();
-    if (tree.startsWith(".")) tree = tree.substring(1);
+    if (tree.startsWith(".")) tree = tree.substring(1).trim();
     ctx.path.push({ value: eat });
   }
 
