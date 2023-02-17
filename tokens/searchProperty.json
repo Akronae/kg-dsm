@@ -127,7 +127,7 @@
                       "value": {
                         "borderRadius": "{ref.borderRadius.200}",
                         "paddingTop": "{ref.spacing.50}",
-                        "paddingBottom": "{ref.spacing.50}",
+                        "paddingBottom": "{ref.spacing.25}",
                         "height": "{ref.sizing.300}"
                       },
                       "type": "composition"
