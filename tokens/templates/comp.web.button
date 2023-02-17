@@ -6,33 +6,37 @@ comp
 [shape: 'rectangular' | 'circular']
 [size: 'sm' | 'md' | 'lg']
 [state: 'default' | 'hover' | 'pressed' | 'disabled']
-[{ "container": {
-  "value": {
-    "border": "{{type == 'ghost' && state != 'disabled' ? '{sem.border.diminished}' : 'none'}}",
-    "borderRadius": "{sem.button.{{shape}}.borderRadius{{shape != 'circular' ? '.' + size : ''}}}",
-    "verticalPadding": "{sem.button.{{shape}}.verticalPadding.{{size}}}",
-    "horizontalPadding": "{sem.button.{{shape}}.horizontalPadding.{{size}}}",
-    "itemSpacing": "{sem.button.{{shape}}.spacing.{{size}}}",
-    "fill": "{sem.colorAction.{{type}}.{{state}}}"
-  },
-  "type": "composition"
-},
-"iconSize": {
-  "value": {
-    "sizing": "{sem.button.{{shape}}.icon.sizing.{{size}}}"
-  },
-  "type": "composition"
-},
-"iconColor": {
-  "value": {
-    "borderColor": "{sem.colorIcon.{{type == 'ghost' && state != 'disabled' ? 'dark' : 'light'}}}"
-  },
-  "type": "composition"
-},
-"label": {
-  "value": {
-    "typography": "{sem.typography.textStyle.label.button.{{size}}}",
-    "fill": "{sem.colorText.{{type == 'ghost' && state != 'disabled' ? 'dark' : 'light'}}}}"
-  },
-  "type": "composition"
-}}]
+[
+  {
+    "container": {
+      "value": {
+        "border": "{{type == 'ghost' && state != 'disabled' ? '{sem.border.diminished}' : 'none'}}",
+        "borderRadius": "{sem.button.{{shape}}.borderRadius{{shape != 'circular' ? '.' + size : ''}}}",
+        "verticalPadding": "{sem.button.{{shape}}.verticalPadding.{{size}}}",
+        "horizontalPadding": "{sem.button.{{shape}}.horizontalPadding.{{size}}}",
+        "itemSpacing": "{sem.button.{{shape}}.spacing.{{size}}}",
+        "fill": "{sem.colorAction.{{type}}.{{state}}}"
+      },
+      "type": "composition"
+    },
+    "iconSize": {
+      "value": {
+        "sizing": "{sem.button.{{shape}}.icon.sizing.{{size}}}"
+      },
+      "type": "composition"
+    },
+    "iconColor": {
+      "value": {
+        "borderColor": "{sem.colorIcon.{{type == 'ghost' && state != 'disabled' ? 'dark' : 'light'}}}"
+      },
+      "type": "composition"
+    },
+    "label": {
+      "value": {
+        "typography": "{sem.typography.textStyle.label.button.{{size}}}",
+        "fill": "{sem.colorText.{{type == 'ghost' && state != 'disabled' ? 'dark' : 'light'}}}}"
+      },
+      "type": "composition"
+    }
+  }
+]
