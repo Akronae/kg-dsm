@@ -5532,12 +5532,108 @@
       }
     },
     "input": {
+      "container": {
+        "default": {
+          "container": {
+            "value": {
+              "border": "{sem.input.container.border.none}"
+            },
+            "type": "composition"
+          }
+        },
+        "hover": {
+          "container": {
+            "value": {
+              "border": "{sem.input.container.border.none}"
+            },
+            "type": "composition"
+          }
+        },
+        "error": {
+          "container": {
+            "value": {
+              "border": "{sem.input.container.border.danger}"
+            },
+            "type": "composition"
+          }
+        },
+        "disabled": {
+          "container": {
+            "value": {
+              "border": "{sem.input.container.border.none}"
+            },
+            "type": "composition"
+          }
+        },
+        "active": {
+          "container": {
+            "value": {
+              "border": "{sem.input.container.border.active}"
+            },
+            "type": "composition"
+          }
+        }
+      },
       "placeholder": {
-        "blabla": {
-          "value": {
-            "sizing": "d"
+        "sm": {
+          "label": {
+            "value": {
+              "typography": "{sem.input.placeholder.label.sm}",
+              "fill": "{sem.colorText.default}"
+            },
+            "type": "composition"
+          }
+        },
+        "md": {
+          "label": {
+            "value": {
+              "typography": "{sem.input.placeholder.label.md}",
+              "fill": "{sem.colorText.default}"
+            },
+            "type": "composition"
+          }
+        }
+      },
+      "text": {
+        "default": {
+          "sm": {
+            "label": {
+              "value": {
+                "typography": "{sem.input.text.label.sm}",
+                "fill": "{sem.colorText.filed}"
+              },
+              "type": "composition"
+            }
           },
-          "type": "composition"
+          "md": {
+            "label": {
+              "value": {
+                "typography": "{sem.input.text.label.md}",
+                "fill": "{sem.colorText.filed}"
+              },
+              "type": "composition"
+            }
+          }
+        },
+        "error": {
+          "sm": {
+            "label": {
+              "value": {
+                "typography": "{sem.input.text.label.sm}",
+                "fill": "{sem.colorText.danger}"
+              },
+              "type": "composition"
+            }
+          },
+          "md": {
+            "label": {
+              "value": {
+                "typography": "{sem.input.text.label.md}",
+                "fill": "{sem.colorText.danger}"
+              },
+              "type": "composition"
+            }
+          }
         }
       }
     }

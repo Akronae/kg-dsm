@@ -1,37 +1,15 @@
 // @replacepath: tokens/comp.web.json
 
 comp
-.input.placeholder
-[type: 'simple' | 'phone' | 'textArea' | 'chips']
-[state: 'default' | 'danger' | 'filled']
-[size:  'sm' | 'md']
+.input
+.placeholder
+[size: 'sm' | 'md']
 [
   {
-    "container": {
-      "value": {
-        "itemSpacing": "{sem.input.placeholder.{{type}}.spacing.{{size}}}",
-        "verticalPadding": "{sem.input.placeholder.{{type}}.verticalPadding}.{{size}}}",
-        "horizontalPadding": "{sem.input.placeholder.{{type}}.horizontalPadding.{{size}}}"
-      },
-      "type": "composition"
-    },
-    "iconSize": {
-      "value": {
-        "sizing": "{sem.input.{{type}}.icon.sizing.{{size}}}"
-      },
-      "type": "composition"
-    },
-    "iconColor": {
-      "value": {
-        "borderColor": "{sem.colorIcon.{{ state == 'error' ? 'danger' : 'default' }}}",
-        "fill": "{sem.colorIcon.{{ state == 'error' ? 'danger' : 'default' }}}"
-      },
-      "type": "composition"
-    },
     "label": {
       "value": {
         "typography": "{sem.input.placeholder.label.{{size}}}",
-        "fill": "{sem.colorText.{{ ({default: state, danger: state, filled: 'strong'})[state] }}}"
+        "fill": "{sem.colorText.default}"
       },
       "type": "composition"
     }

@@ -1,0 +1,16 @@
+// @replacepath: tokens/comp.web.json
+
+comp
+.input
+.container
+[state: 'default' | 'hover' | 'error' | 'disabled' | 'active']
+[
+  {
+    "container": {
+      "value": {
+        "border": "{sem.input.container.border.{{ ({error: 'danger', active: 'active'})[state] || 'none' }}}"
+      },
+      "type": "composition"
+    }
+  }
+]

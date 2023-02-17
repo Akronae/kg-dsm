@@ -1,0 +1,18 @@
+// @replacepath: tokens/comp.web.json
+
+comp
+.input
+.text
+[state: 'default' | 'error']
+[size: 'sm' | 'md']
+[
+  {
+    "label": {
+      "value": {
+        "typography": "{sem.input.text.label.{{size}}}",
+        "fill": "{sem.colorText.{{ ({default: 'filed', error: 'danger'})[state] }}}"
+      },
+      "type": "composition"
+    }
+  }
+]
