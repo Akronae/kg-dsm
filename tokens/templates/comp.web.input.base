@@ -2,6 +2,7 @@
 
 comp
 .input
+.base
 [size: 'sm' | 'md']
 [contrast: 'uncontrasted' | 'contrasted']
 [state: 'default' | 'hover' | 'pressed' | 'active' | 'disabled']
