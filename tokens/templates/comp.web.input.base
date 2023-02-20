@@ -5,20 +5,26 @@ comp
 .base
 [size: 'sm' | 'md']
 [contrast: 'uncontrasted' | 'contrasted']
-[state: 'default' | 'hover' | 'pressed' | 'active' | 'disabled']
+[state: 'default' | 'hover' | 'pressed' | 'active' | 'danger' | 'disabled']
 [
   {
     "container": {
-      "value": {},
+      "itemSapcing": {sem.input.{{ ({sm: 'xs', md: 'sm'})[size] }}.{{contrast}}.container.spacer},
       "type": "composition",
       "description": "{extends: 'comp.card.{{ ({sm: 'xs', md: 'sm'})[size] }}.{{contrast}}.{{state}}'}"
     },
-    "icon": {
-      "value": {},
+    "iconSize": {
+      "width": "{sem.input.{{ ({sm: 'xs', md: 'sm'})[size] }}.iconSize}",
+      "height":"{sem.input.{{ ({sm: 'xs', md: 'sm'})[size] }}.default.iconSize}",
+      "type": "composition"
+    },
+    "iconColor": {
+      "fill": "{sem.colorIcon.{{ 'state' == 'danger' ? 'danger : 'default'}}}",
       "type": "composition"
     },
     "affix": {
-      "value": {},
+      "typography": {sem.typography.textStyle.paragraph.strong},
+      "fill": {sem.colorText.{{ 'state' == 'danger' ? 'danger : 'default'}}}
       "type": "composition"
     },
     "slotContent": {
