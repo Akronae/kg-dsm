@@ -9,41 +9,47 @@ comp
 [
   {
     "container": {
-      "itemSapcing": "{sem.input.{{ ({sm: 'xs', md: 'sm'})[size] }}.{{contrast}}.container.spacer}",
+      "value": {
+        "itemSapcing": "{sem.input.{{ ({sm: 'xs', md: 'sm'})[size] }}.{{contrast}}.container.spacer}"
       },
-    "type": "composition",
+      "type": "composition",
       "description": "({extends: 'comp.card.{{ ({sm: 'xs', md: 'sm'})[size] }}.{{contrast}}.{{state}}'})"
     },
     "iconSize": {
-      "width": "{sem.input.{{ ({sm: 'xs', md: 'sm'})[size] }}.iconSize}",
-      "height": "{sem.input.{{ ({sm: 'xs', md: 'sm'})[size] }}.default.iconSize}",
+      "value": {
+        "width": "{sem.input.{{ ({sm: 'xs', md: 'sm'})[size] }}.iconSize}",
+        "height": "{sem.input.{{ ({sm: 'xs', md: 'sm'})[size] }}.default.iconSize}"
       },
-    "type": "composition"
+      "type": "composition"
     },
     "iconColor": {
-      "fill": "{sem.colorIcon.{{ 'state' == 'danger' ? 'danger' : 'default'}}}",
+      "value": {
+        "fill": "{sem.colorIcon.{{ 'state' == 'danger' ? 'danger' : 'default'}}}"
       },
-    "type": "composition"
+      "type": "composition"
     },
     "affix": {
-      "typography": "{sem.typography.textStyle.paragraph.strong}",
-      "fill": "{sem.colorText.{{ 'state' == 'danger' ? 'danger' : 'default'}}}",
+      "value": {
+        "typography": "{sem.typography.textStyle.paragraph.strong}",
+        "fill": "{sem.colorText.{{ 'state' == 'danger' ? 'danger' : 'default'}}}"
       },
-    "type": "composition"
+      "type": "composition"
     },
     "slotContent": {
       "text": {
         "placeholder": {
-          "typography": "{sem.typography.textStyle.paragraph.default}",
-          "fill": "{sem.colorText.{{ 'state' == 'danger' ? 'danger' : 'default'}}}",
+          "value": {
+            "typography": "{sem.typography.textStyle.paragraph.default}",
+            "fill": "{sem.colorText.{{ 'state' == 'danger' ? 'danger' : 'default'}}}"
           },
-        "type": "composition"
+          "type": "composition"
         },
         "textValue": {
-          "typography": "{sem.typography.textStyle.paragraph.strong}",
-          "fill": "{sem.colorText.{{ 'state' == 'danger' ? 'danger' : 'default'}}}",
+          "value": {
+            "typography": "{sem.typography.textStyle.paragraph.strong}",
+            "fill": "{sem.colorText.{{ 'state' == 'danger' ? 'danger' : 'default'}}}"
           },
-        "type": "composition"
+          "type": "composition"
         }
       }
     }
