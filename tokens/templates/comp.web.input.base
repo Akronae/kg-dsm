@@ -19,24 +19,24 @@ comp
       "type": "composition"
     },
     "iconColor": {
-      "fill": "{sem.colorIcon.{{ 'state' == 'danger' ? 'danger : 'default'}}}",
+      "fill": "{sem.colorIcon.{{ 'state' == 'danger' ? 'danger' : 'default'}}}",
       "type": "composition"
     },
     "affix": {
       "typography": "{sem.typography.textStyle.paragraph.strong}",
-      "fill": {sem.colorText.{{ 'state' == 'danger' ? 'danger : 'default'}}},
+      "fill": {sem.colorText.{{ 'state' == 'danger' ? 'danger' : 'default'}}},
       "type": "composition"
     },
     "slotContent": {
       "text": {
         "placeholder": {
           "typography": "{sem.typography.textStyle.paragraph.default}",
-          "fill": "{sem.colorText.{{ 'state' == 'danger' ? 'danger : 'default'}}}",
+          "fill": "{sem.colorText.{{ 'state' == 'danger' ? 'danger' : 'default'}}}",
           "type": "composition"
         },
         "textValue": {
           "typography": "{sem.typography.textStyle.paragraph.strong}",
-          "fill": "{sem.colorText.{{ 'state' == 'danger' ? 'danger : 'default'}}}",
+          "fill": "{sem.colorText.{{ 'state' == 'danger' ? 'danger' : 'default'}}}",
           "type": "composition"
         }
       }
