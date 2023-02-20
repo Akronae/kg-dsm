@@ -9,13 +9,13 @@ comp
 [
   {
     "container": {
-      "itemSapcing": {sem.input.{{ ({sm: 'xs', md: 'sm'})[size] }}.{{contrast}}.container.spacer},
+      "itemSapcing": "{sem.input.{{ ({sm: 'xs', md: 'sm'})[size] }}.{{contrast}}.container.spacer}",
       "type": "composition",
       "description": "({extends: 'comp.card.{{ ({sm: 'xs', md: 'sm'})[size] }}.{{contrast}}.{{state}}'})"
     },
     "iconSize": {
       "width": "{sem.input.{{ ({sm: 'xs', md: 'sm'})[size] }}.iconSize}",
-      "height":"{sem.input.{{ ({sm: 'xs', md: 'sm'})[size] }}.default.iconSize}",
+      "height": "{sem.input.{{ ({sm: 'xs', md: 'sm'})[size] }}.default.iconSize}",
       "type": "composition"
     },
     "iconColor": {
@@ -23,20 +23,20 @@ comp
       "type": "composition"
     },
     "affix": {
-      "typography": {sem.typography.textStyle.paragraph.strong},
+      "typography": "{sem.typography.textStyle.paragraph.strong}",
       "fill": {sem.colorText.{{ 'state' == 'danger' ? 'danger : 'default'}}},
       "type": "composition"
     },
     "slotContent": {
       "text": {
         "placeholder": {
-          "typography": {sem.typography.textStyle.paragraph.default},
-          "fill": {sem.colorText.{{ 'state' == 'danger' ? 'danger : 'default'}}},
+          "typography": "{sem.typography.textStyle.paragraph.default}",
+          "fill": "{sem.colorText.{{ 'state' == 'danger' ? 'danger : 'default'}}}",
           "type": "composition"
         },
         "textValue": {
-          "typography": {sem.typography.textStyle.paragraph.strong},
-          "fill": {sem.colorText.{{ 'state' == 'danger' ? 'danger : 'default'}}},
+          "typography": "{sem.typography.textStyle.paragraph.strong}",
+          "fill": "{sem.colorText.{{ 'state' == 'danger' ? 'danger : 'default'}}}",
           "type": "composition"
         }
       }
