@@ -11,29 +11,29 @@ comp
     "container": {
       "value": {},
       "type": "composition",
-      "description": "{extends: 'comp.input.container.{{size}}.{{contrast}}.{{state}}'}"
+      "description": "({extends: 'comp.input.base.{{size}}.{{contrast}}.{{state}}.container'})"
     },
     "icon": {
       "value": {},
       "type": "composition",
-      "description": "{extends: 'comp.input.icon.{{size}}.{{state}}'}"
+      "description": "({extends: 'comp.input.base.{{size}}.{{contrast}}.{{state}}.icon'})"
     },
     "affix": {
       "value": {},
       "type": "composition",
-      "description": "{extends: 'comp.input.affix.{{size}}.{{state}}'}"
+      "description": "({extends: 'comp.input.base.{{size}}.{{contrast}}.{{state}}.affix'})"
     },
     "slotContent": {
       "text": {
         "placeholder": {
           "value": {},
           "type": "composition",
-          "description": "{extends: 'comp.input.slotContent.placeholder.{{size}}.{{state}}'}"
+          "description": "({extends: 'comp.input.base.{{size}}.{{contrast}}.{{state}}.slotContent.text.placeholder'})"
         },
         "textValue": {
           "value": {},
           "type": "composition",
-          "description": "{extends: 'comp.input.slotContent.textValue.{{size}}.{{state}}'}"
+          "description": "({extends: 'comp.input.base.{{size}}.{{contrast}}.{{state}}.slotContent.text.textValue'})"
         }
       },
       "chips": {

@@ -5532,560 +5532,554 @@
       }
     },
     "input": {
-      "placeholder": {
-        "blabla": {
-          "value": {
-            "sizing": "d"
-          },
-          "type": "composition"
-        }
-      },
-      "sm": {
-        "uncontrasted": {
-          "default": {
-            "container": {
-              "value": {},
-              "type": "composition",
-              "description": "{extends: 'comp.card.xs.uncontrasted.default'}"
+      "base": {
+        "sm": {
+          "uncontrasted": {
+            "default": {
+              "container": {
+                "value": {},
+                "type": "composition",
+                "description": "({extends: 'comp.card.xs.uncontrasted.default'})"
+              },
+              "icon": {
+                "value": {},
+                "type": "composition"
+              },
+              "affix": {
+                "value": {},
+                "type": "composition"
+              },
+              "slotContent": {
+                "text": {
+                  "placeholder": {
+                    "value": {},
+                    "type": "composition"
+                  },
+                  "textValue": {
+                    "value": {},
+                    "type": "composition"
+                  }
+                }
+              }
             },
-            "icon": {
-              "value": {},
-              "type": "composition"
+            "hover": {
+              "container": {
+                "value": {},
+                "type": "composition",
+                "description": "({extends: 'comp.card.xs.uncontrasted.hover'})"
+              },
+              "icon": {
+                "value": {},
+                "type": "composition"
+              },
+              "affix": {
+                "value": {},
+                "type": "composition"
+              },
+              "slotContent": {
+                "text": {
+                  "placeholder": {
+                    "value": {},
+                    "type": "composition"
+                  },
+                  "textValue": {
+                    "value": {},
+                    "type": "composition"
+                  }
+                }
+              }
             },
-            "affix": {
-              "value": {},
-              "type": "composition"
+            "pressed": {
+              "container": {
+                "value": {},
+                "type": "composition",
+                "description": "({extends: 'comp.card.xs.uncontrasted.pressed'})"
+              },
+              "icon": {
+                "value": {},
+                "type": "composition"
+              },
+              "affix": {
+                "value": {},
+                "type": "composition"
+              },
+              "slotContent": {
+                "text": {
+                  "placeholder": {
+                    "value": {},
+                    "type": "composition"
+                  },
+                  "textValue": {
+                    "value": {},
+                    "type": "composition"
+                  }
+                }
+              }
             },
-            "slotContent": {
-              "text": {
-                "placeholder": {
-                  "value": {},
-                  "type": "composition"
-                },
-                "textValue": {
-                  "value": {},
-                  "type": "composition"
+            "active": {
+              "container": {
+                "value": {},
+                "type": "composition",
+                "description": "({extends: 'comp.card.xs.uncontrasted.active'})"
+              },
+              "icon": {
+                "value": {},
+                "type": "composition"
+              },
+              "affix": {
+                "value": {},
+                "type": "composition"
+              },
+              "slotContent": {
+                "text": {
+                  "placeholder": {
+                    "value": {},
+                    "type": "composition"
+                  },
+                  "textValue": {
+                    "value": {},
+                    "type": "composition"
+                  }
+                }
+              }
+            },
+            "disabled": {
+              "container": {
+                "value": {},
+                "type": "composition",
+                "description": "({extends: 'comp.card.xs.uncontrasted.disabled'})"
+              },
+              "icon": {
+                "value": {},
+                "type": "composition"
+              },
+              "affix": {
+                "value": {},
+                "type": "composition"
+              },
+              "slotContent": {
+                "text": {
+                  "placeholder": {
+                    "value": {},
+                    "type": "composition"
+                  },
+                  "textValue": {
+                    "value": {},
+                    "type": "composition"
+                  }
                 }
               }
             }
           },
-          "hover": {
-            "container": {
-              "value": {},
-              "type": "composition",
-              "description": "{extends: 'comp.card.xs.uncontrasted.hover'}"
-            },
-            "icon": {
-              "value": {},
-              "type": "composition"
-            },
-            "affix": {
-              "value": {},
-              "type": "composition"
-            },
-            "slotContent": {
-              "text": {
-                "placeholder": {
-                  "value": {},
-                  "type": "composition"
-                },
-                "textValue": {
-                  "value": {},
-                  "type": "composition"
+          "contrasted": {
+            "default": {
+              "container": {
+                "value": {},
+                "type": "composition",
+                "description": "({extends: 'comp.card.xs.contrasted.default'})"
+              },
+              "icon": {
+                "value": {},
+                "type": "composition"
+              },
+              "affix": {
+                "value": {},
+                "type": "composition"
+              },
+              "slotContent": {
+                "text": {
+                  "placeholder": {
+                    "value": {},
+                    "type": "composition"
+                  },
+                  "textValue": {
+                    "value": {},
+                    "type": "composition"
+                  }
                 }
               }
-            }
-          },
-          "pressed": {
-            "container": {
-              "value": {},
-              "type": "composition",
-              "description": "{extends: 'comp.card.xs.uncontrasted.pressed'}"
             },
-            "icon": {
-              "value": {},
-              "type": "composition"
-            },
-            "affix": {
-              "value": {},
-              "type": "composition"
-            },
-            "slotContent": {
-              "text": {
-                "placeholder": {
-                  "value": {},
-                  "type": "composition"
-                },
-                "textValue": {
-                  "value": {},
-                  "type": "composition"
+            "hover": {
+              "container": {
+                "value": {},
+                "type": "composition",
+                "description": "({extends: 'comp.card.xs.contrasted.hover'})"
+              },
+              "icon": {
+                "value": {},
+                "type": "composition"
+              },
+              "affix": {
+                "value": {},
+                "type": "composition"
+              },
+              "slotContent": {
+                "text": {
+                  "placeholder": {
+                    "value": {},
+                    "type": "composition"
+                  },
+                  "textValue": {
+                    "value": {},
+                    "type": "composition"
+                  }
                 }
               }
-            }
-          },
-          "active": {
-            "container": {
-              "value": {},
-              "type": "composition",
-              "description": "{extends: 'comp.card.xs.uncontrasted.active'}"
             },
-            "icon": {
-              "value": {},
-              "type": "composition"
-            },
-            "affix": {
-              "value": {},
-              "type": "composition"
-            },
-            "slotContent": {
-              "text": {
-                "placeholder": {
-                  "value": {},
-                  "type": "composition"
-                },
-                "textValue": {
-                  "value": {},
-                  "type": "composition"
+            "pressed": {
+              "container": {
+                "value": {},
+                "type": "composition",
+                "description": "({extends: 'comp.card.xs.contrasted.pressed'})"
+              },
+              "icon": {
+                "value": {},
+                "type": "composition"
+              },
+              "affix": {
+                "value": {},
+                "type": "composition"
+              },
+              "slotContent": {
+                "text": {
+                  "placeholder": {
+                    "value": {},
+                    "type": "composition"
+                  },
+                  "textValue": {
+                    "value": {},
+                    "type": "composition"
+                  }
                 }
               }
-            }
-          },
-          "disabled": {
-            "container": {
-              "value": {},
-              "type": "composition",
-              "description": "{extends: 'comp.card.xs.uncontrasted.disabled'}"
             },
-            "icon": {
-              "value": {},
-              "type": "composition"
+            "active": {
+              "container": {
+                "value": {},
+                "type": "composition",
+                "description": "({extends: 'comp.card.xs.contrasted.active'})"
+              },
+              "icon": {
+                "value": {},
+                "type": "composition"
+              },
+              "affix": {
+                "value": {},
+                "type": "composition"
+              },
+              "slotContent": {
+                "text": {
+                  "placeholder": {
+                    "value": {},
+                    "type": "composition"
+                  },
+                  "textValue": {
+                    "value": {},
+                    "type": "composition"
+                  }
+                }
+              }
             },
-            "affix": {
-              "value": {},
-              "type": "composition"
-            },
-            "slotContent": {
-              "text": {
-                "placeholder": {
-                  "value": {},
-                  "type": "composition"
-                },
-                "textValue": {
-                  "value": {},
-                  "type": "composition"
+            "disabled": {
+              "container": {
+                "value": {},
+                "type": "composition",
+                "description": "({extends: 'comp.card.xs.contrasted.disabled'})"
+              },
+              "icon": {
+                "value": {},
+                "type": "composition"
+              },
+              "affix": {
+                "value": {},
+                "type": "composition"
+              },
+              "slotContent": {
+                "text": {
+                  "placeholder": {
+                    "value": {},
+                    "type": "composition"
+                  },
+                  "textValue": {
+                    "value": {},
+                    "type": "composition"
+                  }
                 }
               }
             }
           }
         },
-        "contrasted": {
-          "default": {
-            "container": {
-              "value": {},
-              "type": "composition",
-              "description": "{extends: 'comp.card.xs.contrasted.default'}"
+        "md": {
+          "uncontrasted": {
+            "default": {
+              "container": {
+                "value": {},
+                "type": "composition",
+                "description": "({extends: 'comp.card.sm.uncontrasted.default'})"
+              },
+              "icon": {
+                "value": {},
+                "type": "composition"
+              },
+              "affix": {
+                "value": {},
+                "type": "composition"
+              },
+              "slotContent": {
+                "text": {
+                  "placeholder": {
+                    "value": {},
+                    "type": "composition"
+                  },
+                  "textValue": {
+                    "value": {},
+                    "type": "composition"
+                  }
+                }
+              }
             },
-            "icon": {
-              "value": {},
-              "type": "composition"
+            "hover": {
+              "container": {
+                "value": {},
+                "type": "composition",
+                "description": "({extends: 'comp.card.sm.uncontrasted.hover'})"
+              },
+              "icon": {
+                "value": {},
+                "type": "composition"
+              },
+              "affix": {
+                "value": {},
+                "type": "composition"
+              },
+              "slotContent": {
+                "text": {
+                  "placeholder": {
+                    "value": {},
+                    "type": "composition"
+                  },
+                  "textValue": {
+                    "value": {},
+                    "type": "composition"
+                  }
+                }
+              }
             },
-            "affix": {
-              "value": {},
-              "type": "composition"
+            "pressed": {
+              "container": {
+                "value": {},
+                "type": "composition",
+                "description": "({extends: 'comp.card.sm.uncontrasted.pressed'})"
+              },
+              "icon": {
+                "value": {},
+                "type": "composition"
+              },
+              "affix": {
+                "value": {},
+                "type": "composition"
+              },
+              "slotContent": {
+                "text": {
+                  "placeholder": {
+                    "value": {},
+                    "type": "composition"
+                  },
+                  "textValue": {
+                    "value": {},
+                    "type": "composition"
+                  }
+                }
+              }
             },
-            "slotContent": {
-              "text": {
-                "placeholder": {
-                  "value": {},
-                  "type": "composition"
-                },
-                "textValue": {
-                  "value": {},
-                  "type": "composition"
+            "active": {
+              "container": {
+                "value": {},
+                "type": "composition",
+                "description": "({extends: 'comp.card.sm.uncontrasted.active'})"
+              },
+              "icon": {
+                "value": {},
+                "type": "composition"
+              },
+              "affix": {
+                "value": {},
+                "type": "composition"
+              },
+              "slotContent": {
+                "text": {
+                  "placeholder": {
+                    "value": {},
+                    "type": "composition"
+                  },
+                  "textValue": {
+                    "value": {},
+                    "type": "composition"
+                  }
+                }
+              }
+            },
+            "disabled": {
+              "container": {
+                "value": {},
+                "type": "composition",
+                "description": "({extends: 'comp.card.sm.uncontrasted.disabled'})"
+              },
+              "icon": {
+                "value": {},
+                "type": "composition"
+              },
+              "affix": {
+                "value": {},
+                "type": "composition"
+              },
+              "slotContent": {
+                "text": {
+                  "placeholder": {
+                    "value": {},
+                    "type": "composition"
+                  },
+                  "textValue": {
+                    "value": {},
+                    "type": "composition"
+                  }
                 }
               }
             }
           },
-          "hover": {
-            "container": {
-              "value": {},
-              "type": "composition",
-              "description": "{extends: 'comp.card.xs.contrasted.hover'}"
-            },
-            "icon": {
-              "value": {},
-              "type": "composition"
-            },
-            "affix": {
-              "value": {},
-              "type": "composition"
-            },
-            "slotContent": {
-              "text": {
-                "placeholder": {
-                  "value": {},
-                  "type": "composition"
-                },
-                "textValue": {
-                  "value": {},
-                  "type": "composition"
+          "contrasted": {
+            "default": {
+              "container": {
+                "value": {},
+                "type": "composition",
+                "description": "({extends: 'comp.card.sm.contrasted.default'})"
+              },
+              "icon": {
+                "value": {},
+                "type": "composition"
+              },
+              "affix": {
+                "value": {},
+                "type": "composition"
+              },
+              "slotContent": {
+                "text": {
+                  "placeholder": {
+                    "value": {},
+                    "type": "composition"
+                  },
+                  "textValue": {
+                    "value": {},
+                    "type": "composition"
+                  }
                 }
               }
-            }
-          },
-          "pressed": {
-            "container": {
-              "value": {},
-              "type": "composition",
-              "description": "{extends: 'comp.card.xs.contrasted.pressed'}"
             },
-            "icon": {
-              "value": {},
-              "type": "composition"
-            },
-            "affix": {
-              "value": {},
-              "type": "composition"
-            },
-            "slotContent": {
-              "text": {
-                "placeholder": {
-                  "value": {},
-                  "type": "composition"
-                },
-                "textValue": {
-                  "value": {},
-                  "type": "composition"
+            "hover": {
+              "container": {
+                "value": {},
+                "type": "composition",
+                "description": "({extends: 'comp.card.sm.contrasted.hover'})"
+              },
+              "icon": {
+                "value": {},
+                "type": "composition"
+              },
+              "affix": {
+                "value": {},
+                "type": "composition"
+              },
+              "slotContent": {
+                "text": {
+                  "placeholder": {
+                    "value": {},
+                    "type": "composition"
+                  },
+                  "textValue": {
+                    "value": {},
+                    "type": "composition"
+                  }
                 }
               }
-            }
-          },
-          "active": {
-            "container": {
-              "value": {},
-              "type": "composition",
-              "description": "{extends: 'comp.card.xs.contrasted.active'}"
             },
-            "icon": {
-              "value": {},
-              "type": "composition"
-            },
-            "affix": {
-              "value": {},
-              "type": "composition"
-            },
-            "slotContent": {
-              "text": {
-                "placeholder": {
-                  "value": {},
-                  "type": "composition"
-                },
-                "textValue": {
-                  "value": {},
-                  "type": "composition"
+            "pressed": {
+              "container": {
+                "value": {},
+                "type": "composition",
+                "description": "({extends: 'comp.card.sm.contrasted.pressed'})"
+              },
+              "icon": {
+                "value": {},
+                "type": "composition"
+              },
+              "affix": {
+                "value": {},
+                "type": "composition"
+              },
+              "slotContent": {
+                "text": {
+                  "placeholder": {
+                    "value": {},
+                    "type": "composition"
+                  },
+                  "textValue": {
+                    "value": {},
+                    "type": "composition"
+                  }
                 }
               }
-            }
-          },
-          "disabled": {
-            "container": {
-              "value": {},
-              "type": "composition",
-              "description": "{extends: 'comp.card.xs.contrasted.disabled'}"
             },
-            "icon": {
-              "value": {},
-              "type": "composition"
-            },
-            "affix": {
-              "value": {},
-              "type": "composition"
-            },
-            "slotContent": {
-              "text": {
-                "placeholder": {
-                  "value": {},
-                  "type": "composition"
-                },
-                "textValue": {
-                  "value": {},
-                  "type": "composition"
+            "active": {
+              "container": {
+                "value": {},
+                "type": "composition",
+                "description": "({extends: 'comp.card.sm.contrasted.active'})"
+              },
+              "icon": {
+                "value": {},
+                "type": "composition"
+              },
+              "affix": {
+                "value": {},
+                "type": "composition"
+              },
+              "slotContent": {
+                "text": {
+                  "placeholder": {
+                    "value": {},
+                    "type": "composition"
+                  },
+                  "textValue": {
+                    "value": {},
+                    "type": "composition"
+                  }
                 }
               }
-            }
-          }
-        }
-      },
-      "md": {
-        "uncontrasted": {
-          "default": {
-            "container": {
-              "value": {},
-              "type": "composition",
-              "description": "{extends: 'comp.card.sm.uncontrasted.default'}"
             },
-            "icon": {
-              "value": {},
-              "type": "composition"
-            },
-            "affix": {
-              "value": {},
-              "type": "composition"
-            },
-            "slotContent": {
-              "text": {
-                "placeholder": {
-                  "value": {},
-                  "type": "composition"
-                },
-                "textValue": {
-                  "value": {},
-                  "type": "composition"
-                }
-              }
-            }
-          },
-          "hover": {
-            "container": {
-              "value": {},
-              "type": "composition",
-              "description": "{extends: 'comp.card.sm.uncontrasted.hover'}"
-            },
-            "icon": {
-              "value": {},
-              "type": "composition"
-            },
-            "affix": {
-              "value": {},
-              "type": "composition"
-            },
-            "slotContent": {
-              "text": {
-                "placeholder": {
-                  "value": {},
-                  "type": "composition"
-                },
-                "textValue": {
-                  "value": {},
-                  "type": "composition"
-                }
-              }
-            }
-          },
-          "pressed": {
-            "container": {
-              "value": {},
-              "type": "composition",
-              "description": "{extends: 'comp.card.sm.uncontrasted.pressed'}"
-            },
-            "icon": {
-              "value": {},
-              "type": "composition"
-            },
-            "affix": {
-              "value": {},
-              "type": "composition"
-            },
-            "slotContent": {
-              "text": {
-                "placeholder": {
-                  "value": {},
-                  "type": "composition"
-                },
-                "textValue": {
-                  "value": {},
-                  "type": "composition"
-                }
-              }
-            }
-          },
-          "active": {
-            "container": {
-              "value": {},
-              "type": "composition",
-              "description": "{extends: 'comp.card.sm.uncontrasted.active'}"
-            },
-            "icon": {
-              "value": {},
-              "type": "composition"
-            },
-            "affix": {
-              "value": {},
-              "type": "composition"
-            },
-            "slotContent": {
-              "text": {
-                "placeholder": {
-                  "value": {},
-                  "type": "composition"
-                },
-                "textValue": {
-                  "value": {},
-                  "type": "composition"
-                }
-              }
-            }
-          },
-          "disabled": {
-            "container": {
-              "value": {},
-              "type": "composition",
-              "description": "{extends: 'comp.card.sm.uncontrasted.disabled'}"
-            },
-            "icon": {
-              "value": {},
-              "type": "composition"
-            },
-            "affix": {
-              "value": {},
-              "type": "composition"
-            },
-            "slotContent": {
-              "text": {
-                "placeholder": {
-                  "value": {},
-                  "type": "composition"
-                },
-                "textValue": {
-                  "value": {},
-                  "type": "composition"
-                }
-              }
-            }
-          }
-        },
-        "contrasted": {
-          "default": {
-            "container": {
-              "value": {},
-              "type": "composition",
-              "description": "{extends: 'comp.card.sm.contrasted.default'}"
-            },
-            "icon": {
-              "value": {},
-              "type": "composition"
-            },
-            "affix": {
-              "value": {},
-              "type": "composition"
-            },
-            "slotContent": {
-              "text": {
-                "placeholder": {
-                  "value": {},
-                  "type": "composition"
-                },
-                "textValue": {
-                  "value": {},
-                  "type": "composition"
-                }
-              }
-            }
-          },
-          "hover": {
-            "container": {
-              "value": {},
-              "type": "composition",
-              "description": "{extends: 'comp.card.sm.contrasted.hover'}"
-            },
-            "icon": {
-              "value": {},
-              "type": "composition"
-            },
-            "affix": {
-              "value": {},
-              "type": "composition"
-            },
-            "slotContent": {
-              "text": {
-                "placeholder": {
-                  "value": {},
-                  "type": "composition"
-                },
-                "textValue": {
-                  "value": {},
-                  "type": "composition"
-                }
-              }
-            }
-          },
-          "pressed": {
-            "container": {
-              "value": {},
-              "type": "composition",
-              "description": "{extends: 'comp.card.sm.contrasted.pressed'}"
-            },
-            "icon": {
-              "value": {},
-              "type": "composition"
-            },
-            "affix": {
-              "value": {},
-              "type": "composition"
-            },
-            "slotContent": {
-              "text": {
-                "placeholder": {
-                  "value": {},
-                  "type": "composition"
-                },
-                "textValue": {
-                  "value": {},
-                  "type": "composition"
-                }
-              }
-            }
-          },
-          "active": {
-            "container": {
-              "value": {},
-              "type": "composition",
-              "description": "{extends: 'comp.card.sm.contrasted.active'}"
-            },
-            "icon": {
-              "value": {},
-              "type": "composition"
-            },
-            "affix": {
-              "value": {},
-              "type": "composition"
-            },
-            "slotContent": {
-              "text": {
-                "placeholder": {
-                  "value": {},
-                  "type": "composition"
-                },
-                "textValue": {
-                  "value": {},
-                  "type": "composition"
-                }
-              }
-            }
-          },
-          "disabled": {
-            "container": {
-              "value": {},
-              "type": "composition",
-              "description": "{extends: 'comp.card.sm.contrasted.disabled'}"
-            },
-            "icon": {
-              "value": {},
-              "type": "composition"
-            },
-            "affix": {
-              "value": {},
-              "type": "composition"
-            },
-            "slotContent": {
-              "text": {
-                "placeholder": {
-                  "value": {},
-                  "type": "composition"
-                },
-                "textValue": {
-                  "value": {},
-                  "type": "composition"
+            "disabled": {
+              "container": {
+                "value": {},
+                "type": "composition",
+                "description": "({extends: 'comp.card.sm.contrasted.disabled'})"
+              },
+              "icon": {
+                "value": {},
+                "type": "composition"
+              },
+              "affix": {
+                "value": {},
+                "type": "composition"
+              },
+              "slotContent": {
+                "text": {
+                  "placeholder": {
+                    "value": {},
+                    "type": "composition"
+                  },
+                  "textValue": {
+                    "value": {},
+                    "type": "composition"
+                  }
                 }
               }
             }
@@ -6099,29 +6093,29 @@
               "container": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.container.sm.uncontrasted.default'}"
+                "description": "({extends: 'comp.input.base.sm.uncontrasted.default.container'})"
               },
               "icon": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.icon.sm.default'}"
+                "description": "({extends: 'comp.input.base.sm.uncontrasted.default.icon'})"
               },
               "affix": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.affix.sm.default'}"
+                "description": "({extends: 'comp.input.base.sm.uncontrasted.default.affix'})"
               },
               "slotContent": {
                 "text": {
                   "placeholder": {
                     "value": {},
                     "type": "composition",
-                    "description": "{extends: 'comp.input.slotContent.placeholder.sm.default'}"
+                    "description": "({extends: 'comp.input.base.sm.uncontrasted.default.slotContent.text.placeholder'})"
                   },
                   "textValue": {
                     "value": {},
                     "type": "composition",
-                    "description": "{extends: 'comp.input.slotContent.textValue.sm.default'}"
+                    "description": "({extends: 'comp.input.base.sm.uncontrasted.default.slotContent.text.textValue'})"
                   }
                 },
                 "chips": {
@@ -6134,29 +6128,29 @@
               "container": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.container.sm.uncontrasted.hover'}"
+                "description": "({extends: 'comp.input.base.sm.uncontrasted.hover.container'})"
               },
               "icon": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.icon.sm.hover'}"
+                "description": "({extends: 'comp.input.base.sm.uncontrasted.hover.icon'})"
               },
               "affix": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.affix.sm.hover'}"
+                "description": "({extends: 'comp.input.base.sm.uncontrasted.hover.affix'})"
               },
               "slotContent": {
                 "text": {
                   "placeholder": {
                     "value": {},
                     "type": "composition",
-                    "description": "{extends: 'comp.input.slotContent.placeholder.sm.hover'}"
+                    "description": "({extends: 'comp.input.base.sm.uncontrasted.hover.slotContent.text.placeholder'})"
                   },
                   "textValue": {
                     "value": {},
                     "type": "composition",
-                    "description": "{extends: 'comp.input.slotContent.textValue.sm.hover'}"
+                    "description": "({extends: 'comp.input.base.sm.uncontrasted.hover.slotContent.text.textValue'})"
                   }
                 },
                 "chips": {
@@ -6169,29 +6163,29 @@
               "container": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.container.sm.uncontrasted.pressed'}"
+                "description": "({extends: 'comp.input.base.sm.uncontrasted.pressed.container'})"
               },
               "icon": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.icon.sm.pressed'}"
+                "description": "({extends: 'comp.input.base.sm.uncontrasted.pressed.icon'})"
               },
               "affix": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.affix.sm.pressed'}"
+                "description": "({extends: 'comp.input.base.sm.uncontrasted.pressed.affix'})"
               },
               "slotContent": {
                 "text": {
                   "placeholder": {
                     "value": {},
                     "type": "composition",
-                    "description": "{extends: 'comp.input.slotContent.placeholder.sm.pressed'}"
+                    "description": "({extends: 'comp.input.base.sm.uncontrasted.pressed.slotContent.text.placeholder'})"
                   },
                   "textValue": {
                     "value": {},
                     "type": "composition",
-                    "description": "{extends: 'comp.input.slotContent.textValue.sm.pressed'}"
+                    "description": "({extends: 'comp.input.base.sm.uncontrasted.pressed.slotContent.text.textValue'})"
                   }
                 },
                 "chips": {
@@ -6204,29 +6198,29 @@
               "container": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.container.sm.uncontrasted.active'}"
+                "description": "({extends: 'comp.input.base.sm.uncontrasted.active.container'})"
               },
               "icon": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.icon.sm.active'}"
+                "description": "({extends: 'comp.input.base.sm.uncontrasted.active.icon'})"
               },
               "affix": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.affix.sm.active'}"
+                "description": "({extends: 'comp.input.base.sm.uncontrasted.active.affix'})"
               },
               "slotContent": {
                 "text": {
                   "placeholder": {
                     "value": {},
                     "type": "composition",
-                    "description": "{extends: 'comp.input.slotContent.placeholder.sm.active'}"
+                    "description": "({extends: 'comp.input.base.sm.uncontrasted.active.slotContent.text.placeholder'})"
                   },
                   "textValue": {
                     "value": {},
                     "type": "composition",
-                    "description": "{extends: 'comp.input.slotContent.textValue.sm.active'}"
+                    "description": "({extends: 'comp.input.base.sm.uncontrasted.active.slotContent.text.textValue'})"
                   }
                 },
                 "chips": {
@@ -6239,29 +6233,29 @@
               "container": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.container.sm.uncontrasted.disabled'}"
+                "description": "({extends: 'comp.input.base.sm.uncontrasted.disabled.container'})"
               },
               "icon": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.icon.sm.disabled'}"
+                "description": "({extends: 'comp.input.base.sm.uncontrasted.disabled.icon'})"
               },
               "affix": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.affix.sm.disabled'}"
+                "description": "({extends: 'comp.input.base.sm.uncontrasted.disabled.affix'})"
               },
               "slotContent": {
                 "text": {
                   "placeholder": {
                     "value": {},
                     "type": "composition",
-                    "description": "{extends: 'comp.input.slotContent.placeholder.sm.disabled'}"
+                    "description": "({extends: 'comp.input.base.sm.uncontrasted.disabled.slotContent.text.placeholder'})"
                   },
                   "textValue": {
                     "value": {},
                     "type": "composition",
-                    "description": "{extends: 'comp.input.slotContent.textValue.sm.disabled'}"
+                    "description": "({extends: 'comp.input.base.sm.uncontrasted.disabled.slotContent.text.textValue'})"
                   }
                 },
                 "chips": {
@@ -6276,29 +6270,29 @@
               "container": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.container.sm.contrasted.default'}"
+                "description": "({extends: 'comp.input.base.sm.contrasted.default.container'})"
               },
               "icon": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.icon.sm.default'}"
+                "description": "({extends: 'comp.input.base.sm.contrasted.default.icon'})"
               },
               "affix": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.affix.sm.default'}"
+                "description": "({extends: 'comp.input.base.sm.contrasted.default.affix'})"
               },
               "slotContent": {
                 "text": {
                   "placeholder": {
                     "value": {},
                     "type": "composition",
-                    "description": "{extends: 'comp.input.slotContent.placeholder.sm.default'}"
+                    "description": "({extends: 'comp.input.base.sm.contrasted.default.slotContent.text.placeholder'})"
                   },
                   "textValue": {
                     "value": {},
                     "type": "composition",
-                    "description": "{extends: 'comp.input.slotContent.textValue.sm.default'}"
+                    "description": "({extends: 'comp.input.base.sm.contrasted.default.slotContent.text.textValue'})"
                   }
                 },
                 "chips": {
@@ -6311,29 +6305,29 @@
               "container": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.container.sm.contrasted.hover'}"
+                "description": "({extends: 'comp.input.base.sm.contrasted.hover.container'})"
               },
               "icon": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.icon.sm.hover'}"
+                "description": "({extends: 'comp.input.base.sm.contrasted.hover.icon'})"
               },
               "affix": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.affix.sm.hover'}"
+                "description": "({extends: 'comp.input.base.sm.contrasted.hover.affix'})"
               },
               "slotContent": {
                 "text": {
                   "placeholder": {
                     "value": {},
                     "type": "composition",
-                    "description": "{extends: 'comp.input.slotContent.placeholder.sm.hover'}"
+                    "description": "({extends: 'comp.input.base.sm.contrasted.hover.slotContent.text.placeholder'})"
                   },
                   "textValue": {
                     "value": {},
                     "type": "composition",
-                    "description": "{extends: 'comp.input.slotContent.textValue.sm.hover'}"
+                    "description": "({extends: 'comp.input.base.sm.contrasted.hover.slotContent.text.textValue'})"
                   }
                 },
                 "chips": {
@@ -6346,29 +6340,29 @@
               "container": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.container.sm.contrasted.pressed'}"
+                "description": "({extends: 'comp.input.base.sm.contrasted.pressed.container'})"
               },
               "icon": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.icon.sm.pressed'}"
+                "description": "({extends: 'comp.input.base.sm.contrasted.pressed.icon'})"
               },
               "affix": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.affix.sm.pressed'}"
+                "description": "({extends: 'comp.input.base.sm.contrasted.pressed.affix'})"
               },
               "slotContent": {
                 "text": {
                   "placeholder": {
                     "value": {},
                     "type": "composition",
-                    "description": "{extends: 'comp.input.slotContent.placeholder.sm.pressed'}"
+                    "description": "({extends: 'comp.input.base.sm.contrasted.pressed.slotContent.text.placeholder'})"
                   },
                   "textValue": {
                     "value": {},
                     "type": "composition",
-                    "description": "{extends: 'comp.input.slotContent.textValue.sm.pressed'}"
+                    "description": "({extends: 'comp.input.base.sm.contrasted.pressed.slotContent.text.textValue'})"
                   }
                 },
                 "chips": {
@@ -6381,29 +6375,29 @@
               "container": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.container.sm.contrasted.active'}"
+                "description": "({extends: 'comp.input.base.sm.contrasted.active.container'})"
               },
               "icon": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.icon.sm.active'}"
+                "description": "({extends: 'comp.input.base.sm.contrasted.active.icon'})"
               },
               "affix": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.affix.sm.active'}"
+                "description": "({extends: 'comp.input.base.sm.contrasted.active.affix'})"
               },
               "slotContent": {
                 "text": {
                   "placeholder": {
                     "value": {},
                     "type": "composition",
-                    "description": "{extends: 'comp.input.slotContent.placeholder.sm.active'}"
+                    "description": "({extends: 'comp.input.base.sm.contrasted.active.slotContent.text.placeholder'})"
                   },
                   "textValue": {
                     "value": {},
                     "type": "composition",
-                    "description": "{extends: 'comp.input.slotContent.textValue.sm.active'}"
+                    "description": "({extends: 'comp.input.base.sm.contrasted.active.slotContent.text.textValue'})"
                   }
                 },
                 "chips": {
@@ -6416,29 +6410,29 @@
               "container": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.container.sm.contrasted.disabled'}"
+                "description": "({extends: 'comp.input.base.sm.contrasted.disabled.container'})"
               },
               "icon": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.icon.sm.disabled'}"
+                "description": "({extends: 'comp.input.base.sm.contrasted.disabled.icon'})"
               },
               "affix": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.affix.sm.disabled'}"
+                "description": "({extends: 'comp.input.base.sm.contrasted.disabled.affix'})"
               },
               "slotContent": {
                 "text": {
                   "placeholder": {
                     "value": {},
                     "type": "composition",
-                    "description": "{extends: 'comp.input.slotContent.placeholder.sm.disabled'}"
+                    "description": "({extends: 'comp.input.base.sm.contrasted.disabled.slotContent.text.placeholder'})"
                   },
                   "textValue": {
                     "value": {},
                     "type": "composition",
-                    "description": "{extends: 'comp.input.slotContent.textValue.sm.disabled'}"
+                    "description": "({extends: 'comp.input.base.sm.contrasted.disabled.slotContent.text.textValue'})"
                   }
                 },
                 "chips": {
@@ -6455,29 +6449,29 @@
               "container": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.container.md.uncontrasted.default'}"
+                "description": "({extends: 'comp.input.base.md.uncontrasted.default.container'})"
               },
               "icon": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.icon.md.default'}"
+                "description": "({extends: 'comp.input.base.md.uncontrasted.default.icon'})"
               },
               "affix": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.affix.md.default'}"
+                "description": "({extends: 'comp.input.base.md.uncontrasted.default.affix'})"
               },
               "slotContent": {
                 "text": {
                   "placeholder": {
                     "value": {},
                     "type": "composition",
-                    "description": "{extends: 'comp.input.slotContent.placeholder.md.default'}"
+                    "description": "({extends: 'comp.input.base.md.uncontrasted.default.slotContent.text.placeholder'})"
                   },
                   "textValue": {
                     "value": {},
                     "type": "composition",
-                    "description": "{extends: 'comp.input.slotContent.textValue.md.default'}"
+                    "description": "({extends: 'comp.input.base.md.uncontrasted.default.slotContent.text.textValue'})"
                   }
                 },
                 "chips": {
@@ -6490,29 +6484,29 @@
               "container": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.container.md.uncontrasted.hover'}"
+                "description": "({extends: 'comp.input.base.md.uncontrasted.hover.container'})"
               },
               "icon": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.icon.md.hover'}"
+                "description": "({extends: 'comp.input.base.md.uncontrasted.hover.icon'})"
               },
               "affix": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.affix.md.hover'}"
+                "description": "({extends: 'comp.input.base.md.uncontrasted.hover.affix'})"
               },
               "slotContent": {
                 "text": {
                   "placeholder": {
                     "value": {},
                     "type": "composition",
-                    "description": "{extends: 'comp.input.slotContent.placeholder.md.hover'}"
+                    "description": "({extends: 'comp.input.base.md.uncontrasted.hover.slotContent.text.placeholder'})"
                   },
                   "textValue": {
                     "value": {},
                     "type": "composition",
-                    "description": "{extends: 'comp.input.slotContent.textValue.md.hover'}"
+                    "description": "({extends: 'comp.input.base.md.uncontrasted.hover.slotContent.text.textValue'})"
                   }
                 },
                 "chips": {
@@ -6525,29 +6519,29 @@
               "container": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.container.md.uncontrasted.pressed'}"
+                "description": "({extends: 'comp.input.base.md.uncontrasted.pressed.container'})"
               },
               "icon": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.icon.md.pressed'}"
+                "description": "({extends: 'comp.input.base.md.uncontrasted.pressed.icon'})"
               },
               "affix": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.affix.md.pressed'}"
+                "description": "({extends: 'comp.input.base.md.uncontrasted.pressed.affix'})"
               },
               "slotContent": {
                 "text": {
                   "placeholder": {
                     "value": {},
                     "type": "composition",
-                    "description": "{extends: 'comp.input.slotContent.placeholder.md.pressed'}"
+                    "description": "({extends: 'comp.input.base.md.uncontrasted.pressed.slotContent.text.placeholder'})"
                   },
                   "textValue": {
                     "value": {},
                     "type": "composition",
-                    "description": "{extends: 'comp.input.slotContent.textValue.md.pressed'}"
+                    "description": "({extends: 'comp.input.base.md.uncontrasted.pressed.slotContent.text.textValue'})"
                   }
                 },
                 "chips": {
@@ -6560,29 +6554,29 @@
               "container": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.container.md.uncontrasted.active'}"
+                "description": "({extends: 'comp.input.base.md.uncontrasted.active.container'})"
               },
               "icon": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.icon.md.active'}"
+                "description": "({extends: 'comp.input.base.md.uncontrasted.active.icon'})"
               },
               "affix": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.affix.md.active'}"
+                "description": "({extends: 'comp.input.base.md.uncontrasted.active.affix'})"
               },
               "slotContent": {
                 "text": {
                   "placeholder": {
                     "value": {},
                     "type": "composition",
-                    "description": "{extends: 'comp.input.slotContent.placeholder.md.active'}"
+                    "description": "({extends: 'comp.input.base.md.uncontrasted.active.slotContent.text.placeholder'})"
                   },
                   "textValue": {
                     "value": {},
                     "type": "composition",
-                    "description": "{extends: 'comp.input.slotContent.textValue.md.active'}"
+                    "description": "({extends: 'comp.input.base.md.uncontrasted.active.slotContent.text.textValue'})"
                   }
                 },
                 "chips": {
@@ -6595,29 +6589,29 @@
               "container": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.container.md.uncontrasted.disabled'}"
+                "description": "({extends: 'comp.input.base.md.uncontrasted.disabled.container'})"
               },
               "icon": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.icon.md.disabled'}"
+                "description": "({extends: 'comp.input.base.md.uncontrasted.disabled.icon'})"
               },
               "affix": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.affix.md.disabled'}"
+                "description": "({extends: 'comp.input.base.md.uncontrasted.disabled.affix'})"
               },
               "slotContent": {
                 "text": {
                   "placeholder": {
                     "value": {},
                     "type": "composition",
-                    "description": "{extends: 'comp.input.slotContent.placeholder.md.disabled'}"
+                    "description": "({extends: 'comp.input.base.md.uncontrasted.disabled.slotContent.text.placeholder'})"
                   },
                   "textValue": {
                     "value": {},
                     "type": "composition",
-                    "description": "{extends: 'comp.input.slotContent.textValue.md.disabled'}"
+                    "description": "({extends: 'comp.input.base.md.uncontrasted.disabled.slotContent.text.textValue'})"
                   }
                 },
                 "chips": {
@@ -6632,29 +6626,29 @@
               "container": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.container.md.contrasted.default'}"
+                "description": "({extends: 'comp.input.base.md.contrasted.default.container'})"
               },
               "icon": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.icon.md.default'}"
+                "description": "({extends: 'comp.input.base.md.contrasted.default.icon'})"
               },
               "affix": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.affix.md.default'}"
+                "description": "({extends: 'comp.input.base.md.contrasted.default.affix'})"
               },
               "slotContent": {
                 "text": {
                   "placeholder": {
                     "value": {},
                     "type": "composition",
-                    "description": "{extends: 'comp.input.slotContent.placeholder.md.default'}"
+                    "description": "({extends: 'comp.input.base.md.contrasted.default.slotContent.text.placeholder'})"
                   },
                   "textValue": {
                     "value": {},
                     "type": "composition",
-                    "description": "{extends: 'comp.input.slotContent.textValue.md.default'}"
+                    "description": "({extends: 'comp.input.base.md.contrasted.default.slotContent.text.textValue'})"
                   }
                 },
                 "chips": {
@@ -6667,29 +6661,29 @@
               "container": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.container.md.contrasted.hover'}"
+                "description": "({extends: 'comp.input.base.md.contrasted.hover.container'})"
               },
               "icon": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.icon.md.hover'}"
+                "description": "({extends: 'comp.input.base.md.contrasted.hover.icon'})"
               },
               "affix": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.affix.md.hover'}"
+                "description": "({extends: 'comp.input.base.md.contrasted.hover.affix'})"
               },
               "slotContent": {
                 "text": {
                   "placeholder": {
                     "value": {},
                     "type": "composition",
-                    "description": "{extends: 'comp.input.slotContent.placeholder.md.hover'}"
+                    "description": "({extends: 'comp.input.base.md.contrasted.hover.slotContent.text.placeholder'})"
                   },
                   "textValue": {
                     "value": {},
                     "type": "composition",
-                    "description": "{extends: 'comp.input.slotContent.textValue.md.hover'}"
+                    "description": "({extends: 'comp.input.base.md.contrasted.hover.slotContent.text.textValue'})"
                   }
                 },
                 "chips": {
@@ -6702,29 +6696,29 @@
               "container": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.container.md.contrasted.pressed'}"
+                "description": "({extends: 'comp.input.base.md.contrasted.pressed.container'})"
               },
               "icon": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.icon.md.pressed'}"
+                "description": "({extends: 'comp.input.base.md.contrasted.pressed.icon'})"
               },
               "affix": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.affix.md.pressed'}"
+                "description": "({extends: 'comp.input.base.md.contrasted.pressed.affix'})"
               },
               "slotContent": {
                 "text": {
                   "placeholder": {
                     "value": {},
                     "type": "composition",
-                    "description": "{extends: 'comp.input.slotContent.placeholder.md.pressed'}"
+                    "description": "({extends: 'comp.input.base.md.contrasted.pressed.slotContent.text.placeholder'})"
                   },
                   "textValue": {
                     "value": {},
                     "type": "composition",
-                    "description": "{extends: 'comp.input.slotContent.textValue.md.pressed'}"
+                    "description": "({extends: 'comp.input.base.md.contrasted.pressed.slotContent.text.textValue'})"
                   }
                 },
                 "chips": {
@@ -6737,29 +6731,29 @@
               "container": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.container.md.contrasted.active'}"
+                "description": "({extends: 'comp.input.base.md.contrasted.active.container'})"
               },
               "icon": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.icon.md.active'}"
+                "description": "({extends: 'comp.input.base.md.contrasted.active.icon'})"
               },
               "affix": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.affix.md.active'}"
+                "description": "({extends: 'comp.input.base.md.contrasted.active.affix'})"
               },
               "slotContent": {
                 "text": {
                   "placeholder": {
                     "value": {},
                     "type": "composition",
-                    "description": "{extends: 'comp.input.slotContent.placeholder.md.active'}"
+                    "description": "({extends: 'comp.input.base.md.contrasted.active.slotContent.text.placeholder'})"
                   },
                   "textValue": {
                     "value": {},
                     "type": "composition",
-                    "description": "{extends: 'comp.input.slotContent.textValue.md.active'}"
+                    "description": "({extends: 'comp.input.base.md.contrasted.active.slotContent.text.textValue'})"
                   }
                 },
                 "chips": {
@@ -6772,29 +6766,29 @@
               "container": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.container.md.contrasted.disabled'}"
+                "description": "({extends: 'comp.input.base.md.contrasted.disabled.container'})"
               },
               "icon": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.icon.md.disabled'}"
+                "description": "({extends: 'comp.input.base.md.contrasted.disabled.icon'})"
               },
               "affix": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.affix.md.disabled'}"
+                "description": "({extends: 'comp.input.base.md.contrasted.disabled.affix'})"
               },
               "slotContent": {
                 "text": {
                   "placeholder": {
                     "value": {},
                     "type": "composition",
-                    "description": "{extends: 'comp.input.slotContent.placeholder.md.disabled'}"
+                    "description": "({extends: 'comp.input.base.md.contrasted.disabled.slotContent.text.placeholder'})"
                   },
                   "textValue": {
                     "value": {},
                     "type": "composition",
-                    "description": "{extends: 'comp.input.slotContent.textValue.md.disabled'}"
+                    "description": "({extends: 'comp.input.base.md.contrasted.disabled.slotContent.text.textValue'})"
                   }
                 },
                 "chips": {
@@ -6813,29 +6807,29 @@
               "container": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.container.sm.uncontrasted.default'}"
+                "description": "({extends: 'comp.input.base.sm.uncontrasted.default.container'})"
               },
               "icon": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.icon.sm.default'}"
+                "description": "({extends: 'comp.input.base.sm.uncontrasted.default.icon'})"
               },
               "affix": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.affix.sm.default'}"
+                "description": "({extends: 'comp.input.base.sm.uncontrasted.default.affix'})"
               },
               "slotContent": {
                 "text": {
                   "placeholder": {
                     "value": {},
                     "type": "composition",
-                    "description": "{extends: 'comp.input.slotContent.placeholder.sm.default'}"
+                    "description": "({extends: 'comp.input.base.sm.uncontrasted.default.slotContent.text.placeholder'})"
                   },
                   "textValue": {
                     "value": {},
                     "type": "composition",
-                    "description": "{extends: 'comp.input.slotContent.textValue.sm.default'}"
+                    "description": "({extends: 'comp.input.base.sm.uncontrasted.default.slotContent.text.textValue'})"
                   }
                 },
                 "chips": {
@@ -6848,29 +6842,29 @@
               "container": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.container.sm.uncontrasted.hover'}"
+                "description": "({extends: 'comp.input.base.sm.uncontrasted.hover.container'})"
               },
               "icon": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.icon.sm.hover'}"
+                "description": "({extends: 'comp.input.base.sm.uncontrasted.hover.icon'})"
               },
               "affix": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.affix.sm.hover'}"
+                "description": "({extends: 'comp.input.base.sm.uncontrasted.hover.affix'})"
               },
               "slotContent": {
                 "text": {
                   "placeholder": {
                     "value": {},
                     "type": "composition",
-                    "description": "{extends: 'comp.input.slotContent.placeholder.sm.hover'}"
+                    "description": "({extends: 'comp.input.base.sm.uncontrasted.hover.slotContent.text.placeholder'})"
                   },
                   "textValue": {
                     "value": {},
                     "type": "composition",
-                    "description": "{extends: 'comp.input.slotContent.textValue.sm.hover'}"
+                    "description": "({extends: 'comp.input.base.sm.uncontrasted.hover.slotContent.text.textValue'})"
                   }
                 },
                 "chips": {
@@ -6883,29 +6877,29 @@
               "container": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.container.sm.uncontrasted.pressed'}"
+                "description": "({extends: 'comp.input.base.sm.uncontrasted.pressed.container'})"
               },
               "icon": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.icon.sm.pressed'}"
+                "description": "({extends: 'comp.input.base.sm.uncontrasted.pressed.icon'})"
               },
               "affix": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.affix.sm.pressed'}"
+                "description": "({extends: 'comp.input.base.sm.uncontrasted.pressed.affix'})"
               },
               "slotContent": {
                 "text": {
                   "placeholder": {
                     "value": {},
                     "type": "composition",
-                    "description": "{extends: 'comp.input.slotContent.placeholder.sm.pressed'}"
+                    "description": "({extends: 'comp.input.base.sm.uncontrasted.pressed.slotContent.text.placeholder'})"
                   },
                   "textValue": {
                     "value": {},
                     "type": "composition",
-                    "description": "{extends: 'comp.input.slotContent.textValue.sm.pressed'}"
+                    "description": "({extends: 'comp.input.base.sm.uncontrasted.pressed.slotContent.text.textValue'})"
                   }
                 },
                 "chips": {
@@ -6918,29 +6912,29 @@
               "container": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.container.sm.uncontrasted.active'}"
+                "description": "({extends: 'comp.input.base.sm.uncontrasted.active.container'})"
               },
               "icon": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.icon.sm.active'}"
+                "description": "({extends: 'comp.input.base.sm.uncontrasted.active.icon'})"
               },
               "affix": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.affix.sm.active'}"
+                "description": "({extends: 'comp.input.base.sm.uncontrasted.active.affix'})"
               },
               "slotContent": {
                 "text": {
                   "placeholder": {
                     "value": {},
                     "type": "composition",
-                    "description": "{extends: 'comp.input.slotContent.placeholder.sm.active'}"
+                    "description": "({extends: 'comp.input.base.sm.uncontrasted.active.slotContent.text.placeholder'})"
                   },
                   "textValue": {
                     "value": {},
                     "type": "composition",
-                    "description": "{extends: 'comp.input.slotContent.textValue.sm.active'}"
+                    "description": "({extends: 'comp.input.base.sm.uncontrasted.active.slotContent.text.textValue'})"
                   }
                 },
                 "chips": {
@@ -6953,29 +6947,29 @@
               "container": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.container.sm.uncontrasted.disabled'}"
+                "description": "({extends: 'comp.input.base.sm.uncontrasted.disabled.container'})"
               },
               "icon": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.icon.sm.disabled'}"
+                "description": "({extends: 'comp.input.base.sm.uncontrasted.disabled.icon'})"
               },
               "affix": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.affix.sm.disabled'}"
+                "description": "({extends: 'comp.input.base.sm.uncontrasted.disabled.affix'})"
               },
               "slotContent": {
                 "text": {
                   "placeholder": {
                     "value": {},
                     "type": "composition",
-                    "description": "{extends: 'comp.input.slotContent.placeholder.sm.disabled'}"
+                    "description": "({extends: 'comp.input.base.sm.uncontrasted.disabled.slotContent.text.placeholder'})"
                   },
                   "textValue": {
                     "value": {},
                     "type": "composition",
-                    "description": "{extends: 'comp.input.slotContent.textValue.sm.disabled'}"
+                    "description": "({extends: 'comp.input.base.sm.uncontrasted.disabled.slotContent.text.textValue'})"
                   }
                 },
                 "chips": {
@@ -6990,29 +6984,29 @@
               "container": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.container.sm.contrasted.default'}"
+                "description": "({extends: 'comp.input.base.sm.contrasted.default.container'})"
               },
               "icon": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.icon.sm.default'}"
+                "description": "({extends: 'comp.input.base.sm.contrasted.default.icon'})"
               },
               "affix": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.affix.sm.default'}"
+                "description": "({extends: 'comp.input.base.sm.contrasted.default.affix'})"
               },
               "slotContent": {
                 "text": {
                   "placeholder": {
                     "value": {},
                     "type": "composition",
-                    "description": "{extends: 'comp.input.slotContent.placeholder.sm.default'}"
+                    "description": "({extends: 'comp.input.base.sm.contrasted.default.slotContent.text.placeholder'})"
                   },
                   "textValue": {
                     "value": {},
                     "type": "composition",
-                    "description": "{extends: 'comp.input.slotContent.textValue.sm.default'}"
+                    "description": "({extends: 'comp.input.base.sm.contrasted.default.slotContent.text.textValue'})"
                   }
                 },
                 "chips": {
@@ -7025,29 +7019,29 @@
               "container": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.container.sm.contrasted.hover'}"
+                "description": "({extends: 'comp.input.base.sm.contrasted.hover.container'})"
               },
               "icon": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.icon.sm.hover'}"
+                "description": "({extends: 'comp.input.base.sm.contrasted.hover.icon'})"
               },
               "affix": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.affix.sm.hover'}"
+                "description": "({extends: 'comp.input.base.sm.contrasted.hover.affix'})"
               },
               "slotContent": {
                 "text": {
                   "placeholder": {
                     "value": {},
                     "type": "composition",
-                    "description": "{extends: 'comp.input.slotContent.placeholder.sm.hover'}"
+                    "description": "({extends: 'comp.input.base.sm.contrasted.hover.slotContent.text.placeholder'})"
                   },
                   "textValue": {
                     "value": {},
                     "type": "composition",
-                    "description": "{extends: 'comp.input.slotContent.textValue.sm.hover'}"
+                    "description": "({extends: 'comp.input.base.sm.contrasted.hover.slotContent.text.textValue'})"
                   }
                 },
                 "chips": {
@@ -7060,29 +7054,29 @@
               "container": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.container.sm.contrasted.pressed'}"
+                "description": "({extends: 'comp.input.base.sm.contrasted.pressed.container'})"
               },
               "icon": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.icon.sm.pressed'}"
+                "description": "({extends: 'comp.input.base.sm.contrasted.pressed.icon'})"
               },
               "affix": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.affix.sm.pressed'}"
+                "description": "({extends: 'comp.input.base.sm.contrasted.pressed.affix'})"
               },
               "slotContent": {
                 "text": {
                   "placeholder": {
                     "value": {},
                     "type": "composition",
-                    "description": "{extends: 'comp.input.slotContent.placeholder.sm.pressed'}"
+                    "description": "({extends: 'comp.input.base.sm.contrasted.pressed.slotContent.text.placeholder'})"
                   },
                   "textValue": {
                     "value": {},
                     "type": "composition",
-                    "description": "{extends: 'comp.input.slotContent.textValue.sm.pressed'}"
+                    "description": "({extends: 'comp.input.base.sm.contrasted.pressed.slotContent.text.textValue'})"
                   }
                 },
                 "chips": {
@@ -7095,29 +7089,29 @@
               "container": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.container.sm.contrasted.active'}"
+                "description": "({extends: 'comp.input.base.sm.contrasted.active.container'})"
               },
               "icon": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.icon.sm.active'}"
+                "description": "({extends: 'comp.input.base.sm.contrasted.active.icon'})"
               },
               "affix": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.affix.sm.active'}"
+                "description": "({extends: 'comp.input.base.sm.contrasted.active.affix'})"
               },
               "slotContent": {
                 "text": {
                   "placeholder": {
                     "value": {},
                     "type": "composition",
-                    "description": "{extends: 'comp.input.slotContent.placeholder.sm.active'}"
+                    "description": "({extends: 'comp.input.base.sm.contrasted.active.slotContent.text.placeholder'})"
                   },
                   "textValue": {
                     "value": {},
                     "type": "composition",
-                    "description": "{extends: 'comp.input.slotContent.textValue.sm.active'}"
+                    "description": "({extends: 'comp.input.base.sm.contrasted.active.slotContent.text.textValue'})"
                   }
                 },
                 "chips": {
@@ -7130,29 +7124,29 @@
               "container": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.container.sm.contrasted.disabled'}"
+                "description": "({extends: 'comp.input.base.sm.contrasted.disabled.container'})"
               },
               "icon": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.icon.sm.disabled'}"
+                "description": "({extends: 'comp.input.base.sm.contrasted.disabled.icon'})"
               },
               "affix": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.affix.sm.disabled'}"
+                "description": "({extends: 'comp.input.base.sm.contrasted.disabled.affix'})"
               },
               "slotContent": {
                 "text": {
                   "placeholder": {
                     "value": {},
                     "type": "composition",
-                    "description": "{extends: 'comp.input.slotContent.placeholder.sm.disabled'}"
+                    "description": "({extends: 'comp.input.base.sm.contrasted.disabled.slotContent.text.placeholder'})"
                   },
                   "textValue": {
                     "value": {},
                     "type": "composition",
-                    "description": "{extends: 'comp.input.slotContent.textValue.sm.disabled'}"
+                    "description": "({extends: 'comp.input.base.sm.contrasted.disabled.slotContent.text.textValue'})"
                   }
                 },
                 "chips": {
@@ -7169,29 +7163,29 @@
               "container": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.container.md.uncontrasted.default'}"
+                "description": "({extends: 'comp.input.base.md.uncontrasted.default.container'})"
               },
               "icon": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.icon.md.default'}"
+                "description": "({extends: 'comp.input.base.md.uncontrasted.default.icon'})"
               },
               "affix": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.affix.md.default'}"
+                "description": "({extends: 'comp.input.base.md.uncontrasted.default.affix'})"
               },
               "slotContent": {
                 "text": {
                   "placeholder": {
                     "value": {},
                     "type": "composition",
-                    "description": "{extends: 'comp.input.slotContent.placeholder.md.default'}"
+                    "description": "({extends: 'comp.input.base.md.uncontrasted.default.slotContent.text.placeholder'})"
                   },
                   "textValue": {
                     "value": {},
                     "type": "composition",
-                    "description": "{extends: 'comp.input.slotContent.textValue.md.default'}"
+                    "description": "({extends: 'comp.input.base.md.uncontrasted.default.slotContent.text.textValue'})"
                   }
                 },
                 "chips": {
@@ -7204,29 +7198,29 @@
               "container": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.container.md.uncontrasted.hover'}"
+                "description": "({extends: 'comp.input.base.md.uncontrasted.hover.container'})"
               },
               "icon": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.icon.md.hover'}"
+                "description": "({extends: 'comp.input.base.md.uncontrasted.hover.icon'})"
               },
               "affix": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.affix.md.hover'}"
+                "description": "({extends: 'comp.input.base.md.uncontrasted.hover.affix'})"
               },
               "slotContent": {
                 "text": {
                   "placeholder": {
                     "value": {},
                     "type": "composition",
-                    "description": "{extends: 'comp.input.slotContent.placeholder.md.hover'}"
+                    "description": "({extends: 'comp.input.base.md.uncontrasted.hover.slotContent.text.placeholder'})"
                   },
                   "textValue": {
                     "value": {},
                     "type": "composition",
-                    "description": "{extends: 'comp.input.slotContent.textValue.md.hover'}"
+                    "description": "({extends: 'comp.input.base.md.uncontrasted.hover.slotContent.text.textValue'})"
                   }
                 },
                 "chips": {
@@ -7239,29 +7233,29 @@
               "container": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.container.md.uncontrasted.pressed'}"
+                "description": "({extends: 'comp.input.base.md.uncontrasted.pressed.container'})"
               },
               "icon": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.icon.md.pressed'}"
+                "description": "({extends: 'comp.input.base.md.uncontrasted.pressed.icon'})"
               },
               "affix": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.affix.md.pressed'}"
+                "description": "({extends: 'comp.input.base.md.uncontrasted.pressed.affix'})"
               },
               "slotContent": {
                 "text": {
                   "placeholder": {
                     "value": {},
                     "type": "composition",
-                    "description": "{extends: 'comp.input.slotContent.placeholder.md.pressed'}"
+                    "description": "({extends: 'comp.input.base.md.uncontrasted.pressed.slotContent.text.placeholder'})"
                   },
                   "textValue": {
                     "value": {},
                     "type": "composition",
-                    "description": "{extends: 'comp.input.slotContent.textValue.md.pressed'}"
+                    "description": "({extends: 'comp.input.base.md.uncontrasted.pressed.slotContent.text.textValue'})"
                   }
                 },
                 "chips": {
@@ -7274,29 +7268,29 @@
               "container": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.container.md.uncontrasted.active'}"
+                "description": "({extends: 'comp.input.base.md.uncontrasted.active.container'})"
               },
               "icon": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.icon.md.active'}"
+                "description": "({extends: 'comp.input.base.md.uncontrasted.active.icon'})"
               },
               "affix": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.affix.md.active'}"
+                "description": "({extends: 'comp.input.base.md.uncontrasted.active.affix'})"
               },
               "slotContent": {
                 "text": {
                   "placeholder": {
                     "value": {},
                     "type": "composition",
-                    "description": "{extends: 'comp.input.slotContent.placeholder.md.active'}"
+                    "description": "({extends: 'comp.input.base.md.uncontrasted.active.slotContent.text.placeholder'})"
                   },
                   "textValue": {
                     "value": {},
                     "type": "composition",
-                    "description": "{extends: 'comp.input.slotContent.textValue.md.active'}"
+                    "description": "({extends: 'comp.input.base.md.uncontrasted.active.slotContent.text.textValue'})"
                   }
                 },
                 "chips": {
@@ -7309,29 +7303,29 @@
               "container": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.container.md.uncontrasted.disabled'}"
+                "description": "({extends: 'comp.input.base.md.uncontrasted.disabled.container'})"
               },
               "icon": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.icon.md.disabled'}"
+                "description": "({extends: 'comp.input.base.md.uncontrasted.disabled.icon'})"
               },
               "affix": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.affix.md.disabled'}"
+                "description": "({extends: 'comp.input.base.md.uncontrasted.disabled.affix'})"
               },
               "slotContent": {
                 "text": {
                   "placeholder": {
                     "value": {},
                     "type": "composition",
-                    "description": "{extends: 'comp.input.slotContent.placeholder.md.disabled'}"
+                    "description": "({extends: 'comp.input.base.md.uncontrasted.disabled.slotContent.text.placeholder'})"
                   },
                   "textValue": {
                     "value": {},
                     "type": "composition",
-                    "description": "{extends: 'comp.input.slotContent.textValue.md.disabled'}"
+                    "description": "({extends: 'comp.input.base.md.uncontrasted.disabled.slotContent.text.textValue'})"
                   }
                 },
                 "chips": {
@@ -7346,29 +7340,29 @@
               "container": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.container.md.contrasted.default'}"
+                "description": "({extends: 'comp.input.base.md.contrasted.default.container'})"
               },
               "icon": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.icon.md.default'}"
+                "description": "({extends: 'comp.input.base.md.contrasted.default.icon'})"
               },
               "affix": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.affix.md.default'}"
+                "description": "({extends: 'comp.input.base.md.contrasted.default.affix'})"
               },
               "slotContent": {
                 "text": {
                   "placeholder": {
                     "value": {},
                     "type": "composition",
-                    "description": "{extends: 'comp.input.slotContent.placeholder.md.default'}"
+                    "description": "({extends: 'comp.input.base.md.contrasted.default.slotContent.text.placeholder'})"
                   },
                   "textValue": {
                     "value": {},
                     "type": "composition",
-                    "description": "{extends: 'comp.input.slotContent.textValue.md.default'}"
+                    "description": "({extends: 'comp.input.base.md.contrasted.default.slotContent.text.textValue'})"
                   }
                 },
                 "chips": {
@@ -7381,29 +7375,29 @@
               "container": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.container.md.contrasted.hover'}"
+                "description": "({extends: 'comp.input.base.md.contrasted.hover.container'})"
               },
               "icon": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.icon.md.hover'}"
+                "description": "({extends: 'comp.input.base.md.contrasted.hover.icon'})"
               },
               "affix": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.affix.md.hover'}"
+                "description": "({extends: 'comp.input.base.md.contrasted.hover.affix'})"
               },
               "slotContent": {
                 "text": {
                   "placeholder": {
                     "value": {},
                     "type": "composition",
-                    "description": "{extends: 'comp.input.slotContent.placeholder.md.hover'}"
+                    "description": "({extends: 'comp.input.base.md.contrasted.hover.slotContent.text.placeholder'})"
                   },
                   "textValue": {
                     "value": {},
                     "type": "composition",
-                    "description": "{extends: 'comp.input.slotContent.textValue.md.hover'}"
+                    "description": "({extends: 'comp.input.base.md.contrasted.hover.slotContent.text.textValue'})"
                   }
                 },
                 "chips": {
@@ -7416,29 +7410,29 @@
               "container": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.container.md.contrasted.pressed'}"
+                "description": "({extends: 'comp.input.base.md.contrasted.pressed.container'})"
               },
               "icon": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.icon.md.pressed'}"
+                "description": "({extends: 'comp.input.base.md.contrasted.pressed.icon'})"
               },
               "affix": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.affix.md.pressed'}"
+                "description": "({extends: 'comp.input.base.md.contrasted.pressed.affix'})"
               },
               "slotContent": {
                 "text": {
                   "placeholder": {
                     "value": {},
                     "type": "composition",
-                    "description": "{extends: 'comp.input.slotContent.placeholder.md.pressed'}"
+                    "description": "({extends: 'comp.input.base.md.contrasted.pressed.slotContent.text.placeholder'})"
                   },
                   "textValue": {
                     "value": {},
                     "type": "composition",
-                    "description": "{extends: 'comp.input.slotContent.textValue.md.pressed'}"
+                    "description": "({extends: 'comp.input.base.md.contrasted.pressed.slotContent.text.textValue'})"
                   }
                 },
                 "chips": {
@@ -7451,29 +7445,29 @@
               "container": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.container.md.contrasted.active'}"
+                "description": "({extends: 'comp.input.base.md.contrasted.active.container'})"
               },
               "icon": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.icon.md.active'}"
+                "description": "({extends: 'comp.input.base.md.contrasted.active.icon'})"
               },
               "affix": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.affix.md.active'}"
+                "description": "({extends: 'comp.input.base.md.contrasted.active.affix'})"
               },
               "slotContent": {
                 "text": {
                   "placeholder": {
                     "value": {},
                     "type": "composition",
-                    "description": "{extends: 'comp.input.slotContent.placeholder.md.active'}"
+                    "description": "({extends: 'comp.input.base.md.contrasted.active.slotContent.text.placeholder'})"
                   },
                   "textValue": {
                     "value": {},
                     "type": "composition",
-                    "description": "{extends: 'comp.input.slotContent.textValue.md.active'}"
+                    "description": "({extends: 'comp.input.base.md.contrasted.active.slotContent.text.textValue'})"
                   }
                 },
                 "chips": {
@@ -7486,29 +7480,29 @@
               "container": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.container.md.contrasted.disabled'}"
+                "description": "({extends: 'comp.input.base.md.contrasted.disabled.container'})"
               },
               "icon": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.icon.md.disabled'}"
+                "description": "({extends: 'comp.input.base.md.contrasted.disabled.icon'})"
               },
               "affix": {
                 "value": {},
                 "type": "composition",
-                "description": "{extends: 'comp.input.affix.md.disabled'}"
+                "description": "({extends: 'comp.input.base.md.contrasted.disabled.affix'})"
               },
               "slotContent": {
                 "text": {
                   "placeholder": {
                     "value": {},
                     "type": "composition",
-                    "description": "{extends: 'comp.input.slotContent.placeholder.md.disabled'}"
+                    "description": "({extends: 'comp.input.base.md.contrasted.disabled.slotContent.text.placeholder'})"
                   },
                   "textValue": {
                     "value": {},
                     "type": "composition",
-                    "description": "{extends: 'comp.input.slotContent.textValue.md.disabled'}"
+                    "description": "({extends: 'comp.input.base.md.contrasted.disabled.slotContent.text.textValue'})"
                   }
                 },
                 "chips": {
