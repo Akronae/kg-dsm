@@ -11,7 +11,7 @@ comp
     "container": {
       "itemSapcing": {sem.input.{{ ({sm: 'xs', md: 'sm'})[size] }}.{{contrast}}.container.spacer},
       "type": "composition",
-      "description": "{extends: 'comp.card.{{ ({sm: 'xs', md: 'sm'})[size] }}.{{contrast}}.{{state}}'}"
+      "description": "({extends: 'comp.card.{{ ({sm: 'xs', md: 'sm'})[size] }}.{{contrast}}.{{state}}'})"
     },
     "iconSize": {
       "width": "{sem.input.{{ ({sm: 'xs', md: 'sm'})[size] }}.iconSize}",
