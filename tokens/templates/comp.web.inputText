@@ -1,0 +1,45 @@
+// @replacepath: tokens/comp.web.json
+
+comp
+.input
+.inputText
+[size: 'sm' | 'md']
+[contrast: 'uncontrasted' | 'contrasted']
+[state: 'default' | 'hover' | 'pressed' | 'active' | 'disabled']
+[
+  {
+    "container": {
+      "value": {},
+      "type": "composition",
+      "description": "{extends: 'comp.input.container.{{size}}.{{contrast}}.{{state}}'}"
+    },
+    "icon": {
+      "value": {},
+      "type": "composition",
+      "description": "{extends: 'comp.input.icon.{{size}}.{{state}}'}"
+    },
+    "affix": {
+      "value": {},
+      "type": "composition",
+      "description": "{extends: 'comp.input.affix.{{size}}.{{state}}'}"
+    },
+    "slotContent": {
+      "text": {
+        "placeholder": {
+          "value": {},
+          "type": "composition",
+          "description": "{extends: 'comp.input.slotContent.placeholder.{{size}}.{{state}}'}"
+        },
+        "textValue": {
+          "value": {},
+          "type": "composition",
+          "description": "{extends: 'comp.input.slotContent.textValue.{{size}}.{{state}}'}"
+        }
+      },
+      "chips": {
+        "value": {},
+        "type": "composition"
+      }
+    }
+  }
+]

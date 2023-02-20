@@ -1,0 +1,36 @@
+// @replacepath: tokens/comp.web.json
+
+comp
+.input
+[size: 'sm' | 'md']
+[contrast: 'uncontrasted' | 'contrasted']
+[state: 'default' | 'hover' | 'pressed' | 'active' | 'disabled']
+[
+  {
+    "container": {
+      "value": {},
+      "type": "composition",
+      "description": "{extends: 'comp.card.{{ ({sm: 'xs', md: 'sm'})[size] }}.{{contrast}}.{{state}}'}"
+    },
+    "icon": {
+      "value": {},
+      "type": "composition"
+    },
+    "affix": {
+      "value": {},
+      "type": "composition"
+    },
+    "slotContent": {
+      "text": {
+        "placeholder": {
+          "value": {},
+          "type": "composition"
+        },
+        "textValue": {
+          "value": {},
+          "type": "composition"
+        }
+      }
+    }
+  }
+]
