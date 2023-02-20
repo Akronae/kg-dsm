@@ -5785,210 +5785,372 @@
           "uncontrasted": {
             "default": {
               "container": {
-                "itemSapcing": "{sem.input.xs.uncontrasted.container.spacer}",
-                "type": "composition",
-                "description": "({extends: 'comp.card.xs.uncontrasted.default'})"
+                "itemSapcing": {
+                  "value": "{sem.input.xs.uncontrasted.container.spacer}",
+                  "type": "other"
+                },
+                "description": {
+                  "value": "({extends: 'comp.card.xs.uncontrasted.default'})",
+                  "type": "other"
+                }
               },
               "iconSize": {
-                "width": "{sem.input.xs.iconSize}",
-                "height": "{sem.input.xs.default.iconSize}",
-                "type": "composition"
+                "width": {
+                  "value": "{sem.input.xs.iconSize}",
+                  "type": "other"
+                },
+                "height": {
+                  "value": "{sem.input.xs.default.iconSize}",
+                  "type": "other"
+                }
               },
               "iconColor": {
-                "fill": "{sem.colorIcon.default}",
-                "type": "composition"
+                "fill": {
+                  "value": "{sem.colorIcon.default}",
+                  "type": "other"
+                }
               },
               "affix": {
-                "typography": "{sem.typography.textStyle.paragraph.strong}",
-                "fill": "{sem.colorText.default}",
-                "type": "composition"
+                "typography": {
+                  "value": "{sem.typography.textStyle.paragraph.strong}",
+                  "type": "other"
+                },
+                "fill": {
+                  "value": "{sem.colorText.default}",
+                  "type": "other"
+                }
               },
               "slotContent": {
                 "text": {
                   "placeholder": {
-                    "typography": "{sem.typography.textStyle.paragraph.default}",
-                    "fill": "{sem.colorText.default}",
-                    "type": "composition"
+                    "typography": {
+                      "value": "{sem.typography.textStyle.paragraph.default}",
+                      "type": "other"
+                    },
+                    "fill": {
+                      "value": "{sem.colorText.default}",
+                      "type": "other"
+                    }
                   },
                   "textValue": {
-                    "typography": "{sem.typography.textStyle.paragraph.strong}",
-                    "fill": "{sem.colorText.default}",
-                    "type": "composition"
+                    "typography": {
+                      "value": "{sem.typography.textStyle.paragraph.strong}",
+                      "type": "other"
+                    },
+                    "fill": {
+                      "value": "{sem.colorText.default}",
+                      "type": "other"
+                    }
                   }
                 }
               }
             },
             "hover": {
               "container": {
-                "itemSapcing": "{sem.input.xs.uncontrasted.container.spacer}",
-                "type": "composition",
-                "description": "({extends: 'comp.card.xs.uncontrasted.hover'})"
+                "itemSapcing": {
+                  "value": "{sem.input.xs.uncontrasted.container.spacer}",
+                  "type": "other"
+                },
+                "description": {
+                  "value": "({extends: 'comp.card.xs.uncontrasted.hover'})",
+                  "type": "other"
+                }
               },
               "iconSize": {
-                "width": "{sem.input.xs.iconSize}",
-                "height": "{sem.input.xs.default.iconSize}",
-                "type": "composition"
+                "width": {
+                  "value": "{sem.input.xs.iconSize}",
+                  "type": "other"
+                },
+                "height": {
+                  "value": "{sem.input.xs.default.iconSize}",
+                  "type": "other"
+                }
               },
               "iconColor": {
-                "fill": "{sem.colorIcon.default}",
-                "type": "composition"
+                "fill": {
+                  "value": "{sem.colorIcon.default}",
+                  "type": "other"
+                }
               },
               "affix": {
-                "typography": "{sem.typography.textStyle.paragraph.strong}",
-                "fill": "{sem.colorText.default}",
-                "type": "composition"
+                "typography": {
+                  "value": "{sem.typography.textStyle.paragraph.strong}",
+                  "type": "other"
+                },
+                "fill": {
+                  "value": "{sem.colorText.default}",
+                  "type": "other"
+                }
               },
               "slotContent": {
                 "text": {
                   "placeholder": {
-                    "typography": "{sem.typography.textStyle.paragraph.default}",
-                    "fill": "{sem.colorText.default}",
-                    "type": "composition"
+                    "typography": {
+                      "value": "{sem.typography.textStyle.paragraph.default}",
+                      "type": "other"
+                    },
+                    "fill": {
+                      "value": "{sem.colorText.default}",
+                      "type": "other"
+                    }
                   },
                   "textValue": {
-                    "typography": "{sem.typography.textStyle.paragraph.strong}",
-                    "fill": "{sem.colorText.default}",
-                    "type": "composition"
+                    "typography": {
+                      "value": "{sem.typography.textStyle.paragraph.strong}",
+                      "type": "other"
+                    },
+                    "fill": {
+                      "value": "{sem.colorText.default}",
+                      "type": "other"
+                    }
                   }
                 }
               }
             },
             "pressed": {
               "container": {
-                "itemSapcing": "{sem.input.xs.uncontrasted.container.spacer}",
-                "type": "composition",
-                "description": "({extends: 'comp.card.xs.uncontrasted.pressed'})"
+                "itemSapcing": {
+                  "value": "{sem.input.xs.uncontrasted.container.spacer}",
+                  "type": "other"
+                },
+                "description": {
+                  "value": "({extends: 'comp.card.xs.uncontrasted.pressed'})",
+                  "type": "other"
+                }
               },
               "iconSize": {
-                "width": "{sem.input.xs.iconSize}",
-                "height": "{sem.input.xs.default.iconSize}",
-                "type": "composition"
+                "width": {
+                  "value": "{sem.input.xs.iconSize}",
+                  "type": "other"
+                },
+                "height": {
+                  "value": "{sem.input.xs.default.iconSize}",
+                  "type": "other"
+                }
               },
               "iconColor": {
-                "fill": "{sem.colorIcon.default}",
-                "type": "composition"
+                "fill": {
+                  "value": "{sem.colorIcon.default}",
+                  "type": "other"
+                }
               },
               "affix": {
-                "typography": "{sem.typography.textStyle.paragraph.strong}",
-                "fill": "{sem.colorText.default}",
-                "type": "composition"
+                "typography": {
+                  "value": "{sem.typography.textStyle.paragraph.strong}",
+                  "type": "other"
+                },
+                "fill": {
+                  "value": "{sem.colorText.default}",
+                  "type": "other"
+                }
               },
               "slotContent": {
                 "text": {
                   "placeholder": {
-                    "typography": "{sem.typography.textStyle.paragraph.default}",
-                    "fill": "{sem.colorText.default}",
-                    "type": "composition"
+                    "typography": {
+                      "value": "{sem.typography.textStyle.paragraph.default}",
+                      "type": "other"
+                    },
+                    "fill": {
+                      "value": "{sem.colorText.default}",
+                      "type": "other"
+                    }
                   },
                   "textValue": {
-                    "typography": "{sem.typography.textStyle.paragraph.strong}",
-                    "fill": "{sem.colorText.default}",
-                    "type": "composition"
+                    "typography": {
+                      "value": "{sem.typography.textStyle.paragraph.strong}",
+                      "type": "other"
+                    },
+                    "fill": {
+                      "value": "{sem.colorText.default}",
+                      "type": "other"
+                    }
                   }
                 }
               }
             },
             "active": {
               "container": {
-                "itemSapcing": "{sem.input.xs.uncontrasted.container.spacer}",
-                "type": "composition",
-                "description": "({extends: 'comp.card.xs.uncontrasted.active'})"
+                "itemSapcing": {
+                  "value": "{sem.input.xs.uncontrasted.container.spacer}",
+                  "type": "other"
+                },
+                "description": {
+                  "value": "({extends: 'comp.card.xs.uncontrasted.active'})",
+                  "type": "other"
+                }
               },
               "iconSize": {
-                "width": "{sem.input.xs.iconSize}",
-                "height": "{sem.input.xs.default.iconSize}",
-                "type": "composition"
+                "width": {
+                  "value": "{sem.input.xs.iconSize}",
+                  "type": "other"
+                },
+                "height": {
+                  "value": "{sem.input.xs.default.iconSize}",
+                  "type": "other"
+                }
               },
               "iconColor": {
-                "fill": "{sem.colorIcon.default}",
-                "type": "composition"
+                "fill": {
+                  "value": "{sem.colorIcon.default}",
+                  "type": "other"
+                }
               },
               "affix": {
-                "typography": "{sem.typography.textStyle.paragraph.strong}",
-                "fill": "{sem.colorText.default}",
-                "type": "composition"
+                "typography": {
+                  "value": "{sem.typography.textStyle.paragraph.strong}",
+                  "type": "other"
+                },
+                "fill": {
+                  "value": "{sem.colorText.default}",
+                  "type": "other"
+                }
               },
               "slotContent": {
                 "text": {
                   "placeholder": {
-                    "typography": "{sem.typography.textStyle.paragraph.default}",
-                    "fill": "{sem.colorText.default}",
-                    "type": "composition"
+                    "typography": {
+                      "value": "{sem.typography.textStyle.paragraph.default}",
+                      "type": "other"
+                    },
+                    "fill": {
+                      "value": "{sem.colorText.default}",
+                      "type": "other"
+                    }
                   },
                   "textValue": {
-                    "typography": "{sem.typography.textStyle.paragraph.strong}",
-                    "fill": "{sem.colorText.default}",
-                    "type": "composition"
+                    "typography": {
+                      "value": "{sem.typography.textStyle.paragraph.strong}",
+                      "type": "other"
+                    },
+                    "fill": {
+                      "value": "{sem.colorText.default}",
+                      "type": "other"
+                    }
                   }
                 }
               }
             },
             "danger": {
               "container": {
-                "itemSapcing": "{sem.input.xs.uncontrasted.container.spacer}",
-                "type": "composition",
-                "description": "({extends: 'comp.card.xs.uncontrasted.danger'})"
+                "itemSapcing": {
+                  "value": "{sem.input.xs.uncontrasted.container.spacer}",
+                  "type": "other"
+                },
+                "description": {
+                  "value": "({extends: 'comp.card.xs.uncontrasted.danger'})",
+                  "type": "other"
+                }
               },
               "iconSize": {
-                "width": "{sem.input.xs.iconSize}",
-                "height": "{sem.input.xs.default.iconSize}",
-                "type": "composition"
+                "width": {
+                  "value": "{sem.input.xs.iconSize}",
+                  "type": "other"
+                },
+                "height": {
+                  "value": "{sem.input.xs.default.iconSize}",
+                  "type": "other"
+                }
               },
               "iconColor": {
-                "fill": "{sem.colorIcon.default}",
-                "type": "composition"
+                "fill": {
+                  "value": "{sem.colorIcon.default}",
+                  "type": "other"
+                }
               },
               "affix": {
-                "typography": "{sem.typography.textStyle.paragraph.strong}",
-                "fill": "{sem.colorText.default}",
-                "type": "composition"
+                "typography": {
+                  "value": "{sem.typography.textStyle.paragraph.strong}",
+                  "type": "other"
+                },
+                "fill": {
+                  "value": "{sem.colorText.default}",
+                  "type": "other"
+                }
               },
               "slotContent": {
                 "text": {
                   "placeholder": {
-                    "typography": "{sem.typography.textStyle.paragraph.default}",
-                    "fill": "{sem.colorText.default}",
-                    "type": "composition"
+                    "typography": {
+                      "value": "{sem.typography.textStyle.paragraph.default}",
+                      "type": "other"
+                    },
+                    "fill": {
+                      "value": "{sem.colorText.default}",
+                      "type": "other"
+                    }
                   },
                   "textValue": {
-                    "typography": "{sem.typography.textStyle.paragraph.strong}",
-                    "fill": "{sem.colorText.default}",
-                    "type": "composition"
+                    "typography": {
+                      "value": "{sem.typography.textStyle.paragraph.strong}",
+                      "type": "other"
+                    },
+                    "fill": {
+                      "value": "{sem.colorText.default}",
+                      "type": "other"
+                    }
                   }
                 }
               }
             },
             "disabled": {
               "container": {
-                "itemSapcing": "{sem.input.xs.uncontrasted.container.spacer}",
-                "type": "composition",
-                "description": "({extends: 'comp.card.xs.uncontrasted.disabled'})"
+                "itemSapcing": {
+                  "value": "{sem.input.xs.uncontrasted.container.spacer}",
+                  "type": "other"
+                },
+                "description": {
+                  "value": "({extends: 'comp.card.xs.uncontrasted.disabled'})",
+                  "type": "other"
+                }
               },
               "iconSize": {
-                "width": "{sem.input.xs.iconSize}",
-                "height": "{sem.input.xs.default.iconSize}",
-                "type": "composition"
+                "width": {
+                  "value": "{sem.input.xs.iconSize}",
+                  "type": "other"
+                },
+                "height": {
+                  "value": "{sem.input.xs.default.iconSize}",
+                  "type": "other"
+                }
               },
               "iconColor": {
-                "fill": "{sem.colorIcon.default}",
-                "type": "composition"
+                "fill": {
+                  "value": "{sem.colorIcon.default}",
+                  "type": "other"
+                }
               },
               "affix": {
-                "typography": "{sem.typography.textStyle.paragraph.strong}",
-                "fill": "{sem.colorText.default}",
-                "type": "composition"
+                "typography": {
+                  "value": "{sem.typography.textStyle.paragraph.strong}",
+                  "type": "other"
+                },
+                "fill": {
+                  "value": "{sem.colorText.default}",
+                  "type": "other"
+                }
               },
               "slotContent": {
                 "text": {
                   "placeholder": {
-                    "typography": "{sem.typography.textStyle.paragraph.default}",
-                    "fill": "{sem.colorText.default}",
-                    "type": "composition"
+                    "typography": {
+                      "value": "{sem.typography.textStyle.paragraph.default}",
+                      "type": "other"
+                    },
+                    "fill": {
+                      "value": "{sem.colorText.default}",
+                      "type": "other"
+                    }
                   },
                   "textValue": {
-                    "typography": "{sem.typography.textStyle.paragraph.strong}",
-                    "fill": "{sem.colorText.default}",
-                    "type": "composition"
+                    "typography": {
+                      "value": "{sem.typography.textStyle.paragraph.strong}",
+                      "type": "other"
+                    },
+                    "fill": {
+                      "value": "{sem.colorText.default}",
+                      "type": "other"
+                    }
                   }
                 }
               }
@@ -5997,210 +6159,372 @@
           "contrasted": {
             "default": {
               "container": {
-                "itemSapcing": "{sem.input.xs.contrasted.container.spacer}",
-                "type": "composition",
-                "description": "({extends: 'comp.card.xs.contrasted.default'})"
+                "itemSapcing": {
+                  "value": "{sem.input.xs.contrasted.container.spacer}",
+                  "type": "other"
+                },
+                "description": {
+                  "value": "({extends: 'comp.card.xs.contrasted.default'})",
+                  "type": "other"
+                }
               },
               "iconSize": {
-                "width": "{sem.input.xs.iconSize}",
-                "height": "{sem.input.xs.default.iconSize}",
-                "type": "composition"
+                "width": {
+                  "value": "{sem.input.xs.iconSize}",
+                  "type": "other"
+                },
+                "height": {
+                  "value": "{sem.input.xs.default.iconSize}",
+                  "type": "other"
+                }
               },
               "iconColor": {
-                "fill": "{sem.colorIcon.default}",
-                "type": "composition"
+                "fill": {
+                  "value": "{sem.colorIcon.default}",
+                  "type": "other"
+                }
               },
               "affix": {
-                "typography": "{sem.typography.textStyle.paragraph.strong}",
-                "fill": "{sem.colorText.default}",
-                "type": "composition"
+                "typography": {
+                  "value": "{sem.typography.textStyle.paragraph.strong}",
+                  "type": "other"
+                },
+                "fill": {
+                  "value": "{sem.colorText.default}",
+                  "type": "other"
+                }
               },
               "slotContent": {
                 "text": {
                   "placeholder": {
-                    "typography": "{sem.typography.textStyle.paragraph.default}",
-                    "fill": "{sem.colorText.default}",
-                    "type": "composition"
+                    "typography": {
+                      "value": "{sem.typography.textStyle.paragraph.default}",
+                      "type": "other"
+                    },
+                    "fill": {
+                      "value": "{sem.colorText.default}",
+                      "type": "other"
+                    }
                   },
                   "textValue": {
-                    "typography": "{sem.typography.textStyle.paragraph.strong}",
-                    "fill": "{sem.colorText.default}",
-                    "type": "composition"
+                    "typography": {
+                      "value": "{sem.typography.textStyle.paragraph.strong}",
+                      "type": "other"
+                    },
+                    "fill": {
+                      "value": "{sem.colorText.default}",
+                      "type": "other"
+                    }
                   }
                 }
               }
             },
             "hover": {
               "container": {
-                "itemSapcing": "{sem.input.xs.contrasted.container.spacer}",
-                "type": "composition",
-                "description": "({extends: 'comp.card.xs.contrasted.hover'})"
+                "itemSapcing": {
+                  "value": "{sem.input.xs.contrasted.container.spacer}",
+                  "type": "other"
+                },
+                "description": {
+                  "value": "({extends: 'comp.card.xs.contrasted.hover'})",
+                  "type": "other"
+                }
               },
               "iconSize": {
-                "width": "{sem.input.xs.iconSize}",
-                "height": "{sem.input.xs.default.iconSize}",
-                "type": "composition"
+                "width": {
+                  "value": "{sem.input.xs.iconSize}",
+                  "type": "other"
+                },
+                "height": {
+                  "value": "{sem.input.xs.default.iconSize}",
+                  "type": "other"
+                }
               },
               "iconColor": {
-                "fill": "{sem.colorIcon.default}",
-                "type": "composition"
+                "fill": {
+                  "value": "{sem.colorIcon.default}",
+                  "type": "other"
+                }
               },
               "affix": {
-                "typography": "{sem.typography.textStyle.paragraph.strong}",
-                "fill": "{sem.colorText.default}",
-                "type": "composition"
+                "typography": {
+                  "value": "{sem.typography.textStyle.paragraph.strong}",
+                  "type": "other"
+                },
+                "fill": {
+                  "value": "{sem.colorText.default}",
+                  "type": "other"
+                }
               },
               "slotContent": {
                 "text": {
                   "placeholder": {
-                    "typography": "{sem.typography.textStyle.paragraph.default}",
-                    "fill": "{sem.colorText.default}",
-                    "type": "composition"
+                    "typography": {
+                      "value": "{sem.typography.textStyle.paragraph.default}",
+                      "type": "other"
+                    },
+                    "fill": {
+                      "value": "{sem.colorText.default}",
+                      "type": "other"
+                    }
                   },
                   "textValue": {
-                    "typography": "{sem.typography.textStyle.paragraph.strong}",
-                    "fill": "{sem.colorText.default}",
-                    "type": "composition"
+                    "typography": {
+                      "value": "{sem.typography.textStyle.paragraph.strong}",
+                      "type": "other"
+                    },
+                    "fill": {
+                      "value": "{sem.colorText.default}",
+                      "type": "other"
+                    }
                   }
                 }
               }
             },
             "pressed": {
               "container": {
-                "itemSapcing": "{sem.input.xs.contrasted.container.spacer}",
-                "type": "composition",
-                "description": "({extends: 'comp.card.xs.contrasted.pressed'})"
+                "itemSapcing": {
+                  "value": "{sem.input.xs.contrasted.container.spacer}",
+                  "type": "other"
+                },
+                "description": {
+                  "value": "({extends: 'comp.card.xs.contrasted.pressed'})",
+                  "type": "other"
+                }
               },
               "iconSize": {
-                "width": "{sem.input.xs.iconSize}",
-                "height": "{sem.input.xs.default.iconSize}",
-                "type": "composition"
+                "width": {
+                  "value": "{sem.input.xs.iconSize}",
+                  "type": "other"
+                },
+                "height": {
+                  "value": "{sem.input.xs.default.iconSize}",
+                  "type": "other"
+                }
               },
               "iconColor": {
-                "fill": "{sem.colorIcon.default}",
-                "type": "composition"
+                "fill": {
+                  "value": "{sem.colorIcon.default}",
+                  "type": "other"
+                }
               },
               "affix": {
-                "typography": "{sem.typography.textStyle.paragraph.strong}",
-                "fill": "{sem.colorText.default}",
-                "type": "composition"
+                "typography": {
+                  "value": "{sem.typography.textStyle.paragraph.strong}",
+                  "type": "other"
+                },
+                "fill": {
+                  "value": "{sem.colorText.default}",
+                  "type": "other"
+                }
               },
               "slotContent": {
                 "text": {
                   "placeholder": {
-                    "typography": "{sem.typography.textStyle.paragraph.default}",
-                    "fill": "{sem.colorText.default}",
-                    "type": "composition"
+                    "typography": {
+                      "value": "{sem.typography.textStyle.paragraph.default}",
+                      "type": "other"
+                    },
+                    "fill": {
+                      "value": "{sem.colorText.default}",
+                      "type": "other"
+                    }
                   },
                   "textValue": {
-                    "typography": "{sem.typography.textStyle.paragraph.strong}",
-                    "fill": "{sem.colorText.default}",
-                    "type": "composition"
+                    "typography": {
+                      "value": "{sem.typography.textStyle.paragraph.strong}",
+                      "type": "other"
+                    },
+                    "fill": {
+                      "value": "{sem.colorText.default}",
+                      "type": "other"
+                    }
                   }
                 }
               }
             },
             "active": {
               "container": {
-                "itemSapcing": "{sem.input.xs.contrasted.container.spacer}",
-                "type": "composition",
-                "description": "({extends: 'comp.card.xs.contrasted.active'})"
+                "itemSapcing": {
+                  "value": "{sem.input.xs.contrasted.container.spacer}",
+                  "type": "other"
+                },
+                "description": {
+                  "value": "({extends: 'comp.card.xs.contrasted.active'})",
+                  "type": "other"
+                }
               },
               "iconSize": {
-                "width": "{sem.input.xs.iconSize}",
-                "height": "{sem.input.xs.default.iconSize}",
-                "type": "composition"
+                "width": {
+                  "value": "{sem.input.xs.iconSize}",
+                  "type": "other"
+                },
+                "height": {
+                  "value": "{sem.input.xs.default.iconSize}",
+                  "type": "other"
+                }
               },
               "iconColor": {
-                "fill": "{sem.colorIcon.default}",
-                "type": "composition"
+                "fill": {
+                  "value": "{sem.colorIcon.default}",
+                  "type": "other"
+                }
               },
               "affix": {
-                "typography": "{sem.typography.textStyle.paragraph.strong}",
-                "fill": "{sem.colorText.default}",
-                "type": "composition"
+                "typography": {
+                  "value": "{sem.typography.textStyle.paragraph.strong}",
+                  "type": "other"
+                },
+                "fill": {
+                  "value": "{sem.colorText.default}",
+                  "type": "other"
+                }
               },
               "slotContent": {
                 "text": {
                   "placeholder": {
-                    "typography": "{sem.typography.textStyle.paragraph.default}",
-                    "fill": "{sem.colorText.default}",
-                    "type": "composition"
+                    "typography": {
+                      "value": "{sem.typography.textStyle.paragraph.default}",
+                      "type": "other"
+                    },
+                    "fill": {
+                      "value": "{sem.colorText.default}",
+                      "type": "other"
+                    }
                   },
                   "textValue": {
-                    "typography": "{sem.typography.textStyle.paragraph.strong}",
-                    "fill": "{sem.colorText.default}",
-                    "type": "composition"
+                    "typography": {
+                      "value": "{sem.typography.textStyle.paragraph.strong}",
+                      "type": "other"
+                    },
+                    "fill": {
+                      "value": "{sem.colorText.default}",
+                      "type": "other"
+                    }
                   }
                 }
               }
             },
             "danger": {
               "container": {
-                "itemSapcing": "{sem.input.xs.contrasted.container.spacer}",
-                "type": "composition",
-                "description": "({extends: 'comp.card.xs.contrasted.danger'})"
+                "itemSapcing": {
+                  "value": "{sem.input.xs.contrasted.container.spacer}",
+                  "type": "other"
+                },
+                "description": {
+                  "value": "({extends: 'comp.card.xs.contrasted.danger'})",
+                  "type": "other"
+                }
               },
               "iconSize": {
-                "width": "{sem.input.xs.iconSize}",
-                "height": "{sem.input.xs.default.iconSize}",
-                "type": "composition"
+                "width": {
+                  "value": "{sem.input.xs.iconSize}",
+                  "type": "other"
+                },
+                "height": {
+                  "value": "{sem.input.xs.default.iconSize}",
+                  "type": "other"
+                }
               },
               "iconColor": {
-                "fill": "{sem.colorIcon.default}",
-                "type": "composition"
+                "fill": {
+                  "value": "{sem.colorIcon.default}",
+                  "type": "other"
+                }
               },
               "affix": {
-                "typography": "{sem.typography.textStyle.paragraph.strong}",
-                "fill": "{sem.colorText.default}",
-                "type": "composition"
+                "typography": {
+                  "value": "{sem.typography.textStyle.paragraph.strong}",
+                  "type": "other"
+                },
+                "fill": {
+                  "value": "{sem.colorText.default}",
+                  "type": "other"
+                }
               },
               "slotContent": {
                 "text": {
                   "placeholder": {
-                    "typography": "{sem.typography.textStyle.paragraph.default}",
-                    "fill": "{sem.colorText.default}",
-                    "type": "composition"
+                    "typography": {
+                      "value": "{sem.typography.textStyle.paragraph.default}",
+                      "type": "other"
+                    },
+                    "fill": {
+                      "value": "{sem.colorText.default}",
+                      "type": "other"
+                    }
                   },
                   "textValue": {
-                    "typography": "{sem.typography.textStyle.paragraph.strong}",
-                    "fill": "{sem.colorText.default}",
-                    "type": "composition"
+                    "typography": {
+                      "value": "{sem.typography.textStyle.paragraph.strong}",
+                      "type": "other"
+                    },
+                    "fill": {
+                      "value": "{sem.colorText.default}",
+                      "type": "other"
+                    }
                   }
                 }
               }
             },
             "disabled": {
               "container": {
-                "itemSapcing": "{sem.input.xs.contrasted.container.spacer}",
-                "type": "composition",
-                "description": "({extends: 'comp.card.xs.contrasted.disabled'})"
+                "itemSapcing": {
+                  "value": "{sem.input.xs.contrasted.container.spacer}",
+                  "type": "other"
+                },
+                "description": {
+                  "value": "({extends: 'comp.card.xs.contrasted.disabled'})",
+                  "type": "other"
+                }
               },
               "iconSize": {
-                "width": "{sem.input.xs.iconSize}",
-                "height": "{sem.input.xs.default.iconSize}",
-                "type": "composition"
+                "width": {
+                  "value": "{sem.input.xs.iconSize}",
+                  "type": "other"
+                },
+                "height": {
+                  "value": "{sem.input.xs.default.iconSize}",
+                  "type": "other"
+                }
               },
               "iconColor": {
-                "fill": "{sem.colorIcon.default}",
-                "type": "composition"
+                "fill": {
+                  "value": "{sem.colorIcon.default}",
+                  "type": "other"
+                }
               },
               "affix": {
-                "typography": "{sem.typography.textStyle.paragraph.strong}",
-                "fill": "{sem.colorText.default}",
-                "type": "composition"
+                "typography": {
+                  "value": "{sem.typography.textStyle.paragraph.strong}",
+                  "type": "other"
+                },
+                "fill": {
+                  "value": "{sem.colorText.default}",
+                  "type": "other"
+                }
               },
               "slotContent": {
                 "text": {
                   "placeholder": {
-                    "typography": "{sem.typography.textStyle.paragraph.default}",
-                    "fill": "{sem.colorText.default}",
-                    "type": "composition"
+                    "typography": {
+                      "value": "{sem.typography.textStyle.paragraph.default}",
+                      "type": "other"
+                    },
+                    "fill": {
+                      "value": "{sem.colorText.default}",
+                      "type": "other"
+                    }
                   },
                   "textValue": {
-                    "typography": "{sem.typography.textStyle.paragraph.strong}",
-                    "fill": "{sem.colorText.default}",
-                    "type": "composition"
+                    "typography": {
+                      "value": "{sem.typography.textStyle.paragraph.strong}",
+                      "type": "other"
+                    },
+                    "fill": {
+                      "value": "{sem.colorText.default}",
+                      "type": "other"
+                    }
                   }
                 }
               }
@@ -6211,210 +6535,372 @@
           "uncontrasted": {
             "default": {
               "container": {
-                "itemSapcing": "{sem.input.sm.uncontrasted.container.spacer}",
-                "type": "composition",
-                "description": "({extends: 'comp.card.sm.uncontrasted.default'})"
+                "itemSapcing": {
+                  "value": "{sem.input.sm.uncontrasted.container.spacer}",
+                  "type": "other"
+                },
+                "description": {
+                  "value": "({extends: 'comp.card.sm.uncontrasted.default'})",
+                  "type": "other"
+                }
               },
               "iconSize": {
-                "width": "{sem.input.sm.iconSize}",
-                "height": "{sem.input.sm.default.iconSize}",
-                "type": "composition"
+                "width": {
+                  "value": "{sem.input.sm.iconSize}",
+                  "type": "other"
+                },
+                "height": {
+                  "value": "{sem.input.sm.default.iconSize}",
+                  "type": "other"
+                }
               },
               "iconColor": {
-                "fill": "{sem.colorIcon.default}",
-                "type": "composition"
+                "fill": {
+                  "value": "{sem.colorIcon.default}",
+                  "type": "other"
+                }
               },
               "affix": {
-                "typography": "{sem.typography.textStyle.paragraph.strong}",
-                "fill": "{sem.colorText.default}",
-                "type": "composition"
+                "typography": {
+                  "value": "{sem.typography.textStyle.paragraph.strong}",
+                  "type": "other"
+                },
+                "fill": {
+                  "value": "{sem.colorText.default}",
+                  "type": "other"
+                }
               },
               "slotContent": {
                 "text": {
                   "placeholder": {
-                    "typography": "{sem.typography.textStyle.paragraph.default}",
-                    "fill": "{sem.colorText.default}",
-                    "type": "composition"
+                    "typography": {
+                      "value": "{sem.typography.textStyle.paragraph.default}",
+                      "type": "other"
+                    },
+                    "fill": {
+                      "value": "{sem.colorText.default}",
+                      "type": "other"
+                    }
                   },
                   "textValue": {
-                    "typography": "{sem.typography.textStyle.paragraph.strong}",
-                    "fill": "{sem.colorText.default}",
-                    "type": "composition"
+                    "typography": {
+                      "value": "{sem.typography.textStyle.paragraph.strong}",
+                      "type": "other"
+                    },
+                    "fill": {
+                      "value": "{sem.colorText.default}",
+                      "type": "other"
+                    }
                   }
                 }
               }
             },
             "hover": {
               "container": {
-                "itemSapcing": "{sem.input.sm.uncontrasted.container.spacer}",
-                "type": "composition",
-                "description": "({extends: 'comp.card.sm.uncontrasted.hover'})"
+                "itemSapcing": {
+                  "value": "{sem.input.sm.uncontrasted.container.spacer}",
+                  "type": "other"
+                },
+                "description": {
+                  "value": "({extends: 'comp.card.sm.uncontrasted.hover'})",
+                  "type": "other"
+                }
               },
               "iconSize": {
-                "width": "{sem.input.sm.iconSize}",
-                "height": "{sem.input.sm.default.iconSize}",
-                "type": "composition"
+                "width": {
+                  "value": "{sem.input.sm.iconSize}",
+                  "type": "other"
+                },
+                "height": {
+                  "value": "{sem.input.sm.default.iconSize}",
+                  "type": "other"
+                }
               },
               "iconColor": {
-                "fill": "{sem.colorIcon.default}",
-                "type": "composition"
+                "fill": {
+                  "value": "{sem.colorIcon.default}",
+                  "type": "other"
+                }
               },
               "affix": {
-                "typography": "{sem.typography.textStyle.paragraph.strong}",
-                "fill": "{sem.colorText.default}",
-                "type": "composition"
+                "typography": {
+                  "value": "{sem.typography.textStyle.paragraph.strong}",
+                  "type": "other"
+                },
+                "fill": {
+                  "value": "{sem.colorText.default}",
+                  "type": "other"
+                }
               },
               "slotContent": {
                 "text": {
                   "placeholder": {
-                    "typography": "{sem.typography.textStyle.paragraph.default}",
-                    "fill": "{sem.colorText.default}",
-                    "type": "composition"
+                    "typography": {
+                      "value": "{sem.typography.textStyle.paragraph.default}",
+                      "type": "other"
+                    },
+                    "fill": {
+                      "value": "{sem.colorText.default}",
+                      "type": "other"
+                    }
                   },
                   "textValue": {
-                    "typography": "{sem.typography.textStyle.paragraph.strong}",
-                    "fill": "{sem.colorText.default}",
-                    "type": "composition"
+                    "typography": {
+                      "value": "{sem.typography.textStyle.paragraph.strong}",
+                      "type": "other"
+                    },
+                    "fill": {
+                      "value": "{sem.colorText.default}",
+                      "type": "other"
+                    }
                   }
                 }
               }
             },
             "pressed": {
               "container": {
-                "itemSapcing": "{sem.input.sm.uncontrasted.container.spacer}",
-                "type": "composition",
-                "description": "({extends: 'comp.card.sm.uncontrasted.pressed'})"
+                "itemSapcing": {
+                  "value": "{sem.input.sm.uncontrasted.container.spacer}",
+                  "type": "other"
+                },
+                "description": {
+                  "value": "({extends: 'comp.card.sm.uncontrasted.pressed'})",
+                  "type": "other"
+                }
               },
               "iconSize": {
-                "width": "{sem.input.sm.iconSize}",
-                "height": "{sem.input.sm.default.iconSize}",
-                "type": "composition"
+                "width": {
+                  "value": "{sem.input.sm.iconSize}",
+                  "type": "other"
+                },
+                "height": {
+                  "value": "{sem.input.sm.default.iconSize}",
+                  "type": "other"
+                }
               },
               "iconColor": {
-                "fill": "{sem.colorIcon.default}",
-                "type": "composition"
+                "fill": {
+                  "value": "{sem.colorIcon.default}",
+                  "type": "other"
+                }
               },
               "affix": {
-                "typography": "{sem.typography.textStyle.paragraph.strong}",
-                "fill": "{sem.colorText.default}",
-                "type": "composition"
+                "typography": {
+                  "value": "{sem.typography.textStyle.paragraph.strong}",
+                  "type": "other"
+                },
+                "fill": {
+                  "value": "{sem.colorText.default}",
+                  "type": "other"
+                }
               },
               "slotContent": {
                 "text": {
                   "placeholder": {
-                    "typography": "{sem.typography.textStyle.paragraph.default}",
-                    "fill": "{sem.colorText.default}",
-                    "type": "composition"
+                    "typography": {
+                      "value": "{sem.typography.textStyle.paragraph.default}",
+                      "type": "other"
+                    },
+                    "fill": {
+                      "value": "{sem.colorText.default}",
+                      "type": "other"
+                    }
                   },
                   "textValue": {
-                    "typography": "{sem.typography.textStyle.paragraph.strong}",
-                    "fill": "{sem.colorText.default}",
-                    "type": "composition"
+                    "typography": {
+                      "value": "{sem.typography.textStyle.paragraph.strong}",
+                      "type": "other"
+                    },
+                    "fill": {
+                      "value": "{sem.colorText.default}",
+                      "type": "other"
+                    }
                   }
                 }
               }
             },
             "active": {
               "container": {
-                "itemSapcing": "{sem.input.sm.uncontrasted.container.spacer}",
-                "type": "composition",
-                "description": "({extends: 'comp.card.sm.uncontrasted.active'})"
+                "itemSapcing": {
+                  "value": "{sem.input.sm.uncontrasted.container.spacer}",
+                  "type": "other"
+                },
+                "description": {
+                  "value": "({extends: 'comp.card.sm.uncontrasted.active'})",
+                  "type": "other"
+                }
               },
               "iconSize": {
-                "width": "{sem.input.sm.iconSize}",
-                "height": "{sem.input.sm.default.iconSize}",
-                "type": "composition"
+                "width": {
+                  "value": "{sem.input.sm.iconSize}",
+                  "type": "other"
+                },
+                "height": {
+                  "value": "{sem.input.sm.default.iconSize}",
+                  "type": "other"
+                }
               },
               "iconColor": {
-                "fill": "{sem.colorIcon.default}",
-                "type": "composition"
+                "fill": {
+                  "value": "{sem.colorIcon.default}",
+                  "type": "other"
+                }
               },
               "affix": {
-                "typography": "{sem.typography.textStyle.paragraph.strong}",
-                "fill": "{sem.colorText.default}",
-                "type": "composition"
+                "typography": {
+                  "value": "{sem.typography.textStyle.paragraph.strong}",
+                  "type": "other"
+                },
+                "fill": {
+                  "value": "{sem.colorText.default}",
+                  "type": "other"
+                }
               },
               "slotContent": {
                 "text": {
                   "placeholder": {
-                    "typography": "{sem.typography.textStyle.paragraph.default}",
-                    "fill": "{sem.colorText.default}",
-                    "type": "composition"
+                    "typography": {
+                      "value": "{sem.typography.textStyle.paragraph.default}",
+                      "type": "other"
+                    },
+                    "fill": {
+                      "value": "{sem.colorText.default}",
+                      "type": "other"
+                    }
                   },
                   "textValue": {
-                    "typography": "{sem.typography.textStyle.paragraph.strong}",
-                    "fill": "{sem.colorText.default}",
-                    "type": "composition"
+                    "typography": {
+                      "value": "{sem.typography.textStyle.paragraph.strong}",
+                      "type": "other"
+                    },
+                    "fill": {
+                      "value": "{sem.colorText.default}",
+                      "type": "other"
+                    }
                   }
                 }
               }
             },
             "danger": {
               "container": {
-                "itemSapcing": "{sem.input.sm.uncontrasted.container.spacer}",
-                "type": "composition",
-                "description": "({extends: 'comp.card.sm.uncontrasted.danger'})"
+                "itemSapcing": {
+                  "value": "{sem.input.sm.uncontrasted.container.spacer}",
+                  "type": "other"
+                },
+                "description": {
+                  "value": "({extends: 'comp.card.sm.uncontrasted.danger'})",
+                  "type": "other"
+                }
               },
               "iconSize": {
-                "width": "{sem.input.sm.iconSize}",
-                "height": "{sem.input.sm.default.iconSize}",
-                "type": "composition"
+                "width": {
+                  "value": "{sem.input.sm.iconSize}",
+                  "type": "other"
+                },
+                "height": {
+                  "value": "{sem.input.sm.default.iconSize}",
+                  "type": "other"
+                }
               },
               "iconColor": {
-                "fill": "{sem.colorIcon.default}",
-                "type": "composition"
+                "fill": {
+                  "value": "{sem.colorIcon.default}",
+                  "type": "other"
+                }
               },
               "affix": {
-                "typography": "{sem.typography.textStyle.paragraph.strong}",
-                "fill": "{sem.colorText.default}",
-                "type": "composition"
+                "typography": {
+                  "value": "{sem.typography.textStyle.paragraph.strong}",
+                  "type": "other"
+                },
+                "fill": {
+                  "value": "{sem.colorText.default}",
+                  "type": "other"
+                }
               },
               "slotContent": {
                 "text": {
                   "placeholder": {
-                    "typography": "{sem.typography.textStyle.paragraph.default}",
-                    "fill": "{sem.colorText.default}",
-                    "type": "composition"
+                    "typography": {
+                      "value": "{sem.typography.textStyle.paragraph.default}",
+                      "type": "other"
+                    },
+                    "fill": {
+                      "value": "{sem.colorText.default}",
+                      "type": "other"
+                    }
                   },
                   "textValue": {
-                    "typography": "{sem.typography.textStyle.paragraph.strong}",
-                    "fill": "{sem.colorText.default}",
-                    "type": "composition"
+                    "typography": {
+                      "value": "{sem.typography.textStyle.paragraph.strong}",
+                      "type": "other"
+                    },
+                    "fill": {
+                      "value": "{sem.colorText.default}",
+                      "type": "other"
+                    }
                   }
                 }
               }
             },
             "disabled": {
               "container": {
-                "itemSapcing": "{sem.input.sm.uncontrasted.container.spacer}",
-                "type": "composition",
-                "description": "({extends: 'comp.card.sm.uncontrasted.disabled'})"
+                "itemSapcing": {
+                  "value": "{sem.input.sm.uncontrasted.container.spacer}",
+                  "type": "other"
+                },
+                "description": {
+                  "value": "({extends: 'comp.card.sm.uncontrasted.disabled'})",
+                  "type": "other"
+                }
               },
               "iconSize": {
-                "width": "{sem.input.sm.iconSize}",
-                "height": "{sem.input.sm.default.iconSize}",
-                "type": "composition"
+                "width": {
+                  "value": "{sem.input.sm.iconSize}",
+                  "type": "other"
+                },
+                "height": {
+                  "value": "{sem.input.sm.default.iconSize}",
+                  "type": "other"
+                }
               },
               "iconColor": {
-                "fill": "{sem.colorIcon.default}",
-                "type": "composition"
+                "fill": {
+                  "value": "{sem.colorIcon.default}",
+                  "type": "other"
+                }
               },
               "affix": {
-                "typography": "{sem.typography.textStyle.paragraph.strong}",
-                "fill": "{sem.colorText.default}",
-                "type": "composition"
+                "typography": {
+                  "value": "{sem.typography.textStyle.paragraph.strong}",
+                  "type": "other"
+                },
+                "fill": {
+                  "value": "{sem.colorText.default}",
+                  "type": "other"
+                }
               },
               "slotContent": {
                 "text": {
                   "placeholder": {
-                    "typography": "{sem.typography.textStyle.paragraph.default}",
-                    "fill": "{sem.colorText.default}",
-                    "type": "composition"
+                    "typography": {
+                      "value": "{sem.typography.textStyle.paragraph.default}",
+                      "type": "other"
+                    },
+                    "fill": {
+                      "value": "{sem.colorText.default}",
+                      "type": "other"
+                    }
                   },
                   "textValue": {
-                    "typography": "{sem.typography.textStyle.paragraph.strong}",
-                    "fill": "{sem.colorText.default}",
-                    "type": "composition"
+                    "typography": {
+                      "value": "{sem.typography.textStyle.paragraph.strong}",
+                      "type": "other"
+                    },
+                    "fill": {
+                      "value": "{sem.colorText.default}",
+                      "type": "other"
+                    }
                   }
                 }
               }
@@ -6423,210 +6909,372 @@
           "contrasted": {
             "default": {
               "container": {
-                "itemSapcing": "{sem.input.sm.contrasted.container.spacer}",
-                "type": "composition",
-                "description": "({extends: 'comp.card.sm.contrasted.default'})"
+                "itemSapcing": {
+                  "value": "{sem.input.sm.contrasted.container.spacer}",
+                  "type": "other"
+                },
+                "description": {
+                  "value": "({extends: 'comp.card.sm.contrasted.default'})",
+                  "type": "other"
+                }
               },
               "iconSize": {
-                "width": "{sem.input.sm.iconSize}",
-                "height": "{sem.input.sm.default.iconSize}",
-                "type": "composition"
+                "width": {
+                  "value": "{sem.input.sm.iconSize}",
+                  "type": "other"
+                },
+                "height": {
+                  "value": "{sem.input.sm.default.iconSize}",
+                  "type": "other"
+                }
               },
               "iconColor": {
-                "fill": "{sem.colorIcon.default}",
-                "type": "composition"
+                "fill": {
+                  "value": "{sem.colorIcon.default}",
+                  "type": "other"
+                }
               },
               "affix": {
-                "typography": "{sem.typography.textStyle.paragraph.strong}",
-                "fill": "{sem.colorText.default}",
-                "type": "composition"
+                "typography": {
+                  "value": "{sem.typography.textStyle.paragraph.strong}",
+                  "type": "other"
+                },
+                "fill": {
+                  "value": "{sem.colorText.default}",
+                  "type": "other"
+                }
               },
               "slotContent": {
                 "text": {
                   "placeholder": {
-                    "typography": "{sem.typography.textStyle.paragraph.default}",
-                    "fill": "{sem.colorText.default}",
-                    "type": "composition"
+                    "typography": {
+                      "value": "{sem.typography.textStyle.paragraph.default}",
+                      "type": "other"
+                    },
+                    "fill": {
+                      "value": "{sem.colorText.default}",
+                      "type": "other"
+                    }
                   },
                   "textValue": {
-                    "typography": "{sem.typography.textStyle.paragraph.strong}",
-                    "fill": "{sem.colorText.default}",
-                    "type": "composition"
+                    "typography": {
+                      "value": "{sem.typography.textStyle.paragraph.strong}",
+                      "type": "other"
+                    },
+                    "fill": {
+                      "value": "{sem.colorText.default}",
+                      "type": "other"
+                    }
                   }
                 }
               }
             },
             "hover": {
               "container": {
-                "itemSapcing": "{sem.input.sm.contrasted.container.spacer}",
-                "type": "composition",
-                "description": "({extends: 'comp.card.sm.contrasted.hover'})"
+                "itemSapcing": {
+                  "value": "{sem.input.sm.contrasted.container.spacer}",
+                  "type": "other"
+                },
+                "description": {
+                  "value": "({extends: 'comp.card.sm.contrasted.hover'})",
+                  "type": "other"
+                }
               },
               "iconSize": {
-                "width": "{sem.input.sm.iconSize}",
-                "height": "{sem.input.sm.default.iconSize}",
-                "type": "composition"
+                "width": {
+                  "value": "{sem.input.sm.iconSize}",
+                  "type": "other"
+                },
+                "height": {
+                  "value": "{sem.input.sm.default.iconSize}",
+                  "type": "other"
+                }
               },
               "iconColor": {
-                "fill": "{sem.colorIcon.default}",
-                "type": "composition"
+                "fill": {
+                  "value": "{sem.colorIcon.default}",
+                  "type": "other"
+                }
               },
               "affix": {
-                "typography": "{sem.typography.textStyle.paragraph.strong}",
-                "fill": "{sem.colorText.default}",
-                "type": "composition"
+                "typography": {
+                  "value": "{sem.typography.textStyle.paragraph.strong}",
+                  "type": "other"
+                },
+                "fill": {
+                  "value": "{sem.colorText.default}",
+                  "type": "other"
+                }
               },
               "slotContent": {
                 "text": {
                   "placeholder": {
-                    "typography": "{sem.typography.textStyle.paragraph.default}",
-                    "fill": "{sem.colorText.default}",
-                    "type": "composition"
+                    "typography": {
+                      "value": "{sem.typography.textStyle.paragraph.default}",
+                      "type": "other"
+                    },
+                    "fill": {
+                      "value": "{sem.colorText.default}",
+                      "type": "other"
+                    }
                   },
                   "textValue": {
-                    "typography": "{sem.typography.textStyle.paragraph.strong}",
-                    "fill": "{sem.colorText.default}",
-                    "type": "composition"
+                    "typography": {
+                      "value": "{sem.typography.textStyle.paragraph.strong}",
+                      "type": "other"
+                    },
+                    "fill": {
+                      "value": "{sem.colorText.default}",
+                      "type": "other"
+                    }
                   }
                 }
               }
             },
             "pressed": {
               "container": {
-                "itemSapcing": "{sem.input.sm.contrasted.container.spacer}",
-                "type": "composition",
-                "description": "({extends: 'comp.card.sm.contrasted.pressed'})"
+                "itemSapcing": {
+                  "value": "{sem.input.sm.contrasted.container.spacer}",
+                  "type": "other"
+                },
+                "description": {
+                  "value": "({extends: 'comp.card.sm.contrasted.pressed'})",
+                  "type": "other"
+                }
               },
               "iconSize": {
-                "width": "{sem.input.sm.iconSize}",
-                "height": "{sem.input.sm.default.iconSize}",
-                "type": "composition"
+                "width": {
+                  "value": "{sem.input.sm.iconSize}",
+                  "type": "other"
+                },
+                "height": {
+                  "value": "{sem.input.sm.default.iconSize}",
+                  "type": "other"
+                }
               },
               "iconColor": {
-                "fill": "{sem.colorIcon.default}",
-                "type": "composition"
+                "fill": {
+                  "value": "{sem.colorIcon.default}",
+                  "type": "other"
+                }
               },
               "affix": {
-                "typography": "{sem.typography.textStyle.paragraph.strong}",
-                "fill": "{sem.colorText.default}",
-                "type": "composition"
+                "typography": {
+                  "value": "{sem.typography.textStyle.paragraph.strong}",
+                  "type": "other"
+                },
+                "fill": {
+                  "value": "{sem.colorText.default}",
+                  "type": "other"
+                }
               },
               "slotContent": {
                 "text": {
                   "placeholder": {
-                    "typography": "{sem.typography.textStyle.paragraph.default}",
-                    "fill": "{sem.colorText.default}",
-                    "type": "composition"
+                    "typography": {
+                      "value": "{sem.typography.textStyle.paragraph.default}",
+                      "type": "other"
+                    },
+                    "fill": {
+                      "value": "{sem.colorText.default}",
+                      "type": "other"
+                    }
                   },
                   "textValue": {
-                    "typography": "{sem.typography.textStyle.paragraph.strong}",
-                    "fill": "{sem.colorText.default}",
-                    "type": "composition"
+                    "typography": {
+                      "value": "{sem.typography.textStyle.paragraph.strong}",
+                      "type": "other"
+                    },
+                    "fill": {
+                      "value": "{sem.colorText.default}",
+                      "type": "other"
+                    }
                   }
                 }
               }
             },
             "active": {
               "container": {
-                "itemSapcing": "{sem.input.sm.contrasted.container.spacer}",
-                "type": "composition",
-                "description": "({extends: 'comp.card.sm.contrasted.active'})"
+                "itemSapcing": {
+                  "value": "{sem.input.sm.contrasted.container.spacer}",
+                  "type": "other"
+                },
+                "description": {
+                  "value": "({extends: 'comp.card.sm.contrasted.active'})",
+                  "type": "other"
+                }
               },
               "iconSize": {
-                "width": "{sem.input.sm.iconSize}",
-                "height": "{sem.input.sm.default.iconSize}",
-                "type": "composition"
+                "width": {
+                  "value": "{sem.input.sm.iconSize}",
+                  "type": "other"
+                },
+                "height": {
+                  "value": "{sem.input.sm.default.iconSize}",
+                  "type": "other"
+                }
               },
               "iconColor": {
-                "fill": "{sem.colorIcon.default}",
-                "type": "composition"
+                "fill": {
+                  "value": "{sem.colorIcon.default}",
+                  "type": "other"
+                }
               },
               "affix": {
-                "typography": "{sem.typography.textStyle.paragraph.strong}",
-                "fill": "{sem.colorText.default}",
-                "type": "composition"
+                "typography": {
+                  "value": "{sem.typography.textStyle.paragraph.strong}",
+                  "type": "other"
+                },
+                "fill": {
+                  "value": "{sem.colorText.default}",
+                  "type": "other"
+                }
               },
               "slotContent": {
                 "text": {
                   "placeholder": {
-                    "typography": "{sem.typography.textStyle.paragraph.default}",
-                    "fill": "{sem.colorText.default}",
-                    "type": "composition"
+                    "typography": {
+                      "value": "{sem.typography.textStyle.paragraph.default}",
+                      "type": "other"
+                    },
+                    "fill": {
+                      "value": "{sem.colorText.default}",
+                      "type": "other"
+                    }
                   },
                   "textValue": {
-                    "typography": "{sem.typography.textStyle.paragraph.strong}",
-                    "fill": "{sem.colorText.default}",
-                    "type": "composition"
+                    "typography": {
+                      "value": "{sem.typography.textStyle.paragraph.strong}",
+                      "type": "other"
+                    },
+                    "fill": {
+                      "value": "{sem.colorText.default}",
+                      "type": "other"
+                    }
                   }
                 }
               }
             },
             "danger": {
               "container": {
-                "itemSapcing": "{sem.input.sm.contrasted.container.spacer}",
-                "type": "composition",
-                "description": "({extends: 'comp.card.sm.contrasted.danger'})"
+                "itemSapcing": {
+                  "value": "{sem.input.sm.contrasted.container.spacer}",
+                  "type": "other"
+                },
+                "description": {
+                  "value": "({extends: 'comp.card.sm.contrasted.danger'})",
+                  "type": "other"
+                }
               },
               "iconSize": {
-                "width": "{sem.input.sm.iconSize}",
-                "height": "{sem.input.sm.default.iconSize}",
-                "type": "composition"
+                "width": {
+                  "value": "{sem.input.sm.iconSize}",
+                  "type": "other"
+                },
+                "height": {
+                  "value": "{sem.input.sm.default.iconSize}",
+                  "type": "other"
+                }
               },
               "iconColor": {
-                "fill": "{sem.colorIcon.default}",
-                "type": "composition"
+                "fill": {
+                  "value": "{sem.colorIcon.default}",
+                  "type": "other"
+                }
               },
               "affix": {
-                "typography": "{sem.typography.textStyle.paragraph.strong}",
-                "fill": "{sem.colorText.default}",
-                "type": "composition"
+                "typography": {
+                  "value": "{sem.typography.textStyle.paragraph.strong}",
+                  "type": "other"
+                },
+                "fill": {
+                  "value": "{sem.colorText.default}",
+                  "type": "other"
+                }
               },
               "slotContent": {
                 "text": {
                   "placeholder": {
-                    "typography": "{sem.typography.textStyle.paragraph.default}",
-                    "fill": "{sem.colorText.default}",
-                    "type": "composition"
+                    "typography": {
+                      "value": "{sem.typography.textStyle.paragraph.default}",
+                      "type": "other"
+                    },
+                    "fill": {
+                      "value": "{sem.colorText.default}",
+                      "type": "other"
+                    }
                   },
                   "textValue": {
-                    "typography": "{sem.typography.textStyle.paragraph.strong}",
-                    "fill": "{sem.colorText.default}",
-                    "type": "composition"
+                    "typography": {
+                      "value": "{sem.typography.textStyle.paragraph.strong}",
+                      "type": "other"
+                    },
+                    "fill": {
+                      "value": "{sem.colorText.default}",
+                      "type": "other"
+                    }
                   }
                 }
               }
             },
             "disabled": {
               "container": {
-                "itemSapcing": "{sem.input.sm.contrasted.container.spacer}",
-                "type": "composition",
-                "description": "({extends: 'comp.card.sm.contrasted.disabled'})"
+                "itemSapcing": {
+                  "value": "{sem.input.sm.contrasted.container.spacer}",
+                  "type": "other"
+                },
+                "description": {
+                  "value": "({extends: 'comp.card.sm.contrasted.disabled'})",
+                  "type": "other"
+                }
               },
               "iconSize": {
-                "width": "{sem.input.sm.iconSize}",
-                "height": "{sem.input.sm.default.iconSize}",
-                "type": "composition"
+                "width": {
+                  "value": "{sem.input.sm.iconSize}",
+                  "type": "other"
+                },
+                "height": {
+                  "value": "{sem.input.sm.default.iconSize}",
+                  "type": "other"
+                }
               },
               "iconColor": {
-                "fill": "{sem.colorIcon.default}",
-                "type": "composition"
+                "fill": {
+                  "value": "{sem.colorIcon.default}",
+                  "type": "other"
+                }
               },
               "affix": {
-                "typography": "{sem.typography.textStyle.paragraph.strong}",
-                "fill": "{sem.colorText.default}",
-                "type": "composition"
+                "typography": {
+                  "value": "{sem.typography.textStyle.paragraph.strong}",
+                  "type": "other"
+                },
+                "fill": {
+                  "value": "{sem.colorText.default}",
+                  "type": "other"
+                }
               },
               "slotContent": {
                 "text": {
                   "placeholder": {
-                    "typography": "{sem.typography.textStyle.paragraph.default}",
-                    "fill": "{sem.colorText.default}",
-                    "type": "composition"
+                    "typography": {
+                      "value": "{sem.typography.textStyle.paragraph.default}",
+                      "type": "other"
+                    },
+                    "fill": {
+                      "value": "{sem.colorText.default}",
+                      "type": "other"
+                    }
                   },
                   "textValue": {
-                    "typography": "{sem.typography.textStyle.paragraph.strong}",
-                    "fill": "{sem.colorText.default}",
-                    "type": "composition"
+                    "typography": {
+                      "value": "{sem.typography.textStyle.paragraph.strong}",
+                      "type": "other"
+                    },
+                    "fill": {
+                      "value": "{sem.colorText.default}",
+                      "type": "other"
+                    }
                   }
                 }
               }
