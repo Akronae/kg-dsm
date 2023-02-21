@@ -7654,6 +7654,14 @@
         "iconSize": {
           "value": "{ref.sizing.200}",
           "type": "sizing"
+        },
+        "slotContent": {
+          "chips": {
+            "spacer": {
+              "value": "{ref.spacing.100}",
+              "type": "spacing"
+            }
+          }
         }
       },
       "sm": {
@@ -7672,6 +7680,14 @@
         "iconSize": {
           "value": "{ref.sizing.100}",
           "type": "sizing"
+        },
+        "slotContent": {
+          "chips": {
+            "spacer": {
+              "value": "{ref.spacing.100}",
+              "type": "spacing"
+            }
+          }
         }
       }
     }
