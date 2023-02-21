@@ -1075,6 +1075,14 @@
         "type": "sizing",
         "description": "max width"
       }
+    },
+    "borderWidth": {
+      "icon": {
+        "sm": {
+          "value": "2,5px",
+          "type": "borderWidth"
+        }
+      }
     }
   }
 }

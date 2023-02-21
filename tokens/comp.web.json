@@ -5688,11 +5688,11 @@
           },
           "active": {
             "value": {
-              "horizontalPadding": "{ref.spacing.200}",
-              "verticalPadding": "{ref.spacing.200}",
+              "horizontalPadding": "{ref.spacing.150}",
+              "verticalPadding": "{ref.spacing.150}",
               "border": "{sem.border.active}",
-              "borderRadius": "{ref.borderRadius.400}",
-              "fill": "{sem.colorSurface.light}"
+              "borderRadius": "{ref.borderRadius.300}",
+              "fill": "{sem.colorSurface.sub}"
             },
             "type": "composition"
           },
