@@ -5952,7 +5952,8 @@
                   "horizontalPadding": "{ref.spacing.150}",
                   "verticalPadding": "{ref.spacing.150}",
                   "fill": "{sem.colorSurface.light}",
-                  "borderRadius": "{ref.borderRadius.300}"
+                  "borderRadius": "{ref.borderRadius.300}",
+                  "itemSpacing": "{sem.input.sm.container.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.card.xs.uncontrasted.default'})"
@@ -5994,6 +5995,17 @@
                     "type": "composition"
                   }
                 }
+              },
+              "fieldWrapper": {
+                "value": {
+                  "itemSpacing": "{sem.input.sm.fieldWrapper.spacer}",
+                  "horizontalPadding": "{ref.spacing.150}",
+                  "verticalPadding": "{ref.spacing.150}",
+                  "fill": "{sem.colorSurface.light}",
+                  "borderRadius": "{ref.borderRadius.300}"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.card.xs.uncontrasted.default'})"
               }
             },
             "hover": {
@@ -6004,7 +6016,8 @@
                   "verticalPadding": "{ref.spacing.150}",
                   "fill": "{sem.colorSurface.light}",
                   "borderRadius": "{ref.borderRadius.300}",
-                  "boxShadow": "{ref.effects.dropShadow.200}"
+                  "boxShadow": "{ref.effects.dropShadow.200}",
+                  "itemSpacing": "{sem.input.sm.container.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.card.xs.uncontrasted.hover'})"
@@ -6046,6 +6059,18 @@
                     "type": "composition"
                   }
                 }
+              },
+              "fieldWrapper": {
+                "value": {
+                  "itemSpacing": "{sem.input.sm.fieldWrapper.spacer}",
+                  "horizontalPadding": "{ref.spacing.150}",
+                  "verticalPadding": "{ref.spacing.150}",
+                  "fill": "{sem.colorSurface.light}",
+                  "borderRadius": "{ref.borderRadius.300}",
+                  "boxShadow": "{ref.effects.dropShadow.200}"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.card.xs.uncontrasted.hover'})"
               }
             },
             "pressed": {
@@ -6056,7 +6081,8 @@
                   "verticalPadding": "{ref.spacing.150}",
                   "fill": "{sem.colorSurface.light}",
                   "borderRadius": "{ref.borderRadius.300}",
-                  "boxShadow": "{ref.effects.dropShadow.50}"
+                  "boxShadow": "{ref.effects.dropShadow.50}",
+                  "itemSpacing": "{sem.input.sm.container.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.card.xs.uncontrasted.pressed'})"
@@ -6098,6 +6124,18 @@
                     "type": "composition"
                   }
                 }
+              },
+              "fieldWrapper": {
+                "value": {
+                  "itemSpacing": "{sem.input.sm.fieldWrapper.spacer}",
+                  "horizontalPadding": "{ref.spacing.150}",
+                  "verticalPadding": "{ref.spacing.150}",
+                  "fill": "{sem.colorSurface.light}",
+                  "borderRadius": "{ref.borderRadius.300}",
+                  "boxShadow": "{ref.effects.dropShadow.50}"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.card.xs.uncontrasted.pressed'})"
               }
             },
             "active": {
@@ -6108,7 +6146,8 @@
                   "verticalPadding": "{ref.spacing.150}",
                   "border": "{sem.border.active}",
                   "borderRadius": "{ref.borderRadius.300}",
-                  "fill": "{sem.colorSurface.light}"
+                  "fill": "{sem.colorSurface.light}",
+                  "itemSpacing": "{sem.input.sm.container.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.card.xs.uncontrasted.active'})"
@@ -6150,6 +6189,18 @@
                     "type": "composition"
                   }
                 }
+              },
+              "fieldWrapper": {
+                "value": {
+                  "itemSpacing": "{sem.input.sm.fieldWrapper.spacer}",
+                  "horizontalPadding": "{ref.spacing.150}",
+                  "verticalPadding": "{ref.spacing.150}",
+                  "border": "{sem.border.active}",
+                  "borderRadius": "{ref.borderRadius.300}",
+                  "fill": "{sem.colorSurface.light}"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.card.xs.uncontrasted.active'})"
               }
             },
             "danger": {
@@ -6160,7 +6211,8 @@
                   "verticalPadding": "{ref.spacing.150}",
                   "fill": "{sem.colorSurface.light}",
                   "borderRadius": "{ref.borderRadius.300}",
-                  "border": "{sem.border.danger}"
+                  "border": "{sem.border.danger}",
+                  "itemSpacing": "{sem.input.sm.container.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.card.xs.uncontrasted.danger'})"
@@ -6174,14 +6226,14 @@
               },
               "iconColor": {
                 "value": {
-                  "fill": "{sem.colorIcon.default}"
+                  "fill": "{sem.colorIcon.danger}"
                 },
                 "type": "composition"
               },
               "affix": {
                 "value": {
                   "typography": "{sem.typography.textStyle.paragraph.sm.strong}",
-                  "fill": "{sem.colorText.diminish}"
+                  "fill": "{sem.colorText.danger}"
                 },
                 "type": "composition"
               },
@@ -6190,18 +6242,30 @@
                   "placeholder": {
                     "value": {
                       "typography": "{sem.typography.textStyle.paragraph.sm.default}",
-                      "fill": "{sem.colorText.diminish}"
+                      "fill": "{sem.colorText.danger}"
                     },
                     "type": "composition"
                   },
                   "textValue": {
                     "value": {
                       "typography": "{sem.typography.textStyle.paragraph.sm.strong}",
-                      "fill": "{sem.colorText.dark}"
+                      "fill": "{sem.colorText.danger}"
                     },
                     "type": "composition"
                   }
                 }
+              },
+              "fieldWrapper": {
+                "value": {
+                  "itemSpacing": "{sem.input.sm.fieldWrapper.spacer}",
+                  "horizontalPadding": "{ref.spacing.150}",
+                  "verticalPadding": "{ref.spacing.150}",
+                  "fill": "{sem.colorSurface.light}",
+                  "borderRadius": "{ref.borderRadius.300}",
+                  "border": "{sem.border.danger}"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.card.xs.uncontrasted.danger'})"
               }
             },
             "disabled": {
@@ -6211,7 +6275,8 @@
                   "horizontalPadding": "{ref.spacing.150}",
                   "verticalPadding": "{ref.spacing.150}",
                   "fill": "{sem.colorSurface.disabled}",
-                  "borderRadius": "{ref.borderRadius.300}"
+                  "borderRadius": "{ref.borderRadius.300}",
+                  "itemSpacing": "{sem.input.sm.container.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.card.xs.uncontrasted.disabled'})"
@@ -6253,6 +6318,17 @@
                     "type": "composition"
                   }
                 }
+              },
+              "fieldWrapper": {
+                "value": {
+                  "itemSpacing": "{sem.input.sm.fieldWrapper.spacer}",
+                  "horizontalPadding": "{ref.spacing.150}",
+                  "verticalPadding": "{ref.spacing.150}",
+                  "fill": "{sem.colorSurface.disabled}",
+                  "borderRadius": "{ref.borderRadius.300}"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.card.xs.uncontrasted.disabled'})"
               }
             }
           },
@@ -6265,7 +6341,8 @@
                   "verticalPadding": "{ref.spacing.150}",
                   "fill": "{sem.colorSurface.sub}",
                   "borderRadius": "{ref.borderRadius.300}",
-                  "border": "{sem.borderInteractive.default}"
+                  "border": "{sem.borderInteractive.default}",
+                  "itemSpacing": "{sem.input.sm.container.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.card.xs.contrasted.default'})"
@@ -6307,6 +6384,18 @@
                     "type": "composition"
                   }
                 }
+              },
+              "fieldWrapper": {
+                "value": {
+                  "itemSpacing": "{sem.input.sm.fieldWrapper.spacer}",
+                  "horizontalPadding": "{ref.spacing.150}",
+                  "verticalPadding": "{ref.spacing.150}",
+                  "fill": "{sem.colorSurface.sub}",
+                  "borderRadius": "{ref.borderRadius.300}",
+                  "border": "{sem.borderInteractive.default}"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.card.xs.contrasted.default'})"
               }
             },
             "hover": {
@@ -6317,7 +6406,8 @@
                   "verticalPadding": "{ref.spacing.150}",
                   "fill": "{sem.colorSurface.sub}",
                   "borderRadius": "{ref.borderRadius.300}",
-                  "border": "{sem.borderInteractive.hover}"
+                  "border": "{sem.borderInteractive.hover}",
+                  "itemSpacing": "{sem.input.sm.container.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.card.xs.contrasted.hover'})"
@@ -6359,6 +6449,18 @@
                     "type": "composition"
                   }
                 }
+              },
+              "fieldWrapper": {
+                "value": {
+                  "itemSpacing": "{sem.input.sm.fieldWrapper.spacer}",
+                  "horizontalPadding": "{ref.spacing.150}",
+                  "verticalPadding": "{ref.spacing.150}",
+                  "fill": "{sem.colorSurface.sub}",
+                  "borderRadius": "{ref.borderRadius.300}",
+                  "border": "{sem.borderInteractive.hover}"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.card.xs.contrasted.hover'})"
               }
             },
             "pressed": {
@@ -6369,7 +6471,8 @@
                   "verticalPadding": "{ref.spacing.150}",
                   "fill": "{sem.colorSurface.sub}",
                   "borderRadius": "{ref.borderRadius.300}",
-                  "border": "{sem.borderInteractive.pressed}"
+                  "border": "{sem.borderInteractive.pressed}",
+                  "itemSpacing": "{sem.input.sm.container.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.card.xs.contrasted.pressed'})"
@@ -6411,6 +6514,18 @@
                     "type": "composition"
                   }
                 }
+              },
+              "fieldWrapper": {
+                "value": {
+                  "itemSpacing": "{sem.input.sm.fieldWrapper.spacer}",
+                  "horizontalPadding": "{ref.spacing.150}",
+                  "verticalPadding": "{ref.spacing.150}",
+                  "fill": "{sem.colorSurface.sub}",
+                  "borderRadius": "{ref.borderRadius.300}",
+                  "border": "{sem.borderInteractive.pressed}"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.card.xs.contrasted.pressed'})"
               }
             },
             "active": {
@@ -6421,7 +6536,8 @@
                   "verticalPadding": "{ref.spacing.200}",
                   "border": "{sem.border.active}",
                   "borderRadius": "{ref.borderRadius.400}",
-                  "fill": "{sem.colorSurface.light}"
+                  "fill": "{sem.colorSurface.light}",
+                  "itemSpacing": "{sem.input.sm.container.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.card.xs.contrasted.active'})"
@@ -6463,6 +6579,18 @@
                     "type": "composition"
                   }
                 }
+              },
+              "fieldWrapper": {
+                "value": {
+                  "itemSpacing": "{sem.input.sm.fieldWrapper.spacer}",
+                  "horizontalPadding": "{ref.spacing.200}",
+                  "verticalPadding": "{ref.spacing.200}",
+                  "border": "{sem.border.active}",
+                  "borderRadius": "{ref.borderRadius.400}",
+                  "fill": "{sem.colorSurface.light}"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.card.xs.contrasted.active'})"
               }
             },
             "danger": {
@@ -6473,7 +6601,8 @@
                   "verticalPadding": "{ref.spacing.150}",
                   "fill": "{sem.colorSurface.sub}",
                   "borderRadius": "{ref.borderRadius.300}",
-                  "border": "{sem.border.danger}"
+                  "border": "{sem.border.danger}",
+                  "itemSpacing": "{sem.input.sm.container.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.card.xs.contrasted.danger'})"
@@ -6487,14 +6616,14 @@
               },
               "iconColor": {
                 "value": {
-                  "fill": "{sem.colorIcon.default}"
+                  "fill": "{sem.colorIcon.danger}"
                 },
                 "type": "composition"
               },
               "affix": {
                 "value": {
                   "typography": "{sem.typography.textStyle.paragraph.sm.strong}",
-                  "fill": "{sem.colorText.diminish}"
+                  "fill": "{sem.colorText.danger}"
                 },
                 "type": "composition"
               },
@@ -6503,18 +6632,30 @@
                   "placeholder": {
                     "value": {
                       "typography": "{sem.typography.textStyle.paragraph.sm.default}",
-                      "fill": "{sem.colorText.diminish}"
+                      "fill": "{sem.colorText.danger}"
                     },
                     "type": "composition"
                   },
                   "textValue": {
                     "value": {
                       "typography": "{sem.typography.textStyle.paragraph.sm.strong}",
-                      "fill": "{sem.colorText.dark}"
+                      "fill": "{sem.colorText.danger}"
                     },
                     "type": "composition"
                   }
                 }
+              },
+              "fieldWrapper": {
+                "value": {
+                  "itemSpacing": "{sem.input.sm.fieldWrapper.spacer}",
+                  "horizontalPadding": "{ref.spacing.150}",
+                  "verticalPadding": "{ref.spacing.150}",
+                  "fill": "{sem.colorSurface.sub}",
+                  "borderRadius": "{ref.borderRadius.300}",
+                  "border": "{sem.border.danger}"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.card.xs.contrasted.danger'})"
               }
             },
             "disabled": {
@@ -6525,7 +6666,8 @@
                   "verticalPadding": "{ref.spacing.150}",
                   "fill": "{sem.colorSurface.disabled}",
                   "borderRadius": "{ref.borderRadius.300}",
-                  "border": "{sem.borderInteractive.disabled}"
+                  "border": "{sem.borderInteractive.disabled}",
+                  "itemSpacing": "{sem.input.sm.container.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.card.xs.contrasted.disabled'})"
@@ -6567,6 +6709,18 @@
                     "type": "composition"
                   }
                 }
+              },
+              "fieldWrapper": {
+                "value": {
+                  "itemSpacing": "{sem.input.sm.fieldWrapper.spacer}",
+                  "horizontalPadding": "{ref.spacing.150}",
+                  "verticalPadding": "{ref.spacing.150}",
+                  "fill": "{sem.colorSurface.disabled}",
+                  "borderRadius": "{ref.borderRadius.300}",
+                  "border": "{sem.borderInteractive.disabled}"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.card.xs.contrasted.disabled'})"
               }
             }
           }
@@ -6580,7 +6734,8 @@
                   "horizontalPadding": "{ref.spacing.150}",
                   "verticalPadding": "{ref.spacing.150}",
                   "fill": "{sem.colorSurface.light}",
-                  "borderRadius": "{ref.borderRadius.300}"
+                  "borderRadius": "{ref.borderRadius.300}",
+                  "itemSpacing": "{sem.input.md.container.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.card.sm.uncontrasted.default'})"
@@ -6622,6 +6777,17 @@
                     "type": "composition"
                   }
                 }
+              },
+              "fieldWrapper": {
+                "value": {
+                  "itemSpacing": "{sem.input.md.fieldWrapper.spacer}",
+                  "horizontalPadding": "{ref.spacing.150}",
+                  "verticalPadding": "{ref.spacing.150}",
+                  "fill": "{sem.colorSurface.light}",
+                  "borderRadius": "{ref.borderRadius.300}"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.card.sm.uncontrasted.default'})"
               }
             },
             "hover": {
@@ -6632,7 +6798,8 @@
                   "verticalPadding": "{ref.spacing.150}",
                   "fill": "{sem.colorSurface.light}",
                   "borderRadius": "{ref.borderRadius.300}",
-                  "boxShadow": "{ref.effects.dropShadow.200}"
+                  "boxShadow": "{ref.effects.dropShadow.200}",
+                  "itemSpacing": "{sem.input.md.container.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.card.sm.uncontrasted.hover'})"
@@ -6674,6 +6841,18 @@
                     "type": "composition"
                   }
                 }
+              },
+              "fieldWrapper": {
+                "value": {
+                  "itemSpacing": "{sem.input.md.fieldWrapper.spacer}",
+                  "horizontalPadding": "{ref.spacing.150}",
+                  "verticalPadding": "{ref.spacing.150}",
+                  "fill": "{sem.colorSurface.light}",
+                  "borderRadius": "{ref.borderRadius.300}",
+                  "boxShadow": "{ref.effects.dropShadow.200}"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.card.sm.uncontrasted.hover'})"
               }
             },
             "pressed": {
@@ -6684,7 +6863,8 @@
                   "verticalPadding": "{ref.spacing.150}",
                   "fill": "{sem.colorSurface.light}",
                   "borderRadius": "{ref.borderRadius.300}",
-                  "boxShadow": "{ref.effects.dropShadow.50}"
+                  "boxShadow": "{ref.effects.dropShadow.50}",
+                  "itemSpacing": "{sem.input.md.container.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.card.sm.uncontrasted.pressed'})"
@@ -6726,6 +6906,18 @@
                     "type": "composition"
                   }
                 }
+              },
+              "fieldWrapper": {
+                "value": {
+                  "itemSpacing": "{sem.input.md.fieldWrapper.spacer}",
+                  "horizontalPadding": "{ref.spacing.150}",
+                  "verticalPadding": "{ref.spacing.150}",
+                  "fill": "{sem.colorSurface.light}",
+                  "borderRadius": "{ref.borderRadius.300}",
+                  "boxShadow": "{ref.effects.dropShadow.50}"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.card.sm.uncontrasted.pressed'})"
               }
             },
             "active": {
@@ -6736,7 +6928,8 @@
                   "verticalPadding": "{ref.spacing.150}",
                   "border": "{sem.border.active}",
                   "borderRadius": "{ref.borderRadius.300}",
-                  "fill": "{sem.colorSurface.light}"
+                  "fill": "{sem.colorSurface.light}",
+                  "itemSpacing": "{sem.input.md.container.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.card.sm.uncontrasted.active'})"
@@ -6778,6 +6971,18 @@
                     "type": "composition"
                   }
                 }
+              },
+              "fieldWrapper": {
+                "value": {
+                  "itemSpacing": "{sem.input.md.fieldWrapper.spacer}",
+                  "horizontalPadding": "{ref.spacing.150}",
+                  "verticalPadding": "{ref.spacing.150}",
+                  "border": "{sem.border.active}",
+                  "borderRadius": "{ref.borderRadius.300}",
+                  "fill": "{sem.colorSurface.light}"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.card.sm.uncontrasted.active'})"
               }
             },
             "danger": {
@@ -6788,7 +6993,8 @@
                   "verticalPadding": "{ref.spacing.150}",
                   "fill": "{sem.colorSurface.light}",
                   "borderRadius": "{ref.borderRadius.300}",
-                  "border": "{sem.border.danger}"
+                  "border": "{sem.border.danger}",
+                  "itemSpacing": "{sem.input.md.container.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.card.sm.uncontrasted.danger'})"
@@ -6802,14 +7008,14 @@
               },
               "iconColor": {
                 "value": {
-                  "fill": "{sem.colorIcon.default}"
+                  "fill": "{sem.colorIcon.danger}"
                 },
                 "type": "composition"
               },
               "affix": {
                 "value": {
                   "typography": "{sem.typography.textStyle.paragraph.md.strong}",
-                  "fill": "{sem.colorText.diminish}"
+                  "fill": "{sem.colorText.danger}"
                 },
                 "type": "composition"
               },
@@ -6818,18 +7024,30 @@
                   "placeholder": {
                     "value": {
                       "typography": "{sem.typography.textStyle.paragraph.md.default}",
-                      "fill": "{sem.colorText.diminish}"
+                      "fill": "{sem.colorText.danger}"
                     },
                     "type": "composition"
                   },
                   "textValue": {
                     "value": {
                       "typography": "{sem.typography.textStyle.paragraph.md.strong}",
-                      "fill": "{sem.colorText.dark}"
+                      "fill": "{sem.colorText.danger}"
                     },
                     "type": "composition"
                   }
                 }
+              },
+              "fieldWrapper": {
+                "value": {
+                  "itemSpacing": "{sem.input.md.fieldWrapper.spacer}",
+                  "horizontalPadding": "{ref.spacing.150}",
+                  "verticalPadding": "{ref.spacing.150}",
+                  "fill": "{sem.colorSurface.light}",
+                  "borderRadius": "{ref.borderRadius.300}",
+                  "border": "{sem.border.danger}"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.card.sm.uncontrasted.danger'})"
               }
             },
             "disabled": {
@@ -6839,7 +7057,8 @@
                   "horizontalPadding": "{ref.spacing.150}",
                   "verticalPadding": "{ref.spacing.150}",
                   "fill": "{sem.colorSurface.disabled}",
-                  "borderRadius": "{ref.borderRadius.300}"
+                  "borderRadius": "{ref.borderRadius.300}",
+                  "itemSpacing": "{sem.input.md.container.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.card.sm.uncontrasted.disabled'})"
@@ -6881,6 +7100,17 @@
                     "type": "composition"
                   }
                 }
+              },
+              "fieldWrapper": {
+                "value": {
+                  "itemSpacing": "{sem.input.md.fieldWrapper.spacer}",
+                  "horizontalPadding": "{ref.spacing.150}",
+                  "verticalPadding": "{ref.spacing.150}",
+                  "fill": "{sem.colorSurface.disabled}",
+                  "borderRadius": "{ref.borderRadius.300}"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.card.sm.uncontrasted.disabled'})"
               }
             }
           },
@@ -6893,7 +7123,8 @@
                   "verticalPadding": "{ref.spacing.150}",
                   "fill": "{sem.colorSurface.sub}",
                   "borderRadius": "{ref.borderRadius.300}",
-                  "border": "{sem.borderInteractive.default}"
+                  "border": "{sem.borderInteractive.default}",
+                  "itemSpacing": "{sem.input.md.container.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.card.sm.contrasted.default'})"
@@ -6935,6 +7166,18 @@
                     "type": "composition"
                   }
                 }
+              },
+              "fieldWrapper": {
+                "value": {
+                  "itemSpacing": "{sem.input.md.fieldWrapper.spacer}",
+                  "horizontalPadding": "{ref.spacing.150}",
+                  "verticalPadding": "{ref.spacing.150}",
+                  "fill": "{sem.colorSurface.sub}",
+                  "borderRadius": "{ref.borderRadius.300}",
+                  "border": "{sem.borderInteractive.default}"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.card.sm.contrasted.default'})"
               }
             },
             "hover": {
@@ -6945,7 +7188,8 @@
                   "verticalPadding": "{ref.spacing.150}",
                   "fill": "{sem.colorSurface.sub}",
                   "borderRadius": "{ref.borderRadius.300}",
-                  "border": "{sem.borderInteractive.hover}"
+                  "border": "{sem.borderInteractive.hover}",
+                  "itemSpacing": "{sem.input.md.container.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.card.sm.contrasted.hover'})"
@@ -6987,6 +7231,18 @@
                     "type": "composition"
                   }
                 }
+              },
+              "fieldWrapper": {
+                "value": {
+                  "itemSpacing": "{sem.input.md.fieldWrapper.spacer}",
+                  "horizontalPadding": "{ref.spacing.150}",
+                  "verticalPadding": "{ref.spacing.150}",
+                  "fill": "{sem.colorSurface.sub}",
+                  "borderRadius": "{ref.borderRadius.300}",
+                  "border": "{sem.borderInteractive.hover}"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.card.sm.contrasted.hover'})"
               }
             },
             "pressed": {
@@ -6997,7 +7253,8 @@
                   "verticalPadding": "{ref.spacing.150}",
                   "fill": "{sem.colorSurface.sub}",
                   "borderRadius": "{ref.borderRadius.300}",
-                  "border": "{sem.borderInteractive.pressed}"
+                  "border": "{sem.borderInteractive.pressed}",
+                  "itemSpacing": "{sem.input.md.container.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.card.sm.contrasted.pressed'})"
@@ -7039,6 +7296,18 @@
                     "type": "composition"
                   }
                 }
+              },
+              "fieldWrapper": {
+                "value": {
+                  "itemSpacing": "{sem.input.md.fieldWrapper.spacer}",
+                  "horizontalPadding": "{ref.spacing.150}",
+                  "verticalPadding": "{ref.spacing.150}",
+                  "fill": "{sem.colorSurface.sub}",
+                  "borderRadius": "{ref.borderRadius.300}",
+                  "border": "{sem.borderInteractive.pressed}"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.card.sm.contrasted.pressed'})"
               }
             },
             "active": {
@@ -7049,7 +7318,8 @@
                   "verticalPadding": "{ref.spacing.200}",
                   "border": "{sem.border.active}",
                   "borderRadius": "{ref.borderRadius.400}",
-                  "fill": "{sem.colorSurface.light}"
+                  "fill": "{sem.colorSurface.light}",
+                  "itemSpacing": "{sem.input.md.container.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.card.sm.contrasted.active'})"
@@ -7091,6 +7361,18 @@
                     "type": "composition"
                   }
                 }
+              },
+              "fieldWrapper": {
+                "value": {
+                  "itemSpacing": "{sem.input.md.fieldWrapper.spacer}",
+                  "horizontalPadding": "{ref.spacing.200}",
+                  "verticalPadding": "{ref.spacing.200}",
+                  "border": "{sem.border.active}",
+                  "borderRadius": "{ref.borderRadius.400}",
+                  "fill": "{sem.colorSurface.light}"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.card.sm.contrasted.active'})"
               }
             },
             "danger": {
@@ -7101,7 +7383,8 @@
                   "verticalPadding": "{ref.spacing.150}",
                   "fill": "{sem.colorSurface.sub}",
                   "borderRadius": "{ref.borderRadius.300}",
-                  "border": "{sem.border.danger}"
+                  "border": "{sem.border.danger}",
+                  "itemSpacing": "{sem.input.md.container.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.card.sm.contrasted.danger'})"
@@ -7115,14 +7398,14 @@
               },
               "iconColor": {
                 "value": {
-                  "fill": "{sem.colorIcon.default}"
+                  "fill": "{sem.colorIcon.danger}"
                 },
                 "type": "composition"
               },
               "affix": {
                 "value": {
                   "typography": "{sem.typography.textStyle.paragraph.md.strong}",
-                  "fill": "{sem.colorText.diminish}"
+                  "fill": "{sem.colorText.danger}"
                 },
                 "type": "composition"
               },
@@ -7131,18 +7414,30 @@
                   "placeholder": {
                     "value": {
                       "typography": "{sem.typography.textStyle.paragraph.md.default}",
-                      "fill": "{sem.colorText.diminish}"
+                      "fill": "{sem.colorText.danger}"
                     },
                     "type": "composition"
                   },
                   "textValue": {
                     "value": {
                       "typography": "{sem.typography.textStyle.paragraph.md.strong}",
-                      "fill": "{sem.colorText.dark}"
+                      "fill": "{sem.colorText.danger}"
                     },
                     "type": "composition"
                   }
                 }
+              },
+              "fieldWrapper": {
+                "value": {
+                  "itemSpacing": "{sem.input.md.fieldWrapper.spacer}",
+                  "horizontalPadding": "{ref.spacing.150}",
+                  "verticalPadding": "{ref.spacing.150}",
+                  "fill": "{sem.colorSurface.sub}",
+                  "borderRadius": "{ref.borderRadius.300}",
+                  "border": "{sem.border.danger}"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.card.sm.contrasted.danger'})"
               }
             },
             "disabled": {
@@ -7153,7 +7448,8 @@
                   "verticalPadding": "{ref.spacing.150}",
                   "fill": "{sem.colorSurface.disabled}",
                   "borderRadius": "{ref.borderRadius.300}",
-                  "border": "{sem.borderInteractive.disabled}"
+                  "border": "{sem.borderInteractive.disabled}",
+                  "itemSpacing": "{sem.input.md.container.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.card.sm.contrasted.disabled'})"
@@ -7195,6 +7491,18 @@
                     "type": "composition"
                   }
                 }
+              },
+              "fieldWrapper": {
+                "value": {
+                  "itemSpacing": "{sem.input.md.fieldWrapper.spacer}",
+                  "horizontalPadding": "{ref.spacing.150}",
+                  "verticalPadding": "{ref.spacing.150}",
+                  "fill": "{sem.colorSurface.disabled}",
+                  "borderRadius": "{ref.borderRadius.300}",
+                  "border": "{sem.borderInteractive.disabled}"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.card.sm.contrasted.disabled'})"
               }
             }
           }
