@@ -1,12 +1,15 @@
+const fs = require("fs");
+const path = require("path");
+
 module.exports = {
   isObject(item) {
     return item && typeof item === "object" && !Array.isArray(item);
   },
-  
+
   mergeDeep(target, ...sources) {
     if (!sources.length) return target;
     const source = sources.shift();
-  
+
     if (this.isObject(target) && this.isObject(source)) {
       for (const key in source) {
         if (this.isObject(source[key])) {
@@ -17,10 +20,10 @@ module.exports = {
         }
       }
     }
-  
+
     return this.mergeDeep(target, ...sources);
   },
-  
+
   indexOfFirst(str, ...arr) {
     let min = -1;
     for (const char of arr) {
@@ -29,11 +32,11 @@ module.exports = {
     }
     return min;
   },
-  
+
   removeQuotes(str) {
     return str.replace(/"|'/g, "");
   },
-  
+
   getIndexOfClosingScope(str, openChar, closingChar) {
     let i = 0;
     let open = 0;
@@ -46,24 +49,85 @@ module.exports = {
     return -1;
   },
 
-  get (object, path, value) {
-    const pathArray = Array.isArray(path) ? path : path.split('.').filter(key => key)
-    const pathArrayFlat = pathArray.flatMap(part => typeof part === 'string' ? part.split('.') : part)
-  
-    return pathArrayFlat.reduce((obj, key) => obj && obj[key], object) || value
+  get(object, path, value) {
+    const pathArray = Array.isArray(path)
+      ? path
+      : path.split(".").filter((key) => key);
+    const pathArrayFlat = pathArray.flatMap((part) =>
+      typeof part === "string" ? part.split(".") : part
+    );
+
+    return pathArrayFlat.reduce((obj, key) => obj && obj[key], object) || value;
+  },
+
+  set(obj, path, value) {
+    if (Object(obj) !== obj) return obj;
+    if (!Array.isArray(path)) path = path.toString().match(/[^.[\]]+/g) || [];
+    path
+      .slice(0, -1)
+      .reduce(
+        (a, c, i) =>
+          Object(a[c]) === a[c]
+            ? a[c]
+            : (a[c] = Math.abs(path[i + 1]) >> 0 === +path[i + 1] ? [] : {}),
+        obj
+      )[path[path.length - 1]] = value;
+    return obj;
   },
 
   yellow(...args) {
-    return args.map(a => `\x1b[33m${a}\x1b[0m`).join(' ')
+    return args.map((a) => `\x1b[33m${a}\x1b[0m`).join(" ");
   },
 
   red(...args) {
-    return args.map(a => `\x1b[31m${a}\x1b[0m`).join(' ')
+    return args.map((a) => `\x1b[31m${a}\x1b[0m`).join(" ");
+  },
+
+  green(...args) {
+    return args.map((a) => `\x1b[32m${a}\x1b[0m`).join(" ");
+  },
+
+  log(...args) {
+    console.log(this.yellow("[dsm]"), ...args);
   },
 
   throw(...args) {
-    console.error(this.red(this.yellow('[dsm]'), '❌', ...args))
-    process.exit(1)
+    console.error(this.red(this.yellow("[dsm]"), "❌", ...args));
+    process.exit(1);
   },
-  
-}
+
+  getCompositons(themeObj) {
+    const findComposInObj = (obj) => {
+      const compos = [];
+
+      for (const val of Object.values(obj)) {
+        if (val.type === "composition") {
+          compos.push(val);
+        } else if (this.isObject(val)) {
+          compos.push(...findComposInObj(val));
+        }
+      }
+
+      return compos;
+    };
+
+    return findComposInObj(themeObj);
+  },
+
+  tryEval(str) {
+    try {
+      return eval(str);
+    } catch {
+      return null;
+    }
+  },
+
+  readdirRecursive(dir) {
+    const dirents = fs.readdirSync(dir, { withFileTypes: true });
+    const files = dirents.map((dirent) => {
+      const res = path.resolve(dir, dirent.name);
+      return dirent.isDirectory() ? this.readdirRecursive(res) : res;
+    });
+    return Array.prototype.concat(...files);
+  },
+};

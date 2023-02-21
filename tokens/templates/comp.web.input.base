@@ -57,6 +57,12 @@ comp
           },
           "type": "composition"
         }
+      },
+      "chips": {
+        "value": {
+          "itemSpacing": "{sem.input.{{size}}.slotContent.chips.spacer}"
+        },
+        "type": "composition"
       }
     }
   }
