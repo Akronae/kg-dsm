@@ -30,7 +30,7 @@ comp
     },
     "affix": {
       "value": {
-        "typography": "{sem.typography.textStyle.paragraph.strong}",
+        "typography": "{sem.typography.textStyle.paragraph.{{size}}.strong}",
         "fill": "{sem.colorText.{{ 'state' == 'danger' ? 'danger' : 'default'}}}"
       },
       "type": "composition"
@@ -39,14 +39,14 @@ comp
       "text": {
         "placeholder": {
           "value": {
-            "typography": "{sem.typography.textStyle.paragraph.default}",
+            "typography": "{sem.typography.textStyle.paragraph.{{size}}.default}",
             "fill": "{sem.colorText.{{ 'state' == 'danger' ? 'danger' : 'default'}}}"
           },
           "type": "composition"
         },
         "textValue": {
           "value": {
-            "typography": "{sem.typography.textStyle.paragraph.strong}",
+            "typography": "{sem.typography.textStyle.paragraph.{{size}}.strong}",
             "fill": "{sem.colorText.{{ 'state' == 'danger' ? 'danger' : 'default'}}}"
           },
           "type": "composition"
