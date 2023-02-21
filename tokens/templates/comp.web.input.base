@@ -17,8 +17,8 @@ comp
     },
     "iconSize": {
       "value": {
-        "width": "{sem.input.{{ ({sm: 'xs', md: 'sm'})[size] }}.iconSize}",
-        "height": "{sem.input.{{ ({sm: 'xs', md: 'sm'})[size] }}.default.iconSize}"
+        "width": "{sem.input.{{size}}.iconSize}",
+        "height": "{sem.input.{{size}}.iconSize}"
       },
       "type": "composition"
     },

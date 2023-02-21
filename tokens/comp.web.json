@@ -5793,8 +5793,8 @@
               },
               "iconSize": {
                 "value": {
-                  "width": "{sem.input.xs.iconSize}",
-                  "height": "{sem.input.xs.default.iconSize}"
+                  "width": "{sem.input.sm.iconSize}",
+                  "height": "{sem.input.sm.iconSize}"
                 },
                 "type": "composition"
               },
@@ -5806,7 +5806,7 @@
               },
               "affix": {
                 "value": {
-                  "typography": "{sem.typography.textStyle.paragraph.strong}",
+                  "typography": "{sem.typography.textStyle.paragraph.sm.strong}",
                   "fill": "{sem.colorText.default}"
                 },
                 "type": "composition"
@@ -5815,14 +5815,14 @@
                 "text": {
                   "placeholder": {
                     "value": {
-                      "typography": "{sem.typography.textStyle.paragraph.default}",
+                      "typography": "{sem.typography.textStyle.paragraph.sm.default}",
                       "fill": "{sem.colorText.default}"
                     },
                     "type": "composition"
                   },
                   "textValue": {
                     "value": {
-                      "typography": "{sem.typography.textStyle.paragraph.strong}",
+                      "typography": "{sem.typography.textStyle.paragraph.sm.strong}",
                       "fill": "{sem.colorText.default}"
                     },
                     "type": "composition"
@@ -5840,8 +5840,8 @@
               },
               "iconSize": {
                 "value": {
-                  "width": "{sem.input.xs.iconSize}",
-                  "height": "{sem.input.xs.default.iconSize}"
+                  "width": "{sem.input.sm.iconSize}",
+                  "height": "{sem.input.sm.iconSize}"
                 },
                 "type": "composition"
               },
@@ -5853,7 +5853,7 @@
               },
               "affix": {
                 "value": {
-                  "typography": "{sem.typography.textStyle.paragraph.strong}",
+                  "typography": "{sem.typography.textStyle.paragraph.sm.strong}",
                   "fill": "{sem.colorText.default}"
                 },
                 "type": "composition"
@@ -5862,14 +5862,14 @@
                 "text": {
                   "placeholder": {
                     "value": {
-                      "typography": "{sem.typography.textStyle.paragraph.default}",
+                      "typography": "{sem.typography.textStyle.paragraph.sm.default}",
                       "fill": "{sem.colorText.default}"
                     },
                     "type": "composition"
                   },
                   "textValue": {
                     "value": {
-                      "typography": "{sem.typography.textStyle.paragraph.strong}",
+                      "typography": "{sem.typography.textStyle.paragraph.sm.strong}",
                       "fill": "{sem.colorText.default}"
                     },
                     "type": "composition"
@@ -5887,8 +5887,8 @@
               },
               "iconSize": {
                 "value": {
-                  "width": "{sem.input.xs.iconSize}",
-                  "height": "{sem.input.xs.default.iconSize}"
+                  "width": "{sem.input.sm.iconSize}",
+                  "height": "{sem.input.sm.iconSize}"
                 },
                 "type": "composition"
               },
@@ -5900,7 +5900,7 @@
               },
               "affix": {
                 "value": {
-                  "typography": "{sem.typography.textStyle.paragraph.strong}",
+                  "typography": "{sem.typography.textStyle.paragraph.sm.strong}",
                   "fill": "{sem.colorText.default}"
                 },
                 "type": "composition"
@@ -5909,14 +5909,14 @@
                 "text": {
                   "placeholder": {
                     "value": {
-                      "typography": "{sem.typography.textStyle.paragraph.default}",
+                      "typography": "{sem.typography.textStyle.paragraph.sm.default}",
                       "fill": "{sem.colorText.default}"
                     },
                     "type": "composition"
                   },
                   "textValue": {
                     "value": {
-                      "typography": "{sem.typography.textStyle.paragraph.strong}",
+                      "typography": "{sem.typography.textStyle.paragraph.sm.strong}",
                       "fill": "{sem.colorText.default}"
                     },
                     "type": "composition"
@@ -5934,8 +5934,8 @@
               },
               "iconSize": {
                 "value": {
-                  "width": "{sem.input.xs.iconSize}",
-                  "height": "{sem.input.xs.default.iconSize}"
+                  "width": "{sem.input.sm.iconSize}",
+                  "height": "{sem.input.sm.iconSize}"
                 },
                 "type": "composition"
               },
@@ -5947,7 +5947,7 @@
               },
               "affix": {
                 "value": {
-                  "typography": "{sem.typography.textStyle.paragraph.strong}",
+                  "typography": "{sem.typography.textStyle.paragraph.sm.strong}",
                   "fill": "{sem.colorText.default}"
                 },
                 "type": "composition"
@@ -5956,14 +5956,14 @@
                 "text": {
                   "placeholder": {
                     "value": {
-                      "typography": "{sem.typography.textStyle.paragraph.default}",
+                      "typography": "{sem.typography.textStyle.paragraph.sm.default}",
                       "fill": "{sem.colorText.default}"
                     },
                     "type": "composition"
                   },
                   "textValue": {
                     "value": {
-                      "typography": "{sem.typography.textStyle.paragraph.strong}",
+                      "typography": "{sem.typography.textStyle.paragraph.sm.strong}",
                       "fill": "{sem.colorText.default}"
                     },
                     "type": "composition"
@@ -5981,8 +5981,8 @@
               },
               "iconSize": {
                 "value": {
-                  "width": "{sem.input.xs.iconSize}",
-                  "height": "{sem.input.xs.default.iconSize}"
+                  "width": "{sem.input.sm.iconSize}",
+                  "height": "{sem.input.sm.iconSize}"
                 },
                 "type": "composition"
               },
@@ -5994,7 +5994,7 @@
               },
               "affix": {
                 "value": {
-                  "typography": "{sem.typography.textStyle.paragraph.strong}",
+                  "typography": "{sem.typography.textStyle.paragraph.sm.strong}",
                   "fill": "{sem.colorText.default}"
                 },
                 "type": "composition"
@@ -6003,14 +6003,14 @@
                 "text": {
                   "placeholder": {
                     "value": {
-                      "typography": "{sem.typography.textStyle.paragraph.default}",
+                      "typography": "{sem.typography.textStyle.paragraph.sm.default}",
                       "fill": "{sem.colorText.default}"
                     },
                     "type": "composition"
                   },
                   "textValue": {
                     "value": {
-                      "typography": "{sem.typography.textStyle.paragraph.strong}",
+                      "typography": "{sem.typography.textStyle.paragraph.sm.strong}",
                       "fill": "{sem.colorText.default}"
                     },
                     "type": "composition"
@@ -6028,8 +6028,8 @@
               },
               "iconSize": {
                 "value": {
-                  "width": "{sem.input.xs.iconSize}",
-                  "height": "{sem.input.xs.default.iconSize}"
+                  "width": "{sem.input.sm.iconSize}",
+                  "height": "{sem.input.sm.iconSize}"
                 },
                 "type": "composition"
               },
@@ -6041,7 +6041,7 @@
               },
               "affix": {
                 "value": {
-                  "typography": "{sem.typography.textStyle.paragraph.strong}",
+                  "typography": "{sem.typography.textStyle.paragraph.sm.strong}",
                   "fill": "{sem.colorText.default}"
                 },
                 "type": "composition"
@@ -6050,14 +6050,14 @@
                 "text": {
                   "placeholder": {
                     "value": {
-                      "typography": "{sem.typography.textStyle.paragraph.default}",
+                      "typography": "{sem.typography.textStyle.paragraph.sm.default}",
                       "fill": "{sem.colorText.default}"
                     },
                     "type": "composition"
                   },
                   "textValue": {
                     "value": {
-                      "typography": "{sem.typography.textStyle.paragraph.strong}",
+                      "typography": "{sem.typography.textStyle.paragraph.sm.strong}",
                       "fill": "{sem.colorText.default}"
                     },
                     "type": "composition"
@@ -6077,8 +6077,8 @@
               },
               "iconSize": {
                 "value": {
-                  "width": "{sem.input.xs.iconSize}",
-                  "height": "{sem.input.xs.default.iconSize}"
+                  "width": "{sem.input.sm.iconSize}",
+                  "height": "{sem.input.sm.iconSize}"
                 },
                 "type": "composition"
               },
@@ -6090,7 +6090,7 @@
               },
               "affix": {
                 "value": {
-                  "typography": "{sem.typography.textStyle.paragraph.strong}",
+                  "typography": "{sem.typography.textStyle.paragraph.sm.strong}",
                   "fill": "{sem.colorText.default}"
                 },
                 "type": "composition"
@@ -6099,14 +6099,14 @@
                 "text": {
                   "placeholder": {
                     "value": {
-                      "typography": "{sem.typography.textStyle.paragraph.default}",
+                      "typography": "{sem.typography.textStyle.paragraph.sm.default}",
                       "fill": "{sem.colorText.default}"
                     },
                     "type": "composition"
                   },
                   "textValue": {
                     "value": {
-                      "typography": "{sem.typography.textStyle.paragraph.strong}",
+                      "typography": "{sem.typography.textStyle.paragraph.sm.strong}",
                       "fill": "{sem.colorText.default}"
                     },
                     "type": "composition"
@@ -6124,8 +6124,8 @@
               },
               "iconSize": {
                 "value": {
-                  "width": "{sem.input.xs.iconSize}",
-                  "height": "{sem.input.xs.default.iconSize}"
+                  "width": "{sem.input.sm.iconSize}",
+                  "height": "{sem.input.sm.iconSize}"
                 },
                 "type": "composition"
               },
@@ -6137,7 +6137,7 @@
               },
               "affix": {
                 "value": {
-                  "typography": "{sem.typography.textStyle.paragraph.strong}",
+                  "typography": "{sem.typography.textStyle.paragraph.sm.strong}",
                   "fill": "{sem.colorText.default}"
                 },
                 "type": "composition"
@@ -6146,14 +6146,14 @@
                 "text": {
                   "placeholder": {
                     "value": {
-                      "typography": "{sem.typography.textStyle.paragraph.default}",
+                      "typography": "{sem.typography.textStyle.paragraph.sm.default}",
                       "fill": "{sem.colorText.default}"
                     },
                     "type": "composition"
                   },
                   "textValue": {
                     "value": {
-                      "typography": "{sem.typography.textStyle.paragraph.strong}",
+                      "typography": "{sem.typography.textStyle.paragraph.sm.strong}",
                       "fill": "{sem.colorText.default}"
                     },
                     "type": "composition"
@@ -6171,8 +6171,8 @@
               },
               "iconSize": {
                 "value": {
-                  "width": "{sem.input.xs.iconSize}",
-                  "height": "{sem.input.xs.default.iconSize}"
+                  "width": "{sem.input.sm.iconSize}",
+                  "height": "{sem.input.sm.iconSize}"
                 },
                 "type": "composition"
               },
@@ -6184,7 +6184,7 @@
               },
               "affix": {
                 "value": {
-                  "typography": "{sem.typography.textStyle.paragraph.strong}",
+                  "typography": "{sem.typography.textStyle.paragraph.sm.strong}",
                   "fill": "{sem.colorText.default}"
                 },
                 "type": "composition"
@@ -6193,14 +6193,14 @@
                 "text": {
                   "placeholder": {
                     "value": {
-                      "typography": "{sem.typography.textStyle.paragraph.default}",
+                      "typography": "{sem.typography.textStyle.paragraph.sm.default}",
                       "fill": "{sem.colorText.default}"
                     },
                     "type": "composition"
                   },
                   "textValue": {
                     "value": {
-                      "typography": "{sem.typography.textStyle.paragraph.strong}",
+                      "typography": "{sem.typography.textStyle.paragraph.sm.strong}",
                       "fill": "{sem.colorText.default}"
                     },
                     "type": "composition"
@@ -6218,8 +6218,8 @@
               },
               "iconSize": {
                 "value": {
-                  "width": "{sem.input.xs.iconSize}",
-                  "height": "{sem.input.xs.default.iconSize}"
+                  "width": "{sem.input.sm.iconSize}",
+                  "height": "{sem.input.sm.iconSize}"
                 },
                 "type": "composition"
               },
@@ -6231,7 +6231,7 @@
               },
               "affix": {
                 "value": {
-                  "typography": "{sem.typography.textStyle.paragraph.strong}",
+                  "typography": "{sem.typography.textStyle.paragraph.sm.strong}",
                   "fill": "{sem.colorText.default}"
                 },
                 "type": "composition"
@@ -6240,14 +6240,14 @@
                 "text": {
                   "placeholder": {
                     "value": {
-                      "typography": "{sem.typography.textStyle.paragraph.default}",
+                      "typography": "{sem.typography.textStyle.paragraph.sm.default}",
                       "fill": "{sem.colorText.default}"
                     },
                     "type": "composition"
                   },
                   "textValue": {
                     "value": {
-                      "typography": "{sem.typography.textStyle.paragraph.strong}",
+                      "typography": "{sem.typography.textStyle.paragraph.sm.strong}",
                       "fill": "{sem.colorText.default}"
                     },
                     "type": "composition"
@@ -6265,8 +6265,8 @@
               },
               "iconSize": {
                 "value": {
-                  "width": "{sem.input.xs.iconSize}",
-                  "height": "{sem.input.xs.default.iconSize}"
+                  "width": "{sem.input.sm.iconSize}",
+                  "height": "{sem.input.sm.iconSize}"
                 },
                 "type": "composition"
               },
@@ -6278,7 +6278,7 @@
               },
               "affix": {
                 "value": {
-                  "typography": "{sem.typography.textStyle.paragraph.strong}",
+                  "typography": "{sem.typography.textStyle.paragraph.sm.strong}",
                   "fill": "{sem.colorText.default}"
                 },
                 "type": "composition"
@@ -6287,14 +6287,14 @@
                 "text": {
                   "placeholder": {
                     "value": {
-                      "typography": "{sem.typography.textStyle.paragraph.default}",
+                      "typography": "{sem.typography.textStyle.paragraph.sm.default}",
                       "fill": "{sem.colorText.default}"
                     },
                     "type": "composition"
                   },
                   "textValue": {
                     "value": {
-                      "typography": "{sem.typography.textStyle.paragraph.strong}",
+                      "typography": "{sem.typography.textStyle.paragraph.sm.strong}",
                       "fill": "{sem.colorText.default}"
                     },
                     "type": "composition"
@@ -6312,8 +6312,8 @@
               },
               "iconSize": {
                 "value": {
-                  "width": "{sem.input.xs.iconSize}",
-                  "height": "{sem.input.xs.default.iconSize}"
+                  "width": "{sem.input.sm.iconSize}",
+                  "height": "{sem.input.sm.iconSize}"
                 },
                 "type": "composition"
               },
@@ -6325,7 +6325,7 @@
               },
               "affix": {
                 "value": {
-                  "typography": "{sem.typography.textStyle.paragraph.strong}",
+                  "typography": "{sem.typography.textStyle.paragraph.sm.strong}",
                   "fill": "{sem.colorText.default}"
                 },
                 "type": "composition"
@@ -6334,14 +6334,14 @@
                 "text": {
                   "placeholder": {
                     "value": {
-                      "typography": "{sem.typography.textStyle.paragraph.default}",
+                      "typography": "{sem.typography.textStyle.paragraph.sm.default}",
                       "fill": "{sem.colorText.default}"
                     },
                     "type": "composition"
                   },
                   "textValue": {
                     "value": {
-                      "typography": "{sem.typography.textStyle.paragraph.strong}",
+                      "typography": "{sem.typography.textStyle.paragraph.sm.strong}",
                       "fill": "{sem.colorText.default}"
                     },
                     "type": "composition"
@@ -6367,8 +6367,8 @@
               },
               "iconSize": {
                 "value": {
-                  "width": "{sem.input.sm.iconSize}",
-                  "height": "{sem.input.sm.default.iconSize}"
+                  "width": "{sem.input.md.iconSize}",
+                  "height": "{sem.input.md.iconSize}"
                 },
                 "type": "composition"
               },
@@ -6380,7 +6380,7 @@
               },
               "affix": {
                 "value": {
-                  "typography": "{sem.typography.textStyle.paragraph.strong}",
+                  "typography": "{sem.typography.textStyle.paragraph.md.strong}",
                   "fill": "{sem.colorText.default}"
                 },
                 "type": "composition"
@@ -6389,14 +6389,14 @@
                 "text": {
                   "placeholder": {
                     "value": {
-                      "typography": "{sem.typography.textStyle.paragraph.default}",
+                      "typography": "{sem.typography.textStyle.paragraph.md.default}",
                       "fill": "{sem.colorText.default}"
                     },
                     "type": "composition"
                   },
                   "textValue": {
                     "value": {
-                      "typography": "{sem.typography.textStyle.paragraph.strong}",
+                      "typography": "{sem.typography.textStyle.paragraph.md.strong}",
                       "fill": "{sem.colorText.default}"
                     },
                     "type": "composition"
@@ -6419,8 +6419,8 @@
               },
               "iconSize": {
                 "value": {
-                  "width": "{sem.input.sm.iconSize}",
-                  "height": "{sem.input.sm.default.iconSize}"
+                  "width": "{sem.input.md.iconSize}",
+                  "height": "{sem.input.md.iconSize}"
                 },
                 "type": "composition"
               },
@@ -6432,7 +6432,7 @@
               },
               "affix": {
                 "value": {
-                  "typography": "{sem.typography.textStyle.paragraph.strong}",
+                  "typography": "{sem.typography.textStyle.paragraph.md.strong}",
                   "fill": "{sem.colorText.default}"
                 },
                 "type": "composition"
@@ -6441,14 +6441,14 @@
                 "text": {
                   "placeholder": {
                     "value": {
-                      "typography": "{sem.typography.textStyle.paragraph.default}",
+                      "typography": "{sem.typography.textStyle.paragraph.md.default}",
                       "fill": "{sem.colorText.default}"
                     },
                     "type": "composition"
                   },
                   "textValue": {
                     "value": {
-                      "typography": "{sem.typography.textStyle.paragraph.strong}",
+                      "typography": "{sem.typography.textStyle.paragraph.md.strong}",
                       "fill": "{sem.colorText.default}"
                     },
                     "type": "composition"
@@ -6471,8 +6471,8 @@
               },
               "iconSize": {
                 "value": {
-                  "width": "{sem.input.sm.iconSize}",
-                  "height": "{sem.input.sm.default.iconSize}"
+                  "width": "{sem.input.md.iconSize}",
+                  "height": "{sem.input.md.iconSize}"
                 },
                 "type": "composition"
               },
@@ -6484,7 +6484,7 @@
               },
               "affix": {
                 "value": {
-                  "typography": "{sem.typography.textStyle.paragraph.strong}",
+                  "typography": "{sem.typography.textStyle.paragraph.md.strong}",
                   "fill": "{sem.colorText.default}"
                 },
                 "type": "composition"
@@ -6493,14 +6493,14 @@
                 "text": {
                   "placeholder": {
                     "value": {
-                      "typography": "{sem.typography.textStyle.paragraph.default}",
+                      "typography": "{sem.typography.textStyle.paragraph.md.default}",
                       "fill": "{sem.colorText.default}"
                     },
                     "type": "composition"
                   },
                   "textValue": {
                     "value": {
-                      "typography": "{sem.typography.textStyle.paragraph.strong}",
+                      "typography": "{sem.typography.textStyle.paragraph.md.strong}",
                       "fill": "{sem.colorText.default}"
                     },
                     "type": "composition"
@@ -6523,8 +6523,8 @@
               },
               "iconSize": {
                 "value": {
-                  "width": "{sem.input.sm.iconSize}",
-                  "height": "{sem.input.sm.default.iconSize}"
+                  "width": "{sem.input.md.iconSize}",
+                  "height": "{sem.input.md.iconSize}"
                 },
                 "type": "composition"
               },
@@ -6536,7 +6536,7 @@
               },
               "affix": {
                 "value": {
-                  "typography": "{sem.typography.textStyle.paragraph.strong}",
+                  "typography": "{sem.typography.textStyle.paragraph.md.strong}",
                   "fill": "{sem.colorText.default}"
                 },
                 "type": "composition"
@@ -6545,14 +6545,14 @@
                 "text": {
                   "placeholder": {
                     "value": {
-                      "typography": "{sem.typography.textStyle.paragraph.default}",
+                      "typography": "{sem.typography.textStyle.paragraph.md.default}",
                       "fill": "{sem.colorText.default}"
                     },
                     "type": "composition"
                   },
                   "textValue": {
                     "value": {
-                      "typography": "{sem.typography.textStyle.paragraph.strong}",
+                      "typography": "{sem.typography.textStyle.paragraph.md.strong}",
                       "fill": "{sem.colorText.default}"
                     },
                     "type": "composition"
@@ -6575,8 +6575,8 @@
               },
               "iconSize": {
                 "value": {
-                  "width": "{sem.input.sm.iconSize}",
-                  "height": "{sem.input.sm.default.iconSize}"
+                  "width": "{sem.input.md.iconSize}",
+                  "height": "{sem.input.md.iconSize}"
                 },
                 "type": "composition"
               },
@@ -6588,7 +6588,7 @@
               },
               "affix": {
                 "value": {
-                  "typography": "{sem.typography.textStyle.paragraph.strong}",
+                  "typography": "{sem.typography.textStyle.paragraph.md.strong}",
                   "fill": "{sem.colorText.default}"
                 },
                 "type": "composition"
@@ -6597,14 +6597,14 @@
                 "text": {
                   "placeholder": {
                     "value": {
-                      "typography": "{sem.typography.textStyle.paragraph.default}",
+                      "typography": "{sem.typography.textStyle.paragraph.md.default}",
                       "fill": "{sem.colorText.default}"
                     },
                     "type": "composition"
                   },
                   "textValue": {
                     "value": {
-                      "typography": "{sem.typography.textStyle.paragraph.strong}",
+                      "typography": "{sem.typography.textStyle.paragraph.md.strong}",
                       "fill": "{sem.colorText.default}"
                     },
                     "type": "composition"
@@ -6626,8 +6626,8 @@
               },
               "iconSize": {
                 "value": {
-                  "width": "{sem.input.sm.iconSize}",
-                  "height": "{sem.input.sm.default.iconSize}"
+                  "width": "{sem.input.md.iconSize}",
+                  "height": "{sem.input.md.iconSize}"
                 },
                 "type": "composition"
               },
@@ -6639,7 +6639,7 @@
               },
               "affix": {
                 "value": {
-                  "typography": "{sem.typography.textStyle.paragraph.strong}",
+                  "typography": "{sem.typography.textStyle.paragraph.md.strong}",
                   "fill": "{sem.colorText.default}"
                 },
                 "type": "composition"
@@ -6648,14 +6648,14 @@
                 "text": {
                   "placeholder": {
                     "value": {
-                      "typography": "{sem.typography.textStyle.paragraph.default}",
+                      "typography": "{sem.typography.textStyle.paragraph.md.default}",
                       "fill": "{sem.colorText.default}"
                     },
                     "type": "composition"
                   },
                   "textValue": {
                     "value": {
-                      "typography": "{sem.typography.textStyle.paragraph.strong}",
+                      "typography": "{sem.typography.textStyle.paragraph.md.strong}",
                       "fill": "{sem.colorText.default}"
                     },
                     "type": "composition"
@@ -6680,8 +6680,8 @@
               },
               "iconSize": {
                 "value": {
-                  "width": "{sem.input.sm.iconSize}",
-                  "height": "{sem.input.sm.default.iconSize}"
+                  "width": "{sem.input.md.iconSize}",
+                  "height": "{sem.input.md.iconSize}"
                 },
                 "type": "composition"
               },
@@ -6693,7 +6693,7 @@
               },
               "affix": {
                 "value": {
-                  "typography": "{sem.typography.textStyle.paragraph.strong}",
+                  "typography": "{sem.typography.textStyle.paragraph.md.strong}",
                   "fill": "{sem.colorText.default}"
                 },
                 "type": "composition"
@@ -6702,14 +6702,14 @@
                 "text": {
                   "placeholder": {
                     "value": {
-                      "typography": "{sem.typography.textStyle.paragraph.default}",
+                      "typography": "{sem.typography.textStyle.paragraph.md.default}",
                       "fill": "{sem.colorText.default}"
                     },
                     "type": "composition"
                   },
                   "textValue": {
                     "value": {
-                      "typography": "{sem.typography.textStyle.paragraph.strong}",
+                      "typography": "{sem.typography.textStyle.paragraph.md.strong}",
                       "fill": "{sem.colorText.default}"
                     },
                     "type": "composition"
@@ -6732,8 +6732,8 @@
               },
               "iconSize": {
                 "value": {
-                  "width": "{sem.input.sm.iconSize}",
-                  "height": "{sem.input.sm.default.iconSize}"
+                  "width": "{sem.input.md.iconSize}",
+                  "height": "{sem.input.md.iconSize}"
                 },
                 "type": "composition"
               },
@@ -6745,7 +6745,7 @@
               },
               "affix": {
                 "value": {
-                  "typography": "{sem.typography.textStyle.paragraph.strong}",
+                  "typography": "{sem.typography.textStyle.paragraph.md.strong}",
                   "fill": "{sem.colorText.default}"
                 },
                 "type": "composition"
@@ -6754,14 +6754,14 @@
                 "text": {
                   "placeholder": {
                     "value": {
-                      "typography": "{sem.typography.textStyle.paragraph.default}",
+                      "typography": "{sem.typography.textStyle.paragraph.md.default}",
                       "fill": "{sem.colorText.default}"
                     },
                     "type": "composition"
                   },
                   "textValue": {
                     "value": {
-                      "typography": "{sem.typography.textStyle.paragraph.strong}",
+                      "typography": "{sem.typography.textStyle.paragraph.md.strong}",
                       "fill": "{sem.colorText.default}"
                     },
                     "type": "composition"
@@ -6784,8 +6784,8 @@
               },
               "iconSize": {
                 "value": {
-                  "width": "{sem.input.sm.iconSize}",
-                  "height": "{sem.input.sm.default.iconSize}"
+                  "width": "{sem.input.md.iconSize}",
+                  "height": "{sem.input.md.iconSize}"
                 },
                 "type": "composition"
               },
@@ -6797,7 +6797,7 @@
               },
               "affix": {
                 "value": {
-                  "typography": "{sem.typography.textStyle.paragraph.strong}",
+                  "typography": "{sem.typography.textStyle.paragraph.md.strong}",
                   "fill": "{sem.colorText.default}"
                 },
                 "type": "composition"
@@ -6806,14 +6806,14 @@
                 "text": {
                   "placeholder": {
                     "value": {
-                      "typography": "{sem.typography.textStyle.paragraph.default}",
+                      "typography": "{sem.typography.textStyle.paragraph.md.default}",
                       "fill": "{sem.colorText.default}"
                     },
                     "type": "composition"
                   },
                   "textValue": {
                     "value": {
-                      "typography": "{sem.typography.textStyle.paragraph.strong}",
+                      "typography": "{sem.typography.textStyle.paragraph.md.strong}",
                       "fill": "{sem.colorText.default}"
                     },
                     "type": "composition"
@@ -6836,8 +6836,8 @@
               },
               "iconSize": {
                 "value": {
-                  "width": "{sem.input.sm.iconSize}",
-                  "height": "{sem.input.sm.default.iconSize}"
+                  "width": "{sem.input.md.iconSize}",
+                  "height": "{sem.input.md.iconSize}"
                 },
                 "type": "composition"
               },
@@ -6849,7 +6849,7 @@
               },
               "affix": {
                 "value": {
-                  "typography": "{sem.typography.textStyle.paragraph.strong}",
+                  "typography": "{sem.typography.textStyle.paragraph.md.strong}",
                   "fill": "{sem.colorText.default}"
                 },
                 "type": "composition"
@@ -6858,14 +6858,14 @@
                 "text": {
                   "placeholder": {
                     "value": {
-                      "typography": "{sem.typography.textStyle.paragraph.default}",
+                      "typography": "{sem.typography.textStyle.paragraph.md.default}",
                       "fill": "{sem.colorText.default}"
                     },
                     "type": "composition"
                   },
                   "textValue": {
                     "value": {
-                      "typography": "{sem.typography.textStyle.paragraph.strong}",
+                      "typography": "{sem.typography.textStyle.paragraph.md.strong}",
                       "fill": "{sem.colorText.default}"
                     },
                     "type": "composition"
@@ -6888,8 +6888,8 @@
               },
               "iconSize": {
                 "value": {
-                  "width": "{sem.input.sm.iconSize}",
-                  "height": "{sem.input.sm.default.iconSize}"
+                  "width": "{sem.input.md.iconSize}",
+                  "height": "{sem.input.md.iconSize}"
                 },
                 "type": "composition"
               },
@@ -6901,7 +6901,7 @@
               },
               "affix": {
                 "value": {
-                  "typography": "{sem.typography.textStyle.paragraph.strong}",
+                  "typography": "{sem.typography.textStyle.paragraph.md.strong}",
                   "fill": "{sem.colorText.default}"
                 },
                 "type": "composition"
@@ -6910,14 +6910,14 @@
                 "text": {
                   "placeholder": {
                     "value": {
-                      "typography": "{sem.typography.textStyle.paragraph.default}",
+                      "typography": "{sem.typography.textStyle.paragraph.md.default}",
                       "fill": "{sem.colorText.default}"
                     },
                     "type": "composition"
                   },
                   "textValue": {
                     "value": {
-                      "typography": "{sem.typography.textStyle.paragraph.strong}",
+                      "typography": "{sem.typography.textStyle.paragraph.md.strong}",
                       "fill": "{sem.colorText.default}"
                     },
                     "type": "composition"
@@ -6940,8 +6940,8 @@
               },
               "iconSize": {
                 "value": {
-                  "width": "{sem.input.sm.iconSize}",
-                  "height": "{sem.input.sm.default.iconSize}"
+                  "width": "{sem.input.md.iconSize}",
+                  "height": "{sem.input.md.iconSize}"
                 },
                 "type": "composition"
               },
@@ -6953,7 +6953,7 @@
               },
               "affix": {
                 "value": {
-                  "typography": "{sem.typography.textStyle.paragraph.strong}",
+                  "typography": "{sem.typography.textStyle.paragraph.md.strong}",
                   "fill": "{sem.colorText.default}"
                 },
                 "type": "composition"
@@ -6962,14 +6962,14 @@
                 "text": {
                   "placeholder": {
                     "value": {
-                      "typography": "{sem.typography.textStyle.paragraph.default}",
+                      "typography": "{sem.typography.textStyle.paragraph.md.default}",
                       "fill": "{sem.colorText.default}"
                     },
                     "type": "composition"
                   },
                   "textValue": {
                     "value": {
-                      "typography": "{sem.typography.textStyle.paragraph.strong}",
+                      "typography": "{sem.typography.textStyle.paragraph.md.strong}",
                       "fill": "{sem.colorText.default}"
                     },
                     "type": "composition"
