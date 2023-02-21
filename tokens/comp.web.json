@@ -5786,7 +5786,7 @@
             "default": {
               "container": {
                 "value": {
-                  "itemSapcing": "{sem.input.xs.uncontrasted.container.spacer}"
+                  "itemSapcing": "{sem.input.xs.container.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.card.xs.uncontrasted.default'})"
@@ -5833,7 +5833,7 @@
             "hover": {
               "container": {
                 "value": {
-                  "itemSapcing": "{sem.input.xs.uncontrasted.container.spacer}"
+                  "itemSapcing": "{sem.input.xs.container.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.card.xs.uncontrasted.hover'})"
@@ -5880,7 +5880,7 @@
             "pressed": {
               "container": {
                 "value": {
-                  "itemSapcing": "{sem.input.xs.uncontrasted.container.spacer}"
+                  "itemSapcing": "{sem.input.xs.container.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.card.xs.uncontrasted.pressed'})"
@@ -5927,7 +5927,7 @@
             "active": {
               "container": {
                 "value": {
-                  "itemSapcing": "{sem.input.xs.uncontrasted.container.spacer}"
+                  "itemSapcing": "{sem.input.xs.container.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.card.xs.uncontrasted.active'})"
@@ -5974,7 +5974,7 @@
             "danger": {
               "container": {
                 "value": {
-                  "itemSapcing": "{sem.input.xs.uncontrasted.container.spacer}"
+                  "itemSapcing": "{sem.input.xs.container.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.card.xs.uncontrasted.danger'})"
@@ -6021,7 +6021,7 @@
             "disabled": {
               "container": {
                 "value": {
-                  "itemSapcing": "{sem.input.xs.uncontrasted.container.spacer}"
+                  "itemSapcing": "{sem.input.xs.container.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.card.xs.uncontrasted.disabled'})"
@@ -6070,7 +6070,7 @@
             "default": {
               "container": {
                 "value": {
-                  "itemSapcing": "{sem.input.xs.contrasted.container.spacer}"
+                  "itemSapcing": "{sem.input.xs.container.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.card.xs.contrasted.default'})"
@@ -6117,7 +6117,7 @@
             "hover": {
               "container": {
                 "value": {
-                  "itemSapcing": "{sem.input.xs.contrasted.container.spacer}"
+                  "itemSapcing": "{sem.input.xs.container.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.card.xs.contrasted.hover'})"
@@ -6164,7 +6164,7 @@
             "pressed": {
               "container": {
                 "value": {
-                  "itemSapcing": "{sem.input.xs.contrasted.container.spacer}"
+                  "itemSapcing": "{sem.input.xs.container.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.card.xs.contrasted.pressed'})"
@@ -6211,7 +6211,7 @@
             "active": {
               "container": {
                 "value": {
-                  "itemSapcing": "{sem.input.xs.contrasted.container.spacer}"
+                  "itemSapcing": "{sem.input.xs.container.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.card.xs.contrasted.active'})"
@@ -6258,7 +6258,7 @@
             "danger": {
               "container": {
                 "value": {
-                  "itemSapcing": "{sem.input.xs.contrasted.container.spacer}"
+                  "itemSapcing": "{sem.input.xs.container.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.card.xs.contrasted.danger'})"
@@ -6305,7 +6305,7 @@
             "disabled": {
               "container": {
                 "value": {
-                  "itemSapcing": "{sem.input.xs.contrasted.container.spacer}"
+                  "itemSapcing": "{sem.input.xs.container.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.card.xs.contrasted.disabled'})"
@@ -6356,7 +6356,7 @@
             "default": {
               "container": {
                 "value": {
-                  "itemSapcing": "{sem.input.sm.uncontrasted.container.spacer}",
+                  "itemSapcing": "{sem.input.sm.container.spacer}",
                   "horizontalPadding": "{ref.spacing.150}",
                   "verticalPadding": "{ref.spacing.150}",
                   "fill": "{sem.colorSurface.light}",
@@ -6407,7 +6407,7 @@
             "hover": {
               "container": {
                 "value": {
-                  "itemSapcing": "{sem.input.sm.uncontrasted.container.spacer}",
+                  "itemSapcing": "{sem.input.sm.container.spacer}",
                   "horizontalPadding": "{ref.spacing.150}",
                   "verticalPadding": "{ref.spacing.150}",
                   "fill": "{sem.colorSurface.light}",
@@ -6459,7 +6459,7 @@
             "pressed": {
               "container": {
                 "value": {
-                  "itemSapcing": "{sem.input.sm.uncontrasted.container.spacer}",
+                  "itemSapcing": "{sem.input.sm.container.spacer}",
                   "horizontalPadding": "{ref.spacing.150}",
                   "verticalPadding": "{ref.spacing.150}",
                   "fill": "{sem.colorSurface.light}",
@@ -6511,7 +6511,7 @@
             "active": {
               "container": {
                 "value": {
-                  "itemSapcing": "{sem.input.sm.uncontrasted.container.spacer}",
+                  "itemSapcing": "{sem.input.sm.container.spacer}",
                   "horizontalPadding": "{ref.spacing.150}",
                   "verticalPadding": "{ref.spacing.150}",
                   "border": "{sem.border.active}",
@@ -6563,7 +6563,7 @@
             "danger": {
               "container": {
                 "value": {
-                  "itemSapcing": "{sem.input.sm.uncontrasted.container.spacer}",
+                  "itemSapcing": "{sem.input.sm.container.spacer}",
                   "horizontalPadding": "{ref.spacing.150}",
                   "verticalPadding": "{ref.spacing.150}",
                   "fill": "{sem.colorSurface.light}",
@@ -6615,7 +6615,7 @@
             "disabled": {
               "container": {
                 "value": {
-                  "itemSapcing": "{sem.input.sm.uncontrasted.container.spacer}",
+                  "itemSapcing": "{sem.input.sm.container.spacer}",
                   "horizontalPadding": "{ref.spacing.150}",
                   "verticalPadding": "{ref.spacing.150}",
                   "fill": "{sem.colorSurface.disabled}",
@@ -6668,7 +6668,7 @@
             "default": {
               "container": {
                 "value": {
-                  "itemSapcing": "{sem.input.sm.contrasted.container.spacer}",
+                  "itemSapcing": "{sem.input.sm.container.spacer}",
                   "horizontalPadding": "{ref.spacing.150}",
                   "verticalPadding": "{ref.spacing.150}",
                   "fill": "{sem.colorSurface.sub}",
@@ -6720,7 +6720,7 @@
             "hover": {
               "container": {
                 "value": {
-                  "itemSapcing": "{sem.input.sm.contrasted.container.spacer}",
+                  "itemSapcing": "{sem.input.sm.container.spacer}",
                   "horizontalPadding": "{ref.spacing.150}",
                   "verticalPadding": "{ref.spacing.150}",
                   "fill": "{sem.colorSurface.sub}",
@@ -6772,7 +6772,7 @@
             "pressed": {
               "container": {
                 "value": {
-                  "itemSapcing": "{sem.input.sm.contrasted.container.spacer}",
+                  "itemSapcing": "{sem.input.sm.container.spacer}",
                   "horizontalPadding": "{ref.spacing.150}",
                   "verticalPadding": "{ref.spacing.150}",
                   "fill": "{sem.colorSurface.sub}",
@@ -6824,7 +6824,7 @@
             "active": {
               "container": {
                 "value": {
-                  "itemSapcing": "{sem.input.sm.contrasted.container.spacer}",
+                  "itemSapcing": "{sem.input.sm.container.spacer}",
                   "horizontalPadding": "{ref.spacing.200}",
                   "verticalPadding": "{ref.spacing.200}",
                   "border": "{sem.border.active}",
@@ -6876,7 +6876,7 @@
             "danger": {
               "container": {
                 "value": {
-                  "itemSapcing": "{sem.input.sm.contrasted.container.spacer}",
+                  "itemSapcing": "{sem.input.sm.container.spacer}",
                   "horizontalPadding": "{ref.spacing.150}",
                   "verticalPadding": "{ref.spacing.150}",
                   "fill": "{sem.colorSurface.sub}",
@@ -6928,7 +6928,7 @@
             "disabled": {
               "container": {
                 "value": {
-                  "itemSapcing": "{sem.input.sm.contrasted.container.spacer}",
+                  "itemSapcing": "{sem.input.sm.container.spacer}",
                   "horizontalPadding": "{ref.spacing.150}",
                   "verticalPadding": "{ref.spacing.150}",
                   "fill": "{sem.colorSurface.disabled}",
