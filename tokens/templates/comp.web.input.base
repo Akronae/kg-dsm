@@ -31,7 +31,7 @@ comp
     "affix": {
       "value": {
         "typography": "{sem.typography.textStyle.paragraph.{{size}}.strong}",
-        "fill": "{sem.colorText.{{ 'state' == 'danger' ? 'danger' : 'default'}}}"
+        "fill": "{sem.colorText.{{ 'state' == 'danger' ? 'danger' : 'diminish'}}}"
       },
       "type": "composition"
     },
@@ -40,14 +40,14 @@ comp
         "placeholder": {
           "value": {
             "typography": "{sem.typography.textStyle.paragraph.{{size}}.default}",
-            "fill": "{sem.colorText.{{ 'state' == 'danger' ? 'danger' : 'default'}}}"
+            "fill": "{sem.colorText.{{ 'state' == 'danger' ? 'danger' : 'diminish'}}}"
           },
           "type": "composition"
         },
         "textValue": {
           "value": {
             "typography": "{sem.typography.textStyle.paragraph.{{size}}.strong}",
-            "fill": "{sem.colorText.{{ 'state' == 'danger' ? 'danger' : 'default'}}}"
+            "fill": "{sem.colorText.{{ 'state' == 'danger' ? 'danger' : 'dark'}}}"
           },
           "type": "composition"
         }

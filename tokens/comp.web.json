@@ -5973,7 +5973,7 @@
               "affix": {
                 "value": {
                   "typography": "{sem.typography.textStyle.paragraph.sm.strong}",
-                  "fill": "{sem.colorText.default}"
+                  "fill": "{sem.colorText.diminish}"
                 },
                 "type": "composition"
               },
@@ -5982,14 +5982,14 @@
                   "placeholder": {
                     "value": {
                       "typography": "{sem.typography.textStyle.paragraph.sm.default}",
-                      "fill": "{sem.colorText.default}"
+                      "fill": "{sem.colorText.diminish}"
                     },
                     "type": "composition"
                   },
                   "textValue": {
                     "value": {
                       "typography": "{sem.typography.textStyle.paragraph.sm.strong}",
-                      "fill": "{sem.colorText.default}"
+                      "fill": "{sem.colorText.dark}"
                     },
                     "type": "composition"
                   }
@@ -6025,7 +6025,7 @@
               "affix": {
                 "value": {
                   "typography": "{sem.typography.textStyle.paragraph.sm.strong}",
-                  "fill": "{sem.colorText.default}"
+                  "fill": "{sem.colorText.diminish}"
                 },
                 "type": "composition"
               },
@@ -6034,14 +6034,14 @@
                   "placeholder": {
                     "value": {
                       "typography": "{sem.typography.textStyle.paragraph.sm.default}",
-                      "fill": "{sem.colorText.default}"
+                      "fill": "{sem.colorText.diminish}"
                     },
                     "type": "composition"
                   },
                   "textValue": {
                     "value": {
                       "typography": "{sem.typography.textStyle.paragraph.sm.strong}",
-                      "fill": "{sem.colorText.default}"
+                      "fill": "{sem.colorText.dark}"
                     },
                     "type": "composition"
                   }
@@ -6077,7 +6077,7 @@
               "affix": {
                 "value": {
                   "typography": "{sem.typography.textStyle.paragraph.sm.strong}",
-                  "fill": "{sem.colorText.default}"
+                  "fill": "{sem.colorText.diminish}"
                 },
                 "type": "composition"
               },
@@ -6086,14 +6086,14 @@
                   "placeholder": {
                     "value": {
                       "typography": "{sem.typography.textStyle.paragraph.sm.default}",
-                      "fill": "{sem.colorText.default}"
+                      "fill": "{sem.colorText.diminish}"
                     },
                     "type": "composition"
                   },
                   "textValue": {
                     "value": {
                       "typography": "{sem.typography.textStyle.paragraph.sm.strong}",
-                      "fill": "{sem.colorText.default}"
+                      "fill": "{sem.colorText.dark}"
                     },
                     "type": "composition"
                   }
@@ -6129,7 +6129,7 @@
               "affix": {
                 "value": {
                   "typography": "{sem.typography.textStyle.paragraph.sm.strong}",
-                  "fill": "{sem.colorText.default}"
+                  "fill": "{sem.colorText.diminish}"
                 },
                 "type": "composition"
               },
@@ -6138,14 +6138,14 @@
                   "placeholder": {
                     "value": {
                       "typography": "{sem.typography.textStyle.paragraph.sm.default}",
-                      "fill": "{sem.colorText.default}"
+                      "fill": "{sem.colorText.diminish}"
                     },
                     "type": "composition"
                   },
                   "textValue": {
                     "value": {
                       "typography": "{sem.typography.textStyle.paragraph.sm.strong}",
-                      "fill": "{sem.colorText.default}"
+                      "fill": "{sem.colorText.dark}"
                     },
                     "type": "composition"
                   }
@@ -6181,7 +6181,7 @@
               "affix": {
                 "value": {
                   "typography": "{sem.typography.textStyle.paragraph.sm.strong}",
-                  "fill": "{sem.colorText.default}"
+                  "fill": "{sem.colorText.diminish}"
                 },
                 "type": "composition"
               },
@@ -6190,14 +6190,14 @@
                   "placeholder": {
                     "value": {
                       "typography": "{sem.typography.textStyle.paragraph.sm.default}",
-                      "fill": "{sem.colorText.default}"
+                      "fill": "{sem.colorText.diminish}"
                     },
                     "type": "composition"
                   },
                   "textValue": {
                     "value": {
                       "typography": "{sem.typography.textStyle.paragraph.sm.strong}",
-                      "fill": "{sem.colorText.default}"
+                      "fill": "{sem.colorText.dark}"
                     },
                     "type": "composition"
                   }
@@ -6232,7 +6232,7 @@
               "affix": {
                 "value": {
                   "typography": "{sem.typography.textStyle.paragraph.sm.strong}",
-                  "fill": "{sem.colorText.default}"
+                  "fill": "{sem.colorText.diminish}"
                 },
                 "type": "composition"
               },
@@ -6241,14 +6241,14 @@
                   "placeholder": {
                     "value": {
                       "typography": "{sem.typography.textStyle.paragraph.sm.default}",
-                      "fill": "{sem.colorText.default}"
+                      "fill": "{sem.colorText.diminish}"
                     },
                     "type": "composition"
                   },
                   "textValue": {
                     "value": {
                       "typography": "{sem.typography.textStyle.paragraph.sm.strong}",
-                      "fill": "{sem.colorText.default}"
+                      "fill": "{sem.colorText.dark}"
                     },
                     "type": "composition"
                   }
@@ -6286,7 +6286,7 @@
               "affix": {
                 "value": {
                   "typography": "{sem.typography.textStyle.paragraph.sm.strong}",
-                  "fill": "{sem.colorText.default}"
+                  "fill": "{sem.colorText.diminish}"
                 },
                 "type": "composition"
               },
@@ -6295,14 +6295,14 @@
                   "placeholder": {
                     "value": {
                       "typography": "{sem.typography.textStyle.paragraph.sm.default}",
-                      "fill": "{sem.colorText.default}"
+                      "fill": "{sem.colorText.diminish}"
                     },
                     "type": "composition"
                   },
                   "textValue": {
                     "value": {
                       "typography": "{sem.typography.textStyle.paragraph.sm.strong}",
-                      "fill": "{sem.colorText.default}"
+                      "fill": "{sem.colorText.dark}"
                     },
                     "type": "composition"
                   }
@@ -6338,7 +6338,7 @@
               "affix": {
                 "value": {
                   "typography": "{sem.typography.textStyle.paragraph.sm.strong}",
-                  "fill": "{sem.colorText.default}"
+                  "fill": "{sem.colorText.diminish}"
                 },
                 "type": "composition"
               },
@@ -6347,14 +6347,14 @@
                   "placeholder": {
                     "value": {
                       "typography": "{sem.typography.textStyle.paragraph.sm.default}",
-                      "fill": "{sem.colorText.default}"
+                      "fill": "{sem.colorText.diminish}"
                     },
                     "type": "composition"
                   },
                   "textValue": {
                     "value": {
                       "typography": "{sem.typography.textStyle.paragraph.sm.strong}",
-                      "fill": "{sem.colorText.default}"
+                      "fill": "{sem.colorText.dark}"
                     },
                     "type": "composition"
                   }
@@ -6390,7 +6390,7 @@
               "affix": {
                 "value": {
                   "typography": "{sem.typography.textStyle.paragraph.sm.strong}",
-                  "fill": "{sem.colorText.default}"
+                  "fill": "{sem.colorText.diminish}"
                 },
                 "type": "composition"
               },
@@ -6399,14 +6399,14 @@
                   "placeholder": {
                     "value": {
                       "typography": "{sem.typography.textStyle.paragraph.sm.default}",
-                      "fill": "{sem.colorText.default}"
+                      "fill": "{sem.colorText.diminish}"
                     },
                     "type": "composition"
                   },
                   "textValue": {
                     "value": {
                       "typography": "{sem.typography.textStyle.paragraph.sm.strong}",
-                      "fill": "{sem.colorText.default}"
+                      "fill": "{sem.colorText.dark}"
                     },
                     "type": "composition"
                   }
@@ -6442,7 +6442,7 @@
               "affix": {
                 "value": {
                   "typography": "{sem.typography.textStyle.paragraph.sm.strong}",
-                  "fill": "{sem.colorText.default}"
+                  "fill": "{sem.colorText.diminish}"
                 },
                 "type": "composition"
               },
@@ -6451,14 +6451,14 @@
                   "placeholder": {
                     "value": {
                       "typography": "{sem.typography.textStyle.paragraph.sm.default}",
-                      "fill": "{sem.colorText.default}"
+                      "fill": "{sem.colorText.diminish}"
                     },
                     "type": "composition"
                   },
                   "textValue": {
                     "value": {
                       "typography": "{sem.typography.textStyle.paragraph.sm.strong}",
-                      "fill": "{sem.colorText.default}"
+                      "fill": "{sem.colorText.dark}"
                     },
                     "type": "composition"
                   }
@@ -6494,7 +6494,7 @@
               "affix": {
                 "value": {
                   "typography": "{sem.typography.textStyle.paragraph.sm.strong}",
-                  "fill": "{sem.colorText.default}"
+                  "fill": "{sem.colorText.diminish}"
                 },
                 "type": "composition"
               },
@@ -6503,14 +6503,14 @@
                   "placeholder": {
                     "value": {
                       "typography": "{sem.typography.textStyle.paragraph.sm.default}",
-                      "fill": "{sem.colorText.default}"
+                      "fill": "{sem.colorText.diminish}"
                     },
                     "type": "composition"
                   },
                   "textValue": {
                     "value": {
                       "typography": "{sem.typography.textStyle.paragraph.sm.strong}",
-                      "fill": "{sem.colorText.default}"
+                      "fill": "{sem.colorText.dark}"
                     },
                     "type": "composition"
                   }
@@ -6546,7 +6546,7 @@
               "affix": {
                 "value": {
                   "typography": "{sem.typography.textStyle.paragraph.sm.strong}",
-                  "fill": "{sem.colorText.default}"
+                  "fill": "{sem.colorText.diminish}"
                 },
                 "type": "composition"
               },
@@ -6555,14 +6555,14 @@
                   "placeholder": {
                     "value": {
                       "typography": "{sem.typography.textStyle.paragraph.sm.default}",
-                      "fill": "{sem.colorText.default}"
+                      "fill": "{sem.colorText.diminish}"
                     },
                     "type": "composition"
                   },
                   "textValue": {
                     "value": {
                       "typography": "{sem.typography.textStyle.paragraph.sm.strong}",
-                      "fill": "{sem.colorText.default}"
+                      "fill": "{sem.colorText.dark}"
                     },
                     "type": "composition"
                   }
@@ -6601,7 +6601,7 @@
               "affix": {
                 "value": {
                   "typography": "{sem.typography.textStyle.paragraph.md.strong}",
-                  "fill": "{sem.colorText.default}"
+                  "fill": "{sem.colorText.diminish}"
                 },
                 "type": "composition"
               },
@@ -6610,14 +6610,14 @@
                   "placeholder": {
                     "value": {
                       "typography": "{sem.typography.textStyle.paragraph.md.default}",
-                      "fill": "{sem.colorText.default}"
+                      "fill": "{sem.colorText.diminish}"
                     },
                     "type": "composition"
                   },
                   "textValue": {
                     "value": {
                       "typography": "{sem.typography.textStyle.paragraph.md.strong}",
-                      "fill": "{sem.colorText.default}"
+                      "fill": "{sem.colorText.dark}"
                     },
                     "type": "composition"
                   }
@@ -6653,7 +6653,7 @@
               "affix": {
                 "value": {
                   "typography": "{sem.typography.textStyle.paragraph.md.strong}",
-                  "fill": "{sem.colorText.default}"
+                  "fill": "{sem.colorText.diminish}"
                 },
                 "type": "composition"
               },
@@ -6662,14 +6662,14 @@
                   "placeholder": {
                     "value": {
                       "typography": "{sem.typography.textStyle.paragraph.md.default}",
-                      "fill": "{sem.colorText.default}"
+                      "fill": "{sem.colorText.diminish}"
                     },
                     "type": "composition"
                   },
                   "textValue": {
                     "value": {
                       "typography": "{sem.typography.textStyle.paragraph.md.strong}",
-                      "fill": "{sem.colorText.default}"
+                      "fill": "{sem.colorText.dark}"
                     },
                     "type": "composition"
                   }
@@ -6705,7 +6705,7 @@
               "affix": {
                 "value": {
                   "typography": "{sem.typography.textStyle.paragraph.md.strong}",
-                  "fill": "{sem.colorText.default}"
+                  "fill": "{sem.colorText.diminish}"
                 },
                 "type": "composition"
               },
@@ -6714,14 +6714,14 @@
                   "placeholder": {
                     "value": {
                       "typography": "{sem.typography.textStyle.paragraph.md.default}",
-                      "fill": "{sem.colorText.default}"
+                      "fill": "{sem.colorText.diminish}"
                     },
                     "type": "composition"
                   },
                   "textValue": {
                     "value": {
                       "typography": "{sem.typography.textStyle.paragraph.md.strong}",
-                      "fill": "{sem.colorText.default}"
+                      "fill": "{sem.colorText.dark}"
                     },
                     "type": "composition"
                   }
@@ -6757,7 +6757,7 @@
               "affix": {
                 "value": {
                   "typography": "{sem.typography.textStyle.paragraph.md.strong}",
-                  "fill": "{sem.colorText.default}"
+                  "fill": "{sem.colorText.diminish}"
                 },
                 "type": "composition"
               },
@@ -6766,14 +6766,14 @@
                   "placeholder": {
                     "value": {
                       "typography": "{sem.typography.textStyle.paragraph.md.default}",
-                      "fill": "{sem.colorText.default}"
+                      "fill": "{sem.colorText.diminish}"
                     },
                     "type": "composition"
                   },
                   "textValue": {
                     "value": {
                       "typography": "{sem.typography.textStyle.paragraph.md.strong}",
-                      "fill": "{sem.colorText.default}"
+                      "fill": "{sem.colorText.dark}"
                     },
                     "type": "composition"
                   }
@@ -6809,7 +6809,7 @@
               "affix": {
                 "value": {
                   "typography": "{sem.typography.textStyle.paragraph.md.strong}",
-                  "fill": "{sem.colorText.default}"
+                  "fill": "{sem.colorText.diminish}"
                 },
                 "type": "composition"
               },
@@ -6818,14 +6818,14 @@
                   "placeholder": {
                     "value": {
                       "typography": "{sem.typography.textStyle.paragraph.md.default}",
-                      "fill": "{sem.colorText.default}"
+                      "fill": "{sem.colorText.diminish}"
                     },
                     "type": "composition"
                   },
                   "textValue": {
                     "value": {
                       "typography": "{sem.typography.textStyle.paragraph.md.strong}",
-                      "fill": "{sem.colorText.default}"
+                      "fill": "{sem.colorText.dark}"
                     },
                     "type": "composition"
                   }
@@ -6860,7 +6860,7 @@
               "affix": {
                 "value": {
                   "typography": "{sem.typography.textStyle.paragraph.md.strong}",
-                  "fill": "{sem.colorText.default}"
+                  "fill": "{sem.colorText.diminish}"
                 },
                 "type": "composition"
               },
@@ -6869,14 +6869,14 @@
                   "placeholder": {
                     "value": {
                       "typography": "{sem.typography.textStyle.paragraph.md.default}",
-                      "fill": "{sem.colorText.default}"
+                      "fill": "{sem.colorText.diminish}"
                     },
                     "type": "composition"
                   },
                   "textValue": {
                     "value": {
                       "typography": "{sem.typography.textStyle.paragraph.md.strong}",
-                      "fill": "{sem.colorText.default}"
+                      "fill": "{sem.colorText.dark}"
                     },
                     "type": "composition"
                   }
@@ -6914,7 +6914,7 @@
               "affix": {
                 "value": {
                   "typography": "{sem.typography.textStyle.paragraph.md.strong}",
-                  "fill": "{sem.colorText.default}"
+                  "fill": "{sem.colorText.diminish}"
                 },
                 "type": "composition"
               },
@@ -6923,14 +6923,14 @@
                   "placeholder": {
                     "value": {
                       "typography": "{sem.typography.textStyle.paragraph.md.default}",
-                      "fill": "{sem.colorText.default}"
+                      "fill": "{sem.colorText.diminish}"
                     },
                     "type": "composition"
                   },
                   "textValue": {
                     "value": {
                       "typography": "{sem.typography.textStyle.paragraph.md.strong}",
-                      "fill": "{sem.colorText.default}"
+                      "fill": "{sem.colorText.dark}"
                     },
                     "type": "composition"
                   }
@@ -6966,7 +6966,7 @@
               "affix": {
                 "value": {
                   "typography": "{sem.typography.textStyle.paragraph.md.strong}",
-                  "fill": "{sem.colorText.default}"
+                  "fill": "{sem.colorText.diminish}"
                 },
                 "type": "composition"
               },
@@ -6975,14 +6975,14 @@
                   "placeholder": {
                     "value": {
                       "typography": "{sem.typography.textStyle.paragraph.md.default}",
-                      "fill": "{sem.colorText.default}"
+                      "fill": "{sem.colorText.diminish}"
                     },
                     "type": "composition"
                   },
                   "textValue": {
                     "value": {
                       "typography": "{sem.typography.textStyle.paragraph.md.strong}",
-                      "fill": "{sem.colorText.default}"
+                      "fill": "{sem.colorText.dark}"
                     },
                     "type": "composition"
                   }
@@ -7018,7 +7018,7 @@
               "affix": {
                 "value": {
                   "typography": "{sem.typography.textStyle.paragraph.md.strong}",
-                  "fill": "{sem.colorText.default}"
+                  "fill": "{sem.colorText.diminish}"
                 },
                 "type": "composition"
               },
@@ -7027,14 +7027,14 @@
                   "placeholder": {
                     "value": {
                       "typography": "{sem.typography.textStyle.paragraph.md.default}",
-                      "fill": "{sem.colorText.default}"
+                      "fill": "{sem.colorText.diminish}"
                     },
                     "type": "composition"
                   },
                   "textValue": {
                     "value": {
                       "typography": "{sem.typography.textStyle.paragraph.md.strong}",
-                      "fill": "{sem.colorText.default}"
+                      "fill": "{sem.colorText.dark}"
                     },
                     "type": "composition"
                   }
@@ -7070,7 +7070,7 @@
               "affix": {
                 "value": {
                   "typography": "{sem.typography.textStyle.paragraph.md.strong}",
-                  "fill": "{sem.colorText.default}"
+                  "fill": "{sem.colorText.diminish}"
                 },
                 "type": "composition"
               },
@@ -7079,14 +7079,14 @@
                   "placeholder": {
                     "value": {
                       "typography": "{sem.typography.textStyle.paragraph.md.default}",
-                      "fill": "{sem.colorText.default}"
+                      "fill": "{sem.colorText.diminish}"
                     },
                     "type": "composition"
                   },
                   "textValue": {
                     "value": {
                       "typography": "{sem.typography.textStyle.paragraph.md.strong}",
-                      "fill": "{sem.colorText.default}"
+                      "fill": "{sem.colorText.dark}"
                     },
                     "type": "composition"
                   }
@@ -7122,7 +7122,7 @@
               "affix": {
                 "value": {
                   "typography": "{sem.typography.textStyle.paragraph.md.strong}",
-                  "fill": "{sem.colorText.default}"
+                  "fill": "{sem.colorText.diminish}"
                 },
                 "type": "composition"
               },
@@ -7131,14 +7131,14 @@
                   "placeholder": {
                     "value": {
                       "typography": "{sem.typography.textStyle.paragraph.md.default}",
-                      "fill": "{sem.colorText.default}"
+                      "fill": "{sem.colorText.diminish}"
                     },
                     "type": "composition"
                   },
                   "textValue": {
                     "value": {
                       "typography": "{sem.typography.textStyle.paragraph.md.strong}",
-                      "fill": "{sem.colorText.default}"
+                      "fill": "{sem.colorText.dark}"
                     },
                     "type": "composition"
                   }
@@ -7174,7 +7174,7 @@
               "affix": {
                 "value": {
                   "typography": "{sem.typography.textStyle.paragraph.md.strong}",
-                  "fill": "{sem.colorText.default}"
+                  "fill": "{sem.colorText.diminish}"
                 },
                 "type": "composition"
               },
@@ -7183,14 +7183,14 @@
                   "placeholder": {
                     "value": {
                       "typography": "{sem.typography.textStyle.paragraph.md.default}",
-                      "fill": "{sem.colorText.default}"
+                      "fill": "{sem.colorText.diminish}"
                     },
                     "type": "composition"
                   },
                   "textValue": {
                     "value": {
                       "typography": "{sem.typography.textStyle.paragraph.md.strong}",
-                      "fill": "{sem.colorText.default}"
+                      "fill": "{sem.colorText.dark}"
                     },
                     "type": "composition"
                   }
