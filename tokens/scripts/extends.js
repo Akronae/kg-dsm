@@ -39,7 +39,10 @@ const compoWithExtend = getCompositons(read).filter(compo => tryEval(compo.descr
 for (const compo of compoWithExtend) {
   const extendPath = tryEval(compo.description).extends;
   const extended = utils.get(read, extendPath);
-  if (!extended) continue;
+  if (!extended) {
+    console.error(compo)
+    throw utils.throw('Composition extends', utils.yellow(extendPath), 'but it does not exist');
+  }
   utils.mergeDeep(compo.value, extended.value)
 }
 

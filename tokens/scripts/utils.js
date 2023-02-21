@@ -52,5 +52,18 @@ module.exports = {
   
     return pathArrayFlat.reduce((obj, key) => obj && obj[key], object) || value
   },
+
+  yellow(...args) {
+    return args.map(a => `\x1b[33m${a}\x1b[0m`).join(' ')
+  },
+
+  red(...args) {
+    return args.map(a => `\x1b[31m${a}\x1b[0m`).join(' ')
+  },
+
+  throw(...args) {
+    console.error(this.red(this.yellow('[dsm]'), '❌', ...args))
+    process.exit(1)
+  },
   
 }
