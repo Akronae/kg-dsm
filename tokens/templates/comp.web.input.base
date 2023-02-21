@@ -10,7 +10,7 @@ comp
   {
     "container": {
       "value": {
-        "itemSapcing": "{sem.input.{{ ({sm: 'xs', md: 'sm'})[size] }}.container.spacer}"
+        "itemSapcing": "{sem.input.{{size}}.container.spacer}"
       },
       "type": "composition",
       "description": "({extends: 'comp.card.{{ ({sm: 'xs', md: 'sm'})[size] }}.{{contrast}}.{{state}}'})"
