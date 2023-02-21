@@ -7,10 +7,10 @@ const read = JSON.parse(fs.readFileSync(readpath, "utf8"));
 
 const compoWithExtend = utils
   .getCompositons(read)
-  .filter((compo) => utils.tryEval(compo.description)?.extends);
+  .filter((compo) => compo.description && eval(compo.description)?.extends);
 
 for (const compo of compoWithExtend) {
-  const extendPath = utils.tryEval(compo.description).extends;
+  const extendPath = eval(compo.description).extends;
   const extended = utils.get(read, extendPath);
   if (!extended) {
     console.error(compo);
