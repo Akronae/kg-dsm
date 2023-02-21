@@ -5,7 +5,7 @@ comp
 .inputText
 [size: 'sm' | 'md']
 [contrast: 'uncontrasted' | 'contrasted']
-[state: 'default' | 'hover' | 'pressed' | 'active' | 'disabled']
+[state: 'default' | 'hover' | 'pressed' | 'active' | 'danger' | 'disabled']
 [
   {
     "container": {
@@ -21,12 +21,12 @@ comp
     "iconSize": {
       "value": {},
       "type": "composition",
-      "description": "({extends: 'comp.input.base.{{size}}.{{contrast}}.{{state}}.iconSize})"
+      "description": "({extends: 'comp.input.base.{{size}}.{{contrast}}.{{state}}.iconSize'})"
     },
     "iconColor": {
       "value": {},
       "type": "composition",
-      "description": "({extends: 'comp.input.base.{{size}}.{{contrast}}.{{state}}.iconColor})"
+      "description": "({extends: 'comp.input.base.{{size}}.{{contrast}}.{{state}}.iconColor'})"
     },
     "affix": {
       "value": {},

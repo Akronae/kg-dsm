@@ -7818,6 +7818,52 @@
                   "description": "({extends: 'comp.input.base.sm.uncontrasted.disabled.slotContent.chips'})"
                 }
               }
+            },
+            "danger": {
+              "container": {
+                "value": {},
+                "type": "composition",
+                "description": "({extends: 'comp.input.base.sm.uncontrasted.danger.container'})"
+              },
+              "fieldWrapper": {
+                "value": {},
+                "type": "composition",
+                "description": "({extends: 'comp.input.base.sm.uncontrasted.danger.fieldWrapper'})"
+              },
+              "iconSize": {
+                "value": {},
+                "type": "composition",
+                "description": "({extends: 'comp.input.base.sm.uncontrasted.danger.iconSize})"
+              },
+              "iconColor": {
+                "value": {},
+                "type": "composition",
+                "description": "({extends: 'comp.input.base.sm.uncontrasted.danger.iconColor})"
+              },
+              "affix": {
+                "value": {},
+                "type": "composition",
+                "description": "({extends: 'comp.input.base.sm.uncontrasted.danger.affix'})"
+              },
+              "slotContent": {
+                "text": {
+                  "placeholder": {
+                    "value": {},
+                    "type": "composition",
+                    "description": "({extends: 'comp.input.base.sm.uncontrasted.danger.slotContent.text.placeholder'})"
+                  },
+                  "textValue": {
+                    "value": {},
+                    "type": "composition",
+                    "description": "({extends: 'comp.input.base.sm.uncontrasted.danger.slotContent.text.textValue'})"
+                  }
+                },
+                "chips": {
+                  "value": {},
+                  "type": "composition",
+                  "description": "({extends: 'comp.input.base.sm.uncontrasted.danger.slotContent.chips'})"
+                }
+              }
             }
           },
           "contrasted": {
@@ -8148,6 +8194,52 @@
                   },
                   "type": "composition",
                   "description": "({extends: 'comp.input.base.sm.contrasted.disabled.slotContent.chips'})"
+                }
+              }
+            },
+            "danger": {
+              "container": {
+                "value": {},
+                "type": "composition",
+                "description": "({extends: 'comp.input.base.sm.contrasted.danger.container'})"
+              },
+              "fieldWrapper": {
+                "value": {},
+                "type": "composition",
+                "description": "({extends: 'comp.input.base.sm.contrasted.danger.fieldWrapper'})"
+              },
+              "iconSize": {
+                "value": {},
+                "type": "composition",
+                "description": "({extends: 'comp.input.base.sm.contrasted.danger.iconSize})"
+              },
+              "iconColor": {
+                "value": {},
+                "type": "composition",
+                "description": "({extends: 'comp.input.base.sm.contrasted.danger.iconColor})"
+              },
+              "affix": {
+                "value": {},
+                "type": "composition",
+                "description": "({extends: 'comp.input.base.sm.contrasted.danger.affix'})"
+              },
+              "slotContent": {
+                "text": {
+                  "placeholder": {
+                    "value": {},
+                    "type": "composition",
+                    "description": "({extends: 'comp.input.base.sm.contrasted.danger.slotContent.text.placeholder'})"
+                  },
+                  "textValue": {
+                    "value": {},
+                    "type": "composition",
+                    "description": "({extends: 'comp.input.base.sm.contrasted.danger.slotContent.text.textValue'})"
+                  }
+                },
+                "chips": {
+                  "value": {},
+                  "type": "composition",
+                  "description": "({extends: 'comp.input.base.sm.contrasted.danger.slotContent.chips'})"
                 }
               }
             }
@@ -8482,6 +8574,52 @@
                   "description": "({extends: 'comp.input.base.md.uncontrasted.disabled.slotContent.chips'})"
                 }
               }
+            },
+            "danger": {
+              "container": {
+                "value": {},
+                "type": "composition",
+                "description": "({extends: 'comp.input.base.md.uncontrasted.danger.container'})"
+              },
+              "fieldWrapper": {
+                "value": {},
+                "type": "composition",
+                "description": "({extends: 'comp.input.base.md.uncontrasted.danger.fieldWrapper'})"
+              },
+              "iconSize": {
+                "value": {},
+                "type": "composition",
+                "description": "({extends: 'comp.input.base.md.uncontrasted.danger.iconSize})"
+              },
+              "iconColor": {
+                "value": {},
+                "type": "composition",
+                "description": "({extends: 'comp.input.base.md.uncontrasted.danger.iconColor})"
+              },
+              "affix": {
+                "value": {},
+                "type": "composition",
+                "description": "({extends: 'comp.input.base.md.uncontrasted.danger.affix'})"
+              },
+              "slotContent": {
+                "text": {
+                  "placeholder": {
+                    "value": {},
+                    "type": "composition",
+                    "description": "({extends: 'comp.input.base.md.uncontrasted.danger.slotContent.text.placeholder'})"
+                  },
+                  "textValue": {
+                    "value": {},
+                    "type": "composition",
+                    "description": "({extends: 'comp.input.base.md.uncontrasted.danger.slotContent.text.textValue'})"
+                  }
+                },
+                "chips": {
+                  "value": {},
+                  "type": "composition",
+                  "description": "({extends: 'comp.input.base.md.uncontrasted.danger.slotContent.chips'})"
+                }
+              }
             }
           },
           "contrasted": {
@@ -8812,6 +8950,52 @@
                   },
                   "type": "composition",
                   "description": "({extends: 'comp.input.base.md.contrasted.disabled.slotContent.chips'})"
+                }
+              }
+            },
+            "danger": {
+              "container": {
+                "value": {},
+                "type": "composition",
+                "description": "({extends: 'comp.input.base.md.contrasted.danger.container'})"
+              },
+              "fieldWrapper": {
+                "value": {},
+                "type": "composition",
+                "description": "({extends: 'comp.input.base.md.contrasted.danger.fieldWrapper'})"
+              },
+              "iconSize": {
+                "value": {},
+                "type": "composition",
+                "description": "({extends: 'comp.input.base.md.contrasted.danger.iconSize})"
+              },
+              "iconColor": {
+                "value": {},
+                "type": "composition",
+                "description": "({extends: 'comp.input.base.md.contrasted.danger.iconColor})"
+              },
+              "affix": {
+                "value": {},
+                "type": "composition",
+                "description": "({extends: 'comp.input.base.md.contrasted.danger.affix'})"
+              },
+              "slotContent": {
+                "text": {
+                  "placeholder": {
+                    "value": {},
+                    "type": "composition",
+                    "description": "({extends: 'comp.input.base.md.contrasted.danger.slotContent.text.placeholder'})"
+                  },
+                  "textValue": {
+                    "value": {},
+                    "type": "composition",
+                    "description": "({extends: 'comp.input.base.md.contrasted.danger.slotContent.text.textValue'})"
+                  }
+                },
+                "chips": {
+                  "value": {},
+                  "type": "composition",
+                  "description": "({extends: 'comp.input.base.md.contrasted.danger.slotContent.chips'})"
                 }
               }
             }
