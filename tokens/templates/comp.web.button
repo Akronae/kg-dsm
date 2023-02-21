@@ -34,7 +34,7 @@ comp
     "label": {
       "value": {
         "typography": "{sem.typography.textStyle.label.button.{{size}}}",
-        "fill": "{sem.colorText.{{type == 'ghost' && state != 'disabled' ? 'dark' : 'light'}}}}"
+        "fill": "{sem.colorText.{{type == 'ghost' && state != 'disabled' ? 'dark' : 'light'}}}"
       },
       "type": "composition"
     }

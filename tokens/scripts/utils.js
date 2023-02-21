@@ -1,3 +1,6 @@
+const fs = require("fs");
+const path = require("path");
+
 module.exports = {
   isObject(item) {
     return item && typeof item === "object" && !Array.isArray(item);
@@ -61,9 +64,53 @@ module.exports = {
     return args.map(a => `\x1b[31m${a}\x1b[0m`).join(' ')
   },
 
+  green(...args) {
+    return args.map(a => `\x1b[32m${a}\x1b[0m`).join(' ')
+  },
+
+  log(...args) {
+    console.log(this.yellow('[dsm]'), ...args)
+  },
+
   throw(...args) {
     console.error(this.red(this.yellow('[dsm]'), '❌', ...args))
     process.exit(1)
   },
+
+  getCompositons(themeObj) {
+    const findComposInObj = (obj) => {
+      const compos = [];
   
+      for (const val of Object.values(obj)) {
+        if (val.type === "composition") {
+          compos.push(val);
+        }
+        else if (this.isObject(val)) {
+          compos.push(...findComposInObj(val));
+        }
+      }
+  
+      return compos;
+    }
+  
+    return findComposInObj(themeObj);
+  },
+  
+  tryEval(str) {
+    try {
+      return eval(str);
+    }
+    catch {
+      return null;
+    }
+  },
+
+  readdirRecursive(dir) {
+    const dirents = fs.readdirSync(dir, { withFileTypes: true });
+    const files = dirents.map((dirent) => {
+      const res = path.resolve(dir, dirent.name);
+      return dirent.isDirectory() ? this.readdirRecursive(res) : res;
+    });
+    return Array.prototype.concat(...files);
+  },
 }
