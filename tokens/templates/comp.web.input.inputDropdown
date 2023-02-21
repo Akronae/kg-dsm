@@ -1,0 +1,45 @@
+// @replacepath: tokens/comp.web.json
+
+comp
+.input
+.inputDropdown
+[size: 'sm' | 'md']
+[contrast: 'uncontrasted' | 'contrasted']
+[state: 'default' | 'hover' | 'pressed' | 'active' | 'disabled']
+[
+  {
+    "container": {
+      "value": {},
+      "type": "composition",
+      "description": "({extends: 'comp.input.base.{{size}}.{{contrast}}.{{state}}.container'})"
+    },
+    "icon": {
+      "value": {},
+      "type": "composition",
+      "description": "({extends: 'comp.input.base.{{size}}.{{contrast}}.{{state}}.icon'})"
+    },
+    "affix": {
+      "value": {},
+      "type": "composition",
+      "description": "({extends: 'comp.input.base.{{size}}.{{contrast}}.{{state}}.affix'})"
+    },
+    "slotContent": {
+      "text": {
+        "placeholder": {
+          "value": {},
+          "type": "composition",
+          "description": "({extends: 'comp.input.base.{{size}}.{{contrast}}.{{state}}.slotContent.text.placeholder'})"
+        },
+        "textValue": {
+          "value": {},
+          "type": "composition",
+          "description": "({extends: 'comp.input.base.{{size}}.{{contrast}}.{{state}}.slotContent.text.textValue'})"
+        }
+      },
+      "chips": {
+        "value": {},
+        "type": "composition"
+      }
+    }
+  }
+]

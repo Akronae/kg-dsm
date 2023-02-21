@@ -1,35 +1,5 @@
 const fs = require("fs");
-
-function isObject(item) {
-  return item && typeof item === "object" && !Array.isArray(item);
-}
-
-function mergeDeep(target, ...sources) {
-  if (!sources.length) return target;
-  const source = sources.shift();
-
-  if (isObject(target) && isObject(source)) {
-    for (const key in source) {
-      if (isObject(source[key])) {
-        if (!target[key]) Object.assign(target, { [key]: {} });
-        mergeDeep(target[key], source[key]);
-      } else {
-        Object.assign(target, { [key]: source[key] });
-      }
-    }
-  }
-
-  return mergeDeep(target, ...sources);
-}
-
-function indexOfFirst(str, ...arr) {
-  let min = -1;
-  for (const char of arr) {
-    const i = str.indexOf(char);
-    if (i > -1 && (i < min || min == -1)) min = i;
-  }
-  return min;
-}
+const utils = require("./utils");
 
 function appendToBuds(obj, val, path = []) {
   if (JSON.stringify(obj) === "{}") return val;
@@ -63,22 +33,6 @@ function appendToBuds(obj, val, path = []) {
   return obj;
 }
 
-function removeQuotes(str) {
-  return str.replace(/"|'/g, "");
-}
-
-function getIndexOfClosingScope(str, openChar, closingChar) {
-  let i = 0;
-  let open = 0;
-  for (const char of str) {
-    if (char === openChar) open++;
-    if (char === closingChar) open--;
-    if (open === 0) return i;
-    i++;
-  }
-  return -1;
-}
-
 //////////////////////////////////////////////////////////////////////////////////////////////////
 
 const filepath = process.argv[2];
@@ -93,7 +47,7 @@ const ctx = {
 let i = 0;
 
 while (tree) {
-  if (i++ > 1000) {
+  if (i++ > 10000) {
     throw new Error("Infinite loop");
   }
 
@@ -106,9 +60,9 @@ while (tree) {
 
   let eat = "";
   if (tree.startsWith("[")) {
-    eat = tree.substring(0, getIndexOfClosingScope(tree, '[', "]") + 1);
+    eat = tree.substring(0, utils.getIndexOfClosingScope(tree, "[", "]") + 1);
   } else {
-    eat = tree.substring(0, indexOfFirst(tree, ".", "["));
+    eat = tree.substring(0, utils.indexOfFirst(tree, ".", "["));
   }
   tree = tree.substring(eat.length).trim();
 
@@ -127,7 +81,7 @@ while (tree) {
       const reg = eat.match(/^[a-zA-Z0-9]+/);
       const name = reg?.[0];
       if (name) eat = eat.substring(eat.indexOf(":") + 1);
-      const args = eat.split("|").map((arg) => removeQuotes(arg).trim());
+      const args = eat.split("|").map((arg) => utils.removeQuotes(arg).trim());
       parsed = {};
       for (const arg of args) {
         parsed[arg] = {};
@@ -154,6 +108,6 @@ const replacepath = replacepathComment.match(/@replacepath:(.*)/)[1].trim();
 if (replacepath) {
   const replacefileContent = fs.readFileSync(replacepath, "utf8");
   const replacefileJSON = JSON.parse(replacefileContent);
-  mergeDeep(replacefileJSON, res);
+  utils.mergeDeep(replacefileJSON, res);
   fs.writeFileSync(replacepath, JSON.stringify(replacefileJSON, null, 2));
 }
