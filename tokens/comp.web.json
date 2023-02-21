@@ -5688,11 +5688,11 @@
           },
           "active": {
             "value": {
-              "horizontalPadding": "{ref.spacing.200}",
-              "verticalPadding": "{ref.spacing.200}",
+              "horizontalPadding": "{ref.spacing.150}",
+              "verticalPadding": "{ref.spacing.150}",
               "border": "{sem.border.active}",
-              "borderRadius": "{ref.borderRadius.400}",
-              "fill": "{sem.colorSurface.light}"
+              "borderRadius": "{ref.borderRadius.300}",
+              "fill": "{sem.colorSurface.sub}"
             },
             "type": "composition"
           },
@@ -5999,6 +5999,12 @@
                     },
                     "type": "composition"
                   }
+                },
+                "chips": {
+                  "value": {
+                    "itemSpacing": "{sem.input.sm.slotContent.chips.spacer}"
+                  },
+                  "type": "composition"
                 }
               }
             },
@@ -6057,6 +6063,12 @@
                     },
                     "type": "composition"
                   }
+                },
+                "chips": {
+                  "value": {
+                    "itemSpacing": "{sem.input.sm.slotContent.chips.spacer}"
+                  },
+                  "type": "composition"
                 }
               }
             },
@@ -6115,6 +6127,12 @@
                     },
                     "type": "composition"
                   }
+                },
+                "chips": {
+                  "value": {
+                    "itemSpacing": "{sem.input.sm.slotContent.chips.spacer}"
+                  },
+                  "type": "composition"
                 }
               }
             },
@@ -6173,6 +6191,12 @@
                     },
                     "type": "composition"
                   }
+                },
+                "chips": {
+                  "value": {
+                    "itemSpacing": "{sem.input.sm.slotContent.chips.spacer}"
+                  },
+                  "type": "composition"
                 }
               }
             },
@@ -6231,6 +6255,12 @@
                     },
                     "type": "composition"
                   }
+                },
+                "chips": {
+                  "value": {
+                    "itemSpacing": "{sem.input.sm.slotContent.chips.spacer}"
+                  },
+                  "type": "composition"
                 }
               }
             },
@@ -6288,6 +6318,12 @@
                     },
                     "type": "composition"
                   }
+                },
+                "chips": {
+                  "value": {
+                    "itemSpacing": "{sem.input.sm.slotContent.chips.spacer}"
+                  },
+                  "type": "composition"
                 }
               }
             }
@@ -6348,6 +6384,12 @@
                     },
                     "type": "composition"
                   }
+                },
+                "chips": {
+                  "value": {
+                    "itemSpacing": "{sem.input.sm.slotContent.chips.spacer}"
+                  },
+                  "type": "composition"
                 }
               }
             },
@@ -6406,6 +6448,12 @@
                     },
                     "type": "composition"
                   }
+                },
+                "chips": {
+                  "value": {
+                    "itemSpacing": "{sem.input.sm.slotContent.chips.spacer}"
+                  },
+                  "type": "composition"
                 }
               }
             },
@@ -6464,6 +6512,12 @@
                     },
                     "type": "composition"
                   }
+                },
+                "chips": {
+                  "value": {
+                    "itemSpacing": "{sem.input.sm.slotContent.chips.spacer}"
+                  },
+                  "type": "composition"
                 }
               }
             },
@@ -6522,6 +6576,12 @@
                     },
                     "type": "composition"
                   }
+                },
+                "chips": {
+                  "value": {
+                    "itemSpacing": "{sem.input.sm.slotContent.chips.spacer}"
+                  },
+                  "type": "composition"
                 }
               }
             },
@@ -6580,6 +6640,12 @@
                     },
                     "type": "composition"
                   }
+                },
+                "chips": {
+                  "value": {
+                    "itemSpacing": "{sem.input.sm.slotContent.chips.spacer}"
+                  },
+                  "type": "composition"
                 }
               }
             },
@@ -6638,6 +6704,12 @@
                     },
                     "type": "composition"
                   }
+                },
+                "chips": {
+                  "value": {
+                    "itemSpacing": "{sem.input.sm.slotContent.chips.spacer}"
+                  },
+                  "type": "composition"
                 }
               }
             }
@@ -6699,6 +6771,12 @@
                     },
                     "type": "composition"
                   }
+                },
+                "chips": {
+                  "value": {
+                    "itemSpacing": "{sem.input.md.slotContent.chips.spacer}"
+                  },
+                  "type": "composition"
                 }
               }
             },
@@ -6757,6 +6835,12 @@
                     },
                     "type": "composition"
                   }
+                },
+                "chips": {
+                  "value": {
+                    "itemSpacing": "{sem.input.md.slotContent.chips.spacer}"
+                  },
+                  "type": "composition"
                 }
               }
             },
@@ -6815,6 +6899,12 @@
                     },
                     "type": "composition"
                   }
+                },
+                "chips": {
+                  "value": {
+                    "itemSpacing": "{sem.input.md.slotContent.chips.spacer}"
+                  },
+                  "type": "composition"
                 }
               }
             },
@@ -6873,6 +6963,12 @@
                     },
                     "type": "composition"
                   }
+                },
+                "chips": {
+                  "value": {
+                    "itemSpacing": "{sem.input.md.slotContent.chips.spacer}"
+                  },
+                  "type": "composition"
                 }
               }
             },
@@ -6931,6 +7027,12 @@
                     },
                     "type": "composition"
                   }
+                },
+                "chips": {
+                  "value": {
+                    "itemSpacing": "{sem.input.md.slotContent.chips.spacer}"
+                  },
+                  "type": "composition"
                 }
               }
             },
@@ -6988,6 +7090,12 @@
                     },
                     "type": "composition"
                   }
+                },
+                "chips": {
+                  "value": {
+                    "itemSpacing": "{sem.input.md.slotContent.chips.spacer}"
+                  },
+                  "type": "composition"
                 }
               }
             }
@@ -7048,6 +7156,12 @@
                     },
                     "type": "composition"
                   }
+                },
+                "chips": {
+                  "value": {
+                    "itemSpacing": "{sem.input.md.slotContent.chips.spacer}"
+                  },
+                  "type": "composition"
                 }
               }
             },
@@ -7106,6 +7220,12 @@
                     },
                     "type": "composition"
                   }
+                },
+                "chips": {
+                  "value": {
+                    "itemSpacing": "{sem.input.md.slotContent.chips.spacer}"
+                  },
+                  "type": "composition"
                 }
               }
             },
@@ -7164,6 +7284,12 @@
                     },
                     "type": "composition"
                   }
+                },
+                "chips": {
+                  "value": {
+                    "itemSpacing": "{sem.input.md.slotContent.chips.spacer}"
+                  },
+                  "type": "composition"
                 }
               }
             },
@@ -7222,6 +7348,12 @@
                     },
                     "type": "composition"
                   }
+                },
+                "chips": {
+                  "value": {
+                    "itemSpacing": "{sem.input.md.slotContent.chips.spacer}"
+                  },
+                  "type": "composition"
                 }
               }
             },
@@ -7280,6 +7412,12 @@
                     },
                     "type": "composition"
                   }
+                },
+                "chips": {
+                  "value": {
+                    "itemSpacing": "{sem.input.md.slotContent.chips.spacer}"
+                  },
+                  "type": "composition"
                 }
               }
             },
@@ -7338,6 +7476,12 @@
                     },
                     "type": "composition"
                   }
+                },
+                "chips": {
+                  "value": {
+                    "itemSpacing": "{sem.input.md.slotContent.chips.spacer}"
+                  },
+                  "type": "composition"
                 }
               }
             }
@@ -7510,6 +7654,14 @@
         "iconSize": {
           "value": "{ref.sizing.200}",
           "type": "sizing"
+        },
+        "slotContent": {
+          "chips": {
+            "spacer": {
+              "value": "{ref.spacing.100}",
+              "type": "spacing"
+            }
+          }
         }
       },
       "sm": {
@@ -7528,6 +7680,14 @@
         "iconSize": {
           "value": "{ref.sizing.100}",
           "type": "sizing"
+        },
+        "slotContent": {
+          "chips": {
+            "spacer": {
+              "value": "{ref.spacing.100}",
+              "type": "spacing"
+            }
+          }
         }
       }
     }
