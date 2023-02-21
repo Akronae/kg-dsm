@@ -5,7 +5,7 @@ comp
 .inputText
 [size: 'sm' | 'md']
 [contrast: 'uncontrasted' | 'contrasted']
-[state: 'default' | 'hover' | 'pressed' | 'active' | 'disabled']
+[state: 'default' | 'hover' | 'pressed' | 'active' | 'danger' | 'disabled']
 [
   {
     "container": {
@@ -13,10 +13,20 @@ comp
       "type": "composition",
       "description": "({extends: 'comp.input.base.{{size}}.{{contrast}}.{{state}}.container'})"
     },
-    "icon": {
+    "fieldWrapper": {
       "value": {},
       "type": "composition",
-      "description": "({extends: 'comp.input.base.{{size}}.{{contrast}}.{{state}}.icon'})"
+      "description": "({extends: 'comp.input.base.{{size}}.{{contrast}}.{{state}}.fieldWrapper'})"
+    },
+    "iconSize": {
+      "value": {},
+      "type": "composition",
+      "description": "({extends: 'comp.input.base.{{size}}.{{contrast}}.{{state}}.iconSize'})"
+    },
+    "iconColor": {
+      "value": {},
+      "type": "composition",
+      "description": "({extends: 'comp.input.base.{{size}}.{{contrast}}.{{state}}.iconColor'})"
     },
     "affix": {
       "value": {},
@@ -38,7 +48,8 @@ comp
       },
       "chips": {
         "value": {},
-        "type": "composition"
+        "type": "composition",
+        "description": "({extends: 'comp.input.base.{{size}}.{{contrast}}.{{state}}.slotContent.chips'})"
       }
     }
   }

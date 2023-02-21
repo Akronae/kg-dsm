@@ -1079,7 +1079,7 @@
     "borderWidth": {
       "icon": {
         "sm": {
-          "value": "2,5px",
+          "value": "1.5px",
           "type": "borderWidth"
         }
       }
