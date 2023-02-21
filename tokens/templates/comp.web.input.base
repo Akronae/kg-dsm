@@ -30,7 +30,7 @@ comp
     },
     "iconColor": {
       "value": {
-        "fill": "{sem.colorIcon.{{ state == 'danger' ? 'danger' : 'default'}}}"
+        "border": "{sem.borderIcon.sm.{{ state == 'danger' ? 'danger' : 'default'}}}"
       },
       "type": "composition"
     },

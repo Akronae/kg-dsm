@@ -5972,7 +5972,8 @@
               },
               "iconColor": {
                 "value": {
-                  "fill": "{sem.colorIcon.default}"
+                  "fill": "{sem.colorIcon.default}",
+                  "border": "{sem.borderIcon.sm.default}"
                 },
                 "type": "composition"
               },
@@ -6036,7 +6037,8 @@
               },
               "iconColor": {
                 "value": {
-                  "fill": "{sem.colorIcon.default}"
+                  "fill": "{sem.colorIcon.default}",
+                  "border": "{sem.borderIcon.sm.default}"
                 },
                 "type": "composition"
               },
@@ -6100,7 +6102,8 @@
               },
               "iconColor": {
                 "value": {
-                  "fill": "{sem.colorIcon.default}"
+                  "fill": "{sem.colorIcon.default}",
+                  "border": "{sem.borderIcon.sm.default}"
                 },
                 "type": "composition"
               },
@@ -6164,7 +6167,8 @@
               },
               "iconColor": {
                 "value": {
-                  "fill": "{sem.colorIcon.default}"
+                  "fill": "{sem.colorIcon.default}",
+                  "border": "{sem.borderIcon.sm.default}"
                 },
                 "type": "composition"
               },
@@ -6228,7 +6232,8 @@
               },
               "iconColor": {
                 "value": {
-                  "fill": "{sem.colorIcon.danger}"
+                  "fill": "{sem.colorIcon.danger}",
+                  "border": "{sem.borderIcon.sm.danger}"
                 },
                 "type": "composition"
               },
@@ -6291,7 +6296,8 @@
               },
               "iconColor": {
                 "value": {
-                  "fill": "{sem.colorIcon.default}"
+                  "fill": "{sem.colorIcon.default}",
+                  "border": "{sem.borderIcon.sm.default}"
                 },
                 "type": "composition"
               },
@@ -6357,7 +6363,8 @@
               },
               "iconColor": {
                 "value": {
-                  "fill": "{sem.colorIcon.default}"
+                  "fill": "{sem.colorIcon.default}",
+                  "border": "{sem.borderIcon.sm.default}"
                 },
                 "type": "composition"
               },
@@ -6421,7 +6428,8 @@
               },
               "iconColor": {
                 "value": {
-                  "fill": "{sem.colorIcon.default}"
+                  "fill": "{sem.colorIcon.default}",
+                  "border": "{sem.borderIcon.sm.default}"
                 },
                 "type": "composition"
               },
@@ -6485,7 +6493,8 @@
               },
               "iconColor": {
                 "value": {
-                  "fill": "{sem.colorIcon.default}"
+                  "fill": "{sem.colorIcon.default}",
+                  "border": "{sem.borderIcon.sm.default}"
                 },
                 "type": "composition"
               },
@@ -6549,7 +6558,8 @@
               },
               "iconColor": {
                 "value": {
-                  "fill": "{sem.colorIcon.default}"
+                  "fill": "{sem.colorIcon.default}",
+                  "border": "{sem.borderIcon.sm.default}"
                 },
                 "type": "composition"
               },
@@ -6613,7 +6623,8 @@
               },
               "iconColor": {
                 "value": {
-                  "fill": "{sem.colorIcon.danger}"
+                  "fill": "{sem.colorIcon.danger}",
+                  "border": "{sem.borderIcon.sm.danger}"
                 },
                 "type": "composition"
               },
@@ -6677,7 +6688,8 @@
               },
               "iconColor": {
                 "value": {
-                  "fill": "{sem.colorIcon.default}"
+                  "fill": "{sem.colorIcon.default}",
+                  "border": "{sem.borderIcon.sm.default}"
                 },
                 "type": "composition"
               },
@@ -6744,7 +6756,8 @@
               },
               "iconColor": {
                 "value": {
-                  "fill": "{sem.colorIcon.default}"
+                  "fill": "{sem.colorIcon.default}",
+                  "border": "{sem.borderIcon.sm.default}"
                 },
                 "type": "composition"
               },
@@ -6808,7 +6821,8 @@
               },
               "iconColor": {
                 "value": {
-                  "fill": "{sem.colorIcon.default}"
+                  "fill": "{sem.colorIcon.default}",
+                  "border": "{sem.borderIcon.sm.default}"
                 },
                 "type": "composition"
               },
@@ -6872,7 +6886,8 @@
               },
               "iconColor": {
                 "value": {
-                  "fill": "{sem.colorIcon.default}"
+                  "fill": "{sem.colorIcon.default}",
+                  "border": "{sem.borderIcon.sm.default}"
                 },
                 "type": "composition"
               },
@@ -6936,7 +6951,8 @@
               },
               "iconColor": {
                 "value": {
-                  "fill": "{sem.colorIcon.default}"
+                  "fill": "{sem.colorIcon.default}",
+                  "border": "{sem.borderIcon.sm.default}"
                 },
                 "type": "composition"
               },
@@ -7000,7 +7016,8 @@
               },
               "iconColor": {
                 "value": {
-                  "fill": "{sem.colorIcon.danger}"
+                  "fill": "{sem.colorIcon.danger}",
+                  "border": "{sem.borderIcon.sm.danger}"
                 },
                 "type": "composition"
               },
@@ -7063,7 +7080,8 @@
               },
               "iconColor": {
                 "value": {
-                  "fill": "{sem.colorIcon.default}"
+                  "fill": "{sem.colorIcon.default}",
+                  "border": "{sem.borderIcon.sm.default}"
                 },
                 "type": "composition"
               },
@@ -7129,7 +7147,8 @@
               },
               "iconColor": {
                 "value": {
-                  "fill": "{sem.colorIcon.default}"
+                  "fill": "{sem.colorIcon.default}",
+                  "border": "{sem.borderIcon.sm.default}"
                 },
                 "type": "composition"
               },
@@ -7193,7 +7212,8 @@
               },
               "iconColor": {
                 "value": {
-                  "fill": "{sem.colorIcon.default}"
+                  "fill": "{sem.colorIcon.default}",
+                  "border": "{sem.borderIcon.sm.default}"
                 },
                 "type": "composition"
               },
@@ -7257,7 +7277,8 @@
               },
               "iconColor": {
                 "value": {
-                  "fill": "{sem.colorIcon.default}"
+                  "fill": "{sem.colorIcon.default}",
+                  "border": "{sem.borderIcon.sm.default}"
                 },
                 "type": "composition"
               },
@@ -7303,11 +7324,11 @@
               "fieldWrapper": {
                 "value": {
                   "itemSpacing": "{sem.input.md.fieldWrapper.spacer}",
-                  "horizontalPadding": "{ref.spacing.200}",
-                  "verticalPadding": "{ref.spacing.200}",
+                  "horizontalPadding": "{ref.spacing.150}",
+                  "verticalPadding": "{ref.spacing.150}",
                   "border": "{sem.border.active}",
-                  "borderRadius": "{ref.borderRadius.400}",
-                  "fill": "{sem.colorSurface.light}"
+                  "borderRadius": "{ref.borderRadius.300}",
+                  "fill": "{sem.colorSurface.sub}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.card.sm.contrasted.active'})"
@@ -7321,7 +7342,8 @@
               },
               "iconColor": {
                 "value": {
-                  "fill": "{sem.colorIcon.default}"
+                  "fill": "{sem.colorIcon.default}",
+                  "border": "{sem.borderIcon.sm.default}"
                 },
                 "type": "composition"
               },
@@ -7385,7 +7407,8 @@
               },
               "iconColor": {
                 "value": {
-                  "fill": "{sem.colorIcon.danger}"
+                  "fill": "{sem.colorIcon.danger}",
+                  "border": "{sem.borderIcon.sm.danger}"
                 },
                 "type": "composition"
               },
@@ -7449,7 +7472,8 @@
               },
               "iconColor": {
                 "value": {
-                  "fill": "{sem.colorIcon.default}"
+                  "fill": "{sem.colorIcon.default}",
+                  "border": "{sem.borderIcon.sm.default}"
                 },
                 "type": "composition"
               },
