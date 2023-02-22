@@ -11,7 +11,7 @@ comp
     "container": {
       "value": {
         "border": "<<type == 'ghost' && state != 'disabled' ? '{sem.border.diminished}' : 'none'>>",
-        "borderRadius": "{sem.button.<<shape>>.<<shape>>.borderRadius}",
+        "borderRadius": "{sem.button.<<shape>>.<<size>>.borderRadius}",
         "verticalPadding": "{sem.button.<<shape>>.<<size>>.verticalPadding}",
         "horizontalPadding": "{sem.button.<<shape>>.<<size>>.horizontalPadding}",
         "itemSpacing": "{sem.button.<<shape>>.<<size>>.spacing}",
