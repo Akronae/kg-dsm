@@ -11,7 +11,7 @@ comp
     "container": {
       "value": {
         "border": "<<type == 'ghost' && state != 'disabled' ? '{sem.border.diminished}' : 'none'>>",
-        "borderRadius": "{sem.button.<<shape>>.borderRadius<<shape != 'circular' ? '.' + size : ''>>}",
+        "borderRadius": "{sem.button.<<shape>>.<<shape>>.borderRadius}",
         "verticalPadding": "{sem.button.<<shape>>.<<size>>.verticalPadding}",
         "horizontalPadding": "{sem.button.<<shape>>.<<size>>.horizontalPadding}",
         "itemSpacing": "{sem.button.<<shape>>.<<size>>.spacing}",
@@ -21,7 +21,7 @@ comp
     },
     "iconSize": {
       "value": {
-        "sizing": "{sem.button.<<shape>>.<<size>>.iconSizing}"
+        "sizing": "{sem.button.<<shape>>.<<size>>.iconSize}"
       },
       "type": "composition"
     },

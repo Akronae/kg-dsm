@@ -10,7 +10,7 @@ sem
       "value": "{<< shape == 'rectangular' ? ({lg: 'ref.borderRadius.300', md: 'ref.borderRadius.250', sm: 'ref.borderRadius.200'})[size] : 'ref.borderRadius.9999' >>}",
       "type": "borderRadius"
     },
-    "sapcing": {
+    "spacing": {
       "value": "{<< shape == 'rectangular' ? ({lg: 'ref.spacing.100', md: 'ref.spacing.100', sm: 'ref.spacing.50'})[size] : ({lg: 'ref.spacing.50', md: 'ref.spacing.50', sm: 'ref.spacing.50'})[size]>>}",
       "type": "spacing"
     },
