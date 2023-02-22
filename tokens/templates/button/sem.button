@@ -1,0 +1,30 @@
+// @replacepath: tokens/comp.web.json
+
+sem
+.button
+[shape: 'rectangular' | 'circular']
+[size: 'sm' | 'md' | 'lg']
+[
+  {
+    "borderRadius": {
+      "value": "{<< shape == 'rectangular' ? ({lg: 'ref.borderRadius.300', md: 'ref.borderRadius.250', sm: 'ref.borderRadius.200'})[size] : 'ref.borderRadius.9999' >>}",
+      “type“: "borderRadius"
+    },
+    "sapcing": {
+      "value": "{<< shape == 'rectangular' ? ({lg: 'ref.spacing.100', md: 'ref.spacing.100', sm: 'ref.spacing.50'})[size] : ({lg: 'ref.spacing.50', md: 'ref.spacing.50', sm: 'ref.spacing.50'})[size]>>}",
+      "type": "spacing"
+    },
+    "verticalPadding": {
+      "value": "{<< shape == 'rectangular' ? ({lg: 'ref.spacing.200', md: 'ref.spacing.150', sm: 'ref.spacing.100'})[size] : ({lg: 'ref.spacing.50', md: 'ref.spacing.50', sm: 'ref.spacing.50'})[size] >>}",
+      "type": "spacing"
+    },
+    "horizontalPadding": {
+      "value": "{<< shape == 'rectangular' ? ({lg: 'ref.spacing.200', md: 'ref.spacing.200', sm: 'ref.spacing.100'})[size] : ({lg: 'ref.spacing.50', md: 'ref.spacing.50', sm: 'ref.spacing.50'})[size] >>}",
+      "type": "spacing"
+    },
+    "iconSize": {
+      "value": "{<< shape == 'rectangular' ? ({lg: 'ref.sizing.200', md: 'ref.sizing.200', sm: 'ref.sizing.100'})[size] : ({lg: 'ref.sizing.300', md: 'ref.sizing.200', sm: 'ref.sizing.100'})[size]>>}",
+      "type": "sizing"
+    }
+  }
+]

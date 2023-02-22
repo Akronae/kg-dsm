@@ -12,16 +12,16 @@ comp
       "value": {
         "border": "<<type == 'ghost' && state != 'disabled' ? '{sem.border.diminished}' : 'none'>>",
         "borderRadius": "{sem.button.<<shape>>.borderRadius<<shape != 'circular' ? '.' + size : ''>>}",
-        "verticalPadding": "{sem.button.<<shape>>.verticalPadding.<<size>>}",
-        "horizontalPadding": "{sem.button.<<shape>>.horizontalPadding.<<size>>}",
-        "itemSpacing": "{sem.button.<<shape>>.spacing.<<size>>}",
+        "verticalPadding": "{sem.button.<<shape>>.<<size>>.verticalPadding}",
+        "horizontalPadding": "{sem.button.<<shape>>.<<size>>.horizontalPadding}",
+        "itemSpacing": "{sem.button.<<shape>>.<<size>>.spacing}",
         "fill": "{sem.colorAction.<<type>>.<<state>>}"
       },
       "type": "composition"
     },
     "iconSize": {
       "value": {
-        "sizing": "{sem.button.<<shape>>.icon.sizing.<<size>>}"
+        "sizing": "{sem.button.<<shape>>.<<size>>.iconSizing}"
       },
       "type": "composition"
     },
