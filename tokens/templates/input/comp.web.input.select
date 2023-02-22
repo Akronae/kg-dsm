@@ -11,45 +11,45 @@ comp
     "container": {
       "value": {},
       "type": "composition",
-      "description": "({extends: 'comp.input.base.{{size}}.{{contrast}}.{{state}}.container'})"
+      "description": "({extends: 'comp.input.base.<<size>>.<<contrast>>.<<state>>.container'})"
     },
     "fieldWrapper": {
       "value": {},
       "type": "composition",
-      "description": "({extends: 'comp.input.base.{{size}}.{{contrast}}.{{state}}.fieldWrapper'})"
+      "description": "({extends: 'comp.input.base.<<size>>.<<contrast>>.<<state>>.fieldWrapper'})"
     },
     "iconSize": {
       "value": {},
       "type": "composition",
-      "description": "({extends: 'comp.input.base.{{size}}.{{contrast}}.{{state}}.iconSize'})"
+      "description": "({extends: 'comp.input.base.<<size>>.<<contrast>>.<<state>>.iconSize'})"
     },
     "iconColor": {
       "value": {},
       "type": "composition",
-      "description": "({extends: 'comp.input.base.{{size}}.{{contrast}}.{{state}}.iconColor'})"
+      "description": "({extends: 'comp.input.base.<<size>>.<<contrast>>.<<state>>.iconColor'})"
     },
     "affix": {
       "value": {},
       "type": "composition",
-      "description": "({extends: 'comp.input.base.{{size}}.{{contrast}}.{{state}}.affix'})"
+      "description": "({extends: 'comp.input.base.<<size>>.<<contrast>>.<<state>>.affix'})"
     },
     "slotContent": {
       "text": {
         "placeholder": {
           "value": {},
           "type": "composition",
-          "description": "({extends: 'comp.input.base.{{size}}.{{contrast}}.{{state}}.slotContent.text.placeholder'})"
+          "description": "({extends: 'comp.input.base.<<size>>.<<contrast>>.<<state>>.slotContent.text.placeholder'})"
         },
         "textValue": {
           "value": {},
           "type": "composition",
-          "description": "({extends: 'comp.input.base.{{size}}.{{contrast}}.{{state}}.slotContent.text.textValue'})"
+          "description": "({extends: 'comp.input.base.<<size>>.<<contrast>>.<<state>>.slotContent.text.textValue'})"
         }
       },
       "chips": {
         "value": {},
         "type": "composition",
-        "description": "({extends: 'comp.input.base.{{size}}.{{contrast}}.{{state}}.slotContent.chips'})"
+        "description": "({extends: 'comp.input.base.<<size>>.<<contrast>>.<<state>>.slotContent.chips'})"
       }
     }
   }
