@@ -1,0 +1,32 @@
+// @replacepath: tokens/comp.web.json
+
+sem
+.input
+.base
+[size: 'sm' | 'md']
+[
+  {
+    "container": {
+      "spacer": {
+        "value": "{<< ({sm: 'ref.spacing.100', md: 'ref.spacing.50'})[size] >>}",
+        "type": "spacing"
+      }
+    },
+    "fieldWrapper": {
+      "spacer": {
+        "value": "{<< ({sm: 'ref.spacing.100', md: 'ref.spacing.50'})[size] >>}",
+        "type": "spacing"
+      }
+    },
+    "slotContent": {
+      "chips" : {
+        "value": "{<< ({sm: 'ref.spacing.100', md: 'ref.spacing.50'})[size] >>}",
+        "type": "spacing"
+      }
+    },
+    "iconSize": {
+      "value": "{<< ({sm: 'ref.sizing.100', md: 'ref.sizing.200'})[size] >>}",
+      "type": "spacing"
+    }
+  }
+]

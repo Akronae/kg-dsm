@@ -1,21 +1,29 @@
 // @replacepath: tokens/comp.web.json
 
-comp
+sem
 .card
 [size: 'xs' | 'sm' | 'md']
-[contrast: 'uncontrasted' | 'contrasted']
-[state: 'default' | 'hover' | 'pressed' | 'open' | 'danger' | 'active' | 'forced' | 'disabled']
 [
   {
-    "value": {
-      "horizontalPadding": "{sem.card.{{size}}.padding}",
-      "verticalPadding": "{sem.card.{{size}}.padding}",
-      "fill": "{sem.colorSurface.{{ contrast == 'uncontrasted' ? 'light' : 'sub'}}}",
-      "borderRadiusTopLeft": "{sem.card.{{size}}.borderRadiusTopLeft}",
-      "borderRadiusTopRight": "{sem.card.{{size}}.borderRadiusTopRight}",
-      "borderRadiusBottomRight": "{sem.card.{{size}}.borderRadiusBottomRight}",
-      "borderRadiusBottomLeft": "{sem.card.{{size}}.borderRadiusBottomLeft}"
+    "padding": {
+      "value": "{<< ({md: 'ref.spacing.200', sm: 'ref.spacing.150', xs: 'ref.spacing.50'})[size] >>}",
+      "type": "spacing"
     },
-    "type": "composition"
+    "borderRadiusTopLeft": {
+      "value": "{<< ({md: 'ref.borderRadius.400', sm: 'ref.borderRadius.300', xs: 'ref.borderRadius.250'})[size] >>}",
+      "type": "borderRadius"
+    },
+    "borderRadiusTopRight": {
+      "value": "{<< ({md: 'ref.borderRadius.400', sm: 'ref.borderRadius.300', xs: 'ref.borderRadius.250'})[size] >>}",
+      "type": "borderRadius"
+    },
+    "borderRadiusBottomRight": {
+      "value": "{<< ({md: 'ref.borderRadius.400', sm: 'ref.borderRadius.300', xs: 'ref.borderRadius.250'})[size] >>}",
+       "type": "borderRadius"
+    },
+    "borderRadiusBottomLeft": {
+      "value": "{<< ({xs: 'ref.borderRadius.250', sm: 'ref.borderRadius.300', md: 'ref.borderRadius.400'})[size] >>}",
+      "type": "borderRadius"
+    }
   }
 ]

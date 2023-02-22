@@ -1,0 +1,42 @@
+// @replacepath: tokens/comp.web.json
+
+comp
+.button
+[type: 'primary' | 'secondary' | 'ghost' | 'success' | 'external' | 'danger']
+[shape: 'rectangular' | 'circular']
+[size: 'sm' | 'md' | 'lg']
+[state: 'default' | 'hover' | 'pressed' | 'disabled']
+[
+  {
+    "container": {
+      "value": {
+        "border": "<<type == 'ghost' && state != 'disabled' ? '{sem.border.diminished}' : 'none'>>",
+        "borderRadius": "{sem.button.<<shape>>.borderRadius<<shape != 'circular' ? '.' + size : ''>>}",
+        "verticalPadding": "{sem.button.<<shape>>.<<size>>.verticalPadding}",
+        "horizontalPadding": "{sem.button.<<shape>>.<<size>>.horizontalPadding}",
+        "itemSpacing": "{sem.button.<<shape>>.<<size>>.spacing}",
+        "fill": "{sem.colorAction.<<type>>.<<state>>}"
+      },
+      "type": "composition"
+    },
+    "iconSize": {
+      "value": {
+        "sizing": "{sem.button.<<shape>>.<<size>>.iconSizing}"
+      },
+      "type": "composition"
+    },
+    "iconColor": {
+      "value": {
+        "borderColor": "{sem.colorIcon.<<type == 'ghost' && state != 'disabled' ? 'dark' : 'light'>>}"
+      },
+      "type": "composition"
+    },
+    "label": {
+      "value": {
+        "typography": "{sem.typography.textStyle.label.button.<<size>>}",
+        "fill": "{sem.colorText.<<type == 'ghost' && state != 'disabled' ? 'dark' : 'light'>>}"
+      },
+      "type": "composition"
+    }
+  }
+]

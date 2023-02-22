@@ -10,34 +10,34 @@ comp
   {
     "container": {
       "value": {
-        "itemSpacing": "{sem.input.{{size}}.container.spacer}"
+        "itemSpacing": "{sem.input.<<size>>.container.spacer}"
       },
       "type": "composition"
     },
     "fieldWrapper": {
       "value": {
-        "itemSpacing": "{sem.input.{{size}}.fieldWrapper.spacer}"
+        "itemSpacing": "{sem.input.<<size>>.fieldWrapper.spacer}"
       },
       "type": "composition",
-      "description": "({extends: 'comp.card.{{ ({sm: 'xs', md: 'sm'})[size] }}.{{contrast}}.{{state}}'})"
+      "description": "({extends: 'comp.card.<< ({sm: 'xs', md: 'sm'})[size] >>.<<contrast>>.<<state>>'})"
     },
     "iconSize": {
       "value": {
-        "width": "{sem.input.{{size}}.iconSize}",
-        "height": "{sem.input.{{size}}.iconSize}"
+        "width": "{sem.input.<<size>>.iconSize}",
+        "height": "{sem.input.<<size>>.iconSize}"
       },
       "type": "composition"
     },
     "iconColor": {
       "value": {
-        "border": "{sem.borderIcon.sm.{{ state == 'danger' ? 'danger' : 'default'}}}"
+        "border": "{sem.borderIcon.sm.<< state == 'danger' ? 'danger' : 'default'>>}"
       },
       "type": "composition"
     },
     "affix": {
       "value": {
-        "typography": "{sem.typography.textStyle.paragraph.{{size}}.strong}",
-        "fill": "{sem.colorText.{{ state == 'danger' ? 'danger' : 'diminish'}}}"
+        "typography": "{sem.typography.textStyle.paragraph.<<size>>.strong}",
+        "fill": "{sem.colorText.<< state == 'danger' ? 'danger' : 'diminish'>>}"
       },
       "type": "composition"
     },
@@ -45,22 +45,22 @@ comp
       "text": {
         "placeholder": {
           "value": {
-            "typography": "{sem.typography.textStyle.paragraph.{{size}}.default}",
-            "fill": "{sem.colorText.{{ state == 'danger' ? 'danger' : 'diminish'}}}"
+            "typography": "{sem.typography.textStyle.paragraph.<<size>>.default}",
+            "fill": "{sem.colorText.<< state == 'danger' ? 'danger' : 'diminish'>>}"
           },
           "type": "composition"
         },
         "textValue": {
           "value": {
-            "typography": "{sem.typography.textStyle.paragraph.{{size}}.strong}",
-            "fill": "{sem.colorText.{{ state == 'danger' ? 'danger' : 'dark'}}}"
+            "typography": "{sem.typography.textStyle.paragraph.<<size>>.strong}",
+            "fill": "{sem.colorText.<< state == 'danger' ? 'danger' : 'dark'>>}"
           },
           "type": "composition"
         }
       },
       "chips": {
         "value": {
-          "itemSpacing": "{sem.input.{{size}}.slotContent.chips.spacer}"
+          "itemSpacing": "{sem.input.<<size>>.slotContent.chips.spacer}"
         },
         "type": "composition"
       }
