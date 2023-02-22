@@ -20,7 +20,7 @@ for (const compo of compoWithExtend) {
       "but it does not exist"
     );
   }
-  utils.mergeDeep(compo.value, extended.value);
+  compo.value = utils.mergeDeep(JSON.parse(JSON.stringify(extended.value)), compo.value);
 }
 
 const res = JSON.stringify(read, null, 2);
