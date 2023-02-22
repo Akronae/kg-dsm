@@ -1,0 +1,21 @@
+// @replacepath: tokens/comp.web.json
+
+comp
+.card
+[size: 'xs' | 'sm' | 'md']
+[contrast: 'uncontrasted' | 'contrasted']
+[state: 'default' | 'hover' | 'pressed' | 'open' | 'danger' | 'active' | 'forced' | 'disabled']
+[
+  {
+    "value": {
+      "horizontalPadding": "{sem.card.{{size}}.padding}",
+      "verticalPadding": "{sem.card.{{size}}.padding}",
+      "fill": "{sem.colorSurface.{{ contrast == 'uncontrasted' ? 'light' : 'sub'}",
+      "borderRadiusTopLeft": "{sem.card.{{size}}.borderRadiusTopLeft}",
+      "borderRadiusTopRight": "{sem.card.{{size}}.borderRadiusTopRight}",
+      "borderRadiusBottomRight": "{sem.card.{{size}}.borderRadiusBottomRight}",
+      "borderRadiusBottomLeft": "{sem.card.{{size}}.borderRadiusBottomLeft}"
+    },
+    "type": "composition"
+  }
+]
