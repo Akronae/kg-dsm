@@ -3,6 +3,7 @@ const path = require("path");
 const utils = require("./utils");
 const templateParser = require("./template-parser");
 const templateProc = require("./template-proc");
+const extend = require("./extends");
 
 function regen(templatepath) {
   if (!fs.statSync(templatepath).isFile()) return;
@@ -27,7 +28,9 @@ function regen(templatepath) {
   utils.log("🚮 deleted", utils.yellow(jsonPath));
 
   templateProc.generate(templatepath, { silent: true });
-  utils.log("✅ regenerated", utils.yellow(jsonPath));
+  utils.log("✨ regenerated", utils.yellow(jsonPath));
+
+  extend.extend(replacePath);
 }
 
 if (require.main == module) {

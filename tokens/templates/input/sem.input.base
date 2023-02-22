@@ -1,6 +1,6 @@
 // @replacepath: tokens/comp.web.json
 
-comp
+sem
 .input
 .base
 [size: 'sm' | 'md']

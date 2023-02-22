@@ -79,7 +79,7 @@ if (require.main == module) {
   if (!process.argv[2])
     throw new Error("Please provide a template path as argument");
 
-  process.argv.slice(2).forEach((templatepath) => main(templatepath));
+  process.argv.slice(2).forEach((templatepath) => generate(templatepath));
 }
 
 module.exports = { generate };
