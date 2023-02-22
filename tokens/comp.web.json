@@ -12144,7 +12144,7 @@
     "card": {
       "md": {
         "padding": {
-          "value": "",
+          "value": "{ref",
           "type": ""
         },
         "borderRadiusTopLeft": {
