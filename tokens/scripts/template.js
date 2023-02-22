@@ -17,7 +17,7 @@ function appendToBuds(obj, val, path = []) {
         const currPathJsCtx = Object.entries(currPathQueries)
           .map(([key, value]) => `const ${key} = '${value}'`)
           .join(";");
-        for (const match of replaceVal.matchAll(/{{(.*?)}}/g)) {
+        for (const match of replaceVal.matchAll(/<<(.*?)>>/g)) {
           replaceVal = replaceVal.replaceAll(
             match[0],
             eval(`${currPathJsCtx}; ${match[1]}`)
