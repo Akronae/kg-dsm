@@ -87,6 +87,10 @@ module.exports = {
     return args.map((a) => `\x1b[32m${a}\x1b[0m`).join(" ");
   },
 
+  gray(...args) {
+    return args.map((a) => `\x1b[90m${a}\x1b[0m`).join(" ");
+  },
+
   log(...args) {
     console.log(this.yellow("[dsm]"), ...args);
   },

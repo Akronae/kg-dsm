@@ -6,6 +6,7 @@ const templateProc = require("./template-proc");
 
 function regen(templatepath) {
   if (!fs.statSync(templatepath).isFile()) return;
+  utils.log(utils.gray('checking', templatepath));
   const templatecontent = fs.readFileSync(templatepath, "utf8");
   const tokens = templateParser.parse(templatecontent);
   let propsChain = [];
