@@ -12144,68 +12144,68 @@
     "card": {
       "md": {
         "padding": {
-          "value": "{ref",
-          "type": ""
+          "value": "{ {ref.spacing.200} }",
+          "type": "spacing"
         },
         "borderRadiusTopLeft": {
-          "value": "",
-          "type": ""
+          "value": "{ {ref.borderRadius.400} }",
+          "type": "borderRadius"
         },
         "borderRadiusTopRight": {
-          "value": "",
-          "type": ""
+          "value": "{ {ref.borderRadius.400} }",
+          "type": "borderRadius"
         },
         "borderRadiusBottomRight": {
-          "value": "",
-          "type": ""
+          "value": "{ {ref.borderRadius.400} }",
+          "type": "borderRadius"
         },
         "borderRadiusBottomLeft": {
-          "value": "",
-          "type": ""
+          "value": "{ {ref.borderRadius.400} }",
+          "type": "borderRadius"
         }
       },
       "sm": {
         "padding": {
-          "value": "",
-          "type": ""
+          "value": "{ {ref.spacing.150} }",
+          "type": "spacing"
         },
         "borderRadiusTopLeft": {
-          "value": "",
-          "type": ""
+          "value": "{ {ref.borderRadius.300} }",
+          "type": "borderRadius"
         },
         "borderRadiusTopRight": {
-          "value": "",
-          "type": ""
+          "value": "{ {ref.borderRadius.300} }",
+          "type": "borderRadius"
         },
         "borderRadiusBottomRight": {
-          "value": "",
-          "type": ""
+          "value": "{ {ref.borderRadius.300} }",
+          "type": "borderRadius"
         },
         "borderRadiusBottomLeft": {
-          "value": "",
-          "type": ""
+          "value": "{ {ref.borderRadius.300} }",
+          "type": "borderRadius"
         }
       },
       "xs": {
         "padding": {
-          "value": "",
-          "type": ""
+          "value": "{ {ref.spacing.50} }",
+          "type": "spacing"
         },
         "borderRadiusTopLeft": {
-          "value": "",
-          "type": ""
+          "value": "{ {ref.borderRadius.250} }",
+          "type": "borderRadius"
         },
         "borderRadiusTopRight": {
-          "value": "",
-          "type": ""
+          "value": "{ {ref.borderRadius.250} }",
+          "type": "borderRadius"
         },
         "borderRadiusBottomRight": {
-          "value": "",
-          "type": ""
+          "value": "{ {ref.borderRadius.250} }",
+          "type": "borderRadius"
         },
         "borderRadiusBottomLeft": {
-          "value": "",
-          "type": ""
+          "value": "{ {ref.borderRadius.250} }",
+          "type": "borderRadius"
         }
       }
     }
