@@ -5398,78 +5398,110 @@
         "uncontrasted": {
           "default": {
             "value": {
-              "horizontalPadding": "{ref.spacing.200}",
-              "verticalPadding": "{ref.spacing.200}",
+              "horizontalPadding": "{sem.card.md.padding}",
+              "verticalPadding": "{sem.card.md.padding}",
               "fill": "{sem.colorSurface.light}",
-              "borderRadius": "{ref.borderRadius.400}"
+              "borderRadius": "{ref.borderRadius.400}",
+              "borderRadiusTopLeft": "{sem.card.md.borderRadiusTopLeft}",
+              "borderRadiusTopRight": "{sem.card.md.borderRadiusTopRight}",
+              "borderRadiusBottomRight": "{sem.card.md.borderRadiusBottomRight}",
+              "borderRadiusBottomLeft": "{sem.card.md.borderRadiusBottomLeft}"
             },
             "type": "composition"
           },
           "hover": {
             "value": {
-              "horizontalPadding": "{ref.spacing.200}",
-              "verticalPadding": "{ref.spacing.200}",
+              "horizontalPadding": "{sem.card.md.padding}",
+              "verticalPadding": "{sem.card.md.padding}",
               "fill": "{sem.colorSurface.light}",
               "borderRadius": "{ref.borderRadius.400}",
-              "boxShadow": "{ref.effects.dropShadow.200}"
+              "boxShadow": "{ref.effects.dropShadow.200}",
+              "borderRadiusTopLeft": "{sem.card.md.borderRadiusTopLeft}",
+              "borderRadiusTopRight": "{sem.card.md.borderRadiusTopRight}",
+              "borderRadiusBottomRight": "{sem.card.md.borderRadiusBottomRight}",
+              "borderRadiusBottomLeft": "{sem.card.md.borderRadiusBottomLeft}"
             },
             "type": "composition"
           },
           "pressed": {
             "value": {
-              "horizontalPadding": "{ref.spacing.200}",
-              "verticalPadding": "{ref.spacing.200}",
+              "horizontalPadding": "{sem.card.md.padding}",
+              "verticalPadding": "{sem.card.md.padding}",
               "fill": "{sem.colorSurface.light}",
               "borderRadius": "{ref.borderRadius.400}",
-              "boxShadow": "{ref.effects.dropShadow.50}"
+              "boxShadow": "{ref.effects.dropShadow.50}",
+              "borderRadiusTopLeft": "{sem.card.md.borderRadiusTopLeft}",
+              "borderRadiusTopRight": "{sem.card.md.borderRadiusTopRight}",
+              "borderRadiusBottomRight": "{sem.card.md.borderRadiusBottomRight}",
+              "borderRadiusBottomLeft": "{sem.card.md.borderRadiusBottomLeft}"
             },
             "type": "composition"
           },
           "open": {
             "value": {
-              "horizontalPadding": "{ref.spacing.200}",
-              "verticalPadding": "{ref.spacing.200}",
-              "fill": "{sem.colorSurface.sub}",
-              "borderRadius": "{ref.borderRadius.400}"
+              "horizontalPadding": "{sem.card.md.padding}",
+              "verticalPadding": "{sem.card.md.padding}",
+              "fill": "{sem.colorSurface.light}",
+              "borderRadius": "{ref.borderRadius.400}",
+              "borderRadiusTopLeft": "{sem.card.md.borderRadiusTopLeft}",
+              "borderRadiusTopRight": "{sem.card.md.borderRadiusTopRight}",
+              "borderRadiusBottomRight": "{sem.card.md.borderRadiusBottomRight}",
+              "borderRadiusBottomLeft": "{sem.card.md.borderRadiusBottomLeft}"
             },
             "type": "composition"
           },
           "danger": {
             "value": {
-              "horizontalPadding": "{ref.spacing.200}",
-              "verticalPadding": "{ref.spacing.200}",
+              "horizontalPadding": "{sem.card.md.padding}",
+              "verticalPadding": "{sem.card.md.padding}",
               "fill": "{sem.colorSurface.light}",
               "borderRadius": "{ref.borderRadius.400}",
-              "border": "{sem.border.danger}"
+              "border": "{sem.border.danger}",
+              "borderRadiusTopLeft": "{sem.card.md.borderRadiusTopLeft}",
+              "borderRadiusTopRight": "{sem.card.md.borderRadiusTopRight}",
+              "borderRadiusBottomRight": "{sem.card.md.borderRadiusBottomRight}",
+              "borderRadiusBottomLeft": "{sem.card.md.borderRadiusBottomLeft}"
             },
             "type": "composition"
           },
           "active": {
             "value": {
-              "horizontalPadding": "{ref.spacing.200}",
-              "verticalPadding": "{ref.spacing.200}",
+              "horizontalPadding": "{sem.card.md.padding}",
+              "verticalPadding": "{sem.card.md.padding}",
               "border": "{sem.border.active}",
               "borderRadius": "{ref.borderRadius.400}",
-              "fill": "{sem.colorSurface.light}"
+              "fill": "{sem.colorSurface.light}",
+              "borderRadiusTopLeft": "{sem.card.md.borderRadiusTopLeft}",
+              "borderRadiusTopRight": "{sem.card.md.borderRadiusTopRight}",
+              "borderRadiusBottomRight": "{sem.card.md.borderRadiusBottomRight}",
+              "borderRadiusBottomLeft": "{sem.card.md.borderRadiusBottomLeft}"
             },
             "type": "composition"
           },
           "forced": {
             "value": {
-              "horizontalPadding": "{ref.spacing.200}",
-              "verticalPadding": "{ref.spacing.200}",
+              "horizontalPadding": "{sem.card.md.padding}",
+              "verticalPadding": "{sem.card.md.padding}",
               "fill": "{sem.colorSurface.light}",
               "borderRadius": "{ref.borderRadius.400}",
-              "border": "{sem.border.forced}"
+              "border": "{sem.border.forced}",
+              "borderRadiusTopLeft": "{sem.card.md.borderRadiusTopLeft}",
+              "borderRadiusTopRight": "{sem.card.md.borderRadiusTopRight}",
+              "borderRadiusBottomRight": "{sem.card.md.borderRadiusBottomRight}",
+              "borderRadiusBottomLeft": "{sem.card.md.borderRadiusBottomLeft}"
             },
             "type": "composition"
           },
           "disabled": {
             "value": {
-              "horizontalPadding": "{ref.spacing.200}",
-              "verticalPadding": "{ref.spacing.200}",
-              "fill": "{sem.colorSurface.disabled}",
-              "borderRadius": "{ref.borderRadius.400}"
+              "horizontalPadding": "{sem.card.md.padding}",
+              "verticalPadding": "{sem.card.md.padding}",
+              "fill": "{sem.colorSurface.light}",
+              "borderRadius": "{ref.borderRadius.400}",
+              "borderRadiusTopLeft": "{sem.card.md.borderRadiusTopLeft}",
+              "borderRadiusTopRight": "{sem.card.md.borderRadiusTopRight}",
+              "borderRadiusBottomRight": "{sem.card.md.borderRadiusBottomRight}",
+              "borderRadiusBottomLeft": "{sem.card.md.borderRadiusBottomLeft}"
             },
             "type": "composition"
           }
@@ -5477,80 +5509,112 @@
         "contrasted": {
           "default": {
             "value": {
-              "horizontalPadding": "{ref.spacing.200}",
-              "verticalPadding": "{ref.spacing.200}",
+              "horizontalPadding": "{sem.card.md.padding}",
+              "verticalPadding": "{sem.card.md.padding}",
               "fill": "{sem.colorSurface.sub}",
               "borderRadius": "{ref.borderRadius.400}",
-              "border": "{sem.borderInteractive.default}"
+              "border": "{sem.borderInteractive.default}",
+              "borderRadiusTopLeft": "{sem.card.md.borderRadiusTopLeft}",
+              "borderRadiusTopRight": "{sem.card.md.borderRadiusTopRight}",
+              "borderRadiusBottomRight": "{sem.card.md.borderRadiusBottomRight}",
+              "borderRadiusBottomLeft": "{sem.card.md.borderRadiusBottomLeft}"
             },
             "type": "composition"
           },
           "hover": {
             "value": {
-              "horizontalPadding": "{ref.spacing.200}",
-              "verticalPadding": "{ref.spacing.200}",
+              "horizontalPadding": "{sem.card.md.padding}",
+              "verticalPadding": "{sem.card.md.padding}",
               "fill": "{sem.colorSurface.sub}",
               "borderRadius": "{ref.borderRadius.400}",
-              "border": "{sem.borderInteractive.hover}"
+              "border": "{sem.borderInteractive.hover}",
+              "borderRadiusTopLeft": "{sem.card.md.borderRadiusTopLeft}",
+              "borderRadiusTopRight": "{sem.card.md.borderRadiusTopRight}",
+              "borderRadiusBottomRight": "{sem.card.md.borderRadiusBottomRight}",
+              "borderRadiusBottomLeft": "{sem.card.md.borderRadiusBottomLeft}"
             },
             "type": "composition"
           },
           "pressed": {
             "value": {
-              "horizontalPadding": "{ref.spacing.200}",
-              "verticalPadding": "{ref.spacing.200}",
+              "horizontalPadding": "{sem.card.md.padding}",
+              "verticalPadding": "{sem.card.md.padding}",
               "fill": "{sem.colorSurface.sub}",
               "borderRadius": "{ref.borderRadius.400}",
-              "border": "{sem.borderInteractive.pressed}"
+              "border": "{sem.borderInteractive.pressed}",
+              "borderRadiusTopLeft": "{sem.card.md.borderRadiusTopLeft}",
+              "borderRadiusTopRight": "{sem.card.md.borderRadiusTopRight}",
+              "borderRadiusBottomRight": "{sem.card.md.borderRadiusBottomRight}",
+              "borderRadiusBottomLeft": "{sem.card.md.borderRadiusBottomLeft}"
             },
             "type": "composition"
           },
           "open": {
             "value": {
-              "horizontalPadding": "{ref.spacing.200}",
-              "verticalPadding": "{ref.spacing.200}",
-              "fill": "{sem.colorSurface.dark}",
-              "borderRadius": "{ref.borderRadius.400}"
+              "horizontalPadding": "{sem.card.md.padding}",
+              "verticalPadding": "{sem.card.md.padding}",
+              "fill": "{sem.colorSurface.sub}",
+              "borderRadius": "{ref.borderRadius.400}",
+              "borderRadiusTopLeft": "{sem.card.md.borderRadiusTopLeft}",
+              "borderRadiusTopRight": "{sem.card.md.borderRadiusTopRight}",
+              "borderRadiusBottomRight": "{sem.card.md.borderRadiusBottomRight}",
+              "borderRadiusBottomLeft": "{sem.card.md.borderRadiusBottomLeft}"
             },
             "type": "composition"
           },
           "danger": {
             "value": {
-              "horizontalPadding": "{ref.spacing.200}",
-              "verticalPadding": "{ref.spacing.200}",
+              "horizontalPadding": "{sem.card.md.padding}",
+              "verticalPadding": "{sem.card.md.padding}",
               "fill": "{sem.colorSurface.sub}",
               "borderRadius": "{ref.borderRadius.400}",
-              "border": "{sem.border.danger}"
+              "border": "{sem.border.danger}",
+              "borderRadiusTopLeft": "{sem.card.md.borderRadiusTopLeft}",
+              "borderRadiusTopRight": "{sem.card.md.borderRadiusTopRight}",
+              "borderRadiusBottomRight": "{sem.card.md.borderRadiusBottomRight}",
+              "borderRadiusBottomLeft": "{sem.card.md.borderRadiusBottomLeft}"
             },
             "type": "composition"
           },
           "active": {
             "value": {
-              "horizontalPadding": "{ref.spacing.200}",
-              "verticalPadding": "{ref.spacing.200}",
+              "horizontalPadding": "{sem.card.md.padding}",
+              "verticalPadding": "{sem.card.md.padding}",
               "border": "{sem.border.active}",
               "borderRadius": "{ref.borderRadius.400}",
-              "fill": "{sem.colorSurface.light}"
+              "fill": "{sem.colorSurface.sub}",
+              "borderRadiusTopLeft": "{sem.card.md.borderRadiusTopLeft}",
+              "borderRadiusTopRight": "{sem.card.md.borderRadiusTopRight}",
+              "borderRadiusBottomRight": "{sem.card.md.borderRadiusBottomRight}",
+              "borderRadiusBottomLeft": "{sem.card.md.borderRadiusBottomLeft}"
             },
             "type": "composition"
           },
           "forced": {
             "value": {
-              "horizontalPadding": "{ref.spacing.200}",
-              "verticalPadding": "{ref.spacing.200}",
+              "horizontalPadding": "{sem.card.md.padding}",
+              "verticalPadding": "{sem.card.md.padding}",
               "fill": "{sem.colorSurface.sub}",
               "borderRadius": "{ref.borderRadius.400}",
-              "border": "{sem.border.forced}"
+              "border": "{sem.border.forced}",
+              "borderRadiusTopLeft": "{sem.card.md.borderRadiusTopLeft}",
+              "borderRadiusTopRight": "{sem.card.md.borderRadiusTopRight}",
+              "borderRadiusBottomRight": "{sem.card.md.borderRadiusBottomRight}",
+              "borderRadiusBottomLeft": "{sem.card.md.borderRadiusBottomLeft}"
             },
             "type": "composition"
           },
           "disabled": {
             "value": {
-              "horizontalPadding": "{ref.spacing.200}",
-              "verticalPadding": "{ref.spacing.200}",
-              "fill": "{sem.colorSurface.disabled}",
+              "horizontalPadding": "{sem.card.md.padding}",
+              "verticalPadding": "{sem.card.md.padding}",
+              "fill": "{sem.colorSurface.sub}",
               "borderRadius": "{ref.borderRadius.400}",
-              "border": "{sem.borderInteractive.disabled}"
+              "border": "{sem.borderInteractive.disabled}",
+              "borderRadiusTopLeft": "{sem.card.md.borderRadiusTopLeft}",
+              "borderRadiusTopRight": "{sem.card.md.borderRadiusTopRight}",
+              "borderRadiusBottomRight": "{sem.card.md.borderRadiusBottomRight}",
+              "borderRadiusBottomLeft": "{sem.card.md.borderRadiusBottomLeft}"
             },
             "type": "composition"
           }
@@ -5560,78 +5624,110 @@
         "uncontrasted": {
           "default": {
             "value": {
-              "horizontalPadding": "{ref.spacing.150}",
-              "verticalPadding": "{ref.spacing.150}",
+              "horizontalPadding": "{sem.card.sm.padding}",
+              "verticalPadding": "{sem.card.sm.padding}",
               "fill": "{sem.colorSurface.light}",
-              "borderRadius": "{ref.borderRadius.300}"
+              "borderRadius": "{ref.borderRadius.300}",
+              "borderRadiusTopLeft": "{sem.card.sm.borderRadiusTopLeft}",
+              "borderRadiusTopRight": "{sem.card.sm.borderRadiusTopRight}",
+              "borderRadiusBottomRight": "{sem.card.sm.borderRadiusBottomRight}",
+              "borderRadiusBottomLeft": "{sem.card.sm.borderRadiusBottomLeft}"
             },
             "type": "composition"
           },
           "hover": {
             "value": {
-              "horizontalPadding": "{ref.spacing.150}",
-              "verticalPadding": "{ref.spacing.150}",
+              "horizontalPadding": "{sem.card.sm.padding}",
+              "verticalPadding": "{sem.card.sm.padding}",
               "fill": "{sem.colorSurface.light}",
               "borderRadius": "{ref.borderRadius.300}",
-              "boxShadow": "{ref.effects.dropShadow.200}"
+              "boxShadow": "{ref.effects.dropShadow.200}",
+              "borderRadiusTopLeft": "{sem.card.sm.borderRadiusTopLeft}",
+              "borderRadiusTopRight": "{sem.card.sm.borderRadiusTopRight}",
+              "borderRadiusBottomRight": "{sem.card.sm.borderRadiusBottomRight}",
+              "borderRadiusBottomLeft": "{sem.card.sm.borderRadiusBottomLeft}"
             },
             "type": "composition"
           },
           "pressed": {
             "value": {
-              "horizontalPadding": "{ref.spacing.150}",
-              "verticalPadding": "{ref.spacing.150}",
+              "horizontalPadding": "{sem.card.sm.padding}",
+              "verticalPadding": "{sem.card.sm.padding}",
               "fill": "{sem.colorSurface.light}",
               "borderRadius": "{ref.borderRadius.300}",
-              "boxShadow": "{ref.effects.dropShadow.50}"
+              "boxShadow": "{ref.effects.dropShadow.50}",
+              "borderRadiusTopLeft": "{sem.card.sm.borderRadiusTopLeft}",
+              "borderRadiusTopRight": "{sem.card.sm.borderRadiusTopRight}",
+              "borderRadiusBottomRight": "{sem.card.sm.borderRadiusBottomRight}",
+              "borderRadiusBottomLeft": "{sem.card.sm.borderRadiusBottomLeft}"
             },
             "type": "composition"
           },
           "open": {
             "value": {
-              "horizontalPadding": "{ref.spacing.150}",
-              "verticalPadding": "{ref.spacing.150}",
-              "fill": "{sem.colorSurface.sub}",
-              "borderRadius": "{ref.borderRadius.300}"
+              "horizontalPadding": "{sem.card.sm.padding}",
+              "verticalPadding": "{sem.card.sm.padding}",
+              "fill": "{sem.colorSurface.light}",
+              "borderRadius": "{ref.borderRadius.300}",
+              "borderRadiusTopLeft": "{sem.card.sm.borderRadiusTopLeft}",
+              "borderRadiusTopRight": "{sem.card.sm.borderRadiusTopRight}",
+              "borderRadiusBottomRight": "{sem.card.sm.borderRadiusBottomRight}",
+              "borderRadiusBottomLeft": "{sem.card.sm.borderRadiusBottomLeft}"
             },
             "type": "composition"
           },
           "danger": {
             "value": {
-              "horizontalPadding": "{ref.spacing.150}",
-              "verticalPadding": "{ref.spacing.150}",
+              "horizontalPadding": "{sem.card.sm.padding}",
+              "verticalPadding": "{sem.card.sm.padding}",
               "fill": "{sem.colorSurface.light}",
               "borderRadius": "{ref.borderRadius.300}",
-              "border": "{sem.border.danger}"
+              "border": "{sem.border.danger}",
+              "borderRadiusTopLeft": "{sem.card.sm.borderRadiusTopLeft}",
+              "borderRadiusTopRight": "{sem.card.sm.borderRadiusTopRight}",
+              "borderRadiusBottomRight": "{sem.card.sm.borderRadiusBottomRight}",
+              "borderRadiusBottomLeft": "{sem.card.sm.borderRadiusBottomLeft}"
             },
             "type": "composition"
           },
           "active": {
             "value": {
-              "horizontalPadding": "{ref.spacing.150}",
-              "verticalPadding": "{ref.spacing.150}",
+              "horizontalPadding": "{sem.card.sm.padding}",
+              "verticalPadding": "{sem.card.sm.padding}",
               "border": "{sem.border.active}",
               "borderRadius": "{ref.borderRadius.300}",
-              "fill": "{sem.colorSurface.light}"
+              "fill": "{sem.colorSurface.light}",
+              "borderRadiusTopLeft": "{sem.card.sm.borderRadiusTopLeft}",
+              "borderRadiusTopRight": "{sem.card.sm.borderRadiusTopRight}",
+              "borderRadiusBottomRight": "{sem.card.sm.borderRadiusBottomRight}",
+              "borderRadiusBottomLeft": "{sem.card.sm.borderRadiusBottomLeft}"
             },
             "type": "composition"
           },
           "forced": {
             "value": {
-              "horizontalPadding": "{ref.spacing.150}",
-              "verticalPadding": "{ref.spacing.150}",
+              "horizontalPadding": "{sem.card.sm.padding}",
+              "verticalPadding": "{sem.card.sm.padding}",
               "fill": "{sem.colorSurface.light}",
               "borderRadius": "{ref.borderRadius.300}",
-              "border": "{sem.border.forced}"
+              "border": "{sem.border.forced}",
+              "borderRadiusTopLeft": "{sem.card.sm.borderRadiusTopLeft}",
+              "borderRadiusTopRight": "{sem.card.sm.borderRadiusTopRight}",
+              "borderRadiusBottomRight": "{sem.card.sm.borderRadiusBottomRight}",
+              "borderRadiusBottomLeft": "{sem.card.sm.borderRadiusBottomLeft}"
             },
             "type": "composition"
           },
           "disabled": {
             "value": {
-              "horizontalPadding": "{ref.spacing.150}",
-              "verticalPadding": "{ref.spacing.150}",
-              "fill": "{sem.colorSurface.disabled}",
-              "borderRadius": "{ref.borderRadius.300}"
+              "horizontalPadding": "{sem.card.sm.padding}",
+              "verticalPadding": "{sem.card.sm.padding}",
+              "fill": "{sem.colorSurface.light}",
+              "borderRadius": "{ref.borderRadius.300}",
+              "borderRadiusTopLeft": "{sem.card.sm.borderRadiusTopLeft}",
+              "borderRadiusTopRight": "{sem.card.sm.borderRadiusTopRight}",
+              "borderRadiusBottomRight": "{sem.card.sm.borderRadiusBottomRight}",
+              "borderRadiusBottomLeft": "{sem.card.sm.borderRadiusBottomLeft}"
             },
             "type": "composition"
           }
@@ -5639,80 +5735,112 @@
         "contrasted": {
           "default": {
             "value": {
-              "horizontalPadding": "{ref.spacing.150}",
-              "verticalPadding": "{ref.spacing.150}",
+              "horizontalPadding": "{sem.card.sm.padding}",
+              "verticalPadding": "{sem.card.sm.padding}",
               "fill": "{sem.colorSurface.sub}",
               "borderRadius": "{ref.borderRadius.300}",
-              "border": "{sem.borderInteractive.default}"
+              "border": "{sem.borderInteractive.default}",
+              "borderRadiusTopLeft": "{sem.card.sm.borderRadiusTopLeft}",
+              "borderRadiusTopRight": "{sem.card.sm.borderRadiusTopRight}",
+              "borderRadiusBottomRight": "{sem.card.sm.borderRadiusBottomRight}",
+              "borderRadiusBottomLeft": "{sem.card.sm.borderRadiusBottomLeft}"
             },
             "type": "composition"
           },
           "hover": {
             "value": {
-              "horizontalPadding": "{ref.spacing.150}",
-              "verticalPadding": "{ref.spacing.150}",
+              "horizontalPadding": "{sem.card.sm.padding}",
+              "verticalPadding": "{sem.card.sm.padding}",
               "fill": "{sem.colorSurface.sub}",
               "borderRadius": "{ref.borderRadius.300}",
-              "border": "{sem.borderInteractive.hover}"
+              "border": "{sem.borderInteractive.hover}",
+              "borderRadiusTopLeft": "{sem.card.sm.borderRadiusTopLeft}",
+              "borderRadiusTopRight": "{sem.card.sm.borderRadiusTopRight}",
+              "borderRadiusBottomRight": "{sem.card.sm.borderRadiusBottomRight}",
+              "borderRadiusBottomLeft": "{sem.card.sm.borderRadiusBottomLeft}"
             },
             "type": "composition"
           },
           "pressed": {
             "value": {
-              "horizontalPadding": "{ref.spacing.150}",
-              "verticalPadding": "{ref.spacing.150}",
+              "horizontalPadding": "{sem.card.sm.padding}",
+              "verticalPadding": "{sem.card.sm.padding}",
               "fill": "{sem.colorSurface.sub}",
               "borderRadius": "{ref.borderRadius.300}",
-              "border": "{sem.borderInteractive.pressed}"
+              "border": "{sem.borderInteractive.pressed}",
+              "borderRadiusTopLeft": "{sem.card.sm.borderRadiusTopLeft}",
+              "borderRadiusTopRight": "{sem.card.sm.borderRadiusTopRight}",
+              "borderRadiusBottomRight": "{sem.card.sm.borderRadiusBottomRight}",
+              "borderRadiusBottomLeft": "{sem.card.sm.borderRadiusBottomLeft}"
             },
             "type": "composition"
           },
           "open": {
             "value": {
-              "horizontalPadding": "{ref.spacing.150}",
-              "verticalPadding": "{ref.spacing.150}",
-              "fill": "{sem.colorSurface.dark}",
-              "borderRadius": "{ref.borderRadius.300}"
+              "horizontalPadding": "{sem.card.sm.padding}",
+              "verticalPadding": "{sem.card.sm.padding}",
+              "fill": "{sem.colorSurface.sub}",
+              "borderRadius": "{ref.borderRadius.300}",
+              "borderRadiusTopLeft": "{sem.card.sm.borderRadiusTopLeft}",
+              "borderRadiusTopRight": "{sem.card.sm.borderRadiusTopRight}",
+              "borderRadiusBottomRight": "{sem.card.sm.borderRadiusBottomRight}",
+              "borderRadiusBottomLeft": "{sem.card.sm.borderRadiusBottomLeft}"
             },
             "type": "composition"
           },
           "danger": {
             "value": {
-              "horizontalPadding": "{ref.spacing.150}",
-              "verticalPadding": "{ref.spacing.150}",
+              "horizontalPadding": "{sem.card.sm.padding}",
+              "verticalPadding": "{sem.card.sm.padding}",
               "fill": "{sem.colorSurface.sub}",
               "borderRadius": "{ref.borderRadius.300}",
-              "border": "{sem.border.danger}"
+              "border": "{sem.border.danger}",
+              "borderRadiusTopLeft": "{sem.card.sm.borderRadiusTopLeft}",
+              "borderRadiusTopRight": "{sem.card.sm.borderRadiusTopRight}",
+              "borderRadiusBottomRight": "{sem.card.sm.borderRadiusBottomRight}",
+              "borderRadiusBottomLeft": "{sem.card.sm.borderRadiusBottomLeft}"
             },
             "type": "composition"
           },
           "active": {
             "value": {
-              "horizontalPadding": "{ref.spacing.150}",
-              "verticalPadding": "{ref.spacing.150}",
+              "horizontalPadding": "{sem.card.sm.padding}",
+              "verticalPadding": "{sem.card.sm.padding}",
               "border": "{sem.border.active}",
               "borderRadius": "{ref.borderRadius.300}",
-              "fill": "{sem.colorSurface.sub}"
+              "fill": "{sem.colorSurface.sub}",
+              "borderRadiusTopLeft": "{sem.card.sm.borderRadiusTopLeft}",
+              "borderRadiusTopRight": "{sem.card.sm.borderRadiusTopRight}",
+              "borderRadiusBottomRight": "{sem.card.sm.borderRadiusBottomRight}",
+              "borderRadiusBottomLeft": "{sem.card.sm.borderRadiusBottomLeft}"
             },
             "type": "composition"
           },
           "forced": {
             "value": {
-              "horizontalPadding": "{ref.spacing.150}",
-              "verticalPadding": "{ref.spacing.150}",
+              "horizontalPadding": "{sem.card.sm.padding}",
+              "verticalPadding": "{sem.card.sm.padding}",
               "fill": "{sem.colorSurface.sub}",
               "borderRadius": "{ref.borderRadius.300}",
-              "border": "{sem.border.forced}"
+              "border": "{sem.border.forced}",
+              "borderRadiusTopLeft": "{sem.card.sm.borderRadiusTopLeft}",
+              "borderRadiusTopRight": "{sem.card.sm.borderRadiusTopRight}",
+              "borderRadiusBottomRight": "{sem.card.sm.borderRadiusBottomRight}",
+              "borderRadiusBottomLeft": "{sem.card.sm.borderRadiusBottomLeft}"
             },
             "type": "composition"
           },
           "disabled": {
             "value": {
-              "horizontalPadding": "{ref.spacing.150}",
-              "verticalPadding": "{ref.spacing.150}",
-              "fill": "{sem.colorSurface.disabled}",
+              "horizontalPadding": "{sem.card.sm.padding}",
+              "verticalPadding": "{sem.card.sm.padding}",
+              "fill": "{sem.colorSurface.sub}",
               "borderRadius": "{ref.borderRadius.300}",
-              "border": "{sem.borderInteractive.disabled}"
+              "border": "{sem.borderInteractive.disabled}",
+              "borderRadiusTopLeft": "{sem.card.sm.borderRadiusTopLeft}",
+              "borderRadiusTopRight": "{sem.card.sm.borderRadiusTopRight}",
+              "borderRadiusBottomRight": "{sem.card.sm.borderRadiusBottomRight}",
+              "borderRadiusBottomLeft": "{sem.card.sm.borderRadiusBottomLeft}"
             },
             "type": "composition"
           }
@@ -5722,78 +5850,110 @@
         "uncontrasted": {
           "default": {
             "value": {
-              "horizontalPadding": "{ref.spacing.150}",
-              "verticalPadding": "{ref.spacing.150}",
+              "horizontalPadding": "{sem.card.xs.padding}",
+              "verticalPadding": "{sem.card.xs.padding}",
               "fill": "{sem.colorSurface.light}",
-              "borderRadius": "{ref.borderRadius.300}"
+              "borderRadius": "{ref.borderRadius.300}",
+              "borderRadiusTopLeft": "{sem.card.xs.borderRadiusTopLeft}",
+              "borderRadiusTopRight": "{sem.card.xs.borderRadiusTopRight}",
+              "borderRadiusBottomRight": "{sem.card.xs.borderRadiusBottomRight}",
+              "borderRadiusBottomLeft": "{sem.card.xs.borderRadiusBottomLeft}"
             },
             "type": "composition"
           },
           "hover": {
             "value": {
-              "horizontalPadding": "{ref.spacing.150}",
-              "verticalPadding": "{ref.spacing.150}",
+              "horizontalPadding": "{sem.card.xs.padding}",
+              "verticalPadding": "{sem.card.xs.padding}",
               "fill": "{sem.colorSurface.light}",
               "borderRadius": "{ref.borderRadius.300}",
-              "boxShadow": "{ref.effects.dropShadow.200}"
+              "boxShadow": "{ref.effects.dropShadow.200}",
+              "borderRadiusTopLeft": "{sem.card.xs.borderRadiusTopLeft}",
+              "borderRadiusTopRight": "{sem.card.xs.borderRadiusTopRight}",
+              "borderRadiusBottomRight": "{sem.card.xs.borderRadiusBottomRight}",
+              "borderRadiusBottomLeft": "{sem.card.xs.borderRadiusBottomLeft}"
             },
             "type": "composition"
           },
           "pressed": {
             "value": {
-              "horizontalPadding": "{ref.spacing.150}",
-              "verticalPadding": "{ref.spacing.150}",
+              "horizontalPadding": "{sem.card.xs.padding}",
+              "verticalPadding": "{sem.card.xs.padding}",
               "fill": "{sem.colorSurface.light}",
               "borderRadius": "{ref.borderRadius.300}",
-              "boxShadow": "{ref.effects.dropShadow.50}"
+              "boxShadow": "{ref.effects.dropShadow.50}",
+              "borderRadiusTopLeft": "{sem.card.xs.borderRadiusTopLeft}",
+              "borderRadiusTopRight": "{sem.card.xs.borderRadiusTopRight}",
+              "borderRadiusBottomRight": "{sem.card.xs.borderRadiusBottomRight}",
+              "borderRadiusBottomLeft": "{sem.card.xs.borderRadiusBottomLeft}"
             },
             "type": "composition"
           },
           "open": {
             "value": {
-              "horizontalPadding": "{ref.spacing.150}",
-              "verticalPadding": "{ref.spacing.150}",
-              "fill": "{sem.colorSurface.sub}",
-              "borderRadius": "{ref.borderRadius.300}"
+              "horizontalPadding": "{sem.card.xs.padding}",
+              "verticalPadding": "{sem.card.xs.padding}",
+              "fill": "{sem.colorSurface.light}",
+              "borderRadius": "{ref.borderRadius.300}",
+              "borderRadiusTopLeft": "{sem.card.xs.borderRadiusTopLeft}",
+              "borderRadiusTopRight": "{sem.card.xs.borderRadiusTopRight}",
+              "borderRadiusBottomRight": "{sem.card.xs.borderRadiusBottomRight}",
+              "borderRadiusBottomLeft": "{sem.card.xs.borderRadiusBottomLeft}"
             },
             "type": "composition"
           },
           "danger": {
             "value": {
-              "horizontalPadding": "{ref.spacing.150}",
-              "verticalPadding": "{ref.spacing.150}",
+              "horizontalPadding": "{sem.card.xs.padding}",
+              "verticalPadding": "{sem.card.xs.padding}",
               "fill": "{sem.colorSurface.light}",
               "borderRadius": "{ref.borderRadius.300}",
-              "border": "{sem.border.danger}"
+              "border": "{sem.border.danger}",
+              "borderRadiusTopLeft": "{sem.card.xs.borderRadiusTopLeft}",
+              "borderRadiusTopRight": "{sem.card.xs.borderRadiusTopRight}",
+              "borderRadiusBottomRight": "{sem.card.xs.borderRadiusBottomRight}",
+              "borderRadiusBottomLeft": "{sem.card.xs.borderRadiusBottomLeft}"
             },
             "type": "composition"
           },
           "active": {
             "value": {
-              "horizontalPadding": "{ref.spacing.150}",
-              "verticalPadding": "{ref.spacing.150}",
+              "horizontalPadding": "{sem.card.xs.padding}",
+              "verticalPadding": "{sem.card.xs.padding}",
               "border": "{sem.border.active}",
               "borderRadius": "{ref.borderRadius.300}",
-              "fill": "{sem.colorSurface.light}"
+              "fill": "{sem.colorSurface.light}",
+              "borderRadiusTopLeft": "{sem.card.xs.borderRadiusTopLeft}",
+              "borderRadiusTopRight": "{sem.card.xs.borderRadiusTopRight}",
+              "borderRadiusBottomRight": "{sem.card.xs.borderRadiusBottomRight}",
+              "borderRadiusBottomLeft": "{sem.card.xs.borderRadiusBottomLeft}"
             },
             "type": "composition"
           },
           "forced": {
             "value": {
-              "horizontalPadding": "{ref.spacing.150}",
-              "verticalPadding": "{ref.spacing.150}",
+              "horizontalPadding": "{sem.card.xs.padding}",
+              "verticalPadding": "{sem.card.xs.padding}",
               "fill": "{sem.colorSurface.light}",
               "borderRadius": "{ref.borderRadius.300}",
-              "border": "{sem.border.forced}"
+              "border": "{sem.border.forced}",
+              "borderRadiusTopLeft": "{sem.card.xs.borderRadiusTopLeft}",
+              "borderRadiusTopRight": "{sem.card.xs.borderRadiusTopRight}",
+              "borderRadiusBottomRight": "{sem.card.xs.borderRadiusBottomRight}",
+              "borderRadiusBottomLeft": "{sem.card.xs.borderRadiusBottomLeft}"
             },
             "type": "composition"
           },
           "disabled": {
             "value": {
-              "horizontalPadding": "{ref.spacing.150}",
-              "verticalPadding": "{ref.spacing.150}",
-              "fill": "{sem.colorSurface.disabled}",
-              "borderRadius": "{ref.borderRadius.300}"
+              "horizontalPadding": "{sem.card.xs.padding}",
+              "verticalPadding": "{sem.card.xs.padding}",
+              "fill": "{sem.colorSurface.light}",
+              "borderRadius": "{ref.borderRadius.300}",
+              "borderRadiusTopLeft": "{sem.card.xs.borderRadiusTopLeft}",
+              "borderRadiusTopRight": "{sem.card.xs.borderRadiusTopRight}",
+              "borderRadiusBottomRight": "{sem.card.xs.borderRadiusBottomRight}",
+              "borderRadiusBottomLeft": "{sem.card.xs.borderRadiusBottomLeft}"
             },
             "type": "composition"
           }
@@ -5801,80 +5961,112 @@
         "contrasted": {
           "default": {
             "value": {
-              "horizontalPadding": "{ref.spacing.150}",
-              "verticalPadding": "{ref.spacing.150}",
+              "horizontalPadding": "{sem.card.xs.padding}",
+              "verticalPadding": "{sem.card.xs.padding}",
               "fill": "{sem.colorSurface.sub}",
               "borderRadius": "{ref.borderRadius.300}",
-              "border": "{sem.borderInteractive.default}"
+              "border": "{sem.borderInteractive.default}",
+              "borderRadiusTopLeft": "{sem.card.xs.borderRadiusTopLeft}",
+              "borderRadiusTopRight": "{sem.card.xs.borderRadiusTopRight}",
+              "borderRadiusBottomRight": "{sem.card.xs.borderRadiusBottomRight}",
+              "borderRadiusBottomLeft": "{sem.card.xs.borderRadiusBottomLeft}"
             },
             "type": "composition"
           },
           "hover": {
             "value": {
-              "horizontalPadding": "{ref.spacing.150}",
-              "verticalPadding": "{ref.spacing.150}",
+              "horizontalPadding": "{sem.card.xs.padding}",
+              "verticalPadding": "{sem.card.xs.padding}",
               "fill": "{sem.colorSurface.sub}",
               "borderRadius": "{ref.borderRadius.300}",
-              "border": "{sem.borderInteractive.hover}"
+              "border": "{sem.borderInteractive.hover}",
+              "borderRadiusTopLeft": "{sem.card.xs.borderRadiusTopLeft}",
+              "borderRadiusTopRight": "{sem.card.xs.borderRadiusTopRight}",
+              "borderRadiusBottomRight": "{sem.card.xs.borderRadiusBottomRight}",
+              "borderRadiusBottomLeft": "{sem.card.xs.borderRadiusBottomLeft}"
             },
             "type": "composition"
           },
           "pressed": {
             "value": {
-              "horizontalPadding": "{ref.spacing.150}",
-              "verticalPadding": "{ref.spacing.150}",
+              "horizontalPadding": "{sem.card.xs.padding}",
+              "verticalPadding": "{sem.card.xs.padding}",
               "fill": "{sem.colorSurface.sub}",
               "borderRadius": "{ref.borderRadius.300}",
-              "border": "{sem.borderInteractive.pressed}"
+              "border": "{sem.borderInteractive.pressed}",
+              "borderRadiusTopLeft": "{sem.card.xs.borderRadiusTopLeft}",
+              "borderRadiusTopRight": "{sem.card.xs.borderRadiusTopRight}",
+              "borderRadiusBottomRight": "{sem.card.xs.borderRadiusBottomRight}",
+              "borderRadiusBottomLeft": "{sem.card.xs.borderRadiusBottomLeft}"
             },
             "type": "composition"
           },
           "open": {
             "value": {
-              "horizontalPadding": "{ref.spacing.150}",
-              "verticalPadding": "{ref.spacing.150}",
-              "fill": "{sem.colorSurface.dark}",
-              "borderRadius": "{ref.borderRadius.300}"
+              "horizontalPadding": "{sem.card.xs.padding}",
+              "verticalPadding": "{sem.card.xs.padding}",
+              "fill": "{sem.colorSurface.sub}",
+              "borderRadius": "{ref.borderRadius.300}",
+              "borderRadiusTopLeft": "{sem.card.xs.borderRadiusTopLeft}",
+              "borderRadiusTopRight": "{sem.card.xs.borderRadiusTopRight}",
+              "borderRadiusBottomRight": "{sem.card.xs.borderRadiusBottomRight}",
+              "borderRadiusBottomLeft": "{sem.card.xs.borderRadiusBottomLeft}"
             },
             "type": "composition"
           },
           "danger": {
             "value": {
-              "horizontalPadding": "{ref.spacing.150}",
-              "verticalPadding": "{ref.spacing.150}",
+              "horizontalPadding": "{sem.card.xs.padding}",
+              "verticalPadding": "{sem.card.xs.padding}",
               "fill": "{sem.colorSurface.sub}",
               "borderRadius": "{ref.borderRadius.300}",
-              "border": "{sem.border.danger}"
+              "border": "{sem.border.danger}",
+              "borderRadiusTopLeft": "{sem.card.xs.borderRadiusTopLeft}",
+              "borderRadiusTopRight": "{sem.card.xs.borderRadiusTopRight}",
+              "borderRadiusBottomRight": "{sem.card.xs.borderRadiusBottomRight}",
+              "borderRadiusBottomLeft": "{sem.card.xs.borderRadiusBottomLeft}"
             },
             "type": "composition"
           },
           "active": {
             "value": {
-              "horizontalPadding": "{ref.spacing.200}",
-              "verticalPadding": "{ref.spacing.200}",
+              "horizontalPadding": "{sem.card.xs.padding}",
+              "verticalPadding": "{sem.card.xs.padding}",
               "border": "{sem.border.active}",
               "borderRadius": "{ref.borderRadius.400}",
-              "fill": "{sem.colorSurface.light}"
+              "fill": "{sem.colorSurface.sub}",
+              "borderRadiusTopLeft": "{sem.card.xs.borderRadiusTopLeft}",
+              "borderRadiusTopRight": "{sem.card.xs.borderRadiusTopRight}",
+              "borderRadiusBottomRight": "{sem.card.xs.borderRadiusBottomRight}",
+              "borderRadiusBottomLeft": "{sem.card.xs.borderRadiusBottomLeft}"
             },
             "type": "composition"
           },
           "forced": {
             "value": {
-              "horizontalPadding": "{ref.spacing.150}",
-              "verticalPadding": "{ref.spacing.150}",
+              "horizontalPadding": "{sem.card.xs.padding}",
+              "verticalPadding": "{sem.card.xs.padding}",
               "fill": "{sem.colorSurface.sub}",
               "borderRadius": "{ref.borderRadius.300}",
-              "border": "{sem.border.forced}"
+              "border": "{sem.border.forced}",
+              "borderRadiusTopLeft": "{sem.card.xs.borderRadiusTopLeft}",
+              "borderRadiusTopRight": "{sem.card.xs.borderRadiusTopRight}",
+              "borderRadiusBottomRight": "{sem.card.xs.borderRadiusBottomRight}",
+              "borderRadiusBottomLeft": "{sem.card.xs.borderRadiusBottomLeft}"
             },
             "type": "composition"
           },
           "disabled": {
             "value": {
-              "horizontalPadding": "{ref.spacing.150}",
-              "verticalPadding": "{ref.spacing.150}",
-              "fill": "{sem.colorSurface.disabled}",
+              "horizontalPadding": "{sem.card.xs.padding}",
+              "verticalPadding": "{sem.card.xs.padding}",
+              "fill": "{sem.colorSurface.sub}",
               "borderRadius": "{ref.borderRadius.300}",
-              "border": "{sem.borderInteractive.disabled}"
+              "border": "{sem.borderInteractive.disabled}",
+              "borderRadiusTopLeft": "{sem.card.xs.borderRadiusTopLeft}",
+              "borderRadiusTopRight": "{sem.card.xs.borderRadiusTopRight}",
+              "borderRadiusBottomRight": "{sem.card.xs.borderRadiusBottomRight}",
+              "borderRadiusBottomLeft": "{sem.card.xs.borderRadiusBottomLeft}"
             },
             "type": "composition"
           }
@@ -11946,6 +12138,74 @@
               "type": "spacing"
             }
           }
+        }
+      }
+    },
+    "card": {
+      "md": {
+        "padding": {
+          "value": "",
+          "type": ""
+        },
+        "borderRadiusTopLeft": {
+          "value": "",
+          "type": ""
+        },
+        "borderRadiusTopRight": {
+          "value": "",
+          "type": ""
+        },
+        "borderRadiusBottomRight": {
+          "value": "",
+          "type": ""
+        },
+        "borderRadiusBottomLeft": {
+          "value": "",
+          "type": ""
+        }
+      },
+      "sm": {
+        "padding": {
+          "value": "",
+          "type": ""
+        },
+        "borderRadiusTopLeft": {
+          "value": "",
+          "type": ""
+        },
+        "borderRadiusTopRight": {
+          "value": "",
+          "type": ""
+        },
+        "borderRadiusBottomRight": {
+          "value": "",
+          "type": ""
+        },
+        "borderRadiusBottomLeft": {
+          "value": "",
+          "type": ""
+        }
+      },
+      "xs": {
+        "padding": {
+          "value": "",
+          "type": ""
+        },
+        "borderRadiusTopLeft": {
+          "value": "",
+          "type": ""
+        },
+        "borderRadiusTopRight": {
+          "value": "",
+          "type": ""
+        },
+        "borderRadiusBottomRight": {
+          "value": "",
+          "type": ""
+        },
+        "borderRadiusBottomLeft": {
+          "value": "",
+          "type": ""
         }
       }
     }
