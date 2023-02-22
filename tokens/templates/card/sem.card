@@ -6,23 +6,23 @@ sem
 [
   {
     "padding": {
-      "value": "{{{ ({md: 'ref.spacing.200', sm: 'ref.spacing.150', xs: 'ref.spacing.50'})[size] }}}",
+      "value": "{ {{ ({md: 'ref.spacing.200', sm: 'ref.spacing.150', xs: 'ref.spacing.50'})[size] }} }",
       "type": "spacing"
     },
     "borderRadiusTopLeft": {
-      "value": "{{{ ({md: 'ref.borderRadius.400', sm: 'ref.borderRadius.300', xs: 'ref.borderRadius.250'})[size] }}}",
+      "value": "{ {{ ({md: 'ref.borderRadius.400', sm: 'ref.borderRadius.300', xs: 'ref.borderRadius.250'})[size] }} }",
       "type": "borderRadius"
     },
     "borderRadiusTopRight": {
-      "value": "{{{ ({md: 'ref.borderRadius.400', sm: 'ref.borderRadius.300', xs: 'ref.borderRadius.250'})[size] }}}",
+      "value": "{ {{ ({md: 'ref.borderRadius.400', sm: 'ref.borderRadius.300', xs: 'ref.borderRadius.250'})[size] }} }",
       "type": "borderRadius"
     },
     "borderRadiusBottomRight": {
-      "value": "{{{ ({md: 'ref.borderRadius.400', sm: 'ref.borderRadius.300', xs: 'ref.borderRadius.250'})[size] }}}",
+      "value": "{ {{ ({md: 'ref.borderRadius.400', sm: 'ref.borderRadius.300', xs: 'ref.borderRadius.250'})[size] }} }",
        "type": "borderRadius"
     },
     "borderRadiusBottomLeft": {
-      "value": "{{{ ({md: 'ref.borderRadius.400', sm: '{ef.borderRadius.300', xs: 'ref.borderRadius.250'})[size] }}}",
+      "value": "{ {{ ({md: 'ref.borderRadius.400', sm: 'ref.borderRadius.300', xs: 'ref.borderRadius.250'})[size] }} }",
       "type": "borderRadius"
     }
   }
