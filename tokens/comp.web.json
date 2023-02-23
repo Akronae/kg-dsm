@@ -225,7 +225,7 @@
               "value": {
                 "sizing": "{sem.toggle.base.mark.containerSize}",
                 "fill": "{sem.colorSurface.sub}",
-                "border": "{sem.borderInteractive.default}",
+                "border": "{sem.border.interactive.default}",
                 "borderRadius": "{sem.toggle.checkbox.mark.borderRadius}"
               },
               "type": "composition",
@@ -239,7 +239,7 @@
               "value": {
                 "sizing": "{sem.toggle.base.mark.containerSize}",
                 "fill": "{sem.colorSurface.sub}",
-                "border": "{sem.borderInteractive.hover}",
+                "border": "{sem.border.interactive.hover}",
                 "borderRadius": "{sem.toggle.checkbox.mark.borderRadius}"
               },
               "type": "composition",
@@ -295,7 +295,7 @@
               "value": {
                 "sizing": "{sem.toggle.base.mark.containerSize}",
                 "fill": "{sem.colorSurface.disabled}",
-                "border": "{sem.borderInteractive.disabled}",
+                "border": "{sem.border.interactive.disabled}",
                 "borderRadius": "{sem.toggle.checkbox.mark.borderRadius}"
               },
               "type": "composition",
@@ -436,7 +436,7 @@
               "value": {
                 "sizing": "{sem.toggle.base.mark.containerSize}",
                 "fill": "{sem.colorSurface.sub}",
-                "border": "{sem.borderInteractive.default}"
+                "border": "{sem.border.interactive.default}"
               },
               "type": "composition"
             },
@@ -492,7 +492,7 @@
               "value": {
                 "sizing": "{sem.toggle.base.mark.containerSize}",
                 "fill": "{sem.colorSurface.sub}",
-                "border": "{sem.borderInteractive.hover}"
+                "border": "{sem.border.interactive.hover}"
               },
               "type": "composition"
             },
@@ -716,7 +716,7 @@
               "value": {
                 "sizing": "{sem.toggle.base.mark.containerSize}",
                 "fill": "{sem.colorSurface.disabled}",
-                "border": "{sem.borderInteractive.disabled}"
+                "border": "{sem.border.interactive.disabled}"
               },
               "type": "composition"
             },
@@ -879,7 +879,7 @@
             "fill": "{sem.colorSurface.interactive.sub.default}",
             "itemSpacing": "{ref.spacing.50}",
             "height": "{ref.sizing.400}",
-            "border": "{sem.borderInteractive.default}",
+            "border": "{sem.border.interactive.default}",
             "horizontalPadding": "{ref.spacing.100}"
           },
           "type": "composition"
@@ -889,7 +889,7 @@
             "fill": "{sem.colorSurface.interactive.sub.hover}",
             "itemSpacing": "{ref.spacing.50}",
             "height": "{ref.sizing.400}",
-            "border": "{sem.borderInteractive.hover}",
+            "border": "{sem.border.interactive.hover}",
             "horizontalPadding": "{ref.spacing.100}"
           },
           "type": "composition"
@@ -899,7 +899,7 @@
             "fill": "{sem.colorSurface.interactive.sub.pressed}",
             "itemSpacing": "{ref.spacing.50}",
             "height": "{ref.sizing.400}",
-            "border": "{sem.borderInteractive.pressed}",
+            "border": "{sem.border.interactive.pressed}",
             "horizontalPadding": "{ref.spacing.100}"
           },
           "type": "composition"

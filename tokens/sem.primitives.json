@@ -946,48 +946,48 @@
           "style": "solid"
         },
         "type": "border"
-      }
-    },
-    "borderInteractive": {
-      "default": {
-        "value": {
-          "color": "{sem.colorBorder.interactive.default}",
-          "width": "{ref.borderWidth.md}",
-          "style": "solid"
-        },
-        "type": "border"
       },
-      "hover": {
-        "value": {
-          "color": "{sem.colorBorder.interactive.hover}",
-          "width": "{ref.borderWidth.md}",
-          "style": "solid"
+      "interactive": {
+        "default": {
+          "value": {
+            "color": "{sem.colorBorder.interactive.default}",
+            "width": "{ref.borderWidth.md}",
+            "style": "solid"
+          },
+          "type": "border"
         },
-        "type": "border"
-      },
-      "pressed": {
-        "value": {
-          "color": "{sem.colorBorder.interactive.pressed}",
-          "width": "{ref.borderWidth.md}",
-          "style": "solid"
+        "hover": {
+          "value": {
+            "color": "{sem.colorBorder.interactive.hover}",
+            "width": "{ref.borderWidth.md}",
+            "style": "solid"
+          },
+          "type": "border"
         },
-        "type": "border"
-      },
-      "active": {
-        "value": {
-          "color": "{sem.colorBorder.active}",
-          "width": "{ref.borderWidth.md}",
-          "style": "solid"
+        "pressed": {
+          "value": {
+            "color": "{sem.colorBorder.interactive.pressed}",
+            "width": "{ref.borderWidth.md}",
+            "style": "solid"
+          },
+          "type": "border"
         },
-        "type": "border"
-      },
-      "disabled": {
-        "value": {
-          "color": "{sem.colorBorder.interactive.disabled}",
-          "width": "{ref.borderWidth.md}",
-          "style": "solid"
+        "active": {
+          "value": {
+            "color": "{sem.colorBorder.active}",
+            "width": "{ref.borderWidth.md}",
+            "style": "solid"
+          },
+          "type": "border"
         },
-        "type": "border"
+        "disabled": {
+          "value": {
+            "color": "{sem.colorBorder.interactive.disabled}",
+            "width": "{ref.borderWidth.md}",
+            "style": "solid"
+          },
+          "type": "border"
+        }
       }
     },
     "boderDashed": {
