@@ -1,0 +1,16 @@
+// @replacepath: tokens/comp.web.json
+
+sem
+.toggle.radio
+[
+  {
+    "borderRadius": {
+      "value": "{ref.borderRadius.9999}",
+      "type": "borderRadius"
+    },
+    "sizing": {
+      "value": "{sem.toggle.checkbox.sizing}",
+      "type": "sizing"
+    }
+  }
+]
