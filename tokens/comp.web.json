@@ -985,18 +985,20 @@
                 },
                 "type": "composition"
               },
-              "label": {
-                "container": {
-                  "labelPaddingTop": {
+              "top": {
+                "label": {
+                  "PaddingTop": {
                     "value": {
                       "paddingTop": "{sem.toggle.card.content.rightSide.label.container.paddingTop}"
                     },
                     "type": "spacing"
                   },
-                  "value": {
-                    "itemSpacing": "{sem.toggle.card.content.rightSide.label.container.spacing}}"
-                  },
-                  "type": "composition"
+                  "spacing": {
+                    "value": {
+                      "itemSpacing": "{sem.toggle.card.content.rightSide.label.container.spacing}}"
+                    },
+                    "type": "composition"
+                  }
                 },
                 "text": {
                   "value": {
@@ -1059,18 +1061,20 @@
                 },
                 "type": "composition"
               },
-              "label": {
-                "container": {
-                  "labelPaddingTop": {
+              "top": {
+                "label": {
+                  "PaddingTop": {
                     "value": {
                       "paddingTop": "{sem.toggle.card.content.rightSide.label.container.paddingTop}"
                     },
                     "type": "spacing"
                   },
-                  "value": {
-                    "itemSpacing": "{sem.toggle.card.content.rightSide.label.container.spacing}}"
-                  },
-                  "type": "composition"
+                  "spacing": {
+                    "value": {
+                      "itemSpacing": "{sem.toggle.card.content.rightSide.label.container.spacing}}"
+                    },
+                    "type": "composition"
+                  }
                 },
                 "text": {
                   "value": {
@@ -1133,18 +1137,20 @@
                 },
                 "type": "composition"
               },
-              "label": {
-                "container": {
-                  "labelPaddingTop": {
+              "top": {
+                "label": {
+                  "PaddingTop": {
                     "value": {
                       "paddingTop": "{sem.toggle.card.content.rightSide.label.container.paddingTop}"
                     },
                     "type": "spacing"
                   },
-                  "value": {
-                    "itemSpacing": "{sem.toggle.card.content.rightSide.label.container.spacing}}"
-                  },
-                  "type": "composition"
+                  "spacing": {
+                    "value": {
+                      "itemSpacing": "{sem.toggle.card.content.rightSide.label.container.spacing}}"
+                    },
+                    "type": "composition"
+                  }
                 },
                 "text": {
                   "value": {
@@ -1207,18 +1213,20 @@
                 },
                 "type": "composition"
               },
-              "label": {
-                "container": {
-                  "labelPaddingTop": {
+              "top": {
+                "label": {
+                  "PaddingTop": {
                     "value": {
                       "paddingTop": "{sem.toggle.card.content.rightSide.label.container.paddingTop}"
                     },
                     "type": "spacing"
                   },
-                  "value": {
-                    "itemSpacing": "{sem.toggle.card.content.rightSide.label.container.spacing}}"
-                  },
-                  "type": "composition"
+                  "spacing": {
+                    "value": {
+                      "itemSpacing": "{sem.toggle.card.content.rightSide.label.container.spacing}}"
+                    },
+                    "type": "composition"
+                  }
                 },
                 "text": {
                   "value": {
@@ -1281,18 +1289,20 @@
                 },
                 "type": "composition"
               },
-              "label": {
-                "container": {
-                  "labelPaddingTop": {
+              "top": {
+                "label": {
+                  "PaddingTop": {
                     "value": {
                       "paddingTop": "{sem.toggle.card.content.rightSide.label.container.paddingTop}"
                     },
                     "type": "spacing"
                   },
-                  "value": {
-                    "itemSpacing": "{sem.toggle.card.content.rightSide.label.container.spacing}}"
-                  },
-                  "type": "composition"
+                  "spacing": {
+                    "value": {
+                      "itemSpacing": "{sem.toggle.card.content.rightSide.label.container.spacing}}"
+                    },
+                    "type": "composition"
+                  }
                 },
                 "text": {
                   "value": {
@@ -1355,18 +1365,20 @@
                 },
                 "type": "composition"
               },
-              "label": {
-                "container": {
-                  "labelPaddingTop": {
+              "top": {
+                "label": {
+                  "PaddingTop": {
                     "value": {
                       "paddingTop": "{sem.toggle.card.content.rightSide.label.container.paddingTop}"
                     },
                     "type": "spacing"
                   },
-                  "value": {
-                    "itemSpacing": "{sem.toggle.card.content.rightSide.label.container.spacing}}"
-                  },
-                  "type": "composition"
+                  "spacing": {
+                    "value": {
+                      "itemSpacing": "{sem.toggle.card.content.rightSide.label.container.spacing}}"
+                    },
+                    "type": "composition"
+                  }
                 },
                 "text": {
                   "value": {
@@ -1429,18 +1441,20 @@
                 },
                 "type": "composition"
               },
-              "label": {
-                "container": {
-                  "labelPaddingTop": {
+              "top": {
+                "label": {
+                  "PaddingTop": {
                     "value": {
                       "paddingTop": "{sem.toggle.card.content.rightSide.label.container.paddingTop}"
                     },
                     "type": "spacing"
                   },
-                  "value": {
-                    "itemSpacing": "{sem.toggle.card.content.rightSide.label.container.spacing}}"
-                  },
-                  "type": "composition"
+                  "spacing": {
+                    "value": {
+                      "itemSpacing": "{sem.toggle.card.content.rightSide.label.container.spacing}}"
+                    },
+                    "type": "composition"
+                  }
                 },
                 "text": {
                   "value": {
@@ -13700,7 +13714,7 @@
               "value": "{ref.spacing.100}",
               "type": "spacing"
             },
-            "label": {
+            "top": {
               "container": {
                 "paddingTop": {
                   "value": "{ref.spacing.50}",

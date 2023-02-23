@@ -19,7 +19,7 @@ sem
           "value": "{ref.spacing.100}",
           "type": "spacing"
         },
-        "label": {
+        "top": {
           "container": {
             "paddingTop": {
               "value": "{ref.spacing.50}",
