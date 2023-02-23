@@ -8,9 +8,9 @@ comp
   {
     "container": {
       "value": {
-        "itemSpacing": "{sem.toggle.container.base.spacing}",
+        "itemSpacing": "{sem.toggle.base.container.spacing}",
         "fill": "<< ({hover: '{sem.colorSurface.interactive.hover}',pressed: '{sem.colorSurface.interactive.pressed}'})[state] || 'none'>>",
-        "borderRadius": "{sem.toggle.container.borderRadius}"
+        "borderRadius": "{sem.toggle.base.container.borderRadius}"
       },
       "type": "composition"
     },
