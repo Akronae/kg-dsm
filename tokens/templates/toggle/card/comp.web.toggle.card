@@ -12,6 +12,12 @@ comp
       "description": "({extends: 'comp.card.md.uncontrasted.<<state>>'})"
     },
     "content": {
+      "spacing": {
+        "value": {
+          "itemSpacing": "{sem.toggle.card.content.spacing}"
+        },
+        "type": "composition"
+      },
       "icon": {
         "iconSize": {
           "value": {
@@ -22,12 +28,6 @@ comp
         "iconColor": {
           "value": {
             "border": "{sem.borderIcon.sm.dark}"
-          },
-          "type": "composition"
-        },
-        "spacing": {
-          "value": {
-            "itemSpacing": "{sem.toggle.card.content.spacing}"
           },
           "type": "composition"
         }
