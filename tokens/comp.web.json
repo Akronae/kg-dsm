@@ -945,12 +945,17 @@
         "default": {
           "container": {
             "value": {
-              "itemSpacing": "{sem.toggle.base.container.spacing}",
-              "fill": "none",
-              "borderRadius": "{sem.toggle.base.container.borderRadius}"
+              "horizontalPadding": "{sem.card.md.padding}",
+              "verticalPadding": "{sem.card.md.padding}",
+              "fill": "{sem.colorSurface.light}",
+              "borderRadiusTopLeft": "{sem.card.md.borderRadiusTopLeft}",
+              "borderRadiusTopRight": "{sem.card.md.borderRadiusTopRight}",
+              "borderRadiusBottomRight": "{sem.card.md.borderRadiusBottomRight}",
+              "borderRadiusBottomLeft": "{sem.card.md.borderRadiusBottomLeft}",
+              "border": "{sem.border.interactive.default}"
             },
             "type": "composition",
-            "description": "({extends: 'comp.toggle.base.default.container'})"
+            "description": "({extends: 'comp.card.md.uncontrasted.default'})"
           },
           "content": {
             "icon": {
@@ -963,6 +968,12 @@
               "iconColor": {
                 "value": {
                   "border": "{sem.borderIcon.sm.dark}"
+                },
+                "type": "composition"
+              },
+              "spacing": {
+                "value": {
+                  "itemSpacing": "{sem.toggle.card.content.spacing}"
                 },
                 "type": "composition"
               }
@@ -1003,12 +1014,17 @@
         "hover": {
           "container": {
             "value": {
-              "itemSpacing": "{sem.toggle.base.container.spacing}",
-              "fill": "{sem.colorSurface.interactive.hover}",
-              "borderRadius": "{sem.toggle.base.container.borderRadius}"
+              "horizontalPadding": "{sem.card.md.padding}",
+              "verticalPadding": "{sem.card.md.padding}",
+              "fill": "{sem.colorSurface.light}",
+              "borderRadiusTopLeft": "{sem.card.md.borderRadiusTopLeft}",
+              "borderRadiusTopRight": "{sem.card.md.borderRadiusTopRight}",
+              "borderRadiusBottomRight": "{sem.card.md.borderRadiusBottomRight}",
+              "borderRadiusBottomLeft": "{sem.card.md.borderRadiusBottomLeft}",
+              "border": "{sem.border.interactive.hover}"
             },
             "type": "composition",
-            "description": "({extends: 'comp.toggle.base.hover.container'})"
+            "description": "({extends: 'comp.card.md.uncontrasted.hover'})"
           },
           "content": {
             "icon": {
@@ -1021,6 +1037,12 @@
               "iconColor": {
                 "value": {
                   "border": "{sem.borderIcon.sm.dark}"
+                },
+                "type": "composition"
+              },
+              "spacing": {
+                "value": {
+                  "itemSpacing": "{sem.toggle.card.content.spacing}"
                 },
                 "type": "composition"
               }
@@ -1061,12 +1083,17 @@
         "pressed": {
           "container": {
             "value": {
-              "itemSpacing": "{sem.toggle.base.container.spacing}",
-              "fill": "{sem.colorSurface.interactive.pressed}",
-              "borderRadius": "{sem.toggle.base.container.borderRadius}"
+              "horizontalPadding": "{sem.card.md.padding}",
+              "verticalPadding": "{sem.card.md.padding}",
+              "fill": "{sem.colorSurface.light}",
+              "borderRadiusTopLeft": "{sem.card.md.borderRadiusTopLeft}",
+              "borderRadiusTopRight": "{sem.card.md.borderRadiusTopRight}",
+              "borderRadiusBottomRight": "{sem.card.md.borderRadiusBottomRight}",
+              "borderRadiusBottomLeft": "{sem.card.md.borderRadiusBottomLeft}",
+              "border": "{sem.border.interactive.pressed}"
             },
             "type": "composition",
-            "description": "({extends: 'comp.toggle.base.pressed.container'})"
+            "description": "({extends: 'comp.card.md.uncontrasted.pressed'})"
           },
           "content": {
             "icon": {
@@ -1079,6 +1106,12 @@
               "iconColor": {
                 "value": {
                   "border": "{sem.borderIcon.sm.dark}"
+                },
+                "type": "composition"
+              },
+              "spacing": {
+                "value": {
+                  "itemSpacing": "{sem.toggle.card.content.spacing}"
                 },
                 "type": "composition"
               }
@@ -1119,12 +1152,17 @@
         "active": {
           "container": {
             "value": {
-              "itemSpacing": "{sem.toggle.base.container.spacing}",
-              "fill": "none",
-              "borderRadius": "{sem.toggle.base.container.borderRadius}"
+              "horizontalPadding": "{sem.card.md.padding}",
+              "verticalPadding": "{sem.card.md.padding}",
+              "fill": "{sem.colorSurface.light}",
+              "borderRadiusTopLeft": "{sem.card.md.borderRadiusTopLeft}",
+              "borderRadiusTopRight": "{sem.card.md.borderRadiusTopRight}",
+              "borderRadiusBottomRight": "{sem.card.md.borderRadiusBottomRight}",
+              "borderRadiusBottomLeft": "{sem.card.md.borderRadiusBottomLeft}",
+              "border": "{sem.border.interactive.active}"
             },
             "type": "composition",
-            "description": "({extends: 'comp.toggle.base.active.container'})"
+            "description": "({extends: 'comp.card.md.uncontrasted.active'})"
           },
           "content": {
             "icon": {
@@ -1137,6 +1175,12 @@
               "iconColor": {
                 "value": {
                   "border": "{sem.borderIcon.sm.dark}"
+                },
+                "type": "composition"
+              },
+              "spacing": {
+                "value": {
+                  "itemSpacing": "{sem.toggle.card.content.spacing}"
                 },
                 "type": "composition"
               }
@@ -1177,12 +1221,17 @@
         "danger": {
           "container": {
             "value": {
-              "itemSpacing": "{sem.toggle.base.container.spacing}",
-              "fill": "none",
-              "borderRadius": "{sem.toggle.base.container.borderRadius}"
+              "horizontalPadding": "{sem.card.md.padding}",
+              "verticalPadding": "{sem.card.md.padding}",
+              "fill": "{sem.colorSurface.light}",
+              "borderRadiusTopLeft": "{sem.card.md.borderRadiusTopLeft}",
+              "borderRadiusTopRight": "{sem.card.md.borderRadiusTopRight}",
+              "borderRadiusBottomRight": "{sem.card.md.borderRadiusBottomRight}",
+              "borderRadiusBottomLeft": "{sem.card.md.borderRadiusBottomLeft}",
+              "border": "{sem.border.danger}"
             },
             "type": "composition",
-            "description": "({extends: 'comp.toggle.base.danger.container'})"
+            "description": "({extends: 'comp.card.md.uncontrasted.danger'})"
           },
           "content": {
             "icon": {
@@ -1195,6 +1244,12 @@
               "iconColor": {
                 "value": {
                   "border": "{sem.borderIcon.sm.dark}"
+                },
+                "type": "composition"
+              },
+              "spacing": {
+                "value": {
+                  "itemSpacing": "{sem.toggle.card.content.spacing}"
                 },
                 "type": "composition"
               }
@@ -1235,12 +1290,17 @@
         "disabled": {
           "container": {
             "value": {
-              "itemSpacing": "{sem.toggle.base.container.spacing}",
-              "fill": "none",
-              "borderRadius": "{sem.toggle.base.container.borderRadius}"
+              "horizontalPadding": "{sem.card.md.padding}",
+              "verticalPadding": "{sem.card.md.padding}",
+              "fill": "{sem.colorSurface.light}",
+              "borderRadiusTopLeft": "{sem.card.md.borderRadiusTopLeft}",
+              "borderRadiusTopRight": "{sem.card.md.borderRadiusTopRight}",
+              "borderRadiusBottomRight": "{sem.card.md.borderRadiusBottomRight}",
+              "borderRadiusBottomLeft": "{sem.card.md.borderRadiusBottomLeft}",
+              "border": "{sem.border.interactive.disabled}"
             },
             "type": "composition",
-            "description": "({extends: 'comp.toggle.base.disabled.container'})"
+            "description": "({extends: 'comp.card.md.uncontrasted.disabled'})"
           },
           "content": {
             "icon": {
@@ -1253,6 +1313,12 @@
               "iconColor": {
                 "value": {
                   "border": "{sem.borderIcon.sm.dark}"
+                },
+                "type": "composition"
+              },
+              "spacing": {
+                "value": {
+                  "itemSpacing": "{sem.toggle.card.content.spacing}"
                 },
                 "type": "composition"
               }
@@ -1293,12 +1359,17 @@
         "forced": {
           "container": {
             "value": {
-              "itemSpacing": "{sem.toggle.base.container.spacing}",
-              "fill": "none",
-              "borderRadius": "{sem.toggle.base.container.borderRadius}"
+              "horizontalPadding": "{sem.card.md.padding}",
+              "verticalPadding": "{sem.card.md.padding}",
+              "fill": "{sem.colorSurface.light}",
+              "borderRadiusTopLeft": "{sem.card.md.borderRadiusTopLeft}",
+              "borderRadiusTopRight": "{sem.card.md.borderRadiusTopRight}",
+              "borderRadiusBottomRight": "{sem.card.md.borderRadiusBottomRight}",
+              "borderRadiusBottomLeft": "{sem.card.md.borderRadiusBottomLeft}",
+              "border": "{sem.border.forced}"
             },
             "type": "composition",
-            "description": "({extends: 'comp.toggle.base.forced.container'})"
+            "description": "({extends: 'comp.card.md.uncontrasted.forced'})"
           },
           "content": {
             "icon": {
@@ -1311,6 +1382,12 @@
               "iconColor": {
                 "value": {
                   "border": "{sem.borderIcon.sm.dark}"
+                },
+                "type": "composition"
+              },
+              "spacing": {
+                "value": {
+                  "itemSpacing": "{sem.toggle.card.content.spacing}"
                 },
                 "type": "composition"
               }
@@ -13575,6 +13652,10 @@
       },
       "card": {
         "content": {
+          "spacing": {
+            "value": "{ref.spacing.100}",
+            "type": "spacing"
+          },
           "iconSize": {
             "value": "{ref.sizing.200}",
             "type": "sizing"
