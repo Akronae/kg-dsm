@@ -7,51 +7,39 @@ comp
 [
   {
     "container": {
-      "value": {
-        "itemSpacing": "{sem.toggle.base.container.spacing}",
-        "fill": "<< ({hover: '{sem.colorSurface.interactive.hover}',pressed: '{sem.colorSurface.interactive.pressed}'})[state] || 'none'>>",
-        "borderRadius": "{sem.toggle.base.container.borderRadius}"
-      },
-      "type": "composition"
+      "value": {},
+      "type": "composition",
+      "description": "({extends: 'comp.toggle.base.<<state>>.container'})"
     },
     "mark": {
       "container": {
         "value": {
-          "borderRadius": "{sem.toggle.checkbox.mark.borderRadius}",
-          "sizing": "{sem.toggle.base.mark.containerSize}",
-          "fill": "{sem.colorSurface.<< ({ active: 'primary', indeterminate: 'primary', force: 'dark', disabled: 'disabled'})[state] || 'sub' >>}",
-          "border": "<< ({ default: '{sem.borderInteractive.default}', hover: '{sem.borderInteractive.hover}', danger: '{sem.border.danger}', disabled: '{sem.borderInteractive.disabled}' })[state] || 'none' >>"
+          "borderRadius": "{sem.toggle.checkbox.mark.borderRadius}"
         },
-        "type": "composition"
+        "type": "composition",
+        "description": "({extends: 'comp.toggle.base.<<state>>.mark.container'})"
       },
       "iconSize": {
-        "value": {
-          "sizing": "{sem.toggle.base.mark.iconSize}"
-        },
-        "type": "composition"
+        "value": {},
+        "type": "composition",
+        "description": "({extends: 'comp.toggle.base.<<state>>.mark.container'})"
       },
       "iconColor": {
-        "value": {
-          "fill": "{sem.borderIcon.sm.light}"
-        },
-        "type": "composition"
+        "value": {},
+        "type": "composition",
+        "description": "({extends: 'comp.toggle.base.<<state>>.mark.iconColor'})"
       }
     },
     "text": {
       "container": {
-        "value": {
-          "itemSpacing": "{sem.toggle.base.text.container.spacing}",
-          "paddingTop": "{sem.toggle.base.text.container.paddingTop}",
-          "paddingRight": "{sem.toggle.base.text.container.paddingRight}"
-        },
-        "type": "composition"
+        "value": {},
+        "type": "composition",
+        "description": "({extends: 'comp.toggle.base.<<state>>.text.container'})"
       },
       "label": {
-        "value": {
-          "typography": "{sem.typography.textStyle.label.body.md}",
-          "fill": "{sem.colorText.dark}"
-        },
-        "type": "composition"
+        "value": {},
+        "type": "composition",
+        "description": "({extends: 'comp.toggle.base.<<state>>.text.label'})"
       }
     }
   }

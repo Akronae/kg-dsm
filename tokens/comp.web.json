@@ -201,29 +201,35 @@
               "fill": "none",
               "borderRadius": "{sem.toggle.base.container.borderRadius}"
             },
-            "type": "composition"
+            "type": "composition",
+            "description": "({extends: 'comp.toggle.base.default.container'})"
           },
           "mark": {
             "container": {
               "value": {
-                "borderRadius": "{sem.toggle.checkbox.mark.borderRadius}",
+                "sizing": "{sem.toggle.base.mark.containerSize}",
+                "fill": "{sem.colorSurface.sub}",
+                "border": "{sem.borderInteractive.default}",
+                "borderRadius": "{sem.toggle.checkbox.mark.borderRadius}"
+              },
+              "type": "composition",
+              "description": "({extends: 'comp.toggle.base.default.mark.container'})"
+            },
+            "iconSize": {
+              "value": {
                 "sizing": "{sem.toggle.base.mark.containerSize}",
                 "fill": "{sem.colorSurface.sub}",
                 "border": "{sem.borderInteractive.default}"
               },
-              "type": "composition"
-            },
-            "iconSize": {
-              "value": {
-                "sizing": "{sem.toggle.base.mark.iconSize}"
-              },
-              "type": "composition"
+              "type": "composition",
+              "description": "({extends: 'comp.toggle.base.default.mark.container'})"
             },
             "iconColor": {
               "value": {
                 "fill": "{sem.borderIcon.sm.light}"
               },
-              "type": "composition"
+              "type": "composition",
+              "description": "({extends: 'comp.toggle.base.default.mark.iconColor'})"
             }
           },
           "text": {
@@ -233,14 +239,16 @@
                 "paddingTop": "{sem.toggle.base.text.container.paddingTop}",
                 "paddingRight": "{sem.toggle.base.text.container.paddingRight}"
               },
-              "type": "composition"
+              "type": "composition",
+              "description": "({extends: 'comp.toggle.base.default.text.container'})"
             },
             "label": {
               "value": {
                 "typography": "{sem.typography.textStyle.label.body.md}",
                 "fill": "{sem.colorText.dark}"
               },
-              "type": "composition"
+              "type": "composition",
+              "description": "({extends: 'comp.toggle.base.default.text.label'})"
             }
           }
         },
@@ -251,29 +259,35 @@
               "fill": "{sem.colorSurface.interactive.hover}",
               "borderRadius": "{sem.toggle.base.container.borderRadius}"
             },
-            "type": "composition"
+            "type": "composition",
+            "description": "({extends: 'comp.toggle.base.hover.container'})"
           },
           "mark": {
             "container": {
               "value": {
-                "borderRadius": "{sem.toggle.checkbox.mark.borderRadius}",
+                "sizing": "{sem.toggle.base.mark.containerSize}",
+                "fill": "{sem.colorSurface.sub}",
+                "border": "{sem.borderInteractive.hover}",
+                "borderRadius": "{sem.toggle.checkbox.mark.borderRadius}"
+              },
+              "type": "composition",
+              "description": "({extends: 'comp.toggle.base.hover.mark.container'})"
+            },
+            "iconSize": {
+              "value": {
                 "sizing": "{sem.toggle.base.mark.containerSize}",
                 "fill": "{sem.colorSurface.sub}",
                 "border": "{sem.borderInteractive.hover}"
               },
-              "type": "composition"
-            },
-            "iconSize": {
-              "value": {
-                "sizing": "{sem.toggle.base.mark.iconSize}"
-              },
-              "type": "composition"
+              "type": "composition",
+              "description": "({extends: 'comp.toggle.base.hover.mark.container'})"
             },
             "iconColor": {
               "value": {
                 "fill": "{sem.borderIcon.sm.light}"
               },
-              "type": "composition"
+              "type": "composition",
+              "description": "({extends: 'comp.toggle.base.hover.mark.iconColor'})"
             }
           },
           "text": {
@@ -283,14 +297,16 @@
                 "paddingTop": "{sem.toggle.base.text.container.paddingTop}",
                 "paddingRight": "{sem.toggle.base.text.container.paddingRight}"
               },
-              "type": "composition"
+              "type": "composition",
+              "description": "({extends: 'comp.toggle.base.hover.text.container'})"
             },
             "label": {
               "value": {
                 "typography": "{sem.typography.textStyle.label.body.md}",
                 "fill": "{sem.colorText.dark}"
               },
-              "type": "composition"
+              "type": "composition",
+              "description": "({extends: 'comp.toggle.base.hover.text.label'})"
             }
           }
         },
@@ -301,29 +317,35 @@
               "fill": "{sem.colorSurface.interactive.pressed}",
               "borderRadius": "{sem.toggle.base.container.borderRadius}"
             },
-            "type": "composition"
+            "type": "composition",
+            "description": "({extends: 'comp.toggle.base.pressed.container'})"
           },
           "mark": {
             "container": {
               "value": {
-                "borderRadius": "{sem.toggle.checkbox.mark.borderRadius}",
+                "sizing": "{sem.toggle.base.mark.containerSize}",
+                "fill": "{sem.colorSurface.sub}",
+                "border": "none",
+                "borderRadius": "{sem.toggle.checkbox.mark.borderRadius}"
+              },
+              "type": "composition",
+              "description": "({extends: 'comp.toggle.base.pressed.mark.container'})"
+            },
+            "iconSize": {
+              "value": {
                 "sizing": "{sem.toggle.base.mark.containerSize}",
                 "fill": "{sem.colorSurface.sub}",
                 "border": "none"
               },
-              "type": "composition"
-            },
-            "iconSize": {
-              "value": {
-                "sizing": "{sem.toggle.base.mark.iconSize}"
-              },
-              "type": "composition"
+              "type": "composition",
+              "description": "({extends: 'comp.toggle.base.pressed.mark.container'})"
             },
             "iconColor": {
               "value": {
                 "fill": "{sem.borderIcon.sm.light}"
               },
-              "type": "composition"
+              "type": "composition",
+              "description": "({extends: 'comp.toggle.base.pressed.mark.iconColor'})"
             }
           },
           "text": {
@@ -333,14 +355,16 @@
                 "paddingTop": "{sem.toggle.base.text.container.paddingTop}",
                 "paddingRight": "{sem.toggle.base.text.container.paddingRight}"
               },
-              "type": "composition"
+              "type": "composition",
+              "description": "({extends: 'comp.toggle.base.pressed.text.container'})"
             },
             "label": {
               "value": {
                 "typography": "{sem.typography.textStyle.label.body.md}",
                 "fill": "{sem.colorText.dark}"
               },
-              "type": "composition"
+              "type": "composition",
+              "description": "({extends: 'comp.toggle.base.pressed.text.label'})"
             }
           }
         },
@@ -351,29 +375,35 @@
               "fill": "none",
               "borderRadius": "{sem.toggle.base.container.borderRadius}"
             },
-            "type": "composition"
+            "type": "composition",
+            "description": "({extends: 'comp.toggle.base.active.container'})"
           },
           "mark": {
             "container": {
               "value": {
-                "borderRadius": "{sem.toggle.checkbox.mark.borderRadius}",
+                "sizing": "{sem.toggle.base.mark.containerSize}",
+                "fill": "{sem.colorSurface.primary}",
+                "border": "none",
+                "borderRadius": "{sem.toggle.checkbox.mark.borderRadius}"
+              },
+              "type": "composition",
+              "description": "({extends: 'comp.toggle.base.active.mark.container'})"
+            },
+            "iconSize": {
+              "value": {
                 "sizing": "{sem.toggle.base.mark.containerSize}",
                 "fill": "{sem.colorSurface.primary}",
                 "border": "none"
               },
-              "type": "composition"
-            },
-            "iconSize": {
-              "value": {
-                "sizing": "{sem.toggle.base.mark.iconSize}"
-              },
-              "type": "composition"
+              "type": "composition",
+              "description": "({extends: 'comp.toggle.base.active.mark.container'})"
             },
             "iconColor": {
               "value": {
                 "fill": "{sem.borderIcon.sm.light}"
               },
-              "type": "composition"
+              "type": "composition",
+              "description": "({extends: 'comp.toggle.base.active.mark.iconColor'})"
             }
           },
           "text": {
@@ -383,14 +413,16 @@
                 "paddingTop": "{sem.toggle.base.text.container.paddingTop}",
                 "paddingRight": "{sem.toggle.base.text.container.paddingRight}"
               },
-              "type": "composition"
+              "type": "composition",
+              "description": "({extends: 'comp.toggle.base.active.text.container'})"
             },
             "label": {
               "value": {
                 "typography": "{sem.typography.textStyle.label.body.md}",
                 "fill": "{sem.colorText.dark}"
               },
-              "type": "composition"
+              "type": "composition",
+              "description": "({extends: 'comp.toggle.base.active.text.label'})"
             }
           }
         },
@@ -401,29 +433,35 @@
               "fill": "none",
               "borderRadius": "{sem.toggle.base.container.borderRadius}"
             },
-            "type": "composition"
+            "type": "composition",
+            "description": "({extends: 'comp.toggle.base.danger.container'})"
           },
           "mark": {
             "container": {
               "value": {
-                "borderRadius": "{sem.toggle.checkbox.mark.borderRadius}",
+                "sizing": "{sem.toggle.base.mark.containerSize}",
+                "fill": "{sem.colorSurface.sub}",
+                "border": "{sem.border.danger}",
+                "borderRadius": "{sem.toggle.checkbox.mark.borderRadius}"
+              },
+              "type": "composition",
+              "description": "({extends: 'comp.toggle.base.danger.mark.container'})"
+            },
+            "iconSize": {
+              "value": {
                 "sizing": "{sem.toggle.base.mark.containerSize}",
                 "fill": "{sem.colorSurface.sub}",
                 "border": "{sem.border.danger}"
               },
-              "type": "composition"
-            },
-            "iconSize": {
-              "value": {
-                "sizing": "{sem.toggle.base.mark.iconSize}"
-              },
-              "type": "composition"
+              "type": "composition",
+              "description": "({extends: 'comp.toggle.base.danger.mark.container'})"
             },
             "iconColor": {
               "value": {
                 "fill": "{sem.borderIcon.sm.light}"
               },
-              "type": "composition"
+              "type": "composition",
+              "description": "({extends: 'comp.toggle.base.danger.mark.iconColor'})"
             }
           },
           "text": {
@@ -433,14 +471,16 @@
                 "paddingTop": "{sem.toggle.base.text.container.paddingTop}",
                 "paddingRight": "{sem.toggle.base.text.container.paddingRight}"
               },
-              "type": "composition"
+              "type": "composition",
+              "description": "({extends: 'comp.toggle.base.danger.text.container'})"
             },
             "label": {
               "value": {
                 "typography": "{sem.typography.textStyle.label.body.md}",
                 "fill": "{sem.colorText.dark}"
               },
-              "type": "composition"
+              "type": "composition",
+              "description": "({extends: 'comp.toggle.base.danger.text.label'})"
             }
           }
         },
@@ -451,29 +491,35 @@
               "fill": "none",
               "borderRadius": "{sem.toggle.base.container.borderRadius}"
             },
-            "type": "composition"
+            "type": "composition",
+            "description": "({extends: 'comp.toggle.base.disabled.container'})"
           },
           "mark": {
             "container": {
               "value": {
-                "borderRadius": "{sem.toggle.checkbox.mark.borderRadius}",
+                "sizing": "{sem.toggle.base.mark.containerSize}",
+                "fill": "{sem.colorSurface.disabled}",
+                "border": "{sem.borderInteractive.disabled}",
+                "borderRadius": "{sem.toggle.checkbox.mark.borderRadius}"
+              },
+              "type": "composition",
+              "description": "({extends: 'comp.toggle.base.disabled.mark.container'})"
+            },
+            "iconSize": {
+              "value": {
                 "sizing": "{sem.toggle.base.mark.containerSize}",
                 "fill": "{sem.colorSurface.disabled}",
                 "border": "{sem.borderInteractive.disabled}"
               },
-              "type": "composition"
-            },
-            "iconSize": {
-              "value": {
-                "sizing": "{sem.toggle.base.mark.iconSize}"
-              },
-              "type": "composition"
+              "type": "composition",
+              "description": "({extends: 'comp.toggle.base.disabled.mark.container'})"
             },
             "iconColor": {
               "value": {
                 "fill": "{sem.borderIcon.sm.light}"
               },
-              "type": "composition"
+              "type": "composition",
+              "description": "({extends: 'comp.toggle.base.disabled.mark.iconColor'})"
             }
           },
           "text": {
@@ -483,14 +529,16 @@
                 "paddingTop": "{sem.toggle.base.text.container.paddingTop}",
                 "paddingRight": "{sem.toggle.base.text.container.paddingRight}"
               },
-              "type": "composition"
+              "type": "composition",
+              "description": "({extends: 'comp.toggle.base.disabled.text.container'})"
             },
             "label": {
               "value": {
                 "typography": "{sem.typography.textStyle.label.body.md}",
                 "fill": "{sem.colorText.dark}"
               },
-              "type": "composition"
+              "type": "composition",
+              "description": "({extends: 'comp.toggle.base.disabled.text.label'})"
             }
           }
         },
@@ -501,29 +549,35 @@
               "fill": "none",
               "borderRadius": "{sem.toggle.base.container.borderRadius}"
             },
-            "type": "composition"
+            "type": "composition",
+            "description": "({extends: 'comp.toggle.base.forced.container'})"
           },
           "mark": {
             "container": {
               "value": {
-                "borderRadius": "{sem.toggle.checkbox.mark.borderRadius}",
+                "sizing": "{sem.toggle.base.mark.containerSize}",
+                "fill": "{sem.colorSurface.sub}",
+                "border": "none",
+                "borderRadius": "{sem.toggle.checkbox.mark.borderRadius}"
+              },
+              "type": "composition",
+              "description": "({extends: 'comp.toggle.base.forced.mark.container'})"
+            },
+            "iconSize": {
+              "value": {
                 "sizing": "{sem.toggle.base.mark.containerSize}",
                 "fill": "{sem.colorSurface.sub}",
                 "border": "none"
               },
-              "type": "composition"
-            },
-            "iconSize": {
-              "value": {
-                "sizing": "{sem.toggle.base.mark.iconSize}"
-              },
-              "type": "composition"
+              "type": "composition",
+              "description": "({extends: 'comp.toggle.base.forced.mark.container'})"
             },
             "iconColor": {
               "value": {
                 "fill": "{sem.borderIcon.sm.light}"
               },
-              "type": "composition"
+              "type": "composition",
+              "description": "({extends: 'comp.toggle.base.forced.mark.iconColor'})"
             }
           },
           "text": {
@@ -533,14 +587,16 @@
                 "paddingTop": "{sem.toggle.base.text.container.paddingTop}",
                 "paddingRight": "{sem.toggle.base.text.container.paddingRight}"
               },
-              "type": "composition"
+              "type": "composition",
+              "description": "({extends: 'comp.toggle.base.forced.text.container'})"
             },
             "label": {
               "value": {
                 "typography": "{sem.typography.textStyle.label.body.md}",
                 "fill": "{sem.colorText.dark}"
               },
-              "type": "composition"
+              "type": "composition",
+              "description": "({extends: 'comp.toggle.base.forced.text.label'})"
             }
           }
         },
@@ -551,29 +607,35 @@
               "fill": "none",
               "borderRadius": "{sem.toggle.base.container.borderRadius}"
             },
-            "type": "composition"
+            "type": "composition",
+            "description": "({extends: 'comp.toggle.base.indeterminate.container'})"
           },
           "mark": {
             "container": {
               "value": {
-                "borderRadius": "{sem.toggle.checkbox.mark.borderRadius}",
+                "sizing": "{sem.toggle.base.mark.containerSize}",
+                "fill": "{sem.colorSurface.primary}",
+                "border": "none",
+                "borderRadius": "{sem.toggle.checkbox.mark.borderRadius}"
+              },
+              "type": "composition",
+              "description": "({extends: 'comp.toggle.base.indeterminate.mark.container'})"
+            },
+            "iconSize": {
+              "value": {
                 "sizing": "{sem.toggle.base.mark.containerSize}",
                 "fill": "{sem.colorSurface.primary}",
                 "border": "none"
               },
-              "type": "composition"
-            },
-            "iconSize": {
-              "value": {
-                "sizing": "{sem.toggle.base.mark.iconSize}"
-              },
-              "type": "composition"
+              "type": "composition",
+              "description": "({extends: 'comp.toggle.base.indeterminate.mark.container'})"
             },
             "iconColor": {
               "value": {
                 "fill": "{sem.borderIcon.sm.light}"
               },
-              "type": "composition"
+              "type": "composition",
+              "description": "({extends: 'comp.toggle.base.indeterminate.mark.iconColor'})"
             }
           },
           "text": {
@@ -583,14 +645,16 @@
                 "paddingTop": "{sem.toggle.base.text.container.paddingTop}",
                 "paddingRight": "{sem.toggle.base.text.container.paddingRight}"
               },
-              "type": "composition"
+              "type": "composition",
+              "description": "({extends: 'comp.toggle.base.indeterminate.text.container'})"
             },
             "label": {
               "value": {
                 "typography": "{sem.typography.textStyle.label.body.md}",
                 "fill": "{sem.colorText.dark}"
               },
-              "type": "composition"
+              "type": "composition",
+              "description": "({extends: 'comp.toggle.base.indeterminate.text.label'})"
             }
           }
         }
@@ -681,6 +745,400 @@
               "itemSpacing": "{ref.spacing.100}"
             },
             "type": "composition"
+          }
+        }
+      },
+      "base": {
+        "default": {
+          "container": {
+            "value": {
+              "itemSpacing": "{sem.toggle.base.container.spacing}",
+              "fill": "none",
+              "borderRadius": "{sem.toggle.base.container.borderRadius}"
+            },
+            "type": "composition"
+          },
+          "mark": {
+            "container": {
+              "value": {
+                "sizing": "{sem.toggle.base.mark.containerSize}",
+                "fill": "{sem.colorSurface.sub}",
+                "border": "{sem.borderInteractive.default}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.toggle.base.mark.iconSize}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "fill": "{sem.borderIcon.sm.light}"
+              },
+              "type": "composition"
+            }
+          },
+          "text": {
+            "container": {
+              "value": {
+                "itemSpacing": "{sem.toggle.base.text.container.spacing}",
+                "paddingTop": "{sem.toggle.base.text.container.paddingTop}",
+                "paddingRight": "{sem.toggle.base.text.container.paddingRight}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.body.md}",
+                "fill": "{sem.colorText.dark}"
+              },
+              "type": "composition"
+            }
+          }
+        },
+        "hover": {
+          "container": {
+            "value": {
+              "itemSpacing": "{sem.toggle.base.container.spacing}",
+              "fill": "{sem.colorSurface.interactive.hover}",
+              "borderRadius": "{sem.toggle.base.container.borderRadius}"
+            },
+            "type": "composition"
+          },
+          "mark": {
+            "container": {
+              "value": {
+                "sizing": "{sem.toggle.base.mark.containerSize}",
+                "fill": "{sem.colorSurface.sub}",
+                "border": "{sem.borderInteractive.hover}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.toggle.base.mark.iconSize}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "fill": "{sem.borderIcon.sm.light}"
+              },
+              "type": "composition"
+            }
+          },
+          "text": {
+            "container": {
+              "value": {
+                "itemSpacing": "{sem.toggle.base.text.container.spacing}",
+                "paddingTop": "{sem.toggle.base.text.container.paddingTop}",
+                "paddingRight": "{sem.toggle.base.text.container.paddingRight}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.body.md}",
+                "fill": "{sem.colorText.dark}"
+              },
+              "type": "composition"
+            }
+          }
+        },
+        "pressed": {
+          "container": {
+            "value": {
+              "itemSpacing": "{sem.toggle.base.container.spacing}",
+              "fill": "{sem.colorSurface.interactive.pressed}",
+              "borderRadius": "{sem.toggle.base.container.borderRadius}"
+            },
+            "type": "composition"
+          },
+          "mark": {
+            "container": {
+              "value": {
+                "sizing": "{sem.toggle.base.mark.containerSize}",
+                "fill": "{sem.colorSurface.sub}",
+                "border": "none"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.toggle.base.mark.iconSize}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "fill": "{sem.borderIcon.sm.light}"
+              },
+              "type": "composition"
+            }
+          },
+          "text": {
+            "container": {
+              "value": {
+                "itemSpacing": "{sem.toggle.base.text.container.spacing}",
+                "paddingTop": "{sem.toggle.base.text.container.paddingTop}",
+                "paddingRight": "{sem.toggle.base.text.container.paddingRight}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.body.md}",
+                "fill": "{sem.colorText.dark}"
+              },
+              "type": "composition"
+            }
+          }
+        },
+        "active": {
+          "container": {
+            "value": {
+              "itemSpacing": "{sem.toggle.base.container.spacing}",
+              "fill": "none",
+              "borderRadius": "{sem.toggle.base.container.borderRadius}"
+            },
+            "type": "composition"
+          },
+          "mark": {
+            "container": {
+              "value": {
+                "sizing": "{sem.toggle.base.mark.containerSize}",
+                "fill": "{sem.colorSurface.primary}",
+                "border": "none"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.toggle.base.mark.iconSize}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "fill": "{sem.borderIcon.sm.light}"
+              },
+              "type": "composition"
+            }
+          },
+          "text": {
+            "container": {
+              "value": {
+                "itemSpacing": "{sem.toggle.base.text.container.spacing}",
+                "paddingTop": "{sem.toggle.base.text.container.paddingTop}",
+                "paddingRight": "{sem.toggle.base.text.container.paddingRight}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.body.md}",
+                "fill": "{sem.colorText.dark}"
+              },
+              "type": "composition"
+            }
+          }
+        },
+        "danger": {
+          "container": {
+            "value": {
+              "itemSpacing": "{sem.toggle.base.container.spacing}",
+              "fill": "none",
+              "borderRadius": "{sem.toggle.base.container.borderRadius}"
+            },
+            "type": "composition"
+          },
+          "mark": {
+            "container": {
+              "value": {
+                "sizing": "{sem.toggle.base.mark.containerSize}",
+                "fill": "{sem.colorSurface.sub}",
+                "border": "{sem.border.danger}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.toggle.base.mark.iconSize}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "fill": "{sem.borderIcon.sm.light}"
+              },
+              "type": "composition"
+            }
+          },
+          "text": {
+            "container": {
+              "value": {
+                "itemSpacing": "{sem.toggle.base.text.container.spacing}",
+                "paddingTop": "{sem.toggle.base.text.container.paddingTop}",
+                "paddingRight": "{sem.toggle.base.text.container.paddingRight}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.body.md}",
+                "fill": "{sem.colorText.dark}"
+              },
+              "type": "composition"
+            }
+          }
+        },
+        "disabled": {
+          "container": {
+            "value": {
+              "itemSpacing": "{sem.toggle.base.container.spacing}",
+              "fill": "none",
+              "borderRadius": "{sem.toggle.base.container.borderRadius}"
+            },
+            "type": "composition"
+          },
+          "mark": {
+            "container": {
+              "value": {
+                "sizing": "{sem.toggle.base.mark.containerSize}",
+                "fill": "{sem.colorSurface.disabled}",
+                "border": "{sem.borderInteractive.disabled}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.toggle.base.mark.iconSize}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "fill": "{sem.borderIcon.sm.light}"
+              },
+              "type": "composition"
+            }
+          },
+          "text": {
+            "container": {
+              "value": {
+                "itemSpacing": "{sem.toggle.base.text.container.spacing}",
+                "paddingTop": "{sem.toggle.base.text.container.paddingTop}",
+                "paddingRight": "{sem.toggle.base.text.container.paddingRight}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.body.md}",
+                "fill": "{sem.colorText.dark}"
+              },
+              "type": "composition"
+            }
+          }
+        },
+        "forced": {
+          "container": {
+            "value": {
+              "itemSpacing": "{sem.toggle.base.container.spacing}",
+              "fill": "none",
+              "borderRadius": "{sem.toggle.base.container.borderRadius}"
+            },
+            "type": "composition"
+          },
+          "mark": {
+            "container": {
+              "value": {
+                "sizing": "{sem.toggle.base.mark.containerSize}",
+                "fill": "{sem.colorSurface.sub}",
+                "border": "none"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.toggle.base.mark.iconSize}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "fill": "{sem.borderIcon.sm.light}"
+              },
+              "type": "composition"
+            }
+          },
+          "text": {
+            "container": {
+              "value": {
+                "itemSpacing": "{sem.toggle.base.text.container.spacing}",
+                "paddingTop": "{sem.toggle.base.text.container.paddingTop}",
+                "paddingRight": "{sem.toggle.base.text.container.paddingRight}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.body.md}",
+                "fill": "{sem.colorText.dark}"
+              },
+              "type": "composition"
+            }
+          }
+        },
+        "indeterminate": {
+          "container": {
+            "value": {
+              "itemSpacing": "{sem.toggle.base.container.spacing}",
+              "fill": "none",
+              "borderRadius": "{sem.toggle.base.container.borderRadius}"
+            },
+            "type": "composition"
+          },
+          "mark": {
+            "container": {
+              "value": {
+                "sizing": "{sem.toggle.base.mark.containerSize}",
+                "fill": "{sem.colorSurface.primary}",
+                "border": "none"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.toggle.base.mark.iconSize}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "fill": "{sem.borderIcon.sm.light}"
+              },
+              "type": "composition"
+            }
+          },
+          "text": {
+            "container": {
+              "value": {
+                "itemSpacing": "{sem.toggle.base.text.container.spacing}",
+                "paddingTop": "{sem.toggle.base.text.container.paddingTop}",
+                "paddingRight": "{sem.toggle.base.text.container.paddingRight}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.body.md}",
+                "fill": "{sem.colorText.dark}"
+              },
+              "type": "composition"
+            }
           }
         }
       }

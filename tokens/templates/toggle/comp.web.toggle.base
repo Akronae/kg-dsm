@@ -1,0 +1,57 @@
+// @replacepath: tokens/comp.web.json
+
+comp
+.toggle
+.base
+[state: 'default' | 'hover' | 'pressed' | 'active' | 'danger' | 'disabled' | 'forced' | 'indeterminate']
+[
+  {
+    "container": {
+      "value": {
+        "itemSpacing": "{sem.toggle.base.container.spacing}",
+        "fill": "<< ({hover: '{sem.colorSurface.interactive.hover}',pressed: '{sem.colorSurface.interactive.pressed}'})[state] || 'none'>>",
+        "borderRadius": "{sem.toggle.base.container.borderRadius}"
+      },
+      "type": "composition"
+    },
+    "mark": {
+      "container": {
+        "value": {
+          "sizing": "{sem.toggle.base.mark.containerSize}",
+          "fill": "{sem.colorSurface.<< ({ active: 'primary', indeterminate: 'primary', force: 'dark', disabled: 'disabled'})[state] || 'sub' >>}",
+          "border": "<< ({ default: '{sem.borderInteractive.default}', hover: '{sem.borderInteractive.hover}', danger: '{sem.border.danger}', disabled: '{sem.borderInteractive.disabled}' })[state] || 'none' >>"
+        },
+        "type": "composition"
+      },
+      "iconSize": {
+        "value": {
+          "sizing": "{sem.toggle.base.mark.iconSize}"
+        },
+        "type": "composition"
+      },
+      "iconColor": {
+        "value": {
+          "fill": "{sem.borderIcon.sm.light}"
+        },
+        "type": "composition"
+      }
+    },
+    "text": {
+      "container": {
+        "value": {
+          "itemSpacing": "{sem.toggle.base.text.container.spacing}",
+          "paddingTop": "{sem.toggle.base.text.container.paddingTop}",
+          "paddingRight": "{sem.toggle.base.text.container.paddingRight}"
+        },
+        "type": "composition"
+      },
+      "label": {
+        "value": {
+          "typography": "{sem.typography.textStyle.label.body.md}",
+          "fill": "{sem.colorText.dark}"
+        },
+        "type": "composition"
+      }
+    }
+  }
+]
