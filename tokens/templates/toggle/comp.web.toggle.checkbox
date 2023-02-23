@@ -17,8 +17,8 @@ comp
     "mark": {
       "container": {
         "value": {
-          "borderRadius": "{sem.toggle.checkbox.mark.borderRadius}",
-          "sizing": "{sem.toggle.base.mark.sizing}",
+          "borderRadius": "{sem.toggle.base.checkbox.mark.borderRadius}",
+          "sizing": "{sem.toggle.base.mark.container.sizing}",
           "fill": "{sem.colorSurface.<< ({ active: 'primary', indeterminate: 'primary', force: 'dark', disabled: 'disabled'})[state] || 'sub' >>}",
           "border": "<< ({ default: '{sem.borderInteractive.default}', hover: '{sem.borderInteractive.hover}', danger: '{sem.border.danger}', disabled: '{sem.borderInteractive.disabled}' })[state] || 'none' >>"
         },

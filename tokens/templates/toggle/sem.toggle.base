@@ -20,9 +20,11 @@ sem
           "value": "{ref.sizing.200}",
           "type": "sizing"
         },
-        "iconSize": {
-          "value": "{ref.sizing.200}",
-          "type": "sizing"
+        "icon": {
+          "iconSize": {
+            "value": "{ref.sizing.200}",
+            "type": "sizing"
+          }
         }
       }
     },
