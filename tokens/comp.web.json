@@ -993,17 +993,17 @@
                     },
                     "type": "spacing"
                   },
-                  "spacing": {
+                  "text": {
                     "value": {
-                      "itemSpacing": "{sem.toggle.card.content.rightSide.label.container.spacing}}"
+                      "typography": "{sem.typography.textStyle.label.body.md}",
+                      "fill": "{sem.colorText.dark}"
                     },
                     "type": "composition"
                   }
                 },
-                "text": {
+                "spacing": {
                   "value": {
-                    "typography": "{sem.typography.textStyle.label.body.md}",
-                    "fill": "{sem.colorText.dark}"
+                    "itemSpacing": "{sem.toggle.card.content.rightSide.label.container.spacing}}"
                   },
                   "type": "composition"
                 }
@@ -1069,17 +1069,17 @@
                     },
                     "type": "spacing"
                   },
-                  "spacing": {
+                  "text": {
                     "value": {
-                      "itemSpacing": "{sem.toggle.card.content.rightSide.label.container.spacing}}"
+                      "typography": "{sem.typography.textStyle.label.body.md}",
+                      "fill": "{sem.colorText.dark}"
                     },
                     "type": "composition"
                   }
                 },
-                "text": {
+                "spacing": {
                   "value": {
-                    "typography": "{sem.typography.textStyle.label.body.md}",
-                    "fill": "{sem.colorText.dark}"
+                    "itemSpacing": "{sem.toggle.card.content.rightSide.label.container.spacing}}"
                   },
                   "type": "composition"
                 }
@@ -1145,17 +1145,17 @@
                     },
                     "type": "spacing"
                   },
-                  "spacing": {
+                  "text": {
                     "value": {
-                      "itemSpacing": "{sem.toggle.card.content.rightSide.label.container.spacing}}"
+                      "typography": "{sem.typography.textStyle.label.body.md}",
+                      "fill": "{sem.colorText.dark}"
                     },
                     "type": "composition"
                   }
                 },
-                "text": {
+                "spacing": {
                   "value": {
-                    "typography": "{sem.typography.textStyle.label.body.md}",
-                    "fill": "{sem.colorText.dark}"
+                    "itemSpacing": "{sem.toggle.card.content.rightSide.label.container.spacing}}"
                   },
                   "type": "composition"
                 }
@@ -1221,17 +1221,17 @@
                     },
                     "type": "spacing"
                   },
-                  "spacing": {
+                  "text": {
                     "value": {
-                      "itemSpacing": "{sem.toggle.card.content.rightSide.label.container.spacing}}"
+                      "typography": "{sem.typography.textStyle.label.body.md}",
+                      "fill": "{sem.colorText.dark}"
                     },
                     "type": "composition"
                   }
                 },
-                "text": {
+                "spacing": {
                   "value": {
-                    "typography": "{sem.typography.textStyle.label.body.md}",
-                    "fill": "{sem.colorText.dark}"
+                    "itemSpacing": "{sem.toggle.card.content.rightSide.label.container.spacing}}"
                   },
                   "type": "composition"
                 }
@@ -1297,17 +1297,17 @@
                     },
                     "type": "spacing"
                   },
-                  "spacing": {
+                  "text": {
                     "value": {
-                      "itemSpacing": "{sem.toggle.card.content.rightSide.label.container.spacing}}"
+                      "typography": "{sem.typography.textStyle.label.body.md}",
+                      "fill": "{sem.colorText.dark}"
                     },
                     "type": "composition"
                   }
                 },
-                "text": {
+                "spacing": {
                   "value": {
-                    "typography": "{sem.typography.textStyle.label.body.md}",
-                    "fill": "{sem.colorText.dark}"
+                    "itemSpacing": "{sem.toggle.card.content.rightSide.label.container.spacing}}"
                   },
                   "type": "composition"
                 }
@@ -1373,17 +1373,17 @@
                     },
                     "type": "spacing"
                   },
-                  "spacing": {
+                  "text": {
                     "value": {
-                      "itemSpacing": "{sem.toggle.card.content.rightSide.label.container.spacing}}"
+                      "typography": "{sem.typography.textStyle.label.body.md}",
+                      "fill": "{sem.colorText.dark}"
                     },
                     "type": "composition"
                   }
                 },
-                "text": {
+                "spacing": {
                   "value": {
-                    "typography": "{sem.typography.textStyle.label.body.md}",
-                    "fill": "{sem.colorText.dark}"
+                    "itemSpacing": "{sem.toggle.card.content.rightSide.label.container.spacing}}"
                   },
                   "type": "composition"
                 }
@@ -1449,17 +1449,17 @@
                     },
                     "type": "spacing"
                   },
-                  "spacing": {
+                  "text": {
                     "value": {
-                      "itemSpacing": "{sem.toggle.card.content.rightSide.label.container.spacing}}"
+                      "typography": "{sem.typography.textStyle.label.body.md}",
+                      "fill": "{sem.colorText.dark}"
                     },
                     "type": "composition"
                   }
                 },
-                "text": {
+                "spacing": {
                   "value": {
-                    "typography": "{sem.typography.textStyle.label.body.md}",
-                    "fill": "{sem.colorText.dark}"
+                    "itemSpacing": "{sem.toggle.card.content.rightSide.label.container.spacing}}"
                   },
                   "type": "composition"
                 }
