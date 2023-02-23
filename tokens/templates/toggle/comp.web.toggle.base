@@ -51,6 +51,13 @@ comp
           "fill": "{sem.colorText.dark}"
         },
         "type": "composition"
+      },
+      "description": {
+        "value": {
+          "typography": "{sem.typography.textStyle.paragraph.md.default}",
+          "fill": "{sem.colorText.default}"
+        },
+        "type": "composition"
       }
     }
   }

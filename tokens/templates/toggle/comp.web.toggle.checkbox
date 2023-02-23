@@ -40,6 +40,11 @@ comp
         "value": {},
         "type": "composition",
         "description": "({extends: 'comp.toggle.base.<<state>>.text.label'})"
+      },
+      "description": {
+        "value": {},
+        "type": "composition",
+        "description": "({extends: 'comp.toggle.base.<<state>>.text.description'})"
       }
     }
   }

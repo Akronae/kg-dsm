@@ -249,6 +249,14 @@
               },
               "type": "composition",
               "description": "({extends: 'comp.toggle.base.default.text.label'})"
+            },
+            "description": {
+              "value": {
+                "typography": "{sem.typography.textStyle.paragraph.md.default}",
+                "fill": "{sem.colorText.default}"
+              },
+              "type": "composition",
+              "description": "({extends: 'comp.toggle.base.default.text.description'})"
             }
           }
         },
@@ -307,6 +315,14 @@
               },
               "type": "composition",
               "description": "({extends: 'comp.toggle.base.hover.text.label'})"
+            },
+            "description": {
+              "value": {
+                "typography": "{sem.typography.textStyle.paragraph.md.default}",
+                "fill": "{sem.colorText.default}"
+              },
+              "type": "composition",
+              "description": "({extends: 'comp.toggle.base.hover.text.description'})"
             }
           }
         },
@@ -365,6 +381,14 @@
               },
               "type": "composition",
               "description": "({extends: 'comp.toggle.base.pressed.text.label'})"
+            },
+            "description": {
+              "value": {
+                "typography": "{sem.typography.textStyle.paragraph.md.default}",
+                "fill": "{sem.colorText.default}"
+              },
+              "type": "composition",
+              "description": "({extends: 'comp.toggle.base.pressed.text.description'})"
             }
           }
         },
@@ -423,6 +447,14 @@
               },
               "type": "composition",
               "description": "({extends: 'comp.toggle.base.active.text.label'})"
+            },
+            "description": {
+              "value": {
+                "typography": "{sem.typography.textStyle.paragraph.md.default}",
+                "fill": "{sem.colorText.default}"
+              },
+              "type": "composition",
+              "description": "({extends: 'comp.toggle.base.active.text.description'})"
             }
           }
         },
@@ -481,6 +513,14 @@
               },
               "type": "composition",
               "description": "({extends: 'comp.toggle.base.danger.text.label'})"
+            },
+            "description": {
+              "value": {
+                "typography": "{sem.typography.textStyle.paragraph.md.default}",
+                "fill": "{sem.colorText.default}"
+              },
+              "type": "composition",
+              "description": "({extends: 'comp.toggle.base.danger.text.description'})"
             }
           }
         },
@@ -539,6 +579,14 @@
               },
               "type": "composition",
               "description": "({extends: 'comp.toggle.base.disabled.text.label'})"
+            },
+            "description": {
+              "value": {
+                "typography": "{sem.typography.textStyle.paragraph.md.default}",
+                "fill": "{sem.colorText.default}"
+              },
+              "type": "composition",
+              "description": "({extends: 'comp.toggle.base.disabled.text.description'})"
             }
           }
         },
@@ -597,6 +645,14 @@
               },
               "type": "composition",
               "description": "({extends: 'comp.toggle.base.forced.text.label'})"
+            },
+            "description": {
+              "value": {
+                "typography": "{sem.typography.textStyle.paragraph.md.default}",
+                "fill": "{sem.colorText.default}"
+              },
+              "type": "composition",
+              "description": "({extends: 'comp.toggle.base.forced.text.description'})"
             }
           }
         },
@@ -655,6 +711,14 @@
               },
               "type": "composition",
               "description": "({extends: 'comp.toggle.base.indeterminate.text.label'})"
+            },
+            "description": {
+              "value": {
+                "typography": "{sem.typography.textStyle.paragraph.md.default}",
+                "fill": "{sem.colorText.default}"
+              },
+              "type": "composition",
+              "description": "({extends: 'comp.toggle.base.indeterminate.text.description'})"
             }
           }
         }
@@ -795,6 +859,13 @@
                 "fill": "{sem.colorText.dark}"
               },
               "type": "composition"
+            },
+            "description": {
+              "value": {
+                "typography": "{sem.typography.textStyle.paragraph.md.default}",
+                "fill": "{sem.colorText.default}"
+              },
+              "type": "composition"
             }
           }
         },
@@ -842,6 +913,13 @@
               "value": {
                 "typography": "{sem.typography.textStyle.label.body.md}",
                 "fill": "{sem.colorText.dark}"
+              },
+              "type": "composition"
+            },
+            "description": {
+              "value": {
+                "typography": "{sem.typography.textStyle.paragraph.md.default}",
+                "fill": "{sem.colorText.default}"
               },
               "type": "composition"
             }
@@ -893,6 +971,13 @@
                 "fill": "{sem.colorText.dark}"
               },
               "type": "composition"
+            },
+            "description": {
+              "value": {
+                "typography": "{sem.typography.textStyle.paragraph.md.default}",
+                "fill": "{sem.colorText.default}"
+              },
+              "type": "composition"
             }
           }
         },
@@ -940,6 +1025,13 @@
               "value": {
                 "typography": "{sem.typography.textStyle.label.body.md}",
                 "fill": "{sem.colorText.dark}"
+              },
+              "type": "composition"
+            },
+            "description": {
+              "value": {
+                "typography": "{sem.typography.textStyle.paragraph.md.default}",
+                "fill": "{sem.colorText.default}"
               },
               "type": "composition"
             }
@@ -991,6 +1083,13 @@
                 "fill": "{sem.colorText.dark}"
               },
               "type": "composition"
+            },
+            "description": {
+              "value": {
+                "typography": "{sem.typography.textStyle.paragraph.md.default}",
+                "fill": "{sem.colorText.default}"
+              },
+              "type": "composition"
             }
           }
         },
@@ -1038,6 +1137,13 @@
               "value": {
                 "typography": "{sem.typography.textStyle.label.body.md}",
                 "fill": "{sem.colorText.dark}"
+              },
+              "type": "composition"
+            },
+            "description": {
+              "value": {
+                "typography": "{sem.typography.textStyle.paragraph.md.default}",
+                "fill": "{sem.colorText.default}"
               },
               "type": "composition"
             }
@@ -1089,6 +1195,13 @@
                 "fill": "{sem.colorText.dark}"
               },
               "type": "composition"
+            },
+            "description": {
+              "value": {
+                "typography": "{sem.typography.textStyle.paragraph.md.default}",
+                "fill": "{sem.colorText.default}"
+              },
+              "type": "composition"
             }
           }
         },
@@ -1136,6 +1249,13 @@
               "value": {
                 "typography": "{sem.typography.textStyle.label.body.md}",
                 "fill": "{sem.colorText.dark}"
+              },
+              "type": "composition"
+            },
+            "description": {
+              "value": {
+                "typography": "{sem.typography.textStyle.paragraph.md.default}",
+                "fill": "{sem.colorText.default}"
               },
               "type": "composition"
             }
