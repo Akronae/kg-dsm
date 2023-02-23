@@ -42,8 +42,8 @@ comp
         "label": {
           "container": {
             "value": {
-              "paddingTop": "{sem.toggle.card.content.label.container.paddingTop}",
-              "itemSpacing": "{sem.toggle.card.content.label.container.spacing}}"
+              "paddingTop": "{sem.toggle.card.content.label.rightSide.container.paddingTop}",
+              "itemSpacing": "{sem.toggle.card.content.label.rightSide.container.spacing}}"
             },
             "type": "composition"
           },

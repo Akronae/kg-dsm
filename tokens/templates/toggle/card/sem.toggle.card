@@ -25,7 +25,7 @@ sem
               "value": "{ref.spacing.50}",
               "type": "spacing"
             },
-            "itemSpacing": {
+            "spacing": {
               "value": "{ref.spacing.100}",
               "type": "spacing"
             }
