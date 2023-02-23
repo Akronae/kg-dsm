@@ -26,7 +26,7 @@ comp
       },
       "iconSize": {
         "value": {
-          "sizing": "{sem.toggle.base.mark.icon.sizing}"
+          "sizing": "{sem.toggle.base.mark.iconSize}"
         },
         "type": "composition"
       },
