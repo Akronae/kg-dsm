@@ -987,6 +987,12 @@
               },
               "label": {
                 "container": {
+                  "labelPaddingTop": {
+                    "value": {
+                      "paddingTop": "{sem.toggle.card.content.rightSide.label.container.paddingTop}"
+                    },
+                    "type": "spacing"
+                  },
                   "value": {
                     "itemSpacing": "{sem.toggle.card.content.rightSide.label.container.spacing}}"
                   },
@@ -995,8 +1001,7 @@
                 "text": {
                   "value": {
                     "typography": "{sem.typography.textStyle.label.body.md}",
-                    "fill": "{sem.colorText.dark}",
-                    "paddingTop": "{sem.toggle.card.content.rightSide.label.container.paddingTop}"
+                    "fill": "{sem.colorText.dark}"
                   },
                   "type": "composition"
                 }
@@ -1056,6 +1061,12 @@
               },
               "label": {
                 "container": {
+                  "labelPaddingTop": {
+                    "value": {
+                      "paddingTop": "{sem.toggle.card.content.rightSide.label.container.paddingTop}"
+                    },
+                    "type": "spacing"
+                  },
                   "value": {
                     "itemSpacing": "{sem.toggle.card.content.rightSide.label.container.spacing}}"
                   },
@@ -1064,8 +1075,7 @@
                 "text": {
                   "value": {
                     "typography": "{sem.typography.textStyle.label.body.md}",
-                    "fill": "{sem.colorText.dark}",
-                    "paddingTop": "{sem.toggle.card.content.rightSide.label.container.paddingTop}"
+                    "fill": "{sem.colorText.dark}"
                   },
                   "type": "composition"
                 }
@@ -1125,6 +1135,12 @@
               },
               "label": {
                 "container": {
+                  "labelPaddingTop": {
+                    "value": {
+                      "paddingTop": "{sem.toggle.card.content.rightSide.label.container.paddingTop}"
+                    },
+                    "type": "spacing"
+                  },
                   "value": {
                     "itemSpacing": "{sem.toggle.card.content.rightSide.label.container.spacing}}"
                   },
@@ -1133,8 +1149,7 @@
                 "text": {
                   "value": {
                     "typography": "{sem.typography.textStyle.label.body.md}",
-                    "fill": "{sem.colorText.dark}",
-                    "paddingTop": "{sem.toggle.card.content.rightSide.label.container.paddingTop}"
+                    "fill": "{sem.colorText.dark}"
                   },
                   "type": "composition"
                 }
@@ -1194,6 +1209,12 @@
               },
               "label": {
                 "container": {
+                  "labelPaddingTop": {
+                    "value": {
+                      "paddingTop": "{sem.toggle.card.content.rightSide.label.container.paddingTop}"
+                    },
+                    "type": "spacing"
+                  },
                   "value": {
                     "itemSpacing": "{sem.toggle.card.content.rightSide.label.container.spacing}}"
                   },
@@ -1202,8 +1223,7 @@
                 "text": {
                   "value": {
                     "typography": "{sem.typography.textStyle.label.body.md}",
-                    "fill": "{sem.colorText.dark}",
-                    "paddingTop": "{sem.toggle.card.content.rightSide.label.container.paddingTop}"
+                    "fill": "{sem.colorText.dark}"
                   },
                   "type": "composition"
                 }
@@ -1263,6 +1283,12 @@
               },
               "label": {
                 "container": {
+                  "labelPaddingTop": {
+                    "value": {
+                      "paddingTop": "{sem.toggle.card.content.rightSide.label.container.paddingTop}"
+                    },
+                    "type": "spacing"
+                  },
                   "value": {
                     "itemSpacing": "{sem.toggle.card.content.rightSide.label.container.spacing}}"
                   },
@@ -1271,8 +1297,7 @@
                 "text": {
                   "value": {
                     "typography": "{sem.typography.textStyle.label.body.md}",
-                    "fill": "{sem.colorText.dark}",
-                    "paddingTop": "{sem.toggle.card.content.rightSide.label.container.paddingTop}"
+                    "fill": "{sem.colorText.dark}"
                   },
                   "type": "composition"
                 }
@@ -1332,6 +1357,12 @@
               },
               "label": {
                 "container": {
+                  "labelPaddingTop": {
+                    "value": {
+                      "paddingTop": "{sem.toggle.card.content.rightSide.label.container.paddingTop}"
+                    },
+                    "type": "spacing"
+                  },
                   "value": {
                     "itemSpacing": "{sem.toggle.card.content.rightSide.label.container.spacing}}"
                   },
@@ -1340,8 +1371,7 @@
                 "text": {
                   "value": {
                     "typography": "{sem.typography.textStyle.label.body.md}",
-                    "fill": "{sem.colorText.dark}",
-                    "paddingTop": "{sem.toggle.card.content.rightSide.label.container.paddingTop}"
+                    "fill": "{sem.colorText.dark}"
                   },
                   "type": "composition"
                 }
@@ -1401,6 +1431,12 @@
               },
               "label": {
                 "container": {
+                  "labelPaddingTop": {
+                    "value": {
+                      "paddingTop": "{sem.toggle.card.content.rightSide.label.container.paddingTop}"
+                    },
+                    "type": "spacing"
+                  },
                   "value": {
                     "itemSpacing": "{sem.toggle.card.content.rightSide.label.container.spacing}}"
                   },
@@ -1409,8 +1445,7 @@
                 "text": {
                   "value": {
                     "typography": "{sem.typography.textStyle.label.body.md}",
-                    "fill": "{sem.colorText.dark}",
-                    "paddingTop": "{sem.toggle.card.content.rightSide.label.container.paddingTop}"
+                    "fill": "{sem.colorText.dark}"
                   },
                   "type": "composition"
                 }
