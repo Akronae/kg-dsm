@@ -18,7 +18,7 @@ comp
       "container": {
         "value": {
           "sizing": "{sem.toggle.base.mark.containerSize}",
-          "fill": "{sem.colorSurface.<< ({ active: 'primary', indeterminate: 'primary', forced: 'dark', disabled: 'disabled'})[state] || 'sub' >>}",
+          "fill": "{sem.colorSurface.<< ({ active: 'primary', indeterminate: 'primary', forced: 'black', disabled: 'disabled'})[state] || 'sub' >>}",
           "border": "<< ({ default: '{sem.borderInteractive.default}', hover: '{sem.borderInteractive.hover}', danger: '{sem.border.danger}', disabled: '{sem.borderInteractive.disabled}' })[state] || 'none' >>"
         },
         "type": "composition"
