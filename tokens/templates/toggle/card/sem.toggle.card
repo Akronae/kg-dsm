@@ -6,6 +6,10 @@ sem
 [
   {
     "content": {
+      "spacing": {
+        "value": "{ref.spacing.100}",
+        "type": "spacing"
+      },
       "iconSize": {
         "value": "{ref.sizing.200}",
         "type": "sizing"

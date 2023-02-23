@@ -9,7 +9,7 @@ comp
     "container": {
       "value": {},
       "type": "composition",
-      "description": "({extends: 'comp.toggle.base.<<state>>.container'})"
+      "description": "({extends: 'comp.card.md.uncontrasted.<<state>>'})"
     },
     "content": {
       "icon": {
@@ -22,6 +22,12 @@ comp
         "iconColor": {
           "value": {
             "border": "{sem.borderIcon.sm.dark}"
+          },
+          "type": "composition"
+        },
+        "spacing": {
+          "value": {
+            "itemSpacing": "{sem.toggle.card.content.spacing}"
           },
           "type": "composition"
         }
