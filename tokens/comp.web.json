@@ -206,8 +206,8 @@
           "mark": {
             "container": {
               "value": {
-                "borderRadius": "{sem.toggle.base.checkbox.mark.borderRadius}",
-                "sizing": "{sem.toggle.base.mark.container.sizing}",
+                "borderRadius": "{sem.toggle.checkbox.mark.borderRadius}",
+                "sizing": "{sem.toggle.base.mark.containerSize}",
                 "fill": "{sem.colorSurface.sub}",
                 "border": "{sem.borderInteractive.default}"
               },
@@ -256,8 +256,8 @@
           "mark": {
             "container": {
               "value": {
-                "borderRadius": "{sem.toggle.base.checkbox.mark.borderRadius}",
-                "sizing": "{sem.toggle.base.mark.container.sizing}",
+                "borderRadius": "{sem.toggle.checkbox.mark.borderRadius}",
+                "sizing": "{sem.toggle.base.mark.containerSize}",
                 "fill": "{sem.colorSurface.sub}",
                 "border": "{sem.borderInteractive.hover}"
               },
@@ -306,8 +306,8 @@
           "mark": {
             "container": {
               "value": {
-                "borderRadius": "{sem.toggle.base.checkbox.mark.borderRadius}",
-                "sizing": "{sem.toggle.base.mark.container.sizing}",
+                "borderRadius": "{sem.toggle.checkbox.mark.borderRadius}",
+                "sizing": "{sem.toggle.base.mark.containerSize}",
                 "fill": "{sem.colorSurface.sub}",
                 "border": "none"
               },
@@ -356,8 +356,8 @@
           "mark": {
             "container": {
               "value": {
-                "borderRadius": "{sem.toggle.base.checkbox.mark.borderRadius}",
-                "sizing": "{sem.toggle.base.mark.container.sizing}",
+                "borderRadius": "{sem.toggle.checkbox.mark.borderRadius}",
+                "sizing": "{sem.toggle.base.mark.containerSize}",
                 "fill": "{sem.colorSurface.primary}",
                 "border": "none"
               },
@@ -406,8 +406,8 @@
           "mark": {
             "container": {
               "value": {
-                "borderRadius": "{sem.toggle.base.checkbox.mark.borderRadius}",
-                "sizing": "{sem.toggle.base.mark.container.sizing}",
+                "borderRadius": "{sem.toggle.checkbox.mark.borderRadius}",
+                "sizing": "{sem.toggle.base.mark.containerSize}",
                 "fill": "{sem.colorSurface.sub}",
                 "border": "{sem.border.danger}"
               },
@@ -456,8 +456,8 @@
           "mark": {
             "container": {
               "value": {
-                "borderRadius": "{sem.toggle.base.checkbox.mark.borderRadius}",
-                "sizing": "{sem.toggle.base.mark.container.sizing}",
+                "borderRadius": "{sem.toggle.checkbox.mark.borderRadius}",
+                "sizing": "{sem.toggle.base.mark.containerSize}",
                 "fill": "{sem.colorSurface.disabled}",
                 "border": "{sem.borderInteractive.disabled}"
               },
@@ -506,8 +506,8 @@
           "mark": {
             "container": {
               "value": {
-                "borderRadius": "{sem.toggle.base.checkbox.mark.borderRadius}",
-                "sizing": "{sem.toggle.base.mark.container.sizing}",
+                "borderRadius": "{sem.toggle.checkbox.mark.borderRadius}",
+                "sizing": "{sem.toggle.base.mark.containerSize}",
                 "fill": "{sem.colorSurface.sub}",
                 "border": "none"
               },
@@ -556,8 +556,8 @@
           "mark": {
             "container": {
               "value": {
-                "borderRadius": "{sem.toggle.base.checkbox.mark.borderRadius}",
-                "sizing": "{sem.toggle.base.mark.container.sizing}",
+                "borderRadius": "{sem.toggle.checkbox.mark.borderRadius}",
+                "sizing": "{sem.toggle.base.mark.containerSize}",
                 "fill": "{sem.colorSurface.primary}",
                 "border": "none"
               },
@@ -12858,17 +12858,13 @@
           }
         },
         "mark": {
-          "container": {
-            "sizing": {
-              "value": "{ref.sizing.200}",
-              "type": "sizing"
-            },
-            "icon": {
-              "iconSize": {
-                "value": "{ref.sizing.200}",
-                "type": "sizing"
-              }
-            }
+          "containerSize": {
+            "value": "{ref.sizing.200}",
+            "type": "sizing"
+          },
+          "iconSize": {
+            "value": "{ref.sizing.200}",
+            "type": "sizing"
           }
         },
         "text": {
