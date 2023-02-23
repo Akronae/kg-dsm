@@ -204,13 +204,27 @@
             "type": "composition"
           },
           "mark": {
-            "value": {
-              "borderRadius": "{sem.toggle.checkbox.borderRadius}",
-              "sizing": "{sem.toggle.base.mark.sizing}",
-              "fill": "{sem.colorSurface.sub}",
-              "border": "{sem.borderInteractive.default}"
+            "container": {
+              "value": {
+                "borderRadius": "{sem.toggle.checkbox.mark.borderRadius}",
+                "sizing": "{sem.toggle.base.mark.sizing}",
+                "fill": "{sem.colorSurface.sub}",
+                "border": "{sem.borderInteractive.default}"
+              },
+              "type": "composition"
             },
-            "type": "composition"
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.toggle.base.mark.icon.sizing}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "fill": "{sem.borderIcon.sm.light}"
+              },
+              "type": "composition"
+            }
           },
           "text": {
             "container": {
@@ -240,13 +254,27 @@
             "type": "composition"
           },
           "mark": {
-            "value": {
-              "borderRadius": "{sem.toggle.checkbox.borderRadius}",
-              "sizing": "{sem.toggle.base.mark.sizing}",
-              "fill": "{sem.colorSurface.sub}",
-              "border": "{sem.borderInteractive.hover}"
+            "container": {
+              "value": {
+                "borderRadius": "{sem.toggle.checkbox.mark.borderRadius}",
+                "sizing": "{sem.toggle.base.mark.sizing}",
+                "fill": "{sem.colorSurface.sub}",
+                "border": "{sem.borderInteractive.hover}"
+              },
+              "type": "composition"
             },
-            "type": "composition"
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.toggle.base.mark.icon.sizing}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "fill": "{sem.borderIcon.sm.light}"
+              },
+              "type": "composition"
+            }
           },
           "text": {
             "container": {
@@ -276,13 +304,27 @@
             "type": "composition"
           },
           "mark": {
-            "value": {
-              "borderRadius": "{sem.toggle.checkbox.borderRadius}",
-              "sizing": "{sem.toggle.base.mark.sizing}",
-              "fill": "{sem.colorSurface.sub}",
-              "border": "none"
+            "container": {
+              "value": {
+                "borderRadius": "{sem.toggle.checkbox.mark.borderRadius}",
+                "sizing": "{sem.toggle.base.mark.sizing}",
+                "fill": "{sem.colorSurface.sub}",
+                "border": "none"
+              },
+              "type": "composition"
             },
-            "type": "composition"
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.toggle.base.mark.icon.sizing}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "fill": "{sem.borderIcon.sm.light}"
+              },
+              "type": "composition"
+            }
           },
           "text": {
             "container": {
@@ -312,13 +354,27 @@
             "type": "composition"
           },
           "mark": {
-            "value": {
-              "borderRadius": "{sem.toggle.checkbox.borderRadius}",
-              "sizing": "{sem.toggle.base.mark.sizing}",
-              "fill": "{sem.colorSurface.primary}",
-              "border": "none"
+            "container": {
+              "value": {
+                "borderRadius": "{sem.toggle.checkbox.mark.borderRadius}",
+                "sizing": "{sem.toggle.base.mark.sizing}",
+                "fill": "{sem.colorSurface.primary}",
+                "border": "none"
+              },
+              "type": "composition"
             },
-            "type": "composition"
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.toggle.base.mark.icon.sizing}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "fill": "{sem.borderIcon.sm.light}"
+              },
+              "type": "composition"
+            }
           },
           "text": {
             "container": {
@@ -348,13 +404,27 @@
             "type": "composition"
           },
           "mark": {
-            "value": {
-              "borderRadius": "{sem.toggle.checkbox.borderRadius}",
-              "sizing": "{sem.toggle.base.mark.sizing}",
-              "fill": "{sem.colorSurface.sub}",
-              "border": "{sem.border.danger}"
+            "container": {
+              "value": {
+                "borderRadius": "{sem.toggle.checkbox.mark.borderRadius}",
+                "sizing": "{sem.toggle.base.mark.sizing}",
+                "fill": "{sem.colorSurface.sub}",
+                "border": "{sem.border.danger}"
+              },
+              "type": "composition"
             },
-            "type": "composition"
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.toggle.base.mark.icon.sizing}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "fill": "{sem.borderIcon.sm.light}"
+              },
+              "type": "composition"
+            }
           },
           "text": {
             "container": {
@@ -384,13 +454,27 @@
             "type": "composition"
           },
           "mark": {
-            "value": {
-              "borderRadius": "{sem.toggle.checkbox.borderRadius}",
-              "sizing": "{sem.toggle.base.mark.sizing}",
-              "fill": "{sem.colorSurface.disabled}",
-              "border": "{sem.borderInteractive.disabled}"
+            "container": {
+              "value": {
+                "borderRadius": "{sem.toggle.checkbox.mark.borderRadius}",
+                "sizing": "{sem.toggle.base.mark.sizing}",
+                "fill": "{sem.colorSurface.disabled}",
+                "border": "{sem.borderInteractive.disabled}"
+              },
+              "type": "composition"
             },
-            "type": "composition"
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.toggle.base.mark.icon.sizing}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "fill": "{sem.borderIcon.sm.light}"
+              },
+              "type": "composition"
+            }
           },
           "text": {
             "container": {
@@ -420,13 +504,27 @@
             "type": "composition"
           },
           "mark": {
-            "value": {
-              "borderRadius": "{sem.toggle.checkbox.borderRadius}",
-              "sizing": "{sem.toggle.base.mark.sizing}",
-              "fill": "{sem.colorSurface.sub}",
-              "border": "none"
+            "container": {
+              "value": {
+                "borderRadius": "{sem.toggle.checkbox.mark.borderRadius}",
+                "sizing": "{sem.toggle.base.mark.sizing}",
+                "fill": "{sem.colorSurface.sub}",
+                "border": "none"
+              },
+              "type": "composition"
             },
-            "type": "composition"
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.toggle.base.mark.icon.sizing}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "fill": "{sem.borderIcon.sm.light}"
+              },
+              "type": "composition"
+            }
           },
           "text": {
             "container": {
@@ -456,13 +554,27 @@
             "type": "composition"
           },
           "mark": {
-            "value": {
-              "borderRadius": "{sem.toggle.checkbox.borderRadius}",
-              "sizing": "{sem.toggle.base.mark.sizing}",
-              "fill": "{sem.colorSurface.primary}",
-              "border": "none"
+            "container": {
+              "value": {
+                "borderRadius": "{sem.toggle.checkbox.mark.borderRadius}",
+                "sizing": "{sem.toggle.base.mark.sizing}",
+                "fill": "{sem.colorSurface.primary}",
+                "border": "none"
+              },
+              "type": "composition"
             },
-            "type": "composition"
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.toggle.base.mark.icon.sizing}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "fill": "{sem.borderIcon.sm.light}"
+              },
+              "type": "composition"
+            }
           },
           "text": {
             "container": {
@@ -12746,9 +12858,15 @@
           }
         },
         "mark": {
-          "sizing": {
-            "value": "{ref.sizing.200}",
-            "type": "sizing"
+          "container": {
+            "sizing": {
+              "value": "{ref.sizing.200}",
+              "type": "sizing"
+            },
+            "iconSize": {
+              "value": "{ref.sizing.200}",
+              "type": "sizing"
+            }
           }
         },
         "text": {
@@ -12784,6 +12902,12 @@
         "borderRadius": {
           "value": "{ref.borderRadius.9999}",
           "type": "borderRadius"
+        },
+        "mark": {
+          "borderRadius": {
+            "value": "{ref.borderRadius.9999}",
+            "type": "borderRadius"
+          }
         }
       }
     }

@@ -15,13 +15,27 @@ comp
       "type": "composition"
     },
     "mark": {
-      "value": {
-        "borderRadius": "{sem.toggle.checkbox.borderRadius}",
-        "sizing": "{sem.toggle.base.mark.sizing}",
-        "fill": "{sem.colorSurface.<< ({ active: 'primary', indeterminate: 'primary', force: 'dark', disabled: 'disabled'})[state] || 'sub' >>}",
-        "border": "<< ({ default: '{sem.borderInteractive.default}', hover: '{sem.borderInteractive.hover}', danger: '{sem.border.danger}', disabled: '{sem.borderInteractive.disabled}' })[state] || 'none' >>"
+      "container": {
+        "value": {
+          "borderRadius": "{sem.toggle.checkbox.mark.borderRadius}",
+          "sizing": "{sem.toggle.base.mark.sizing}",
+          "fill": "{sem.colorSurface.<< ({ active: 'primary', indeterminate: 'primary', force: 'dark', disabled: 'disabled'})[state] || 'sub' >>}",
+          "border": "<< ({ default: '{sem.borderInteractive.default}', hover: '{sem.borderInteractive.hover}', danger: '{sem.border.danger}', disabled: '{sem.borderInteractive.disabled}' })[state] || 'none' >>"
+        },
+        "type": "composition"
       },
-      "type": "composition"
+      "iconSize": {
+        "value": {
+          "sizing": "{sem.toggle.base.mark.icon.sizing}"
+        },
+        "type": "composition"
+      },
+      "iconColor": {
+        "value": {
+          "fill": "{sem.borderIcon.sm.light}"
+        },
+        "type": "composition"
+      }
     },
     "text": {
       "container": {

@@ -15,9 +15,15 @@ sem
       }
     },
     "mark": {
-      "sizing": {
-        "value": "{ref.sizing.200}",
-        "type": "sizing"
+      "container": {
+        "sizing": {
+          "value": "{ref.sizing.200}",
+          "type": "sizing"
+        },
+        "iconSize": {
+          "value": "{ref.sizing.200}",
+          "type": "sizing"
+        }
       }
     },
     "text": {
