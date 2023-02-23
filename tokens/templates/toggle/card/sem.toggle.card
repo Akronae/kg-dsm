@@ -1,0 +1,33 @@
+// @replacepath: tokens/comp.web.json
+
+sem
+.toggle
+.card
+[
+  {
+    "content": {
+      "iconSize": {
+        "value": "{ref.sizing.200}",
+        "type": "sizing"
+      },
+      "rightSide": {
+        "spacing": {
+          "value": "{ref.spacing.100}",
+          "type": "spacing"
+        },
+        "label": {
+          "container": {
+            "paddingTop": {
+              "value": "{ref.spacing.50}",
+              "type": "spacing"
+            },
+            "itemSpacing": {
+              "value": "{ref.spacing.100}",
+              "type": "spacing"
+            }
+          }
+        }
+      }
+    }
+  }
+]

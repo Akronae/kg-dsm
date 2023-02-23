@@ -141,80 +141,150 @@
     "toggle": {
       "radio": {
         "default": {
-          "container": {
-            "value": {
-              "itemSpacing": "{sem.toggle.base.container.spacing}",
-              "fill": "none",
-              "borderRadius": "{sem.toggle.base.container.borderRadius}"
+          "mark": {
+            "container": {
+              "value": {
+                "sizing": "{sem.toggle.base.mark.containerSize}",
+                "fill": "{sem.colorSurface.sub}",
+                "border": "{sem.border.interactive.default}",
+                "borderRadius": "{sem.toggle.radio.mark.borderRadius}"
+              },
+              "type": "composition",
+              "description": "({extends: 'comp.toggle.base.default.mark.container'})"
             },
-            "type": "composition",
-            "description": "({extends: 'comp.toggle.base.default.container'})"
+            "iconColor": {
+              "value": {
+                "fill": "{sem.borderIcon.sm.light}"
+              },
+              "type": "composition",
+              "description": "({extends: 'comp.toggle.base.default.mark.iconColor'})"
+            }
           }
         },
         "hover": {
-          "container": {
-            "value": {
-              "itemSpacing": "{sem.toggle.base.container.spacing}",
-              "fill": "{sem.colorSurface.interactive.hover}",
-              "borderRadius": "{sem.toggle.base.container.borderRadius}"
+          "mark": {
+            "container": {
+              "value": {
+                "sizing": "{sem.toggle.base.mark.containerSize}",
+                "fill": "{sem.colorSurface.sub}",
+                "border": "{sem.border.interactive.hover}",
+                "borderRadius": "{sem.toggle.radio.mark.borderRadius}"
+              },
+              "type": "composition",
+              "description": "({extends: 'comp.toggle.base.hover.mark.container'})"
             },
-            "type": "composition",
-            "description": "({extends: 'comp.toggle.base.hover.container'})"
+            "iconColor": {
+              "value": {
+                "fill": "{sem.borderIcon.sm.light}"
+              },
+              "type": "composition",
+              "description": "({extends: 'comp.toggle.base.hover.mark.iconColor'})"
+            }
           }
         },
         "pressed": {
-          "container": {
-            "value": {
-              "itemSpacing": "{sem.toggle.base.container.spacing}",
-              "fill": "{sem.colorSurface.interactive.pressed}",
-              "borderRadius": "{sem.toggle.base.container.borderRadius}"
+          "mark": {
+            "container": {
+              "value": {
+                "sizing": "{sem.toggle.base.mark.containerSize}",
+                "fill": "{sem.colorSurface.sub}",
+                "border": "none",
+                "borderRadius": "{sem.toggle.radio.mark.borderRadius}"
+              },
+              "type": "composition",
+              "description": "({extends: 'comp.toggle.base.pressed.mark.container'})"
             },
-            "type": "composition",
-            "description": "({extends: 'comp.toggle.base.pressed.container'})"
+            "iconColor": {
+              "value": {
+                "fill": "{sem.borderIcon.sm.light}"
+              },
+              "type": "composition",
+              "description": "({extends: 'comp.toggle.base.pressed.mark.iconColor'})"
+            }
           }
         },
         "active": {
-          "container": {
-            "value": {
-              "itemSpacing": "{sem.toggle.base.container.spacing}",
-              "fill": "none",
-              "borderRadius": "{sem.toggle.base.container.borderRadius}"
+          "mark": {
+            "container": {
+              "value": {
+                "sizing": "{sem.toggle.base.mark.containerSize}",
+                "fill": "{sem.colorSurface.primary}",
+                "border": "none",
+                "borderRadius": "{sem.toggle.radio.mark.borderRadius}"
+              },
+              "type": "composition",
+              "description": "({extends: 'comp.toggle.base.active.mark.container'})"
             },
-            "type": "composition",
-            "description": "({extends: 'comp.toggle.base.active.container'})"
+            "iconColor": {
+              "value": {
+                "fill": "{sem.borderIcon.sm.light}"
+              },
+              "type": "composition",
+              "description": "({extends: 'comp.toggle.base.active.mark.iconColor'})"
+            }
           }
         },
         "danger": {
-          "container": {
-            "value": {
-              "itemSpacing": "{sem.toggle.base.container.spacing}",
-              "fill": "none",
-              "borderRadius": "{sem.toggle.base.container.borderRadius}"
+          "mark": {
+            "container": {
+              "value": {
+                "sizing": "{sem.toggle.base.mark.containerSize}",
+                "fill": "{sem.colorSurface.sub}",
+                "border": "{sem.border.danger}",
+                "borderRadius": "{sem.toggle.radio.mark.borderRadius}"
+              },
+              "type": "composition",
+              "description": "({extends: 'comp.toggle.base.danger.mark.container'})"
             },
-            "type": "composition",
-            "description": "({extends: 'comp.toggle.base.danger.container'})"
+            "iconColor": {
+              "value": {
+                "fill": "{sem.borderIcon.sm.light}"
+              },
+              "type": "composition",
+              "description": "({extends: 'comp.toggle.base.danger.mark.iconColor'})"
+            }
           }
         },
         "disabled": {
-          "container": {
-            "value": {
-              "itemSpacing": "{sem.toggle.base.container.spacing}",
-              "fill": "none",
-              "borderRadius": "{sem.toggle.base.container.borderRadius}"
+          "mark": {
+            "container": {
+              "value": {
+                "sizing": "{sem.toggle.base.mark.containerSize}",
+                "fill": "{sem.colorSurface.disabled}",
+                "border": "{sem.border.interactive.disabled}",
+                "borderRadius": "{sem.toggle.radio.mark.borderRadius}"
+              },
+              "type": "composition",
+              "description": "({extends: 'comp.toggle.base.disabled.mark.container'})"
             },
-            "type": "composition",
-            "description": "({extends: 'comp.toggle.base.disabled.container'})"
+            "iconColor": {
+              "value": {
+                "fill": "{sem.borderIcon.sm.light}"
+              },
+              "type": "composition",
+              "description": "({extends: 'comp.toggle.base.disabled.mark.iconColor'})"
+            }
           }
         },
         "forced": {
-          "container": {
-            "value": {
-              "itemSpacing": "{sem.toggle.base.container.spacing}",
-              "fill": "none",
-              "borderRadius": "{sem.toggle.base.container.borderRadius}"
+          "mark": {
+            "container": {
+              "value": {
+                "sizing": "{sem.toggle.base.mark.containerSize}",
+                "fill": "{sem.colorSurface.black}",
+                "border": "none",
+                "borderRadius": "{sem.toggle.radio.mark.borderRadius}"
+              },
+              "type": "composition",
+              "description": "({extends: 'comp.toggle.base.forced.mark.container'})"
             },
-            "type": "composition",
-            "description": "({extends: 'comp.toggle.base.forced.container'})"
+            "iconColor": {
+              "value": {
+                "fill": "{sem.borderIcon.sm.light}"
+              },
+              "type": "composition",
+              "description": "({extends: 'comp.toggle.base.forced.mark.iconColor'})"
+            }
           }
         }
       },
@@ -867,6 +937,414 @@
                 "fill": "{sem.colorText.default}"
               },
               "type": "composition"
+            }
+          }
+        }
+      },
+      "card": {
+        "default": {
+          "container": {
+            "value": {
+              "itemSpacing": "{sem.toggle.base.container.spacing}",
+              "fill": "none",
+              "borderRadius": "{sem.toggle.base.container.borderRadius}"
+            },
+            "type": "composition",
+            "description": "({extends: 'comp.toggle.base.default.container'})"
+          },
+          "content": {
+            "icon": {
+              "iconSize": {
+                "value": {
+                  "size": "{sem.toggle.card.content.iconSize}"
+                },
+                "type": "composition"
+              },
+              "iconColor": {
+                "value": {
+                  "border": "{sem.borderIcon.sm.dark}"
+                },
+                "type": "composition"
+              }
+            },
+            "rightSide": {
+              "spacing": {
+                "value": {
+                  "itemSpacing": "{sem.toggle.card.content.rightSide.spacing}"
+                },
+                "type": "composition"
+              },
+              "label": {
+                "container": {
+                  "value": {
+                    "paddingTop": "{sem.toggle.card.content.label.container.paddingTop}",
+                    "itemSpacing": "{sem.toggle.card.content.label.container.spacing}}"
+                  },
+                  "type": "composition"
+                },
+                "text": {
+                  "value": {
+                    "typography": "{sem.typography.textStyle.label.body.md}",
+                    "fill": "{sem.colorText.dark}"
+                  },
+                  "type": "composition"
+                }
+              },
+              "description": {
+                "value": {
+                  "typography": "{sem.typography.textStyle.paragraph.sm.default}",
+                  "fill": "{sem.colorText.default}"
+                },
+                "type": "composition"
+              }
+            }
+          }
+        },
+        "hover": {
+          "container": {
+            "value": {
+              "itemSpacing": "{sem.toggle.base.container.spacing}",
+              "fill": "{sem.colorSurface.interactive.hover}",
+              "borderRadius": "{sem.toggle.base.container.borderRadius}"
+            },
+            "type": "composition",
+            "description": "({extends: 'comp.toggle.base.hover.container'})"
+          },
+          "content": {
+            "icon": {
+              "iconSize": {
+                "value": {
+                  "size": "{sem.toggle.card.content.iconSize}"
+                },
+                "type": "composition"
+              },
+              "iconColor": {
+                "value": {
+                  "border": "{sem.borderIcon.sm.dark}"
+                },
+                "type": "composition"
+              }
+            },
+            "rightSide": {
+              "spacing": {
+                "value": {
+                  "itemSpacing": "{sem.toggle.card.content.rightSide.spacing}"
+                },
+                "type": "composition"
+              },
+              "label": {
+                "container": {
+                  "value": {
+                    "paddingTop": "{sem.toggle.card.content.label.container.paddingTop}",
+                    "itemSpacing": "{sem.toggle.card.content.label.container.spacing}}"
+                  },
+                  "type": "composition"
+                },
+                "text": {
+                  "value": {
+                    "typography": "{sem.typography.textStyle.label.body.md}",
+                    "fill": "{sem.colorText.dark}"
+                  },
+                  "type": "composition"
+                }
+              },
+              "description": {
+                "value": {
+                  "typography": "{sem.typography.textStyle.paragraph.sm.default}",
+                  "fill": "{sem.colorText.default}"
+                },
+                "type": "composition"
+              }
+            }
+          }
+        },
+        "pressed": {
+          "container": {
+            "value": {
+              "itemSpacing": "{sem.toggle.base.container.spacing}",
+              "fill": "{sem.colorSurface.interactive.pressed}",
+              "borderRadius": "{sem.toggle.base.container.borderRadius}"
+            },
+            "type": "composition",
+            "description": "({extends: 'comp.toggle.base.pressed.container'})"
+          },
+          "content": {
+            "icon": {
+              "iconSize": {
+                "value": {
+                  "size": "{sem.toggle.card.content.iconSize}"
+                },
+                "type": "composition"
+              },
+              "iconColor": {
+                "value": {
+                  "border": "{sem.borderIcon.sm.dark}"
+                },
+                "type": "composition"
+              }
+            },
+            "rightSide": {
+              "spacing": {
+                "value": {
+                  "itemSpacing": "{sem.toggle.card.content.rightSide.spacing}"
+                },
+                "type": "composition"
+              },
+              "label": {
+                "container": {
+                  "value": {
+                    "paddingTop": "{sem.toggle.card.content.label.container.paddingTop}",
+                    "itemSpacing": "{sem.toggle.card.content.label.container.spacing}}"
+                  },
+                  "type": "composition"
+                },
+                "text": {
+                  "value": {
+                    "typography": "{sem.typography.textStyle.label.body.md}",
+                    "fill": "{sem.colorText.dark}"
+                  },
+                  "type": "composition"
+                }
+              },
+              "description": {
+                "value": {
+                  "typography": "{sem.typography.textStyle.paragraph.sm.default}",
+                  "fill": "{sem.colorText.default}"
+                },
+                "type": "composition"
+              }
+            }
+          }
+        },
+        "active": {
+          "container": {
+            "value": {
+              "itemSpacing": "{sem.toggle.base.container.spacing}",
+              "fill": "none",
+              "borderRadius": "{sem.toggle.base.container.borderRadius}"
+            },
+            "type": "composition",
+            "description": "({extends: 'comp.toggle.base.active.container'})"
+          },
+          "content": {
+            "icon": {
+              "iconSize": {
+                "value": {
+                  "size": "{sem.toggle.card.content.iconSize}"
+                },
+                "type": "composition"
+              },
+              "iconColor": {
+                "value": {
+                  "border": "{sem.borderIcon.sm.dark}"
+                },
+                "type": "composition"
+              }
+            },
+            "rightSide": {
+              "spacing": {
+                "value": {
+                  "itemSpacing": "{sem.toggle.card.content.rightSide.spacing}"
+                },
+                "type": "composition"
+              },
+              "label": {
+                "container": {
+                  "value": {
+                    "paddingTop": "{sem.toggle.card.content.label.container.paddingTop}",
+                    "itemSpacing": "{sem.toggle.card.content.label.container.spacing}}"
+                  },
+                  "type": "composition"
+                },
+                "text": {
+                  "value": {
+                    "typography": "{sem.typography.textStyle.label.body.md}",
+                    "fill": "{sem.colorText.dark}"
+                  },
+                  "type": "composition"
+                }
+              },
+              "description": {
+                "value": {
+                  "typography": "{sem.typography.textStyle.paragraph.sm.default}",
+                  "fill": "{sem.colorText.default}"
+                },
+                "type": "composition"
+              }
+            }
+          }
+        },
+        "danger": {
+          "container": {
+            "value": {
+              "itemSpacing": "{sem.toggle.base.container.spacing}",
+              "fill": "none",
+              "borderRadius": "{sem.toggle.base.container.borderRadius}"
+            },
+            "type": "composition",
+            "description": "({extends: 'comp.toggle.base.danger.container'})"
+          },
+          "content": {
+            "icon": {
+              "iconSize": {
+                "value": {
+                  "size": "{sem.toggle.card.content.iconSize}"
+                },
+                "type": "composition"
+              },
+              "iconColor": {
+                "value": {
+                  "border": "{sem.borderIcon.sm.dark}"
+                },
+                "type": "composition"
+              }
+            },
+            "rightSide": {
+              "spacing": {
+                "value": {
+                  "itemSpacing": "{sem.toggle.card.content.rightSide.spacing}"
+                },
+                "type": "composition"
+              },
+              "label": {
+                "container": {
+                  "value": {
+                    "paddingTop": "{sem.toggle.card.content.label.container.paddingTop}",
+                    "itemSpacing": "{sem.toggle.card.content.label.container.spacing}}"
+                  },
+                  "type": "composition"
+                },
+                "text": {
+                  "value": {
+                    "typography": "{sem.typography.textStyle.label.body.md}",
+                    "fill": "{sem.colorText.dark}"
+                  },
+                  "type": "composition"
+                }
+              },
+              "description": {
+                "value": {
+                  "typography": "{sem.typography.textStyle.paragraph.sm.default}",
+                  "fill": "{sem.colorText.default}"
+                },
+                "type": "composition"
+              }
+            }
+          }
+        },
+        "disabled": {
+          "container": {
+            "value": {
+              "itemSpacing": "{sem.toggle.base.container.spacing}",
+              "fill": "none",
+              "borderRadius": "{sem.toggle.base.container.borderRadius}"
+            },
+            "type": "composition",
+            "description": "({extends: 'comp.toggle.base.disabled.container'})"
+          },
+          "content": {
+            "icon": {
+              "iconSize": {
+                "value": {
+                  "size": "{sem.toggle.card.content.iconSize}"
+                },
+                "type": "composition"
+              },
+              "iconColor": {
+                "value": {
+                  "border": "{sem.borderIcon.sm.dark}"
+                },
+                "type": "composition"
+              }
+            },
+            "rightSide": {
+              "spacing": {
+                "value": {
+                  "itemSpacing": "{sem.toggle.card.content.rightSide.spacing}"
+                },
+                "type": "composition"
+              },
+              "label": {
+                "container": {
+                  "value": {
+                    "paddingTop": "{sem.toggle.card.content.label.container.paddingTop}",
+                    "itemSpacing": "{sem.toggle.card.content.label.container.spacing}}"
+                  },
+                  "type": "composition"
+                },
+                "text": {
+                  "value": {
+                    "typography": "{sem.typography.textStyle.label.body.md}",
+                    "fill": "{sem.colorText.dark}"
+                  },
+                  "type": "composition"
+                }
+              },
+              "description": {
+                "value": {
+                  "typography": "{sem.typography.textStyle.paragraph.sm.default}",
+                  "fill": "{sem.colorText.default}"
+                },
+                "type": "composition"
+              }
+            }
+          }
+        },
+        "forced": {
+          "container": {
+            "value": {
+              "itemSpacing": "{sem.toggle.base.container.spacing}",
+              "fill": "none",
+              "borderRadius": "{sem.toggle.base.container.borderRadius}"
+            },
+            "type": "composition",
+            "description": "({extends: 'comp.toggle.base.forced.container'})"
+          },
+          "content": {
+            "icon": {
+              "iconSize": {
+                "value": {
+                  "size": "{sem.toggle.card.content.iconSize}"
+                },
+                "type": "composition"
+              },
+              "iconColor": {
+                "value": {
+                  "border": "{sem.borderIcon.sm.dark}"
+                },
+                "type": "composition"
+              }
+            },
+            "rightSide": {
+              "spacing": {
+                "value": {
+                  "itemSpacing": "{sem.toggle.card.content.rightSide.spacing}"
+                },
+                "type": "composition"
+              },
+              "label": {
+                "container": {
+                  "value": {
+                    "paddingTop": "{sem.toggle.card.content.label.container.paddingTop}",
+                    "itemSpacing": "{sem.toggle.card.content.label.container.spacing}}"
+                  },
+                  "type": "composition"
+                },
+                "text": {
+                  "value": {
+                    "typography": "{sem.typography.textStyle.label.body.md}",
+                    "fill": "{sem.colorText.dark}"
+                  },
+                  "type": "composition"
+                }
+              },
+              "description": {
+                "value": {
+                  "typography": "{sem.typography.textStyle.paragraph.sm.default}",
+                  "fill": "{sem.colorText.default}"
+                },
+                "type": "composition"
+              }
             }
           }
         }
@@ -13092,6 +13570,32 @@
           "borderRadius": {
             "value": "{ref.borderRadius.9999}",
             "type": "borderRadius"
+          }
+        }
+      },
+      "card": {
+        "content": {
+          "iconSize": {
+            "value": "{ref.sizing.200}",
+            "type": "sizing"
+          },
+          "rightSide": {
+            "spacing": {
+              "value": "{ref.spacing.100}",
+              "type": "spacing"
+            },
+            "label": {
+              "container": {
+                "paddingTop": {
+                  "value": "{ref.spacing.50}",
+                  "type": "spacing"
+                },
+                "itemSpacing": {
+                  "value": "{ref.spacing.100}",
+                  "type": "spacing"
+                }
+              }
+            }
           }
         }
       }
