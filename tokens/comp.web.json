@@ -205,7 +205,7 @@
           },
           "toggle": {
             "value": {
-              "borderRadius": "{sem.toggle.base.mark.borderRadius}",
+              "borderRadius": "{sem.toggle.checkbox.borderRadius}",
               "sizing": "{sem.toggle.base.mark.sizing}",
               "fill": "{sem.colorSurface.sub}",
               "border": "{sem.borderInteractive.default}"
@@ -241,7 +241,7 @@
           },
           "toggle": {
             "value": {
-              "borderRadius": "{sem.toggle.base.mark.borderRadius}",
+              "borderRadius": "{sem.toggle.checkbox.borderRadius}",
               "sizing": "{sem.toggle.base.mark.sizing}",
               "fill": "{sem.colorSurface.sub}",
               "border": "{sem.borderInteractive.hover}"
@@ -277,7 +277,7 @@
           },
           "toggle": {
             "value": {
-              "borderRadius": "{sem.toggle.base.mark.borderRadius}",
+              "borderRadius": "{sem.toggle.checkbox.borderRadius}",
               "sizing": "{sem.toggle.base.mark.sizing}",
               "fill": "{sem.colorSurface.sub}",
               "border": "none"
@@ -313,7 +313,7 @@
           },
           "toggle": {
             "value": {
-              "borderRadius": "{sem.toggle.base.mark.borderRadius}",
+              "borderRadius": "{sem.toggle.checkbox.borderRadius}",
               "sizing": "{sem.toggle.base.mark.sizing}",
               "fill": "{sem.colorSurface.primary}",
               "border": "none"
@@ -349,7 +349,7 @@
           },
           "toggle": {
             "value": {
-              "borderRadius": "{sem.toggle.base.mark.borderRadius}",
+              "borderRadius": "{sem.toggle.checkbox.borderRadius}",
               "sizing": "{sem.toggle.base.mark.sizing}",
               "fill": "{sem.colorSurface.sub}",
               "border": "{sem.border.danger}"
@@ -385,7 +385,7 @@
           },
           "toggle": {
             "value": {
-              "borderRadius": "{sem.toggle.base.mark.borderRadius}",
+              "borderRadius": "{sem.toggle.checkbox.borderRadius}",
               "sizing": "{sem.toggle.base.mark.sizing}",
               "fill": "{sem.colorSurface.disabled}",
               "border": "{sem.borderInteractive.disabled}"
@@ -421,7 +421,7 @@
           },
           "toggle": {
             "value": {
-              "borderRadius": "{sem.toggle.base.mark.borderRadius}",
+              "borderRadius": "{sem.toggle.checkbox.borderRadius}",
               "sizing": "{sem.toggle.base.mark.sizing}",
               "fill": "{sem.colorSurface.sub}",
               "border": "none"
@@ -457,7 +457,7 @@
           },
           "toggle": {
             "value": {
-              "borderRadius": "{sem.toggle.base.mark.borderRadius}",
+              "borderRadius": "{sem.toggle.checkbox.borderRadius}",
               "sizing": "{sem.toggle.base.mark.sizing}",
               "fill": "{sem.colorSurface.primary}",
               "border": "none"
@@ -12772,6 +12772,12 @@
         "borderRadius": {
           "value": "{ref.borderRadius.200}",
           "type": "borderRadius"
+        },
+        "mark": {
+          "borderRadius": {
+            "value": "{ref.borderRadius.200}",
+            "type": "borderRadius"
+          }
         }
       },
       "radio": {

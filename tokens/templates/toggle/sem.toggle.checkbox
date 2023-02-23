@@ -1,7 +1,7 @@
 // @replacepath: tokens/comp.web.json
 
 sem
-.toggle.checkbox
+.toggle.checkbox.mark
 [
   {
     "borderRadius": {
