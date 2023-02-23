@@ -31,7 +31,7 @@ comp
       },
       "iconColor": {
         "value": {
-          "fill": "{sem.borderIcon.sm.light}"
+          "border": "{sem.borderIcon.sm.light}"
         },
         "type": "composition"
       }

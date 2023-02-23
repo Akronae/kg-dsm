@@ -230,13 +230,6 @@
               },
               "type": "composition",
               "description": "({extends: 'comp.toggle.base.default.mark.container'})"
-            },
-            "iconColor": {
-              "value": {
-                "fill": "{sem.borderIcon.sm.light}"
-              },
-              "type": "composition",
-              "description": "({extends: 'comp.toggle.base.default.mark.iconColor'})"
             }
           }
         },
@@ -251,13 +244,6 @@
               },
               "type": "composition",
               "description": "({extends: 'comp.toggle.base.hover.mark.container'})"
-            },
-            "iconColor": {
-              "value": {
-                "fill": "{sem.borderIcon.sm.light}"
-              },
-              "type": "composition",
-              "description": "({extends: 'comp.toggle.base.hover.mark.iconColor'})"
             }
           }
         },
@@ -272,13 +258,6 @@
               },
               "type": "composition",
               "description": "({extends: 'comp.toggle.base.pressed.mark.container'})"
-            },
-            "iconColor": {
-              "value": {
-                "fill": "{sem.borderIcon.sm.light}"
-              },
-              "type": "composition",
-              "description": "({extends: 'comp.toggle.base.pressed.mark.iconColor'})"
             }
           }
         },
@@ -293,13 +272,6 @@
               },
               "type": "composition",
               "description": "({extends: 'comp.toggle.base.active.mark.container'})"
-            },
-            "iconColor": {
-              "value": {
-                "fill": "{sem.borderIcon.sm.light}"
-              },
-              "type": "composition",
-              "description": "({extends: 'comp.toggle.base.active.mark.iconColor'})"
             }
           }
         },
@@ -314,13 +286,6 @@
               },
               "type": "composition",
               "description": "({extends: 'comp.toggle.base.danger.mark.container'})"
-            },
-            "iconColor": {
-              "value": {
-                "fill": "{sem.borderIcon.sm.light}"
-              },
-              "type": "composition",
-              "description": "({extends: 'comp.toggle.base.danger.mark.iconColor'})"
             }
           }
         },
@@ -335,13 +300,6 @@
               },
               "type": "composition",
               "description": "({extends: 'comp.toggle.base.disabled.mark.container'})"
-            },
-            "iconColor": {
-              "value": {
-                "fill": "{sem.borderIcon.sm.light}"
-              },
-              "type": "composition",
-              "description": "({extends: 'comp.toggle.base.disabled.mark.iconColor'})"
             }
           }
         },
@@ -356,13 +314,6 @@
               },
               "type": "composition",
               "description": "({extends: 'comp.toggle.base.forced.mark.container'})"
-            },
-            "iconColor": {
-              "value": {
-                "fill": "{sem.borderIcon.sm.light}"
-              },
-              "type": "composition",
-              "description": "({extends: 'comp.toggle.base.forced.mark.iconColor'})"
             }
           }
         },
@@ -377,13 +328,6 @@
               },
               "type": "composition",
               "description": "({extends: 'comp.toggle.base.indeterminate.mark.container'})"
-            },
-            "iconColor": {
-              "value": {
-                "fill": "{sem.borderIcon.sm.light}"
-              },
-              "type": "composition",
-              "description": "({extends: 'comp.toggle.base.indeterminate.mark.iconColor'})"
             }
           }
         }
