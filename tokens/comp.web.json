@@ -988,7 +988,6 @@
               "label": {
                 "container": {
                   "value": {
-                    "paddingTop": "{sem.toggle.card.content.rightSide.label.container.paddingTop}",
                     "itemSpacing": "{sem.toggle.card.content.rightSide.label.container.spacing}}"
                   },
                   "type": "composition"
@@ -996,7 +995,8 @@
                 "text": {
                   "value": {
                     "typography": "{sem.typography.textStyle.label.body.md}",
-                    "fill": "{sem.colorText.dark}"
+                    "fill": "{sem.colorText.dark}",
+                    "paddingTop": "{sem.toggle.card.content.rightSide.label.container.paddingTop}"
                   },
                   "type": "composition"
                 }
@@ -1057,7 +1057,6 @@
               "label": {
                 "container": {
                   "value": {
-                    "paddingTop": "{sem.toggle.card.content.rightSide.label.container.paddingTop}",
                     "itemSpacing": "{sem.toggle.card.content.rightSide.label.container.spacing}}"
                   },
                   "type": "composition"
@@ -1065,7 +1064,8 @@
                 "text": {
                   "value": {
                     "typography": "{sem.typography.textStyle.label.body.md}",
-                    "fill": "{sem.colorText.dark}"
+                    "fill": "{sem.colorText.dark}",
+                    "paddingTop": "{sem.toggle.card.content.rightSide.label.container.paddingTop}"
                   },
                   "type": "composition"
                 }
@@ -1126,7 +1126,6 @@
               "label": {
                 "container": {
                   "value": {
-                    "paddingTop": "{sem.toggle.card.content.rightSide.label.container.paddingTop}",
                     "itemSpacing": "{sem.toggle.card.content.rightSide.label.container.spacing}}"
                   },
                   "type": "composition"
@@ -1134,7 +1133,8 @@
                 "text": {
                   "value": {
                     "typography": "{sem.typography.textStyle.label.body.md}",
-                    "fill": "{sem.colorText.dark}"
+                    "fill": "{sem.colorText.dark}",
+                    "paddingTop": "{sem.toggle.card.content.rightSide.label.container.paddingTop}"
                   },
                   "type": "composition"
                 }
@@ -1195,7 +1195,6 @@
               "label": {
                 "container": {
                   "value": {
-                    "paddingTop": "{sem.toggle.card.content.rightSide.label.container.paddingTop}",
                     "itemSpacing": "{sem.toggle.card.content.rightSide.label.container.spacing}}"
                   },
                   "type": "composition"
@@ -1203,7 +1202,8 @@
                 "text": {
                   "value": {
                     "typography": "{sem.typography.textStyle.label.body.md}",
-                    "fill": "{sem.colorText.dark}"
+                    "fill": "{sem.colorText.dark}",
+                    "paddingTop": "{sem.toggle.card.content.rightSide.label.container.paddingTop}"
                   },
                   "type": "composition"
                 }
@@ -1264,7 +1264,6 @@
               "label": {
                 "container": {
                   "value": {
-                    "paddingTop": "{sem.toggle.card.content.rightSide.label.container.paddingTop}",
                     "itemSpacing": "{sem.toggle.card.content.rightSide.label.container.spacing}}"
                   },
                   "type": "composition"
@@ -1272,7 +1271,8 @@
                 "text": {
                   "value": {
                     "typography": "{sem.typography.textStyle.label.body.md}",
-                    "fill": "{sem.colorText.dark}"
+                    "fill": "{sem.colorText.dark}",
+                    "paddingTop": "{sem.toggle.card.content.rightSide.label.container.paddingTop}"
                   },
                   "type": "composition"
                 }
@@ -1333,7 +1333,6 @@
               "label": {
                 "container": {
                   "value": {
-                    "paddingTop": "{sem.toggle.card.content.rightSide.label.container.paddingTop}",
                     "itemSpacing": "{sem.toggle.card.content.rightSide.label.container.spacing}}"
                   },
                   "type": "composition"
@@ -1341,7 +1340,8 @@
                 "text": {
                   "value": {
                     "typography": "{sem.typography.textStyle.label.body.md}",
-                    "fill": "{sem.colorText.dark}"
+                    "fill": "{sem.colorText.dark}",
+                    "paddingTop": "{sem.toggle.card.content.rightSide.label.container.paddingTop}"
                   },
                   "type": "composition"
                 }
@@ -1402,7 +1402,6 @@
               "label": {
                 "container": {
                   "value": {
-                    "paddingTop": "{sem.toggle.card.content.rightSide.label.container.paddingTop}",
                     "itemSpacing": "{sem.toggle.card.content.rightSide.label.container.spacing}}"
                   },
                   "type": "composition"
@@ -1410,7 +1409,8 @@
                 "text": {
                   "value": {
                     "typography": "{sem.typography.textStyle.label.body.md}",
-                    "fill": "{sem.colorText.dark}"
+                    "fill": "{sem.colorText.dark}",
+                    "paddingTop": "{sem.toggle.card.content.rightSide.label.container.paddingTop}"
                   },
                   "type": "composition"
                 }
