@@ -197,7 +197,7 @@
         "default": {
           "container": {
             "value": {
-              "itemSpacing": "{sem.toggle.container.spacing}",
+              "itemSpacing": "{sem.toggle.container.base.spacing}",
               "fill": "none",
               "borderRadius": "{sem.toggle.container.borderRadius}"
             },
@@ -206,7 +206,7 @@
           "toggle": {
             "value": {
               "borderRadius": "{sem.toggle.base.checkbox.borderRadius}",
-              "sizing": "{sem.toggle.base.sizing}",
+              "sizing": "{sem.toggle.base.mark.sizing}",
               "fill": "{sem.colorSurface.sub}",
               "border": "{sem.borderInteractive.default}"
             },
@@ -215,9 +215,9 @@
           "text": {
             "container": {
               "value": {
-                "itemSpacing": "{sem.toggle.text.container.spacing}",
-                "paddingTop": "{sem.toggle.text.container.paddingTop}",
-                "paddingRight": "{sem.toggle.text.container.paddingRight}"
+                "itemSpacing": "{sem.toggle.base.text.container.spacing}",
+                "paddingTop": "{sem.toggle.base.text.container.paddingTop}",
+                "paddingRight": "{sem.toggle.base.text.container.paddingRight}"
               },
               "type": "composition"
             },
@@ -233,7 +233,7 @@
         "hover": {
           "container": {
             "value": {
-              "itemSpacing": "{sem.toggle.container.spacing}",
+              "itemSpacing": "{sem.toggle.container.base.spacing}",
               "fill": "{sem.colorSurface.interactive.hover}",
               "borderRadius": "{sem.toggle.container.borderRadius}"
             },
@@ -242,7 +242,7 @@
           "toggle": {
             "value": {
               "borderRadius": "{sem.toggle.base.checkbox.borderRadius}",
-              "sizing": "{sem.toggle.base.sizing}",
+              "sizing": "{sem.toggle.base.mark.sizing}",
               "fill": "{sem.colorSurface.sub}",
               "border": "{sem.borderInteractive.hover}"
             },
@@ -251,9 +251,9 @@
           "text": {
             "container": {
               "value": {
-                "itemSpacing": "{sem.toggle.text.container.spacing}",
-                "paddingTop": "{sem.toggle.text.container.paddingTop}",
-                "paddingRight": "{sem.toggle.text.container.paddingRight}"
+                "itemSpacing": "{sem.toggle.base.text.container.spacing}",
+                "paddingTop": "{sem.toggle.base.text.container.paddingTop}",
+                "paddingRight": "{sem.toggle.base.text.container.paddingRight}"
               },
               "type": "composition"
             },
@@ -269,7 +269,7 @@
         "pressed": {
           "container": {
             "value": {
-              "itemSpacing": "{sem.toggle.container.spacing}",
+              "itemSpacing": "{sem.toggle.container.base.spacing}",
               "fill": "{sem.colorSurface.interactive.pressed}",
               "borderRadius": "{sem.toggle.container.borderRadius}"
             },
@@ -278,7 +278,7 @@
           "toggle": {
             "value": {
               "borderRadius": "{sem.toggle.base.checkbox.borderRadius}",
-              "sizing": "{sem.toggle.base.sizing}",
+              "sizing": "{sem.toggle.base.mark.sizing}",
               "fill": "{sem.colorSurface.sub}",
               "border": "none"
             },
@@ -287,9 +287,9 @@
           "text": {
             "container": {
               "value": {
-                "itemSpacing": "{sem.toggle.text.container.spacing}",
-                "paddingTop": "{sem.toggle.text.container.paddingTop}",
-                "paddingRight": "{sem.toggle.text.container.paddingRight}"
+                "itemSpacing": "{sem.toggle.base.text.container.spacing}",
+                "paddingTop": "{sem.toggle.base.text.container.paddingTop}",
+                "paddingRight": "{sem.toggle.base.text.container.paddingRight}"
               },
               "type": "composition"
             },
@@ -305,7 +305,7 @@
         "active": {
           "container": {
             "value": {
-              "itemSpacing": "{sem.toggle.container.spacing}",
+              "itemSpacing": "{sem.toggle.container.base.spacing}",
               "fill": "none",
               "borderRadius": "{sem.toggle.container.borderRadius}"
             },
@@ -314,7 +314,7 @@
           "toggle": {
             "value": {
               "borderRadius": "{sem.toggle.base.checkbox.borderRadius}",
-              "sizing": "{sem.toggle.base.sizing}",
+              "sizing": "{sem.toggle.base.mark.sizing}",
               "fill": "{sem.colorSurface.primary}",
               "border": "none"
             },
@@ -323,9 +323,9 @@
           "text": {
             "container": {
               "value": {
-                "itemSpacing": "{sem.toggle.text.container.spacing}",
-                "paddingTop": "{sem.toggle.text.container.paddingTop}",
-                "paddingRight": "{sem.toggle.text.container.paddingRight}"
+                "itemSpacing": "{sem.toggle.base.text.container.spacing}",
+                "paddingTop": "{sem.toggle.base.text.container.paddingTop}",
+                "paddingRight": "{sem.toggle.base.text.container.paddingRight}"
               },
               "type": "composition"
             },
@@ -341,7 +341,7 @@
         "danger": {
           "container": {
             "value": {
-              "itemSpacing": "{sem.toggle.container.spacing}",
+              "itemSpacing": "{sem.toggle.container.base.spacing}",
               "fill": "none",
               "borderRadius": "{sem.toggle.container.borderRadius}"
             },
@@ -350,7 +350,7 @@
           "toggle": {
             "value": {
               "borderRadius": "{sem.toggle.base.checkbox.borderRadius}",
-              "sizing": "{sem.toggle.base.sizing}",
+              "sizing": "{sem.toggle.base.mark.sizing}",
               "fill": "{sem.colorSurface.sub}",
               "border": "{sem.border.danger}"
             },
@@ -359,9 +359,9 @@
           "text": {
             "container": {
               "value": {
-                "itemSpacing": "{sem.toggle.text.container.spacing}",
-                "paddingTop": "{sem.toggle.text.container.paddingTop}",
-                "paddingRight": "{sem.toggle.text.container.paddingRight}"
+                "itemSpacing": "{sem.toggle.base.text.container.spacing}",
+                "paddingTop": "{sem.toggle.base.text.container.paddingTop}",
+                "paddingRight": "{sem.toggle.base.text.container.paddingRight}"
               },
               "type": "composition"
             },
@@ -377,7 +377,7 @@
         "disabled": {
           "container": {
             "value": {
-              "itemSpacing": "{sem.toggle.container.spacing}",
+              "itemSpacing": "{sem.toggle.container.base.spacing}",
               "fill": "none",
               "borderRadius": "{sem.toggle.container.borderRadius}"
             },
@@ -386,7 +386,7 @@
           "toggle": {
             "value": {
               "borderRadius": "{sem.toggle.base.checkbox.borderRadius}",
-              "sizing": "{sem.toggle.base.sizing}",
+              "sizing": "{sem.toggle.base.mark.sizing}",
               "fill": "{sem.colorSurface.disabled}",
               "border": "{sem.borderInteractive.disabled}"
             },
@@ -395,9 +395,9 @@
           "text": {
             "container": {
               "value": {
-                "itemSpacing": "{sem.toggle.text.container.spacing}",
-                "paddingTop": "{sem.toggle.text.container.paddingTop}",
-                "paddingRight": "{sem.toggle.text.container.paddingRight}"
+                "itemSpacing": "{sem.toggle.base.text.container.spacing}",
+                "paddingTop": "{sem.toggle.base.text.container.paddingTop}",
+                "paddingRight": "{sem.toggle.base.text.container.paddingRight}"
               },
               "type": "composition"
             },
@@ -413,7 +413,7 @@
         "forced": {
           "container": {
             "value": {
-              "itemSpacing": "{sem.toggle.container.spacing}",
+              "itemSpacing": "{sem.toggle.container.base.spacing}",
               "fill": "none",
               "borderRadius": "{sem.toggle.container.borderRadius}"
             },
@@ -422,7 +422,7 @@
           "toggle": {
             "value": {
               "borderRadius": "{sem.toggle.base.checkbox.borderRadius}",
-              "sizing": "{sem.toggle.base.sizing}",
+              "sizing": "{sem.toggle.base.mark.sizing}",
               "fill": "{sem.colorSurface.sub}",
               "border": "none"
             },
@@ -431,9 +431,9 @@
           "text": {
             "container": {
               "value": {
-                "itemSpacing": "{sem.toggle.text.container.spacing}",
-                "paddingTop": "{sem.toggle.text.container.paddingTop}",
-                "paddingRight": "{sem.toggle.text.container.paddingRight}"
+                "itemSpacing": "{sem.toggle.base.text.container.spacing}",
+                "paddingTop": "{sem.toggle.base.text.container.paddingTop}",
+                "paddingRight": "{sem.toggle.base.text.container.paddingRight}"
               },
               "type": "composition"
             },
@@ -449,7 +449,7 @@
         "indeterminate": {
           "container": {
             "value": {
-              "itemSpacing": "{sem.toggle.container.spacing}",
+              "itemSpacing": "{sem.toggle.container.base.spacing}",
               "fill": "none",
               "borderRadius": "{sem.toggle.container.borderRadius}"
             },
@@ -458,7 +458,7 @@
           "toggle": {
             "value": {
               "borderRadius": "{sem.toggle.base.checkbox.borderRadius}",
-              "sizing": "{sem.toggle.base.sizing}",
+              "sizing": "{sem.toggle.base.mark.sizing}",
               "fill": "{sem.colorSurface.primary}",
               "border": "none"
             },
@@ -467,9 +467,9 @@
           "text": {
             "container": {
               "value": {
-                "itemSpacing": "{sem.toggle.text.container.spacing}",
-                "paddingTop": "{sem.toggle.text.container.paddingTop}",
-                "paddingRight": "{sem.toggle.text.container.paddingRight}"
+                "itemSpacing": "{sem.toggle.base.text.container.spacing}",
+                "paddingTop": "{sem.toggle.base.text.container.paddingTop}",
+                "paddingRight": "{sem.toggle.base.text.container.paddingRight}"
               },
               "type": "composition"
             },

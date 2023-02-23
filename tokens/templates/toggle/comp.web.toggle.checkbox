@@ -8,7 +8,7 @@ comp
   {
     "container": {
       "value": {
-        "itemSpacing": "{sem.toggle.container.spacing}",
+        "itemSpacing": "{sem.toggle.container.base.spacing}",
         "fill": "<< ({hover: '{sem.colorSurface.interactive.hover}',pressed: '{sem.colorSurface.interactive.pressed}'})[state] || 'none'>>",
         "borderRadius": "{sem.toggle.container.borderRadius}"
       },
@@ -17,7 +17,7 @@ comp
     "toggle": {
       "value": {
         "borderRadius": "{sem.toggle.base.checkbox.borderRadius}",
-        "sizing": "{sem.toggle.base.sizing}",
+        "sizing": "{sem.toggle.base.mark.sizing}",
         "fill": "{sem.colorSurface.<< ({ active: 'primary', indeterminate: 'primary', force: 'dark', disabled: 'disabled'})[state] || 'sub' >>}",
         "border": "<< ({ default: '{sem.borderInteractive.default}', hover: '{sem.borderInteractive.hover}', danger: '{sem.border.danger}', disabled: '{sem.borderInteractive.disabled}' })[state] || 'none' >>"
       },
@@ -26,9 +26,9 @@ comp
     "text": {
       "container": {
         "value": {
-          "itemSpacing": "{sem.toggle.text.container.spacing}",
-          "paddingTop": "{sem.toggle.text.container.paddingTop}",
-          "paddingRight": "{sem.toggle.text.container.paddingRight}"
+          "itemSpacing": "{sem.toggle.base.text.container.spacing}",
+          "paddingTop": "{sem.toggle.base.text.container.paddingTop}",
+          "paddingRight": "{sem.toggle.base.text.container.paddingRight}"
         },
         "type": "composition"
       },
