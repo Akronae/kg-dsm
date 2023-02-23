@@ -170,7 +170,7 @@
             },
             "iconColor": {
               "value": {
-                "fill": "{sem.borderIcon.sm.light}"
+                "fill": "{sem.colorIcon.light}"
               },
               "type": "composition",
               "description": "({extends: 'comp.toggle.base.default.mark.iconColor'})"
@@ -234,7 +234,7 @@
             },
             "iconColor": {
               "value": {
-                "fill": "{sem.borderIcon.sm.light}"
+                "fill": "{sem.colorIcon.light}"
               },
               "type": "composition",
               "description": "({extends: 'comp.toggle.base.hover.mark.iconColor'})"
@@ -298,7 +298,7 @@
             },
             "iconColor": {
               "value": {
-                "fill": "{sem.borderIcon.sm.light}"
+                "fill": "{sem.colorIcon.light}"
               },
               "type": "composition",
               "description": "({extends: 'comp.toggle.base.pressed.mark.iconColor'})"
@@ -362,7 +362,7 @@
             },
             "iconColor": {
               "value": {
-                "fill": "{sem.borderIcon.sm.light}"
+                "fill": "{sem.colorIcon.light}"
               },
               "type": "composition",
               "description": "({extends: 'comp.toggle.base.active.mark.iconColor'})"
@@ -426,7 +426,7 @@
             },
             "iconColor": {
               "value": {
-                "fill": "{sem.borderIcon.sm.light}"
+                "fill": "{sem.colorIcon.light}"
               },
               "type": "composition",
               "description": "({extends: 'comp.toggle.base.danger.mark.iconColor'})"
@@ -490,7 +490,7 @@
             },
             "iconColor": {
               "value": {
-                "fill": "{sem.borderIcon.sm.light}"
+                "fill": "{sem.colorIcon.light}"
               },
               "type": "composition",
               "description": "({extends: 'comp.toggle.base.disabled.mark.iconColor'})"
@@ -554,7 +554,7 @@
             },
             "iconColor": {
               "value": {
-                "fill": "{sem.borderIcon.sm.light}"
+                "fill": "{sem.colorIcon.light}"
               },
               "type": "composition",
               "description": "({extends: 'comp.toggle.base.forced.mark.iconColor'})"

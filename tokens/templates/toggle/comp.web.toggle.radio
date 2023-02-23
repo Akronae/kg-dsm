@@ -25,7 +25,9 @@ comp
         "description": "({extends: 'comp.toggle.base.<<state>>.mark.iconSize'})"
       },
       "iconColor": {
-        "value": {},
+        "value": {
+          "fill": "{sem.colorIcon.light}"
+        },
         "type": "composition",
         "description": "({extends: 'comp.toggle.base.<<state>>.mark.iconColor'})"
       }
