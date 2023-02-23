@@ -163,12 +163,10 @@
             },
             "iconSize": {
               "value": {
-                "sizing": "{sem.toggle.base.mark.containerSize}",
-                "fill": "{sem.colorSurface.sub}",
-                "border": "{sem.borderInteractive.default}"
+                "sizing": "{sem.toggle.base.mark.iconSize}"
               },
               "type": "composition",
-              "description": "({extends: 'comp.toggle.base.default.mark.container'})"
+              "description": "({extends: 'comp.toggle.base.default.mark.iconSize'})"
             },
             "iconColor": {
               "value": {
@@ -229,12 +227,10 @@
             },
             "iconSize": {
               "value": {
-                "sizing": "{sem.toggle.base.mark.containerSize}",
-                "fill": "{sem.colorSurface.sub}",
-                "border": "{sem.borderInteractive.hover}"
+                "sizing": "{sem.toggle.base.mark.iconSize}"
               },
               "type": "composition",
-              "description": "({extends: 'comp.toggle.base.hover.mark.container'})"
+              "description": "({extends: 'comp.toggle.base.hover.mark.iconSize'})"
             },
             "iconColor": {
               "value": {
@@ -295,12 +291,10 @@
             },
             "iconSize": {
               "value": {
-                "sizing": "{sem.toggle.base.mark.containerSize}",
-                "fill": "{sem.colorSurface.sub}",
-                "border": "none"
+                "sizing": "{sem.toggle.base.mark.iconSize}"
               },
               "type": "composition",
-              "description": "({extends: 'comp.toggle.base.pressed.mark.container'})"
+              "description": "({extends: 'comp.toggle.base.pressed.mark.iconSize'})"
             },
             "iconColor": {
               "value": {
@@ -361,12 +355,10 @@
             },
             "iconSize": {
               "value": {
-                "sizing": "{sem.toggle.base.mark.containerSize}",
-                "fill": "{sem.colorSurface.primary}",
-                "border": "none"
+                "sizing": "{sem.toggle.base.mark.iconSize}"
               },
               "type": "composition",
-              "description": "({extends: 'comp.toggle.base.active.mark.container'})"
+              "description": "({extends: 'comp.toggle.base.active.mark.iconSize'})"
             },
             "iconColor": {
               "value": {
@@ -427,12 +419,10 @@
             },
             "iconSize": {
               "value": {
-                "sizing": "{sem.toggle.base.mark.containerSize}",
-                "fill": "{sem.colorSurface.sub}",
-                "border": "{sem.border.danger}"
+                "sizing": "{sem.toggle.base.mark.iconSize}"
               },
               "type": "composition",
-              "description": "({extends: 'comp.toggle.base.danger.mark.container'})"
+              "description": "({extends: 'comp.toggle.base.danger.mark.iconSize'})"
             },
             "iconColor": {
               "value": {
@@ -493,12 +483,10 @@
             },
             "iconSize": {
               "value": {
-                "sizing": "{sem.toggle.base.mark.containerSize}",
-                "fill": "{sem.colorSurface.disabled}",
-                "border": "{sem.borderInteractive.disabled}"
+                "sizing": "{sem.toggle.base.mark.iconSize}"
               },
               "type": "composition",
-              "description": "({extends: 'comp.toggle.base.disabled.mark.container'})"
+              "description": "({extends: 'comp.toggle.base.disabled.mark.iconSize'})"
             },
             "iconColor": {
               "value": {
@@ -550,7 +538,7 @@
             "container": {
               "value": {
                 "sizing": "{sem.toggle.base.mark.containerSize}",
-                "fill": "{sem.colorSurface.sub}",
+                "fill": "{sem.colorSurface.dark}",
                 "border": "none",
                 "borderRadius": "{sem.toggle.radio.mark.borderRadius}"
               },
@@ -559,12 +547,10 @@
             },
             "iconSize": {
               "value": {
-                "sizing": "{sem.toggle.base.mark.containerSize}",
-                "fill": "{sem.colorSurface.sub}",
-                "border": "none"
+                "sizing": "{sem.toggle.base.mark.iconSize}"
               },
               "type": "composition",
-              "description": "({extends: 'comp.toggle.base.forced.mark.container'})"
+              "description": "({extends: 'comp.toggle.base.forced.mark.iconSize'})"
             },
             "iconColor": {
               "value": {
@@ -599,72 +585,6 @@
               },
               "type": "composition",
               "description": "({extends: 'comp.toggle.base.forced.text.description'})"
-            }
-          }
-        },
-        "indeterminate": {
-          "container": {
-            "value": {
-              "itemSpacing": "{sem.toggle.base.container.spacing}",
-              "fill": "none",
-              "borderRadius": "{sem.toggle.base.container.borderRadius}"
-            },
-            "type": "composition",
-            "description": "({extends: 'comp.toggle.base.indeterminate.container'})"
-          },
-          "mark": {
-            "container": {
-              "value": {
-                "sizing": "{sem.toggle.base.mark.containerSize}",
-                "fill": "{sem.colorSurface.primary}",
-                "border": "none",
-                "borderRadius": "{sem.toggle.radio.mark.borderRadius}"
-              },
-              "type": "composition",
-              "description": "({extends: 'comp.toggle.base.indeterminate.mark.container'})"
-            },
-            "iconSize": {
-              "value": {
-                "sizing": "{sem.toggle.base.mark.containerSize}",
-                "fill": "{sem.colorSurface.primary}",
-                "border": "none"
-              },
-              "type": "composition",
-              "description": "({extends: 'comp.toggle.base.indeterminate.mark.container'})"
-            },
-            "iconColor": {
-              "value": {
-                "fill": "{sem.borderIcon.sm.light}"
-              },
-              "type": "composition",
-              "description": "({extends: 'comp.toggle.base.indeterminate.mark.iconColor'})"
-            }
-          },
-          "text": {
-            "container": {
-              "value": {
-                "itemSpacing": "{sem.toggle.base.text.container.spacing}",
-                "paddingTop": "{sem.toggle.base.text.container.paddingTop}",
-                "paddingRight": "{sem.toggle.base.text.container.paddingRight}"
-              },
-              "type": "composition",
-              "description": "({extends: 'comp.toggle.base.indeterminate.text.container'})"
-            },
-            "label": {
-              "value": {
-                "typography": "{sem.typography.textStyle.label.body.md}",
-                "fill": "{sem.colorText.dark}"
-              },
-              "type": "composition",
-              "description": "({extends: 'comp.toggle.base.indeterminate.text.label'})"
-            },
-            "description": {
-              "value": {
-                "typography": "{sem.typography.textStyle.paragraph.md.default}",
-                "fill": "{sem.colorText.default}"
-              },
-              "type": "composition",
-              "description": "({extends: 'comp.toggle.base.indeterminate.text.description'})"
             }
           }
         }
@@ -1080,7 +1000,7 @@
             "container": {
               "value": {
                 "sizing": "{sem.toggle.base.mark.containerSize}",
-                "fill": "{sem.colorSurface.sub}",
+                "fill": "{sem.colorSurface.dark}",
                 "border": "none",
                 "borderRadius": "{sem.toggle.checkbox.mark.borderRadius}"
               },
@@ -1090,7 +1010,7 @@
             "iconSize": {
               "value": {
                 "sizing": "{sem.toggle.base.mark.containerSize}",
-                "fill": "{sem.colorSurface.sub}",
+                "fill": "{sem.colorSurface.dark}",
                 "border": "none"
               },
               "type": "composition",
@@ -1638,7 +1558,7 @@
             "container": {
               "value": {
                 "sizing": "{sem.toggle.base.mark.containerSize}",
-                "fill": "{sem.colorSurface.sub}",
+                "fill": "{sem.colorSurface.dark}",
                 "border": "none"
               },
               "type": "composition"

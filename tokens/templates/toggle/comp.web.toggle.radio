@@ -3,7 +3,7 @@
 comp
 .toggle
 .radio
-[state: 'default' | 'hover' | 'pressed' | 'active' | 'danger' | 'disabled' | 'forced' | 'indeterminate']
+[state: 'default' | 'hover' | 'pressed' | 'active' | 'danger' | 'disabled' | 'forced' ]
 [
   {
     "container": {
@@ -22,7 +22,7 @@ comp
       "iconSize": {
         "value": {},
         "type": "composition",
-        "description": "({extends: 'comp.toggle.base.<<state>>.mark.container'})"
+        "description": "({extends: 'comp.toggle.base.<<state>>.mark.iconSize'})"
       },
       "iconColor": {
         "value": {},
