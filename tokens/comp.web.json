@@ -538,7 +538,7 @@
             "container": {
               "value": {
                 "sizing": "{sem.toggle.base.mark.containerSize}",
-                "fill": "{sem.colorSurface.dark}",
+                "fill": "{sem.colorSurface.black}",
                 "border": "none",
                 "borderRadius": "{sem.toggle.radio.mark.borderRadius}"
               },
@@ -1000,7 +1000,7 @@
             "container": {
               "value": {
                 "sizing": "{sem.toggle.base.mark.containerSize}",
-                "fill": "{sem.colorSurface.dark}",
+                "fill": "{sem.colorSurface.black}",
                 "border": "none",
                 "borderRadius": "{sem.toggle.checkbox.mark.borderRadius}"
               },
@@ -1010,7 +1010,7 @@
             "iconSize": {
               "value": {
                 "sizing": "{sem.toggle.base.mark.containerSize}",
-                "fill": "{sem.colorSurface.dark}",
+                "fill": "{sem.colorSurface.black}",
                 "border": "none"
               },
               "type": "composition",
@@ -1558,7 +1558,7 @@
             "container": {
               "value": {
                 "sizing": "{sem.toggle.base.mark.containerSize}",
-                "fill": "{sem.colorSurface.dark}",
+                "fill": "{sem.colorSurface.black}",
                 "border": "none"
               },
               "type": "composition"
