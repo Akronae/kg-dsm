@@ -203,7 +203,7 @@
             },
             "type": "composition"
           },
-          "toggle": {
+          "mark": {
             "value": {
               "borderRadius": "{sem.toggle.checkbox.borderRadius}",
               "sizing": "{sem.toggle.base.mark.sizing}",
@@ -239,7 +239,7 @@
             },
             "type": "composition"
           },
-          "toggle": {
+          "mark": {
             "value": {
               "borderRadius": "{sem.toggle.checkbox.borderRadius}",
               "sizing": "{sem.toggle.base.mark.sizing}",
@@ -275,7 +275,7 @@
             },
             "type": "composition"
           },
-          "toggle": {
+          "mark": {
             "value": {
               "borderRadius": "{sem.toggle.checkbox.borderRadius}",
               "sizing": "{sem.toggle.base.mark.sizing}",
@@ -311,7 +311,7 @@
             },
             "type": "composition"
           },
-          "toggle": {
+          "mark": {
             "value": {
               "borderRadius": "{sem.toggle.checkbox.borderRadius}",
               "sizing": "{sem.toggle.base.mark.sizing}",
@@ -347,7 +347,7 @@
             },
             "type": "composition"
           },
-          "toggle": {
+          "mark": {
             "value": {
               "borderRadius": "{sem.toggle.checkbox.borderRadius}",
               "sizing": "{sem.toggle.base.mark.sizing}",
@@ -383,7 +383,7 @@
             },
             "type": "composition"
           },
-          "toggle": {
+          "mark": {
             "value": {
               "borderRadius": "{sem.toggle.checkbox.borderRadius}",
               "sizing": "{sem.toggle.base.mark.sizing}",
@@ -419,7 +419,7 @@
             },
             "type": "composition"
           },
-          "toggle": {
+          "mark": {
             "value": {
               "borderRadius": "{sem.toggle.checkbox.borderRadius}",
               "sizing": "{sem.toggle.base.mark.sizing}",
@@ -455,7 +455,7 @@
             },
             "type": "composition"
           },
-          "toggle": {
+          "mark": {
             "value": {
               "borderRadius": "{sem.toggle.checkbox.borderRadius}",
               "sizing": "{sem.toggle.base.mark.sizing}",
