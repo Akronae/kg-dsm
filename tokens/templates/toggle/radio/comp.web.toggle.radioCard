@@ -10,6 +10,6 @@ comp
       "value": {},
       "type": "composition",
       "description": "({extends: 'comp.toggle.base.<<state>>.container'})"
-    },
+    }
   }
 ]
