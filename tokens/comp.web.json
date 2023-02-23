@@ -197,9 +197,9 @@
         "default": {
           "container": {
             "value": {
-              "itemSpacing": "{sem.toggle.container.base.spacing}",
+              "itemSpacing": "{sem.toggle.base.container.spacing}",
               "fill": "none",
-              "borderRadius": "{sem.toggle.container.borderRadius}"
+              "borderRadius": "{sem.toggle.base.container.borderRadius}"
             },
             "type": "composition"
           },
@@ -233,9 +233,9 @@
         "hover": {
           "container": {
             "value": {
-              "itemSpacing": "{sem.toggle.container.base.spacing}",
+              "itemSpacing": "{sem.toggle.base.container.spacing}",
               "fill": "{sem.colorSurface.interactive.hover}",
-              "borderRadius": "{sem.toggle.container.borderRadius}"
+              "borderRadius": "{sem.toggle.base.container.borderRadius}"
             },
             "type": "composition"
           },
@@ -269,9 +269,9 @@
         "pressed": {
           "container": {
             "value": {
-              "itemSpacing": "{sem.toggle.container.base.spacing}",
+              "itemSpacing": "{sem.toggle.base.container.spacing}",
               "fill": "{sem.colorSurface.interactive.pressed}",
-              "borderRadius": "{sem.toggle.container.borderRadius}"
+              "borderRadius": "{sem.toggle.base.container.borderRadius}"
             },
             "type": "composition"
           },
@@ -305,9 +305,9 @@
         "active": {
           "container": {
             "value": {
-              "itemSpacing": "{sem.toggle.container.base.spacing}",
+              "itemSpacing": "{sem.toggle.base.container.spacing}",
               "fill": "none",
-              "borderRadius": "{sem.toggle.container.borderRadius}"
+              "borderRadius": "{sem.toggle.base.container.borderRadius}"
             },
             "type": "composition"
           },
@@ -341,9 +341,9 @@
         "danger": {
           "container": {
             "value": {
-              "itemSpacing": "{sem.toggle.container.base.spacing}",
+              "itemSpacing": "{sem.toggle.base.container.spacing}",
               "fill": "none",
-              "borderRadius": "{sem.toggle.container.borderRadius}"
+              "borderRadius": "{sem.toggle.base.container.borderRadius}"
             },
             "type": "composition"
           },
@@ -377,9 +377,9 @@
         "disabled": {
           "container": {
             "value": {
-              "itemSpacing": "{sem.toggle.container.base.spacing}",
+              "itemSpacing": "{sem.toggle.base.container.spacing}",
               "fill": "none",
-              "borderRadius": "{sem.toggle.container.borderRadius}"
+              "borderRadius": "{sem.toggle.base.container.borderRadius}"
             },
             "type": "composition"
           },
@@ -413,9 +413,9 @@
         "forced": {
           "container": {
             "value": {
-              "itemSpacing": "{sem.toggle.container.base.spacing}",
+              "itemSpacing": "{sem.toggle.base.container.spacing}",
               "fill": "none",
-              "borderRadius": "{sem.toggle.container.borderRadius}"
+              "borderRadius": "{sem.toggle.base.container.borderRadius}"
             },
             "type": "composition"
           },
@@ -449,9 +449,9 @@
         "indeterminate": {
           "container": {
             "value": {
-              "itemSpacing": "{sem.toggle.container.base.spacing}",
+              "itemSpacing": "{sem.toggle.base.container.spacing}",
               "fill": "none",
-              "borderRadius": "{sem.toggle.container.borderRadius}"
+              "borderRadius": "{sem.toggle.base.container.borderRadius}"
             },
             "type": "composition"
           },
