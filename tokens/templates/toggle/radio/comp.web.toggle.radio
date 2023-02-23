@@ -15,11 +15,11 @@ comp
         "description": "({extends: 'comp.toggle.base.<<state>>.mark.container'})"
       },
       "iconColor": {
-      "value": {
-        "fill": "{sem.borderIcon.sm.light}"
-      },
-      "type": "composition",
-      "description": "({extends: 'comp.toggle.base.<<state>>.mark.iconColor'})"
+        "value": {
+          "fill": "{sem.borderIcon.sm.light}"
+        },
+        "type": "composition",
+        "description": "({extends: 'comp.toggle.base.<<state>>.mark.iconColor'})"
       }
     }
   }
