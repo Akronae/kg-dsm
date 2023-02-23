@@ -988,8 +988,8 @@
               "label": {
                 "container": {
                   "value": {
-                    "paddingTop": "{sem.toggle.card.content.label.container.paddingTop}",
-                    "itemSpacing": "{sem.toggle.card.content.label.container.spacing}}"
+                    "paddingTop": "{sem.toggle.card.content.label.rightSide.container.paddingTop}",
+                    "itemSpacing": "{sem.toggle.card.content.label.rightSide.container.spacing}}"
                   },
                   "type": "composition"
                 },
@@ -1057,8 +1057,8 @@
               "label": {
                 "container": {
                   "value": {
-                    "paddingTop": "{sem.toggle.card.content.label.container.paddingTop}",
-                    "itemSpacing": "{sem.toggle.card.content.label.container.spacing}}"
+                    "paddingTop": "{sem.toggle.card.content.label.rightSide.container.paddingTop}",
+                    "itemSpacing": "{sem.toggle.card.content.label.rightSide.container.spacing}}"
                   },
                   "type": "composition"
                 },
@@ -1126,8 +1126,8 @@
               "label": {
                 "container": {
                   "value": {
-                    "paddingTop": "{sem.toggle.card.content.label.container.paddingTop}",
-                    "itemSpacing": "{sem.toggle.card.content.label.container.spacing}}"
+                    "paddingTop": "{sem.toggle.card.content.label.rightSide.container.paddingTop}",
+                    "itemSpacing": "{sem.toggle.card.content.label.rightSide.container.spacing}}"
                   },
                   "type": "composition"
                 },
@@ -1195,8 +1195,8 @@
               "label": {
                 "container": {
                   "value": {
-                    "paddingTop": "{sem.toggle.card.content.label.container.paddingTop}",
-                    "itemSpacing": "{sem.toggle.card.content.label.container.spacing}}"
+                    "paddingTop": "{sem.toggle.card.content.label.rightSide.container.paddingTop}",
+                    "itemSpacing": "{sem.toggle.card.content.label.rightSide.container.spacing}}"
                   },
                   "type": "composition"
                 },
@@ -1264,8 +1264,8 @@
               "label": {
                 "container": {
                   "value": {
-                    "paddingTop": "{sem.toggle.card.content.label.container.paddingTop}",
-                    "itemSpacing": "{sem.toggle.card.content.label.container.spacing}}"
+                    "paddingTop": "{sem.toggle.card.content.label.rightSide.container.paddingTop}",
+                    "itemSpacing": "{sem.toggle.card.content.label.rightSide.container.spacing}}"
                   },
                   "type": "composition"
                 },
@@ -1333,8 +1333,8 @@
               "label": {
                 "container": {
                   "value": {
-                    "paddingTop": "{sem.toggle.card.content.label.container.paddingTop}",
-                    "itemSpacing": "{sem.toggle.card.content.label.container.spacing}}"
+                    "paddingTop": "{sem.toggle.card.content.label.rightSide.container.paddingTop}",
+                    "itemSpacing": "{sem.toggle.card.content.label.rightSide.container.spacing}}"
                   },
                   "type": "composition"
                 },
@@ -1402,8 +1402,8 @@
               "label": {
                 "container": {
                   "value": {
-                    "paddingTop": "{sem.toggle.card.content.label.container.paddingTop}",
-                    "itemSpacing": "{sem.toggle.card.content.label.container.spacing}}"
+                    "paddingTop": "{sem.toggle.card.content.label.rightSide.container.paddingTop}",
+                    "itemSpacing": "{sem.toggle.card.content.label.rightSide.container.spacing}}"
                   },
                   "type": "composition"
                 },
@@ -13671,7 +13671,7 @@
                   "value": "{ref.spacing.50}",
                   "type": "spacing"
                 },
-                "itemSpacing": {
+                "spacing": {
                   "value": "{ref.spacing.100}",
                   "type": "spacing"
                 }
