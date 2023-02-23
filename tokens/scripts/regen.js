@@ -30,7 +30,7 @@ function regen(templatepath) {
   templateProc.generate(templatepath, { silent: true });
   utils.log("✨ regenerated", utils.yellow(jsonPath));
 
-  extend.extend(replacePath);
+  //extend.extend(replacePath);
 }
 
 if (require.main == module) {
