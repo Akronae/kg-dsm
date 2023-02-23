@@ -16,7 +16,7 @@ comp
     },
     "toggle": {
       "value": {
-        "borderRadius": "{sem.toggle.base.checkbox.borderRadius}",
+        "borderRadius": "{sem.toggle.base.mark.borderRadius}",
         "sizing": "{sem.toggle.base.mark.sizing}",
         "fill": "{sem.colorSurface.<< ({ active: 'primary', indeterminate: 'primary', force: 'dark', disabled: 'disabled'})[state] || 'sub' >>}",
         "border": "<< ({ default: '{sem.borderInteractive.default}', hover: '{sem.borderInteractive.hover}', danger: '{sem.border.danger}', disabled: '{sem.borderInteractive.disabled}' })[state] || 'none' >>"

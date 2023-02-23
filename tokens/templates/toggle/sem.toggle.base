@@ -5,7 +5,7 @@ sem
 [
   {
     "container": {
-      "spacer": {
+      "spacing": {
         "value": "{ref.spacing.100}",
         "type": "spacing"
       },
