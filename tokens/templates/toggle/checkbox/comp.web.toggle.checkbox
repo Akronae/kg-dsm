@@ -13,6 +13,11 @@ comp
         },
         "type": "composition",
         "description": "({extends: 'comp.toggle.base.<<state>>.mark.container'})"
+      },
+      "iconColor": {
+        "value": {},
+        "type": "composition",
+        "description": "({extends: 'comp.toggle.base.<<state>>.mark.iconColor'})"
       }
     }
   }
