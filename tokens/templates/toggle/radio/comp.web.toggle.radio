@@ -6,11 +6,6 @@ comp
 [state: 'default' | 'hover' | 'pressed' | 'active' | 'danger' | 'disabled' | 'forced' ]
 [
   {
-    "container": {
-      "value": {},
-      "type": "composition",
-      "description": "({extends: 'comp.toggle.base.<<state>>.container'})"
-    },
     "mark": {
       "container": {
         "value": {
@@ -18,35 +13,6 @@ comp
         },
         "type": "composition",
         "description": "({extends: 'comp.toggle.base.<<state>>.mark.container'})"
-      },
-      "iconSize": {
-        "value": {},
-        "type": "composition",
-        "description": "({extends: 'comp.toggle.base.<<state>>.mark.iconSize'})"
-      },
-      "iconColor": {
-        "value": {
-          "fill": "{sem.colorIcon.light}"
-        },
-        "type": "composition",
-        "description": "({extends: 'comp.toggle.base.<<state>>.mark.iconColor'})"
-      }
-    },
-    "text": {
-      "container": {
-        "value": {},
-        "type": "composition",
-        "description": "({extends: 'comp.toggle.base.<<state>>.text.container'})"
-      },
-      "label": {
-        "value": {},
-        "type": "composition",
-        "description": "({extends: 'comp.toggle.base.<<state>>.text.label'})"
-      },
-      "description": {
-        "value": {},
-        "type": "composition",
-        "description": "({extends: 'comp.toggle.base.<<state>>.text.description'})"
       }
     }
   }
