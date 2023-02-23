@@ -7,10 +7,6 @@ sem
     "borderRadius": {
       "value": "{ref.borderRadius.9999}",
       "type": "borderRadius"
-    },
-    "sizing": {
-      "value": "{sem.toggle.checkbox.sizing}",
-      "type": "sizing"
     }
   }
 ]

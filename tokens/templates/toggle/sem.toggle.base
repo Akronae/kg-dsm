@@ -14,11 +14,7 @@ sem
         "type": "borderRadius"
       }
     },
-    "checkbox": {
-      "borderRadius": {
-        "value": "{ref.borderRadius.200}",
-        "type": "borderRadius"
-      },
+    "mark": {
       "sizing": {
         "value": "{ref.sizing.200}",
         "type": "sizing"

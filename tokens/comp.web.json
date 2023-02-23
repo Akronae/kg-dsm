@@ -12745,11 +12745,7 @@
             "type": "borderRadius"
           }
         },
-        "checkbox": {
-          "borderRadius": {
-            "value": "{ref.borderRadius.200}",
-            "type": "borderRadius"
-          },
+        "mark": {
           "sizing": {
             "value": "{ref.sizing.200}",
             "type": "sizing"
@@ -12776,20 +12772,12 @@
         "borderRadius": {
           "value": "{ref.borderRadius.200}",
           "type": "borderRadius"
-        },
-        "sizing": {
-          "value": "{ref.sizing.200}",
-          "type": "sizing"
         }
       },
       "radio": {
         "borderRadius": {
           "value": "{ref.borderRadius.9999}",
           "type": "borderRadius"
-        },
-        "sizing": {
-          "value": "{sem.toggle.checkbox.sizing}",
-          "type": "sizing"
         }
       }
     }

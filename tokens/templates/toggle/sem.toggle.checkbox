@@ -7,10 +7,6 @@ sem
     "borderRadius": {
       "value": "{ref.borderRadius.200}",
       "type": "borderRadius"
-    },
-    "sizing": {
-      "value": "{ref.sizing.200}",
-      "type": "sizing"
     }
   }
 ]
