@@ -37,7 +37,7 @@ comp
         "label": {
           "container": {
             "value": {
-              "paddingTop": "{sem.toggle.card.<<size>>.content.rightSide.top.label.container.paddingTop}"
+              "paddingTop": "{sem.toggle.card.<<size>>.content.rightSide.top.container.label.paddingTop}"
             },
             "type": "composition"
           },
@@ -51,7 +51,7 @@ comp
         },
         "container": {
           "value": {
-            "itemSpacing": "{sem.toggle.card.<<size>>.content.rightSide.label.container.spacing}}"
+            "itemSpacing": "{sem.toggle.card.<<size>>.content.rightSide.top.container.spacing}}"
           },
           "type": "composition"
         }
