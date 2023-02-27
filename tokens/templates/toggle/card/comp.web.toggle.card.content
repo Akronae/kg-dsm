@@ -26,43 +26,43 @@ comp
           "type": "composition"
         }
       },
-      "rightSide": {
-        "container": {
-          "value": {
-            "itemSpacing": "{sem.toggle.card.<<size>>.content.rightSide.spacing}"
-          },
-          "type": "composition"
+    "rightSide": {
+      "container": {
+        "value": {
+          "itemSpacing": "{sem.toggle.card.<<size>>.content.rightSide.spacing}"
         },
-        "top": {
-          "label": {
-            "container": {
-              "value": {
-                "paddingTop": "{sem.toggle.card.<<size>>.content.rightSide.label.container.paddingTop}"
-              },
-              "type": "composition"
-            },
-            "text": {
-              "value": {
-                "typography": "{sem.typography.textStyle.label.body.md}",
-                "fill": "{sem.colorText.dark}"
-              },
-              "type": "composition"
-            }
-          },
+        "type": "composition"
+      },
+      "top": {
+        "label": {
           "container": {
             "value": {
-              "itemSpacing": "{sem.toggle.card.<<size>>.content.rightSide.label.container.spacing}}"
+              "paddingTop": "{sem.toggle.card.<<size>>.content.rightSide.top.label.container.paddingTop}"
+            },
+            "type": "composition"
+          },
+          "text": {
+            "value": {
+              "typography": "{sem.typography.textStyle.label.body.md}",
+              "fill": "{sem.colorText.dark}"
             },
             "type": "composition"
           }
         },
-        "description": {
+        "container": {
           "value": {
-            "typography": "{sem.typography.textStyle.paragraph.sm.default}",
-            "fill": "{sem.colorText.default}"
+            "itemSpacing": "{sem.toggle.card.<<size>>.content.rightSide.label.container.spacing}}"
           },
           "type": "composition"
         }
+      },
+      "description": {
+        "value": {
+          "typography": "{sem.typography.textStyle.paragraph.sm.default}",
+          "fill": "{sem.colorText.default}"
+        },
+        "type": "composition"
       }
+    }
   }
 ]
