@@ -1087,7 +1087,7 @@
                 "label": {
                   "container": {
                     "value": {
-                      "paddingTop": "{sem.toggle.card.sm.content.rightSide.label.container.paddingTop}"
+                      "paddingTop": "{sem.toggle.card.sm.content.rightSide.top.label.container.paddingTop}"
                     },
                     "type": "composition"
                   },
@@ -1147,7 +1147,7 @@
                 "label": {
                   "container": {
                     "value": {
-                      "paddingTop": "{sem.toggle.card.md.content.rightSide.label.container.paddingTop}"
+                      "paddingTop": "{sem.toggle.card.md.content.rightSide.top.label.container.paddingTop}"
                     },
                     "type": "composition"
                   },
@@ -1207,7 +1207,7 @@
                 "label": {
                   "container": {
                     "value": {
-                      "paddingTop": "{sem.toggle.card.lg.content.rightSide.label.container.paddingTop}"
+                      "paddingTop": "{sem.toggle.card.lg.content.rightSide.top.label.container.paddingTop}"
                     },
                     "type": "composition"
                   },
