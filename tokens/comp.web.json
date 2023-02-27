@@ -956,66 +956,6 @@
             },
             "type": "composition",
             "description": "({extends: 'comp.card.md.uncontrasted.default'})"
-          },
-          "content": {
-            "spacing": {
-              "value": {
-                "itemSpacing": "{sem.toggle.card.content.spacing}"
-              },
-              "type": "composition"
-            },
-            "icon": {
-              "iconSize": {
-                "value": {
-                  "size": "{sem.toggle.card.content.iconSize}"
-                },
-                "type": "composition"
-              },
-              "iconColor": {
-                "value": {
-                  "border": "{sem.borderIcon.sm.dark}"
-                },
-                "type": "composition"
-              }
-            },
-            "rightSide": {
-              "spacing": {
-                "value": {
-                  "itemSpacing": "{sem.toggle.card.content.rightSide.spacing}"
-                },
-                "type": "composition"
-              },
-              "top": {
-                "label": {
-                  "PaddingTop": {
-                    "value": {
-                      "paddingTop": "{sem.toggle.card.content.rightSide.label.container.paddingTop}"
-                    },
-                    "type": "spacing"
-                  },
-                  "text": {
-                    "value": {
-                      "typography": "{sem.typography.textStyle.label.body.md}",
-                      "fill": "{sem.colorText.dark}"
-                    },
-                    "type": "composition"
-                  }
-                },
-                "spacing": {
-                  "value": {
-                    "itemSpacing": "{sem.toggle.card.content.rightSide.label.container.spacing}}"
-                  },
-                  "type": "composition"
-                }
-              },
-              "description": {
-                "value": {
-                  "typography": "{sem.typography.textStyle.paragraph.sm.default}",
-                  "fill": "{sem.colorText.default}"
-                },
-                "type": "composition"
-              }
-            }
           }
         },
         "hover": {
@@ -1032,66 +972,6 @@
             },
             "type": "composition",
             "description": "({extends: 'comp.card.md.uncontrasted.hover'})"
-          },
-          "content": {
-            "spacing": {
-              "value": {
-                "itemSpacing": "{sem.toggle.card.content.spacing}"
-              },
-              "type": "composition"
-            },
-            "icon": {
-              "iconSize": {
-                "value": {
-                  "size": "{sem.toggle.card.content.iconSize}"
-                },
-                "type": "composition"
-              },
-              "iconColor": {
-                "value": {
-                  "border": "{sem.borderIcon.sm.dark}"
-                },
-                "type": "composition"
-              }
-            },
-            "rightSide": {
-              "spacing": {
-                "value": {
-                  "itemSpacing": "{sem.toggle.card.content.rightSide.spacing}"
-                },
-                "type": "composition"
-              },
-              "top": {
-                "label": {
-                  "PaddingTop": {
-                    "value": {
-                      "paddingTop": "{sem.toggle.card.content.rightSide.label.container.paddingTop}"
-                    },
-                    "type": "spacing"
-                  },
-                  "text": {
-                    "value": {
-                      "typography": "{sem.typography.textStyle.label.body.md}",
-                      "fill": "{sem.colorText.dark}"
-                    },
-                    "type": "composition"
-                  }
-                },
-                "spacing": {
-                  "value": {
-                    "itemSpacing": "{sem.toggle.card.content.rightSide.label.container.spacing}}"
-                  },
-                  "type": "composition"
-                }
-              },
-              "description": {
-                "value": {
-                  "typography": "{sem.typography.textStyle.paragraph.sm.default}",
-                  "fill": "{sem.colorText.default}"
-                },
-                "type": "composition"
-              }
-            }
           }
         },
         "pressed": {
@@ -1108,66 +988,6 @@
             },
             "type": "composition",
             "description": "({extends: 'comp.card.md.uncontrasted.pressed'})"
-          },
-          "content": {
-            "spacing": {
-              "value": {
-                "itemSpacing": "{sem.toggle.card.content.spacing}"
-              },
-              "type": "composition"
-            },
-            "icon": {
-              "iconSize": {
-                "value": {
-                  "size": "{sem.toggle.card.content.iconSize}"
-                },
-                "type": "composition"
-              },
-              "iconColor": {
-                "value": {
-                  "border": "{sem.borderIcon.sm.dark}"
-                },
-                "type": "composition"
-              }
-            },
-            "rightSide": {
-              "spacing": {
-                "value": {
-                  "itemSpacing": "{sem.toggle.card.content.rightSide.spacing}"
-                },
-                "type": "composition"
-              },
-              "top": {
-                "label": {
-                  "PaddingTop": {
-                    "value": {
-                      "paddingTop": "{sem.toggle.card.content.rightSide.label.container.paddingTop}"
-                    },
-                    "type": "spacing"
-                  },
-                  "text": {
-                    "value": {
-                      "typography": "{sem.typography.textStyle.label.body.md}",
-                      "fill": "{sem.colorText.dark}"
-                    },
-                    "type": "composition"
-                  }
-                },
-                "spacing": {
-                  "value": {
-                    "itemSpacing": "{sem.toggle.card.content.rightSide.label.container.spacing}}"
-                  },
-                  "type": "composition"
-                }
-              },
-              "description": {
-                "value": {
-                  "typography": "{sem.typography.textStyle.paragraph.sm.default}",
-                  "fill": "{sem.colorText.default}"
-                },
-                "type": "composition"
-              }
-            }
           }
         },
         "active": {
@@ -1184,66 +1004,6 @@
             },
             "type": "composition",
             "description": "({extends: 'comp.card.md.uncontrasted.active'})"
-          },
-          "content": {
-            "spacing": {
-              "value": {
-                "itemSpacing": "{sem.toggle.card.content.spacing}"
-              },
-              "type": "composition"
-            },
-            "icon": {
-              "iconSize": {
-                "value": {
-                  "size": "{sem.toggle.card.content.iconSize}"
-                },
-                "type": "composition"
-              },
-              "iconColor": {
-                "value": {
-                  "border": "{sem.borderIcon.sm.dark}"
-                },
-                "type": "composition"
-              }
-            },
-            "rightSide": {
-              "spacing": {
-                "value": {
-                  "itemSpacing": "{sem.toggle.card.content.rightSide.spacing}"
-                },
-                "type": "composition"
-              },
-              "top": {
-                "label": {
-                  "PaddingTop": {
-                    "value": {
-                      "paddingTop": "{sem.toggle.card.content.rightSide.label.container.paddingTop}"
-                    },
-                    "type": "spacing"
-                  },
-                  "text": {
-                    "value": {
-                      "typography": "{sem.typography.textStyle.label.body.md}",
-                      "fill": "{sem.colorText.dark}"
-                    },
-                    "type": "composition"
-                  }
-                },
-                "spacing": {
-                  "value": {
-                    "itemSpacing": "{sem.toggle.card.content.rightSide.label.container.spacing}}"
-                  },
-                  "type": "composition"
-                }
-              },
-              "description": {
-                "value": {
-                  "typography": "{sem.typography.textStyle.paragraph.sm.default}",
-                  "fill": "{sem.colorText.default}"
-                },
-                "type": "composition"
-              }
-            }
           }
         },
         "danger": {
@@ -1260,66 +1020,6 @@
             },
             "type": "composition",
             "description": "({extends: 'comp.card.md.uncontrasted.danger'})"
-          },
-          "content": {
-            "spacing": {
-              "value": {
-                "itemSpacing": "{sem.toggle.card.content.spacing}"
-              },
-              "type": "composition"
-            },
-            "icon": {
-              "iconSize": {
-                "value": {
-                  "size": "{sem.toggle.card.content.iconSize}"
-                },
-                "type": "composition"
-              },
-              "iconColor": {
-                "value": {
-                  "border": "{sem.borderIcon.sm.dark}"
-                },
-                "type": "composition"
-              }
-            },
-            "rightSide": {
-              "spacing": {
-                "value": {
-                  "itemSpacing": "{sem.toggle.card.content.rightSide.spacing}"
-                },
-                "type": "composition"
-              },
-              "top": {
-                "label": {
-                  "PaddingTop": {
-                    "value": {
-                      "paddingTop": "{sem.toggle.card.content.rightSide.label.container.paddingTop}"
-                    },
-                    "type": "spacing"
-                  },
-                  "text": {
-                    "value": {
-                      "typography": "{sem.typography.textStyle.label.body.md}",
-                      "fill": "{sem.colorText.dark}"
-                    },
-                    "type": "composition"
-                  }
-                },
-                "spacing": {
-                  "value": {
-                    "itemSpacing": "{sem.toggle.card.content.rightSide.label.container.spacing}}"
-                  },
-                  "type": "composition"
-                }
-              },
-              "description": {
-                "value": {
-                  "typography": "{sem.typography.textStyle.paragraph.sm.default}",
-                  "fill": "{sem.colorText.default}"
-                },
-                "type": "composition"
-              }
-            }
           }
         },
         "disabled": {
@@ -1336,66 +1036,6 @@
             },
             "type": "composition",
             "description": "({extends: 'comp.card.md.uncontrasted.disabled'})"
-          },
-          "content": {
-            "spacing": {
-              "value": {
-                "itemSpacing": "{sem.toggle.card.content.spacing}"
-              },
-              "type": "composition"
-            },
-            "icon": {
-              "iconSize": {
-                "value": {
-                  "size": "{sem.toggle.card.content.iconSize}"
-                },
-                "type": "composition"
-              },
-              "iconColor": {
-                "value": {
-                  "border": "{sem.borderIcon.sm.dark}"
-                },
-                "type": "composition"
-              }
-            },
-            "rightSide": {
-              "spacing": {
-                "value": {
-                  "itemSpacing": "{sem.toggle.card.content.rightSide.spacing}"
-                },
-                "type": "composition"
-              },
-              "top": {
-                "label": {
-                  "PaddingTop": {
-                    "value": {
-                      "paddingTop": "{sem.toggle.card.content.rightSide.label.container.paddingTop}"
-                    },
-                    "type": "spacing"
-                  },
-                  "text": {
-                    "value": {
-                      "typography": "{sem.typography.textStyle.label.body.md}",
-                      "fill": "{sem.colorText.dark}"
-                    },
-                    "type": "composition"
-                  }
-                },
-                "spacing": {
-                  "value": {
-                    "itemSpacing": "{sem.toggle.card.content.rightSide.label.container.spacing}}"
-                  },
-                  "type": "composition"
-                }
-              },
-              "description": {
-                "value": {
-                  "typography": "{sem.typography.textStyle.paragraph.sm.default}",
-                  "fill": "{sem.colorText.default}"
-                },
-                "type": "composition"
-              }
-            }
           }
         },
         "forced": {
@@ -1412,9 +1052,11 @@
             },
             "type": "composition",
             "description": "({extends: 'comp.card.md.uncontrasted.forced'})"
-          },
-          "content": {
-            "spacing": {
+          }
+        },
+        "content": {
+          "sm": {
+            "content": {
               "value": {
                 "itemSpacing": "{sem.toggle.card.content.spacing}"
               },
@@ -1435,7 +1077,7 @@
               }
             },
             "rightSide": {
-              "spacing": {
+              "container": {
                 "value": {
                   "itemSpacing": "{sem.toggle.card.content.rightSide.spacing}"
                 },
@@ -1443,11 +1085,11 @@
               },
               "top": {
                 "label": {
-                  "PaddingTop": {
+                  "container": {
                     "value": {
                       "paddingTop": "{sem.toggle.card.content.rightSide.label.container.paddingTop}"
                     },
-                    "type": "spacing"
+                    "type": "composition"
                   },
                   "text": {
                     "value": {
@@ -1457,7 +1099,127 @@
                     "type": "composition"
                   }
                 },
-                "spacing": {
+                "container": {
+                  "value": {
+                    "itemSpacing": "{sem.toggle.card.content.rightSide.label.container.spacing}}"
+                  },
+                  "type": "composition"
+                }
+              },
+              "description": {
+                "value": {
+                  "typography": "{sem.typography.textStyle.paragraph.sm.default}",
+                  "fill": "{sem.colorText.default}"
+                },
+                "type": "composition"
+              }
+            }
+          },
+          "md": {
+            "content": {
+              "value": {
+                "itemSpacing": "{sem.toggle.card.content.spacing}"
+              },
+              "type": "composition"
+            },
+            "icon": {
+              "iconSize": {
+                "value": {
+                  "size": "{sem.toggle.card.content.iconSize}"
+                },
+                "type": "composition"
+              },
+              "iconColor": {
+                "value": {
+                  "border": "{sem.borderIcon.sm.dark}"
+                },
+                "type": "composition"
+              }
+            },
+            "rightSide": {
+              "container": {
+                "value": {
+                  "itemSpacing": "{sem.toggle.card.content.rightSide.spacing}"
+                },
+                "type": "composition"
+              },
+              "top": {
+                "label": {
+                  "container": {
+                    "value": {
+                      "paddingTop": "{sem.toggle.card.content.rightSide.label.container.paddingTop}"
+                    },
+                    "type": "composition"
+                  },
+                  "text": {
+                    "value": {
+                      "typography": "{sem.typography.textStyle.label.body.md}",
+                      "fill": "{sem.colorText.dark}"
+                    },
+                    "type": "composition"
+                  }
+                },
+                "container": {
+                  "value": {
+                    "itemSpacing": "{sem.toggle.card.content.rightSide.label.container.spacing}}"
+                  },
+                  "type": "composition"
+                }
+              },
+              "description": {
+                "value": {
+                  "typography": "{sem.typography.textStyle.paragraph.sm.default}",
+                  "fill": "{sem.colorText.default}"
+                },
+                "type": "composition"
+              }
+            }
+          },
+          "lg": {
+            "content": {
+              "value": {
+                "itemSpacing": "{sem.toggle.card.content.spacing}"
+              },
+              "type": "composition"
+            },
+            "icon": {
+              "iconSize": {
+                "value": {
+                  "size": "{sem.toggle.card.content.iconSize}"
+                },
+                "type": "composition"
+              },
+              "iconColor": {
+                "value": {
+                  "border": "{sem.borderIcon.sm.dark}"
+                },
+                "type": "composition"
+              }
+            },
+            "rightSide": {
+              "container": {
+                "value": {
+                  "itemSpacing": "{sem.toggle.card.content.rightSide.spacing}"
+                },
+                "type": "composition"
+              },
+              "top": {
+                "label": {
+                  "container": {
+                    "value": {
+                      "paddingTop": "{sem.toggle.card.content.rightSide.label.container.paddingTop}"
+                    },
+                    "type": "composition"
+                  },
+                  "text": {
+                    "value": {
+                      "typography": "{sem.typography.textStyle.label.body.md}",
+                      "fill": "{sem.colorText.dark}"
+                    },
+                    "type": "composition"
+                  }
+                },
+                "container": {
                   "value": {
                     "itemSpacing": "{sem.toggle.card.content.rightSide.label.container.spacing}}"
                   },
@@ -13700,29 +13462,109 @@
         }
       },
       "card": {
-        "content": {
-          "spacing": {
-            "value": "{ref.spacing.100}",
-            "type": "spacing"
-          },
-          "iconSize": {
-            "value": "{ref.sizing.200}",
-            "type": "sizing"
-          },
-          "rightSide": {
+        "sm": {
+          "content": {
             "spacing": {
               "value": "{ref.spacing.100}",
               "type": "spacing"
             },
-            "top": {
-              "container": {
-                "paddingTop": {
-                  "value": "{ref.spacing.50}",
-                  "type": "spacing"
-                },
-                "spacing": {
-                  "value": "{ref.spacing.100}",
-                  "type": "spacing"
+            "iconSize": {
+              "value": "{ref.sizing.200}",
+              "type": "sizing"
+            },
+            "rightSide": {
+              "spacing": {
+                "value": "{ref.spacing.100}",
+                "type": "spacing"
+              },
+              "top": {
+                "container": {
+                  "paddingTop": {
+                    "value": "{ref.spacing.50}",
+                    "type": "spacing"
+                  },
+                  "label": {
+                    "paddingTop": {
+                      "value": "{ref.spacing.50}",
+                      "type": "spacing"
+                    }
+                  },
+                  "spacing": {
+                    "value": "{ref.spacing.100}",
+                    "type": "spacing"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "md": {
+          "content": {
+            "spacing": {
+              "value": "{ref.spacing.200}",
+              "type": "spacing"
+            },
+            "iconSize": {
+              "value": "{ref.sizing.200}",
+              "type": "sizing"
+            },
+            "rightSide": {
+              "spacing": {
+                "value": "{ref.spacing.100}",
+                "type": "spacing"
+              },
+              "top": {
+                "container": {
+                  "paddingTop": {
+                    "value": "{ref.spacing.50}",
+                    "type": "spacing"
+                  },
+                  "label": {
+                    "paddingTop": {
+                      "value": "{ref.spacing.50}",
+                      "type": "spacing"
+                    }
+                  },
+                  "spacing": {
+                    "value": "{ref.spacing.100}",
+                    "type": "spacing"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "lg": {
+          "content": {
+            "spacing": {
+              "value": "{ref.spacing.100}",
+              "type": "spacing"
+            },
+            "iconSize": {
+              "value": "{ref.sizing.200}",
+              "type": "sizing"
+            },
+            "rightSide": {
+              "spacing": {
+                "value": "{ref.spacing.100}",
+                "type": "spacing"
+              },
+              "top": {
+                "container": {
+                  "paddingTop": {
+                    "value": "{ref.spacing.50}",
+                    "type": "spacing"
+                  },
+                  "label": {
+                    "paddingTop": {
+                      "value": "{ref.spacing.50}",
+                      "type": "spacing"
+                    }
+                  },
+                  "spacing": {
+                    "value": "{ref.spacing.100}",
+                    "type": "spacing"
+                  }
                 }
               }
             }

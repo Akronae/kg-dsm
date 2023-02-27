@@ -10,66 +10,6 @@ comp
       "value": {},
       "type": "composition",
       "description": "({extends: 'comp.card.md.uncontrasted.<<state>>'})"
-    },
-    "content": {
-      "spacing": {
-        "value": {
-          "itemSpacing": "{sem.toggle.card.content.spacing}"
-        },
-        "type": "composition"
-      },
-      "icon": {
-        "iconSize": {
-          "value": {
-            "size": "{sem.toggle.card.content.iconSize}"
-          },
-          "type": "composition"
-        },
-        "iconColor": {
-          "value": {
-            "border": "{sem.borderIcon.sm.dark}"
-          },
-          "type": "composition"
-        }
-      },
-      "rightSide": {
-        "spacing": {
-          "value": {
-            "itemSpacing": "{sem.toggle.card.content.rightSide.spacing}"
-          },
-          "type": "composition"
-        },
-        "top": {
-          "label": {
-            "PaddingTop": {
-              "value": {
-                "paddingTop": "{sem.toggle.card.content.rightSide.label.container.paddingTop}"
-              },
-              "type": "spacing"
-            },
-            "text": {
-              "value": {
-                "typography": "{sem.typography.textStyle.label.body.md}",
-                "fill": "{sem.colorText.dark}"
-              },
-              "type": "composition"
-            }
-          },
-          "spacing": {
-            "value": {
-              "itemSpacing": "{sem.toggle.card.content.rightSide.label.container.spacing}}"
-            },
-            "type": "composition"
-          }
-        },
-        "description": {
-          "value": {
-            "typography": "{sem.typography.textStyle.paragraph.sm.default}",
-            "fill": "{sem.colorText.default}"
-          },
-          "type": "composition"
-        }
-      }
     }
   }
 ]

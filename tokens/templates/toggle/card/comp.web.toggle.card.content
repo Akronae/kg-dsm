@@ -1,0 +1,68 @@
+// @replacepath: tokens/comp.web.json
+
+comp
+.toggle
+.card.content
+[size: 'sm' | 'md' | 'lg' ]
+[
+  {
+    "content": {
+      "value": {
+        "itemSpacing": "{sem.toggle.card.content.spacing}"
+      },
+        "type": "composition"
+    },
+      "icon": {
+        "iconSize": {
+          "value": {
+            "size": "{sem.toggle.card.content.iconSize}"
+          },
+          "type": "composition"
+        },
+        "iconColor": {
+          "value": {
+            "border": "{sem.borderIcon.sm.dark}"
+          },
+          "type": "composition"
+        }
+      },
+      "rightSide": {
+        "container": {
+          "value": {
+            "itemSpacing": "{sem.toggle.card.content.rightSide.spacing}"
+          },
+          "type": "composition"
+        },
+        "top": {
+          "label": {
+            "container": {
+              "value": {
+                "paddingTop": "{sem.toggle.card.content.rightSide.label.container.paddingTop}"
+              },
+              "type": "composition"
+            },
+            "text": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.body.md}",
+                "fill": "{sem.colorText.dark}"
+              },
+              "type": "composition"
+            }
+          },
+          "container": {
+            "value": {
+              "itemSpacing": "{sem.toggle.card.content.rightSide.label.container.spacing}}"
+            },
+            "type": "composition"
+          }
+        },
+        "description": {
+          "value": {
+            "typography": "{sem.typography.textStyle.paragraph.sm.default}",
+            "fill": "{sem.colorText.default}"
+          },
+          "type": "composition"
+        }
+      }
+  }
+]

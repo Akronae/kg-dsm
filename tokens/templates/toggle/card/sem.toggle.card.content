@@ -3,11 +3,12 @@
 sem
 .toggle
 .card
+[size: 'sm' | 'md' | 'lg' ]
 [
   {
     "content": {
       "spacing": {
-        "value": "{ref.spacing.100}",
+        "value": "{<< ({sm: 'ref.spacing.100', md: 'ref.spacing.200', lg: 'ref.spacing.100'})[size] >>}",
         "type": "spacing"
       },
       "iconSize": {
@@ -24,6 +25,12 @@ sem
             "paddingTop": {
               "value": "{ref.spacing.50}",
               "type": "spacing"
+            },
+            "label": {
+              "paddingTop": {
+                "value": "{ref.spacing.50}",
+                "type": "spacing"
+              }
             },
             "spacing": {
               "value": "{ref.spacing.100}",
