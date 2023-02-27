@@ -8,14 +8,14 @@ comp
   {
     "content": {
       "value": {
-        "itemSpacing": "{sem.toggle.card.content.spacing}"
+        "itemSpacing": "{sem.toggle.card.<<size>>.content.spacing}"
       },
         "type": "composition"
     },
       "icon": {
         "iconSize": {
           "value": {
-            "size": "{sem.toggle.card.content.iconSize}"
+            "size": "{sem.toggle.card.<<size>>.content.iconSize}"
           },
           "type": "composition"
         },
@@ -29,7 +29,7 @@ comp
       "rightSide": {
         "container": {
           "value": {
-            "itemSpacing": "{sem.toggle.card.content.rightSide.spacing}"
+            "itemSpacing": "{sem.toggle.card.<<size>>.content.rightSide.spacing}"
           },
           "type": "composition"
         },
@@ -37,7 +37,7 @@ comp
           "label": {
             "container": {
               "value": {
-                "paddingTop": "{sem.toggle.card.content.rightSide.label.container.paddingTop}"
+                "paddingTop": "{sem.toggle.card.<<size>>.content.rightSide.label.container.paddingTop}"
               },
               "type": "composition"
             },
@@ -51,7 +51,7 @@ comp
           },
           "container": {
             "value": {
-              "itemSpacing": "{sem.toggle.card.content.rightSide.label.container.spacing}}"
+              "itemSpacing": "{sem.toggle.card.<<size>>.content.rightSide.label.container.spacing}}"
             },
             "type": "composition"
           }

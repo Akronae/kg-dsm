@@ -1058,14 +1058,14 @@
           "sm": {
             "content": {
               "value": {
-                "itemSpacing": "{sem.toggle.card.content.spacing}"
+                "itemSpacing": "{sem.toggle.card.sm.content.spacing}"
               },
               "type": "composition"
             },
             "icon": {
               "iconSize": {
                 "value": {
-                  "size": "{sem.toggle.card.content.iconSize}"
+                  "size": "{sem.toggle.card.sm.content.iconSize}"
                 },
                 "type": "composition"
               },
@@ -1079,7 +1079,7 @@
             "rightSide": {
               "container": {
                 "value": {
-                  "itemSpacing": "{sem.toggle.card.content.rightSide.spacing}"
+                  "itemSpacing": "{sem.toggle.card.sm.content.rightSide.spacing}"
                 },
                 "type": "composition"
               },
@@ -1087,7 +1087,7 @@
                 "label": {
                   "container": {
                     "value": {
-                      "paddingTop": "{sem.toggle.card.content.rightSide.label.container.paddingTop}"
+                      "paddingTop": "{sem.toggle.card.sm.content.rightSide.label.container.paddingTop}"
                     },
                     "type": "composition"
                   },
@@ -1101,7 +1101,7 @@
                 },
                 "container": {
                   "value": {
-                    "itemSpacing": "{sem.toggle.card.content.rightSide.label.container.spacing}}"
+                    "itemSpacing": "{sem.toggle.card.sm.content.rightSide.label.container.spacing}}"
                   },
                   "type": "composition"
                 }
@@ -1118,14 +1118,14 @@
           "md": {
             "content": {
               "value": {
-                "itemSpacing": "{sem.toggle.card.content.spacing}"
+                "itemSpacing": "{sem.toggle.card.md.content.spacing}"
               },
               "type": "composition"
             },
             "icon": {
               "iconSize": {
                 "value": {
-                  "size": "{sem.toggle.card.content.iconSize}"
+                  "size": "{sem.toggle.card.md.content.iconSize}"
                 },
                 "type": "composition"
               },
@@ -1139,7 +1139,7 @@
             "rightSide": {
               "container": {
                 "value": {
-                  "itemSpacing": "{sem.toggle.card.content.rightSide.spacing}"
+                  "itemSpacing": "{sem.toggle.card.md.content.rightSide.spacing}"
                 },
                 "type": "composition"
               },
@@ -1147,7 +1147,7 @@
                 "label": {
                   "container": {
                     "value": {
-                      "paddingTop": "{sem.toggle.card.content.rightSide.label.container.paddingTop}"
+                      "paddingTop": "{sem.toggle.card.md.content.rightSide.label.container.paddingTop}"
                     },
                     "type": "composition"
                   },
@@ -1161,7 +1161,7 @@
                 },
                 "container": {
                   "value": {
-                    "itemSpacing": "{sem.toggle.card.content.rightSide.label.container.spacing}}"
+                    "itemSpacing": "{sem.toggle.card.md.content.rightSide.label.container.spacing}}"
                   },
                   "type": "composition"
                 }
@@ -1178,14 +1178,14 @@
           "lg": {
             "content": {
               "value": {
-                "itemSpacing": "{sem.toggle.card.content.spacing}"
+                "itemSpacing": "{sem.toggle.card.lg.content.spacing}"
               },
               "type": "composition"
             },
             "icon": {
               "iconSize": {
                 "value": {
-                  "size": "{sem.toggle.card.content.iconSize}"
+                  "size": "{sem.toggle.card.lg.content.iconSize}"
                 },
                 "type": "composition"
               },
@@ -1199,7 +1199,7 @@
             "rightSide": {
               "container": {
                 "value": {
-                  "itemSpacing": "{sem.toggle.card.content.rightSide.spacing}"
+                  "itemSpacing": "{sem.toggle.card.lg.content.rightSide.spacing}"
                 },
                 "type": "composition"
               },
@@ -1207,7 +1207,7 @@
                 "label": {
                   "container": {
                     "value": {
-                      "paddingTop": "{sem.toggle.card.content.rightSide.label.container.paddingTop}"
+                      "paddingTop": "{sem.toggle.card.lg.content.rightSide.label.container.paddingTop}"
                     },
                     "type": "composition"
                   },
@@ -1221,7 +1221,7 @@
                 },
                 "container": {
                   "value": {
-                    "itemSpacing": "{sem.toggle.card.content.rightSide.label.container.spacing}}"
+                    "itemSpacing": "{sem.toggle.card.lg.content.rightSide.label.container.spacing}}"
                   },
                   "type": "composition"
                 }
