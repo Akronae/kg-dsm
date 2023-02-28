@@ -9,7 +9,7 @@ comp
     "container": {
       "value": {
         "itemSpacing": "{sem.toggle.card.spacing}",
-        "type": "spacing"
+        "type": "composition"
       }
     },
     "card": {
