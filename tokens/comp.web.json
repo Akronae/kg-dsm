@@ -1100,14 +1100,14 @@
           "sm": {
             "content": {
               "value": {
-                "itemSpacing": "{sem.toggle.card.sm.content.spacing}"
+                "itemSpacing": "{sem.toggle.card.sm.spacing}"
               },
               "type": "composition"
             },
             "icon": {
               "iconSize": {
                 "value": {
-                  "size": "{sem.toggle.card.sm.content.iconSize}"
+                  "size": "{sem.toggle.card.sm.iconSize}"
                 },
                 "type": "composition"
               },
@@ -1121,7 +1121,7 @@
             "rightSide": {
               "container": {
                 "value": {
-                  "itemSpacing": "{sem.toggle.card.sm.content.rightSide.spacing}"
+                  "itemSpacing": "{sem.toggle.card.sm.rightSide.spacing}"
                 },
                 "type": "composition"
               },
@@ -1129,7 +1129,7 @@
                 "label": {
                   "container": {
                     "value": {
-                      "paddingTop": "{sem.toggle.card.sm.content.rightSide.top.container.label.paddingTop}"
+                      "paddingTop": "{sem.toggle.card.sm.rightSide.top.container.label.paddingTop}"
                     },
                     "type": "composition"
                   },
@@ -1143,7 +1143,7 @@
                 },
                 "container": {
                   "value": {
-                    "itemSpacing": "{sem.toggle.card.sm.content.rightSide.top.container.spacing}}"
+                    "itemSpacing": "{sem.toggle.card.sm.rightSide.top.container.spacing}}"
                   },
                   "type": "composition"
                 }
@@ -1160,14 +1160,14 @@
           "md": {
             "content": {
               "value": {
-                "itemSpacing": "{sem.toggle.card.md.content.spacing}"
+                "itemSpacing": "{sem.toggle.card.md.spacing}"
               },
               "type": "composition"
             },
             "icon": {
               "iconSize": {
                 "value": {
-                  "size": "{sem.toggle.card.md.content.iconSize}"
+                  "size": "{sem.toggle.card.md.iconSize}"
                 },
                 "type": "composition"
               },
@@ -1181,7 +1181,7 @@
             "rightSide": {
               "container": {
                 "value": {
-                  "itemSpacing": "{sem.toggle.card.md.content.rightSide.spacing}"
+                  "itemSpacing": "{sem.toggle.card.md.rightSide.spacing}"
                 },
                 "type": "composition"
               },
@@ -1189,7 +1189,7 @@
                 "label": {
                   "container": {
                     "value": {
-                      "paddingTop": "{sem.toggle.card.md.content.rightSide.top.container.label.paddingTop}"
+                      "paddingTop": "{sem.toggle.card.md.rightSide.top.container.label.paddingTop}"
                     },
                     "type": "composition"
                   },
@@ -1203,7 +1203,7 @@
                 },
                 "container": {
                   "value": {
-                    "itemSpacing": "{sem.toggle.card.md.content.rightSide.top.container.spacing}}"
+                    "itemSpacing": "{sem.toggle.card.md.rightSide.top.container.spacing}}"
                   },
                   "type": "composition"
                 }
@@ -1220,14 +1220,14 @@
           "lg": {
             "content": {
               "value": {
-                "itemSpacing": "{sem.toggle.card.lg.content.spacing}"
+                "itemSpacing": "{sem.toggle.card.lg.spacing}"
               },
               "type": "composition"
             },
             "icon": {
               "iconSize": {
                 "value": {
-                  "size": "{sem.toggle.card.lg.content.iconSize}"
+                  "size": "{sem.toggle.card.lg.iconSize}"
                 },
                 "type": "composition"
               },
@@ -1241,7 +1241,7 @@
             "rightSide": {
               "container": {
                 "value": {
-                  "itemSpacing": "{sem.toggle.card.lg.content.rightSide.spacing}"
+                  "itemSpacing": "{sem.toggle.card.lg.rightSide.spacing}"
                 },
                 "type": "composition"
               },
@@ -1249,7 +1249,7 @@
                 "label": {
                   "container": {
                     "value": {
-                      "paddingTop": "{sem.toggle.card.lg.content.rightSide.top.container.label.paddingTop}"
+                      "paddingTop": "{sem.toggle.card.lg.rightSide.top.container.label.paddingTop}"
                     },
                     "type": "composition"
                   },
@@ -1263,7 +1263,7 @@
                 },
                 "container": {
                   "value": {
-                    "itemSpacing": "{sem.toggle.card.lg.content.rightSide.top.container.spacing}}"
+                    "itemSpacing": "{sem.toggle.card.lg.rightSide.top.container.spacing}}"
                   },
                   "type": "composition"
                 }
