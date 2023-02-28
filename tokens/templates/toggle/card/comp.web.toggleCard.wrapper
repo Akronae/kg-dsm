@@ -2,7 +2,7 @@
 
 comp
 .toggle
-.toggleCard
+.toggleCard.wrapper
 [state: 'default' | 'hover' | 'pressed' | 'active' | 'danger' | 'disabled' | 'forced' ]
 [
   {
