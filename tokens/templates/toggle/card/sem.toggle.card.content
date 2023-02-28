@@ -2,40 +2,38 @@
 
 sem
 .toggle
-.card
+.card.content
 [size: 'sm' | 'md' | 'lg' ]
 [
   {
-    "content": {
+    "spacing": {
+      "value": "{<< ({sm: 'ref.spacing.100', md: 'ref.spacing.200', lg: 'ref.spacing.100'})[size] >>}",
+      "type": "spacing"
+    },
+    "iconSize": {
+      "value": "{ref.sizing.200}",
+      "type": "sizing"
+    },
+    "rightSide": {
       "spacing": {
-        "value": "{<< ({sm: 'ref.spacing.100', md: 'ref.spacing.200', lg: 'ref.spacing.100'})[size] >>}",
+        "value": "{ref.spacing.100}",
         "type": "spacing"
       },
-      "iconSize": {
-        "value": "{ref.sizing.200}",
-        "type": "sizing"
-      },
-      "rightSide": {
-        "spacing": {
-          "value": "{ref.spacing.100}",
-          "type": "spacing"
-        },
-        "top": {
-          "container": {
+      "top": {
+        "container": {
+          "paddingTop": {
+            "value": "{ref.spacing.50}",
+            "type": "spacing"
+          },
+          "label": {
             "paddingTop": {
               "value": "{ref.spacing.50}",
               "type": "spacing"
-            },
-            "label": {
-              "paddingTop": {
-                "value": "{ref.spacing.50}",
-                "type": "spacing"
-              }
-            },
-            "spacing": {
-              "value": "{ref.spacing.100}",
-              "type": "spacing"
             }
+          },
+          "spacing": {
+            "value": "{ref.spacing.100}",
+            "type": "spacing"
           }
         }
       }
