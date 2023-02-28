@@ -2,7 +2,7 @@
 
 comp
 .toggle
-.card.content
+.toggleCard.content
 [size: 'sm' | 'md' | 'lg' ]
 [
   {

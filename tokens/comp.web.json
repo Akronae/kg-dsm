@@ -146,7 +146,7 @@
               "value": {
                 "sizing": "{sem.toggle.base.mark.containerSize}",
                 "fill": "{sem.colorSurface.sub}",
-                "border": "{sem.border.interactive.default}",
+                "border": "{sem.borderInteractive.default}",
                 "borderRadius": "{sem.toggle.radio.mark.borderRadius}"
               },
               "type": "composition",
@@ -154,6 +154,7 @@
             },
             "iconColor": {
               "value": {
+                "border": "{sem.borderIcon.sm.light}",
                 "fill": "{sem.borderIcon.sm.light}"
               },
               "type": "composition",
@@ -167,7 +168,7 @@
               "value": {
                 "sizing": "{sem.toggle.base.mark.containerSize}",
                 "fill": "{sem.colorSurface.sub}",
-                "border": "{sem.border.interactive.hover}",
+                "border": "{sem.borderInteractive.hover}",
                 "borderRadius": "{sem.toggle.radio.mark.borderRadius}"
               },
               "type": "composition",
@@ -175,6 +176,7 @@
             },
             "iconColor": {
               "value": {
+                "border": "{sem.borderIcon.sm.light}",
                 "fill": "{sem.borderIcon.sm.light}"
               },
               "type": "composition",
@@ -196,6 +198,7 @@
             },
             "iconColor": {
               "value": {
+                "border": "{sem.borderIcon.sm.light}",
                 "fill": "{sem.borderIcon.sm.light}"
               },
               "type": "composition",
@@ -217,6 +220,7 @@
             },
             "iconColor": {
               "value": {
+                "border": "{sem.borderIcon.sm.light}",
                 "fill": "{sem.borderIcon.sm.light}"
               },
               "type": "composition",
@@ -238,6 +242,7 @@
             },
             "iconColor": {
               "value": {
+                "border": "{sem.borderIcon.sm.light}",
                 "fill": "{sem.borderIcon.sm.light}"
               },
               "type": "composition",
@@ -251,7 +256,7 @@
               "value": {
                 "sizing": "{sem.toggle.base.mark.containerSize}",
                 "fill": "{sem.colorSurface.disabled}",
-                "border": "{sem.border.interactive.disabled}",
+                "border": "{sem.borderInteractive.disabled}",
                 "borderRadius": "{sem.toggle.radio.mark.borderRadius}"
               },
               "type": "composition",
@@ -259,6 +264,7 @@
             },
             "iconColor": {
               "value": {
+                "border": "{sem.borderIcon.sm.light}",
                 "fill": "{sem.borderIcon.sm.light}"
               },
               "type": "composition",
@@ -280,6 +286,7 @@
             },
             "iconColor": {
               "value": {
+                "border": "{sem.borderIcon.sm.light}",
                 "fill": "{sem.borderIcon.sm.light}"
               },
               "type": "composition",
@@ -295,7 +302,7 @@
               "value": {
                 "sizing": "{sem.toggle.base.mark.containerSize}",
                 "fill": "{sem.colorSurface.sub}",
-                "border": "{sem.border.interactive.default}",
+                "border": "{sem.borderInteractive.default}",
                 "borderRadius": "{sem.toggle.checkbox.mark.borderRadius}"
               },
               "type": "composition",
@@ -309,7 +316,7 @@
               "value": {
                 "sizing": "{sem.toggle.base.mark.containerSize}",
                 "fill": "{sem.colorSurface.sub}",
-                "border": "{sem.border.interactive.hover}",
+                "border": "{sem.borderInteractive.hover}",
                 "borderRadius": "{sem.toggle.checkbox.mark.borderRadius}"
               },
               "type": "composition",
@@ -365,7 +372,7 @@
               "value": {
                 "sizing": "{sem.toggle.base.mark.containerSize}",
                 "fill": "{sem.colorSurface.disabled}",
-                "border": "{sem.border.interactive.disabled}",
+                "border": "{sem.borderInteractive.disabled}",
                 "borderRadius": "{sem.toggle.checkbox.mark.borderRadius}"
               },
               "type": "composition",
@@ -506,7 +513,7 @@
               "value": {
                 "sizing": "{sem.toggle.base.mark.containerSize}",
                 "fill": "{sem.colorSurface.sub}",
-                "border": "{sem.border.interactive.default}"
+                "border": "{sem.borderInteractive.default}"
               },
               "type": "composition"
             },
@@ -518,7 +525,7 @@
             },
             "iconColor": {
               "value": {
-                "fill": "{sem.borderIcon.sm.light}"
+                "border": "{sem.borderIcon.sm.light}"
               },
               "type": "composition"
             }
@@ -562,7 +569,7 @@
               "value": {
                 "sizing": "{sem.toggle.base.mark.containerSize}",
                 "fill": "{sem.colorSurface.sub}",
-                "border": "{sem.border.interactive.hover}"
+                "border": "{sem.borderInteractive.hover}"
               },
               "type": "composition"
             },
@@ -574,7 +581,7 @@
             },
             "iconColor": {
               "value": {
-                "fill": "{sem.borderIcon.sm.light}"
+                "border": "{sem.borderIcon.sm.light}"
               },
               "type": "composition"
             }
@@ -630,7 +637,7 @@
             },
             "iconColor": {
               "value": {
-                "fill": "{sem.borderIcon.sm.light}"
+                "border": "{sem.borderIcon.sm.light}"
               },
               "type": "composition"
             }
@@ -686,7 +693,7 @@
             },
             "iconColor": {
               "value": {
-                "fill": "{sem.borderIcon.sm.light}"
+                "border": "{sem.borderIcon.sm.light}"
               },
               "type": "composition"
             }
@@ -742,7 +749,7 @@
             },
             "iconColor": {
               "value": {
-                "fill": "{sem.borderIcon.sm.light}"
+                "border": "{sem.borderIcon.sm.light}"
               },
               "type": "composition"
             }
@@ -786,7 +793,7 @@
               "value": {
                 "sizing": "{sem.toggle.base.mark.containerSize}",
                 "fill": "{sem.colorSurface.disabled}",
-                "border": "{sem.border.interactive.disabled}"
+                "border": "{sem.borderInteractive.disabled}"
               },
               "type": "composition"
             },
@@ -798,7 +805,7 @@
             },
             "iconColor": {
               "value": {
-                "fill": "{sem.borderIcon.sm.light}"
+                "border": "{sem.borderIcon.sm.light}"
               },
               "type": "composition"
             }
@@ -854,7 +861,7 @@
             },
             "iconColor": {
               "value": {
-                "fill": "{sem.borderIcon.sm.light}"
+                "border": "{sem.borderIcon.sm.light}"
               },
               "type": "composition"
             }
@@ -910,7 +917,7 @@
             },
             "iconColor": {
               "value": {
-                "fill": "{sem.borderIcon.sm.light}"
+                "border": "{sem.borderIcon.sm.light}"
               },
               "type": "composition"
             }
@@ -1095,7 +1102,9 @@
             "type": "composition",
             "description": "({extends: 'comp.card.md.uncontrasted.forced'})"
           }
-        },
+        }
+      },
+      "toggleCard": {
         "content": {
           "sm": {
             "container": {
@@ -13507,6 +13516,112 @@
         "spacing": {
           "value": "{ref.spacing.100}",
           "type": "spacing"
+        }
+      },
+      "toggleCard": {
+        "content": {
+          "sm": {
+            "spacing": {
+              "value": "{ref.spacing.100}",
+              "type": "spacing"
+            },
+            "iconSize": {
+              "value": "{ref.sizing.200}",
+              "type": "sizing"
+            },
+            "rightSide": {
+              "spacing": {
+                "value": "{ref.spacing.100}",
+                "type": "spacing"
+              },
+              "top": {
+                "container": {
+                  "paddingTop": {
+                    "value": "{ref.spacing.50}",
+                    "type": "spacing"
+                  },
+                  "label": {
+                    "paddingTop": {
+                      "value": "{ref.spacing.50}",
+                      "type": "spacing"
+                    }
+                  },
+                  "spacing": {
+                    "value": "{ref.spacing.100}",
+                    "type": "spacing"
+                  }
+                }
+              }
+            }
+          },
+          "md": {
+            "spacing": {
+              "value": "{ref.spacing.200}",
+              "type": "spacing"
+            },
+            "iconSize": {
+              "value": "{ref.sizing.200}",
+              "type": "sizing"
+            },
+            "rightSide": {
+              "spacing": {
+                "value": "{ref.spacing.100}",
+                "type": "spacing"
+              },
+              "top": {
+                "container": {
+                  "paddingTop": {
+                    "value": "{ref.spacing.50}",
+                    "type": "spacing"
+                  },
+                  "label": {
+                    "paddingTop": {
+                      "value": "{ref.spacing.50}",
+                      "type": "spacing"
+                    }
+                  },
+                  "spacing": {
+                    "value": "{ref.spacing.100}",
+                    "type": "spacing"
+                  }
+                }
+              }
+            }
+          },
+          "lg": {
+            "spacing": {
+              "value": "{ref.spacing.100}",
+              "type": "spacing"
+            },
+            "iconSize": {
+              "value": "{ref.sizing.200}",
+              "type": "sizing"
+            },
+            "rightSide": {
+              "spacing": {
+                "value": "{ref.spacing.100}",
+                "type": "spacing"
+              },
+              "top": {
+                "container": {
+                  "paddingTop": {
+                    "value": "{ref.spacing.50}",
+                    "type": "spacing"
+                  },
+                  "label": {
+                    "paddingTop": {
+                      "value": "{ref.spacing.50}",
+                      "type": "spacing"
+                    }
+                  },
+                  "spacing": {
+                    "value": "{ref.spacing.100}",
+                    "type": "spacing"
+                  }
+                }
+              }
+            }
+          }
         }
       }
     }
