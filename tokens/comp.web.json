@@ -1135,7 +1135,7 @@
           "default": {
             "container": {
               "value": {
-                "itemSpacing": "{sem.toggle.toggleCard.spacing}"
+                "itemSpacing": "{sem.toggle.toggleCard.wrapper.spacing}"
               },
               "type": "composition"
             },
@@ -1157,7 +1157,7 @@
           "hover": {
             "container": {
               "value": {
-                "itemSpacing": "{sem.toggle.toggleCard.spacing}"
+                "itemSpacing": "{sem.toggle.toggleCard.wrapper.spacing}"
               },
               "type": "composition"
             },
@@ -1179,7 +1179,7 @@
           "pressed": {
             "container": {
               "value": {
-                "itemSpacing": "{sem.toggle.toggleCard.spacing}"
+                "itemSpacing": "{sem.toggle.toggleCard.wrapper.spacing}"
               },
               "type": "composition"
             },
@@ -1201,7 +1201,7 @@
           "active": {
             "container": {
               "value": {
-                "itemSpacing": "{sem.toggle.toggleCard.spacing}"
+                "itemSpacing": "{sem.toggle.toggleCard.wrapper.spacing}"
               },
               "type": "composition"
             },
@@ -1223,7 +1223,7 @@
           "danger": {
             "container": {
               "value": {
-                "itemSpacing": "{sem.toggle.toggleCard.spacing}"
+                "itemSpacing": "{sem.toggle.toggleCard.wrapper.spacing}"
               },
               "type": "composition"
             },
@@ -1245,7 +1245,7 @@
           "disabled": {
             "container": {
               "value": {
-                "itemSpacing": "{sem.toggle.toggleCard.spacing}"
+                "itemSpacing": "{sem.toggle.toggleCard.wrapper.spacing}"
               },
               "type": "composition"
             },
@@ -1267,7 +1267,7 @@
           "forced": {
             "container": {
               "value": {
-                "itemSpacing": "{sem.toggle.toggleCard.spacing}"
+                "itemSpacing": "{sem.toggle.toggleCard.wrapper.spacing}"
               },
               "type": "composition"
             },
