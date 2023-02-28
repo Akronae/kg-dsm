@@ -952,7 +952,7 @@
         "default": {
           "container": {
             "value": {
-              "itemSpacing": "{sem.toggle.card.spacing}"
+              "itemSpacing": "{sem.toggle.toggleCard.spacing}"
             },
             "type": "composition"
           },
@@ -974,7 +974,7 @@
         "hover": {
           "container": {
             "value": {
-              "itemSpacing": "{sem.toggle.card.spacing}"
+              "itemSpacing": "{sem.toggle.toggleCard.spacing}"
             },
             "type": "composition"
           },
@@ -996,7 +996,7 @@
         "pressed": {
           "container": {
             "value": {
-              "itemSpacing": "{sem.toggle.card.spacing}"
+              "itemSpacing": "{sem.toggle.toggleCard.spacing}"
             },
             "type": "composition"
           },
@@ -1018,7 +1018,7 @@
         "active": {
           "container": {
             "value": {
-              "itemSpacing": "{sem.toggle.card.spacing}"
+              "itemSpacing": "{sem.toggle.toggleCard.spacing}"
             },
             "type": "composition"
           },
@@ -1040,7 +1040,7 @@
         "danger": {
           "container": {
             "value": {
-              "itemSpacing": "{sem.toggle.card.spacing}"
+              "itemSpacing": "{sem.toggle.toggleCard.spacing}"
             },
             "type": "composition"
           },
@@ -1062,7 +1062,7 @@
         "disabled": {
           "container": {
             "value": {
-              "itemSpacing": "{sem.toggle.card.spacing}"
+              "itemSpacing": "{sem.toggle.toggleCard.spacing}"
             },
             "type": "composition"
           },
@@ -1084,7 +1084,7 @@
         "forced": {
           "container": {
             "value": {
-              "itemSpacing": "{sem.toggle.card.spacing}"
+              "itemSpacing": "{sem.toggle.toggleCard.spacing}"
             },
             "type": "composition"
           },

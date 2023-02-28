@@ -8,7 +8,7 @@ comp
   {
     "container": {
       "value": {
-        "itemSpacing": "{sem.toggle.card.spacing}"
+        "itemSpacing": "{sem.toggle.toggleCard.spacing}"
       },
       "type": "composition"
     },
