@@ -7,6 +7,12 @@ comp
 [
   {
     "container": {
+      "value": {
+        "itemSpacing": "{sem.toggle.card.spacing}",
+        "type": "spacing"
+      }
+    },
+    "card": {
       "value": {},
       "type": "composition",
       "description": "({extends: 'comp.card.md.uncontrasted.<<state>>'})"

@@ -1,0 +1,13 @@
+// @replacepath: tokens/comp.web.json
+
+sem
+.toggle
+.card
+[
+  {
+    "spacing": {
+      "value": "{ref.spacing.100}",
+      "type": "spacing"
+    }
+  }
+]

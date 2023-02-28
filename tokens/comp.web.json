@@ -945,6 +945,12 @@
         "default": {
           "container": {
             "value": {
+              "itemSpacing": "{sem.toggle.card.spacing}",
+              "type": "spacing"
+            }
+          },
+          "card": {
+            "value": {
               "horizontalPadding": "{sem.card.md.padding}",
               "verticalPadding": "{sem.card.md.padding}",
               "fill": "{sem.colorSurface.light}",
@@ -960,6 +966,12 @@
         },
         "hover": {
           "container": {
+            "value": {
+              "itemSpacing": "{sem.toggle.card.spacing}",
+              "type": "spacing"
+            }
+          },
+          "card": {
             "value": {
               "horizontalPadding": "{sem.card.md.padding}",
               "verticalPadding": "{sem.card.md.padding}",
@@ -977,6 +989,12 @@
         "pressed": {
           "container": {
             "value": {
+              "itemSpacing": "{sem.toggle.card.spacing}",
+              "type": "spacing"
+            }
+          },
+          "card": {
+            "value": {
               "horizontalPadding": "{sem.card.md.padding}",
               "verticalPadding": "{sem.card.md.padding}",
               "fill": "{sem.colorSurface.light}",
@@ -992,6 +1010,12 @@
         },
         "active": {
           "container": {
+            "value": {
+              "itemSpacing": "{sem.toggle.card.spacing}",
+              "type": "spacing"
+            }
+          },
+          "card": {
             "value": {
               "horizontalPadding": "{sem.card.md.padding}",
               "verticalPadding": "{sem.card.md.padding}",
@@ -1009,6 +1033,12 @@
         "danger": {
           "container": {
             "value": {
+              "itemSpacing": "{sem.toggle.card.spacing}",
+              "type": "spacing"
+            }
+          },
+          "card": {
+            "value": {
               "horizontalPadding": "{sem.card.md.padding}",
               "verticalPadding": "{sem.card.md.padding}",
               "fill": "{sem.colorSurface.light}",
@@ -1025,6 +1055,12 @@
         "disabled": {
           "container": {
             "value": {
+              "itemSpacing": "{sem.toggle.card.spacing}",
+              "type": "spacing"
+            }
+          },
+          "card": {
+            "value": {
               "horizontalPadding": "{sem.card.md.padding}",
               "verticalPadding": "{sem.card.md.padding}",
               "fill": "{sem.colorSurface.light}",
@@ -1040,6 +1076,12 @@
         },
         "forced": {
           "container": {
+            "value": {
+              "itemSpacing": "{sem.toggle.card.spacing}",
+              "type": "spacing"
+            }
+          },
+          "card": {
             "value": {
               "horizontalPadding": "{sem.card.md.padding}",
               "verticalPadding": "{sem.card.md.padding}",
@@ -13462,113 +13504,9 @@
         }
       },
       "card": {
-        "sm": {
-          "content": {
-            "spacing": {
-              "value": "{ref.spacing.100}",
-              "type": "spacing"
-            },
-            "iconSize": {
-              "value": "{ref.sizing.200}",
-              "type": "sizing"
-            },
-            "rightSide": {
-              "spacing": {
-                "value": "{ref.spacing.100}",
-                "type": "spacing"
-              },
-              "top": {
-                "container": {
-                  "paddingTop": {
-                    "value": "{ref.spacing.50}",
-                    "type": "spacing"
-                  },
-                  "label": {
-                    "paddingTop": {
-                      "value": "{ref.spacing.50}",
-                      "type": "spacing"
-                    }
-                  },
-                  "spacing": {
-                    "value": "{ref.spacing.100}",
-                    "type": "spacing"
-                  }
-                }
-              }
-            }
-          }
-        },
-        "md": {
-          "content": {
-            "spacing": {
-              "value": "{ref.spacing.200}",
-              "type": "spacing"
-            },
-            "iconSize": {
-              "value": "{ref.sizing.200}",
-              "type": "sizing"
-            },
-            "rightSide": {
-              "spacing": {
-                "value": "{ref.spacing.100}",
-                "type": "spacing"
-              },
-              "top": {
-                "container": {
-                  "paddingTop": {
-                    "value": "{ref.spacing.50}",
-                    "type": "spacing"
-                  },
-                  "label": {
-                    "paddingTop": {
-                      "value": "{ref.spacing.50}",
-                      "type": "spacing"
-                    }
-                  },
-                  "spacing": {
-                    "value": "{ref.spacing.100}",
-                    "type": "spacing"
-                  }
-                }
-              }
-            }
-          }
-        },
-        "lg": {
-          "content": {
-            "spacing": {
-              "value": "{ref.spacing.100}",
-              "type": "spacing"
-            },
-            "iconSize": {
-              "value": "{ref.sizing.200}",
-              "type": "sizing"
-            },
-            "rightSide": {
-              "spacing": {
-                "value": "{ref.spacing.100}",
-                "type": "spacing"
-              },
-              "top": {
-                "container": {
-                  "paddingTop": {
-                    "value": "{ref.spacing.50}",
-                    "type": "spacing"
-                  },
-                  "label": {
-                    "paddingTop": {
-                      "value": "{ref.spacing.50}",
-                      "type": "spacing"
-                    }
-                  },
-                  "spacing": {
-                    "value": "{ref.spacing.100}",
-                    "type": "spacing"
-                  }
-                }
-              }
-            }
-          }
+        "spacing": {
+          "value": "{ref.spacing.100}",
+          "type": "spacing"
         }
       }
     }
