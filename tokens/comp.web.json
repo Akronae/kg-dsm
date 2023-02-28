@@ -1105,6 +1105,160 @@
         }
       },
       "toggleCard": {
+        "default": {
+          "container": {
+            "value": {
+              "itemSpacing": "{sem.toggle.toggleCard.spacing}"
+            },
+            "type": "composition"
+          },
+          "card": {
+            "value": {
+              "horizontalPadding": "{sem.card.md.padding}",
+              "verticalPadding": "{sem.card.md.padding}",
+              "fill": "{sem.colorSurface.light}",
+              "borderRadiusTopLeft": "{sem.card.md.borderRadiusTopLeft}",
+              "borderRadiusTopRight": "{sem.card.md.borderRadiusTopRight}",
+              "borderRadiusBottomRight": "{sem.card.md.borderRadiusBottomRight}",
+              "borderRadiusBottomLeft": "{sem.card.md.borderRadiusBottomLeft}",
+              "border": "{sem.border.interactive.default}"
+            },
+            "type": "composition",
+            "description": "({extends: 'comp.card.md.uncontrasted.default'})"
+          }
+        },
+        "hover": {
+          "container": {
+            "value": {
+              "itemSpacing": "{sem.toggle.toggleCard.spacing}"
+            },
+            "type": "composition"
+          },
+          "card": {
+            "value": {
+              "horizontalPadding": "{sem.card.md.padding}",
+              "verticalPadding": "{sem.card.md.padding}",
+              "fill": "{sem.colorSurface.light}",
+              "borderRadiusTopLeft": "{sem.card.md.borderRadiusTopLeft}",
+              "borderRadiusTopRight": "{sem.card.md.borderRadiusTopRight}",
+              "borderRadiusBottomRight": "{sem.card.md.borderRadiusBottomRight}",
+              "borderRadiusBottomLeft": "{sem.card.md.borderRadiusBottomLeft}",
+              "border": "{sem.border.interactive.hover}"
+            },
+            "type": "composition",
+            "description": "({extends: 'comp.card.md.uncontrasted.hover'})"
+          }
+        },
+        "pressed": {
+          "container": {
+            "value": {
+              "itemSpacing": "{sem.toggle.toggleCard.spacing}"
+            },
+            "type": "composition"
+          },
+          "card": {
+            "value": {
+              "horizontalPadding": "{sem.card.md.padding}",
+              "verticalPadding": "{sem.card.md.padding}",
+              "fill": "{sem.colorSurface.light}",
+              "borderRadiusTopLeft": "{sem.card.md.borderRadiusTopLeft}",
+              "borderRadiusTopRight": "{sem.card.md.borderRadiusTopRight}",
+              "borderRadiusBottomRight": "{sem.card.md.borderRadiusBottomRight}",
+              "borderRadiusBottomLeft": "{sem.card.md.borderRadiusBottomLeft}",
+              "border": "{sem.border.interactive.pressed}"
+            },
+            "type": "composition",
+            "description": "({extends: 'comp.card.md.uncontrasted.pressed'})"
+          }
+        },
+        "active": {
+          "container": {
+            "value": {
+              "itemSpacing": "{sem.toggle.toggleCard.spacing}"
+            },
+            "type": "composition"
+          },
+          "card": {
+            "value": {
+              "horizontalPadding": "{sem.card.md.padding}",
+              "verticalPadding": "{sem.card.md.padding}",
+              "fill": "{sem.colorSurface.light}",
+              "borderRadiusTopLeft": "{sem.card.md.borderRadiusTopLeft}",
+              "borderRadiusTopRight": "{sem.card.md.borderRadiusTopRight}",
+              "borderRadiusBottomRight": "{sem.card.md.borderRadiusBottomRight}",
+              "borderRadiusBottomLeft": "{sem.card.md.borderRadiusBottomLeft}",
+              "border": "{sem.border.interactive.active}"
+            },
+            "type": "composition",
+            "description": "({extends: 'comp.card.md.uncontrasted.active'})"
+          }
+        },
+        "danger": {
+          "container": {
+            "value": {
+              "itemSpacing": "{sem.toggle.toggleCard.spacing}"
+            },
+            "type": "composition"
+          },
+          "card": {
+            "value": {
+              "horizontalPadding": "{sem.card.md.padding}",
+              "verticalPadding": "{sem.card.md.padding}",
+              "fill": "{sem.colorSurface.light}",
+              "borderRadiusTopLeft": "{sem.card.md.borderRadiusTopLeft}",
+              "borderRadiusTopRight": "{sem.card.md.borderRadiusTopRight}",
+              "borderRadiusBottomRight": "{sem.card.md.borderRadiusBottomRight}",
+              "borderRadiusBottomLeft": "{sem.card.md.borderRadiusBottomLeft}",
+              "border": "{sem.border.danger}"
+            },
+            "type": "composition",
+            "description": "({extends: 'comp.card.md.uncontrasted.danger'})"
+          }
+        },
+        "disabled": {
+          "container": {
+            "value": {
+              "itemSpacing": "{sem.toggle.toggleCard.spacing}"
+            },
+            "type": "composition"
+          },
+          "card": {
+            "value": {
+              "horizontalPadding": "{sem.card.md.padding}",
+              "verticalPadding": "{sem.card.md.padding}",
+              "fill": "{sem.colorSurface.light}",
+              "borderRadiusTopLeft": "{sem.card.md.borderRadiusTopLeft}",
+              "borderRadiusTopRight": "{sem.card.md.borderRadiusTopRight}",
+              "borderRadiusBottomRight": "{sem.card.md.borderRadiusBottomRight}",
+              "borderRadiusBottomLeft": "{sem.card.md.borderRadiusBottomLeft}",
+              "border": "{sem.border.interactive.disabled}"
+            },
+            "type": "composition",
+            "description": "({extends: 'comp.card.md.uncontrasted.disabled'})"
+          }
+        },
+        "forced": {
+          "container": {
+            "value": {
+              "itemSpacing": "{sem.toggle.toggleCard.spacing}"
+            },
+            "type": "composition"
+          },
+          "card": {
+            "value": {
+              "horizontalPadding": "{sem.card.md.padding}",
+              "verticalPadding": "{sem.card.md.padding}",
+              "fill": "{sem.colorSurface.light}",
+              "borderRadiusTopLeft": "{sem.card.md.borderRadiusTopLeft}",
+              "borderRadiusTopRight": "{sem.card.md.borderRadiusTopRight}",
+              "borderRadiusBottomRight": "{sem.card.md.borderRadiusBottomRight}",
+              "borderRadiusBottomLeft": "{sem.card.md.borderRadiusBottomLeft}",
+              "border": "{sem.border.forced}"
+            },
+            "type": "composition",
+            "description": "({extends: 'comp.card.md.uncontrasted.forced'})"
+          }
+        },
         "content": {
           "sm": {
             "container": {
@@ -13519,6 +13673,10 @@
         }
       },
       "toggleCard": {
+        "spacing": {
+          "value": "{ref.spacing.100}",
+          "type": "spacing"
+        },
         "content": {
           "sm": {
             "spacing": {

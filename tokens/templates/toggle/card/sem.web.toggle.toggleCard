@@ -2,7 +2,7 @@
 
 sem
 .toggle
-.card
+.toggleCard
 [
   {
     "spacing": {
