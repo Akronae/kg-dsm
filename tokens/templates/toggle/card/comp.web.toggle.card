@@ -8,9 +8,9 @@ comp
   {
     "container": {
       "value": {
-        "itemSpacing": "{sem.toggle.card.spacing}",
-        "type": "composition"
-      }
+        "itemSpacing": "{sem.toggle.card.spacing}"
+      },
+      "type": "composition"
     },
     "card": {
       "value": {},
