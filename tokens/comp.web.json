@@ -30,27 +30,35 @@
           "type": "composition"
         }
       },
-      "textWrapper": {
+      "rightSide": {
         "container": {
           "value": {
-            "paddingTop": "{sem.infobox.textWrapper.container.paddingTop}",
-            "itemSpacing": "{sem.infobox.textWrapper.container.spacing}"
+            "itemSpacing": "{sem.infobox.rightSide.container.spacing}"
           },
           "type": "composition"
         },
-        "title": {
-          "value": {
-            "typography": "{sem.typography.textStyle.label.body.md}",
-            "fill": "{sem.colorText.dark}"
+        "textWrapper": {
+          "container": {
+            "value": {
+              "paddingTop": "{sem.infobox.rightSide.textWrapper.container.paddingTop}",
+              "itemSpacing": "{sem.infobox.rightSide.textWrapper.container.spacing}"
+            },
+            "type": "composition"
           },
-          "type": "composition"
-        },
-        "description": {
-          "value": {
-            "typography": "{sem.typography.textStyle.paragraph.sm.default}",
-            "fill": "{sem.colorText.default}"
+          "title": {
+            "value": {
+              "typography": "{sem.typography.textStyle.label.body.md}",
+              "fill": "{sem.colorText.dark}"
+            },
+            "type": "composition"
           },
-          "type": "composition"
+          "description": {
+            "value": {
+              "typography": "{sem.typography.textStyle.paragraph.sm.default}",
+              "fill": "{sem.colorText.default}"
+            },
+            "type": "composition"
+          }
         }
       }
     },
@@ -14106,15 +14114,23 @@
           "type": "sizing"
         }
       },
-      "textWrapper": {
+      "rightSide": {
         "container": {
-          "paddingTop": {
-            "value": "{ref.spacing.50}",
-            "type": "spacing"
-          },
           "spacing": {
             "value": "{ref.spacing.200}",
-            "type": "spacing"
+            "type": "sizing"
+          }
+        },
+        "textWrapper": {
+          "container": {
+            "paddingTop": {
+              "value": "{ref.spacing.50}",
+              "type": "spacing"
+            },
+            "spacing": {
+              "value": "{ref.spacing.100}",
+              "type": "spacing"
+            }
           }
         }
       }
