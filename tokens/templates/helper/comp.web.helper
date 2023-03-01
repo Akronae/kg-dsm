@@ -28,7 +28,7 @@ comp
     "textWrapper": {
       "container": {
         "value": {
-          "paddingTop": "{sem.helper.textWrapper.paddingTop}",
+          "paddingTop": "{sem.helper.textWrapper.paddingTop}"
         },
         "type": "composition"
       },
