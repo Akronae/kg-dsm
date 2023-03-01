@@ -22,7 +22,7 @@ comp
     "iconSize": {
       "value": {
         "width": "{sem.link.<<size>>.iconSize}",
-        "height"; "{sem.link.<<size>>.iconSize}"
+        "height": "{sem.link.<<size>>.iconSize}"
       },
       "type": "composition"
     },
