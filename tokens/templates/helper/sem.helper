@@ -19,7 +19,7 @@ sem
     "textWrapper": {
       "paddingTop": {
         "value": "{ref.spacing.50}",
-        "type": "composition"
+        "type": "spacing"
       }
     }
   }
