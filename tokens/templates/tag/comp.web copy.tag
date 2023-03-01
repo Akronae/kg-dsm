@@ -10,11 +10,11 @@ sem
         "type": "borderRadius"
       },
       "padding": {
-        "value": "{ref.sapcing.100}",
+        "value": "{ref.spacing.100}",
         "type": "spacing"
       },
       "spacing": {
-        "value": "{ref.sapcing.100}",
+        "value": "{ref.spacing.100}",
         "type": "spacing"
       }
     }
