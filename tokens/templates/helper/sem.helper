@@ -1,0 +1,26 @@
+// @replacepath: tokens/comp.web.json
+
+sem
+.helper
+[
+  {
+    "container": {
+      "spacing": {
+        "value": "{ref.sapcing.100}",
+        "type": "spacing"
+      }
+    },
+    "icon": {
+      "size": {
+        "value": "{ref.sizing.200}",
+        "type": "size"
+      }
+    },
+    "textWrapper": {
+      "paddingTop": {
+        "value": "{ref.spacing.50}",
+        "type": "composition"
+      }
+    }
+  }
+]
