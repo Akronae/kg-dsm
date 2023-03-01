@@ -1188,7 +1188,7 @@
                 "borderRadiusTopRight": "{sem.card.md.borderRadiusTopRight}",
                 "borderRadiusBottomRight": "{sem.card.md.borderRadiusBottomRight}",
                 "borderRadiusBottomLeft": "{sem.card.md.borderRadiusBottomLeft}",
-                "border": "{sem.border.interactive.default}"
+                "border": "undefined"
               },
               "type": "composition",
               "description": "({extends: 'comp.card.md.uncontrasted.default'})"
@@ -1210,7 +1210,7 @@
                 "borderRadiusTopRight": "{sem.card.md.borderRadiusTopRight}",
                 "borderRadiusBottomRight": "{sem.card.md.borderRadiusBottomRight}",
                 "borderRadiusBottomLeft": "{sem.card.md.borderRadiusBottomLeft}",
-                "border": "{sem.border.interactive.hover}"
+                "border": "undefined"
               },
               "type": "composition",
               "description": "({extends: 'comp.card.md.uncontrasted.hover'})"
@@ -1232,7 +1232,7 @@
                 "borderRadiusTopRight": "{sem.card.md.borderRadiusTopRight}",
                 "borderRadiusBottomRight": "{sem.card.md.borderRadiusBottomRight}",
                 "borderRadiusBottomLeft": "{sem.card.md.borderRadiusBottomLeft}",
-                "border": "{sem.border.interactive.pressed}"
+                "border": "undefined"
               },
               "type": "composition",
               "description": "({extends: 'comp.card.md.uncontrasted.pressed'})"
@@ -1254,7 +1254,7 @@
                 "borderRadiusTopRight": "{sem.card.md.borderRadiusTopRight}",
                 "borderRadiusBottomRight": "{sem.card.md.borderRadiusBottomRight}",
                 "borderRadiusBottomLeft": "{sem.card.md.borderRadiusBottomLeft}",
-                "border": "{sem.border.interactive.active}"
+                "border": "{sem.border.active}"
               },
               "type": "composition",
               "description": "({extends: 'comp.card.md.uncontrasted.active'})"
@@ -1298,7 +1298,7 @@
                 "borderRadiusTopRight": "{sem.card.md.borderRadiusTopRight}",
                 "borderRadiusBottomRight": "{sem.card.md.borderRadiusBottomRight}",
                 "borderRadiusBottomLeft": "{sem.card.md.borderRadiusBottomLeft}",
-                "border": "{sem.border.interactive.disabled}"
+                "border": "undefined"
               },
               "type": "composition",
               "description": "({extends: 'comp.card.md.uncontrasted.disabled'})"
@@ -6525,7 +6525,7 @@
               "borderRadiusTopRight": "{sem.card.xs.borderRadiusTopRight}",
               "borderRadiusBottomRight": "{sem.card.xs.borderRadiusBottomRight}",
               "borderRadiusBottomLeft": "{sem.card.xs.borderRadiusBottomLeft}",
-              "border": "{sem.border.interactive.default}"
+              "border": "undefined"
             },
             "type": "composition"
           },
@@ -6538,7 +6538,7 @@
               "borderRadiusTopRight": "{sem.card.xs.borderRadiusTopRight}",
               "borderRadiusBottomRight": "{sem.card.xs.borderRadiusBottomRight}",
               "borderRadiusBottomLeft": "{sem.card.xs.borderRadiusBottomLeft}",
-              "border": "{sem.border.interactive.hover}"
+              "border": "undefined"
             },
             "type": "composition"
           },
@@ -6551,7 +6551,7 @@
               "borderRadiusTopRight": "{sem.card.xs.borderRadiusTopRight}",
               "borderRadiusBottomRight": "{sem.card.xs.borderRadiusBottomRight}",
               "borderRadiusBottomLeft": "{sem.card.xs.borderRadiusBottomLeft}",
-              "border": "{sem.border.interactive.pressed}"
+              "border": "undefined"
             },
             "type": "composition"
           },
@@ -6564,7 +6564,7 @@
               "borderRadiusTopRight": "{sem.card.xs.borderRadiusTopRight}",
               "borderRadiusBottomRight": "{sem.card.xs.borderRadiusBottomRight}",
               "borderRadiusBottomLeft": "{sem.card.xs.borderRadiusBottomLeft}",
-              "border": "none"
+              "border": "undefined"
             },
             "type": "composition"
           },
@@ -6590,7 +6590,7 @@
               "borderRadiusTopRight": "{sem.card.xs.borderRadiusTopRight}",
               "borderRadiusBottomRight": "{sem.card.xs.borderRadiusBottomRight}",
               "borderRadiusBottomLeft": "{sem.card.xs.borderRadiusBottomLeft}",
-              "border": "{sem.border.interactive.active}"
+              "border": "{sem.border.active}"
             },
             "type": "composition"
           },
@@ -6616,7 +6616,7 @@
               "borderRadiusTopRight": "{sem.card.xs.borderRadiusTopRight}",
               "borderRadiusBottomRight": "{sem.card.xs.borderRadiusBottomRight}",
               "borderRadiusBottomLeft": "{sem.card.xs.borderRadiusBottomLeft}",
-              "border": "{sem.border.interactive.disabled}"
+              "border": "undefined"
             },
             "type": "composition"
           }
@@ -6739,7 +6739,7 @@
               "borderRadiusTopRight": "{sem.card.sm.borderRadiusTopRight}",
               "borderRadiusBottomRight": "{sem.card.sm.borderRadiusBottomRight}",
               "borderRadiusBottomLeft": "{sem.card.sm.borderRadiusBottomLeft}",
-              "border": "{sem.border.interactive.default}"
+              "border": "undefined"
             },
             "type": "composition"
           },
@@ -6752,7 +6752,7 @@
               "borderRadiusTopRight": "{sem.card.sm.borderRadiusTopRight}",
               "borderRadiusBottomRight": "{sem.card.sm.borderRadiusBottomRight}",
               "borderRadiusBottomLeft": "{sem.card.sm.borderRadiusBottomLeft}",
-              "border": "{sem.border.interactive.hover}"
+              "border": "undefined"
             },
             "type": "composition"
           },
@@ -6765,7 +6765,7 @@
               "borderRadiusTopRight": "{sem.card.sm.borderRadiusTopRight}",
               "borderRadiusBottomRight": "{sem.card.sm.borderRadiusBottomRight}",
               "borderRadiusBottomLeft": "{sem.card.sm.borderRadiusBottomLeft}",
-              "border": "{sem.border.interactive.pressed}"
+              "border": "undefined"
             },
             "type": "composition"
           },
@@ -6778,7 +6778,7 @@
               "borderRadiusTopRight": "{sem.card.sm.borderRadiusTopRight}",
               "borderRadiusBottomRight": "{sem.card.sm.borderRadiusBottomRight}",
               "borderRadiusBottomLeft": "{sem.card.sm.borderRadiusBottomLeft}",
-              "border": "none"
+              "border": "undefined"
             },
             "type": "composition"
           },
@@ -6804,7 +6804,7 @@
               "borderRadiusTopRight": "{sem.card.sm.borderRadiusTopRight}",
               "borderRadiusBottomRight": "{sem.card.sm.borderRadiusBottomRight}",
               "borderRadiusBottomLeft": "{sem.card.sm.borderRadiusBottomLeft}",
-              "border": "{sem.border.interactive.active}"
+              "border": "{sem.border.active}"
             },
             "type": "composition"
           },
@@ -6830,7 +6830,7 @@
               "borderRadiusTopRight": "{sem.card.sm.borderRadiusTopRight}",
               "borderRadiusBottomRight": "{sem.card.sm.borderRadiusBottomRight}",
               "borderRadiusBottomLeft": "{sem.card.sm.borderRadiusBottomLeft}",
-              "border": "{sem.border.interactive.disabled}"
+              "border": "undefined"
             },
             "type": "composition"
           }
@@ -6953,7 +6953,7 @@
               "borderRadiusTopRight": "{sem.card.md.borderRadiusTopRight}",
               "borderRadiusBottomRight": "{sem.card.md.borderRadiusBottomRight}",
               "borderRadiusBottomLeft": "{sem.card.md.borderRadiusBottomLeft}",
-              "border": "{sem.border.interactive.default}"
+              "border": "undefined"
             },
             "type": "composition"
           },
@@ -6966,7 +6966,7 @@
               "borderRadiusTopRight": "{sem.card.md.borderRadiusTopRight}",
               "borderRadiusBottomRight": "{sem.card.md.borderRadiusBottomRight}",
               "borderRadiusBottomLeft": "{sem.card.md.borderRadiusBottomLeft}",
-              "border": "{sem.border.interactive.hover}"
+              "border": "undefined"
             },
             "type": "composition"
           },
@@ -6979,7 +6979,7 @@
               "borderRadiusTopRight": "{sem.card.md.borderRadiusTopRight}",
               "borderRadiusBottomRight": "{sem.card.md.borderRadiusBottomRight}",
               "borderRadiusBottomLeft": "{sem.card.md.borderRadiusBottomLeft}",
-              "border": "{sem.border.interactive.pressed}"
+              "border": "undefined"
             },
             "type": "composition"
           },
@@ -6992,7 +6992,7 @@
               "borderRadiusTopRight": "{sem.card.md.borderRadiusTopRight}",
               "borderRadiusBottomRight": "{sem.card.md.borderRadiusBottomRight}",
               "borderRadiusBottomLeft": "{sem.card.md.borderRadiusBottomLeft}",
-              "border": "none"
+              "border": "undefined"
             },
             "type": "composition"
           },
@@ -7018,7 +7018,7 @@
               "borderRadiusTopRight": "{sem.card.md.borderRadiusTopRight}",
               "borderRadiusBottomRight": "{sem.card.md.borderRadiusBottomRight}",
               "borderRadiusBottomLeft": "{sem.card.md.borderRadiusBottomLeft}",
-              "border": "{sem.border.interactive.active}"
+              "border": "{sem.border.active}"
             },
             "type": "composition"
           },
@@ -7044,7 +7044,7 @@
               "borderRadiusTopRight": "{sem.card.md.borderRadiusTopRight}",
               "borderRadiusBottomRight": "{sem.card.md.borderRadiusBottomRight}",
               "borderRadiusBottomLeft": "{sem.card.md.borderRadiusBottomLeft}",
-              "border": "{sem.border.interactive.disabled}"
+              "border": "undefined"
             },
             "type": "composition"
           }
@@ -7253,7 +7253,7 @@
                   "borderRadiusTopRight": "{sem.card.xs.borderRadiusTopRight}",
                   "borderRadiusBottomRight": "{sem.card.xs.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.xs.borderRadiusBottomLeft}",
-                  "border": "{sem.border.interactive.default}",
+                  "border": "undefined",
                   "itemSpacing": "{sem.input.sm.fieldWrapper.spacer}"
                 },
                 "type": "composition",
@@ -7320,7 +7320,7 @@
                   "borderRadiusTopRight": "{sem.card.xs.borderRadiusTopRight}",
                   "borderRadiusBottomRight": "{sem.card.xs.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.xs.borderRadiusBottomLeft}",
-                  "border": "{sem.border.interactive.hover}",
+                  "border": "undefined",
                   "itemSpacing": "{sem.input.sm.fieldWrapper.spacer}"
                 },
                 "type": "composition",
@@ -7387,7 +7387,7 @@
                   "borderRadiusTopRight": "{sem.card.xs.borderRadiusTopRight}",
                   "borderRadiusBottomRight": "{sem.card.xs.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.xs.borderRadiusBottomLeft}",
-                  "border": "{sem.border.interactive.pressed}",
+                  "border": "undefined",
                   "itemSpacing": "{sem.input.sm.fieldWrapper.spacer}"
                 },
                 "type": "composition",
@@ -7454,7 +7454,7 @@
                   "borderRadiusTopRight": "{sem.card.xs.borderRadiusTopRight}",
                   "borderRadiusBottomRight": "{sem.card.xs.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.xs.borderRadiusBottomLeft}",
-                  "border": "{sem.border.interactive.active}",
+                  "border": "{sem.border.active}",
                   "itemSpacing": "{sem.input.sm.fieldWrapper.spacer}"
                 },
                 "type": "composition",
@@ -7588,7 +7588,7 @@
                   "borderRadiusTopRight": "{sem.card.xs.borderRadiusTopRight}",
                   "borderRadiusBottomRight": "{sem.card.xs.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.xs.borderRadiusBottomLeft}",
-                  "border": "{sem.border.interactive.disabled}",
+                  "border": "undefined",
                   "itemSpacing": "{sem.input.sm.fieldWrapper.spacer}"
                 },
                 "type": "composition",
@@ -8063,7 +8063,7 @@
                   "borderRadiusTopRight": "{sem.card.sm.borderRadiusTopRight}",
                   "borderRadiusBottomRight": "{sem.card.sm.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.sm.borderRadiusBottomLeft}",
-                  "border": "{sem.border.interactive.default}",
+                  "border": "undefined",
                   "itemSpacing": "{sem.input.md.fieldWrapper.spacer}"
                 },
                 "type": "composition",
@@ -8130,7 +8130,7 @@
                   "borderRadiusTopRight": "{sem.card.sm.borderRadiusTopRight}",
                   "borderRadiusBottomRight": "{sem.card.sm.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.sm.borderRadiusBottomLeft}",
-                  "border": "{sem.border.interactive.hover}",
+                  "border": "undefined",
                   "itemSpacing": "{sem.input.md.fieldWrapper.spacer}"
                 },
                 "type": "composition",
@@ -8197,7 +8197,7 @@
                   "borderRadiusTopRight": "{sem.card.sm.borderRadiusTopRight}",
                   "borderRadiusBottomRight": "{sem.card.sm.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.sm.borderRadiusBottomLeft}",
-                  "border": "{sem.border.interactive.pressed}",
+                  "border": "undefined",
                   "itemSpacing": "{sem.input.md.fieldWrapper.spacer}"
                 },
                 "type": "composition",
@@ -8264,7 +8264,7 @@
                   "borderRadiusTopRight": "{sem.card.sm.borderRadiusTopRight}",
                   "borderRadiusBottomRight": "{sem.card.sm.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.sm.borderRadiusBottomLeft}",
-                  "border": "{sem.border.interactive.active}",
+                  "border": "{sem.border.active}",
                   "itemSpacing": "{sem.input.md.fieldWrapper.spacer}"
                 },
                 "type": "composition",
@@ -8398,7 +8398,7 @@
                   "borderRadiusTopRight": "{sem.card.sm.borderRadiusTopRight}",
                   "borderRadiusBottomRight": "{sem.card.sm.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.sm.borderRadiusBottomLeft}",
-                  "border": "{sem.border.interactive.disabled}",
+                  "border": "undefined",
                   "itemSpacing": "{sem.input.md.fieldWrapper.spacer}"
                 },
                 "type": "composition",

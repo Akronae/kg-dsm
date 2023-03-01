@@ -15,7 +15,7 @@ comp
       "borderRadiusTopRight": "{sem.card.<<size>>.borderRadiusTopRight}",
       "borderRadiusBottomRight": "{sem.card.<<size>>.borderRadiusBottomRight}",
       "borderRadiusBottomLeft": "{sem.card.<<size>>.borderRadiusBottomLeft}",
-      "border": "<< contrast == 'uncontracted' ? ({danger : '{sem.border.danger}', active : '{sem.border.active}', forced: '{sem.border.forced}' })[state] : ({ default: '{sem.border.interactive.default}', hover: '{sem.border.interactive.hover}', pressed: '{sem.border.interactive.pressed}', open: 'none', active: '{sem.border.interactive.active}', danger: '{sem.border.danger}', disabled: '{sem.border.interactive.disabled}', forced: '{sem.border.forced}' })[state] >>"
+      "border": "<< contrast == 'uncontrasted' ? ({danger : '{sem.border.danger}', active : '{sem.border.active}', forced: '{sem.border.forced}' })[state] : ({ default: '{sem.border.interactive.default}', hover: '{sem.border.interactive.hover}', pressed: '{sem.border.interactive.pressed}', open: 'none', active: '{sem.border.interactive.active}', danger: '{sem.border.danger}', disabled: '{sem.border.interactive.disabled}', forced: '{sem.border.forced}' })[state] || 'none'  >>"
     },
     "type": "composition"
   }
