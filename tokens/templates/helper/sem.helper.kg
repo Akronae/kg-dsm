@@ -18,7 +18,7 @@ sem
     },
     "textWrapper": {
       "paddingTop": {
-        "value": "{ref.spacing.50}",
+        "value": "{ref.spacing.25}",
         "type": "spacing"
       }
     }
