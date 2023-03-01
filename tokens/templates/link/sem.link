@@ -5,9 +5,11 @@ sem
 [size: 'sm' | 'md' ]
 [
   {
-    "spacing": {
-      "value": "{ref.spacing.50}",
-      "type": "spacing"
+    "container": {
+      "spacing": {
+        "value": "{ref.spacing.50}",
+        "type": "spacing"
+      }
     },
     "iconSize": {
       "value": "{<< ({sm: 'ref.sizing.90', md: 'ref.sizing.100'})[size] >>}",

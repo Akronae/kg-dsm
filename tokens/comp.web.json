@@ -13755,9 +13755,11 @@
     },
     "link": {
       "sm": {
-        "spacing": {
-          "value": "{ref.spacing.50}",
-          "type": "spacing"
+        "container": {
+          "spacing": {
+            "value": "{ref.spacing.50}",
+            "type": "spacing"
+          }
         },
         "iconSize": {
           "value": "{ref.sizing.90}",
@@ -13765,9 +13767,11 @@
         }
       },
       "md": {
-        "spacing": {
-          "value": "{ref.spacing.50}",
-          "type": "spacing"
+        "container": {
+          "spacing": {
+            "value": "{ref.spacing.50}",
+            "type": "spacing"
+          }
         },
         "iconSize": {
           "value": "{ref.sizing.100}",
