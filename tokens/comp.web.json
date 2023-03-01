@@ -1578,7 +1578,7 @@
           },
           "iconColor": {
             "value": {
-              "border": "{sem.borderIcon.sm.interactive.disabled}"
+              "border": "{sem.borderIcon.sm.interactive.pressed}"
             },
             "type": "composition"
           }
@@ -1606,7 +1606,7 @@
           },
           "iconColor": {
             "value": {
-              "border": "{sem.borderIcon.sm.interactive.disabled}"
+              "border": "{sem.borderIcon.sm.interactive.pressed}"
             },
             "type": "composition"
           }
