@@ -43,6 +43,8 @@ function regenAll(templates) {
 
   for (const template of templates) {
     if (!fs.statSync(template).isFile()) continue;
+    utils.log(utils.gray("computing order of", template));
+
     const content = fs.readFileSync(template, "utf8");
     const proc = templateProc.generate(template, { output: "none" });
     const tokens = templateParser.parse(content);
@@ -66,8 +68,8 @@ function regenAll(templates) {
           (a, b) => b.propsPath.join(".").length - a.propsPath.join(".").length
         )
         .find((p) => comp.includes(p.propsPath.join(".")));
-
-      if (!extendedTemplates.includes(a.path)) extendedTemplates.push(a.path);
+      
+      if (a && !extendedTemplates.includes(a.path)) extendedTemplates.push(a.path);
     }
     p.extendedTemplates = extendedTemplates;
     delete p.extendedComps;
