@@ -13030,7 +13030,7 @@
         "sm": {
           "container": {
             "value": {
-              "itemSpacing": "{sem.link.container.spacing}"
+              "itemSpacing": "{sem.link.sm.container.spacing}"
             },
             "type": "composition"
           },
@@ -13058,7 +13058,7 @@
         "md": {
           "container": {
             "value": {
-              "itemSpacing": "{sem.link.container.spacing}"
+              "itemSpacing": "{sem.link.md.container.spacing}"
             },
             "type": "composition"
           },
@@ -13088,7 +13088,7 @@
         "sm": {
           "container": {
             "value": {
-              "itemSpacing": "{sem.link.container.spacing}"
+              "itemSpacing": "{sem.link.sm.container.spacing}"
             },
             "type": "composition"
           },
@@ -13116,7 +13116,7 @@
         "md": {
           "container": {
             "value": {
-              "itemSpacing": "{sem.link.container.spacing}"
+              "itemSpacing": "{sem.link.md.container.spacing}"
             },
             "type": "composition"
           },
@@ -13146,7 +13146,7 @@
         "sm": {
           "container": {
             "value": {
-              "itemSpacing": "{sem.link.container.spacing}"
+              "itemSpacing": "{sem.link.sm.container.spacing}"
             },
             "type": "composition"
           },
@@ -13174,7 +13174,7 @@
         "md": {
           "container": {
             "value": {
-              "itemSpacing": "{sem.link.container.spacing}"
+              "itemSpacing": "{sem.link.md.container.spacing}"
             },
             "type": "composition"
           },
@@ -13204,7 +13204,7 @@
         "sm": {
           "container": {
             "value": {
-              "itemSpacing": "{sem.link.container.spacing}"
+              "itemSpacing": "{sem.link.sm.container.spacing}"
             },
             "type": "composition"
           },
@@ -13232,7 +13232,7 @@
         "md": {
           "container": {
             "value": {
-              "itemSpacing": "{sem.link.container.spacing}"
+              "itemSpacing": "{sem.link.md.container.spacing}"
             },
             "type": "composition"
           },

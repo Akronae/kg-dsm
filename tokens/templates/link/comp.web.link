@@ -8,7 +8,7 @@ comp
   {
     "container": {
       "value": {
-        "itemSpacing": "{sem.link.container.spacing}"
+        "itemSpacing": "{sem.link.<<size>>.container.spacing}"
       },
       "type": "composition"
     },
