@@ -18,7 +18,7 @@ comp
     "text": {
       "value": {
         "typography": "{sem.typography.textStyle.label.body.sm}",
-        "fill": "{sem.colorText.<< ({white: 'dark', greyLight: 'dark', redLight: 'danger'})[size] || 'light' >>}"
+        "fill": "{sem.colorText.<< ({white: 'dark', greyLight: 'dark', redLight: 'danger'})[color] || 'light' >>}"
       },
       "type": "composition"
     }
