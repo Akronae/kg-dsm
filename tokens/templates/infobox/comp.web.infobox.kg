@@ -38,7 +38,7 @@ comp
         },
         "type": "composition"
       },
-      "title": {
+      "description": {
         "value": {
           "typography": "{sem.typography.textStyle.paragraph.sm.default}",
           "fill": "{sem.colorText.default}"
