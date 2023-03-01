@@ -1,0 +1,7 @@
+{
+    "files.defaultLanguage": "coffeescript",
+    "files.associations": {
+      "*.kg": "coffeescript",
+      "": "coffeescript"
+    }
+}
