@@ -12440,6 +12440,12 @@
         "sm": {
           "uncontrasted": {
             "default": {
+              "wrapper": {
+                "value": {
+                  "border": "undefined"
+                },
+                "type": "composition"
+              },
               "select": {
                 "fieldWrapper": {
                   "value": {
@@ -12476,6 +12482,12 @@
               }
             },
             "hover": {
+              "wrapper": {
+                "value": {
+                  "border": "undefined"
+                },
+                "type": "composition"
+              },
               "select": {
                 "fieldWrapper": {
                   "value": {
@@ -12512,6 +12524,12 @@
               }
             },
             "pressed": {
+              "wrapper": {
+                "value": {
+                  "border": "undefined"
+                },
+                "type": "composition"
+              },
               "select": {
                 "fieldWrapper": {
                   "value": {
@@ -12548,6 +12566,12 @@
               }
             },
             "active": {
+              "wrapper": {
+                "value": {
+                  "border": "{sem.border.active}"
+                },
+                "type": "composition"
+              },
               "select": {
                 "fieldWrapper": {
                   "value": {
@@ -12584,6 +12608,12 @@
               }
             },
             "danger": {
+              "wrapper": {
+                "value": {
+                  "border": "{sem.border.danger}"
+                },
+                "type": "composition"
+              },
               "select": {
                 "fieldWrapper": {
                   "value": {
@@ -12620,6 +12650,12 @@
               }
             },
             "disabled": {
+              "wrapper": {
+                "value": {
+                  "border": "undefined"
+                },
+                "type": "composition"
+              },
               "select": {
                 "fieldWrapper": {
                   "value": {
@@ -12658,6 +12694,12 @@
           },
           "contrasted": {
             "default": {
+              "wrapper": {
+                "value": {
+                  "border": "{sem.border.interactive.default}"
+                },
+                "type": "composition"
+              },
               "select": {
                 "fieldWrapper": {
                   "value": {
@@ -12694,6 +12736,12 @@
               }
             },
             "hover": {
+              "wrapper": {
+                "value": {
+                  "border": "{sem.border.interactive.hover}"
+                },
+                "type": "composition"
+              },
               "select": {
                 "fieldWrapper": {
                   "value": {
@@ -12730,6 +12778,12 @@
               }
             },
             "pressed": {
+              "wrapper": {
+                "value": {
+                  "border": "{sem.border.interactive.pressed}"
+                },
+                "type": "composition"
+              },
               "select": {
                 "fieldWrapper": {
                   "value": {
@@ -12766,6 +12820,12 @@
               }
             },
             "active": {
+              "wrapper": {
+                "value": {
+                  "border": "{sem.border.interactive.active}"
+                },
+                "type": "composition"
+              },
               "select": {
                 "fieldWrapper": {
                   "value": {
@@ -12802,6 +12862,12 @@
               }
             },
             "danger": {
+              "wrapper": {
+                "value": {
+                  "border": "{sem.border.danger}"
+                },
+                "type": "composition"
+              },
               "select": {
                 "fieldWrapper": {
                   "value": {
@@ -12838,6 +12904,12 @@
               }
             },
             "disabled": {
+              "wrapper": {
+                "value": {
+                  "border": "{sem.border.interactive.disabled}"
+                },
+                "type": "composition"
+              },
               "select": {
                 "fieldWrapper": {
                   "value": {
@@ -12878,6 +12950,12 @@
         "md": {
           "uncontrasted": {
             "default": {
+              "wrapper": {
+                "value": {
+                  "border": "undefined"
+                },
+                "type": "composition"
+              },
               "select": {
                 "fieldWrapper": {
                   "value": {
@@ -12914,6 +12992,12 @@
               }
             },
             "hover": {
+              "wrapper": {
+                "value": {
+                  "border": "undefined"
+                },
+                "type": "composition"
+              },
               "select": {
                 "fieldWrapper": {
                   "value": {
@@ -12950,6 +13034,12 @@
               }
             },
             "pressed": {
+              "wrapper": {
+                "value": {
+                  "border": "undefined"
+                },
+                "type": "composition"
+              },
               "select": {
                 "fieldWrapper": {
                   "value": {
@@ -12986,6 +13076,12 @@
               }
             },
             "active": {
+              "wrapper": {
+                "value": {
+                  "border": "{sem.border.active}"
+                },
+                "type": "composition"
+              },
               "select": {
                 "fieldWrapper": {
                   "value": {
@@ -13022,6 +13118,12 @@
               }
             },
             "danger": {
+              "wrapper": {
+                "value": {
+                  "border": "{sem.border.danger}"
+                },
+                "type": "composition"
+              },
               "select": {
                 "fieldWrapper": {
                   "value": {
@@ -13058,6 +13160,12 @@
               }
             },
             "disabled": {
+              "wrapper": {
+                "value": {
+                  "border": "undefined"
+                },
+                "type": "composition"
+              },
               "select": {
                 "fieldWrapper": {
                   "value": {
@@ -13096,6 +13204,12 @@
           },
           "contrasted": {
             "default": {
+              "wrapper": {
+                "value": {
+                  "border": "{sem.border.interactive.default}"
+                },
+                "type": "composition"
+              },
               "select": {
                 "fieldWrapper": {
                   "value": {
@@ -13132,6 +13246,12 @@
               }
             },
             "hover": {
+              "wrapper": {
+                "value": {
+                  "border": "{sem.border.interactive.hover}"
+                },
+                "type": "composition"
+              },
               "select": {
                 "fieldWrapper": {
                   "value": {
@@ -13168,6 +13288,12 @@
               }
             },
             "pressed": {
+              "wrapper": {
+                "value": {
+                  "border": "{sem.border.interactive.pressed}"
+                },
+                "type": "composition"
+              },
               "select": {
                 "fieldWrapper": {
                   "value": {
@@ -13204,6 +13330,12 @@
               }
             },
             "active": {
+              "wrapper": {
+                "value": {
+                  "border": "{sem.border.interactive.active}"
+                },
+                "type": "composition"
+              },
               "select": {
                 "fieldWrapper": {
                   "value": {
@@ -13240,6 +13372,12 @@
               }
             },
             "danger": {
+              "wrapper": {
+                "value": {
+                  "border": "{sem.border.danger}"
+                },
+                "type": "composition"
+              },
               "select": {
                 "fieldWrapper": {
                   "value": {
@@ -13276,6 +13414,12 @@
               }
             },
             "disabled": {
+              "wrapper": {
+                "value": {
+                  "border": "{sem.border.interactive.disabled}"
+                },
+                "type": "composition"
+              },
               "select": {
                 "fieldWrapper": {
                   "value": {
