@@ -10,18 +10,7 @@
         "type": "composition"
       }
     },
-    "infobox": {
-      "default": {
-        "value": {
-          "verticalPadding": "{ref.spacing.200}",
-          "horizontalPadding": "{ref.spacing.200}",
-          "spacing": "{ref.spacing.200}",
-          "fill": "{sem.colorSurface.sub}",
-          "borderRadius": "{ref.borderRadius.300}"
-        },
-        "type": "composition"
-      }
-    },
+    "infobox": {},
     "tooltip": {
       "default": {
         "value": {
@@ -14036,7 +14025,7 @@
     "helper": {
       "container": {
         "spacing": {
-          "value": "{ref.sapcing.100}",
+          "value": "{ref.spacing.100}",
           "type": "spacing"
         }
       },
