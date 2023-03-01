@@ -11,7 +11,7 @@ comp
         "fill": "{sem.colorTag.<<color>>}",
         "vertialPadding": "{sem.tag.container.padding}",
         "horizontalPadding": "{sem.tag.container.padding}",
-        "itemSpacing": "{sem.tag.conainer.spacing}"
+        "itemSpacing": "{sem.tag.container.spacing}"
       },
       "type": "composition"
     },

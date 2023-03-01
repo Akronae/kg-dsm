@@ -13267,7 +13267,7 @@
             "fill": "{sem.colorTag.primary}",
             "vertialPadding": "{sem.tag.container.padding}",
             "horizontalPadding": "{sem.tag.container.padding}",
-            "itemSpacing": "{sem.tag.conainer.spacing}"
+            "itemSpacing": "{sem.tag.container.spacing}"
           },
           "type": "composition"
         },
@@ -13286,7 +13286,7 @@
             "fill": "{sem.colorTag.black}",
             "vertialPadding": "{sem.tag.container.padding}",
             "horizontalPadding": "{sem.tag.container.padding}",
-            "itemSpacing": "{sem.tag.conainer.spacing}"
+            "itemSpacing": "{sem.tag.container.spacing}"
           },
           "type": "composition"
         },
@@ -13305,7 +13305,7 @@
             "fill": "{sem.colorTag.grey}",
             "vertialPadding": "{sem.tag.container.padding}",
             "horizontalPadding": "{sem.tag.container.padding}",
-            "itemSpacing": "{sem.tag.conainer.spacing}"
+            "itemSpacing": "{sem.tag.container.spacing}"
           },
           "type": "composition"
         },
@@ -13324,7 +13324,7 @@
             "fill": "{sem.colorTag.greyLight}",
             "vertialPadding": "{sem.tag.container.padding}",
             "horizontalPadding": "{sem.tag.container.padding}",
-            "itemSpacing": "{sem.tag.conainer.spacing}"
+            "itemSpacing": "{sem.tag.container.spacing}"
           },
           "type": "composition"
         },
@@ -13343,7 +13343,7 @@
             "fill": "{sem.colorTag.white}",
             "vertialPadding": "{sem.tag.container.padding}",
             "horizontalPadding": "{sem.tag.container.padding}",
-            "itemSpacing": "{sem.tag.conainer.spacing}"
+            "itemSpacing": "{sem.tag.container.spacing}"
           },
           "type": "composition"
         },
@@ -13362,7 +13362,7 @@
             "fill": "{sem.colorTag.blue}",
             "vertialPadding": "{sem.tag.container.padding}",
             "horizontalPadding": "{sem.tag.container.padding}",
-            "itemSpacing": "{sem.tag.conainer.spacing}"
+            "itemSpacing": "{sem.tag.container.spacing}"
           },
           "type": "composition"
         },
@@ -13381,7 +13381,7 @@
             "fill": "{sem.colorTag.green}",
             "vertialPadding": "{sem.tag.container.padding}",
             "horizontalPadding": "{sem.tag.container.padding}",
-            "itemSpacing": "{sem.tag.conainer.spacing}"
+            "itemSpacing": "{sem.tag.container.spacing}"
           },
           "type": "composition"
         },
@@ -13400,7 +13400,7 @@
             "fill": "{sem.colorTag.greenDark}",
             "vertialPadding": "{sem.tag.container.padding}",
             "horizontalPadding": "{sem.tag.container.padding}",
-            "itemSpacing": "{sem.tag.conainer.spacing}"
+            "itemSpacing": "{sem.tag.container.spacing}"
           },
           "type": "composition"
         },
@@ -13419,7 +13419,7 @@
             "fill": "{sem.colorTag.red}",
             "vertialPadding": "{sem.tag.container.padding}",
             "horizontalPadding": "{sem.tag.container.padding}",
-            "itemSpacing": "{sem.tag.conainer.spacing}"
+            "itemSpacing": "{sem.tag.container.spacing}"
           },
           "type": "composition"
         },
@@ -13438,7 +13438,7 @@
             "fill": "{sem.colorTag.redDark}",
             "vertialPadding": "{sem.tag.container.padding}",
             "horizontalPadding": "{sem.tag.container.padding}",
-            "itemSpacing": "{sem.tag.conainer.spacing}"
+            "itemSpacing": "{sem.tag.container.spacing}"
           },
           "type": "composition"
         },
@@ -13457,7 +13457,7 @@
             "fill": "{sem.colorTag.redLight}",
             "vertialPadding": "{sem.tag.container.padding}",
             "horizontalPadding": "{sem.tag.container.padding}",
-            "itemSpacing": "{sem.tag.conainer.spacing}"
+            "itemSpacing": "{sem.tag.container.spacing}"
           },
           "type": "composition"
         },
