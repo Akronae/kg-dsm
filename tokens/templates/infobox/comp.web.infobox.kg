@@ -17,8 +17,8 @@ comp
     "icon": {
       "size": {
         "value": {
-          "width": "{sem.infobox.icon.sizing}",
-          "height": "{sem.infobox.icon.sizing}"
+          "width": "{sem.infobox.icon.size}",
+          "height": "{sem.infobox.icon.size}"
         },
         "type": "composition"
       }
