@@ -1,0 +1,36 @@
+// @replacepath: tokens/comp.web.json
+
+comp
+.link
+[state: 'default' | 'hover' | 'pressed' | 'disabled' ]
+[size: 'sm' | 'md' ]
+[
+  {
+    "container": {
+      "value": {
+        "itemSpacing": "{sem.link.container.spacing}"
+      },
+      "type": "composition"
+    },
+    "text": {
+      "value": {
+        "typography": "{sem.typography.textStyle.link.<<size>>}",
+        "fill": "{sem.colorText.link.<<state>>}"
+      },
+      "type": "composition"
+    },
+    "iconSize": {
+      "value": {
+        "width": "{sem.link.<<size>>.iconSize}",
+        "height"; "{sem.link.<<size>>.iconSize}"
+      },
+      "type": "composition"
+    },
+    "iconColor": {
+      "value": {
+        "border": "{sem.borderIcon.sm.interactive.<<state>>}"
+      },
+      "type": "composition"
+    }
+  }
+]
