@@ -10,7 +10,43 @@
         "type": "composition"
       }
     },
-    "infobox": {},
+    "infobox": {
+      "container": {
+        "value": {
+          "fill": "{sem.colorSurface.sub}",
+          "borderRadius": "{sem.infobox.container.borderRadius}",
+          "verticalPadding": "{sem.infobox.container.padding}",
+          "horizontalPadding": "{sem.infobox.container.padding}",
+          "itemSpacing": "{sem.infobox.container.spacing}"
+        },
+        "type": "composition"
+      },
+      "icon": {
+        "size": {
+          "value": {
+            "width": "{sem.infobox.icon.sizing}",
+            "height": "{sem.infobox.icon.sizing}"
+          },
+          "type": "composition"
+        }
+      },
+      "textWrapper": {
+        "container": {
+          "value": {
+            "paddingTop": "{sem.infobox.textWrapper.container.paddingTop}",
+            "itemSpacing": "{sem.infobox.textWrapper.container.spacing}"
+          },
+          "type": "composition"
+        },
+        "title": {
+          "value": {
+            "typography": "{sem.typography.textStyle.paragraph.sm.default}",
+            "fill": "{sem.colorText.default}"
+          },
+          "type": "composition"
+        }
+      }
+    },
     "tooltip": {
       "default": {
         "value": {
