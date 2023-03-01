@@ -146,7 +146,7 @@
               "value": {
                 "sizing": "{sem.toggle.base.mark.containerSize}",
                 "fill": "{sem.colorSurface.sub}",
-                "border": "{sem.borderInteractive.default}",
+                "border": "{sem.border.interactive.default}",
                 "borderRadius": "{sem.toggle.radio.mark.borderRadius}"
               },
               "type": "composition",
@@ -168,7 +168,7 @@
               "value": {
                 "sizing": "{sem.toggle.base.mark.containerSize}",
                 "fill": "{sem.colorSurface.sub}",
-                "border": "{sem.borderInteractive.hover}",
+                "border": "{sem.border.interactive.hover}",
                 "borderRadius": "{sem.toggle.radio.mark.borderRadius}"
               },
               "type": "composition",
@@ -256,7 +256,7 @@
               "value": {
                 "sizing": "{sem.toggle.base.mark.containerSize}",
                 "fill": "{sem.colorSurface.disabled}",
-                "border": "{sem.borderInteractive.disabled}",
+                "border": "{sem.border.interactive.disabled}",
                 "borderRadius": "{sem.toggle.radio.mark.borderRadius}"
               },
               "type": "composition",
@@ -302,7 +302,7 @@
               "value": {
                 "sizing": "{sem.toggle.base.mark.containerSize}",
                 "fill": "{sem.colorSurface.sub}",
-                "border": "{sem.borderInteractive.default}",
+                "border": "{sem.border.interactive.default}",
                 "borderRadius": "{sem.toggle.checkbox.mark.borderRadius}"
               },
               "type": "composition",
@@ -316,7 +316,7 @@
               "value": {
                 "sizing": "{sem.toggle.base.mark.containerSize}",
                 "fill": "{sem.colorSurface.sub}",
-                "border": "{sem.borderInteractive.hover}",
+                "border": "{sem.border.interactive.hover}",
                 "borderRadius": "{sem.toggle.checkbox.mark.borderRadius}"
               },
               "type": "composition",
@@ -372,7 +372,7 @@
               "value": {
                 "sizing": "{sem.toggle.base.mark.containerSize}",
                 "fill": "{sem.colorSurface.disabled}",
-                "border": "{sem.borderInteractive.disabled}",
+                "border": "{sem.border.interactive.disabled}",
                 "borderRadius": "{sem.toggle.checkbox.mark.borderRadius}"
               },
               "type": "composition",
@@ -513,7 +513,7 @@
               "value": {
                 "sizing": "{sem.toggle.base.mark.containerSize}",
                 "fill": "{sem.colorSurface.sub}",
-                "border": "{sem.borderInteractive.default}"
+                "border": "{sem.border.interactive.default}"
               },
               "type": "composition"
             },
@@ -569,7 +569,7 @@
               "value": {
                 "sizing": "{sem.toggle.base.mark.containerSize}",
                 "fill": "{sem.colorSurface.sub}",
-                "border": "{sem.borderInteractive.hover}"
+                "border": "{sem.border.interactive.hover}"
               },
               "type": "composition"
             },
@@ -793,7 +793,7 @@
               "value": {
                 "sizing": "{sem.toggle.base.mark.containerSize}",
                 "fill": "{sem.colorSurface.disabled}",
-                "border": "{sem.borderInteractive.disabled}"
+                "border": "{sem.border.interactive.disabled}"
               },
               "type": "composition"
             },

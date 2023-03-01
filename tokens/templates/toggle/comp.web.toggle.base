@@ -19,7 +19,7 @@ comp
         "value": {
           "sizing": "{sem.toggle.base.mark.containerSize}",
           "fill": "{sem.colorSurface.<< ({ active: 'primary', indeterminate: 'primary', forced: 'black', disabled: 'disabled'})[state] || 'sub' >>}",
-          "border": "<< ({ default: '{sem.borderInteractive.default}', hover: '{sem.borderInteractive.hover}', danger: '{sem.border.danger}', disabled: '{sem.borderInteractive.disabled}' })[state] || 'none' >>"
+          "border": "<< ({ default: '{sem.border.interactive.default}', hover: '{sem.border.interactive.hover}', danger: '{sem.border.danger}', disabled: '{sem.border.interactive.disabled}' })[state] || 'none' >>"
         },
         "type": "composition"
       },
