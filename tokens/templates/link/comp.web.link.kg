@@ -19,18 +19,22 @@ comp
       },
       "type": "composition"
     },
-    "iconSize": {
-      "value": {
-        "width": "{sem.link.<<size>>.iconSize}",
-        "height": "{sem.link.<<size>>.iconSize}"
-      },
-      "type": "composition"
+    "icon": {
+      "size": {
+        "value": {
+          "width": "{sem.link.<<size>>.icon.size}",
+          "height": "{sem.link.<<size>>.icon.size}"
+        },
+        "type": "composition"
+      }
     },
-    "iconColor": {
-      "value": {
+    "icon": {
+      "color": {
+        "value": {
         "border": "{sem.borderIcon.sm.interactive.<<state>>}"
       },
       "type": "composition"
+      }
     }
   }
 ]

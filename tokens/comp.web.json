@@ -83,25 +83,25 @@
               "container": {
                 "value": {
                   "fill": "{sem.colorSurface.interactive.light.default}",
-                  "verticalPadding": "{sem.dropdown.item.container.verticalPadding}",
-                  "horizontalPadding": "{sem.dropdown.item.container.horizontalPadding}",
-                  "borderRadius": "{sem.dropdown.item.container.borderRadius}",
-                  "itemSpacing": "{sem.dropdown.item.container.spacing}"
+                  "verticalPadding": "{sem.dropdown.item.sm.container.verticalPadding}",
+                  "horizontalPadding": "{sem.dropdown.item.sm.container.horizontalPadding}",
+                  "borderRadius": "{sem.dropdown.item.sm.container.borderRadius}",
+                  "itemSpacing": "{sem.dropdown.item.sm.container.spacing}"
                 },
                 "type": "composition"
               },
               "labelWrapper": {
                 "container": {
                   "value": {
-                    "itemSpacing": "{sem.dropdown.item.labelWrapper.container.spacing}"
+                    "itemSpacing": "{sem.dropdown.item.sm.labelWrapper.container.spacing}"
                   },
                   "type": "composition"
                 },
                 "icon": {
                   "size": {
                     "value": {
-                      "width": "{sem.dropdown.item.labelWrapper.icon.size.sm}",
-                      "height": "{sem.dropdown.item.labelWrapper.icon.size.sm}"
+                      "width": "{sem.dropdown.item.sm.labelWrapper.icon.size}",
+                      "height": "{sem.dropdown.item.sm.labelWrapper.icon.size}"
                     },
                     "type": "composition"
                   },
@@ -132,25 +132,25 @@
               "container": {
                 "value": {
                   "fill": "{sem.colorSurface.interactive.light.hover}",
-                  "verticalPadding": "{sem.dropdown.item.container.verticalPadding}",
-                  "horizontalPadding": "{sem.dropdown.item.container.horizontalPadding}",
-                  "borderRadius": "{sem.dropdown.item.container.borderRadius}",
-                  "itemSpacing": "{sem.dropdown.item.container.spacing}"
+                  "verticalPadding": "{sem.dropdown.item.sm.container.verticalPadding}",
+                  "horizontalPadding": "{sem.dropdown.item.sm.container.horizontalPadding}",
+                  "borderRadius": "{sem.dropdown.item.sm.container.borderRadius}",
+                  "itemSpacing": "{sem.dropdown.item.sm.container.spacing}"
                 },
                 "type": "composition"
               },
               "labelWrapper": {
                 "container": {
                   "value": {
-                    "itemSpacing": "{sem.dropdown.item.labelWrapper.container.spacing}"
+                    "itemSpacing": "{sem.dropdown.item.sm.labelWrapper.container.spacing}"
                   },
                   "type": "composition"
                 },
                 "icon": {
                   "size": {
                     "value": {
-                      "width": "{sem.dropdown.item.labelWrapper.icon.size.sm}",
-                      "height": "{sem.dropdown.item.labelWrapper.icon.size.sm}"
+                      "width": "{sem.dropdown.item.sm.labelWrapper.icon.size}",
+                      "height": "{sem.dropdown.item.sm.labelWrapper.icon.size}"
                     },
                     "type": "composition"
                   },
@@ -181,25 +181,25 @@
               "container": {
                 "value": {
                   "fill": "{sem.colorSurface.interactive.light.pressed}",
-                  "verticalPadding": "{sem.dropdown.item.container.verticalPadding}",
-                  "horizontalPadding": "{sem.dropdown.item.container.horizontalPadding}",
-                  "borderRadius": "{sem.dropdown.item.container.borderRadius}",
-                  "itemSpacing": "{sem.dropdown.item.container.spacing}"
+                  "verticalPadding": "{sem.dropdown.item.sm.container.verticalPadding}",
+                  "horizontalPadding": "{sem.dropdown.item.sm.container.horizontalPadding}",
+                  "borderRadius": "{sem.dropdown.item.sm.container.borderRadius}",
+                  "itemSpacing": "{sem.dropdown.item.sm.container.spacing}"
                 },
                 "type": "composition"
               },
               "labelWrapper": {
                 "container": {
                   "value": {
-                    "itemSpacing": "{sem.dropdown.item.labelWrapper.container.spacing}"
+                    "itemSpacing": "{sem.dropdown.item.sm.labelWrapper.container.spacing}"
                   },
                   "type": "composition"
                 },
                 "icon": {
                   "size": {
                     "value": {
-                      "width": "{sem.dropdown.item.labelWrapper.icon.size.sm}",
-                      "height": "{sem.dropdown.item.labelWrapper.icon.size.sm}"
+                      "width": "{sem.dropdown.item.sm.labelWrapper.icon.size}",
+                      "height": "{sem.dropdown.item.sm.labelWrapper.icon.size}"
                     },
                     "type": "composition"
                   },
@@ -230,25 +230,25 @@
               "container": {
                 "value": {
                   "fill": "{sem.colorSurface.interactive.light.disabled}",
-                  "verticalPadding": "{sem.dropdown.item.container.verticalPadding}",
-                  "horizontalPadding": "{sem.dropdown.item.container.horizontalPadding}",
-                  "borderRadius": "{sem.dropdown.item.container.borderRadius}",
-                  "itemSpacing": "{sem.dropdown.item.container.spacing}"
+                  "verticalPadding": "{sem.dropdown.item.sm.container.verticalPadding}",
+                  "horizontalPadding": "{sem.dropdown.item.sm.container.horizontalPadding}",
+                  "borderRadius": "{sem.dropdown.item.sm.container.borderRadius}",
+                  "itemSpacing": "{sem.dropdown.item.sm.container.spacing}"
                 },
                 "type": "composition"
               },
               "labelWrapper": {
                 "container": {
                   "value": {
-                    "itemSpacing": "{sem.dropdown.item.labelWrapper.container.spacing}"
+                    "itemSpacing": "{sem.dropdown.item.sm.labelWrapper.container.spacing}"
                   },
                   "type": "composition"
                 },
                 "icon": {
                   "size": {
                     "value": {
-                      "width": "{sem.dropdown.item.labelWrapper.icon.size.sm}",
-                      "height": "{sem.dropdown.item.labelWrapper.icon.size.sm}"
+                      "width": "{sem.dropdown.item.sm.labelWrapper.icon.size}",
+                      "height": "{sem.dropdown.item.sm.labelWrapper.icon.size}"
                     },
                     "type": "composition"
                   },
@@ -281,25 +281,25 @@
               "container": {
                 "value": {
                   "fill": "{sem.colorSurface.interactive.light.default}",
-                  "verticalPadding": "{sem.dropdown.item.container.verticalPadding}",
-                  "horizontalPadding": "{sem.dropdown.item.container.horizontalPadding}",
-                  "borderRadius": "{sem.dropdown.item.container.borderRadius}",
-                  "itemSpacing": "{sem.dropdown.item.container.spacing}"
+                  "verticalPadding": "{sem.dropdown.item.sm.container.verticalPadding}",
+                  "horizontalPadding": "{sem.dropdown.item.sm.container.horizontalPadding}",
+                  "borderRadius": "{sem.dropdown.item.sm.container.borderRadius}",
+                  "itemSpacing": "{sem.dropdown.item.sm.container.spacing}"
                 },
                 "type": "composition"
               },
               "labelWrapper": {
                 "container": {
                   "value": {
-                    "itemSpacing": "{sem.dropdown.item.labelWrapper.container.spacing}"
+                    "itemSpacing": "{sem.dropdown.item.sm.labelWrapper.container.spacing}"
                   },
                   "type": "composition"
                 },
                 "icon": {
                   "size": {
                     "value": {
-                      "width": "{sem.dropdown.item.labelWrapper.icon.size.sm}",
-                      "height": "{sem.dropdown.item.labelWrapper.icon.size.sm}"
+                      "width": "{sem.dropdown.item.sm.labelWrapper.icon.size}",
+                      "height": "{sem.dropdown.item.sm.labelWrapper.icon.size}"
                     },
                     "type": "composition"
                   },
@@ -330,25 +330,25 @@
               "container": {
                 "value": {
                   "fill": "{sem.colorSurface.interactive.light.hover}",
-                  "verticalPadding": "{sem.dropdown.item.container.verticalPadding}",
-                  "horizontalPadding": "{sem.dropdown.item.container.horizontalPadding}",
-                  "borderRadius": "{sem.dropdown.item.container.borderRadius}",
-                  "itemSpacing": "{sem.dropdown.item.container.spacing}"
+                  "verticalPadding": "{sem.dropdown.item.sm.container.verticalPadding}",
+                  "horizontalPadding": "{sem.dropdown.item.sm.container.horizontalPadding}",
+                  "borderRadius": "{sem.dropdown.item.sm.container.borderRadius}",
+                  "itemSpacing": "{sem.dropdown.item.sm.container.spacing}"
                 },
                 "type": "composition"
               },
               "labelWrapper": {
                 "container": {
                   "value": {
-                    "itemSpacing": "{sem.dropdown.item.labelWrapper.container.spacing}"
+                    "itemSpacing": "{sem.dropdown.item.sm.labelWrapper.container.spacing}"
                   },
                   "type": "composition"
                 },
                 "icon": {
                   "size": {
                     "value": {
-                      "width": "{sem.dropdown.item.labelWrapper.icon.size.sm}",
-                      "height": "{sem.dropdown.item.labelWrapper.icon.size.sm}"
+                      "width": "{sem.dropdown.item.sm.labelWrapper.icon.size}",
+                      "height": "{sem.dropdown.item.sm.labelWrapper.icon.size}"
                     },
                     "type": "composition"
                   },
@@ -379,25 +379,25 @@
               "container": {
                 "value": {
                   "fill": "{sem.colorSurface.interactive.light.pressed}",
-                  "verticalPadding": "{sem.dropdown.item.container.verticalPadding}",
-                  "horizontalPadding": "{sem.dropdown.item.container.horizontalPadding}",
-                  "borderRadius": "{sem.dropdown.item.container.borderRadius}",
-                  "itemSpacing": "{sem.dropdown.item.container.spacing}"
+                  "verticalPadding": "{sem.dropdown.item.sm.container.verticalPadding}",
+                  "horizontalPadding": "{sem.dropdown.item.sm.container.horizontalPadding}",
+                  "borderRadius": "{sem.dropdown.item.sm.container.borderRadius}",
+                  "itemSpacing": "{sem.dropdown.item.sm.container.spacing}"
                 },
                 "type": "composition"
               },
               "labelWrapper": {
                 "container": {
                   "value": {
-                    "itemSpacing": "{sem.dropdown.item.labelWrapper.container.spacing}"
+                    "itemSpacing": "{sem.dropdown.item.sm.labelWrapper.container.spacing}"
                   },
                   "type": "composition"
                 },
                 "icon": {
                   "size": {
                     "value": {
-                      "width": "{sem.dropdown.item.labelWrapper.icon.size.sm}",
-                      "height": "{sem.dropdown.item.labelWrapper.icon.size.sm}"
+                      "width": "{sem.dropdown.item.sm.labelWrapper.icon.size}",
+                      "height": "{sem.dropdown.item.sm.labelWrapper.icon.size}"
                     },
                     "type": "composition"
                   },
@@ -428,25 +428,25 @@
               "container": {
                 "value": {
                   "fill": "{sem.colorSurface.interactive.light.disabled}",
-                  "verticalPadding": "{sem.dropdown.item.container.verticalPadding}",
-                  "horizontalPadding": "{sem.dropdown.item.container.horizontalPadding}",
-                  "borderRadius": "{sem.dropdown.item.container.borderRadius}",
-                  "itemSpacing": "{sem.dropdown.item.container.spacing}"
+                  "verticalPadding": "{sem.dropdown.item.sm.container.verticalPadding}",
+                  "horizontalPadding": "{sem.dropdown.item.sm.container.horizontalPadding}",
+                  "borderRadius": "{sem.dropdown.item.sm.container.borderRadius}",
+                  "itemSpacing": "{sem.dropdown.item.sm.container.spacing}"
                 },
                 "type": "composition"
               },
               "labelWrapper": {
                 "container": {
                   "value": {
-                    "itemSpacing": "{sem.dropdown.item.labelWrapper.container.spacing}"
+                    "itemSpacing": "{sem.dropdown.item.sm.labelWrapper.container.spacing}"
                   },
                   "type": "composition"
                 },
                 "icon": {
                   "size": {
                     "value": {
-                      "width": "{sem.dropdown.item.labelWrapper.icon.size.sm}",
-                      "height": "{sem.dropdown.item.labelWrapper.icon.size.sm}"
+                      "width": "{sem.dropdown.item.sm.labelWrapper.icon.size}",
+                      "height": "{sem.dropdown.item.sm.labelWrapper.icon.size}"
                     },
                     "type": "composition"
                   },
@@ -479,25 +479,25 @@
               "container": {
                 "value": {
                   "fill": "{sem.colorSurface.interactive.danger.default}",
-                  "verticalPadding": "{sem.dropdown.item.container.verticalPadding}",
-                  "horizontalPadding": "{sem.dropdown.item.container.horizontalPadding}",
-                  "borderRadius": "{sem.dropdown.item.container.borderRadius}",
-                  "itemSpacing": "{sem.dropdown.item.container.spacing}"
+                  "verticalPadding": "{sem.dropdown.item.sm.container.verticalPadding}",
+                  "horizontalPadding": "{sem.dropdown.item.sm.container.horizontalPadding}",
+                  "borderRadius": "{sem.dropdown.item.sm.container.borderRadius}",
+                  "itemSpacing": "{sem.dropdown.item.sm.container.spacing}"
                 },
                 "type": "composition"
               },
               "labelWrapper": {
                 "container": {
                   "value": {
-                    "itemSpacing": "{sem.dropdown.item.labelWrapper.container.spacing}"
+                    "itemSpacing": "{sem.dropdown.item.sm.labelWrapper.container.spacing}"
                   },
                   "type": "composition"
                 },
                 "icon": {
                   "size": {
                     "value": {
-                      "width": "{sem.dropdown.item.labelWrapper.icon.size.sm}",
-                      "height": "{sem.dropdown.item.labelWrapper.icon.size.sm}"
+                      "width": "{sem.dropdown.item.sm.labelWrapper.icon.size}",
+                      "height": "{sem.dropdown.item.sm.labelWrapper.icon.size}"
                     },
                     "type": "composition"
                   },
@@ -528,25 +528,25 @@
               "container": {
                 "value": {
                   "fill": "{sem.colorSurface.interactive.danger.hover}",
-                  "verticalPadding": "{sem.dropdown.item.container.verticalPadding}",
-                  "horizontalPadding": "{sem.dropdown.item.container.horizontalPadding}",
-                  "borderRadius": "{sem.dropdown.item.container.borderRadius}",
-                  "itemSpacing": "{sem.dropdown.item.container.spacing}"
+                  "verticalPadding": "{sem.dropdown.item.sm.container.verticalPadding}",
+                  "horizontalPadding": "{sem.dropdown.item.sm.container.horizontalPadding}",
+                  "borderRadius": "{sem.dropdown.item.sm.container.borderRadius}",
+                  "itemSpacing": "{sem.dropdown.item.sm.container.spacing}"
                 },
                 "type": "composition"
               },
               "labelWrapper": {
                 "container": {
                   "value": {
-                    "itemSpacing": "{sem.dropdown.item.labelWrapper.container.spacing}"
+                    "itemSpacing": "{sem.dropdown.item.sm.labelWrapper.container.spacing}"
                   },
                   "type": "composition"
                 },
                 "icon": {
                   "size": {
                     "value": {
-                      "width": "{sem.dropdown.item.labelWrapper.icon.size.sm}",
-                      "height": "{sem.dropdown.item.labelWrapper.icon.size.sm}"
+                      "width": "{sem.dropdown.item.sm.labelWrapper.icon.size}",
+                      "height": "{sem.dropdown.item.sm.labelWrapper.icon.size}"
                     },
                     "type": "composition"
                   },
@@ -577,25 +577,25 @@
               "container": {
                 "value": {
                   "fill": "{sem.colorSurface.interactive.danger.pressed}",
-                  "verticalPadding": "{sem.dropdown.item.container.verticalPadding}",
-                  "horizontalPadding": "{sem.dropdown.item.container.horizontalPadding}",
-                  "borderRadius": "{sem.dropdown.item.container.borderRadius}",
-                  "itemSpacing": "{sem.dropdown.item.container.spacing}"
+                  "verticalPadding": "{sem.dropdown.item.sm.container.verticalPadding}",
+                  "horizontalPadding": "{sem.dropdown.item.sm.container.horizontalPadding}",
+                  "borderRadius": "{sem.dropdown.item.sm.container.borderRadius}",
+                  "itemSpacing": "{sem.dropdown.item.sm.container.spacing}"
                 },
                 "type": "composition"
               },
               "labelWrapper": {
                 "container": {
                   "value": {
-                    "itemSpacing": "{sem.dropdown.item.labelWrapper.container.spacing}"
+                    "itemSpacing": "{sem.dropdown.item.sm.labelWrapper.container.spacing}"
                   },
                   "type": "composition"
                 },
                 "icon": {
                   "size": {
                     "value": {
-                      "width": "{sem.dropdown.item.labelWrapper.icon.size.sm}",
-                      "height": "{sem.dropdown.item.labelWrapper.icon.size.sm}"
+                      "width": "{sem.dropdown.item.sm.labelWrapper.icon.size}",
+                      "height": "{sem.dropdown.item.sm.labelWrapper.icon.size}"
                     },
                     "type": "composition"
                   },
@@ -626,25 +626,25 @@
               "container": {
                 "value": {
                   "fill": "{sem.colorSurface.interactive.danger.disabled}",
-                  "verticalPadding": "{sem.dropdown.item.container.verticalPadding}",
-                  "horizontalPadding": "{sem.dropdown.item.container.horizontalPadding}",
-                  "borderRadius": "{sem.dropdown.item.container.borderRadius}",
-                  "itemSpacing": "{sem.dropdown.item.container.spacing}"
+                  "verticalPadding": "{sem.dropdown.item.sm.container.verticalPadding}",
+                  "horizontalPadding": "{sem.dropdown.item.sm.container.horizontalPadding}",
+                  "borderRadius": "{sem.dropdown.item.sm.container.borderRadius}",
+                  "itemSpacing": "{sem.dropdown.item.sm.container.spacing}"
                 },
                 "type": "composition"
               },
               "labelWrapper": {
                 "container": {
                   "value": {
-                    "itemSpacing": "{sem.dropdown.item.labelWrapper.container.spacing}"
+                    "itemSpacing": "{sem.dropdown.item.sm.labelWrapper.container.spacing}"
                   },
                   "type": "composition"
                 },
                 "icon": {
                   "size": {
                     "value": {
-                      "width": "{sem.dropdown.item.labelWrapper.icon.size.sm}",
-                      "height": "{sem.dropdown.item.labelWrapper.icon.size.sm}"
+                      "width": "{sem.dropdown.item.sm.labelWrapper.icon.size}",
+                      "height": "{sem.dropdown.item.sm.labelWrapper.icon.size}"
                     },
                     "type": "composition"
                   },
@@ -679,25 +679,25 @@
               "container": {
                 "value": {
                   "fill": "{sem.colorSurface.interactive.light.default}",
-                  "verticalPadding": "{sem.dropdown.item.container.verticalPadding}",
-                  "horizontalPadding": "{sem.dropdown.item.container.horizontalPadding}",
-                  "borderRadius": "{sem.dropdown.item.container.borderRadius}",
-                  "itemSpacing": "{sem.dropdown.item.container.spacing}"
+                  "verticalPadding": "{sem.dropdown.item.md.container.verticalPadding}",
+                  "horizontalPadding": "{sem.dropdown.item.md.container.horizontalPadding}",
+                  "borderRadius": "{sem.dropdown.item.md.container.borderRadius}",
+                  "itemSpacing": "{sem.dropdown.item.md.container.spacing}"
                 },
                 "type": "composition"
               },
               "labelWrapper": {
                 "container": {
                   "value": {
-                    "itemSpacing": "{sem.dropdown.item.labelWrapper.container.spacing}"
+                    "itemSpacing": "{sem.dropdown.item.md.labelWrapper.container.spacing}"
                   },
                   "type": "composition"
                 },
                 "icon": {
                   "size": {
                     "value": {
-                      "width": "{sem.dropdown.item.labelWrapper.icon.size.md}",
-                      "height": "{sem.dropdown.item.labelWrapper.icon.size.md}"
+                      "width": "{sem.dropdown.item.md.labelWrapper.icon.size}",
+                      "height": "{sem.dropdown.item.md.labelWrapper.icon.size}"
                     },
                     "type": "composition"
                   },
@@ -728,25 +728,25 @@
               "container": {
                 "value": {
                   "fill": "{sem.colorSurface.interactive.light.hover}",
-                  "verticalPadding": "{sem.dropdown.item.container.verticalPadding}",
-                  "horizontalPadding": "{sem.dropdown.item.container.horizontalPadding}",
-                  "borderRadius": "{sem.dropdown.item.container.borderRadius}",
-                  "itemSpacing": "{sem.dropdown.item.container.spacing}"
+                  "verticalPadding": "{sem.dropdown.item.md.container.verticalPadding}",
+                  "horizontalPadding": "{sem.dropdown.item.md.container.horizontalPadding}",
+                  "borderRadius": "{sem.dropdown.item.md.container.borderRadius}",
+                  "itemSpacing": "{sem.dropdown.item.md.container.spacing}"
                 },
                 "type": "composition"
               },
               "labelWrapper": {
                 "container": {
                   "value": {
-                    "itemSpacing": "{sem.dropdown.item.labelWrapper.container.spacing}"
+                    "itemSpacing": "{sem.dropdown.item.md.labelWrapper.container.spacing}"
                   },
                   "type": "composition"
                 },
                 "icon": {
                   "size": {
                     "value": {
-                      "width": "{sem.dropdown.item.labelWrapper.icon.size.md}",
-                      "height": "{sem.dropdown.item.labelWrapper.icon.size.md}"
+                      "width": "{sem.dropdown.item.md.labelWrapper.icon.size}",
+                      "height": "{sem.dropdown.item.md.labelWrapper.icon.size}"
                     },
                     "type": "composition"
                   },
@@ -777,25 +777,25 @@
               "container": {
                 "value": {
                   "fill": "{sem.colorSurface.interactive.light.pressed}",
-                  "verticalPadding": "{sem.dropdown.item.container.verticalPadding}",
-                  "horizontalPadding": "{sem.dropdown.item.container.horizontalPadding}",
-                  "borderRadius": "{sem.dropdown.item.container.borderRadius}",
-                  "itemSpacing": "{sem.dropdown.item.container.spacing}"
+                  "verticalPadding": "{sem.dropdown.item.md.container.verticalPadding}",
+                  "horizontalPadding": "{sem.dropdown.item.md.container.horizontalPadding}",
+                  "borderRadius": "{sem.dropdown.item.md.container.borderRadius}",
+                  "itemSpacing": "{sem.dropdown.item.md.container.spacing}"
                 },
                 "type": "composition"
               },
               "labelWrapper": {
                 "container": {
                   "value": {
-                    "itemSpacing": "{sem.dropdown.item.labelWrapper.container.spacing}"
+                    "itemSpacing": "{sem.dropdown.item.md.labelWrapper.container.spacing}"
                   },
                   "type": "composition"
                 },
                 "icon": {
                   "size": {
                     "value": {
-                      "width": "{sem.dropdown.item.labelWrapper.icon.size.md}",
-                      "height": "{sem.dropdown.item.labelWrapper.icon.size.md}"
+                      "width": "{sem.dropdown.item.md.labelWrapper.icon.size}",
+                      "height": "{sem.dropdown.item.md.labelWrapper.icon.size}"
                     },
                     "type": "composition"
                   },
@@ -826,25 +826,25 @@
               "container": {
                 "value": {
                   "fill": "{sem.colorSurface.interactive.light.disabled}",
-                  "verticalPadding": "{sem.dropdown.item.container.verticalPadding}",
-                  "horizontalPadding": "{sem.dropdown.item.container.horizontalPadding}",
-                  "borderRadius": "{sem.dropdown.item.container.borderRadius}",
-                  "itemSpacing": "{sem.dropdown.item.container.spacing}"
+                  "verticalPadding": "{sem.dropdown.item.md.container.verticalPadding}",
+                  "horizontalPadding": "{sem.dropdown.item.md.container.horizontalPadding}",
+                  "borderRadius": "{sem.dropdown.item.md.container.borderRadius}",
+                  "itemSpacing": "{sem.dropdown.item.md.container.spacing}"
                 },
                 "type": "composition"
               },
               "labelWrapper": {
                 "container": {
                   "value": {
-                    "itemSpacing": "{sem.dropdown.item.labelWrapper.container.spacing}"
+                    "itemSpacing": "{sem.dropdown.item.md.labelWrapper.container.spacing}"
                   },
                   "type": "composition"
                 },
                 "icon": {
                   "size": {
                     "value": {
-                      "width": "{sem.dropdown.item.labelWrapper.icon.size.md}",
-                      "height": "{sem.dropdown.item.labelWrapper.icon.size.md}"
+                      "width": "{sem.dropdown.item.md.labelWrapper.icon.size}",
+                      "height": "{sem.dropdown.item.md.labelWrapper.icon.size}"
                     },
                     "type": "composition"
                   },
@@ -877,25 +877,25 @@
               "container": {
                 "value": {
                   "fill": "{sem.colorSurface.interactive.light.default}",
-                  "verticalPadding": "{sem.dropdown.item.container.verticalPadding}",
-                  "horizontalPadding": "{sem.dropdown.item.container.horizontalPadding}",
-                  "borderRadius": "{sem.dropdown.item.container.borderRadius}",
-                  "itemSpacing": "{sem.dropdown.item.container.spacing}"
+                  "verticalPadding": "{sem.dropdown.item.md.container.verticalPadding}",
+                  "horizontalPadding": "{sem.dropdown.item.md.container.horizontalPadding}",
+                  "borderRadius": "{sem.dropdown.item.md.container.borderRadius}",
+                  "itemSpacing": "{sem.dropdown.item.md.container.spacing}"
                 },
                 "type": "composition"
               },
               "labelWrapper": {
                 "container": {
                   "value": {
-                    "itemSpacing": "{sem.dropdown.item.labelWrapper.container.spacing}"
+                    "itemSpacing": "{sem.dropdown.item.md.labelWrapper.container.spacing}"
                   },
                   "type": "composition"
                 },
                 "icon": {
                   "size": {
                     "value": {
-                      "width": "{sem.dropdown.item.labelWrapper.icon.size.md}",
-                      "height": "{sem.dropdown.item.labelWrapper.icon.size.md}"
+                      "width": "{sem.dropdown.item.md.labelWrapper.icon.size}",
+                      "height": "{sem.dropdown.item.md.labelWrapper.icon.size}"
                     },
                     "type": "composition"
                   },
@@ -926,25 +926,25 @@
               "container": {
                 "value": {
                   "fill": "{sem.colorSurface.interactive.light.hover}",
-                  "verticalPadding": "{sem.dropdown.item.container.verticalPadding}",
-                  "horizontalPadding": "{sem.dropdown.item.container.horizontalPadding}",
-                  "borderRadius": "{sem.dropdown.item.container.borderRadius}",
-                  "itemSpacing": "{sem.dropdown.item.container.spacing}"
+                  "verticalPadding": "{sem.dropdown.item.md.container.verticalPadding}",
+                  "horizontalPadding": "{sem.dropdown.item.md.container.horizontalPadding}",
+                  "borderRadius": "{sem.dropdown.item.md.container.borderRadius}",
+                  "itemSpacing": "{sem.dropdown.item.md.container.spacing}"
                 },
                 "type": "composition"
               },
               "labelWrapper": {
                 "container": {
                   "value": {
-                    "itemSpacing": "{sem.dropdown.item.labelWrapper.container.spacing}"
+                    "itemSpacing": "{sem.dropdown.item.md.labelWrapper.container.spacing}"
                   },
                   "type": "composition"
                 },
                 "icon": {
                   "size": {
                     "value": {
-                      "width": "{sem.dropdown.item.labelWrapper.icon.size.md}",
-                      "height": "{sem.dropdown.item.labelWrapper.icon.size.md}"
+                      "width": "{sem.dropdown.item.md.labelWrapper.icon.size}",
+                      "height": "{sem.dropdown.item.md.labelWrapper.icon.size}"
                     },
                     "type": "composition"
                   },
@@ -975,25 +975,25 @@
               "container": {
                 "value": {
                   "fill": "{sem.colorSurface.interactive.light.pressed}",
-                  "verticalPadding": "{sem.dropdown.item.container.verticalPadding}",
-                  "horizontalPadding": "{sem.dropdown.item.container.horizontalPadding}",
-                  "borderRadius": "{sem.dropdown.item.container.borderRadius}",
-                  "itemSpacing": "{sem.dropdown.item.container.spacing}"
+                  "verticalPadding": "{sem.dropdown.item.md.container.verticalPadding}",
+                  "horizontalPadding": "{sem.dropdown.item.md.container.horizontalPadding}",
+                  "borderRadius": "{sem.dropdown.item.md.container.borderRadius}",
+                  "itemSpacing": "{sem.dropdown.item.md.container.spacing}"
                 },
                 "type": "composition"
               },
               "labelWrapper": {
                 "container": {
                   "value": {
-                    "itemSpacing": "{sem.dropdown.item.labelWrapper.container.spacing}"
+                    "itemSpacing": "{sem.dropdown.item.md.labelWrapper.container.spacing}"
                   },
                   "type": "composition"
                 },
                 "icon": {
                   "size": {
                     "value": {
-                      "width": "{sem.dropdown.item.labelWrapper.icon.size.md}",
-                      "height": "{sem.dropdown.item.labelWrapper.icon.size.md}"
+                      "width": "{sem.dropdown.item.md.labelWrapper.icon.size}",
+                      "height": "{sem.dropdown.item.md.labelWrapper.icon.size}"
                     },
                     "type": "composition"
                   },
@@ -1024,25 +1024,25 @@
               "container": {
                 "value": {
                   "fill": "{sem.colorSurface.interactive.light.disabled}",
-                  "verticalPadding": "{sem.dropdown.item.container.verticalPadding}",
-                  "horizontalPadding": "{sem.dropdown.item.container.horizontalPadding}",
-                  "borderRadius": "{sem.dropdown.item.container.borderRadius}",
-                  "itemSpacing": "{sem.dropdown.item.container.spacing}"
+                  "verticalPadding": "{sem.dropdown.item.md.container.verticalPadding}",
+                  "horizontalPadding": "{sem.dropdown.item.md.container.horizontalPadding}",
+                  "borderRadius": "{sem.dropdown.item.md.container.borderRadius}",
+                  "itemSpacing": "{sem.dropdown.item.md.container.spacing}"
                 },
                 "type": "composition"
               },
               "labelWrapper": {
                 "container": {
                   "value": {
-                    "itemSpacing": "{sem.dropdown.item.labelWrapper.container.spacing}"
+                    "itemSpacing": "{sem.dropdown.item.md.labelWrapper.container.spacing}"
                   },
                   "type": "composition"
                 },
                 "icon": {
                   "size": {
                     "value": {
-                      "width": "{sem.dropdown.item.labelWrapper.icon.size.md}",
-                      "height": "{sem.dropdown.item.labelWrapper.icon.size.md}"
+                      "width": "{sem.dropdown.item.md.labelWrapper.icon.size}",
+                      "height": "{sem.dropdown.item.md.labelWrapper.icon.size}"
                     },
                     "type": "composition"
                   },
@@ -1075,25 +1075,25 @@
               "container": {
                 "value": {
                   "fill": "{sem.colorSurface.interactive.danger.default}",
-                  "verticalPadding": "{sem.dropdown.item.container.verticalPadding}",
-                  "horizontalPadding": "{sem.dropdown.item.container.horizontalPadding}",
-                  "borderRadius": "{sem.dropdown.item.container.borderRadius}",
-                  "itemSpacing": "{sem.dropdown.item.container.spacing}"
+                  "verticalPadding": "{sem.dropdown.item.md.container.verticalPadding}",
+                  "horizontalPadding": "{sem.dropdown.item.md.container.horizontalPadding}",
+                  "borderRadius": "{sem.dropdown.item.md.container.borderRadius}",
+                  "itemSpacing": "{sem.dropdown.item.md.container.spacing}"
                 },
                 "type": "composition"
               },
               "labelWrapper": {
                 "container": {
                   "value": {
-                    "itemSpacing": "{sem.dropdown.item.labelWrapper.container.spacing}"
+                    "itemSpacing": "{sem.dropdown.item.md.labelWrapper.container.spacing}"
                   },
                   "type": "composition"
                 },
                 "icon": {
                   "size": {
                     "value": {
-                      "width": "{sem.dropdown.item.labelWrapper.icon.size.md}",
-                      "height": "{sem.dropdown.item.labelWrapper.icon.size.md}"
+                      "width": "{sem.dropdown.item.md.labelWrapper.icon.size}",
+                      "height": "{sem.dropdown.item.md.labelWrapper.icon.size}"
                     },
                     "type": "composition"
                   },
@@ -1124,25 +1124,25 @@
               "container": {
                 "value": {
                   "fill": "{sem.colorSurface.interactive.danger.hover}",
-                  "verticalPadding": "{sem.dropdown.item.container.verticalPadding}",
-                  "horizontalPadding": "{sem.dropdown.item.container.horizontalPadding}",
-                  "borderRadius": "{sem.dropdown.item.container.borderRadius}",
-                  "itemSpacing": "{sem.dropdown.item.container.spacing}"
+                  "verticalPadding": "{sem.dropdown.item.md.container.verticalPadding}",
+                  "horizontalPadding": "{sem.dropdown.item.md.container.horizontalPadding}",
+                  "borderRadius": "{sem.dropdown.item.md.container.borderRadius}",
+                  "itemSpacing": "{sem.dropdown.item.md.container.spacing}"
                 },
                 "type": "composition"
               },
               "labelWrapper": {
                 "container": {
                   "value": {
-                    "itemSpacing": "{sem.dropdown.item.labelWrapper.container.spacing}"
+                    "itemSpacing": "{sem.dropdown.item.md.labelWrapper.container.spacing}"
                   },
                   "type": "composition"
                 },
                 "icon": {
                   "size": {
                     "value": {
-                      "width": "{sem.dropdown.item.labelWrapper.icon.size.md}",
-                      "height": "{sem.dropdown.item.labelWrapper.icon.size.md}"
+                      "width": "{sem.dropdown.item.md.labelWrapper.icon.size}",
+                      "height": "{sem.dropdown.item.md.labelWrapper.icon.size}"
                     },
                     "type": "composition"
                   },
@@ -1173,25 +1173,25 @@
               "container": {
                 "value": {
                   "fill": "{sem.colorSurface.interactive.danger.pressed}",
-                  "verticalPadding": "{sem.dropdown.item.container.verticalPadding}",
-                  "horizontalPadding": "{sem.dropdown.item.container.horizontalPadding}",
-                  "borderRadius": "{sem.dropdown.item.container.borderRadius}",
-                  "itemSpacing": "{sem.dropdown.item.container.spacing}"
+                  "verticalPadding": "{sem.dropdown.item.md.container.verticalPadding}",
+                  "horizontalPadding": "{sem.dropdown.item.md.container.horizontalPadding}",
+                  "borderRadius": "{sem.dropdown.item.md.container.borderRadius}",
+                  "itemSpacing": "{sem.dropdown.item.md.container.spacing}"
                 },
                 "type": "composition"
               },
               "labelWrapper": {
                 "container": {
                   "value": {
-                    "itemSpacing": "{sem.dropdown.item.labelWrapper.container.spacing}"
+                    "itemSpacing": "{sem.dropdown.item.md.labelWrapper.container.spacing}"
                   },
                   "type": "composition"
                 },
                 "icon": {
                   "size": {
                     "value": {
-                      "width": "{sem.dropdown.item.labelWrapper.icon.size.md}",
-                      "height": "{sem.dropdown.item.labelWrapper.icon.size.md}"
+                      "width": "{sem.dropdown.item.md.labelWrapper.icon.size}",
+                      "height": "{sem.dropdown.item.md.labelWrapper.icon.size}"
                     },
                     "type": "composition"
                   },
@@ -1222,25 +1222,25 @@
               "container": {
                 "value": {
                   "fill": "{sem.colorSurface.interactive.danger.disabled}",
-                  "verticalPadding": "{sem.dropdown.item.container.verticalPadding}",
-                  "horizontalPadding": "{sem.dropdown.item.container.horizontalPadding}",
-                  "borderRadius": "{sem.dropdown.item.container.borderRadius}",
-                  "itemSpacing": "{sem.dropdown.item.container.spacing}"
+                  "verticalPadding": "{sem.dropdown.item.md.container.verticalPadding}",
+                  "horizontalPadding": "{sem.dropdown.item.md.container.horizontalPadding}",
+                  "borderRadius": "{sem.dropdown.item.md.container.borderRadius}",
+                  "itemSpacing": "{sem.dropdown.item.md.container.spacing}"
                 },
                 "type": "composition"
               },
               "labelWrapper": {
                 "container": {
                   "value": {
-                    "itemSpacing": "{sem.dropdown.item.labelWrapper.container.spacing}"
+                    "itemSpacing": "{sem.dropdown.item.md.labelWrapper.container.spacing}"
                   },
                   "type": "composition"
                 },
                 "icon": {
                   "size": {
                     "value": {
-                      "width": "{sem.dropdown.item.labelWrapper.icon.size.md}",
-                      "height": "{sem.dropdown.item.labelWrapper.icon.size.md}"
+                      "width": "{sem.dropdown.item.md.labelWrapper.icon.size}",
+                      "height": "{sem.dropdown.item.md.labelWrapper.icon.size}"
                     },
                     "type": "composition"
                   },
@@ -2569,18 +2569,13 @@
             },
             "type": "composition"
           },
-          "iconSize": {
-            "value": {
-              "width": "{sem.link.sm.iconSize}",
-              "height": "{sem.link.sm.iconSize}"
-            },
-            "type": "composition"
-          },
-          "iconColor": {
-            "value": {
-              "border": "{sem.borderIcon.sm.interactive.default}"
-            },
-            "type": "composition"
+          "icon": {
+            "color": {
+              "value": {
+                "border": "{sem.borderIcon.sm.interactive.default}"
+              },
+              "type": "composition"
+            }
           }
         },
         "md": {
@@ -2597,18 +2592,13 @@
             },
             "type": "composition"
           },
-          "iconSize": {
-            "value": {
-              "width": "{sem.link.md.iconSize}",
-              "height": "{sem.link.md.iconSize}"
-            },
-            "type": "composition"
-          },
-          "iconColor": {
-            "value": {
-              "border": "{sem.borderIcon.sm.interactive.default}"
-            },
-            "type": "composition"
+          "icon": {
+            "color": {
+              "value": {
+                "border": "{sem.borderIcon.sm.interactive.default}"
+              },
+              "type": "composition"
+            }
           }
         }
       },
@@ -2627,18 +2617,13 @@
             },
             "type": "composition"
           },
-          "iconSize": {
-            "value": {
-              "width": "{sem.link.sm.iconSize}",
-              "height": "{sem.link.sm.iconSize}"
-            },
-            "type": "composition"
-          },
-          "iconColor": {
-            "value": {
-              "border": "{sem.borderIcon.sm.interactive.hover}"
-            },
-            "type": "composition"
+          "icon": {
+            "color": {
+              "value": {
+                "border": "{sem.borderIcon.sm.interactive.hover}"
+              },
+              "type": "composition"
+            }
           }
         },
         "md": {
@@ -2655,18 +2640,13 @@
             },
             "type": "composition"
           },
-          "iconSize": {
-            "value": {
-              "width": "{sem.link.md.iconSize}",
-              "height": "{sem.link.md.iconSize}"
-            },
-            "type": "composition"
-          },
-          "iconColor": {
-            "value": {
-              "border": "{sem.borderIcon.sm.interactive.hover}"
-            },
-            "type": "composition"
+          "icon": {
+            "color": {
+              "value": {
+                "border": "{sem.borderIcon.sm.interactive.hover}"
+              },
+              "type": "composition"
+            }
           }
         }
       },
@@ -2685,18 +2665,13 @@
             },
             "type": "composition"
           },
-          "iconSize": {
-            "value": {
-              "width": "{sem.link.sm.iconSize}",
-              "height": "{sem.link.sm.iconSize}"
-            },
-            "type": "composition"
-          },
-          "iconColor": {
-            "value": {
-              "border": "{sem.borderIcon.sm.interactive.pressed}"
-            },
-            "type": "composition"
+          "icon": {
+            "color": {
+              "value": {
+                "border": "{sem.borderIcon.sm.interactive.pressed}"
+              },
+              "type": "composition"
+            }
           }
         },
         "md": {
@@ -2713,18 +2688,13 @@
             },
             "type": "composition"
           },
-          "iconSize": {
-            "value": {
-              "width": "{sem.link.md.iconSize}",
-              "height": "{sem.link.md.iconSize}"
-            },
-            "type": "composition"
-          },
-          "iconColor": {
-            "value": {
-              "border": "{sem.borderIcon.sm.interactive.pressed}"
-            },
-            "type": "composition"
+          "icon": {
+            "color": {
+              "value": {
+                "border": "{sem.borderIcon.sm.interactive.pressed}"
+              },
+              "type": "composition"
+            }
           }
         }
       },
@@ -2743,18 +2713,13 @@
             },
             "type": "composition"
           },
-          "iconSize": {
-            "value": {
-              "width": "{sem.link.sm.iconSize}",
-              "height": "{sem.link.sm.iconSize}"
-            },
-            "type": "composition"
-          },
-          "iconColor": {
-            "value": {
-              "border": "{sem.borderIcon.sm.interactive.disabled}"
-            },
-            "type": "composition"
+          "icon": {
+            "color": {
+              "value": {
+                "border": "{sem.borderIcon.sm.interactive.disabled}"
+              },
+              "type": "composition"
+            }
           }
         },
         "md": {
@@ -2771,18 +2736,13 @@
             },
             "type": "composition"
           },
-          "iconSize": {
-            "value": {
-              "width": "{sem.link.md.iconSize}",
-              "height": "{sem.link.md.iconSize}"
-            },
-            "type": "composition"
-          },
-          "iconColor": {
-            "value": {
-              "border": "{sem.borderIcon.sm.interactive.disabled}"
-            },
-            "type": "composition"
+          "icon": {
+            "color": {
+              "value": {
+                "border": "{sem.borderIcon.sm.interactive.disabled}"
+              },
+              "type": "composition"
+            }
           }
         }
       }
@@ -15321,9 +15281,11 @@
             "type": "spacing"
           }
         },
-        "iconSize": {
-          "value": "{ref.sizing.90}",
-          "type": "sizing"
+        "icon": {
+          "size": {
+            "value": "{ref.sizing.90}",
+            "type": "sizing"
+          }
         }
       },
       "md": {
@@ -15333,9 +15295,11 @@
             "type": "spacing"
           }
         },
-        "iconSize": {
-          "value": "{ref.sizing.100}",
-          "type": "sizing"
+        "icon": {
+          "size": {
+            "value": "{ref.sizing.100}",
+            "type": "sizing"
+          }
         }
       }
     },
@@ -15403,7 +15367,7 @@
     },
     "dropdown": {
       "container": {
-        "itemSpacing": {
+        "spacing": {
           "value": "{ref.spacing.100}",
           "type": "spacing"
         },

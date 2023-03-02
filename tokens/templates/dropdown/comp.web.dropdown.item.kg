@@ -10,25 +10,25 @@ comp
     "container": {
       "value": {
         "fill": "{sem.colorSurface.<< type == 'danger' ? ({ default: 'interactive.danger.default', hover: 'interactive.danger.hover', pressed: 'interactive.danger.pressed', disabled: 'interactive.danger.disabled' })[state] : ({ default: 'interactive.light.default', hover: 'interactive.light.hover', pressed: 'interactive.light.pressed', disabled: 'interactive.light.disabled' })[state] >>}",
-        "verticalPadding": "{sem.dropdown.item.container.verticalPadding}",
-        "horizontalPadding": "{sem.dropdown.item.container.horizontalPadding}",
-        "borderRadius": "{sem.dropdown.item.container.borderRadius}",
-        "itemSpacing": "{sem.dropdown.item.container.spacing}"
+        "verticalPadding": "{sem.dropdown.item.<<size>>.container.verticalPadding}",
+        "horizontalPadding": "{sem.dropdown.item.<<size>>.container.horizontalPadding}",
+        "borderRadius": "{sem.dropdown.item.<<size>>.container.borderRadius}",
+        "itemSpacing": "{sem.dropdown.item.<<size>>.container.spacing}"
       },
       "type": "composition"
     },
     "labelWrapper": {
       "container": {
         "value": {
-          "itemSpacing": "{sem.dropdown.item.labelWrapper.container.spacing}"
+          "itemSpacing": "{sem.dropdown.item.<<size>>.labelWrapper.container.spacing}"
         },
         "type": "composition"
       },
       "icon": {
         "size": {
           "value": {
-            "width": "{sem.dropdown.item.labelWrapper.icon.size.<<size>>}",
-            "height": "{sem.dropdown.item.labelWrapper.icon.size.<<size>>}"
+            "width": "{sem.dropdown.item.<<size>>.labelWrapper.icon.size}",
+            "height": "{sem.dropdown.item.<<size>>.labelWrapper.icon.size}"
           },
           "type": "composition"
         },

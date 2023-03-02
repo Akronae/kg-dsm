@@ -11,9 +11,11 @@ sem
         "type": "spacing"
       }
     },
-    "iconSize": {
-      "value": "{<< ({sm: 'ref.sizing.90', md: 'ref.sizing.100'})[size] >>}",
-      "type": "sizing"
+    "icon": {
+      "size": {
+        "value": "{<< ({sm: 'ref.sizing.90', md: 'ref.sizing.100'})[size] >>}",
+        "type": "sizing"
+      }
     }
   }
 ]
