@@ -7,7 +7,7 @@ comp
   {
     "container": {
       "value": {
-        "itemSpacing": "{sem.structureForm.title.container.spacing}"
+        "itemSpacing": "{sem.structureForm.title.<<type>>.container.spacing}"
       },
       "type": "composition"
     },

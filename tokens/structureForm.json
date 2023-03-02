@@ -168,7 +168,7 @@
         "step": {
           "container": {
             "value": {
-              "itemSpacing": "{sem.structureForm.title.container.spacing}"
+              "itemSpacing": "{sem.structureForm.title.step.container.spacing}"
             },
             "type": "composition"
           },
@@ -183,14 +183,13 @@
             "value": {
               "typography": "{sem.typography.textStyle.paragraph.md.default}",
               "fill": "{sem.colorText.default}"
-            },
-            "type": "other"
+            }
           }
         },
         "sub": {
           "container": {
             "value": {
-              "itemSpacing": "{sem.structureForm.title.container.spacing}"
+              "itemSpacing": "{sem.structureForm.title.sub.container.spacing}"
             },
             "type": "composition"
           },
@@ -205,14 +204,13 @@
             "value": {
               "typography": "{sem.typography.textStyle.paragraph.md.default}",
               "fill": "{sem.colorText.default}"
-            },
-            "type": "other"
+            }
           }
         },
         "summary": {
           "container": {
             "value": {
-              "itemSpacing": "{sem.structureForm.title.container.spacing}"
+              "itemSpacing": "{sem.structureForm.title.summary.container.spacing}"
             },
             "type": "composition"
           },
@@ -227,8 +225,7 @@
             "value": {
               "typography": "{sem.typography.textStyle.paragraph.md.default}",
               "fill": "{sem.colorText.default}"
-            },
-            "type": "other"
+            }
           }
         }
       },
@@ -466,7 +463,7 @@
         "step": {
           "container": {
             "spacing": {
-              "value": "{ref.spacing.100}",
+              "value": "{ref.spacing.50}",
               "type": "spacing"
             }
           }
@@ -482,7 +479,7 @@
         "summary": {
           "container": {
             "spacing": {
-              "value": "{ref.spacing.100}",
+              "value": "{ref.spacing.50}",
               "type": "spacing"
             }
           }
