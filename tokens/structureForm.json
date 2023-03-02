@@ -165,70 +165,28 @@
         }
       },
       "title": {
-        "summary": {
-          "sapcer": {
-            "value": {
-              "itemSpacing": "{ref.spacing.100}"
-            },
-            "type": "composition"
-          },
-          "heading": {
-            "value": {
-              "fill": "{sem.colorText.dark}",
-              "typography": "{sem.typography.textStyle.heading.heading2}"
-            },
-            "type": "composition"
-          },
-          "description": {
-            "value": {
-              "fill": "{sem.colorText.default}",
-              "typography": "{sem.typography.textStyle.paragraph.md.default}"
-            },
-            "type": "composition"
-          }
-        },
         "step": {
-          "sapcer": {
-            "value": {
-              "itemSpacing": "{ref.spacing.100}"
-            },
-            "type": "composition"
-          },
-          "heading": {
-            "value": {
-              "fill": "{sem.colorText.dark}",
-              "typography": "{sem.typography.textStyle.heading.heading3}"
-            },
-            "type": "composition"
-          },
-          "description": {
-            "value": {
-              "fill": "{sem.colorText.default}",
-              "typography": "{sem.typography.textStyle.paragraph.md.default}"
-            },
-            "type": "composition"
+          "container": {
+            "spacing": {
+              "value": "{ref.spacing.100}",
+              "type": "spacing"
+            }
           }
         },
         "sub": {
-          "sapcer": {
-            "value": {
-              "itemSpacing": "{ref.spacing.50}"
-            },
-            "type": "composition"
-          },
-          "heading": {
-            "value": {
-              "fill": "{sem.colorText.dark}",
-              "typography": "{sem.typography.textStyle.heading.heading4}"
-            },
-            "type": "composition"
-          },
-          "description": {
-            "value": {
-              "fill": "{sem.colorText.default}",
-              "typography": "{sem.typography.textStyle.paragraph.md.default}"
-            },
-            "type": "composition"
+          "container": {
+            "spacing": {
+              "value": "{ref.spacing.100}",
+              "type": "spacing"
+            }
+          }
+        },
+        "summary": {
+          "container": {
+            "spacing": {
+              "value": "{ref.spacing.100}",
+              "type": "spacing"
+            }
           }
         }
       },
@@ -399,6 +357,73 @@
         }
       }
     },
+    "title": {
+      "step": {
+        "container": {
+          "value": {
+            "itemSpacing": "{sem.title.container.spacing}"
+          },
+          "type": "composition"
+        },
+        "title": {
+          "value": {
+            "typography": "{sem.typography.textStyle.heading.heading3}",
+            "fill": "{sem.colorText.dark}"
+          },
+          "type": "composition"
+        },
+        "description": {
+          "value": {
+            "typography": "{sem.typography.textStyle.paragraph.md.default}",
+            "fill": "{sem.colorText.default}"
+          }
+        }
+      },
+      "sub": {
+        "container": {
+          "value": {
+            "itemSpacing": "{sem.title.container.spacing}"
+          },
+          "type": "composition"
+        },
+        "title": {
+          "value": {
+            "typography": "{sem.typography.textStyle.heading.heading4}",
+            "fill": "{sem.colorText.dark}"
+          },
+          "type": "composition"
+        },
+        "description": {
+          "value": {
+            "typography": "{sem.typography.textStyle.paragraph.md.default}",
+            "fill": "{sem.colorText.default}"
+          }
+        }
+      },
+      "summary": {
+        "container": {
+          "value": {
+            "itemSpacing": "{sem.title.container.spacing}"
+          },
+          "type": "composition"
+        },
+        "title": {
+          "value": {
+            "typography": "{sem.typography.textStyle.heading.heading2}",
+            "fill": "{sem.colorText.dark}"
+          },
+          "type": "composition"
+        },
+        "description": {
+          "value": {
+            "typography": "{sem.typography.textStyle.paragraph.md.default}",
+            "fill": "{sem.colorText.default}"
+          }
+        }
+      }
+    }
+  },
+  "comp\nstructureForm": {
     "title": {
       "step": {
         "container": {
