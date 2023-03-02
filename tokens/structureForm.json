@@ -489,5 +489,35 @@
         }
       }
     }
+  },
+  "sem": {
+    "structureForm": {
+      "title": {
+        "step": {
+          "container": {
+            "spacing": {
+              "value": "{ref.spacing.100}",
+              "type": "spacing"
+            }
+          }
+        },
+        "sub": {
+          "container": {
+            "spacing": {
+              "value": "{ref.spacing.100}",
+              "type": "spacing"
+            }
+          }
+        },
+        "summary": {
+          "container": {
+            "spacing": {
+              "value": "{ref.spacing.100}",
+              "type": "spacing"
+            }
+          }
+        }
+      }
+    }
   }
 }

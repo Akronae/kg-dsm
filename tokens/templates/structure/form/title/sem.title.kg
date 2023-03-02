@@ -1,6 +1,6 @@
 // @replacepath: tokens/structureForm.json
 
-comp
+sem
 .structureForm.title
 [type: 'step' | 'sub' | 'summary']
 [
