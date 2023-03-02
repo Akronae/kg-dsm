@@ -168,7 +168,7 @@
         "step": {
           "container": {
             "value": {
-              "itemSpacing": "{sem.title.container.spacing}"
+              "itemSpacing": "{sem.structureForm.title.container.spacing}"
             },
             "type": "composition"
           },
@@ -189,7 +189,7 @@
         "sub": {
           "container": {
             "value": {
-              "itemSpacing": "{sem.title.container.spacing}"
+              "itemSpacing": "{sem.structureForm.title.container.spacing}"
             },
             "type": "composition"
           },
@@ -210,7 +210,7 @@
         "summary": {
           "container": {
             "value": {
-              "itemSpacing": "{sem.title.container.spacing}"
+              "itemSpacing": "{sem.structureForm.title.container.spacing}"
             },
             "type": "composition"
           },
