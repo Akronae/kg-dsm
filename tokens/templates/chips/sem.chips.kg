@@ -22,7 +22,7 @@ sem
         "type": "spacing"
       },
       "height": {
-        "value": "{ref.sizing.50}",
+        "value": "{ref.sizing.400}",
         "type": "sizing"
       }
     },
