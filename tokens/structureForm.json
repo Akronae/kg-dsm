@@ -167,25 +167,64 @@
       "title": {
         "step": {
           "container": {
-            "spacing": {
-              "value": "{ref.spacing.100}",
-              "type": "spacing"
+            "value": {
+              "itemSpacing": "{sem.title.container.spacing}"
+            },
+            "type": "composition"
+          },
+          "title": {
+            "value": {
+              "typography": "{sem.typography.textStyle.heading.heading3}",
+              "fill": "{sem.colorText.dark}"
+            },
+            "type": "composition"
+          },
+          "description": {
+            "value": {
+              "typography": "{sem.typography.textStyle.paragraph.md.default}",
+              "fill": "{sem.colorText.default}"
             }
           }
         },
         "sub": {
           "container": {
-            "spacing": {
-              "value": "{ref.spacing.100}",
-              "type": "spacing"
+            "value": {
+              "itemSpacing": "{sem.title.container.spacing}"
+            },
+            "type": "composition"
+          },
+          "title": {
+            "value": {
+              "typography": "{sem.typography.textStyle.heading.heading4}",
+              "fill": "{sem.colorText.dark}"
+            },
+            "type": "composition"
+          },
+          "description": {
+            "value": {
+              "typography": "{sem.typography.textStyle.paragraph.md.default}",
+              "fill": "{sem.colorText.default}"
             }
           }
         },
         "summary": {
           "container": {
-            "spacing": {
-              "value": "{ref.spacing.100}",
-              "type": "spacing"
+            "value": {
+              "itemSpacing": "{sem.title.container.spacing}"
+            },
+            "type": "composition"
+          },
+          "title": {
+            "value": {
+              "typography": "{sem.typography.textStyle.heading.heading2}",
+              "fill": "{sem.colorText.dark}"
+            },
+            "type": "composition"
+          },
+          "description": {
+            "value": {
+              "typography": "{sem.typography.textStyle.paragraph.md.default}",
+              "fill": "{sem.colorText.default}"
             }
           }
         }
