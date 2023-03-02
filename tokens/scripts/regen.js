@@ -125,7 +125,6 @@ if (require.main == module) {
     throw new Error("Please provide a template path as argument");
 
   regenAll(process.argv.slice(2));
-  extend.extend("tokens/comp.web.json");
 }
 
 module.exports = { regen, regenAll };
