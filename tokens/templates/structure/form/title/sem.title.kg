@@ -7,7 +7,7 @@ sem
   {
     "container": {
       "spacing": {
-        "value": "{ref.spacing.<< type == 'sub' ? '100' : '50'>>}",
+        "value": "{ref.spacing.<< type == 'sub' ? '50' : '100'>>}",
         "type": "spacing"
       }
     }
