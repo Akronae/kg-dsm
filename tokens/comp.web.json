@@ -2506,7 +2506,7 @@
         "container": {
           "value": {
             "fill": "{sem.colorSurface.interactive.sub.default}",
-            "border": "{sem.border.interactive.[object Object]}",
+            "border": "{sem.border.interactive.undefined}",
             "itemSpacing": "{sem.chips.container.spacing}",
             "borderRadius": "{sem.chips.container.borderRadius}",
             "paddingLeft": "{sem.chips.container.paddingLeft}",
@@ -2542,7 +2542,7 @@
         "container": {
           "value": {
             "fill": "{sem.colorSurface.interactive.sub.hover}",
-            "border": "{sem.border.interactive.[object Object]}",
+            "border": "{sem.border.interactive.hover}",
             "itemSpacing": "{sem.chips.container.spacing}",
             "borderRadius": "{sem.chips.container.borderRadius}",
             "paddingLeft": "{sem.chips.container.paddingLeft}",
@@ -2578,7 +2578,7 @@
         "container": {
           "value": {
             "fill": "{sem.colorSurface.interactive.sub.pressed}",
-            "border": "{sem.border.interactive.[object Object]}",
+            "border": "{sem.border.interactive.pressed}",
             "itemSpacing": "{sem.chips.container.spacing}",
             "borderRadius": "{sem.chips.container.borderRadius}",
             "paddingLeft": "{sem.chips.container.paddingLeft}",
@@ -2614,7 +2614,7 @@
         "container": {
           "value": {
             "fill": "{sem.colorSurface.interactive.sub.active}",
-            "border": "{sem.border.interactive.[object Object]}",
+            "border": "{sem.border.interactive.none}",
             "itemSpacing": "{sem.chips.container.spacing}",
             "borderRadius": "{sem.chips.container.borderRadius}",
             "paddingLeft": "{sem.chips.container.paddingLeft}",
