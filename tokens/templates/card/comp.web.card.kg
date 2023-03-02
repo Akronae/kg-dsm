@@ -11,6 +11,7 @@ comp
       "horizontalPadding": "{sem.card.<<size>>.padding}",
       "verticalPadding": "{sem.card.<<size>>.padding}",
       "fill": "{sem.colorSurface.<< contrast == 'uncontrasted' ? 'light' : 'sub' || state == 'disabled' && 'disabled'>>}",
+      "boxShadow": "<< contrast == 'uncontrasted' &&  state == 'hover' ? ('{sem.card.' + size + 'dropShadow}') : 'none' >>",
       "borderRadiusTopLeft": "{sem.card.<<size>>.borderRadiusTopLeft}",
       "borderRadiusTopRight": "{sem.card.<<size>>.borderRadiusTopRight}",
       "borderRadiusBottomRight": "{sem.card.<<size>>.borderRadiusBottomRight}",
@@ -20,4 +21,3 @@ comp
     "type": "composition"
   }
 ]
-
