@@ -1,0 +1,42 @@
+// @replacepath: tokens/comp.web.json
+
+comp
+.chips
+[state: 'default' | 'hover' | 'pressed' | 'active']
+[
+  {
+    "container": {
+      "value": {
+        "fill": "{sem.colorSurface.interactive.sub.<<state>>}",
+        "border": "{sem.border.interactive.<< ({ defaut: 'default', hover: 'hover', pressed: 'pressed', active: 'none' }) >>}",
+        "itemSpacing": "{sem.chips.container.spacing}",
+        "borderRadius": "{sem.chips.container.borderRadius}",
+        "horizontalPadding": "{sem.chips.container.horizontalPadding}",
+        "height": "{sem.chips.container.height}"
+      },
+      "type": "composition"
+    },
+    "icon": {
+      "color": {
+        "value": {
+          "border": "{sem.borderIcon.<< state == 'active' ? 'light' : 'default'>>}"
+        },
+        "type": "composition"
+      },
+      "size": {
+        "value": {
+          "height": "{sem.chips.icon.size}",
+          "width": "{sem.chips.icon.size}"
+        },
+        "type": "composition"
+      }
+    },
+    "label": {
+      "value": {
+        "typography": "{}",
+        "fill": "{sem.colorText.<< state == 'active' ? 'light' : 'default'>>}"
+      },
+      "type": "composition"
+    }
+  }
+]

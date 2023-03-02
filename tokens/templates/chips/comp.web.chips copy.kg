@@ -1,0 +1,32 @@
+// @replacepath: tokens/comp.web.json
+
+sem
+.chips
+[
+  {
+    "container": {
+      "spacing": {
+        "value": "{ref.spacing.50}",
+        "type": "spacing"
+      },
+      "borderRadius": {
+        "value": "{ref.borderRadius.300}",
+        "type": "borderRadius"
+      },
+      "padding": {
+        "value": "{ref.sapcing.100}",
+        "type": "spacing"
+      },
+      "height": {
+        "value": "{ref.sizing.50}",
+        "type": "sizing"
+      }
+    },
+    "icon": {
+      "size": {
+        "value": "{ref.sizing.400}",
+        "type": "sizing"
+      }
+    }
+  }
+]
