@@ -1,0 +1,68 @@
+// @replacepath: tokens/comp.web.json
+
+comp
+.toggle
+.toggleCard.content
+[size: 'sm' | 'md' | 'lg' ]
+[
+  {
+    "container": {
+      "value": {
+        "itemSpacing": "{sem.toggle.toggleCard.content.<<size>>.spacing}"
+      },
+        "type": "composition"
+    },
+      "icon": {
+        "iconSize": {
+          "value": {
+            "size": "{sem.toggle.toggleCard.content.<<size>>.iconSize}"
+          },
+          "type": "composition"
+        },
+        "iconColor": {
+          "value": {
+            "border": "{sem.borderIcon.sm.dark}"
+          },
+          "type": "composition"
+        }
+      },
+    "rightSide": {
+      "container": {
+        "value": {
+          "itemSpacing": "{sem.toggle.toggleCard.content.<<size>>.rightSide.spacing}"
+        },
+        "type": "composition"
+      },
+      "top": {
+        "label": {
+          "container": {
+            "value": {
+              "paddingTop": "{sem.toggle.toggleCard.content.<<size>>.rightSide.top.container.label.paddingTop}"
+            },
+            "type": "composition"
+          },
+          "text": {
+            "value": {
+              "typography": "{sem.typography.textStyle.label.body.md}",
+              "fill": "{sem.colorText.dark}"
+            },
+            "type": "composition"
+          }
+        },
+        "container": {
+          "value": {
+            "itemSpacing": "{sem.toggle.toggleCard.content.<<size>>.rightSide.top.container.spacing}}"
+          },
+          "type": "composition"
+        }
+      },
+      "description": {
+        "value": {
+          "typography": "{sem.typography.textStyle.paragraph.sm.default}",
+          "fill": "{sem.colorText.default}"
+        },
+        "type": "composition"
+      }
+    }
+  }
+]

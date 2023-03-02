@@ -1,0 +1,19 @@
+// @replacepath: tokens/comp.web.json
+
+comp
+.toggle
+.checkbox
+[state: 'default' | 'hover' | 'pressed' | 'active' | 'danger' | 'disabled' | 'forced' | 'indeterminate']
+[
+  {
+    "mark": {
+      "container": {
+        "value": {
+          "borderRadius": "{sem.toggle.checkbox.mark.borderRadius}"
+        },
+        "type": "composition",
+        "description": "({extends: 'comp.toggle.base.<<state>>.mark.container'})"
+      }
+    }
+  }
+]

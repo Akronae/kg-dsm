@@ -1,0 +1,20 @@
+// @replacepath: tokens/comp.web.json
+
+sem
+.dropdown.container
+[
+  {
+    "spacing": {
+      "value": "{ref.spacing.100}",
+      "type": "spacing"
+    },
+    "padding": {
+      "value": "{ref.spacing.100}",
+      "type": "spacing"
+    },
+    "dropShadow": {
+      "value": "{ref.effects.dropShadow.300}",
+      "type": "boxShadow"
+    }
+  }
+]

@@ -100,15 +100,42 @@ module.exports = {
     process.exit(1);
   },
 
+  /**
+   * @template T
+   * @param {Obj} obj
+   * @param {function({key: string, value: any, path: string}): T} callback
+   * @returns {T[]}
+   */
+  mapForEachEntry(obj, callback) {
+    const res = [];
+
+    const recursive = (obj, callback, path) => {
+      for (const [key, value] of Object.entries(obj)) {
+        if (this.isObject(value)) {
+          recursive(value, callback, [path, key].filter((e) => !!e).join("."));
+        } else res.push(callback({ key, value, path }));
+      }
+    };
+    recursive(obj, callback, "");
+
+    return res;
+  },
+
+  /**
+   * @param {object} themeObj
+   * @returns {Array<{ compo: object, path: string }>}
+   */
   getCompositons(themeObj) {
-    const findComposInObj = (obj) => {
+    const findComposInObj = (obj, basepath) => {
       const compos = [];
 
-      for (const val of Object.values(obj)) {
+      for (const [key, val] of Object.entries(obj)) {
+        const path = [basepath, key].filter((e) => !!e).join(".");
+
         if (val.type === "composition") {
-          compos.push(val);
+          compos.push({ compo: val, path });
         } else if (this.isObject(val)) {
-          compos.push(...findComposInObj(val));
+          compos.push(...findComposInObj(val, path));
         }
       }
 

@@ -1,0 +1,12 @@
+// @replacepath: tokens/comp.web.json
+
+sem
+.toggle.checkbox.mark
+[
+  {
+    "borderRadius": {
+      "value": "{ref.borderRadius.200}",
+      "type": "borderRadius"
+    }
+  }
+]

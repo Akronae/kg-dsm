@@ -1,0 +1,21 @@
+// @replacepath: tokens/comp.web.json
+
+sem
+.link
+[size: 'sm' | 'md' ]
+[
+  {
+    "container": {
+      "spacing": {
+        "value": "{ref.spacing.50}",
+        "type": "spacing"
+      }
+    },
+    "icon": {
+      "size": {
+        "value": "{<< ({sm: 'ref.sizing.90', md: 'ref.sizing.100'})[size] >>}",
+        "type": "sizing"
+      }
+    }
+  }
+]

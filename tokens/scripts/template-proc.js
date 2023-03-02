@@ -38,7 +38,7 @@ function appendToBuds(tokens, obj, val, path = []) {
 
 //////////////////////////////////////////////////////////////////////////////////////////////////
 
-function generate(templatepath, options = { silent: false }) {
+function generate(templatepath, options = { output: 'fs' }) {
   let template = fs.readFileSync(templatepath, "utf8");
   const tokens = templateParser.parse(template);
   const res = {};
@@ -59,7 +59,7 @@ function generate(templatepath, options = { silent: false }) {
     Object.assign(res, appendToBuds(tokens, res, parsed));
   }
 
-  if (!options.silent) console.log(JSON.stringify(res, null, 2));
+  if (!options.output == 'stdout') console.log(JSON.stringify(res, null, 2));
 
   const replacepathComment = tokens
     .filter((t) => t.type == "comment")
@@ -67,19 +67,21 @@ function generate(templatepath, options = { silent: false }) {
     .find((comment) => comment.includes("@replacepath:"));
   const replacepath = replacepathComment.match(/@replacepath:(.*)/)[1].trim();
 
-  if (replacepath) {
+  if (replacepath && options.output == 'fs') {
     const replacefileContent = fs.readFileSync(replacepath, "utf8");
     const replacefileJSON = JSON.parse(replacefileContent);
     utils.mergeDeep(replacefileJSON, res);
     fs.writeFileSync(replacepath, JSON.stringify(replacefileJSON, null, 2));
   }
+
+  return res
 }
 
 if (require.main == module) {
   if (!process.argv[2])
     throw new Error("Please provide a template path as argument");
 
-  process.argv.slice(2).forEach((templatepath) => generate(templatepath));
+  process.argv.slice(2).forEach((templatepath) => generate(templatepath, {output: 'fs'}));
 }
 
 module.exports = { generate };

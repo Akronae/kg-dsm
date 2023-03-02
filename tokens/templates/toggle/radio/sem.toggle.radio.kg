@@ -1,0 +1,12 @@
+// @replacepath: tokens/comp.web.json
+
+sem
+.toggle.radio.mark
+[
+  {
+    "borderRadius": {
+      "value": "{ref.borderRadius.9999}",
+      "type": "borderRadius"
+    }
+  }
+]

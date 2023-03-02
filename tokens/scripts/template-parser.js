@@ -1,36 +1,40 @@
 const utils = require("./utils");
 
-function parse(template) {
+/**
+ * @param {string} content
+ * @returns {Array<{ type: "comment" | "object" | "indexer" | "property", value: string | object }>}
+ */
+function parse(content) {
   const tokens = [];
 
   let i = 0;
 
-  while (template) {
+  while (content) {
     if (i++ > 10000) {
       throw new Error("Infinite loop");
     }
 
-    template = template.trim();
+    content = content.trim();
 
-    if (template.startsWith("//")) {
+    if (content.startsWith("//")) {
       tokens.push({
         type: "comment",
-        value: template.substring(2, template.indexOf("\n")),
+        value: content.substring(2, content.indexOf("\n")),
       });
-      template = template.substring(template.indexOf("\n") + 1);
+      content = content.substring(content.indexOf("\n") + 1);
       continue;
     }
 
     let eat = "";
-    if (template.startsWith("[")) {
-      eat = template.substring(
+    if (content.startsWith("[")) {
+      eat = content.substring(
         0,
-        utils.getIndexOfClosingScope(template, "[", "]") + 1
+        utils.getIndexOfClosingScope(content, "[", "]") + 1
       );
     } else {
-      eat = template.substring(0, utils.indexOfFirst(template, ".", "["));
+      eat = content.substring(0, utils.indexOfFirst(content, ".", "["));
     }
-    template = template.substring(eat.length).trim();
+    content = content.substring(eat.length).trim();
 
     if (!eat) break;
 
@@ -61,8 +65,8 @@ function parse(template) {
       }
     } else {
       parsed[eat] = {};
-      template = template.trim();
-      if (template.startsWith(".")) template = template.substring(1).trim();
+      content = content.trim();
+      if (content.startsWith(".")) content = content.substring(1).trim();
       tokens.push({ type: "property", value: eat });
     }
   }
@@ -70,6 +74,18 @@ function parse(template) {
   return tokens;
 }
 
+function getPropertyChain(tokens) {
+  let propsChain = [];
+  for (const token of tokens) {
+    if (token.type == "property") {
+      propsChain.push(token.value);
+    } else if (propsChain.length > 0) break;
+  }
+
+  return propsChain;
+}
+
 module.exports = {
   parse,
+  getPropertyChain,
 };

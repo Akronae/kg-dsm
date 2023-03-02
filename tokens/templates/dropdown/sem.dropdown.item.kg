@@ -1,0 +1,41 @@
+// @replacepath: tokens/comp.web.json
+
+sem
+.dropdown.item
+[size: 'sm' | 'md']
+[
+  {
+    "container": {
+      "verticalPadding": {
+        "value": "{ref.spacing.<< ({ sm: '100', md: '150' })[size] >>}",
+        "type": "spacing"
+      },
+      "horizontalPadding": {
+        "value": "{ref.spacing.100}",
+        "type": "spacing"
+      },
+      "borderRadius": {
+        "value": "{ref.borderRadius.250}",
+        "type": "spacing"
+      },
+      "spacing": {
+        "value": "{ref.spacing.100}",
+        "type": "spacing"
+      }
+    },
+    "labelWrapper": {
+      "container": {
+        "spacing": {
+          "value": "{ref.spacing.100}",
+          "type": "composition"
+        }
+      },
+      "icon": {
+        "size": {
+          "value": "{ref.sizing.<< ({ sm: '100', md: '200' })[size] >>}",
+          "type": "composition"
+        }
+      }
+    }
+  }
+]

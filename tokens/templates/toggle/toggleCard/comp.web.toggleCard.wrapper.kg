@@ -1,0 +1,21 @@
+// @replacepath: tokens/comp.web.json
+
+comp
+.toggle
+.toggleCard.wrapper
+[state: 'default' | 'hover' | 'pressed' | 'active' | 'danger' | 'disabled' | 'forced' ]
+[
+  {
+    "container": {
+      "value": {
+        "itemSpacing": "{sem.toggle.toggleCard.wrapper.spacing}"
+      },
+      "type": "composition"
+    },
+    "card": {
+      "value": {},
+      "type": "composition",
+      "description": "({extends: 'comp.card.md.uncontrasted.<<state>>'})"
+    }
+  }
+]

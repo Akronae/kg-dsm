@@ -1,0 +1,44 @@
+// @replacepath: tokens/comp.web.json
+
+comp
+.helper
+[
+  {
+    "container": {
+      "value": {
+        "itemSpacing": "{sem.helper.container.spacing}"
+      },
+      "type": "composition"
+    },
+    "icon": {
+      "size": {
+        "value": {
+          "width": "{sem.helper.icon.size}",
+          "height": "{sem.helper.icon.size}"
+        },
+        "type": "composition"
+      },
+      "color": {
+        "value": {
+          "fill": "{sem.colorIcon.dark}" 
+        },
+        "type": "composition"
+      }
+    },
+    "textWrapper": {
+      "container": {
+        "value": {
+          "paddingTop": "{sem.helper.textWrapper.paddingTop}"
+        },
+        "type": "composition"
+      },
+      "text": {
+        "value": {
+          "typography": "{sem.typography.textStyle.paragraph.sm.default}",
+          "fill": "{sem.colorText.default}"
+        },
+        "type": "composition"
+      }
+    }
+  }
+]

@@ -1,22 +1,27 @@
 const fs = require("fs");
 const utils = require("./utils");
 
+/**
+ * @param {string} readpath
+ */
 function extend(readpath) {
   const read = JSON.parse(fs.readFileSync(readpath, "utf8"));
 
   const compoWithExtend = utils
     .getCompositons(read)
-    .filter((compo) => compo.description && eval(compo.description)?.extends);
+    .filter((res) => res.compo.description && eval(res.compo.description)?.extends);
 
-  for (const compo of compoWithExtend) {
+  for (const res of compoWithExtend) {
+    const compo = res.compo;
     const extendPath = eval(compo.description).extends;
     const extended = utils.get(read, extendPath);
     if (!extended) {
       console.error(compo);
       throw utils.throw(
-        "Composition extends",
+        utils.yellow(res.path),
+        "extends",
         utils.yellow(extendPath),
-        "but it does not exist"
+        "which does not exist"
       );
     }
     compo.value = utils.mergeDeep(

@@ -24,6 +24,10 @@ sem
     "borderRadiusBottomLeft": {
       "value": "{<< ({xs: 'ref.borderRadius.250', sm: 'ref.borderRadius.300', md: 'ref.borderRadius.400'})[size] >>}",
       "type": "borderRadius"
+    },
+    "dropShadow": {
+      "value": "{ref.effects.dropShadow.200}",
+      "type": "boxShadow"
     }
   }
 ]

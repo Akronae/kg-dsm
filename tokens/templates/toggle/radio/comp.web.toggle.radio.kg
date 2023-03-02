@@ -1,0 +1,26 @@
+// @replacepath: tokens/comp.web.json
+
+comp
+.toggle
+.radio
+[state: 'default' | 'hover' | 'pressed' | 'active' | 'danger' | 'disabled' | 'forced' ]
+[
+  {
+    "mark": {
+      "container": {
+        "value": {
+          "borderRadius": "{sem.toggle.radio.mark.borderRadius}"
+        },
+        "type": "composition",
+        "description": "({extends: 'comp.toggle.base.<<state>>.mark.container'})"
+      },
+      "iconColor": {
+        "value": {
+          "fill": "{sem.borderIcon.sm.light}"
+        },
+        "type": "composition",
+        "description": "({extends: 'comp.toggle.base.<<state>>.mark.iconColor'})"
+      }
+    }
+  }
+]
