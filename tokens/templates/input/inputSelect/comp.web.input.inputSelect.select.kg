@@ -2,22 +2,20 @@
 
 comp
 .input
-.inputSelect
+.inputSelect.select
 [size: 'sm' | 'md']
 [contrast: 'uncontrasted' | 'contrasted']
 [state: 'default' | 'hover' | 'pressed' | 'active' | 'danger' | 'disabled']
 [
   {
-    "select": {
-      "fieldWrapper": {
-        "value": {
-          "border": "none",
-          "borderRadiusTopRight": "none",
-          "borderRadiusBottomRight": "none"
-        },
-        "type": "composition",
-        "description": "({extends: 'comp.input.select.<<size>>.<< contrast == 'contrasted' ? 'uncontrasted' : 'contrasted' >>.<<state>>.fieldWrapper'})"
-      }
+    "fieldWrapper": {
+      "value": {
+        "border": "none",
+        "borderRadiusTopRight": "none",
+        "borderRadiusBottomRight": "none"
+      },
+      "type": "composition",
+      "description": "({extends: 'comp.input.select.<<size>>.<< contrast == 'contrasted' ? 'uncontrasted' : 'contrasted' >>.<<state>>.fieldWrapper'})"
     }
   }
 ]
