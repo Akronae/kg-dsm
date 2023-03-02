@@ -1,0 +1,17 @@
+// @replacepath: tokens/comp.web.json
+
+comp
+.dropdown.container
+[size: 'sm' | 'md']
+[
+  {
+    "value": {
+      "itemSpacing": "{sem.dropdown.container.spacing}",
+      "horizontalPadding": "{sem.dropdown.container.padding}",
+      "verticalPadding": "{sem.dropdown.container.padding}",
+      "boxShadow": "{sem.dropdown.container.dropShadow}"
+    },
+    "type": "composition",
+    "description": "({extends: 'comp.input.base.<<size>>.uncontrasted.default.fieldWrapper'})"
+  }
+]

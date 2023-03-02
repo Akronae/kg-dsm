@@ -1,0 +1,58 @@
+// @replacepath: tokens/comp.web.json
+
+comp
+.dropdown.item
+[size: 'sm' | 'md']
+[type: 'simple' | 'checkbox' | 'danger']
+[state: 'default' | 'hover' | 'pressed' | 'disabled']
+[
+  {
+    "container": {
+      "value": {
+        "fill": "{sem.colorSurface.<< type == 'danger' ? ({ default: 'interactive.danger.default', hover: 'interactive.danger.hover', pressed: 'interactive.danger.pressed', disabled: 'interactive.danger.disabled' })[state] : ({ default: 'interactive.light.default', hover: 'interactive.light.hover', pressed: 'interactive.light.pressed', disabled: 'interactive.light.disabled' })[state] >>}",
+        "verticalPadding": "{sem.dropdown.item.container.verticalPadding}",
+        "horizontalPadding": "{sem.dropdown.item.container.horizontalPadding}",
+        "borderRadius": "{sem.dropdown.item.container.borderRadius}",
+        "itemSpacing": "{sem.dropdown.item.container.spacing}"
+      },
+      "type": "composition"
+    },
+    "labelWrapper": {
+      "container": {
+        "value": {
+          "itemSpacing": "{sem.dropdown.item.labelWrapper.container.spacing}"
+        },
+        "type": "composition"
+      },
+      "icon": {
+        "size": {
+          "value": {
+            "width": "{sem.dropdown.item.labelWrapper.icon.size.<<size>>}",
+            "height": "{sem.dropdown.item.labelWrapper.icon.size.<<size>>}"
+          },
+          "type": "composition"
+        },
+        "color": {
+          "value": {
+            "border": "{sem.borderIcon.sm.<< type == 'danger' ? 'danger' : 'default'>>}"
+          },
+          "type": "composition"
+        },
+        "label": {
+          "value": {
+            "typography": "{sem.typography.textStyle.label.body.<<size>>}",
+            "fill": "{sem.colorText.dark}"
+          },
+          "type": "composition"
+        }
+      }
+    },
+    "description": {
+      "value": {
+        "typography": "{sem.typography.textStyle.paragraph.<<size>>.default}",
+        "fill": "{sem.colorText.default}"
+      },
+      "type": "composition"
+    }
+  }
+]
