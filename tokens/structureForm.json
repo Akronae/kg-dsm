@@ -183,7 +183,8 @@
             "value": {
               "typography": "{sem.typography.textStyle.paragraph.md.default}",
               "fill": "{sem.colorText.default}"
-            }
+            },
+            "type": "other"
           }
         },
         "sub": {
@@ -204,7 +205,8 @@
             "value": {
               "typography": "{sem.typography.textStyle.paragraph.md.default}",
               "fill": "{sem.colorText.default}"
-            }
+            },
+            "type": "other"
           }
         },
         "summary": {
@@ -225,7 +227,8 @@
             "value": {
               "typography": "{sem.typography.textStyle.paragraph.md.default}",
               "fill": "{sem.colorText.default}"
-            }
+            },
+            "type": "other"
           }
         }
       },
@@ -398,66 +401,30 @@
     },
     "title": {
       "step": {
-        "container": {
-          "value": {
-            "itemSpacing": "{sem.title.container.spacing}"
-          },
-          "type": "composition"
-        },
-        "title": {
-          "value": {
-            "typography": "{sem.typography.textStyle.heading.heading3}",
-            "fill": "{sem.colorText.dark}"
-          },
-          "type": "composition"
-        },
         "description": {
           "value": {
             "typography": "{sem.typography.textStyle.paragraph.md.default}",
             "fill": "{sem.colorText.default}"
-          }
+          },
+          "type": "other"
         }
       },
       "sub": {
-        "container": {
-          "value": {
-            "itemSpacing": "{sem.title.container.spacing}"
-          },
-          "type": "composition"
-        },
-        "title": {
-          "value": {
-            "typography": "{sem.typography.textStyle.heading.heading4}",
-            "fill": "{sem.colorText.dark}"
-          },
-          "type": "composition"
-        },
         "description": {
           "value": {
             "typography": "{sem.typography.textStyle.paragraph.md.default}",
             "fill": "{sem.colorText.default}"
-          }
+          },
+          "type": "other"
         }
       },
       "summary": {
-        "container": {
-          "value": {
-            "itemSpacing": "{sem.title.container.spacing}"
-          },
-          "type": "composition"
-        },
-        "title": {
-          "value": {
-            "typography": "{sem.typography.textStyle.heading.heading2}",
-            "fill": "{sem.colorText.dark}"
-          },
-          "type": "composition"
-        },
         "description": {
           "value": {
             "typography": "{sem.typography.textStyle.paragraph.md.default}",
             "fill": "{sem.colorText.default}"
-          }
+          },
+          "type": "other"
         }
       }
     }
@@ -465,66 +432,30 @@
   "comp\nstructureForm": {
     "title": {
       "step": {
-        "container": {
-          "value": {
-            "itemSpacing": "{sem.title.container.spacing}"
-          },
-          "type": "composition"
-        },
-        "title": {
-          "value": {
-            "typography": "{sem.typography.textStyle.heading.heading3}",
-            "fill": "{sem.colorText.dark}"
-          },
-          "type": "composition"
-        },
         "description": {
           "value": {
             "typography": "{sem.typography.textStyle.paragraph.md.default}",
             "fill": "{sem.colorText.default}"
-          }
+          },
+          "type": "other"
         }
       },
       "sub": {
-        "container": {
-          "value": {
-            "itemSpacing": "{sem.title.container.spacing}"
-          },
-          "type": "composition"
-        },
-        "title": {
-          "value": {
-            "typography": "{sem.typography.textStyle.heading.heading4}",
-            "fill": "{sem.colorText.dark}"
-          },
-          "type": "composition"
-        },
         "description": {
           "value": {
             "typography": "{sem.typography.textStyle.paragraph.md.default}",
             "fill": "{sem.colorText.default}"
-          }
+          },
+          "type": "other"
         }
       },
       "summary": {
-        "container": {
-          "value": {
-            "itemSpacing": "{sem.title.container.spacing}"
-          },
-          "type": "composition"
-        },
-        "title": {
-          "value": {
-            "typography": "{sem.typography.textStyle.heading.heading2}",
-            "fill": "{sem.colorText.dark}"
-          },
-          "type": "composition"
-        },
         "description": {
           "value": {
             "typography": "{sem.typography.textStyle.paragraph.md.default}",
             "fill": "{sem.colorText.default}"
-          }
+          },
+          "type": "other"
         }
       }
     }
