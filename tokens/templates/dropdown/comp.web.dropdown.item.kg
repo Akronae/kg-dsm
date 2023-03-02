@@ -13,7 +13,8 @@ comp
         "verticalPadding": "{sem.dropdown.item.<<size>>.container.verticalPadding}",
         "horizontalPadding": "{sem.dropdown.item.<<size>>.container.horizontalPadding}",
         "borderRadius": "{sem.dropdown.item.<<size>>.container.borderRadius}",
-        "itemSpacing": "{sem.dropdown.item.<<size>>.container.spacing}"
+        "itemSpacing": "{sem.dropdown.item.<<size>>.container.spacing}",
+        "opacity": "<< state == 'disabled' ? ('{sem.dropdown.item.' + size + '.container.opacity}') : 'none' >>"
       },
       "type": "composition"
     },
@@ -42,7 +43,7 @@ comp
       "label": {
         "value": {
           "typography": "{sem.typography.textStyle.label.body.<<size>>}",
-          "fill": "{sem.colorText.dark}"
+          "fill": "{sem.colorText.<< type == 'danger' ? 'danger' : 'dark'>>}"
         },
         "type": "composition"
       }

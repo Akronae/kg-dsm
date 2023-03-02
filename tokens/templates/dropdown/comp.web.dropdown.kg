@@ -1,17 +1,25 @@
 // @replacepath: tokens/comp.web.json
 
 comp
-.dropdown.container
+.dropdown
 [size: 'sm' | 'md']
 [
   {
-    "value": {
-      "itemSpacing": "{sem.dropdown.container.spacing}",
-      "horizontalPadding": "{sem.dropdown.container.padding}",
-      "verticalPadding": "{sem.dropdown.container.padding}",
-      "boxShadow": "{sem.dropdown.container.dropShadow}"
+    "container": {
+      "value": {
+        "itemSpacing": "{sem.dropdown.container.spacing}",
+        "horizontalPadding": "{sem.dropdown.container.padding}",
+        "verticalPadding": "{sem.dropdown.container.padding}",
+        "boxShadow": "{sem.dropdown.container.dropShadow}"
+      },
+        "type": "composition",
+        "description": "({extends: 'comp.input.base.<<size>>.uncontrasted.default.fieldWrapper'})"
     },
-    "type": "composition",
-    "description": "({extends: 'comp.input.base.<<size>>.uncontrasted.default.fieldWrapper'})"
+    "itemsWrapper": {
+      "value": {
+        "itemSpacing": "none"
+      },
+      "type": "composition"
+    }
   }
 ]
