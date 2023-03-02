@@ -183,7 +183,8 @@
             "value": {
               "typography": "{sem.typography.textStyle.paragraph.md.default}",
               "fill": "{sem.colorText.default}"
-            }
+            },
+            "type": "composition"
           }
         },
         "sub": {
@@ -204,7 +205,8 @@
             "value": {
               "typography": "{sem.typography.textStyle.paragraph.md.default}",
               "fill": "{sem.colorText.default}"
-            }
+            },
+            "type": "composition"
           }
         },
         "summary": {
@@ -225,7 +227,8 @@
             "value": {
               "typography": "{sem.typography.textStyle.paragraph.md.default}",
               "fill": "{sem.colorText.default}"
-            }
+            },
+            "type": "composition"
           }
         }
       },
