@@ -15609,7 +15609,7 @@
       },
       "icon": {
         "size": {
-          "value": "{ref.sizing.400}",
+          "value": "{ref.sizing.200}",
           "type": "sizing"
         }
       }
