@@ -398,35 +398,6 @@
           }
         }
       }
-    },
-    "title": {
-      "step": {
-        "description": {
-          "value": {
-            "typography": "{sem.typography.textStyle.paragraph.md.default}",
-            "fill": "{sem.colorText.default}"
-          },
-          "type": "other"
-        }
-      },
-      "sub": {
-        "description": {
-          "value": {
-            "typography": "{sem.typography.textStyle.paragraph.md.default}",
-            "fill": "{sem.colorText.default}"
-          },
-          "type": "other"
-        }
-      },
-      "summary": {
-        "description": {
-          "value": {
-            "typography": "{sem.typography.textStyle.paragraph.md.default}",
-            "fill": "{sem.colorText.default}"
-          },
-          "type": "other"
-        }
-      }
     }
   },
   "comp\nstructureForm": {
