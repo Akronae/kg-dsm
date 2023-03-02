@@ -123,1224 +123,6 @@
           },
           "type": "composition"
         }
-      },
-      "item": {
-        "sm": {
-          "simple": {
-            "default": {
-              "container": {
-                "value": {
-                  "fill": "{sem.colorSurface.interactive.light.default}",
-                  "verticalPadding": "{sem.dropdown.item.sm.container.verticalPadding}",
-                  "horizontalPadding": "{sem.dropdown.item.sm.container.horizontalPadding}",
-                  "borderRadius": "{sem.dropdown.item.sm.container.borderRadius}",
-                  "itemSpacing": "{sem.dropdown.item.sm.container.spacing}",
-                  "opacity": "none"
-                },
-                "type": "composition"
-              },
-              "labelWrapper": {
-                "container": {
-                  "value": {
-                    "itemSpacing": "{sem.dropdown.item.sm.labelWrapper.container.spacing}"
-                  },
-                  "type": "composition"
-                },
-                "icon": {
-                  "size": {
-                    "value": {
-                      "width": "{sem.dropdown.item.sm.labelWrapper.icon.size}",
-                      "height": "{sem.dropdown.item.sm.labelWrapper.icon.size}"
-                    },
-                    "type": "composition"
-                  },
-                  "color": {
-                    "value": {
-                      "border": "{sem.borderIcon.sm.default}"
-                    },
-                    "type": "composition"
-                  }
-                },
-                "label": {
-                  "value": {
-                    "typography": "{sem.typography.textStyle.label.body.sm}",
-                    "fill": "{sem.colorText.dark}"
-                  },
-                  "type": "composition"
-                }
-              },
-              "description": {
-                "value": {
-                  "typography": "{sem.typography.textStyle.paragraph.sm.default}",
-                  "fill": "{sem.colorText.default}"
-                },
-                "type": "composition"
-              }
-            },
-            "hover": {
-              "container": {
-                "value": {
-                  "fill": "{sem.colorSurface.interactive.light.hover}",
-                  "verticalPadding": "{sem.dropdown.item.sm.container.verticalPadding}",
-                  "horizontalPadding": "{sem.dropdown.item.sm.container.horizontalPadding}",
-                  "borderRadius": "{sem.dropdown.item.sm.container.borderRadius}",
-                  "itemSpacing": "{sem.dropdown.item.sm.container.spacing}",
-                  "opacity": "none"
-                },
-                "type": "composition"
-              },
-              "labelWrapper": {
-                "container": {
-                  "value": {
-                    "itemSpacing": "{sem.dropdown.item.sm.labelWrapper.container.spacing}"
-                  },
-                  "type": "composition"
-                },
-                "icon": {
-                  "size": {
-                    "value": {
-                      "width": "{sem.dropdown.item.sm.labelWrapper.icon.size}",
-                      "height": "{sem.dropdown.item.sm.labelWrapper.icon.size}"
-                    },
-                    "type": "composition"
-                  },
-                  "color": {
-                    "value": {
-                      "border": "{sem.borderIcon.sm.default}"
-                    },
-                    "type": "composition"
-                  }
-                },
-                "label": {
-                  "value": {
-                    "typography": "{sem.typography.textStyle.label.body.sm}",
-                    "fill": "{sem.colorText.dark}"
-                  },
-                  "type": "composition"
-                }
-              },
-              "description": {
-                "value": {
-                  "typography": "{sem.typography.textStyle.paragraph.sm.default}",
-                  "fill": "{sem.colorText.default}"
-                },
-                "type": "composition"
-              }
-            },
-            "pressed": {
-              "container": {
-                "value": {
-                  "fill": "{sem.colorSurface.interactive.light.pressed}",
-                  "verticalPadding": "{sem.dropdown.item.sm.container.verticalPadding}",
-                  "horizontalPadding": "{sem.dropdown.item.sm.container.horizontalPadding}",
-                  "borderRadius": "{sem.dropdown.item.sm.container.borderRadius}",
-                  "itemSpacing": "{sem.dropdown.item.sm.container.spacing}",
-                  "opacity": "none"
-                },
-                "type": "composition"
-              },
-              "labelWrapper": {
-                "container": {
-                  "value": {
-                    "itemSpacing": "{sem.dropdown.item.sm.labelWrapper.container.spacing}"
-                  },
-                  "type": "composition"
-                },
-                "icon": {
-                  "size": {
-                    "value": {
-                      "width": "{sem.dropdown.item.sm.labelWrapper.icon.size}",
-                      "height": "{sem.dropdown.item.sm.labelWrapper.icon.size}"
-                    },
-                    "type": "composition"
-                  },
-                  "color": {
-                    "value": {
-                      "border": "{sem.borderIcon.sm.default}"
-                    },
-                    "type": "composition"
-                  }
-                },
-                "label": {
-                  "value": {
-                    "typography": "{sem.typography.textStyle.label.body.sm}",
-                    "fill": "{sem.colorText.dark}"
-                  },
-                  "type": "composition"
-                }
-              },
-              "description": {
-                "value": {
-                  "typography": "{sem.typography.textStyle.paragraph.sm.default}",
-                  "fill": "{sem.colorText.default}"
-                },
-                "type": "composition"
-              }
-            },
-            "disabled": {
-              "container": {
-                "value": {
-                  "fill": "{sem.colorSurface.interactive.light.disabled}",
-                  "verticalPadding": "{sem.dropdown.item.sm.container.verticalPadding}",
-                  "horizontalPadding": "{sem.dropdown.item.sm.container.horizontalPadding}",
-                  "borderRadius": "{sem.dropdown.item.sm.container.borderRadius}",
-                  "itemSpacing": "{sem.dropdown.item.sm.container.spacing}",
-                  "opacity": "{sem.dropdown.item.sm.container.opacity}"
-                },
-                "type": "composition"
-              },
-              "labelWrapper": {
-                "container": {
-                  "value": {
-                    "itemSpacing": "{sem.dropdown.item.sm.labelWrapper.container.spacing}"
-                  },
-                  "type": "composition"
-                },
-                "icon": {
-                  "size": {
-                    "value": {
-                      "width": "{sem.dropdown.item.sm.labelWrapper.icon.size}",
-                      "height": "{sem.dropdown.item.sm.labelWrapper.icon.size}"
-                    },
-                    "type": "composition"
-                  },
-                  "color": {
-                    "value": {
-                      "border": "{sem.borderIcon.sm.default}"
-                    },
-                    "type": "composition"
-                  }
-                },
-                "label": {
-                  "value": {
-                    "typography": "{sem.typography.textStyle.label.body.sm}",
-                    "fill": "{sem.colorText.dark}"
-                  },
-                  "type": "composition"
-                }
-              },
-              "description": {
-                "value": {
-                  "typography": "{sem.typography.textStyle.paragraph.sm.default}",
-                  "fill": "{sem.colorText.default}"
-                },
-                "type": "composition"
-              }
-            }
-          },
-          "checkbox": {
-            "default": {
-              "container": {
-                "value": {
-                  "fill": "{sem.colorSurface.interactive.light.default}",
-                  "verticalPadding": "{sem.dropdown.item.sm.container.verticalPadding}",
-                  "horizontalPadding": "{sem.dropdown.item.sm.container.horizontalPadding}",
-                  "borderRadius": "{sem.dropdown.item.sm.container.borderRadius}",
-                  "itemSpacing": "{sem.dropdown.item.sm.container.spacing}",
-                  "opacity": "none"
-                },
-                "type": "composition"
-              },
-              "labelWrapper": {
-                "container": {
-                  "value": {
-                    "itemSpacing": "{sem.dropdown.item.sm.labelWrapper.container.spacing}"
-                  },
-                  "type": "composition"
-                },
-                "icon": {
-                  "size": {
-                    "value": {
-                      "width": "{sem.dropdown.item.sm.labelWrapper.icon.size}",
-                      "height": "{sem.dropdown.item.sm.labelWrapper.icon.size}"
-                    },
-                    "type": "composition"
-                  },
-                  "color": {
-                    "value": {
-                      "border": "{sem.borderIcon.sm.default}"
-                    },
-                    "type": "composition"
-                  }
-                },
-                "label": {
-                  "value": {
-                    "typography": "{sem.typography.textStyle.label.body.sm}",
-                    "fill": "{sem.colorText.dark}"
-                  },
-                  "type": "composition"
-                }
-              },
-              "description": {
-                "value": {
-                  "typography": "{sem.typography.textStyle.paragraph.sm.default}",
-                  "fill": "{sem.colorText.default}"
-                },
-                "type": "composition"
-              }
-            },
-            "hover": {
-              "container": {
-                "value": {
-                  "fill": "{sem.colorSurface.interactive.light.hover}",
-                  "verticalPadding": "{sem.dropdown.item.sm.container.verticalPadding}",
-                  "horizontalPadding": "{sem.dropdown.item.sm.container.horizontalPadding}",
-                  "borderRadius": "{sem.dropdown.item.sm.container.borderRadius}",
-                  "itemSpacing": "{sem.dropdown.item.sm.container.spacing}",
-                  "opacity": "none"
-                },
-                "type": "composition"
-              },
-              "labelWrapper": {
-                "container": {
-                  "value": {
-                    "itemSpacing": "{sem.dropdown.item.sm.labelWrapper.container.spacing}"
-                  },
-                  "type": "composition"
-                },
-                "icon": {
-                  "size": {
-                    "value": {
-                      "width": "{sem.dropdown.item.sm.labelWrapper.icon.size}",
-                      "height": "{sem.dropdown.item.sm.labelWrapper.icon.size}"
-                    },
-                    "type": "composition"
-                  },
-                  "color": {
-                    "value": {
-                      "border": "{sem.borderIcon.sm.default}"
-                    },
-                    "type": "composition"
-                  }
-                },
-                "label": {
-                  "value": {
-                    "typography": "{sem.typography.textStyle.label.body.sm}",
-                    "fill": "{sem.colorText.dark}"
-                  },
-                  "type": "composition"
-                }
-              },
-              "description": {
-                "value": {
-                  "typography": "{sem.typography.textStyle.paragraph.sm.default}",
-                  "fill": "{sem.colorText.default}"
-                },
-                "type": "composition"
-              }
-            },
-            "pressed": {
-              "container": {
-                "value": {
-                  "fill": "{sem.colorSurface.interactive.light.pressed}",
-                  "verticalPadding": "{sem.dropdown.item.sm.container.verticalPadding}",
-                  "horizontalPadding": "{sem.dropdown.item.sm.container.horizontalPadding}",
-                  "borderRadius": "{sem.dropdown.item.sm.container.borderRadius}",
-                  "itemSpacing": "{sem.dropdown.item.sm.container.spacing}",
-                  "opacity": "none"
-                },
-                "type": "composition"
-              },
-              "labelWrapper": {
-                "container": {
-                  "value": {
-                    "itemSpacing": "{sem.dropdown.item.sm.labelWrapper.container.spacing}"
-                  },
-                  "type": "composition"
-                },
-                "icon": {
-                  "size": {
-                    "value": {
-                      "width": "{sem.dropdown.item.sm.labelWrapper.icon.size}",
-                      "height": "{sem.dropdown.item.sm.labelWrapper.icon.size}"
-                    },
-                    "type": "composition"
-                  },
-                  "color": {
-                    "value": {
-                      "border": "{sem.borderIcon.sm.default}"
-                    },
-                    "type": "composition"
-                  }
-                },
-                "label": {
-                  "value": {
-                    "typography": "{sem.typography.textStyle.label.body.sm}",
-                    "fill": "{sem.colorText.dark}"
-                  },
-                  "type": "composition"
-                }
-              },
-              "description": {
-                "value": {
-                  "typography": "{sem.typography.textStyle.paragraph.sm.default}",
-                  "fill": "{sem.colorText.default}"
-                },
-                "type": "composition"
-              }
-            },
-            "disabled": {
-              "container": {
-                "value": {
-                  "fill": "{sem.colorSurface.interactive.light.disabled}",
-                  "verticalPadding": "{sem.dropdown.item.sm.container.verticalPadding}",
-                  "horizontalPadding": "{sem.dropdown.item.sm.container.horizontalPadding}",
-                  "borderRadius": "{sem.dropdown.item.sm.container.borderRadius}",
-                  "itemSpacing": "{sem.dropdown.item.sm.container.spacing}",
-                  "opacity": "{sem.dropdown.item.sm.container.opacity}"
-                },
-                "type": "composition"
-              },
-              "labelWrapper": {
-                "container": {
-                  "value": {
-                    "itemSpacing": "{sem.dropdown.item.sm.labelWrapper.container.spacing}"
-                  },
-                  "type": "composition"
-                },
-                "icon": {
-                  "size": {
-                    "value": {
-                      "width": "{sem.dropdown.item.sm.labelWrapper.icon.size}",
-                      "height": "{sem.dropdown.item.sm.labelWrapper.icon.size}"
-                    },
-                    "type": "composition"
-                  },
-                  "color": {
-                    "value": {
-                      "border": "{sem.borderIcon.sm.default}"
-                    },
-                    "type": "composition"
-                  }
-                },
-                "label": {
-                  "value": {
-                    "typography": "{sem.typography.textStyle.label.body.sm}",
-                    "fill": "{sem.colorText.dark}"
-                  },
-                  "type": "composition"
-                }
-              },
-              "description": {
-                "value": {
-                  "typography": "{sem.typography.textStyle.paragraph.sm.default}",
-                  "fill": "{sem.colorText.default}"
-                },
-                "type": "composition"
-              }
-            }
-          },
-          "danger": {
-            "default": {
-              "container": {
-                "value": {
-                  "fill": "{sem.colorSurface.interactive.danger.default}",
-                  "verticalPadding": "{sem.dropdown.item.sm.container.verticalPadding}",
-                  "horizontalPadding": "{sem.dropdown.item.sm.container.horizontalPadding}",
-                  "borderRadius": "{sem.dropdown.item.sm.container.borderRadius}",
-                  "itemSpacing": "{sem.dropdown.item.sm.container.spacing}",
-                  "opacity": "none"
-                },
-                "type": "composition"
-              },
-              "labelWrapper": {
-                "container": {
-                  "value": {
-                    "itemSpacing": "{sem.dropdown.item.sm.labelWrapper.container.spacing}"
-                  },
-                  "type": "composition"
-                },
-                "icon": {
-                  "size": {
-                    "value": {
-                      "width": "{sem.dropdown.item.sm.labelWrapper.icon.size}",
-                      "height": "{sem.dropdown.item.sm.labelWrapper.icon.size}"
-                    },
-                    "type": "composition"
-                  },
-                  "color": {
-                    "value": {
-                      "border": "{sem.borderIcon.sm.danger}"
-                    },
-                    "type": "composition"
-                  }
-                },
-                "label": {
-                  "value": {
-                    "typography": "{sem.typography.textStyle.label.body.sm}",
-                    "fill": "{sem.colorText.danger}"
-                  },
-                  "type": "composition"
-                }
-              },
-              "description": {
-                "value": {
-                  "typography": "{sem.typography.textStyle.paragraph.sm.default}",
-                  "fill": "{sem.colorText.default}"
-                },
-                "type": "composition"
-              }
-            },
-            "hover": {
-              "container": {
-                "value": {
-                  "fill": "{sem.colorSurface.interactive.danger.hover}",
-                  "verticalPadding": "{sem.dropdown.item.sm.container.verticalPadding}",
-                  "horizontalPadding": "{sem.dropdown.item.sm.container.horizontalPadding}",
-                  "borderRadius": "{sem.dropdown.item.sm.container.borderRadius}",
-                  "itemSpacing": "{sem.dropdown.item.sm.container.spacing}",
-                  "opacity": "none"
-                },
-                "type": "composition"
-              },
-              "labelWrapper": {
-                "container": {
-                  "value": {
-                    "itemSpacing": "{sem.dropdown.item.sm.labelWrapper.container.spacing}"
-                  },
-                  "type": "composition"
-                },
-                "icon": {
-                  "size": {
-                    "value": {
-                      "width": "{sem.dropdown.item.sm.labelWrapper.icon.size}",
-                      "height": "{sem.dropdown.item.sm.labelWrapper.icon.size}"
-                    },
-                    "type": "composition"
-                  },
-                  "color": {
-                    "value": {
-                      "border": "{sem.borderIcon.sm.danger}"
-                    },
-                    "type": "composition"
-                  }
-                },
-                "label": {
-                  "value": {
-                    "typography": "{sem.typography.textStyle.label.body.sm}",
-                    "fill": "{sem.colorText.danger}"
-                  },
-                  "type": "composition"
-                }
-              },
-              "description": {
-                "value": {
-                  "typography": "{sem.typography.textStyle.paragraph.sm.default}",
-                  "fill": "{sem.colorText.default}"
-                },
-                "type": "composition"
-              }
-            },
-            "pressed": {
-              "container": {
-                "value": {
-                  "fill": "{sem.colorSurface.interactive.danger.pressed}",
-                  "verticalPadding": "{sem.dropdown.item.sm.container.verticalPadding}",
-                  "horizontalPadding": "{sem.dropdown.item.sm.container.horizontalPadding}",
-                  "borderRadius": "{sem.dropdown.item.sm.container.borderRadius}",
-                  "itemSpacing": "{sem.dropdown.item.sm.container.spacing}",
-                  "opacity": "none"
-                },
-                "type": "composition"
-              },
-              "labelWrapper": {
-                "container": {
-                  "value": {
-                    "itemSpacing": "{sem.dropdown.item.sm.labelWrapper.container.spacing}"
-                  },
-                  "type": "composition"
-                },
-                "icon": {
-                  "size": {
-                    "value": {
-                      "width": "{sem.dropdown.item.sm.labelWrapper.icon.size}",
-                      "height": "{sem.dropdown.item.sm.labelWrapper.icon.size}"
-                    },
-                    "type": "composition"
-                  },
-                  "color": {
-                    "value": {
-                      "border": "{sem.borderIcon.sm.danger}"
-                    },
-                    "type": "composition"
-                  }
-                },
-                "label": {
-                  "value": {
-                    "typography": "{sem.typography.textStyle.label.body.sm}",
-                    "fill": "{sem.colorText.danger}"
-                  },
-                  "type": "composition"
-                }
-              },
-              "description": {
-                "value": {
-                  "typography": "{sem.typography.textStyle.paragraph.sm.default}",
-                  "fill": "{sem.colorText.default}"
-                },
-                "type": "composition"
-              }
-            },
-            "disabled": {
-              "container": {
-                "value": {
-                  "fill": "{sem.colorSurface.interactive.danger.disabled}",
-                  "verticalPadding": "{sem.dropdown.item.sm.container.verticalPadding}",
-                  "horizontalPadding": "{sem.dropdown.item.sm.container.horizontalPadding}",
-                  "borderRadius": "{sem.dropdown.item.sm.container.borderRadius}",
-                  "itemSpacing": "{sem.dropdown.item.sm.container.spacing}",
-                  "opacity": "{sem.dropdown.item.sm.container.opacity}"
-                },
-                "type": "composition"
-              },
-              "labelWrapper": {
-                "container": {
-                  "value": {
-                    "itemSpacing": "{sem.dropdown.item.sm.labelWrapper.container.spacing}"
-                  },
-                  "type": "composition"
-                },
-                "icon": {
-                  "size": {
-                    "value": {
-                      "width": "{sem.dropdown.item.sm.labelWrapper.icon.size}",
-                      "height": "{sem.dropdown.item.sm.labelWrapper.icon.size}"
-                    },
-                    "type": "composition"
-                  },
-                  "color": {
-                    "value": {
-                      "border": "{sem.borderIcon.sm.danger}"
-                    },
-                    "type": "composition"
-                  }
-                },
-                "label": {
-                  "value": {
-                    "typography": "{sem.typography.textStyle.label.body.sm}",
-                    "fill": "{sem.colorText.danger}"
-                  },
-                  "type": "composition"
-                }
-              },
-              "description": {
-                "value": {
-                  "typography": "{sem.typography.textStyle.paragraph.sm.default}",
-                  "fill": "{sem.colorText.default}"
-                },
-                "type": "composition"
-              }
-            }
-          }
-        },
-        "md": {
-          "simple": {
-            "default": {
-              "container": {
-                "value": {
-                  "fill": "{sem.colorSurface.interactive.light.default}",
-                  "verticalPadding": "{sem.dropdown.item.md.container.verticalPadding}",
-                  "horizontalPadding": "{sem.dropdown.item.md.container.horizontalPadding}",
-                  "borderRadius": "{sem.dropdown.item.md.container.borderRadius}",
-                  "itemSpacing": "{sem.dropdown.item.md.container.spacing}",
-                  "opacity": "none"
-                },
-                "type": "composition"
-              },
-              "labelWrapper": {
-                "container": {
-                  "value": {
-                    "itemSpacing": "{sem.dropdown.item.md.labelWrapper.container.spacing}"
-                  },
-                  "type": "composition"
-                },
-                "icon": {
-                  "size": {
-                    "value": {
-                      "width": "{sem.dropdown.item.md.labelWrapper.icon.size}",
-                      "height": "{sem.dropdown.item.md.labelWrapper.icon.size}"
-                    },
-                    "type": "composition"
-                  },
-                  "color": {
-                    "value": {
-                      "border": "{sem.borderIcon.sm.default}"
-                    },
-                    "type": "composition"
-                  }
-                },
-                "label": {
-                  "value": {
-                    "typography": "{sem.typography.textStyle.label.body.md}",
-                    "fill": "{sem.colorText.dark}"
-                  },
-                  "type": "composition"
-                }
-              },
-              "description": {
-                "value": {
-                  "typography": "{sem.typography.textStyle.paragraph.md.default}",
-                  "fill": "{sem.colorText.default}"
-                },
-                "type": "composition"
-              }
-            },
-            "hover": {
-              "container": {
-                "value": {
-                  "fill": "{sem.colorSurface.interactive.light.hover}",
-                  "verticalPadding": "{sem.dropdown.item.md.container.verticalPadding}",
-                  "horizontalPadding": "{sem.dropdown.item.md.container.horizontalPadding}",
-                  "borderRadius": "{sem.dropdown.item.md.container.borderRadius}",
-                  "itemSpacing": "{sem.dropdown.item.md.container.spacing}",
-                  "opacity": "none"
-                },
-                "type": "composition"
-              },
-              "labelWrapper": {
-                "container": {
-                  "value": {
-                    "itemSpacing": "{sem.dropdown.item.md.labelWrapper.container.spacing}"
-                  },
-                  "type": "composition"
-                },
-                "icon": {
-                  "size": {
-                    "value": {
-                      "width": "{sem.dropdown.item.md.labelWrapper.icon.size}",
-                      "height": "{sem.dropdown.item.md.labelWrapper.icon.size}"
-                    },
-                    "type": "composition"
-                  },
-                  "color": {
-                    "value": {
-                      "border": "{sem.borderIcon.sm.default}"
-                    },
-                    "type": "composition"
-                  }
-                },
-                "label": {
-                  "value": {
-                    "typography": "{sem.typography.textStyle.label.body.md}",
-                    "fill": "{sem.colorText.dark}"
-                  },
-                  "type": "composition"
-                }
-              },
-              "description": {
-                "value": {
-                  "typography": "{sem.typography.textStyle.paragraph.md.default}",
-                  "fill": "{sem.colorText.default}"
-                },
-                "type": "composition"
-              }
-            },
-            "pressed": {
-              "container": {
-                "value": {
-                  "fill": "{sem.colorSurface.interactive.light.pressed}",
-                  "verticalPadding": "{sem.dropdown.item.md.container.verticalPadding}",
-                  "horizontalPadding": "{sem.dropdown.item.md.container.horizontalPadding}",
-                  "borderRadius": "{sem.dropdown.item.md.container.borderRadius}",
-                  "itemSpacing": "{sem.dropdown.item.md.container.spacing}",
-                  "opacity": "none"
-                },
-                "type": "composition"
-              },
-              "labelWrapper": {
-                "container": {
-                  "value": {
-                    "itemSpacing": "{sem.dropdown.item.md.labelWrapper.container.spacing}"
-                  },
-                  "type": "composition"
-                },
-                "icon": {
-                  "size": {
-                    "value": {
-                      "width": "{sem.dropdown.item.md.labelWrapper.icon.size}",
-                      "height": "{sem.dropdown.item.md.labelWrapper.icon.size}"
-                    },
-                    "type": "composition"
-                  },
-                  "color": {
-                    "value": {
-                      "border": "{sem.borderIcon.sm.default}"
-                    },
-                    "type": "composition"
-                  }
-                },
-                "label": {
-                  "value": {
-                    "typography": "{sem.typography.textStyle.label.body.md}",
-                    "fill": "{sem.colorText.dark}"
-                  },
-                  "type": "composition"
-                }
-              },
-              "description": {
-                "value": {
-                  "typography": "{sem.typography.textStyle.paragraph.md.default}",
-                  "fill": "{sem.colorText.default}"
-                },
-                "type": "composition"
-              }
-            },
-            "disabled": {
-              "container": {
-                "value": {
-                  "fill": "{sem.colorSurface.interactive.light.disabled}",
-                  "verticalPadding": "{sem.dropdown.item.md.container.verticalPadding}",
-                  "horizontalPadding": "{sem.dropdown.item.md.container.horizontalPadding}",
-                  "borderRadius": "{sem.dropdown.item.md.container.borderRadius}",
-                  "itemSpacing": "{sem.dropdown.item.md.container.spacing}",
-                  "opacity": "{sem.dropdown.item.md.container.opacity}"
-                },
-                "type": "composition"
-              },
-              "labelWrapper": {
-                "container": {
-                  "value": {
-                    "itemSpacing": "{sem.dropdown.item.md.labelWrapper.container.spacing}"
-                  },
-                  "type": "composition"
-                },
-                "icon": {
-                  "size": {
-                    "value": {
-                      "width": "{sem.dropdown.item.md.labelWrapper.icon.size}",
-                      "height": "{sem.dropdown.item.md.labelWrapper.icon.size}"
-                    },
-                    "type": "composition"
-                  },
-                  "color": {
-                    "value": {
-                      "border": "{sem.borderIcon.sm.default}"
-                    },
-                    "type": "composition"
-                  }
-                },
-                "label": {
-                  "value": {
-                    "typography": "{sem.typography.textStyle.label.body.md}",
-                    "fill": "{sem.colorText.dark}"
-                  },
-                  "type": "composition"
-                }
-              },
-              "description": {
-                "value": {
-                  "typography": "{sem.typography.textStyle.paragraph.md.default}",
-                  "fill": "{sem.colorText.default}"
-                },
-                "type": "composition"
-              }
-            }
-          },
-          "checkbox": {
-            "default": {
-              "container": {
-                "value": {
-                  "fill": "{sem.colorSurface.interactive.light.default}",
-                  "verticalPadding": "{sem.dropdown.item.md.container.verticalPadding}",
-                  "horizontalPadding": "{sem.dropdown.item.md.container.horizontalPadding}",
-                  "borderRadius": "{sem.dropdown.item.md.container.borderRadius}",
-                  "itemSpacing": "{sem.dropdown.item.md.container.spacing}",
-                  "opacity": "none"
-                },
-                "type": "composition"
-              },
-              "labelWrapper": {
-                "container": {
-                  "value": {
-                    "itemSpacing": "{sem.dropdown.item.md.labelWrapper.container.spacing}"
-                  },
-                  "type": "composition"
-                },
-                "icon": {
-                  "size": {
-                    "value": {
-                      "width": "{sem.dropdown.item.md.labelWrapper.icon.size}",
-                      "height": "{sem.dropdown.item.md.labelWrapper.icon.size}"
-                    },
-                    "type": "composition"
-                  },
-                  "color": {
-                    "value": {
-                      "border": "{sem.borderIcon.sm.default}"
-                    },
-                    "type": "composition"
-                  }
-                },
-                "label": {
-                  "value": {
-                    "typography": "{sem.typography.textStyle.label.body.md}",
-                    "fill": "{sem.colorText.dark}"
-                  },
-                  "type": "composition"
-                }
-              },
-              "description": {
-                "value": {
-                  "typography": "{sem.typography.textStyle.paragraph.md.default}",
-                  "fill": "{sem.colorText.default}"
-                },
-                "type": "composition"
-              }
-            },
-            "hover": {
-              "container": {
-                "value": {
-                  "fill": "{sem.colorSurface.interactive.light.hover}",
-                  "verticalPadding": "{sem.dropdown.item.md.container.verticalPadding}",
-                  "horizontalPadding": "{sem.dropdown.item.md.container.horizontalPadding}",
-                  "borderRadius": "{sem.dropdown.item.md.container.borderRadius}",
-                  "itemSpacing": "{sem.dropdown.item.md.container.spacing}",
-                  "opacity": "none"
-                },
-                "type": "composition"
-              },
-              "labelWrapper": {
-                "container": {
-                  "value": {
-                    "itemSpacing": "{sem.dropdown.item.md.labelWrapper.container.spacing}"
-                  },
-                  "type": "composition"
-                },
-                "icon": {
-                  "size": {
-                    "value": {
-                      "width": "{sem.dropdown.item.md.labelWrapper.icon.size}",
-                      "height": "{sem.dropdown.item.md.labelWrapper.icon.size}"
-                    },
-                    "type": "composition"
-                  },
-                  "color": {
-                    "value": {
-                      "border": "{sem.borderIcon.sm.default}"
-                    },
-                    "type": "composition"
-                  }
-                },
-                "label": {
-                  "value": {
-                    "typography": "{sem.typography.textStyle.label.body.md}",
-                    "fill": "{sem.colorText.dark}"
-                  },
-                  "type": "composition"
-                }
-              },
-              "description": {
-                "value": {
-                  "typography": "{sem.typography.textStyle.paragraph.md.default}",
-                  "fill": "{sem.colorText.default}"
-                },
-                "type": "composition"
-              }
-            },
-            "pressed": {
-              "container": {
-                "value": {
-                  "fill": "{sem.colorSurface.interactive.light.pressed}",
-                  "verticalPadding": "{sem.dropdown.item.md.container.verticalPadding}",
-                  "horizontalPadding": "{sem.dropdown.item.md.container.horizontalPadding}",
-                  "borderRadius": "{sem.dropdown.item.md.container.borderRadius}",
-                  "itemSpacing": "{sem.dropdown.item.md.container.spacing}",
-                  "opacity": "none"
-                },
-                "type": "composition"
-              },
-              "labelWrapper": {
-                "container": {
-                  "value": {
-                    "itemSpacing": "{sem.dropdown.item.md.labelWrapper.container.spacing}"
-                  },
-                  "type": "composition"
-                },
-                "icon": {
-                  "size": {
-                    "value": {
-                      "width": "{sem.dropdown.item.md.labelWrapper.icon.size}",
-                      "height": "{sem.dropdown.item.md.labelWrapper.icon.size}"
-                    },
-                    "type": "composition"
-                  },
-                  "color": {
-                    "value": {
-                      "border": "{sem.borderIcon.sm.default}"
-                    },
-                    "type": "composition"
-                  }
-                },
-                "label": {
-                  "value": {
-                    "typography": "{sem.typography.textStyle.label.body.md}",
-                    "fill": "{sem.colorText.dark}"
-                  },
-                  "type": "composition"
-                }
-              },
-              "description": {
-                "value": {
-                  "typography": "{sem.typography.textStyle.paragraph.md.default}",
-                  "fill": "{sem.colorText.default}"
-                },
-                "type": "composition"
-              }
-            },
-            "disabled": {
-              "container": {
-                "value": {
-                  "fill": "{sem.colorSurface.interactive.light.disabled}",
-                  "verticalPadding": "{sem.dropdown.item.md.container.verticalPadding}",
-                  "horizontalPadding": "{sem.dropdown.item.md.container.horizontalPadding}",
-                  "borderRadius": "{sem.dropdown.item.md.container.borderRadius}",
-                  "itemSpacing": "{sem.dropdown.item.md.container.spacing}",
-                  "opacity": "{sem.dropdown.item.md.container.opacity}"
-                },
-                "type": "composition"
-              },
-              "labelWrapper": {
-                "container": {
-                  "value": {
-                    "itemSpacing": "{sem.dropdown.item.md.labelWrapper.container.spacing}"
-                  },
-                  "type": "composition"
-                },
-                "icon": {
-                  "size": {
-                    "value": {
-                      "width": "{sem.dropdown.item.md.labelWrapper.icon.size}",
-                      "height": "{sem.dropdown.item.md.labelWrapper.icon.size}"
-                    },
-                    "type": "composition"
-                  },
-                  "color": {
-                    "value": {
-                      "border": "{sem.borderIcon.sm.default}"
-                    },
-                    "type": "composition"
-                  }
-                },
-                "label": {
-                  "value": {
-                    "typography": "{sem.typography.textStyle.label.body.md}",
-                    "fill": "{sem.colorText.dark}"
-                  },
-                  "type": "composition"
-                }
-              },
-              "description": {
-                "value": {
-                  "typography": "{sem.typography.textStyle.paragraph.md.default}",
-                  "fill": "{sem.colorText.default}"
-                },
-                "type": "composition"
-              }
-            }
-          },
-          "danger": {
-            "default": {
-              "container": {
-                "value": {
-                  "fill": "{sem.colorSurface.interactive.danger.default}",
-                  "verticalPadding": "{sem.dropdown.item.md.container.verticalPadding}",
-                  "horizontalPadding": "{sem.dropdown.item.md.container.horizontalPadding}",
-                  "borderRadius": "{sem.dropdown.item.md.container.borderRadius}",
-                  "itemSpacing": "{sem.dropdown.item.md.container.spacing}",
-                  "opacity": "none"
-                },
-                "type": "composition"
-              },
-              "labelWrapper": {
-                "container": {
-                  "value": {
-                    "itemSpacing": "{sem.dropdown.item.md.labelWrapper.container.spacing}"
-                  },
-                  "type": "composition"
-                },
-                "icon": {
-                  "size": {
-                    "value": {
-                      "width": "{sem.dropdown.item.md.labelWrapper.icon.size}",
-                      "height": "{sem.dropdown.item.md.labelWrapper.icon.size}"
-                    },
-                    "type": "composition"
-                  },
-                  "color": {
-                    "value": {
-                      "border": "{sem.borderIcon.sm.danger}"
-                    },
-                    "type": "composition"
-                  }
-                },
-                "label": {
-                  "value": {
-                    "typography": "{sem.typography.textStyle.label.body.md}",
-                    "fill": "{sem.colorText.danger}"
-                  },
-                  "type": "composition"
-                }
-              },
-              "description": {
-                "value": {
-                  "typography": "{sem.typography.textStyle.paragraph.md.default}",
-                  "fill": "{sem.colorText.default}"
-                },
-                "type": "composition"
-              }
-            },
-            "hover": {
-              "container": {
-                "value": {
-                  "fill": "{sem.colorSurface.interactive.danger.hover}",
-                  "verticalPadding": "{sem.dropdown.item.md.container.verticalPadding}",
-                  "horizontalPadding": "{sem.dropdown.item.md.container.horizontalPadding}",
-                  "borderRadius": "{sem.dropdown.item.md.container.borderRadius}",
-                  "itemSpacing": "{sem.dropdown.item.md.container.spacing}",
-                  "opacity": "none"
-                },
-                "type": "composition"
-              },
-              "labelWrapper": {
-                "container": {
-                  "value": {
-                    "itemSpacing": "{sem.dropdown.item.md.labelWrapper.container.spacing}"
-                  },
-                  "type": "composition"
-                },
-                "icon": {
-                  "size": {
-                    "value": {
-                      "width": "{sem.dropdown.item.md.labelWrapper.icon.size}",
-                      "height": "{sem.dropdown.item.md.labelWrapper.icon.size}"
-                    },
-                    "type": "composition"
-                  },
-                  "color": {
-                    "value": {
-                      "border": "{sem.borderIcon.sm.danger}"
-                    },
-                    "type": "composition"
-                  }
-                },
-                "label": {
-                  "value": {
-                    "typography": "{sem.typography.textStyle.label.body.md}",
-                    "fill": "{sem.colorText.danger}"
-                  },
-                  "type": "composition"
-                }
-              },
-              "description": {
-                "value": {
-                  "typography": "{sem.typography.textStyle.paragraph.md.default}",
-                  "fill": "{sem.colorText.default}"
-                },
-                "type": "composition"
-              }
-            },
-            "pressed": {
-              "container": {
-                "value": {
-                  "fill": "{sem.colorSurface.interactive.danger.pressed}",
-                  "verticalPadding": "{sem.dropdown.item.md.container.verticalPadding}",
-                  "horizontalPadding": "{sem.dropdown.item.md.container.horizontalPadding}",
-                  "borderRadius": "{sem.dropdown.item.md.container.borderRadius}",
-                  "itemSpacing": "{sem.dropdown.item.md.container.spacing}",
-                  "opacity": "none"
-                },
-                "type": "composition"
-              },
-              "labelWrapper": {
-                "container": {
-                  "value": {
-                    "itemSpacing": "{sem.dropdown.item.md.labelWrapper.container.spacing}"
-                  },
-                  "type": "composition"
-                },
-                "icon": {
-                  "size": {
-                    "value": {
-                      "width": "{sem.dropdown.item.md.labelWrapper.icon.size}",
-                      "height": "{sem.dropdown.item.md.labelWrapper.icon.size}"
-                    },
-                    "type": "composition"
-                  },
-                  "color": {
-                    "value": {
-                      "border": "{sem.borderIcon.sm.danger}"
-                    },
-                    "type": "composition"
-                  }
-                },
-                "label": {
-                  "value": {
-                    "typography": "{sem.typography.textStyle.label.body.md}",
-                    "fill": "{sem.colorText.danger}"
-                  },
-                  "type": "composition"
-                }
-              },
-              "description": {
-                "value": {
-                  "typography": "{sem.typography.textStyle.paragraph.md.default}",
-                  "fill": "{sem.colorText.default}"
-                },
-                "type": "composition"
-              }
-            },
-            "disabled": {
-              "container": {
-                "value": {
-                  "fill": "{sem.colorSurface.interactive.danger.disabled}",
-                  "verticalPadding": "{sem.dropdown.item.md.container.verticalPadding}",
-                  "horizontalPadding": "{sem.dropdown.item.md.container.horizontalPadding}",
-                  "borderRadius": "{sem.dropdown.item.md.container.borderRadius}",
-                  "itemSpacing": "{sem.dropdown.item.md.container.spacing}",
-                  "opacity": "{sem.dropdown.item.md.container.opacity}"
-                },
-                "type": "composition"
-              },
-              "labelWrapper": {
-                "container": {
-                  "value": {
-                    "itemSpacing": "{sem.dropdown.item.md.labelWrapper.container.spacing}"
-                  },
-                  "type": "composition"
-                },
-                "icon": {
-                  "size": {
-                    "value": {
-                      "width": "{sem.dropdown.item.md.labelWrapper.icon.size}",
-                      "height": "{sem.dropdown.item.md.labelWrapper.icon.size}"
-                    },
-                    "type": "composition"
-                  },
-                  "color": {
-                    "value": {
-                      "border": "{sem.borderIcon.sm.danger}"
-                    },
-                    "type": "composition"
-                  }
-                },
-                "label": {
-                  "value": {
-                    "typography": "{sem.typography.textStyle.label.body.md}",
-                    "fill": "{sem.colorText.danger}"
-                  },
-                  "type": "composition"
-                }
-              },
-              "description": {
-                "value": {
-                  "typography": "{sem.typography.textStyle.paragraph.md.default}",
-                  "fill": "{sem.colorText.default}"
-                },
-                "type": "composition"
-              }
-            }
-          }
-        }
       }
     },
     "toggle": {
@@ -14560,6 +13342,452 @@
                   },
                   "type": "composition",
                   "description": "({extends: 'comp.input.base.md.contrasted.disabled.fieldWrapper'})"
+                }
+              }
+            }
+          }
+        },
+        "select": {
+          "sm": {
+            "uncontrasted": {
+              "default": {
+                "fieldWrapper": {
+                  "value": {
+                    "horizontalPadding": "{sem.card.xs.padding}",
+                    "verticalPadding": "{sem.card.xs.padding}",
+                    "fill": "{sem.colorSurface.sub}",
+                    "boxShadow": "none",
+                    "borderRadiusTopLeft": "{sem.card.xs.borderRadiusTopLeft}",
+                    "borderRadiusTopRight": "none",
+                    "borderRadiusBottomRight": "none",
+                    "borderRadiusBottomLeft": "{sem.card.xs.borderRadiusBottomLeft}",
+                    "border": "none",
+                    "itemSpacing": "{sem.input.sm.fieldWrapper.spacer}"
+                  },
+                  "type": "composition",
+                  "description": "({extends: 'comp.input.select.sm.contrasted.default.fieldWrapper'})"
+                }
+              },
+              "hover": {
+                "fieldWrapper": {
+                  "value": {
+                    "horizontalPadding": "{sem.card.xs.padding}",
+                    "verticalPadding": "{sem.card.xs.padding}",
+                    "fill": "{sem.colorSurface.sub}",
+                    "boxShadow": "none",
+                    "borderRadiusTopLeft": "{sem.card.xs.borderRadiusTopLeft}",
+                    "borderRadiusTopRight": "none",
+                    "borderRadiusBottomRight": "none",
+                    "borderRadiusBottomLeft": "{sem.card.xs.borderRadiusBottomLeft}",
+                    "border": "none",
+                    "itemSpacing": "{sem.input.sm.fieldWrapper.spacer}"
+                  },
+                  "type": "composition",
+                  "description": "({extends: 'comp.input.select.sm.contrasted.hover.fieldWrapper'})"
+                }
+              },
+              "pressed": {
+                "fieldWrapper": {
+                  "value": {
+                    "horizontalPadding": "{sem.card.xs.padding}",
+                    "verticalPadding": "{sem.card.xs.padding}",
+                    "fill": "{sem.colorSurface.sub}",
+                    "boxShadow": "none",
+                    "borderRadiusTopLeft": "{sem.card.xs.borderRadiusTopLeft}",
+                    "borderRadiusTopRight": "none",
+                    "borderRadiusBottomRight": "none",
+                    "borderRadiusBottomLeft": "{sem.card.xs.borderRadiusBottomLeft}",
+                    "border": "none",
+                    "itemSpacing": "{sem.input.sm.fieldWrapper.spacer}"
+                  },
+                  "type": "composition",
+                  "description": "({extends: 'comp.input.select.sm.contrasted.pressed.fieldWrapper'})"
+                }
+              },
+              "active": {
+                "fieldWrapper": {
+                  "value": {
+                    "horizontalPadding": "{sem.card.xs.padding}",
+                    "verticalPadding": "{sem.card.xs.padding}",
+                    "fill": "{sem.colorSurface.sub}",
+                    "boxShadow": "none",
+                    "borderRadiusTopLeft": "{sem.card.xs.borderRadiusTopLeft}",
+                    "borderRadiusTopRight": "none",
+                    "borderRadiusBottomRight": "none",
+                    "borderRadiusBottomLeft": "{sem.card.xs.borderRadiusBottomLeft}",
+                    "border": "none",
+                    "itemSpacing": "{sem.input.sm.fieldWrapper.spacer}"
+                  },
+                  "type": "composition",
+                  "description": "({extends: 'comp.input.select.sm.contrasted.active.fieldWrapper'})"
+                }
+              },
+              "danger": {
+                "fieldWrapper": {
+                  "value": {
+                    "horizontalPadding": "{sem.card.xs.padding}",
+                    "verticalPadding": "{sem.card.xs.padding}",
+                    "fill": "{sem.colorSurface.sub}",
+                    "boxShadow": "none",
+                    "borderRadiusTopLeft": "{sem.card.xs.borderRadiusTopLeft}",
+                    "borderRadiusTopRight": "none",
+                    "borderRadiusBottomRight": "none",
+                    "borderRadiusBottomLeft": "{sem.card.xs.borderRadiusBottomLeft}",
+                    "border": "none",
+                    "itemSpacing": "{sem.input.sm.fieldWrapper.spacer}"
+                  },
+                  "type": "composition",
+                  "description": "({extends: 'comp.input.select.sm.contrasted.danger.fieldWrapper'})"
+                }
+              },
+              "disabled": {
+                "fieldWrapper": {
+                  "value": {
+                    "horizontalPadding": "{sem.card.xs.padding}",
+                    "verticalPadding": "{sem.card.xs.padding}",
+                    "fill": "{sem.colorSurface.sub}",
+                    "boxShadow": "none",
+                    "borderRadiusTopLeft": "{sem.card.xs.borderRadiusTopLeft}",
+                    "borderRadiusTopRight": "none",
+                    "borderRadiusBottomRight": "none",
+                    "borderRadiusBottomLeft": "{sem.card.xs.borderRadiusBottomLeft}",
+                    "border": "none",
+                    "itemSpacing": "{sem.input.sm.fieldWrapper.spacer}"
+                  },
+                  "type": "composition",
+                  "description": "({extends: 'comp.input.select.sm.contrasted.disabled.fieldWrapper'})"
+                }
+              }
+            },
+            "contrasted": {
+              "default": {
+                "fieldWrapper": {
+                  "value": {
+                    "horizontalPadding": "{sem.card.xs.padding}",
+                    "verticalPadding": "{sem.card.xs.padding}",
+                    "fill": "{sem.colorSurface.light}",
+                    "boxShadow": "none",
+                    "borderRadiusTopLeft": "{sem.card.xs.borderRadiusTopLeft}",
+                    "borderRadiusTopRight": "none",
+                    "borderRadiusBottomRight": "none",
+                    "borderRadiusBottomLeft": "{sem.card.xs.borderRadiusBottomLeft}",
+                    "border": "none",
+                    "itemSpacing": "{sem.input.sm.fieldWrapper.spacer}"
+                  },
+                  "type": "composition",
+                  "description": "({extends: 'comp.input.select.sm.uncontrasted.default.fieldWrapper'})"
+                }
+              },
+              "hover": {
+                "fieldWrapper": {
+                  "value": {
+                    "horizontalPadding": "{sem.card.xs.padding}",
+                    "verticalPadding": "{sem.card.xs.padding}",
+                    "fill": "{sem.colorSurface.light}",
+                    "boxShadow": "{sem.card.xs.dropShadow}",
+                    "borderRadiusTopLeft": "{sem.card.xs.borderRadiusTopLeft}",
+                    "borderRadiusTopRight": "none",
+                    "borderRadiusBottomRight": "none",
+                    "borderRadiusBottomLeft": "{sem.card.xs.borderRadiusBottomLeft}",
+                    "border": "none",
+                    "itemSpacing": "{sem.input.sm.fieldWrapper.spacer}"
+                  },
+                  "type": "composition",
+                  "description": "({extends: 'comp.input.select.sm.uncontrasted.hover.fieldWrapper'})"
+                }
+              },
+              "pressed": {
+                "fieldWrapper": {
+                  "value": {
+                    "horizontalPadding": "{sem.card.xs.padding}",
+                    "verticalPadding": "{sem.card.xs.padding}",
+                    "fill": "{sem.colorSurface.light}",
+                    "boxShadow": "none",
+                    "borderRadiusTopLeft": "{sem.card.xs.borderRadiusTopLeft}",
+                    "borderRadiusTopRight": "none",
+                    "borderRadiusBottomRight": "none",
+                    "borderRadiusBottomLeft": "{sem.card.xs.borderRadiusBottomLeft}",
+                    "border": "none",
+                    "itemSpacing": "{sem.input.sm.fieldWrapper.spacer}"
+                  },
+                  "type": "composition",
+                  "description": "({extends: 'comp.input.select.sm.uncontrasted.pressed.fieldWrapper'})"
+                }
+              },
+              "active": {
+                "fieldWrapper": {
+                  "value": {
+                    "horizontalPadding": "{sem.card.xs.padding}",
+                    "verticalPadding": "{sem.card.xs.padding}",
+                    "fill": "{sem.colorSurface.light}",
+                    "boxShadow": "none",
+                    "borderRadiusTopLeft": "{sem.card.xs.borderRadiusTopLeft}",
+                    "borderRadiusTopRight": "none",
+                    "borderRadiusBottomRight": "none",
+                    "borderRadiusBottomLeft": "{sem.card.xs.borderRadiusBottomLeft}",
+                    "border": "none",
+                    "itemSpacing": "{sem.input.sm.fieldWrapper.spacer}"
+                  },
+                  "type": "composition",
+                  "description": "({extends: 'comp.input.select.sm.uncontrasted.active.fieldWrapper'})"
+                }
+              },
+              "danger": {
+                "fieldWrapper": {
+                  "value": {
+                    "horizontalPadding": "{sem.card.xs.padding}",
+                    "verticalPadding": "{sem.card.xs.padding}",
+                    "fill": "{sem.colorSurface.light}",
+                    "boxShadow": "none",
+                    "borderRadiusTopLeft": "{sem.card.xs.borderRadiusTopLeft}",
+                    "borderRadiusTopRight": "none",
+                    "borderRadiusBottomRight": "none",
+                    "borderRadiusBottomLeft": "{sem.card.xs.borderRadiusBottomLeft}",
+                    "border": "none",
+                    "itemSpacing": "{sem.input.sm.fieldWrapper.spacer}"
+                  },
+                  "type": "composition",
+                  "description": "({extends: 'comp.input.select.sm.uncontrasted.danger.fieldWrapper'})"
+                }
+              },
+              "disabled": {
+                "fieldWrapper": {
+                  "value": {
+                    "horizontalPadding": "{sem.card.xs.padding}",
+                    "verticalPadding": "{sem.card.xs.padding}",
+                    "fill": "{sem.colorSurface.light}",
+                    "boxShadow": "none",
+                    "borderRadiusTopLeft": "{sem.card.xs.borderRadiusTopLeft}",
+                    "borderRadiusTopRight": "none",
+                    "borderRadiusBottomRight": "none",
+                    "borderRadiusBottomLeft": "{sem.card.xs.borderRadiusBottomLeft}",
+                    "border": "none",
+                    "itemSpacing": "{sem.input.sm.fieldWrapper.spacer}"
+                  },
+                  "type": "composition",
+                  "description": "({extends: 'comp.input.select.sm.uncontrasted.disabled.fieldWrapper'})"
+                }
+              }
+            }
+          },
+          "md": {
+            "uncontrasted": {
+              "default": {
+                "fieldWrapper": {
+                  "value": {
+                    "horizontalPadding": "{sem.card.sm.padding}",
+                    "verticalPadding": "{sem.card.sm.padding}",
+                    "fill": "{sem.colorSurface.sub}",
+                    "boxShadow": "none",
+                    "borderRadiusTopLeft": "{sem.card.sm.borderRadiusTopLeft}",
+                    "borderRadiusTopRight": "none",
+                    "borderRadiusBottomRight": "none",
+                    "borderRadiusBottomLeft": "{sem.card.sm.borderRadiusBottomLeft}",
+                    "border": "none",
+                    "itemSpacing": "{sem.input.md.fieldWrapper.spacer}"
+                  },
+                  "type": "composition",
+                  "description": "({extends: 'comp.input.select.md.contrasted.default.fieldWrapper'})"
+                }
+              },
+              "hover": {
+                "fieldWrapper": {
+                  "value": {
+                    "horizontalPadding": "{sem.card.sm.padding}",
+                    "verticalPadding": "{sem.card.sm.padding}",
+                    "fill": "{sem.colorSurface.sub}",
+                    "boxShadow": "none",
+                    "borderRadiusTopLeft": "{sem.card.sm.borderRadiusTopLeft}",
+                    "borderRadiusTopRight": "none",
+                    "borderRadiusBottomRight": "none",
+                    "borderRadiusBottomLeft": "{sem.card.sm.borderRadiusBottomLeft}",
+                    "border": "none",
+                    "itemSpacing": "{sem.input.md.fieldWrapper.spacer}"
+                  },
+                  "type": "composition",
+                  "description": "({extends: 'comp.input.select.md.contrasted.hover.fieldWrapper'})"
+                }
+              },
+              "pressed": {
+                "fieldWrapper": {
+                  "value": {
+                    "horizontalPadding": "{sem.card.sm.padding}",
+                    "verticalPadding": "{sem.card.sm.padding}",
+                    "fill": "{sem.colorSurface.sub}",
+                    "boxShadow": "none",
+                    "borderRadiusTopLeft": "{sem.card.sm.borderRadiusTopLeft}",
+                    "borderRadiusTopRight": "none",
+                    "borderRadiusBottomRight": "none",
+                    "borderRadiusBottomLeft": "{sem.card.sm.borderRadiusBottomLeft}",
+                    "border": "none",
+                    "itemSpacing": "{sem.input.md.fieldWrapper.spacer}"
+                  },
+                  "type": "composition",
+                  "description": "({extends: 'comp.input.select.md.contrasted.pressed.fieldWrapper'})"
+                }
+              },
+              "active": {
+                "fieldWrapper": {
+                  "value": {
+                    "horizontalPadding": "{sem.card.sm.padding}",
+                    "verticalPadding": "{sem.card.sm.padding}",
+                    "fill": "{sem.colorSurface.sub}",
+                    "boxShadow": "none",
+                    "borderRadiusTopLeft": "{sem.card.sm.borderRadiusTopLeft}",
+                    "borderRadiusTopRight": "none",
+                    "borderRadiusBottomRight": "none",
+                    "borderRadiusBottomLeft": "{sem.card.sm.borderRadiusBottomLeft}",
+                    "border": "none",
+                    "itemSpacing": "{sem.input.md.fieldWrapper.spacer}"
+                  },
+                  "type": "composition",
+                  "description": "({extends: 'comp.input.select.md.contrasted.active.fieldWrapper'})"
+                }
+              },
+              "danger": {
+                "fieldWrapper": {
+                  "value": {
+                    "horizontalPadding": "{sem.card.sm.padding}",
+                    "verticalPadding": "{sem.card.sm.padding}",
+                    "fill": "{sem.colorSurface.sub}",
+                    "boxShadow": "none",
+                    "borderRadiusTopLeft": "{sem.card.sm.borderRadiusTopLeft}",
+                    "borderRadiusTopRight": "none",
+                    "borderRadiusBottomRight": "none",
+                    "borderRadiusBottomLeft": "{sem.card.sm.borderRadiusBottomLeft}",
+                    "border": "none",
+                    "itemSpacing": "{sem.input.md.fieldWrapper.spacer}"
+                  },
+                  "type": "composition",
+                  "description": "({extends: 'comp.input.select.md.contrasted.danger.fieldWrapper'})"
+                }
+              },
+              "disabled": {
+                "fieldWrapper": {
+                  "value": {
+                    "horizontalPadding": "{sem.card.sm.padding}",
+                    "verticalPadding": "{sem.card.sm.padding}",
+                    "fill": "{sem.colorSurface.sub}",
+                    "boxShadow": "none",
+                    "borderRadiusTopLeft": "{sem.card.sm.borderRadiusTopLeft}",
+                    "borderRadiusTopRight": "none",
+                    "borderRadiusBottomRight": "none",
+                    "borderRadiusBottomLeft": "{sem.card.sm.borderRadiusBottomLeft}",
+                    "border": "none",
+                    "itemSpacing": "{sem.input.md.fieldWrapper.spacer}"
+                  },
+                  "type": "composition",
+                  "description": "({extends: 'comp.input.select.md.contrasted.disabled.fieldWrapper'})"
+                }
+              }
+            },
+            "contrasted": {
+              "default": {
+                "fieldWrapper": {
+                  "value": {
+                    "horizontalPadding": "{sem.card.sm.padding}",
+                    "verticalPadding": "{sem.card.sm.padding}",
+                    "fill": "{sem.colorSurface.light}",
+                    "boxShadow": "none",
+                    "borderRadiusTopLeft": "{sem.card.sm.borderRadiusTopLeft}",
+                    "borderRadiusTopRight": "none",
+                    "borderRadiusBottomRight": "none",
+                    "borderRadiusBottomLeft": "{sem.card.sm.borderRadiusBottomLeft}",
+                    "border": "none",
+                    "itemSpacing": "{sem.input.md.fieldWrapper.spacer}"
+                  },
+                  "type": "composition",
+                  "description": "({extends: 'comp.input.select.md.uncontrasted.default.fieldWrapper'})"
+                }
+              },
+              "hover": {
+                "fieldWrapper": {
+                  "value": {
+                    "horizontalPadding": "{sem.card.sm.padding}",
+                    "verticalPadding": "{sem.card.sm.padding}",
+                    "fill": "{sem.colorSurface.light}",
+                    "boxShadow": "{sem.card.sm.dropShadow}",
+                    "borderRadiusTopLeft": "{sem.card.sm.borderRadiusTopLeft}",
+                    "borderRadiusTopRight": "none",
+                    "borderRadiusBottomRight": "none",
+                    "borderRadiusBottomLeft": "{sem.card.sm.borderRadiusBottomLeft}",
+                    "border": "none",
+                    "itemSpacing": "{sem.input.md.fieldWrapper.spacer}"
+                  },
+                  "type": "composition",
+                  "description": "({extends: 'comp.input.select.md.uncontrasted.hover.fieldWrapper'})"
+                }
+              },
+              "pressed": {
+                "fieldWrapper": {
+                  "value": {
+                    "horizontalPadding": "{sem.card.sm.padding}",
+                    "verticalPadding": "{sem.card.sm.padding}",
+                    "fill": "{sem.colorSurface.light}",
+                    "boxShadow": "none",
+                    "borderRadiusTopLeft": "{sem.card.sm.borderRadiusTopLeft}",
+                    "borderRadiusTopRight": "none",
+                    "borderRadiusBottomRight": "none",
+                    "borderRadiusBottomLeft": "{sem.card.sm.borderRadiusBottomLeft}",
+                    "border": "none",
+                    "itemSpacing": "{sem.input.md.fieldWrapper.spacer}"
+                  },
+                  "type": "composition",
+                  "description": "({extends: 'comp.input.select.md.uncontrasted.pressed.fieldWrapper'})"
+                }
+              },
+              "active": {
+                "fieldWrapper": {
+                  "value": {
+                    "horizontalPadding": "{sem.card.sm.padding}",
+                    "verticalPadding": "{sem.card.sm.padding}",
+                    "fill": "{sem.colorSurface.light}",
+                    "boxShadow": "none",
+                    "borderRadiusTopLeft": "{sem.card.sm.borderRadiusTopLeft}",
+                    "borderRadiusTopRight": "none",
+                    "borderRadiusBottomRight": "none",
+                    "borderRadiusBottomLeft": "{sem.card.sm.borderRadiusBottomLeft}",
+                    "border": "none",
+                    "itemSpacing": "{sem.input.md.fieldWrapper.spacer}"
+                  },
+                  "type": "composition",
+                  "description": "({extends: 'comp.input.select.md.uncontrasted.active.fieldWrapper'})"
+                }
+              },
+              "danger": {
+                "fieldWrapper": {
+                  "value": {
+                    "horizontalPadding": "{sem.card.sm.padding}",
+                    "verticalPadding": "{sem.card.sm.padding}",
+                    "fill": "{sem.colorSurface.light}",
+                    "boxShadow": "none",
+                    "borderRadiusTopLeft": "{sem.card.sm.borderRadiusTopLeft}",
+                    "borderRadiusTopRight": "none",
+                    "borderRadiusBottomRight": "none",
+                    "borderRadiusBottomLeft": "{sem.card.sm.borderRadiusBottomLeft}",
+                    "border": "none",
+                    "itemSpacing": "{sem.input.md.fieldWrapper.spacer}"
+                  },
+                  "type": "composition",
+                  "description": "({extends: 'comp.input.select.md.uncontrasted.danger.fieldWrapper'})"
+                }
+              },
+              "disabled": {
+                "fieldWrapper": {
+                  "value": {
+                    "horizontalPadding": "{sem.card.sm.padding}",
+                    "verticalPadding": "{sem.card.sm.padding}",
+                    "fill": "{sem.colorSurface.light}",
+                    "boxShadow": "none",
+                    "borderRadiusTopLeft": "{sem.card.sm.borderRadiusTopLeft}",
+                    "borderRadiusTopRight": "none",
+                    "borderRadiusBottomRight": "none",
+                    "borderRadiusBottomLeft": "{sem.card.sm.borderRadiusBottomLeft}",
+                    "border": "none",
+                    "itemSpacing": "{sem.input.md.fieldWrapper.spacer}"
+                  },
+                  "type": "composition",
+                  "description": "({extends: 'comp.input.select.md.uncontrasted.disabled.fieldWrapper'})"
                 }
               }
             }
