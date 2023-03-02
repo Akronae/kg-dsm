@@ -1,0 +1,15 @@
+// @replacepath: tokens/structureForm.json
+
+comp
+.title
+[type: 'step' | 'sub' | 'summary']
+[
+  {
+    "container": {
+      "spacing": {
+        "value": "{ref.spacing.100}",
+        "type": "spacing"
+      }
+    }
+  }
+]
