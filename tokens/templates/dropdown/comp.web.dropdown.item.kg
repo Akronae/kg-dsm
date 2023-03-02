@@ -37,14 +37,14 @@ comp
             "border": "{sem.borderIcon.sm.<< type == 'danger' ? 'danger' : 'default'>>}"
           },
           "type": "composition"
-        },
-        "label": {
-          "value": {
-            "typography": "{sem.typography.textStyle.label.body.<<size>>}",
-            "fill": "{sem.colorText.dark}"
-          },
-          "type": "composition"
         }
+      },
+      "label": {
+        "value": {
+          "typography": "{sem.typography.textStyle.label.body.<<size>>}",
+          "fill": "{sem.colorText.dark}"
+        },
+        "type": "composition"
       }
     },
     "description": {

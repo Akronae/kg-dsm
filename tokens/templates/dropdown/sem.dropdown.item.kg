@@ -7,7 +7,7 @@ sem
   {
     "container": {
       "verticalPadding": {
-        "value": "{ref.spacing.<< ({ sm: '100', md: '150' )}[size] }",
+        "value": "{ref.spacing.<< ({ sm: '100', md: '150' })[size] >>}",
         "type": "spacing"
       },
       "horizontalPadding": {
@@ -18,7 +18,7 @@ sem
         "value": "{ref.borderRadius.250}",
         "type": "spacing"
       },
-      "itemSpacing": {
+      "spacing": {
         "value": "{ref.spacing.100}",
         "type": "spacing"
       }
@@ -32,7 +32,7 @@ sem
       },
       "icon": {
         "size": {
-          "value": "{ref.sizing.<< ({ sm: '100', md: '200' )}[size] }",
+          "value": "{ref.sizing.<< ({ sm: '100', md: '200' })[size] >>}",
           "type": "composition"
         }
       }
