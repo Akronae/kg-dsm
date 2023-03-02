@@ -13,7 +13,11 @@ sem
         "value": "{ref.borderRadius.300}",
         "type": "borderRadius"
       },
-      "padding": {
+      "paddingLeft": {
+        "value": "{ref.sapcing.100}",
+        "type": "spacing"
+      },
+      "paddingRight": {
         "value": "{ref.sapcing.100}",
         "type": "spacing"
       },

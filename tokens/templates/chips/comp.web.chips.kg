@@ -11,7 +11,8 @@ comp
         "border": "{sem.border.interactive.<< ({ defaut: 'default', hover: 'hover', pressed: 'pressed', active: 'none' }) >>}",
         "itemSpacing": "{sem.chips.container.spacing}",
         "borderRadius": "{sem.chips.container.borderRadius}",
-        "horizontalPadding": "{sem.chips.container.horizontalPadding}",
+        "paddingLeft": "{sem.chips.container.paddingLeft}",
+        "paddingRight": "{sem.chips.container.paddingRight}",
         "height": "{sem.chips.container.height}"
       },
       "type": "composition"
@@ -19,7 +20,7 @@ comp
     "icon": {
       "color": {
         "value": {
-          "border": "{sem.borderIcon.<< state == 'active' ? 'light' : 'default'>>}"
+          "border": "{sem.borderIcon.sm.<< state == 'active' ? 'light' : 'default'>>}"
         },
         "type": "composition"
       },
@@ -33,7 +34,7 @@ comp
     },
     "label": {
       "value": {
-        "typography": "{}",
+        "typography": "{sem.typography.textStyle.label.body.sm}",
         "fill": "{sem.colorText.<< state == 'active' ? 'light' : 'default'>>}"
       },
       "type": "composition"

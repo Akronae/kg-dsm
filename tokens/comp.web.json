@@ -2509,7 +2509,8 @@
             "border": "{sem.border.interactive.[object Object]}",
             "itemSpacing": "{sem.chips.container.spacing}",
             "borderRadius": "{sem.chips.container.borderRadius}",
-            "horizontalPadding": "{sem.chips.container.horizontalPadding}",
+            "paddingLeft": "{sem.chips.container.paddingLeft}",
+            "paddingRight": "{sem.chips.container.paddingRight}",
             "height": "{sem.chips.container.height}"
           },
           "type": "composition"
@@ -2517,7 +2518,7 @@
         "icon": {
           "color": {
             "value": {
-              "border": "{sem.borderIcon.default}"
+              "border": "{sem.borderIcon.sm.default}"
             },
             "type": "composition"
           },
@@ -2531,7 +2532,7 @@
         },
         "label": {
           "value": {
-            "typography": "{}",
+            "typography": "{sem.typography.textStyle.label.body.sm}",
             "fill": "{sem.colorText.default}"
           },
           "type": "composition"
@@ -2544,7 +2545,8 @@
             "border": "{sem.border.interactive.[object Object]}",
             "itemSpacing": "{sem.chips.container.spacing}",
             "borderRadius": "{sem.chips.container.borderRadius}",
-            "horizontalPadding": "{sem.chips.container.horizontalPadding}",
+            "paddingLeft": "{sem.chips.container.paddingLeft}",
+            "paddingRight": "{sem.chips.container.paddingRight}",
             "height": "{sem.chips.container.height}"
           },
           "type": "composition"
@@ -2552,7 +2554,7 @@
         "icon": {
           "color": {
             "value": {
-              "border": "{sem.borderIcon.default}"
+              "border": "{sem.borderIcon.sm.default}"
             },
             "type": "composition"
           },
@@ -2566,7 +2568,7 @@
         },
         "label": {
           "value": {
-            "typography": "{}",
+            "typography": "{sem.typography.textStyle.label.body.sm}",
             "fill": "{sem.colorText.default}"
           },
           "type": "composition"
@@ -2579,7 +2581,8 @@
             "border": "{sem.border.interactive.[object Object]}",
             "itemSpacing": "{sem.chips.container.spacing}",
             "borderRadius": "{sem.chips.container.borderRadius}",
-            "horizontalPadding": "{sem.chips.container.horizontalPadding}",
+            "paddingLeft": "{sem.chips.container.paddingLeft}",
+            "paddingRight": "{sem.chips.container.paddingRight}",
             "height": "{sem.chips.container.height}"
           },
           "type": "composition"
@@ -2587,7 +2590,7 @@
         "icon": {
           "color": {
             "value": {
-              "border": "{sem.borderIcon.default}"
+              "border": "{sem.borderIcon.sm.default}"
             },
             "type": "composition"
           },
@@ -2601,7 +2604,7 @@
         },
         "label": {
           "value": {
-            "typography": "{}",
+            "typography": "{sem.typography.textStyle.label.body.sm}",
             "fill": "{sem.colorText.default}"
           },
           "type": "composition"
@@ -2614,7 +2617,8 @@
             "border": "{sem.border.interactive.[object Object]}",
             "itemSpacing": "{sem.chips.container.spacing}",
             "borderRadius": "{sem.chips.container.borderRadius}",
-            "horizontalPadding": "{sem.chips.container.horizontalPadding}",
+            "paddingLeft": "{sem.chips.container.paddingLeft}",
+            "paddingRight": "{sem.chips.container.paddingRight}",
             "height": "{sem.chips.container.height}"
           },
           "type": "composition"
@@ -2622,7 +2626,7 @@
         "icon": {
           "color": {
             "value": {
-              "border": "{sem.borderIcon.light}"
+              "border": "{sem.borderIcon.sm.light}"
             },
             "type": "composition"
           },
@@ -2636,7 +2640,7 @@
         },
         "label": {
           "value": {
-            "typography": "{}",
+            "typography": "{sem.typography.textStyle.label.body.sm}",
             "fill": "{sem.colorText.light}"
           },
           "type": "composition"
@@ -15590,7 +15594,11 @@
           "value": "{ref.borderRadius.300}",
           "type": "borderRadius"
         },
-        "padding": {
+        "paddingLeft": {
+          "value": "{ref.sapcing.100}",
+          "type": "spacing"
+        },
+        "paddingRight": {
           "value": "{ref.sapcing.100}",
           "type": "spacing"
         },
