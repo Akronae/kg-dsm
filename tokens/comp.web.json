@@ -2506,7 +2506,7 @@
         "container": {
           "value": {
             "fill": "{sem.colorSurface.interactive.sub.default}",
-            "border": "{sem.border.interactive.undefined}",
+            "border": "{sem.border.interactive.default}",
             "itemSpacing": "{sem.chips.container.spacing}",
             "borderRadius": "{sem.chips.container.borderRadius}",
             "paddingLeft": "{sem.chips.container.paddingLeft}",
