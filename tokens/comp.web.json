@@ -15971,7 +15971,7 @@
               "type": "spacing"
             },
             "opacity": {
-              "value": "{ref.opacity.40}",
+              "value": "{ref.effects.opacity.40}",
               "type": "opacity"
             }
           },
@@ -16009,7 +16009,7 @@
               "type": "spacing"
             },
             "opacity": {
-              "value": "{ref.opacity.40}",
+              "value": "{ref.effects.opacity.40}",
               "type": "opacity"
             }
           },

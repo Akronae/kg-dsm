@@ -165,68 +165,68 @@
         }
       },
       "title": {
-        "summary": {
-          "sapcer": {
-            "value": {
-              "itemSpacing": "{ref.spacing.100}"
-            },
-            "type": "composition"
-          },
-          "heading": {
-            "value": {
-              "fill": "{sem.colorText.dark}",
-              "typography": "{sem.typography.textStyle.heading.heading2}"
-            },
-            "type": "composition"
-          },
-          "description": {
-            "value": {
-              "fill": "{sem.colorText.default}",
-              "typography": "{sem.typography.textStyle.paragraph.md.default}"
-            },
-            "type": "composition"
-          }
-        },
         "step": {
-          "sapcer": {
+          "container": {
             "value": {
-              "itemSpacing": "{ref.spacing.100}"
+              "itemSpacing": "{sem.structureForm.title.step.container.spacing}"
             },
             "type": "composition"
           },
-          "heading": {
+          "title": {
             "value": {
-              "fill": "{sem.colorText.dark}",
-              "typography": "{sem.typography.textStyle.heading.heading3}"
+              "typography": "{sem.typography.textStyle.heading.heading3}",
+              "fill": "{sem.colorText.dark}"
             },
             "type": "composition"
           },
           "description": {
             "value": {
-              "fill": "{sem.colorText.default}",
-              "typography": "{sem.typography.textStyle.paragraph.md.default}"
+              "typography": "{sem.typography.textStyle.paragraph.md.default}",
+              "fill": "{sem.colorText.default}"
             },
             "type": "composition"
           }
         },
         "sub": {
-          "sapcer": {
+          "container": {
             "value": {
-              "itemSpacing": "{ref.spacing.50}"
+              "itemSpacing": "{sem.structureForm.title.sub.container.spacing}"
             },
             "type": "composition"
           },
-          "heading": {
+          "title": {
             "value": {
-              "fill": "{sem.colorText.dark}",
-              "typography": "{sem.typography.textStyle.heading.heading4}"
+              "typography": "{sem.typography.textStyle.heading.heading4}",
+              "fill": "{sem.colorText.dark}"
             },
             "type": "composition"
           },
           "description": {
             "value": {
-              "fill": "{sem.colorText.default}",
-              "typography": "{sem.typography.textStyle.paragraph.md.default}"
+              "typography": "{sem.typography.textStyle.paragraph.md.default}",
+              "fill": "{sem.colorText.default}"
+            },
+            "type": "composition"
+          }
+        },
+        "summary": {
+          "container": {
+            "value": {
+              "itemSpacing": "{sem.structureForm.title.summary.container.spacing}"
+            },
+            "type": "composition"
+          },
+          "title": {
+            "value": {
+              "typography": "{sem.typography.textStyle.heading.heading2}",
+              "fill": "{sem.colorText.dark}"
+            },
+            "type": "composition"
+          },
+          "description": {
+            "value": {
+              "typography": "{sem.typography.textStyle.paragraph.md.default}",
+              "fill": "{sem.colorText.default}"
             },
             "type": "composition"
           }
@@ -394,6 +394,36 @@
                 },
                 "type": "composition"
               }
+            }
+          }
+        }
+      }
+    }
+  },
+  "sem": {
+    "structureForm": {
+      "title": {
+        "step": {
+          "container": {
+            "spacing": {
+              "value": "{ref.spacing.100}",
+              "type": "spacing"
+            }
+          }
+        },
+        "sub": {
+          "container": {
+            "spacing": {
+              "value": "{ref.spacing.50}",
+              "type": "spacing"
+            }
+          }
+        },
+        "summary": {
+          "container": {
+            "spacing": {
+              "value": "{ref.spacing.100}",
+              "type": "spacing"
             }
           }
         }
