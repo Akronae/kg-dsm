@@ -1341,6 +1341,56 @@
             }
           }
         }
+      },
+      "container": {
+        "sm": {
+          "container": {
+            "value": {
+              "horizontalPadding": "{sem.dropdown.container.padding}",
+              "verticalPadding": "{sem.dropdown.container.padding}",
+              "fill": "{sem.colorSurface.light}",
+              "boxShadow": "{sem.dropdown.container.dropShadow}",
+              "borderRadiusTopLeft": "{sem.card.xs.borderRadiusTopLeft}",
+              "borderRadiusTopRight": "{sem.card.xs.borderRadiusTopRight}",
+              "borderRadiusBottomRight": "{sem.card.xs.borderRadiusBottomRight}",
+              "borderRadiusBottomLeft": "{sem.card.xs.borderRadiusBottomLeft}",
+              "border": "undefined",
+              "itemSpacing": "{sem.dropdown.container.spacing}"
+            },
+            "type": "composition",
+            "description": "({extends: 'comp.input.base.sm.uncontrasted.default.fieldWrapper'})"
+          },
+          "itemsWrapper": {
+            "value": {
+              "itemSpacing": "none"
+            },
+            "type": "composition"
+          }
+        },
+        "md": {
+          "container": {
+            "value": {
+              "horizontalPadding": "{sem.dropdown.container.padding}",
+              "verticalPadding": "{sem.dropdown.container.padding}",
+              "fill": "{sem.colorSurface.light}",
+              "boxShadow": "{sem.dropdown.container.dropShadow}",
+              "borderRadiusTopLeft": "{sem.card.sm.borderRadiusTopLeft}",
+              "borderRadiusTopRight": "{sem.card.sm.borderRadiusTopRight}",
+              "borderRadiusBottomRight": "{sem.card.sm.borderRadiusBottomRight}",
+              "borderRadiusBottomLeft": "{sem.card.sm.borderRadiusBottomLeft}",
+              "border": "undefined",
+              "itemSpacing": "{sem.dropdown.container.spacing}"
+            },
+            "type": "composition",
+            "description": "({extends: 'comp.input.base.md.uncontrasted.default.fieldWrapper'})"
+          },
+          "itemsWrapper": {
+            "value": {
+              "itemSpacing": "none"
+            },
+            "type": "composition"
+          }
+        }
       }
     },
     "toggle": {

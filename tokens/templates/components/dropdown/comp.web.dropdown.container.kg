@@ -1,7 +1,7 @@
 // @replacepath: tokens/comp.web.json
 
 comp
-.dropdown
+.dropdown.container
 [size: 'sm' | 'md']
 [
   {
