@@ -89,22 +89,41 @@ function regenAll(templates) {
       ? -1
       : 0;
 
-    return isParent * 1 + isBase * 1;
+    return isParent * 100000 + isBase * 1;
   });
 
   // JS .sort() is not checking every pairs against each other
   // so we need to double check it here.
-  for (const o of ordered) {
-    for (const oo of ordered) {
-      if (o == oo) continue;
+  const doubleCheckOrder = () => {
+    for (const o of ordered) {
+      for (const oo of ordered) {
+        if (o == oo) continue;
 
-      if (o.extendedTemplates.includes(oo.path)) {
-        if (ordered.indexOf(o) < ordered.indexOf(oo)) {
-          utils.arrayElemMove(ordered, ordered.indexOf(o), ordered.indexOf(oo));
+        if (o.extendedTemplates.includes(oo.path)) {
+          if (ordered.indexOf(o) < ordered.indexOf(oo)) {
+            utils.arrayElemMove(
+              ordered,
+              ordered.indexOf(o),
+              ordered.indexOf(oo)
+            );
+          }
         }
+
+        if (o.propsPath.join(".").includes(oo.propsPath.join("."))) {
+          if (ordered.indexOf(o) < ordered.indexOf(oo)) {
+            console.log("moving", o.path, "before", oo.path);
+            utils.arrayElemMove(
+              ordered,
+              ordered.indexOf(o),
+              ordered.indexOf(oo)
+            );
+          }
+        }
+
+        doubleCheckOrder()
       }
     }
-  }
+  };
 
   console.log(
     "templates will be executed in this order:",
