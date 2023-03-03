@@ -1,7 +1,8 @@
 // @replacepath: tokens/comp.web.json
 
 comp
-.dropdown.item
+.dropdown
+.item
 [size: 'sm' | 'md']
 [type: 'simple' | 'checkbox' | 'danger']
 [state: 'default' | 'hover' | 'pressed' | 'disabled']

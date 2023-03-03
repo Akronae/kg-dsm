@@ -17,12 +17,14 @@ function extend(readpath) {
     const extended = utils.get(read, extendPath);
     if (!extended) {
       console.error(compo);
-      throw utils.throw(
+      // this should be an errror, and the script should exit
+      // yet, until we have a proper template dependency system tree, we just log it.
+      console.error(utils.throw(
         utils.yellow(res.path),
         "extends",
         utils.yellow(extendPath),
         "which does not exist"
-      );
+      ));
     }
     compo.value = utils.mergeDeep(
       JSON.parse(JSON.stringify(extended.value)),

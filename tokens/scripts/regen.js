@@ -68,28 +68,70 @@ function regenAll(templates) {
           (a, b) => b.propsPath.join(".").length - a.propsPath.join(".").length
         )
         .find((p) => comp.includes(p.propsPath.join(".")));
-      
-      if (a && !extendedTemplates.includes(a.path)) extendedTemplates.push(a.path);
+
+      if (a && !extendedTemplates.includes(a.path))
+        extendedTemplates.push(a.path);
     }
     p.extendedTemplates = extendedTemplates;
     delete p.extendedComps;
   }
 
   const ordered = parsed.slice(0).sort((a, b) => {
-    const isBase =
-      a.extendedTemplates.includes(b.path) &&
-      !b.extendedTemplates.includes(a.path)
-        ? 1
-        : -1;
+    const isBase = a.extendedTemplates.includes(b.path)
+      ? 1
+      : b.extendedTemplates.includes(a.path)
+      ? -1
+      : 0;
 
-    const isBefore = a.path.includes(b.path) ? 1 : -1;
+    const isParent = a.propsPath.join(".").includes(b.propsPath.join("."))
+      ? 1
+      : b.propsPath.join(".").includes(a.propsPath.join("."))
+      ? -1
+      : 0;
 
-    return isBase + isBefore;
+    return isParent * 100000 + isBase * 1;
   });
 
+  // JS .sort() is not checking every pairs against each other
+  // so we need to double check it here.
+  const doubleCheckOrder = () => {
+    for (const o of ordered) {
+      for (const oo of ordered) {
+        if (o == oo) continue;
+
+        if (o.extendedTemplates.includes(oo.path)) {
+          if (ordered.indexOf(o) < ordered.indexOf(oo)) {
+            utils.arrayElemMove(
+              ordered,
+              ordered.indexOf(o),
+              ordered.indexOf(oo)
+            );
+          }
+        }
+
+        if (o.propsPath.join(".").includes(oo.propsPath.join("."))) {
+          if (ordered.indexOf(o) < ordered.indexOf(oo)) {
+            console.log("moving", o.path, "before", oo.path);
+            utils.arrayElemMove(
+              ordered,
+              ordered.indexOf(o),
+              ordered.indexOf(oo)
+            );
+          }
+        }
+
+        doubleCheckOrder()
+      }
+    }
+  };
+
+  console.log(
+    "templates will be executed in this order:",
+    ordered.map((o) => o.path)
+  );
+
   for (o of ordered) {
-    if (o.extendedTemplates.length == 0)
-      regen(o.path);
+    if (o.extendedTemplates.length == 0) regen(o.path);
   }
 
   for (const { path } of ordered) {
