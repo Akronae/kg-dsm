@@ -26,9 +26,7 @@ comp
           "height": "{sem.link.<<size>>.icon.size}"
         },
         "type": "composition"
-      }
-    },
-    "icon": {
+      },
       "color": {
         "value": {
         "border": "{sem.borderIcon.sm.interactive.<<state>>}"
