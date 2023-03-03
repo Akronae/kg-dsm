@@ -2695,6 +2695,13 @@
             "type": "composition"
           },
           "icon": {
+            "size": {
+              "value": {
+                "width": "{sem.link.sm.icon.size}",
+                "height": "{sem.link.sm.icon.size}"
+              },
+              "type": "composition"
+            },
             "color": {
               "value": {
                 "border": "{sem.borderIcon.sm.interactive.default}"
@@ -2718,6 +2725,13 @@
             "type": "composition"
           },
           "icon": {
+            "size": {
+              "value": {
+                "width": "{sem.link.md.icon.size}",
+                "height": "{sem.link.md.icon.size}"
+              },
+              "type": "composition"
+            },
             "color": {
               "value": {
                 "border": "{sem.borderIcon.sm.interactive.default}"
@@ -2743,6 +2757,13 @@
             "type": "composition"
           },
           "icon": {
+            "size": {
+              "value": {
+                "width": "{sem.link.sm.icon.size}",
+                "height": "{sem.link.sm.icon.size}"
+              },
+              "type": "composition"
+            },
             "color": {
               "value": {
                 "border": "{sem.borderIcon.sm.interactive.hover}"
@@ -2766,6 +2787,13 @@
             "type": "composition"
           },
           "icon": {
+            "size": {
+              "value": {
+                "width": "{sem.link.md.icon.size}",
+                "height": "{sem.link.md.icon.size}"
+              },
+              "type": "composition"
+            },
             "color": {
               "value": {
                 "border": "{sem.borderIcon.sm.interactive.hover}"
@@ -2791,6 +2819,13 @@
             "type": "composition"
           },
           "icon": {
+            "size": {
+              "value": {
+                "width": "{sem.link.sm.icon.size}",
+                "height": "{sem.link.sm.icon.size}"
+              },
+              "type": "composition"
+            },
             "color": {
               "value": {
                 "border": "{sem.borderIcon.sm.interactive.pressed}"
@@ -2814,6 +2849,13 @@
             "type": "composition"
           },
           "icon": {
+            "size": {
+              "value": {
+                "width": "{sem.link.md.icon.size}",
+                "height": "{sem.link.md.icon.size}"
+              },
+              "type": "composition"
+            },
             "color": {
               "value": {
                 "border": "{sem.borderIcon.sm.interactive.pressed}"
@@ -2839,6 +2881,13 @@
             "type": "composition"
           },
           "icon": {
+            "size": {
+              "value": {
+                "width": "{sem.link.sm.icon.size}",
+                "height": "{sem.link.sm.icon.size}"
+              },
+              "type": "composition"
+            },
             "color": {
               "value": {
                 "border": "{sem.borderIcon.sm.interactive.disabled}"
@@ -2862,6 +2911,13 @@
             "type": "composition"
           },
           "icon": {
+            "size": {
+              "value": {
+                "width": "{sem.link.md.icon.size}",
+                "height": "{sem.link.md.icon.size}"
+              },
+              "type": "composition"
+            },
             "color": {
               "value": {
                 "border": "{sem.borderIcon.sm.interactive.disabled}"
