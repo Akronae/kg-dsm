@@ -8,7 +8,7 @@ comp
     "container": {
       "value": {
         "fill": "{sem.colorSurface.interactive.sub.<<state>>}",
-        "border": "<< ({ default: '{sem.border.interactive.default}', hover: '{sem.border.interactive.hover}', pressed: '{sem.border.interactive.pressed}', active: 'none' })[state] >>}",
+        "border": "<< ({ default: '{sem.border.interactive.default}', hover: '{sem.border.interactive.hover}', pressed: '{sem.border.interactive.pressed}' })[state] || 'none' >>",
         "itemSpacing": "{sem.chips.container.spacing}",
         "borderRadius": "{sem.chips.container.borderRadius}",
         "paddingLeft": "{sem.chips.container.paddingLeft}",
