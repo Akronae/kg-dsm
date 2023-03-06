@@ -4,7 +4,7 @@ comp
 .structure.form.formBoilerplate.child
 [
   {
-    "wrapper": {
+    "container": {
       "value": {
         "itemSpacing": "{sem.structureForm.form.formBoilerplate.child.container.spacing}"
       },
