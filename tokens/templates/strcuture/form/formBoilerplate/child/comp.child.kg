@@ -6,7 +6,7 @@ comp
   {
     "wrapper": {
       "value": {
-        "itemSpacing": "{sem.structureForm.form.formBoilerplate.container.spacing}"
+        "itemSpacing": "{sem.structureForm.form.formBoilerplate.child.container.spacing}"
       },
       "type": "composition"
     }

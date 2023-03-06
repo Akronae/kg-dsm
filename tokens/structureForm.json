@@ -411,13 +411,13 @@
           "section": {
             "container": {
               "value": {
-                "itemSpacing": "{sem.structureForm.form.section.container.spacing}"
+                "itemSpacing": "{sem.structure.form.formBoilerplate.section.container.spacing}"
               },
               "type": "composition"
             },
             "wrapper": {
               "value": {
-                "itemSpacing": "{sem.structureForm.form.section.container.spacing}"
+                "itemSpacing": "{sem.structure.form.formBoilerplate.section.container.spacing}"
               },
               "type": "composition"
             }
