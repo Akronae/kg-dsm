@@ -436,15 +436,15 @@
             "wrapper": {
               "isClosed": {
                 "value": {
-                  "paddingTop": "{sem.structure.form.navbar.wrapper.isClosed.paddingTop}",
-                  "paddingBottom": "{sem.structure.form.navbar.wrapper.isClosed.paddingBottom}"
+                  "paddingTop": "{sem.structure.form.navBar.mobile.wrapper.isClosed.paddingTop}",
+                  "paddingBottom": "{sem.structure.form.navBar.mobile.wrapper.isClosed.paddingBottom}"
                 },
                 "type": "composition"
               },
               "isOpen": {
                 "value": {
-                  "paddingTop": "{sem.structure.form.navbar.mobile.wrapper.isOpen.paddingTop}",
-                  "paddingBottom": "{sem.structure.form.navbar.mobile.wrapper.isOpen.paddingBottom}"
+                  "paddingTop": "{sem.structure.form.navBar.mobile.wrapper.isOpen.paddingTop}",
+                  "paddingBottom": "{sem.structure.form.navBar.mobile.wrapper.isOpen.paddingBottom}"
                 },
                 "type": "composition"
               }
@@ -453,8 +453,8 @@
           "desktop": {
             "wrapper": {
               "value": {
-                "paddingTop": "{sem.structure.form.navbar.desktop.wrapper.paddingTop}",
-                "paddingBottom": "{sem.structure.form.navbar.desktop.wrapper.paddingBottom}"
+                "paddingTop": "{sem.structure.form.navBar.desktop.wrapper.paddingTop}",
+                "paddingBottom": "{sem.structure.form.navBar.desktop.wrapper.paddingBottom}"
               },
               "type": "composition"
             }
@@ -526,7 +526,31 @@
         },
         "navBar": {
           "mobile": {
-            "isOpen": {
+            "wrapper": {
+              "isClosed": {
+                "paddingTop": {
+                  "value": "{ref.spacing.300}",
+                  "type": "spacing"
+                },
+                "paddingBottom": {
+                  "value": "{ref.spacing.200}",
+                  "type": "spacing"
+                }
+              },
+              "isOpen": {
+                "wrapper": {
+                  "paddingTop": {
+                    "value": "{ref.spacing.200}",
+                    "type": "spacing"
+                  },
+                  "paddingBottom": {
+                    "value": "{ref.spacing.200}",
+                    "type": "spacing"
+                  }
+                }
+              }
+            },
+            "desktop": {
               "wrapper": {
                 "paddingTop": {
                   "value": "{ref.spacing.300}",
@@ -536,30 +560,6 @@
                   "value": "{ref.spacing.200}",
                   "type": "spacing"
                 }
-              }
-            }
-          },
-          "isClosed": {
-            "wrapper": {
-              "paddingTop": {
-                "value": "{ref.spacing.300}",
-                "type": "spacing"
-              },
-              "paddingBottom": {
-                "value": "{ref.spacing.200}",
-                "type": "spacing"
-              }
-            }
-          },
-          "desktop": {
-            "wrapper": {
-              "paddingTop": {
-                "value": "{ref.spacing.300}",
-                "type": "spacing"
-              },
-              "paddingBottom": {
-                "value": "{ref.spacing.200}",
-                "type": "spacing"
               }
             }
           }

@@ -8,15 +8,15 @@ comp
       "wrapper": {
         "isClosed": {
           "value": {
-            "paddingTop": "{sem.structure.form.navbar.wrapper.isClosed.paddingTop}",
-            "paddingBottom": "{sem.structure.form.navbar.wrapper.isClosed.paddingBottom}"
+            "paddingTop": "{sem.structure.form.navBar.mobile.wrapper.isClosed.paddingTop}",
+            "paddingBottom": "{sem.structure.form.navBar.mobile.wrapper.isClosed.paddingBottom}"
           },
           "type": "composition"
         },
         "isOpen": {
           "value": {
-            "paddingTop": "{sem.structure.form.navbar.mobile.wrapper.isOpen.paddingTop}",
-            "paddingBottom": "{sem.structure.form.navbar.mobile.wrapper.isOpen.paddingBottom}"
+            "paddingTop": "{sem.structure.form.navBar.mobile.wrapper.isOpen.paddingTop}",
+            "paddingBottom": "{sem.structure.form.navBar.mobile.wrapper.isOpen.paddingBottom}"
           },
           "type": "composition"
         }
@@ -25,8 +25,8 @@ comp
     "desktop": {
       "wrapper": {
         "value": {
-          "paddingTop": "{sem.structure.form.navbar.desktop.wrapper.paddingTop}",
-          "paddingBottom": "{sem.structure.form.navbar.desktop.wrapper.paddingBottom}"
+          "paddingTop": "{sem.structure.form.navBar.desktop.wrapper.paddingTop}",
+          "paddingBottom": "{sem.structure.form.navBar.desktop.wrapper.paddingBottom}"
         },
         "type": "composition"
       }
