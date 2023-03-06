@@ -408,6 +408,14 @@
             },
             "type": "composition"
           },
+          "child": {
+            "container": {
+              "value": {
+                "itemSpacing": "{sem.structureForm.form.formBoilerplate.child.container.spacing}"
+              },
+              "type": "composition"
+            }
+          },
           "section": {
             "container": {
               "value": {
@@ -462,6 +470,14 @@
             "spacing": {
               "value": "{ref.spacing.600}",
               "type": "spacing"
+            }
+          },
+          "child": {
+            "container": {
+              "spacing": {
+                "value": "{ref.spacing.200}",
+                "type": "spacing"
+              }
             }
           },
           "section": {
