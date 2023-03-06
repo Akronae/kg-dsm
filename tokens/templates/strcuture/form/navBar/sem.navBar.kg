@@ -17,15 +17,13 @@ sem
           }
         },
         "isOpen": {
-          "wrapper": {
-            "paddingTop": {
-              "value": "{ref.spacing.200}",
-              "type": "spacing"
-            },
-            "paddingBottom": {
-              "value": "{ref.spacing.200}",
-              "type": "spacing"
-            }
+          "paddingTop": {
+            "value": "{ref.spacing.200}",
+            "type": "spacing"
+          },
+          "paddingBottom": {
+            "value": "{ref.spacing.200}",
+            "type": "spacing"
           }
         }
       },
