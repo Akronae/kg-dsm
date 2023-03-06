@@ -417,7 +417,7 @@
             },
             "wrapper": {
               "value": {
-                "itemSpacing": "{sem.structure.form.formBoilerplate.section.container.spacing}"
+                "itemSpacing": "{sem.structure.form.formBoilerplate.section.wrapper.spacing}"
               },
               "type": "composition"
             }
