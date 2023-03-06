@@ -430,6 +430,35 @@
               "type": "composition"
             }
           }
+        },
+        "navBar": {
+          "mobile": {
+            "wrapper": {
+              "isClosed": {
+                "value": {
+                  "paddingTop": "{sem.structure.form.navbar.wrapper.isClosed.paddingTop}",
+                  "paddingBottom": "{sem.structure.form.navbar.wrapper.isClosed.paddingBottom}"
+                },
+                "type": "composition"
+              },
+              "isOpen": {
+                "value": {
+                  "paddingTop": "{sem.structure.form.navbar.mobile.wrapper.isOpen.paddingTop}",
+                  "paddingBottom": "{sem.structure.form.navbar.mobile.wrapper.isOpen.paddingBottom}"
+                },
+                "type": "composition"
+              }
+            }
+          },
+          "desktop": {
+            "wrapper": {
+              "value": {
+                "paddingTop": "{sem.structure.form.navbar.desktop.wrapper.paddingTop}",
+                "paddingBottom": "{sem.structure.form.navbar.desktop.wrapper.paddingBottom}"
+              },
+              "type": "composition"
+            }
+          }
         }
       }
     }
@@ -490,6 +519,46 @@
             "wrapper": {
               "spacing": {
                 "value": "{ref.spacing.300}",
+                "type": "spacing"
+              }
+            }
+          }
+        },
+        "navBar": {
+          "mobile": {
+            "isOpen": {
+              "wrapper": {
+                "paddingTop": {
+                  "value": "{ref.spacing.300}",
+                  "type": "spacing"
+                },
+                "paddingBottom": {
+                  "value": "{ref.spacing.200}",
+                  "type": "spacing"
+                }
+              }
+            }
+          },
+          "isClosed": {
+            "wrapper": {
+              "paddingTop": {
+                "value": "{ref.spacing.300}",
+                "type": "spacing"
+              },
+              "paddingBottom": {
+                "value": "{ref.spacing.200}",
+                "type": "spacing"
+              }
+            }
+          },
+          "desktop": {
+            "wrapper": {
+              "paddingTop": {
+                "value": "{ref.spacing.300}",
+                "type": "spacing"
+              },
+              "paddingBottom": {
+                "value": "{ref.spacing.200}",
                 "type": "spacing"
               }
             }

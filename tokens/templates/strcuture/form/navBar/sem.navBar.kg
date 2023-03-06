@@ -1,0 +1,46 @@
+// @replacepath: tokens/structureForm.json
+
+sem
+.structure.form.navBar
+[
+  {
+    "mobile": {
+      "isOpen": {
+        "wrapper": {
+          "paddingTop": {
+            "value": "{ref.spacing.300}",
+            "type": "spacing"
+          },
+          "paddingBottom": {
+            "value": "{ref.spacing.200}",
+            "type": "spacing"
+          }
+        }
+      }
+    },
+    "isClosed": {
+      "wrapper": {
+        "paddingTop": {
+          "value": "{ref.spacing.300}",
+          "type": "spacing"
+        },
+        "paddingBottom": {
+          "value": "{ref.spacing.200}",
+          "type": "spacing"
+        }
+      }
+    },
+    "desktop": {
+      "wrapper": {
+        "paddingTop": {
+          "value": "{ref.spacing.300}",
+          "type": "spacing"
+        },
+        "paddingBottom": {
+          "value": "{ref.spacing.200}",
+          "type": "spacing"
+        }
+      }
+    }
+  }
+]
