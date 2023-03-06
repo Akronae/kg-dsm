@@ -411,7 +411,7 @@
           "child": {
             "container": {
               "value": {
-                "itemSpacing": "{sem.structureForm.form.formBoilerplate.child.container.spacing}"
+                "itemSpacing": "{sem.structure.form.formBoilerplate.child.container.spacing}"
               },
               "type": "composition"
             }
