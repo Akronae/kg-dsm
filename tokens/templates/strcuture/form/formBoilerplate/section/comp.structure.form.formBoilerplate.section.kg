@@ -6,13 +6,13 @@ comp
   {
     "container": {
       "value": {
-        "itemSpacing": "{sem.structure.form.formBoilerplate.section.container.spacing}"
+        "itemSpacing": "{sem.structure.form.formBoilerplate.wrapper.section.container.spacing}"
       },
       "type": "composition"
     },
     "wrapper": {
       "value": {
-        "itemSpacing": "{sem.structure.form.formBoilerplate.section.container.spacing}"
+        "itemSpacing": "{sem.structure.form.formBoilerplate.wrapper.section.container.spacing}"
       },
       "type": "composition"
     }
