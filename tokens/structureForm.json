@@ -398,6 +398,32 @@
           }
         }
       }
+    },
+    "structure": {
+      "form": {
+        "formBoilerplate": {
+          "container": {
+            "value": {
+              "itemSpacing": "{sem.structure.form.formBoilerplate.container.spacing}"
+            },
+            "type": "composition"
+          },
+          "section": {
+            "container": {
+              "value": {
+                "itemSpacing": "{sem.structureForm.form.section.container.spacing}"
+              },
+              "type": "composition"
+            },
+            "wrapper": {
+              "value": {
+                "itemSpacing": "{sem.structureForm.form.section.container.spacing}"
+              },
+              "type": "composition"
+            }
+          }
+        }
+      }
     }
   },
   "sem": {
@@ -424,6 +450,32 @@
             "spacing": {
               "value": "{ref.spacing.100}",
               "type": "spacing"
+            }
+          }
+        }
+      }
+    },
+    "structure": {
+      "form": {
+        "formBoilerplate": {
+          "container": {
+            "spacing": {
+              "value": "{ref.spacing.200}",
+              "type": "spacing"
+            }
+          },
+          "section": {
+            "container": {
+              "spacing": {
+                "value": "{ref.spacing.600}",
+                "type": "spacing"
+              }
+            },
+            "wrapper": {
+              "spacing": {
+                "value": "{ref.spacing.300}",
+                "type": "spacing"
+              }
             }
           }
         }
