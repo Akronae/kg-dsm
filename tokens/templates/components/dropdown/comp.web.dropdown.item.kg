@@ -15,7 +15,7 @@ comp
         "horizontalPadding": "{sem.dropdown.item.<<size>>.container.horizontalPadding}",
         "borderRadius": "{sem.dropdown.item.<<size>>.container.borderRadius}",
         "itemSpacing": "{sem.dropdown.item.<<size>>.container.spacing}",
-        "opacity": "<< state == 'disabled' ? ('{sem.dropdown.item.' + size + '.container.opacity}') : 'none' >>"
+        "opacity": "<< state == 'disabled' ? ('{sem.dropdown.item.' + size + '.container.opacity}') : 1 >>"
       },
       "type": "composition"
     },
