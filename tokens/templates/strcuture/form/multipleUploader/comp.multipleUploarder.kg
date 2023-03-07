@@ -12,35 +12,35 @@ comp
       "type": "composition"
     },
     "wrapper": {
-      "itemSpacing": "{sem.structure.form.multipleUpaloder.wrapper.spacing}",
+      "itemSpacing": "{sem.structure.form.multipleUploader.wrapper.spacing}",
       "type": "composition"
     },
     "dragZone": {
       "container": {
         "value": {
           "fill": "<< ({ default: '{sem.colorSurface.interactive.default}', hover: '{sem.colorSurface.interactive.hover}', pressed: '{sem.colorSurface.interactive.pressed}', active: 'none', danger: 'none', disabled: '{sem.colorSurface.interactive.disabled}' })[state] >>}",
-          "itemSpacing": "{sem.structure.form.multipleUpaloder.dragZone.container.spacing}",
-          "paddingTop": "{sem.structure.form.multipleUpaloder.dragZone.container.padding}",
-          "paddingBottom": "{sem.structure.form.multipleUpaloder.dragZone.container.padding}",
-          "paddingLeft": "{sem.structure.form.multipleUpaloder.dragZone.container.padding}",
-          "paddingRight": "{sem.structure.form.multipleUpaloder.dragZone.container.padding}",
-          "borderRadius": "{sem.structure.form.multipleUpaloder.dragZone.container.borderRadius}",
+          "itemSpacing": "{sem.structure.form.multipleUploader.dragZone.container.spacing}",
+          "paddingTop": "{sem.structure.form.multipleUploader.dragZone.container.padding}",
+          "paddingBottom": "{sem.structure.form.multipleUploader.dragZone.container.padding}",
+          "paddingLeft": "{sem.structure.form.multipleUploader.dragZone.container.padding}",
+          "paddingRight": "{sem.structure.form.multipleUploader.dragZone.container.padding}",
+          "borderRadius": "{sem.structure.form.multipleUploader.dragZone.container.borderRadius}",
           "border": "{sem.boderDashed.<<state>>}"
         },
         "type": "composition"
       },
       "fileIcon": {
         "value": {
-          "height": "{sem.structure.form.multipleUpaloder.dragZone.fileIcon.height}",
-          "opacity": "<< state == 'disabled' ? '{sem.structure.form.multipleUpaloder.dragZone.fileIcon.opacity}' : 'none' >>"
+          "height": "{sem.structure.form.multipleUploader.dragZone.fileIcon.height}",
+          "opacity": "<< state == 'disabled' ? '{sem.structure.form.multipleUploader.dragZone.fileIcon.opacity}' : 'none' >>"
         },
         "type": "composition"
       },
       "text": {
         "wrapper": {
           "value": {
-            "itemSpacing": "{sem.structure.form.multipleUpaloder.dragZone.text.wrapper.spacing}",
-            "opacity": "<< state == 'disabled' ? '{sem.structure.form.multipleUpaloder.dragZone.text.wrapper.opacity}' : 'none' >>"
+            "itemSpacing": "{sem.structure.form.multipleUploader.dragZone.text.wrapper.spacing}",
+            "opacity": "<< state == 'disabled' ? '{sem.structure.form.multipleUploader.dragZone.text.wrapper.opacity}' : 'none' >>"
           },
           "type": "composition"
         },
