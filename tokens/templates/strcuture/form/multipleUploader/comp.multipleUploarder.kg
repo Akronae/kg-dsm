@@ -12,7 +12,9 @@ comp
       "type": "composition"
     },
     "wrapper": {
-      "itemSpacing": "{sem.structure.form.multipleUploader.wrapper.spacing}",
+      "value": {
+        "itemSpacing": "{sem.structure.form.multipleUploader.wrapper.spacing}"
+      },
       "type": "composition"
     },
     "dragZone": {
