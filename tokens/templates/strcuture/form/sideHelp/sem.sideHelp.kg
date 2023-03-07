@@ -20,7 +20,11 @@ sem
       },
       "paddingTop": {
         "value": "{ref.spacing.<< ({ mobile: '300', desktop: '950'})[aspectRatio] >>}",
-        "type": "{spacing}"
+        "type": "spacing"
+      },
+      "z-index": {
+        "value": "{ref.zindex.200}",
+        "type": "z-index"
       }
     },
     "contentWrapper": {

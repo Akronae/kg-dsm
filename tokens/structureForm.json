@@ -677,7 +677,11 @@
               },
               "paddingTop": {
                 "value": "{ref.spacing.300}",
-                "type": "{spacing}"
+                "type": "spacing"
+              },
+              "z-index": {
+                "value": "{ref.zindex.200}",
+                "type": "z-index"
               }
             },
             "contentWrapper": {
@@ -703,7 +707,11 @@
               },
               "paddingTop": {
                 "value": "{ref.spacing.950}",
-                "type": "{spacing}"
+                "type": "spacing"
+              },
+              "z-index": {
+                "value": "{ref.zindex.200}",
+                "type": "z-index"
               }
             },
             "contentWrapper": {
