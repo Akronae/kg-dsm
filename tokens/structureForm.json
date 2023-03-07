@@ -530,7 +530,8 @@
                   "paddingLeft": "sem.structure.form.multipleUploader.imgItem.container..paddinp}",
                   "paddingRight": "sem.structure.form.multipleUploader.imgItem.container..padding}",
                   "border": "{sem.border.diminished}",
-                  "borderRadius": "{sem.structure.form.multipleUploader.imgItem.container.borderRadius}"
+                  "borderRadius": "{sem.structure.form.multipleUploader.imgItem.container.borderRadius}",
+                  "height": "{sem.structure.form.multipleUpaloder.imgItem.container.height}"
                 },
                 "type": "composition"
               }
@@ -543,7 +544,8 @@
                   "paddingLeft": "sem.structure.form.multipleUploader.imgItem.container..paddinp}",
                   "paddingRight": "sem.structure.form.multipleUploader.imgItem.container..padding}",
                   "border": "{sem.border.active}",
-                  "borderRadius": "{sem.structure.form.multipleUploader.imgItem.container.borderRadius}"
+                  "borderRadius": "{sem.structure.form.multipleUploader.imgItem.container.borderRadius}",
+                  "height": "{sem.structure.form.multipleUpaloder.imgItem.container.height}"
                 },
                 "type": "composition"
               }
@@ -681,8 +683,7 @@
             "contentWrapper": {
               "spacing": {
                 "value": "{ref.spacing.300}",
-                "type:": "spacing",
-                "type": "other"
+                "type:": "spacing"
               }
             }
           },
@@ -708,8 +709,7 @@
             "contentWrapper": {
               "spacing": {
                 "value": "{ref.spacing.300}",
-                "type:": "spacing",
-                "type": "other"
+                "type:": "spacing"
               }
             }
           }
@@ -758,7 +758,9 @@
               "borderRadius": {
                 "value": "{ref.borderRadius.250}",
                 "type": "borderRadius"
-              }
+              },
+              "height": "{ref.sizing.650}",
+              "type": "sizing"
             }
           },
           "imgsGrid": {
