@@ -6,7 +6,7 @@ comp
   {
     "wrapper": {
       "value": {
-        "itemSpacing": "{sem.strcuture.form.multipleUploader.imgsGrid.wrapper.spacing}"
+        "itemSpacing": "{sem.structure.form.multipleUploader.imgsGrid.wrapper.spacing}"
       },
       "type": "composition"
     }
