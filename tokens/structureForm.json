@@ -474,7 +474,7 @@
             },
             "contentWrapper": {
               "value": {
-                "itemSpacing": "{sem.structure.form.sideHelp.mobile.contentWrapper.spacing"
+                "itemSpacing": "{sem.structure.form.sideHelp.mobile.contentWrapper.spacing}"
               },
               "type": "composition"
             }
@@ -492,7 +492,7 @@
             },
             "contentWrapper": {
               "value": {
-                "itemSpacing": "{sem.structure.form.sideHelp.desktop.contentWrapper.spacing"
+                "itemSpacing": "{sem.structure.form.sideHelp.desktop.contentWrapper.spacing}"
               },
               "type": "composition"
             }

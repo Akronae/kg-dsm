@@ -17,7 +17,7 @@ comp
     },
     "contentWrapper": {
       "value": {
-        "itemSpacing": "{sem.structure.form.sideHelp.<<aspectRatio>>.contentWrapper.spacing"
+        "itemSpacing": "{sem.structure.form.sideHelp.<<aspectRatio>>.contentWrapper.spacing}"
       },
       "type": "composition"
     }
