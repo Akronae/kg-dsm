@@ -7,9 +7,9 @@ comp
   {
     "buttonbuttonWrapper": {
       "value": {
-        "paddingTop": "{sem.structure.form.navBar.<<aspectRatio>>.buttonWrapper.paddingTop}",
-        "paddingBottom": "{sem.structure.form.navBar.<<aspectRatio>>.buttonWrapper.step.paddingBottom}",
-        "itemSpacing": "{sem.structure.form.navBar.<<aspectRatio>>.buttonWrapper.spacing}"
+        "paddingTop": "{sem.structure.form.actionZone.<<aspectRatio>>.buttonWrapper.paddingTop}",
+        "paddingBottom": "{sem.structure.form.actionZone.<<aspectRatio>>.buttonWrapper.step.paddingBottom}",
+        "itemSpacing": "{sem.structure.form.actionZone.<<aspectRatio>>.buttonWrapper.spacing}"
       },
       "type": "composition"
     }

@@ -502,9 +502,9 @@
           "mobile": {
             "buttonbuttonWrapper": {
               "value": {
-                "paddingTop": "{sem.structure.form.navBar.mobile.buttonWrapper.paddingTop}",
-                "paddingBottom": "{sem.structure.form.navBar.mobile.buttonWrapper.step.paddingBottom}",
-                "itemSpacing": "{sem.structure.form.navBar.mobile.buttonWrapper.spacing}"
+                "paddingTop": "{sem.structure.form.actionZone.mobile.buttonWrapper.paddingTop}",
+                "paddingBottom": "{sem.structure.form.actionZone.mobile.buttonWrapper.step.paddingBottom}",
+                "itemSpacing": "{sem.structure.form.actionZone.mobile.buttonWrapper.spacing}"
               },
               "type": "composition"
             }
@@ -512,9 +512,9 @@
           "desktop": {
             "buttonbuttonWrapper": {
               "value": {
-                "paddingTop": "{sem.structure.form.navBar.desktop.buttonWrapper.paddingTop}",
-                "paddingBottom": "{sem.structure.form.navBar.desktop.buttonWrapper.step.paddingBottom}",
-                "itemSpacing": "{sem.structure.form.navBar.desktop.buttonWrapper.spacing}"
+                "paddingTop": "{sem.structure.form.actionZone.desktop.buttonWrapper.paddingTop}",
+                "paddingBottom": "{sem.structure.form.actionZone.desktop.buttonWrapper.step.paddingBottom}",
+                "itemSpacing": "{sem.structure.form.actionZone.desktop.buttonWrapper.spacing}"
               },
               "type": "composition"
             }
