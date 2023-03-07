@@ -636,7 +636,7 @@
               "dragZone": {
                 "container": {
                   "value": {
-                    "fill": "{sem.colorSurface.interactive.default}}",
+                    "fill": "{sem.colorSurface.interactive.default}",
                     "itemSpacing": "{sem.structure.form.multipleUploader.uploader.dragZone.container.spacing}",
                     "paddingTop": "{sem.structure.form.multipleUploader.uploader.dragZone.container.padding}",
                     "paddingBottom": "{sem.structure.form.multipleUploader.uploader.dragZone.container.padding}",
@@ -695,7 +695,7 @@
               "dragZone": {
                 "container": {
                   "value": {
-                    "fill": "{sem.colorSurface.interactive.hover}}",
+                    "fill": "{sem.colorSurface.interactive.hover}",
                     "itemSpacing": "{sem.structure.form.multipleUploader.uploader.dragZone.container.spacing}",
                     "paddingTop": "{sem.structure.form.multipleUploader.uploader.dragZone.container.padding}",
                     "paddingBottom": "{sem.structure.form.multipleUploader.uploader.dragZone.container.padding}",
@@ -754,7 +754,7 @@
               "dragZone": {
                 "container": {
                   "value": {
-                    "fill": "{sem.colorSurface.interactive.pressed}}",
+                    "fill": "{sem.colorSurface.interactive.pressed}",
                     "itemSpacing": "{sem.structure.form.multipleUploader.uploader.dragZone.container.spacing}",
                     "paddingTop": "{sem.structure.form.multipleUploader.uploader.dragZone.container.padding}",
                     "paddingBottom": "{sem.structure.form.multipleUploader.uploader.dragZone.container.padding}",
@@ -813,7 +813,7 @@
               "dragZone": {
                 "container": {
                   "value": {
-                    "fill": "none}",
+                    "fill": "none",
                     "itemSpacing": "{sem.structure.form.multipleUploader.uploader.dragZone.container.spacing}",
                     "paddingTop": "{sem.structure.form.multipleUploader.uploader.dragZone.container.padding}",
                     "paddingBottom": "{sem.structure.form.multipleUploader.uploader.dragZone.container.padding}",
@@ -872,7 +872,7 @@
               "dragZone": {
                 "container": {
                   "value": {
-                    "fill": "none}",
+                    "fill": "none",
                     "itemSpacing": "{sem.structure.form.multipleUploader.uploader.dragZone.container.spacing}",
                     "paddingTop": "{sem.structure.form.multipleUploader.uploader.dragZone.container.padding}",
                     "paddingBottom": "{sem.structure.form.multipleUploader.uploader.dragZone.container.padding}",
@@ -931,7 +931,7 @@
               "dragZone": {
                 "container": {
                   "value": {
-                    "fill": "{sem.colorSurface.interactive.disabled}}",
+                    "fill": "{sem.colorSurface.interactive.disabled}",
                     "itemSpacing": "{sem.structure.form.multipleUploader.uploader.dragZone.container.spacing}",
                     "paddingTop": "{sem.structure.form.multipleUploader.uploader.dragZone.container.padding}",
                     "paddingBottom": "{sem.structure.form.multipleUploader.uploader.dragZone.container.padding}",
@@ -1243,8 +1243,10 @@
               }
             },
             "wrapper": {
-              "value": "{ref.spacing.100}",
-              "type": "spacing"
+              "spacing": {
+                "value": "{ref.spacing.100}",
+                "type": "spacing"
+              }
             },
             "dragZone": {
               "container": {
