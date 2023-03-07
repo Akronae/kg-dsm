@@ -1132,6 +1132,10 @@
               "height": {
                 "value": "{ref.sizing.500}",
                 "type": "sizing"
+              },
+              "opacity": {
+                "value": "{ref.effects.opacity.40}",
+                "type": "opacity"
               }
             },
             "text": {
