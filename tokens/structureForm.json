@@ -531,7 +531,7 @@
                   "paddingRight": "sem.structure.form.multipleUploader.imgItem.container.padding}",
                   "border": "{sem.border.diminished}",
                   "borderRadius": "{sem.structure.form.multipleUploader.imgItem.container.borderRadius}",
-                  "height": "{sem.structure.form.multipleUpaloder.imgItem.container.height}"
+                  "height": "{sem.structure.form.multipleUploader.imgItem.container.height}"
                 },
                 "type": "composition"
               },
@@ -551,7 +551,7 @@
                   "paddingRight": "sem.structure.form.multipleUploader.imgItem.container.padding}",
                   "border": "{sem.border.active}",
                   "borderRadius": "{sem.structure.form.multipleUploader.imgItem.container.borderRadius}",
-                  "height": "{sem.structure.form.multipleUpaloder.imgItem.container.height}"
+                  "height": "{sem.structure.form.multipleUploader.imgItem.container.height}"
                 },
                 "type": "composition"
               },
