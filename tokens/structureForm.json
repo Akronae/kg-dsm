@@ -497,6 +497,28 @@
               "type": "composition"
             }
           }
+        },
+        "actionZone": {
+          "mobile": {
+            "buttonbuttonWrapper": {
+              "value": {
+                "paddingTop": "{sem.structure.form.navBar.mobile.buttonWrapper.paddingTop}",
+                "paddingBottom": "{sem.structure.form.navBar.mobile.buttonWrapper.step.paddingBottom}",
+                "itemSpacing": "{sem.structure.form.navBar.mobile.buttonWrapper.spacing}"
+              },
+              "type": "composition"
+            }
+          },
+          "desktop": {
+            "buttonbuttonWrapper": {
+              "value": {
+                "paddingTop": "{sem.structure.form.navBar.desktop.buttonWrapper.paddingTop}",
+                "paddingBottom": "{sem.structure.form.navBar.desktop.buttonWrapper.step.paddingBottom}",
+                "itemSpacing": "{sem.structure.form.navBar.desktop.buttonWrapper.spacing}"
+              },
+              "type": "composition"
+            }
+          }
         }
       }
     }
@@ -648,6 +670,40 @@
               "spacing": {
                 "value": "{ref.spacing.300}",
                 "type:": "spacing"
+              }
+            }
+          }
+        },
+        "actionZone": {
+          "mobile": {
+            "buttonWrapper": {
+              "paddingTop": {
+                "value": "{ref.spacing.200}",
+                "type": "spacing"
+              },
+              "paddingBottom": {
+                "value": "{sem.spacing.200}",
+                "type": "spacing"
+              },
+              "spacing": {
+                "value": "{ref.spacing.300}",
+                "type": "spacing"
+              }
+            }
+          },
+          "desktop": {
+            "buttonWrapper": {
+              "paddingTop": {
+                "value": "{ref.spacing.200}",
+                "type": "spacing"
+              },
+              "paddingBottom": {
+                "value": "{sem.spacing.200}",
+                "type": "spacing"
+              },
+              "spacing": {
+                "value": "{ref.spacing.900}",
+                "type": "spacing"
               }
             }
           }
