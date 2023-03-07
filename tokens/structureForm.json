@@ -521,54 +521,6 @@
           }
         },
         "multipleUploader": {
-          "default": {
-            "wrapper": {
-              "itemSpacing": {
-                "value": "{sem.structure.form.multipleUploader.wrapper.spacing}",
-                "type": "other"
-              }
-            }
-          },
-          "hover": {
-            "wrapper": {
-              "itemSpacing": {
-                "value": "{sem.structure.form.multipleUploader.wrapper.spacing}",
-                "type": "other"
-              }
-            }
-          },
-          "pressed": {
-            "wrapper": {
-              "itemSpacing": {
-                "value": "{sem.structure.form.multipleUploader.wrapper.spacing}",
-                "type": "other"
-              }
-            }
-          },
-          "active": {
-            "wrapper": {
-              "itemSpacing": {
-                "value": "{sem.structure.form.multipleUploader.wrapper.spacing}",
-                "type": "other"
-              }
-            }
-          },
-          "danger": {
-            "wrapper": {
-              "itemSpacing": {
-                "value": "{sem.structure.form.multipleUploader.wrapper.spacing}",
-                "type": "other"
-              }
-            }
-          },
-          "disabled": {
-            "wrapper": {
-              "itemSpacing": {
-                "value": "{sem.structure.form.multipleUploader.wrapper.spacing}",
-                "type": "other"
-              }
-            }
-          },
           "imgItem": {
             "simple": {
               "container": {
@@ -1099,7 +1051,8 @@
             "contentWrapper": {
               "spacing": {
                 "value": "{ref.spacing.300}",
-                "type:": "spacing"
+                "type:": "spacing",
+                "type": "other"
               }
             }
           },
@@ -1125,7 +1078,8 @@
             "contentWrapper": {
               "spacing": {
                 "value": "{ref.spacing.300}",
-                "type:": "spacing"
+                "type:": "spacing",
+                "type": "other"
               }
             }
           }
@@ -1223,8 +1177,10 @@
                 "value": "{ref.borderRadius.250}",
                 "type": "borderRadius"
               },
-              "height": "{ref.sizing.650}",
-              "type": "sizing"
+              "height": {
+                "value": "{ref.sizing.650}",
+                "type": "other"
+              }
             }
           },
           "imgsGrid": {
