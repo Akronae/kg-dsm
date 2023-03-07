@@ -1,0 +1,64 @@
+// @replacepath: tokens/structureForm.json
+
+comp
+.structure.form.multipleUploader
+[state: 'default' | 'hover' | 'pressed' | 'active' | 'danger' | 'disabled']
+[
+  {
+    "container": {
+      "value": {
+        "itemSpacing": "{sem.structure.form.multipleUploader.container.spacing}"
+      },
+      "type": "composition"
+    },
+    "wrapper": {
+      "itemSpacing": "{sem.structure.form.multipleUpaloder.wrapper.spacing}",
+      "type": "composition"
+    },
+    "dragZone": {
+      "container": {
+        "value": {
+          "fill": "<< ({ default: '{sem.colorSurface.interactive.default}', hover: '{sem.colorSurface.interactive.hover}', pressed: '{sem.colorSurface.interactive.pressed}', active: 'none', danger: 'none', disabled: '{sem.colorSurface.interactive.disabled}' })[state] >>}",
+          "itemSpacing": "{sem.structure.form.multipleUpaloder.dragZone.container.spacing}",
+          "paddingTop": "{sem.structure.form.multipleUpaloder.dragZone.container.padding}",
+          "paddingBottom": "{sem.structure.form.multipleUpaloder.dragZone.container.padding}",
+          "paddingLeft": "{sem.structure.form.multipleUpaloder.dragZone.container.padding}",
+          "paddingRight": "{sem.structure.form.multipleUpaloder.dragZone.container.padding}",
+          "borderRadius": "{sem.structure.form.multipleUpaloder.dragZone.container.borderRadius}",
+          "border": "{sem.boderDashed.<<state>>}"
+        },
+        "type": "composition"
+      },
+      "fileIcon": {
+        "value": {
+          "height": "{sem.structure.form.multipleUpaloder.dragZone.fileIcon.height}",
+          "opacity": "<< state == 'disabled' ? '{sem.structure.form.multipleUpaloder.dragZone.fileIcon.opacity}' : 'none' >>"
+        },
+        "type": "composition"
+      },
+      "text": {
+        "wrapper": {
+          "value": {
+            "itemSpacing": "{sem.structure.form.multipleUpaloder.dragZone.text.wrapper.spacing}",
+            "opacity": "<< state == 'disabled' ? '{sem.structure.form.multipleUpaloder.dragZone.text.wrapper.opacity}' : 'none' >>"
+          },
+          "type": "composition"
+        },
+        "label": {
+          "value": {
+            "typegraphy": "{sem.typography.textStyle.label.body.sm}",
+            "fill": "{sem.colorText.<< state == 'danger' ? 'danger' : 'sem.colorText.dark'>>}"
+          },
+          "type": "composition"
+        },
+        "description": {
+          "value": {
+            "typegraphy": "{sem.typography.textStyle.paragraph.sm.default}",
+            "fill": "{sem.colorText.<< state == 'danger' ? 'danger' : 'sem.colorText.default'>>}"
+          },
+          "type": "composition"
+        }
+      }
+    }
+  }
+]
