@@ -106,6 +106,7 @@ function regenAll(templates) {
               ordered.indexOf(o),
               ordered.indexOf(oo)
             );
+            doubleCheckOrder();
           }
         }
 
@@ -117,17 +118,17 @@ function regenAll(templates) {
               ordered.indexOf(o),
               ordered.indexOf(oo)
             );
+            doubleCheckOrder();
           }
         }
-
-        doubleCheckOrder()
       }
     }
   };
+  doubleCheckOrder();
 
   console.log(
     "templates will be executed in this order:",
-    ordered.map((o) => o.path)
+    ordered.map((o) => o.propsPath)
   );
 
   for (o of ordered) {

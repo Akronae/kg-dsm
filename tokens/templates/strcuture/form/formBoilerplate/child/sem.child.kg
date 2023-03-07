@@ -1,13 +1,12 @@
 // @replacepath: tokens/structureForm.json
 
 sem
-.structure.form.title
-[type: 'step' | 'sub' | 'summary']
+.structure.form.formBoilerplate.child
 [
   {
     "container": {
       "spacing": {
-        "value": "{ref.spacing.<< type == 'sub' ? '50' : '100'>>}",
+        "value": "{ref.spacing.200}",
         "type": "spacing"
       }
     }
