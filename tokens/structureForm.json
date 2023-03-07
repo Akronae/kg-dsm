@@ -682,7 +682,7 @@
                 "type": "spacing"
               },
               "paddingBottom": {
-                "value": "{sem.spacing.200}",
+                "value": "{ref.spacing.200}",
                 "type": "spacing"
               },
               "spacing": {
@@ -698,7 +698,7 @@
                 "type": "spacing"
               },
               "paddingBottom": {
-                "value": "{sem.spacing.200}",
+                "value": "{ref.spacing.200}",
                 "type": "spacing"
               },
               "spacing": {
