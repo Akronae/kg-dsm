@@ -503,7 +503,7 @@
             "buttonbuttonWrapper": {
               "value": {
                 "paddingTop": "{sem.structure.form.actionZone.mobile.buttonWrapper.paddingTop}",
-                "paddingBottom": "{sem.structure.form.actionZone.mobile.buttonWrapper.step.paddingBottom}",
+                "paddingBottom": "{sem.structure.form.actionZone.mobile.buttonWrapper.paddingBottom}",
                 "itemSpacing": "{sem.structure.form.actionZone.mobile.buttonWrapper.spacing}"
               },
               "type": "composition"
@@ -513,7 +513,7 @@
             "buttonbuttonWrapper": {
               "value": {
                 "paddingTop": "{sem.structure.form.actionZone.desktop.buttonWrapper.paddingTop}",
-                "paddingBottom": "{sem.structure.form.actionZone.desktop.buttonWrapper.step.paddingBottom}",
+                "paddingBottom": "{sem.structure.form.actionZone.desktop.buttonWrapper.paddingBottom}",
                 "itemSpacing": "{sem.structure.form.actionZone.desktop.buttonWrapper.spacing}"
               },
               "type": "composition"
