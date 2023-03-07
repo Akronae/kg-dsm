@@ -40,6 +40,10 @@ sem
           "spacing": {
             "value": "{ref.spacing.50}",
             "type": "spacing"
+          },
+          "opacity": {
+            "value": "{ref.effects.opacity.40}",
+            "type": "opacity"
           }
         }
       }
