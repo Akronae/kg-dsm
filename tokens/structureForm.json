@@ -519,6 +519,44 @@
               "type": "composition"
             }
           }
+        },
+        "multipleUploader": {
+          "imgItem": {
+            "simple": {
+              "container": {
+                "value": {
+                  "paddingTop": "sem.structure.form.multipleUploader.imgItem.container..paddinp}",
+                  "paddingBottom": "sem.structure.form.multipleUploader.imgItem.container..padding}",
+                  "paddingLeft": "sem.structure.form.multipleUploader.imgItem.container..paddinp}",
+                  "paddingRight": "sem.structure.form.multipleUploader.imgItem.container..padding}",
+                  "border": "{sem.border.diminished}",
+                  "borderRadius": "{sem.structure.form.multipleUploader.imgItem.container.borderRadius}"
+                },
+                "type": "composition"
+              }
+            },
+            "cover": {
+              "container": {
+                "value": {
+                  "paddingTop": "sem.structure.form.multipleUploader.imgItem.container..paddinp}",
+                  "paddingBottom": "sem.structure.form.multipleUploader.imgItem.container..padding}",
+                  "paddingLeft": "sem.structure.form.multipleUploader.imgItem.container..paddinp}",
+                  "paddingRight": "sem.structure.form.multipleUploader.imgItem.container..padding}",
+                  "border": "{sem.border.active}",
+                  "borderRadius": "{sem.structure.form.multipleUploader.imgItem.container.borderRadius}"
+                },
+                "type": "composition"
+              }
+            }
+          },
+          "imgsGrid": {
+            "wrapper": {
+              "value": {
+                "itemSpacing": "{sem.strcuture.form.multipleUploader.imgsGrid.wrapper.spacing}"
+              },
+              "type": "composition"
+            }
+          }
         }
       }
     }
@@ -703,6 +741,28 @@
               },
               "spacing": {
                 "value": "{ref.spacing.900}",
+                "type": "spacing"
+              }
+            }
+          }
+        },
+        "multipleUploader": {
+          "imgItem": {
+            "container": {
+              "padding": {
+                "value": "{ref.spacing.200}",
+                "type": "spacing"
+              },
+              "borderRadius": {
+                "value": "{ref.borderRadius.250}",
+                "type": "borderRadius"
+              }
+            }
+          },
+          "imgsGrid": {
+            "wrapper": {
+              "spacing": {
+                "value": "{ref.spacing.100}",
                 "type": "spacing"
               }
             }
