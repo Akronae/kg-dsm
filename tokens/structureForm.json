@@ -164,74 +164,6 @@
           }
         }
       },
-      "title": {
-        "step": {
-          "container": {
-            "value": {
-              "itemSpacing": "{sem.structureForm.title.step.container.spacing}"
-            },
-            "type": "composition"
-          },
-          "title": {
-            "value": {
-              "typography": "{sem.typography.textStyle.heading.heading3}",
-              "fill": "{sem.colorText.dark}"
-            },
-            "type": "composition"
-          },
-          "description": {
-            "value": {
-              "typography": "{sem.typography.textStyle.paragraph.md.default}",
-              "fill": "{sem.colorText.default}"
-            },
-            "type": "composition"
-          }
-        },
-        "sub": {
-          "container": {
-            "value": {
-              "itemSpacing": "{sem.structureForm.title.sub.container.spacing}"
-            },
-            "type": "composition"
-          },
-          "title": {
-            "value": {
-              "typography": "{sem.typography.textStyle.heading.heading4}",
-              "fill": "{sem.colorText.dark}"
-            },
-            "type": "composition"
-          },
-          "description": {
-            "value": {
-              "typography": "{sem.typography.textStyle.paragraph.md.default}",
-              "fill": "{sem.colorText.default}"
-            },
-            "type": "composition"
-          }
-        },
-        "summary": {
-          "container": {
-            "value": {
-              "itemSpacing": "{sem.structureForm.title.summary.container.spacing}"
-            },
-            "type": "composition"
-          },
-          "title": {
-            "value": {
-              "typography": "{sem.typography.textStyle.heading.heading2}",
-              "fill": "{sem.colorText.dark}"
-            },
-            "type": "composition"
-          },
-          "description": {
-            "value": {
-              "typography": "{sem.typography.textStyle.paragraph.md.default}",
-              "fill": "{sem.colorText.default}"
-            },
-            "type": "composition"
-          }
-        }
-      },
       "actionZone": {
         "mobile": {
           "container": {
@@ -532,34 +464,6 @@
     }
   },
   "sem": {
-    "structureForm": {
-      "title": {
-        "step": {
-          "container": {
-            "spacing": {
-              "value": "{ref.spacing.100}",
-              "type": "spacing"
-            }
-          }
-        },
-        "sub": {
-          "container": {
-            "spacing": {
-              "value": "{ref.spacing.50}",
-              "type": "spacing"
-            }
-          }
-        },
-        "summary": {
-          "container": {
-            "spacing": {
-              "value": "{ref.spacing.100}",
-              "type": "spacing"
-            }
-          }
-        }
-      }
-    },
     "structure": {
       "form": {
         "formBoilerplate": {
