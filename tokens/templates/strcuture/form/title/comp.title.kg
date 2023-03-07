@@ -1,13 +1,13 @@
 // @replacepath: tokens/structureForm.json
 
 comp
-.structureForm.title
+.structure.form.title
 [type: 'step' | 'sub' | 'summary']
 [
   {
     "container": {
       "value": {
-        "itemSpacing": "{sem.structureForm.title.<<type>>.container.spacing}"
+        "itemSpacing": "{sem.structure.form.title.<<type>>.container.spacing}"
       },
       "type": "composition"
     },
