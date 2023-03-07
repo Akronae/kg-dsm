@@ -25,7 +25,7 @@ sem
     },
     "contentWrapper": {
       "spacing": {
-        "value": "{ref.spacing.200}",
+        "value": "{ref.spacing.300}",
         "type:": "spacing"
       }
     }
