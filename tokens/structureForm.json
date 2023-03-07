@@ -459,6 +459,44 @@
               "type": "composition"
             }
           }
+        },
+        "sideHelp": {
+          "mobile": {
+            "container": {
+              "value": {
+                "paddingLeft": "{sem.structure.form.sideHelp.mobile.container.paddingLeft}",
+                "paddingRight": "{sem.structure.form.sideHelp.mobile.container.paddingRight}",
+                "paddingBottom": "{sem.structure.form.sideHelp.mobile.container.paddingBottom}",
+                "paddingTop": "{sem.structure.form.sideHelp.mobile.container.paddingTop}",
+                "width": "none"
+              },
+              "type": "composition"
+            },
+            "contentWrapper": {
+              "value": {
+                "itemSpacing": "{sem.structure.form.sideHelp.mobile.contentWrapper.spacing"
+              },
+              "type": "composition"
+            }
+          },
+          "desktop": {
+            "container": {
+              "value": {
+                "paddingLeft": "{sem.structure.form.sideHelp.desktop.container.paddingLeft}",
+                "paddingRight": "{sem.structure.form.sideHelp.desktop.container.paddingRight}",
+                "paddingBottom": "{sem.structure.form.sideHelp.desktop.container.paddingBottom}",
+                "paddingTop": "{sem.structure.form.sideHelp.desktop.container.paddingTop}",
+                "width": "{sem.containerSize.maxWidth.sm}"
+              },
+              "type": "composition"
+            },
+            "contentWrapper": {
+              "value": {
+                "itemSpacing": "{sem.structure.form.sideHelp.desktop.contentWrapper.spacing"
+              },
+              "type": "composition"
+            }
+          }
         }
       }
     }
@@ -556,6 +594,60 @@
               "spacing": {
                 "value": "{ref.spacing.100}",
                 "type": "spacing"
+              }
+            }
+          }
+        },
+        "sideHelp": {
+          "mobile": {
+            "container": {
+              "paddingLeft": {
+                "value": "{ref.spacing.200}",
+                "type": "spacing"
+              },
+              "paddingRight": {
+                "value": "{ref.spacing.200}",
+                "type": "spacing"
+              },
+              "paddingBottom": {
+                "value": "{ref.spacing.300}",
+                "type": "spacing"
+              },
+              "paddingTop": {
+                "value": "{ref.spacing.300}",
+                "type": "{spacing}"
+              }
+            },
+            "contentWrapper": {
+              "spacing": {
+                "value": "{ref.spacing.200}",
+                "type:": "spacing"
+              }
+            }
+          },
+          "desktop": {
+            "container": {
+              "paddingLeft": {
+                "value": "{ref.spacing.400}",
+                "type": "spacing"
+              },
+              "paddingRight": {
+                "value": "{ref.spacing.400}",
+                "type": "spacing"
+              },
+              "paddingBottom": {
+                "value": "{ref.spacing.850}",
+                "type": "spacing"
+              },
+              "paddingTop": {
+                "value": "{ref.spacing.950}",
+                "type": "{spacing}"
+              }
+            },
+            "contentWrapper": {
+              "spacing": {
+                "value": "{ref.spacing.200}",
+                "type:": "spacing"
               }
             }
           }
