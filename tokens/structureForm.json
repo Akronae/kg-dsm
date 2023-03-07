@@ -681,7 +681,8 @@
             "contentWrapper": {
               "spacing": {
                 "value": "{ref.spacing.300}",
-                "type:": "spacing"
+                "type:": "spacing",
+                "type": "other"
               }
             }
           },
@@ -707,7 +708,8 @@
             "contentWrapper": {
               "spacing": {
                 "value": "{ref.spacing.300}",
-                "type:": "spacing"
+                "type:": "spacing",
+                "type": "other"
               }
             }
           }
