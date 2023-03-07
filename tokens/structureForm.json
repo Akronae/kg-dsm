@@ -564,14 +564,14 @@
                 "label": {
                   "value": {
                     "typegraphy": "{sem.typography.textStyle.label.body.sm}",
-                    "fill": "{sem.colorText.sem.colorText.dark}"
+                    "fill": "{sem.colorText.dark}"
                   },
                   "type": "composition"
                 },
                 "description": {
                   "value": {
                     "typegraphy": "{sem.typography.textStyle.paragraph.sm.default}",
-                    "fill": "{sem.colorText.sem.colorText.default}"
+                    "fill": "{sem.colorText.default}"
                   },
                   "type": "composition"
                 }
@@ -621,14 +621,14 @@
                 "label": {
                   "value": {
                     "typegraphy": "{sem.typography.textStyle.label.body.sm}",
-                    "fill": "{sem.colorText.sem.colorText.dark}"
+                    "fill": "{sem.colorText.dark}"
                   },
                   "type": "composition"
                 },
                 "description": {
                   "value": {
                     "typegraphy": "{sem.typography.textStyle.paragraph.sm.default}",
-                    "fill": "{sem.colorText.sem.colorText.default}"
+                    "fill": "{sem.colorText.default}"
                   },
                   "type": "composition"
                 }
@@ -678,14 +678,14 @@
                 "label": {
                   "value": {
                     "typegraphy": "{sem.typography.textStyle.label.body.sm}",
-                    "fill": "{sem.colorText.sem.colorText.dark}"
+                    "fill": "{sem.colorText.dark}"
                   },
                   "type": "composition"
                 },
                 "description": {
                   "value": {
                     "typegraphy": "{sem.typography.textStyle.paragraph.sm.default}",
-                    "fill": "{sem.colorText.sem.colorText.default}"
+                    "fill": "{sem.colorText.default}"
                   },
                   "type": "composition"
                 }
@@ -735,14 +735,14 @@
                 "label": {
                   "value": {
                     "typegraphy": "{sem.typography.textStyle.label.body.sm}",
-                    "fill": "{sem.colorText.sem.colorText.dark}"
+                    "fill": "{sem.colorText.dark}"
                   },
                   "type": "composition"
                 },
                 "description": {
                   "value": {
                     "typegraphy": "{sem.typography.textStyle.paragraph.sm.default}",
-                    "fill": "{sem.colorText.sem.colorText.default}"
+                    "fill": "{sem.colorText.default}"
                   },
                   "type": "composition"
                 }
@@ -849,14 +849,14 @@
                 "label": {
                   "value": {
                     "typegraphy": "{sem.typography.textStyle.label.body.sm}",
-                    "fill": "{sem.colorText.sem.colorText.dark}"
+                    "fill": "{sem.colorText.dark}"
                   },
                   "type": "composition"
                 },
                 "description": {
                   "value": {
                     "typegraphy": "{sem.typography.textStyle.paragraph.sm.default}",
-                    "fill": "{sem.colorText.sem.colorText.default}"
+                    "fill": "{sem.colorText.default}"
                   },
                   "type": "composition"
                 }

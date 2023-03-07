@@ -47,14 +47,14 @@ comp
         "label": {
           "value": {
             "typegraphy": "{sem.typography.textStyle.label.body.sm}",
-            "fill": "{sem.colorText.<< state == 'danger' ? 'danger' : 'sem.colorText.dark'>>}"
+            "fill": "{sem.colorText.<< state == 'danger' ? 'danger' : 'dark' >>}"
           },
           "type": "composition"
         },
         "description": {
           "value": {
             "typegraphy": "{sem.typography.textStyle.paragraph.sm.default}",
-            "fill": "{sem.colorText.<< state == 'danger' ? 'danger' : 'sem.colorText.default'>>}"
+            "fill": "{sem.colorText.<< state == 'danger' ? 'danger' : 'default' >>}"
           },
           "type": "composition"
         }
