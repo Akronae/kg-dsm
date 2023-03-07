@@ -11,8 +11,10 @@ sem
       }
     },
     "wrapper": {
-      "value": "{ref.spacing.100}",
-      "type": "spacing"
+      "spacing": {
+        "value": "{ref.spacing.100}",
+        "type": "spacing"
+      }
     },
     "dragZone": {
       "container": {
