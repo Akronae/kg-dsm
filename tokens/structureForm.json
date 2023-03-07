@@ -912,6 +912,350 @@
               },
               "type": "composition"
             }
+          },
+          "uploader": {
+            "default": {
+              "container": {
+                "value": {
+                  "itemSpacing": "{sem.structure.form.multipleUploader.container.spacing}"
+                },
+                "type": "composition"
+              },
+              "wrapper": {
+                "itemSpacing": "{sem.structure.form.multipleUploader.wrapper.spacing}",
+                "type": "composition"
+              },
+              "dragZone": {
+                "container": {
+                  "value": {
+                    "fill": "{sem.colorSurface.interactive.default}}",
+                    "itemSpacing": "{sem.structure.form.multipleUploader.dragZone.container.spacing}",
+                    "paddingTop": "{sem.structure.form.multipleUploader.dragZone.container.padding}",
+                    "paddingBottom": "{sem.structure.form.multipleUploader.dragZone.container.padding}",
+                    "paddingLeft": "{sem.structure.form.multipleUploader.dragZone.container.padding}",
+                    "paddingRight": "{sem.structure.form.multipleUploader.dragZone.container.padding}",
+                    "borderRadius": "{sem.structure.form.multipleUploader.dragZone.container.borderRadius}",
+                    "border": "{sem.boderDashed.default}"
+                  },
+                  "type": "composition"
+                },
+                "fileIcon": {
+                  "value": {
+                    "height": "{sem.structure.form.multipleUploader.dragZone.fileIcon.height}",
+                    "opacity": "none"
+                  },
+                  "type": "composition"
+                },
+                "text": {
+                  "wrapper": {
+                    "value": {
+                      "itemSpacing": "{sem.structure.form.multipleUploader.dragZone.text.wrapper.spacing}",
+                      "opacity": "none"
+                    },
+                    "type": "composition"
+                  },
+                  "label": {
+                    "value": {
+                      "typegraphy": "{sem.typography.textStyle.label.body.sm}",
+                      "fill": "{sem.colorText.dark}"
+                    },
+                    "type": "composition"
+                  },
+                  "description": {
+                    "value": {
+                      "typegraphy": "{sem.typography.textStyle.paragraph.sm.default}",
+                      "fill": "{sem.colorText.default}"
+                    },
+                    "type": "composition"
+                  }
+                }
+              }
+            },
+            "hover": {
+              "container": {
+                "value": {
+                  "itemSpacing": "{sem.structure.form.multipleUploader.container.spacing}"
+                },
+                "type": "composition"
+              },
+              "wrapper": {
+                "itemSpacing": "{sem.structure.form.multipleUploader.wrapper.spacing}",
+                "type": "composition"
+              },
+              "dragZone": {
+                "container": {
+                  "value": {
+                    "fill": "{sem.colorSurface.interactive.hover}}",
+                    "itemSpacing": "{sem.structure.form.multipleUploader.dragZone.container.spacing}",
+                    "paddingTop": "{sem.structure.form.multipleUploader.dragZone.container.padding}",
+                    "paddingBottom": "{sem.structure.form.multipleUploader.dragZone.container.padding}",
+                    "paddingLeft": "{sem.structure.form.multipleUploader.dragZone.container.padding}",
+                    "paddingRight": "{sem.structure.form.multipleUploader.dragZone.container.padding}",
+                    "borderRadius": "{sem.structure.form.multipleUploader.dragZone.container.borderRadius}",
+                    "border": "{sem.boderDashed.hover}"
+                  },
+                  "type": "composition"
+                },
+                "fileIcon": {
+                  "value": {
+                    "height": "{sem.structure.form.multipleUploader.dragZone.fileIcon.height}",
+                    "opacity": "none"
+                  },
+                  "type": "composition"
+                },
+                "text": {
+                  "wrapper": {
+                    "value": {
+                      "itemSpacing": "{sem.structure.form.multipleUploader.dragZone.text.wrapper.spacing}",
+                      "opacity": "none"
+                    },
+                    "type": "composition"
+                  },
+                  "label": {
+                    "value": {
+                      "typegraphy": "{sem.typography.textStyle.label.body.sm}",
+                      "fill": "{sem.colorText.dark}"
+                    },
+                    "type": "composition"
+                  },
+                  "description": {
+                    "value": {
+                      "typegraphy": "{sem.typography.textStyle.paragraph.sm.default}",
+                      "fill": "{sem.colorText.default}"
+                    },
+                    "type": "composition"
+                  }
+                }
+              }
+            },
+            "pressed": {
+              "container": {
+                "value": {
+                  "itemSpacing": "{sem.structure.form.multipleUploader.container.spacing}"
+                },
+                "type": "composition"
+              },
+              "wrapper": {
+                "itemSpacing": "{sem.structure.form.multipleUploader.wrapper.spacing}",
+                "type": "composition"
+              },
+              "dragZone": {
+                "container": {
+                  "value": {
+                    "fill": "{sem.colorSurface.interactive.pressed}}",
+                    "itemSpacing": "{sem.structure.form.multipleUploader.dragZone.container.spacing}",
+                    "paddingTop": "{sem.structure.form.multipleUploader.dragZone.container.padding}",
+                    "paddingBottom": "{sem.structure.form.multipleUploader.dragZone.container.padding}",
+                    "paddingLeft": "{sem.structure.form.multipleUploader.dragZone.container.padding}",
+                    "paddingRight": "{sem.structure.form.multipleUploader.dragZone.container.padding}",
+                    "borderRadius": "{sem.structure.form.multipleUploader.dragZone.container.borderRadius}",
+                    "border": "{sem.boderDashed.pressed}"
+                  },
+                  "type": "composition"
+                },
+                "fileIcon": {
+                  "value": {
+                    "height": "{sem.structure.form.multipleUploader.dragZone.fileIcon.height}",
+                    "opacity": "none"
+                  },
+                  "type": "composition"
+                },
+                "text": {
+                  "wrapper": {
+                    "value": {
+                      "itemSpacing": "{sem.structure.form.multipleUploader.dragZone.text.wrapper.spacing}",
+                      "opacity": "none"
+                    },
+                    "type": "composition"
+                  },
+                  "label": {
+                    "value": {
+                      "typegraphy": "{sem.typography.textStyle.label.body.sm}",
+                      "fill": "{sem.colorText.dark}"
+                    },
+                    "type": "composition"
+                  },
+                  "description": {
+                    "value": {
+                      "typegraphy": "{sem.typography.textStyle.paragraph.sm.default}",
+                      "fill": "{sem.colorText.default}"
+                    },
+                    "type": "composition"
+                  }
+                }
+              }
+            },
+            "active": {
+              "container": {
+                "value": {
+                  "itemSpacing": "{sem.structure.form.multipleUploader.container.spacing}"
+                },
+                "type": "composition"
+              },
+              "wrapper": {
+                "itemSpacing": "{sem.structure.form.multipleUploader.wrapper.spacing}",
+                "type": "composition"
+              },
+              "dragZone": {
+                "container": {
+                  "value": {
+                    "fill": "none}",
+                    "itemSpacing": "{sem.structure.form.multipleUploader.dragZone.container.spacing}",
+                    "paddingTop": "{sem.structure.form.multipleUploader.dragZone.container.padding}",
+                    "paddingBottom": "{sem.structure.form.multipleUploader.dragZone.container.padding}",
+                    "paddingLeft": "{sem.structure.form.multipleUploader.dragZone.container.padding}",
+                    "paddingRight": "{sem.structure.form.multipleUploader.dragZone.container.padding}",
+                    "borderRadius": "{sem.structure.form.multipleUploader.dragZone.container.borderRadius}",
+                    "border": "{sem.boderDashed.active}"
+                  },
+                  "type": "composition"
+                },
+                "fileIcon": {
+                  "value": {
+                    "height": "{sem.structure.form.multipleUploader.dragZone.fileIcon.height}",
+                    "opacity": "none"
+                  },
+                  "type": "composition"
+                },
+                "text": {
+                  "wrapper": {
+                    "value": {
+                      "itemSpacing": "{sem.structure.form.multipleUploader.dragZone.text.wrapper.spacing}",
+                      "opacity": "none"
+                    },
+                    "type": "composition"
+                  },
+                  "label": {
+                    "value": {
+                      "typegraphy": "{sem.typography.textStyle.label.body.sm}",
+                      "fill": "{sem.colorText.dark}"
+                    },
+                    "type": "composition"
+                  },
+                  "description": {
+                    "value": {
+                      "typegraphy": "{sem.typography.textStyle.paragraph.sm.default}",
+                      "fill": "{sem.colorText.default}"
+                    },
+                    "type": "composition"
+                  }
+                }
+              }
+            },
+            "danger": {
+              "container": {
+                "value": {
+                  "itemSpacing": "{sem.structure.form.multipleUploader.container.spacing}"
+                },
+                "type": "composition"
+              },
+              "wrapper": {
+                "itemSpacing": "{sem.structure.form.multipleUploader.wrapper.spacing}",
+                "type": "composition"
+              },
+              "dragZone": {
+                "container": {
+                  "value": {
+                    "fill": "none}",
+                    "itemSpacing": "{sem.structure.form.multipleUploader.dragZone.container.spacing}",
+                    "paddingTop": "{sem.structure.form.multipleUploader.dragZone.container.padding}",
+                    "paddingBottom": "{sem.structure.form.multipleUploader.dragZone.container.padding}",
+                    "paddingLeft": "{sem.structure.form.multipleUploader.dragZone.container.padding}",
+                    "paddingRight": "{sem.structure.form.multipleUploader.dragZone.container.padding}",
+                    "borderRadius": "{sem.structure.form.multipleUploader.dragZone.container.borderRadius}",
+                    "border": "{sem.boderDashed.danger}"
+                  },
+                  "type": "composition"
+                },
+                "fileIcon": {
+                  "value": {
+                    "height": "{sem.structure.form.multipleUploader.dragZone.fileIcon.height}",
+                    "opacity": "none"
+                  },
+                  "type": "composition"
+                },
+                "text": {
+                  "wrapper": {
+                    "value": {
+                      "itemSpacing": "{sem.structure.form.multipleUploader.dragZone.text.wrapper.spacing}",
+                      "opacity": "none"
+                    },
+                    "type": "composition"
+                  },
+                  "label": {
+                    "value": {
+                      "typegraphy": "{sem.typography.textStyle.label.body.sm}",
+                      "fill": "{sem.colorText.danger}"
+                    },
+                    "type": "composition"
+                  },
+                  "description": {
+                    "value": {
+                      "typegraphy": "{sem.typography.textStyle.paragraph.sm.default}",
+                      "fill": "{sem.colorText.danger}"
+                    },
+                    "type": "composition"
+                  }
+                }
+              }
+            },
+            "disabled": {
+              "container": {
+                "value": {
+                  "itemSpacing": "{sem.structure.form.multipleUploader.container.spacing}"
+                },
+                "type": "composition"
+              },
+              "wrapper": {
+                "itemSpacing": "{sem.structure.form.multipleUploader.wrapper.spacing}",
+                "type": "composition"
+              },
+              "dragZone": {
+                "container": {
+                  "value": {
+                    "fill": "{sem.colorSurface.interactive.disabled}}",
+                    "itemSpacing": "{sem.structure.form.multipleUploader.dragZone.container.spacing}",
+                    "paddingTop": "{sem.structure.form.multipleUploader.dragZone.container.padding}",
+                    "paddingBottom": "{sem.structure.form.multipleUploader.dragZone.container.padding}",
+                    "paddingLeft": "{sem.structure.form.multipleUploader.dragZone.container.padding}",
+                    "paddingRight": "{sem.structure.form.multipleUploader.dragZone.container.padding}",
+                    "borderRadius": "{sem.structure.form.multipleUploader.dragZone.container.borderRadius}",
+                    "border": "{sem.boderDashed.disabled}"
+                  },
+                  "type": "composition"
+                },
+                "fileIcon": {
+                  "value": {
+                    "height": "{sem.structure.form.multipleUploader.dragZone.fileIcon.height}",
+                    "opacity": "{sem.structure.form.multipleUploader.dragZone.fileIcon.opacity}"
+                  },
+                  "type": "composition"
+                },
+                "text": {
+                  "wrapper": {
+                    "value": {
+                      "itemSpacing": "{sem.structure.form.multipleUploader.dragZone.text.wrapper.spacing}",
+                      "opacity": "{sem.structure.form.multipleUploader.dragZone.text.wrapper.opacity}"
+                    },
+                    "type": "composition"
+                  },
+                  "label": {
+                    "value": {
+                      "typegraphy": "{sem.typography.textStyle.label.body.sm}",
+                      "fill": "{sem.colorText.dark}"
+                    },
+                    "type": "composition"
+                  },
+                  "description": {
+                    "value": {
+                      "typegraphy": "{sem.typography.textStyle.paragraph.sm.default}",
+                      "fill": "{sem.colorText.default}"
+                    },
+                    "type": "composition"
+                  }
+                }
+              }
+            }
           }
         }
       }
@@ -1170,6 +1514,56 @@
               "spacing": {
                 "value": "{ref.spacing.100}",
                 "type": "spacing"
+              }
+            }
+          },
+          "uploader": {
+            "container": {
+              "spacing": {
+                "value": "{ref.spacing.200}",
+                "type": "spacing"
+              }
+            },
+            "wrapper": {
+              "value": "{ref.spacing.100}",
+              "type": "spacing"
+            },
+            "dragZone": {
+              "container": {
+                "spacing": {
+                  "value": "{ref.spacing.300}",
+                  "type": "spacing"
+                },
+                "padding": {
+                  "value": "{ref.spacing.300}",
+                  "type": "spacing"
+                },
+                "borderRadius": {
+                  "value": "{ref.borderRadius.300}",
+                  "type": "borderRadius"
+                }
+              },
+              "fileIcon": {
+                "height": {
+                  "value": "{ref.sizing.500}",
+                  "type": "sizing"
+                },
+                "opacity": {
+                  "value": "{ref.effects.opacity.40}",
+                  "type": "opacity"
+                }
+              },
+              "text": {
+                "wrapper": {
+                  "spacing": {
+                    "value": "{ref.spacing.50}",
+                    "type": "spacing"
+                  },
+                  "opacity": {
+                    "value": "{ref.effects.opacity.40}",
+                    "type": "opacity"
+                  }
+                }
               }
             }
           }

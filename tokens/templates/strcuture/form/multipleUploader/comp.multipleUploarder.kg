@@ -1,7 +1,7 @@
 // @replacepath: tokens/structureForm.json
 
 comp
-.structure.form.multipleUploader
+.structure.form.multipleUploader.uploader
 [state: 'default' | 'hover' | 'pressed' | 'active' | 'danger' | 'disabled']
 [
   {
