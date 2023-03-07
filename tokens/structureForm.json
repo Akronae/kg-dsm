@@ -695,7 +695,8 @@
             "contentWrapper": {
               "spacing": {
                 "value": "{ref.spacing.300}",
-                "type:": "spacing"
+                "type:": "spacing",
+                "type": "other"
               }
             }
           },
@@ -721,7 +722,8 @@
             "contentWrapper": {
               "spacing": {
                 "value": "{ref.spacing.300}",
-                "type:": "spacing"
+                "type:": "spacing",
+                "type": "other"
               }
             }
           }
@@ -771,8 +773,10 @@
                 "value": "{ref.borderRadius.250}",
                 "type": "borderRadius"
               },
-              "height": "{ref.sizing.650}",
-              "type": "sizing"
+              "height": {
+                "value": "{ref.sizing.650}",
+                "type": "other"
+              }
             }
           },
           "imgsGrid": {
