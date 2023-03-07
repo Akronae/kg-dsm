@@ -764,7 +764,7 @@
           "imgItem": {
             "container": {
               "padding": {
-                "value": "{ref.spacing.200}",
+                "value": "{ref.spacing.100}",
                 "type": "spacing"
               },
               "borderRadius": {
