@@ -18,6 +18,12 @@ sem
         "value": "{ref.spacing.<< ({ mobile: '300', desktop: '900'})[aspectRatio] >>}",
         "type": "spacing"
       }
+    },
+    "nextButtonWidth": {
+      "width": {
+        "value": "{ref.sizing.700}",
+        "type": "sizing"
+      }
     }
   }
 ]

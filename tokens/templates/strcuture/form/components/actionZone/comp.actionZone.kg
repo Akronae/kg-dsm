@@ -12,6 +12,13 @@ comp
         "itemSpacing": "{sem.structure.form.components.actionZone.<<aspectRatio>>.buttonWrapper.spacing}"
       },
       "type": "composition"
+    },
+    "nextButtonWidth": {
+      "value": {
+        "width": "{sem.structure.form.components.actationZone.<<aspectRatio>>.nextButtonWidth}"
+      },
+      "type": "composition",
+      "description": "({extends: 'comp.button.primary.rectangular.lg.default.container'})"
     }
   }
 ]

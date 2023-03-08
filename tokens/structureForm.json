@@ -12,6 +12,13 @@
                   "itemSpacing": "{sem.structure.form.components.actionZone.mobile.buttonWrapper.spacing}"
                 },
                 "type": "composition"
+              },
+              "nextButtonWidth": {
+                "value": {
+                  "width": "{sem.structure.form.components.actationZone.mobile.nextButtonWidth}"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.button.primary.rectangular.lg.default.container'})"
               }
             },
             "desktop": {
@@ -22,6 +29,13 @@
                   "itemSpacing": "{sem.structure.form.components.actionZone.desktop.buttonWrapper.spacing}"
                 },
                 "type": "composition"
+              },
+              "nextButtonWidth": {
+                "value": {
+                  "width": "{sem.structure.form.components.actationZone.desktop.nextButtonWidth}"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.button.primary.rectangular.lg.default.container'})"
               }
             }
           },
@@ -797,6 +811,12 @@
                   "value": "{ref.spacing.300}",
                   "type": "spacing"
                 }
+              },
+              "nextButtonWidth": {
+                "width": {
+                  "value": "{ref.sizing.700}",
+                  "type": "sizing"
+                }
               }
             },
             "desktop": {
@@ -812,6 +832,12 @@
                 "spacing": {
                   "value": "{ref.spacing.900}",
                   "type": "spacing"
+                }
+              },
+              "nextButtonWidth": {
+                "width": {
+                  "value": "{ref.sizing.700}",
+                  "type": "sizing"
                 }
               }
             }
