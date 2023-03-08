@@ -1241,17 +1241,16 @@
                   "value": {
                     "paddingLeft": "{sem.structure.form.template.wizard.desktop.summary.content.horizontalPadding}",
                     "paddingRight": "{sem.structure.form.template.wizard.desktop.summary.content.horizontalPadding}",
-                    "fill": "{sem.colorSurface.default}",
                     "borderRadiusTopRight": "{sem.structure.form.template.wizard.desktop.summary.content.borderRadius}",
-                    "borderRadiusBottomRight": "{sem.structure.form.template.wizard.desktop.summary.content.borderRadius}"
+                    "borderRadiusBottomRight": "{sem.structure.form.template.wizard.desktop.summary.content.borderRadius}",
+                    "width": "{sem.containerSize.maxWidth.md}"
                   },
                   "type": "composition"
                 },
                 "formWrapper": {
                   "value": {
                     "paddingTop": "{sem.structure.form.template.wizard.desktop.summary.formWrapper.paddingTop}",
-                    "paddingBottom": "{sem.structure.form.template.wizard.desktop.summary.formWrapper.paddingBottom}",
-                    "width": "{sem.containerSize.maxWidth.md}"
+                    "paddingBottom": "{sem.structure.form.template.wizard.desktop.summary.formWrapper.paddingBottom}"
                   },
                   "type": "composition"
                 }
@@ -1287,8 +1286,7 @@
                   "formWrapper": {
                     "value": {
                       "paddingTop": "{sem.structure.form.template.wizard.mobile.step.formWrapper.paddingTop}",
-                      "paddingBottom": "{sem.structure.form.template.wizard.mobile.step.formWrapper.paddingBottom}",
-                      "width": "{sem.containerSize.maxWidth.md}"
+                      "paddingBottom": "{sem.structure.form.template.wizard.mobile.step.formWrapper.paddingBottom}"
                     },
                     "type": "composition"
                   }
@@ -1311,8 +1309,7 @@
                   "formWrapper": {
                     "value": {
                       "paddingTop": "{sem.structure.form.template.wizard.mobile.summary.formWrapper.paddingTop}",
-                      "paddingBottom": "{sem.structure.form.template.wizard.mobile.summary.formWrapper.paddingBottom}",
-                      "width": "{sem.containerSize.maxWidth.md}"
+                      "paddingBottom": "{sem.structure.form.template.wizard.mobile.summary.formWrapper.paddingBottom}"
                     },
                     "type": "composition"
                   }
