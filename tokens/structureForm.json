@@ -511,6 +511,20 @@
                   "itemSpacing": "{sem.structure.form.components.sideHelp.mobile.contentWrapper.spacing}"
                 },
                 "type": "composition"
+              },
+              "title": {
+                "value": {
+                  "typography": "{sem.typography.textStyle.heading.heading3}",
+                  "fill": "{sem.colorText.default}"
+                },
+                "type": "composition"
+              },
+              "bullet": {
+                "value": {
+                  "typography": "{sem.typography.textStyle.paragraph.md.default}",
+                  "fill": "{sem.colorText.default}"
+                },
+                "type": "composition"
               }
             },
             "desktop": {
@@ -527,6 +541,20 @@
               "contentWrapper": {
                 "value": {
                   "itemSpacing": "{sem.structure.form.components.sideHelp.desktop.contentWrapper.spacing}"
+                },
+                "type": "composition"
+              },
+              "title": {
+                "value": {
+                  "typography": "{sem.typography.textStyle.heading.heading3}",
+                  "fill": "{sem.colorText.default}"
+                },
+                "type": "composition"
+              },
+              "bullet": {
+                "value": {
+                  "typography": "{sem.typography.textStyle.paragraph.md.default}",
+                  "fill": "{sem.colorText.default}"
                 },
                 "type": "composition"
               }

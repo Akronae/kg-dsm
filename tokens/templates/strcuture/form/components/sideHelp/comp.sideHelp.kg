@@ -20,6 +20,20 @@ comp
         "itemSpacing": "{sem.structure.form.components.sideHelp.<<aspectRatio>>.contentWrapper.spacing}"
       },
       "type": "composition"
+    },
+    "title": {
+      "value": {
+        "typography": "{sem.typography.textStyle.heading.heading3}",
+        "fill": "{sem.colorText.default}"
+      },
+      "type": "composition"
+    },
+    "bullet": {
+      "value": {
+        "typography": "{sem.typography.textStyle.paragraph.md.default}",
+        "fill": "{sem.colorText.default}"
+      },
+      "type": "composition"
     }
   }
 ]
