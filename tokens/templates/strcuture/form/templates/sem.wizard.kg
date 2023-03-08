@@ -1,6 +1,6 @@
 // @replacepath: tokens/structureForm.json
 
-comp
+sem
 .structure.form.template.wizard
 [type: 'step' | 'summary']
 [
