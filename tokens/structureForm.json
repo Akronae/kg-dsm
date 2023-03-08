@@ -811,10 +811,8 @@
                 }
               },
               "nextButtonWidth": {
-                "width": {
-                  "value": "{ref.sizing.700}",
-                  "type": "sizing"
-                }
+                "value": "{ref.sizing.700}",
+                "type": "sizing"
               }
             },
             "desktop": {
@@ -833,10 +831,8 @@
                 }
               },
               "nextButtonWidth": {
-                "width": {
-                  "value": "{ref.sizing.700}",
-                  "type": "sizing"
-                }
+                "value": "{ref.sizing.700}",
+                "type": "sizing"
               }
             }
           },
