@@ -13,17 +13,17 @@ comp
         },
         "borderRadius": {
           "value": "{ref.borderRadius.500}",
-          "type": "borderRaidus"
+          "type": "borderRadius"
         }
       },
       "formWrapper": {
         "paddingTop": {
-          "value": "{ref.spacing.<< type == 'step' ? '500' : '950'}",
+          "value": "{ref.spacing.<< type == 'step' ? '500' : '950'>>}",
           "type": "spacing"
         },
         "paddingBottom": {
           "value": "{ref.spacing.500}",
-          "type": "composition"
+          "type": "spacing"
         }
       }
     },
