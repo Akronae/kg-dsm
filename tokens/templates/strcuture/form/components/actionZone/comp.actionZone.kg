@@ -15,9 +15,10 @@ comp
     },
     "nextButtonWidth": {
       "value": {
-        "width": "{sem.structure.form.components.actationZone.<<aspectRatio>>.nextButtonWidth}"
+        "width": "{sem.structure.form.components.actionZone.<<aspectRatio.nextButtonWidth}"
       },
-      "type": "composition"
+      "type": "composition",
+      "description": "//({extends: 'comp.button.primary.rectangular.lg.default.container'})"
     }
   }
 ]

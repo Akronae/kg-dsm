@@ -15,9 +15,10 @@
               },
               "nextButtonWidth": {
                 "value": {
-                  "width": "{sem.structure.form.components.actationZone.mobile.nextButtonWidth}"
+                  "width": "{sem.structure.form.components.actionZone.<<aspectRatio.nextButtonWidth}"
                 },
-                "type": "composition"
+                "type": "composition",
+                "description": "//({extends: 'comp.button.primary.rectangular.lg.default.container'})"
               }
             },
             "desktop": {
@@ -31,9 +32,10 @@
               },
               "nextButtonWidth": {
                 "value": {
-                  "width": "{sem.structure.form.components.actationZone.desktop.nextButtonWidth}"
+                  "width": "{sem.structure.form.components.actionZone.<<aspectRatio.nextButtonWidth}"
                 },
-                "type": "composition"
+                "type": "composition",
+                "description": "//({extends: 'comp.button.primary.rectangular.lg.default.container'})"
               }
             }
           },
