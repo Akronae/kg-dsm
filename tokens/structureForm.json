@@ -627,6 +627,35 @@
                 "type": "composition"
               }
             }
+          },
+          "navBar": {
+            "mobile": {
+              "wrapper": {
+                "isClosed": {
+                  "value": {
+                    "paddingTop": "{sem.structure.form.components.navBar.mobile.wrapper.isClosed.paddingTop}",
+                    "paddingBottom": "{sem.structure.form.components.navBar.mobile.wrapper.isClosed.paddingBottom}"
+                  },
+                  "type": "composition"
+                },
+                "isOpen": {
+                  "value": {
+                    "paddingTop": "{sem.structure.form.components.navBar.mobile.wrapper.isOpen.paddingTop}",
+                    "paddingBottom": "{sem.structure.form.components.navBar.mobile.wrapper.isOpen.paddingBottom}"
+                  },
+                  "type": "composition"
+                }
+              }
+            },
+            "desktop": {
+              "wrapper": {
+                "value": {
+                  "paddingTop": "{sem.structure.form.components.navBar.desktop.wrapper.paddingTop}",
+                  "paddingBottom": "{sem.structure.form.components.navBar.desktop.wrapper.paddingBottom}"
+                },
+                "type": "composition"
+              }
+            }
           }
         },
         "template": {

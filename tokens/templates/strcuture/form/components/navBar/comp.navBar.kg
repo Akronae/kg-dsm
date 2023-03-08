@@ -1,7 +1,7 @@
 // @replacepath: tokens/structureForm.json
 
 comp
-.structure.form.components.components.navBar
+.structure.form.components.navBar
 [
   {
     "mobile": {
