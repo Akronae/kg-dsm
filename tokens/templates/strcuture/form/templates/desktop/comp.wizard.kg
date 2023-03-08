@@ -34,8 +34,8 @@ sem
     "mobile": {
       "body": {
         "value": {
-        "fill": "{sem.colorBackground.<< type == 'step' ? 'dark' : 'default' >>}"
-        },
+          "fill": "{sem.colorBackground.<< type == 'step' ? 'dark' : 'default' >>}"
+          },
         "type": "composition"
       },
       "content": {
