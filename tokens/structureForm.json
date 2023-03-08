@@ -640,15 +640,23 @@
                 "content": {
                   "helpOpen": {
                     "value": {
-                      "paddingLeft": "{sem.structure.form.template.wizard.mobile.step.content.horizontalPadding}",
-                      "paddingRight": "{sem.structure.form.template.wizard.mobile.step.content.horizontalPadding}",
+                      "paddingLeft": "{sem.structure.form.template.wizard.mobile.step.content.helpOpen.horizontalPadding}",
+                      "paddingRight": "{sem.structure.form.template.wizard.mobile.step.content.helpOpen.horizontalPadding}",
                       "fill": "sem.colorSurface.default",
-                      "borderRadiusTopRight": "{sem.structure.form.template.wizard.mobile.step.content.borderRadius}",
-                      "borderRadiusTopLeft": "{sem.structure.form.template.wizard.mobile.step.content.borderRadius}"
+                      "borderRadiusTopRight": "{sem.structure.form.template.wizard.mobile.step.content.helpOpen.borderRadius}",
+                      "borderRadiusTopLeft": "{sem.structure.form.template.wizard.mobile.step.contenthelpOpen.borderRadius}"
                     },
                     "type": "composition"
                   },
                   "helpClosed": {
+                    "value": {
+                      "paddingLeft": "{sem.structure.form.template.wizard.mobile.step.content.helpClosed.horizontalPadding}",
+                      "paddingRight": "{sem.structure.form.template.wizard.mobile.step.content.helpClosed.horizontalPadding}",
+                      "fill": "sem.colorSurface.default"
+                    },
+                    "type": "composition"
+                  },
+                  "summary": {
                     "value": {
                       "paddingLeft": "{sem.structure.form.template.wizard.mobile.step.content.horizontalPadding}",
                       "paddingRight": "{sem.structure.form.template.wizard.mobile.step.content.horizontalPadding}",
@@ -704,15 +712,23 @@
                 "content": {
                   "helpOpen": {
                     "value": {
-                      "paddingLeft": "{sem.structure.form.template.wizard.mobile.summary.content.horizontalPadding}",
-                      "paddingRight": "{sem.structure.form.template.wizard.mobile.summary.content.horizontalPadding}",
+                      "paddingLeft": "{sem.structure.form.template.wizard.mobile.summary.content.helpOpen.horizontalPadding}",
+                      "paddingRight": "{sem.structure.form.template.wizard.mobile.summary.content.helpOpen.horizontalPadding}",
                       "fill": "sem.colorSurface.default",
-                      "borderRadiusTopRight": "{sem.structure.form.template.wizard.mobile.summary.content.borderRadius}",
-                      "borderRadiusTopLeft": "{sem.structure.form.template.wizard.mobile.summary.content.borderRadius}"
+                      "borderRadiusTopRight": "{sem.structure.form.template.wizard.mobile.summary.content.helpOpen.borderRadius}",
+                      "borderRadiusTopLeft": "{sem.structure.form.template.wizard.mobile.summary.contenthelpOpen.borderRadius}"
                     },
                     "type": "composition"
                   },
                   "helpClosed": {
+                    "value": {
+                      "paddingLeft": "{sem.structure.form.template.wizard.mobile.summary.content.helpClosed.horizontalPadding}",
+                      "paddingRight": "{sem.structure.form.template.wizard.mobile.summary.content.helpClosed.horizontalPadding}",
+                      "fill": "sem.colorSurface.default"
+                    },
+                    "type": "composition"
+                  },
+                  "summary": {
                     "value": {
                       "paddingLeft": "{sem.structure.form.template.wizard.mobile.summary.content.horizontalPadding}",
                       "paddingRight": "{sem.structure.form.template.wizard.mobile.summary.content.horizontalPadding}",
@@ -943,7 +959,7 @@
               "contentWrapper": {
                 "spacing": {
                   "value": "{ref.spacing.300}",
-                  "type:": "spacing"
+                  "type": "spacing"
                 }
               }
             },
@@ -969,7 +985,7 @@
               "contentWrapper": {
                 "spacing": {
                   "value": "{ref.spacing.300}",
-                  "type:": "spacing"
+                  "type": "spacing"
                 }
               }
             }
@@ -1000,11 +1016,17 @@
               }
             }
           }
-        },
+        }
+      }
+    }
+  },
+  "# Moyen de faire mieux dans la structure je pense\n\nsem": {
+    "structure": {
+      "form": {
         "template": {
           "wizard": {
-            "step": {
-              "desktop": {
+            "desktop": {
+              "step": {
                 "content": {
                   "horizontalPadding": {
                     "value": "{ref.spacing.200}",
@@ -1026,39 +1048,7 @@
                   }
                 }
               },
-              "mobile": {
-                "content": {
-                  "helpOpen": {
-                    "horizontalPadding": {
-                      "value": "{ref.spacing.200}",
-                      "type": "spacing"
-                    },
-                    "borderRadius": {
-                      "value": "{ref.borderRadius.400}",
-                      "type": "borderRadius"
-                    }
-                  },
-                  "helpClosed": {
-                    "horizontalPadding": {
-                      "value": "{ref.spacing.200}",
-                      "type": "spacing"
-                    }
-                  }
-                },
-                "formWrapper": {
-                  "paddingTop": {
-                    "value": "{ref.spacing.300}",
-                    "type": "spacing"
-                  },
-                  "paddingBottom": {
-                    "value": "{ref.spacing.300}",
-                    "type": "spacing"
-                  }
-                }
-              }
-            },
-            "summary": {
-              "desktop": {
+              "summary": {
                 "content": {
                   "horizontalPadding": {
                     "value": "{ref.spacing.200}",
@@ -1079,8 +1069,10 @@
                     "type": "spacing"
                   }
                 }
-              },
-              "mobile": {
+              }
+            },
+            "mobile": {
+              "step": {
                 "content": {
                   "helpOpen": {
                     "horizontalPadding": {
@@ -1097,6 +1089,24 @@
                       "value": "{ref.spacing.200}",
                       "type": "spacing"
                     }
+                  }
+                },
+                "formWrapper": {
+                  "paddingTop": {
+                    "value": "{ref.spacing.300}",
+                    "type": "spacing"
+                  },
+                  "paddingBottom": {
+                    "value": "{ref.spacing.300}",
+                    "type": "spacing"
+                  }
+                }
+              },
+              "summary": {
+                "content": {
+                  "horizontalPadding": {
+                    "value": "{ref.spacing.200}",
+                    "type": "spacing"
                   }
                 },
                 "formWrapper": {

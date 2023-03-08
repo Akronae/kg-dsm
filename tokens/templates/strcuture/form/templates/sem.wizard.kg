@@ -1,59 +1,104 @@
 // @replacepath: tokens/structureForm.json
 
+# Moyen de faire mieux dans la structure je pense
+
 sem
 .structure.form.template.wizard
-[type: 'step' | 'summary']
 [
   {
     "desktop": {
-      "content": {
-        "horizontalPadding": {
-          "value": "{ref.spacing.200}",
-          "type": "spacing"
-        },
-        "borderRadius": {
-          "value": "{ref.borderRadius.500}",
-          "type": "borderRadius"
-        }
-      },
-      "formWrapper": {
-        "paddingTop": {
-          "value": "{ref.spacing.<< type == 'step' ? '500' : '950'>>}",
-          "type": "spacing"
-        },
-        "paddingBottom": {
-          "value": "{ref.spacing.500}",
-          "type": "spacing"
-        }
-      }
-    },
-    "mobile": {
-      "content": {
-        "helpOpen": {
+      "step": {
+        "content": {
           "horizontalPadding": {
             "value": "{ref.spacing.200}",
             "type": "spacing"
           },
           "borderRadius": {
-            "value": "{ref.borderRadius.400}",
+            "value": "{ref.borderRadius.500}",
             "type": "borderRadius"
           }
         },
-        "helpClosed": {
-          "horizontalPadding": {
-            "value": "{ref.spacing.200}",
+        "formWrapper": {
+          "paddingTop": {
+            "value": "{ref.spacing.500}",
+            "type": "spacing"
+          },
+          "paddingBottom": {
+            "value": "{ref.spacing.500}",
             "type": "spacing"
           }
         }
       },
-      "formWrapper": {
-        "paddingTop": {
-          "value": "{ref.spacing.300}",
-          "type": "spacing"
+      "summary": {
+        "content": {
+          "horizontalPadding": {
+            "value": "{ref.spacing.200}",
+            "type": "spacing"
+          },
+          "borderRadius": {
+            "value": "{ref.borderRadius.500}",
+            "type": "borderRadius"
+          }
         },
-        "paddingBottom": {
-          "value": "{ref.spacing.300}",
-          "type": "spacing"
+        "formWrapper": {
+          "paddingTop": {
+            "value": "{ref.spacing.950}",
+            "type": "spacing"
+          },
+          "paddingBottom": {
+            "value": "{ref.spacing.500}",
+            "type": "spacing"
+          }
+        }
+      }
+    },
+    "mobile": {
+      "step": {
+        "content": {
+          "helpOpen": {
+            "horizontalPadding": {
+              "value": "{ref.spacing.200}",
+              "type": "spacing"
+            },
+            "borderRadius": {
+              "value": "{ref.borderRadius.400}",
+              "type": "borderRadius"
+            }
+          },
+          "helpClosed": {
+            "horizontalPadding": {
+              "value": "{ref.spacing.200}",
+              "type": "spacing"
+            }
+          }
+        },
+        "formWrapper": {
+          "paddingTop": {
+            "value": "{ref.spacing.300}",
+            "type": "spacing"
+          },
+          "paddingBottom": {
+            "value": "{ref.spacing.300}",
+            "type": "spacing"
+          }
+        }
+      },
+      "summary": {
+        "content": {
+          "horizontalPadding": {
+            "value": "{ref.spacing.200}",
+            "type": "spacing"
+          }
+        },
+        "formWrapper": {
+          "paddingTop": {
+            "value": "{ref.spacing.300}",
+            "type": "spacing"
+          },
+          "paddingBottom": {
+            "value": "{ref.spacing.300}",
+            "type": "spacing"
+          }
         }
       }
     }

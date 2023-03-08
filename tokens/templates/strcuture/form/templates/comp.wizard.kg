@@ -41,15 +41,23 @@ comp
       "content": {
         "helpOpen": {
           "value": {
-            "paddingLeft": "{sem.structure.form.template.wizard.mobile.<<type>>.content.horizontalPadding}",
-            "paddingRight": "{sem.structure.form.template.wizard.mobile.<<type>>.content.horizontalPadding}",
+            "paddingLeft": "{sem.structure.form.template.wizard.mobile.<<type>>.content.helpOpen.horizontalPadding}",
+            "paddingRight": "{sem.structure.form.template.wizard.mobile.<<type>>.content.helpOpen.horizontalPadding}",
             "fill": "sem.colorSurface.default",
-            "borderRadiusTopRight": "{sem.structure.form.template.wizard.mobile.<<type>>.content.borderRadius}",
-            "borderRadiusTopLeft": "{sem.structure.form.template.wizard.mobile.<<type>>.content.borderRadius}"
+            "borderRadiusTopRight": "{sem.structure.form.template.wizard.mobile.<<type>>.content.helpOpen.borderRadius}",
+            "borderRadiusTopLeft": "{sem.structure.form.template.wizard.mobile.<<type>>.contenthelpOpen.borderRadius}"
           },
           "type": "composition"
         },
         "helpClosed": {
+          "value": {
+            "paddingLeft": "{sem.structure.form.template.wizard.mobile.<<type>>.content.helpClosed.horizontalPadding}",
+            "paddingRight": "{sem.structure.form.template.wizard.mobile.<<type>>.content.helpClosed.horizontalPadding}",
+            "fill": "sem.colorSurface.default"
+          },
+          "type": "composition"
+        },
+        "summary": {
           "value": {
             "paddingLeft": "{sem.structure.form.template.wizard.mobile.<<type>>.content.horizontalPadding}",
             "paddingRight": "{sem.structure.form.template.wizard.mobile.<<type>>.content.horizontalPadding}",
