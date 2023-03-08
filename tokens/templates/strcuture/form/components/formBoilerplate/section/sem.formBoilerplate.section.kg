@@ -1,7 +1,7 @@
 // @replacepath: tokens/structureForm.json
 
 sem
-.structure.form.formBoilerplate.components.section
+.structure.form.components.formBoilerplate.section
 [
   {
     "container": {
