@@ -69,34 +69,26 @@ comp
         "content": {
           "helpOpen": {
             "value": {
-              "paddingLeft": "{sem.structure.form.template.wizard.mobile.<<type>>.content.helpOpen.horizontalPadding}",
-              "paddingRight": "{sem.structure.form.template.wizard.mobile.<<type>>.content.helpOpen.horizontalPadding}",
+              "paddingLeft": "{sem.structure.form.template.wizard.mobile.step.content.helpOpen.horizontalPadding}",
+              "paddingRight": "{sem.structure.form.template.wizard.mobile.step.content.helpOpen.horizontalPadding}",
               "fill": "sem.colorSurface.default",
-              "borderRadiusTopRight": "{sem.structure.form.template.wizard.mobile.<<type>>.content.helpOpen.borderRadius}",
-              "borderRadiusTopLeft": "{sem.structure.form.template.wizard.mobile.<<type>>.contenthelpOpen.borderRadius}"
+              "borderRadiusTopRight": "{sem.structure.form.template.wizard.mobile.step.content.helpOpen.borderRadius}",
+              "borderRadiusTopLeft": "{sem.structure.form.template.wizard.mobile.step.contenthelpOpen.borderRadius}"
             },
             "type": "composition"
           },
           "helpClosed": {
             "value": {
-              "paddingLeft": "{sem.structure.form.template.wizard.mobile.<<type>>.content.helpClosed.horizontalPadding}",
-              "paddingRight": "{sem.structure.form.template.wizard.mobile.<<type>>.content.helpClosed.horizontalPadding}",
-              "fill": "{sem.colorSurface.default}"
-            },
-            "type": "composition"
-          },
-          "summary": {
-            "value": {
-              "paddingLeft": "{sem.structure.form.template.wizard.mobile.<<type>>.content.horizontalPadding}",
-              "paddingRight": "{sem.structure.form.template.wizard.mobile.<<type>>.content.horizontalPadding}",
+              "paddingLeft": "{sem.structure.form.template.wizard.mobile.step.content.helpClosed.horizontalPadding}",
+              "paddingRight": "{sem.structure.form.template.wizard.mobile.step.content.helpClosed.horizontalPadding}",
               "fill": "{sem.colorSurface.default}"
             },
             "type": "composition"
           },
           "formWrapper": {
             "value": {
-              "paddingTop": "{sem.structure.form.template.wizard.mobile.<<type>>.formWrapper.paddingTop}",
-              "paddingBottom": "{sem.structure.form.template.wizard.mobile.<<type>>.formWrapper.paddingBottom}",
+              "paddingTop": "{sem.structure.form.template.wizard.mobile.step.formWrapper.paddingTop}",
+              "paddingBottom": "{sem.structure.form.template.wizard.mobile.step.formWrapper.paddingBottom}",
               "width": "{sem.containerSize.maxWidth.md}"
             },
             "type": "composition"
@@ -111,16 +103,16 @@ comp
           },
           "content": {
             "value": {
-              "paddingLeft": "{sem.structure.form.template.wizard.mobile.<<type>>.content.helpClosed.horizontalPadding}",
-              "paddingRight": "{sem.structure.form.template.wizard.mobile.<<type>>.content.helpClosed.horizontalPadding}",
+              "paddingLeft": "{sem.structure.form.template.wizard.mobile.summary.content.helpClosed.horizontalPadding}",
+              "paddingRight": "{sem.structure.form.template.wizard.mobile.summary.content.helpClosed.horizontalPadding}",
               "fill": "{sem.colorSurface.default}"
             },
             "type": "composition"
           },
           "formWrapper": {
             "value": {
-              "paddingTop": "{sem.structure.form.template.wizard.mobile.<<type>>.formWrapper.paddingTop}",
-              "paddingBottom": "{sem.structure.form.template.wizard.mobile.<<type>>.formWrapper.paddingBottom}",
+              "paddingTop": "{sem.structure.form.template.wizard.mobile.summary.formWrapper.paddingTop}",
+              "paddingBottom": "{sem.structure.form.template.wizard.mobile.summary.formWrapper.paddingBottom}",
               "width": "{sem.containerSize.maxWidth.md}"
             },
             "type": "composition"
