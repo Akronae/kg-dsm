@@ -672,7 +672,7 @@
                       "paddingRight": "{sem.structure.form.template.wizard.mobile.step.content.helpOpen.horizontalPadding}",
                       "fill": "sem.colorSurface.default",
                       "borderRadiusTopRight": "{sem.structure.form.template.wizard.mobile.step.content.helpOpen.borderRadius}",
-                      "borderRadiusTopLeft": "{sem.structure.form.template.wizard.mobile.step.contenthelpOpen.borderRadius}"
+                      "borderRadiusTopLeft": "{sem.structure.form.template.wizard.mobile.step.content.helpOpen.borderRadius}"
                     },
                     "type": "composition"
                   },
@@ -702,8 +702,8 @@
                   },
                   "content": {
                     "value": {
-                      "paddingLeft": "{sem.structure.form.template.wizard.mobile.summary.content.helpClosed.horizontalPadding}",
-                      "paddingRight": "{sem.structure.form.template.wizard.mobile.summary.content.helpClosed.horizontalPadding}",
+                      "paddingLeft": "{sem.structure.form.template.wizard.mobile.summary.content.horizontalPadding}",
+                      "paddingRight": "{sem.structure.form.template.wizard.mobile.summary.content.horizontalPadding}",
                       "fill": "{sem.colorSurface.default}"
                     },
                     "type": "composition"
