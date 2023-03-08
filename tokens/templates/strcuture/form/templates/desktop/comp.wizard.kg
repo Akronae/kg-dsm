@@ -1,0 +1,71 @@
+// @replacepath: tokens/structureForm.json
+
+sem
+.structure.form.template.wizard
+[type: 'step' | 'summary']
+[
+  {
+    "desktop": {
+      "body": {
+        "value": {
+        "fill": "{sem.colorBackground.<< type == 'step' ? 'dark' : 'default' >>}"
+        },
+        "type": "composition"
+      },
+      "content": {
+        "value": {
+          "paddingLeft": "{sem.structure.form.template.wizard.desktop.<<type>>.content.horizontalPadding}",
+          "paddingRight": "{sem.structure.form.template.wizard.desktop.<<type>>.content.horizontalPadding}",
+          "fill": "sem.colorSurface.default",
+          "borderRadiusTopRight": "{sem.structure.form.template.wizard.desktop.<<type>>.content.borderRadius}",
+          "borderRadiusBottomRight": "{sem.structure.form.template.wizard.desktop.<<type>>.content.borderRadius}"
+        },
+        "type": "composition"
+      },
+      "formWrapper": {
+        "value": {
+          "paddingTop": "{sem.structure.form.template.wizard.desktop.<<type>>.formWrapper.paddingTop}",
+          "paddingBottom": "{sem.structure.form.template.wizard.desktop.<<type>>.formWrapper.paddingBottom}",
+          "width": "{sem.containerSize.maxWidth.md}"
+        },
+        "type": "composition"
+      }
+    },
+    "mobile": {
+      "body": {
+        "value": {
+        "fill": "{sem.colorBackground.<< type == 'step' ? 'dark' : 'default' >>}"
+        },
+        "type": "composition"
+      },
+      "content": {
+        "helpOpen": {
+          "value": {
+            "paddingLeft": "{sem.structure.form.template.wizard.mobile.<<type>>.content.horizontalPadding}",
+            "paddingRight": "{sem.structure.form.template.wizard.mobile.<<type>>.content.horizontalPadding}",
+            "fill": "sem.colorSurface.default",
+            "borderRadiusTopRight": "{sem.structure.form.template.wizard.mobile.<<type>>.content.borderRadius}",
+            "borderRadiusTopLeft": "{sem.structure.form.template.wizard.mobile.<<type>>.content.borderRadius}"
+          },
+          "type": "composition"
+        },
+        "helpClosed": {
+          "value": {
+            "paddingLeft": "{sem.structure.form.template.wizard.mobile.<<type>>.content.horizontalPadding}",
+            "paddingRight": "{sem.structure.form.template.wizard.mobile.<<type>>.content.horizontalPadding}",
+            "fill": "sem.colorSurface.default"
+          },
+          "type": "composition"
+        }
+      },
+      "formWrapper": {
+        "value": {
+          "paddingTop": "{sem.structure.form.template.wizard.mobile.<<type>>.formWrapper.paddingTop}",
+          "paddingBottom": "{sem.structure.form.template.wizard.mobile.<<type>>.formWrapper.paddingBottom}",
+          "width": "{sem.containerSize.maxWidth.md}"
+        },
+        "type": "composition"
+      }
+    }
+  }
+]

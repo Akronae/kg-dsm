@@ -1,0 +1,61 @@
+// @replacepath: tokens/structureForm.json
+
+comp
+.structure.form.template.wizard
+[type: 'step' | 'summary']
+[
+  {
+    "desktop": {
+      "content": {
+        "horizontalPadding": {
+          "value": "{ref.spacing.200}",
+          "type": "spacing"
+        },
+        "borderRadius": {
+          "value": "{ref.borderRadius.500}",
+          "type": "borderRaidus"
+        }
+      },
+      "formWrapper": {
+        "paddingTop": {
+          "value": "{ref.spacing.<< type == 'step' ? '500' : '950'}",
+          "type": "spacing"
+        },
+        "paddingBottom": {
+          "value": "{ref.spacing.500}",
+          "type": "composition"
+        }
+      }
+    },
+    "mobile": {
+      "content": {
+        "helpOpen": {
+          "horizontalPadding": {
+            "value": "{ref.spacing.200}",
+            "type": "spacing"
+          },
+          "borderRadius": {
+            "value": "{ref.borderRadius.400}",
+            "type": "borderRadius"
+          }
+        },
+        "helpClosed": {
+          "horizontalPadding": {
+            "value": "{ref.spacing.200}",
+            "type": "spacing"
+          }
+        }
+      },
+      "formWrapper": {
+        "paddingTop": {
+          "value": "{ref.spacing.300}",
+          "type": "spacing"
+        },
+        "paddingBottom": {
+          "value": "{ref.spacing.300}",
+          "type": "spacing"
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,23 @@
+// @replacepath: tokens/structureForm.json
+
+sem
+.structure.form.components.actionZone
+[aspectRatio: 'mobile' | 'desktop']
+[
+  {
+    "buttonWrapper": {
+      "paddingTop": {
+        "value": "{ref.spacing.200}",
+        "type": "spacing"
+      },
+      "paddingBottom": {
+        "value": "{ref.spacing.200}",
+        "type": "spacing"
+      },
+      "spacing": {
+        "value": "{ref.spacing.<< ({ mobile: '300', desktop: '900'})[aspectRatio] >>}",
+        "type": "spacing"
+      }
+    }
+  }
+]

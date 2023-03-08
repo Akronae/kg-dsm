@@ -1,0 +1,20 @@
+// @replacepath: tokens/structureForm.json
+
+comp
+.structure.form.formBoilerplate.components.section
+[
+  {
+    "container": {
+      "value": {
+        "itemSpacing": "{sem.structure.form.formBoilerplate.section.container.spacing}"
+      },
+      "type": "composition"
+    },
+    "wrapper": {
+      "value": {
+        "itemSpacing": "{sem.structure.form.formBoilerplate.section.wrapper.spacing}"
+      },
+      "type": "composition"
+    }
+  }
+]

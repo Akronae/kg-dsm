@@ -1,0 +1,58 @@
+// @replacepath: tokens/structureForm.json
+
+sem
+.structure.form.multipleUploader.components.uploader
+[
+  {
+    "container": {
+      "spacing": {
+        "value": "{ref.spacing.200}",
+        "type": "spacing"
+      }
+    },
+    "wrapper": {
+      "spacing": {
+        "value": "{ref.spacing.100}",
+        "type": "spacing"
+      }
+    },
+    "dragZone": {
+      "container": {
+        "spacing": {
+          "value": "{ref.spacing.300}",
+          "type": "spacing"
+        },
+        "padding": {
+          "value": "{ref.spacing.300}",
+          "type": "spacing"
+        },
+        "borderRadius": {
+          "value": "{ref.borderRadius.300}",
+          "type": "borderRadius"
+        }
+      },
+      "fileIcon": {
+        "height": {
+          "value": "{ref.sizing.500}",
+          "type": "sizing"
+        },
+        "opacity": {
+          "value": "{ref.effects.opacity.40}",
+          "type": "opacity"
+        }
+      },
+      "text": {
+        "wrapper": {
+          "spacing": {
+            "value": "{ref.spacing.50}",
+            "type": "spacing"
+          },
+          "opacity": {
+            "value": "{ref.effects.opacity.40}",
+            "type": "opacity"
+          }
+        }
+      }
+    }
+  }
+]

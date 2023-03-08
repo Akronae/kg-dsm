@@ -1,0 +1,27 @@
+// @replacepath: tokens/structureForm.json
+
+comp
+.structure.form.multipleUploader.components.imgItem
+[type: 'simple' | 'cover']
+[
+  {
+    "container": {
+      "value": {
+        "paddingTop": "{sem.structure.form.multipleUploader.imgItem.container.padding}",
+        "paddingBottom": "{sem.structure.form.multipleUploader.imgItem.container.padding}",
+        "paddingLeft": "{sem.structure.form.multipleUploader.imgItem.container.padding}",
+        "paddingRight": "{sem.structure.form.multipleUploader.imgItem.container.padding}",
+        "border": "{sem.border.<< type == 'simple' ? 'diminished' : 'active' >>}",
+        "borderRadius": "{sem.structure.form.multipleUploader.imgItem.container.borderRadius}",
+        "height": "{sem.structure.form.multipleUploader.imgItem.container.height}"
+      },
+      "type": "composition"
+    },
+    "img": {
+      "value": {
+        "boxShadow": "{ref.effects.innerShadow.100}"
+      },
+      "type": "composition"
+    }
+  }
+]

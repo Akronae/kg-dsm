@@ -1,0 +1,25 @@
+// @replacepath: tokens/structureForm.json
+
+comp
+.structure.form.components.sideHelp
+[aspectRatio: 'mobile' | 'desktop']
+[
+  {
+    "container": {
+      "value": {
+        "paddingLeft": "{sem.structure.form.sideHelp.<<aspectRatio>>.container.paddingLeft}",
+        "paddingRight": "{sem.structure.form.sideHelp.<<aspectRatio>>.container.paddingRight}",
+        "paddingBottom": "{sem.structure.form.sideHelp.<<aspectRatio>>.container.paddingBottom}",
+        "paddingTop": "{sem.structure.form.sideHelp.<<aspectRatio>>.container.paddingTop}",
+        "width": "<< ({ mobile: 'none', desktop: '{sem.containerSize.maxWidth.sm}' })[aspectRatio]>>"
+      },
+      "type": "composition"
+    },
+    "contentWrapper": {
+      "value": {
+        "itemSpacing": "{sem.structure.form.sideHelp.<<aspectRatio>>.contentWrapper.spacing}"
+      },
+      "type": "composition"
+    }
+  }
+]

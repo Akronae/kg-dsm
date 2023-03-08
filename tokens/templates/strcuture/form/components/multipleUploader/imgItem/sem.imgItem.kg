@@ -1,0 +1,20 @@
+// @replacepath: tokens/structureForm.json
+
+sem
+.structure.form.multipleUploader.components.imgItem
+[
+  {
+    "container": {
+      "padding": {
+        "value": "{ref.spacing.100}",
+        "type": "spacing"
+      },
+      "borderRadius": {
+        "value": "{ref.borderRadius.250}",
+        "type": "borderRadius"
+      },
+      "height": "{ref.sizing.650}",
+      "type": "sizing"
+    }
+  }
+]
