@@ -15,7 +15,7 @@
               },
               "nextButtonWidth": {
                 "value": {
-                  "width": "{sem.structure.form.components.actionZone.<<aspectRatio.nextButtonWidth}"
+                  "width": "{sem.structure.form.components.actionZone.mobile.nextButtonWidth}"
                 },
                 "type": "composition",
                 "description": "//({extends: 'comp.button.primary.rectangular.lg.default.container'})"
@@ -32,7 +32,7 @@
               },
               "nextButtonWidth": {
                 "value": {
-                  "width": "{sem.structure.form.components.actionZone.<<aspectRatio.nextButtonWidth}"
+                  "width": "{sem.structure.form.components.actionZone.desktop.nextButtonWidth}"
                 },
                 "type": "composition",
                 "description": "//({extends: 'comp.button.primary.rectangular.lg.default.container'})"
