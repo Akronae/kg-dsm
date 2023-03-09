@@ -15955,7 +15955,7 @@
     "infobox": {
       "container": {
         "borderRadius": {
-          "value": "{ref.borderRadius.300}",
+          "value": "{ref.borderRadius.400}",
           "type": "borderRadius"
         },
         "padding": {
