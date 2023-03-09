@@ -1,7 +1,7 @@
 // @replacepath: tokens/structureForm.json
 
 sem
-.structure.form.title
+.structure.form.components.title
 [type: 'step' | 'sub' | 'summary']
 [
   {

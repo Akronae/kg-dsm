@@ -1,7 +1,7 @@
 // @replacepath: tokens/structureForm.json
 
 sem
-.structure.form.sideHelp
+.structure.form.components.sideHelp
 [aspectRatio: 'mobile' | 'desktop']
 [
   {
@@ -20,13 +20,13 @@ sem
       },
       "paddingTop": {
         "value": "{ref.spacing.<< ({ mobile: '300', desktop: '950'})[aspectRatio] >>}",
-        "type": "{spacing}"
+        "type": "spacing"
       }
     },
     "contentWrapper": {
       "spacing": {
         "value": "{ref.spacing.300}",
-        "type:": "spacing"
+        "type": "spacing"
       }
     }
   }

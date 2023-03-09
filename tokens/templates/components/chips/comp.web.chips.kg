@@ -7,7 +7,7 @@ comp
   {
     "container": {
       "value": {
-        "fill": "{sem.colorSurface.interactive.sub.<<state>>}",
+        "fill": "{sem.color.surface.interactive.sub.<<state>>}",
         "border": "<< ({ default: '{sem.border.interactive.default}', hover: '{sem.border.interactive.hover}', pressed: '{sem.border.interactive.pressed}' })[state] || 'none' >>",
         "itemSpacing": "{sem.chips.container.spacing}",
         "borderRadius": "{sem.chips.container.borderRadius}",
@@ -35,7 +35,7 @@ comp
     "label": {
       "value": {
         "typography": "{sem.typography.textStyle.label.body.sm}",
-        "fill": "{sem.colorText.<< state == 'active' ? 'light' : 'default'>>}"
+        "fill": "{sem.color.text.<< state == 'active' ? 'light' : 'default'>>}"
       },
       "type": "composition"
     }

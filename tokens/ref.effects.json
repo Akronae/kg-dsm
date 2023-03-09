@@ -81,7 +81,7 @@
             "y": "0",
             "blur": "96",
             "spread": "0",
-            "color": "{ref.colors.neutral.400}",
+            "color": "{ref.colors.neutral.600}",
             "type": "innerShadow"
           },
           "type": "boxShadow"

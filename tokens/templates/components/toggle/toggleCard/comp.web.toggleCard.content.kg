@@ -15,7 +15,7 @@ comp
       "icon": {
         "iconSize": {
           "value": {
-            "size": "{sem.toggle.toggleCard.content.<<size>>.iconSize}"
+            "sizing": "{sem.toggle.toggleCard.content.<<size>>.iconSize}"
           },
           "type": "composition"
         },
@@ -44,7 +44,7 @@ comp
           "text": {
             "value": {
               "typography": "{sem.typography.textStyle.label.body.md}",
-              "fill": "{sem.colorText.dark}"
+              "fill": "{sem.color.text.dark}"
             },
             "type": "composition"
           }
@@ -59,7 +59,7 @@ comp
       "description": {
         "value": {
           "typography": "{sem.typography.textStyle.paragraph.sm.default}",
-          "fill": "{sem.colorText.default}"
+          "fill": "{sem.color.text.default}"
         },
         "type": "composition"
       }

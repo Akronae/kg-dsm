@@ -10,7 +10,7 @@ comp
   {
     "container": {
       "value": {
-        "fill": "{sem.colorSurface.<< type == 'danger' ? ({ default: 'interactive.danger.default', hover: 'interactive.danger.hover', pressed: 'interactive.danger.pressed', disabled: 'interactive.danger.disabled' })[state] : ({ default: 'interactive.light.default', hover: 'interactive.light.hover', pressed: 'interactive.light.pressed', disabled: 'interactive.light.disabled' })[state] >>}",
+        "fill": "{sem.color.surface.<< type == 'danger' ? ({ default: 'interactive.danger.default', hover: 'interactive.danger.hover', pressed: 'interactive.danger.pressed', disabled: 'interactive.danger.disabled' })[state] : ({ default: 'interactive.light.default', hover: 'interactive.light.hover', pressed: 'interactive.light.pressed', disabled: 'interactive.light.disabled' })[state] >>}",
         "verticalPadding": "{sem.dropdown.item.<<size>>.container.verticalPadding}",
         "horizontalPadding": "{sem.dropdown.item.<<size>>.container.horizontalPadding}",
         "borderRadius": "{sem.dropdown.item.<<size>>.container.borderRadius}",
@@ -44,7 +44,7 @@ comp
       "label": {
         "value": {
           "typography": "{sem.typography.textStyle.label.body.<<size>>}",
-          "fill": "{sem.colorText.<< type == 'danger' ? 'danger' : 'dark'>>}"
+          "fill": "{sem.color.text.<< type == 'danger' ? 'danger' : 'dark'>>}"
         },
         "type": "composition"
       }
@@ -52,7 +52,7 @@ comp
     "description": {
       "value": {
         "typography": "{sem.typography.textStyle.paragraph.<<size>>.default}",
-        "fill": "{sem.colorText.default}"
+        "fill": "{sem.color.text.default}"
       },
       "type": "composition"
     }

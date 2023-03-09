@@ -1,12 +1,12 @@
 // @replacepath: tokens/structureForm.json
 
 sem
-.structure.form.formBoilerplate.child
+.structure.form.components.multipleUploader.imgsGrid
 [
   {
-    "container": {
+    "wrapper": {
       "spacing": {
-        "value": "{ref.spacing.200}",
+        "value": "{ref.spacing.100}",
         "type": "spacing"
       }
     }

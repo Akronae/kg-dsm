@@ -6,7 +6,7 @@
           "panel": {
             "sm": {
               "value": {
-                "fill": "{sem.colorSurface.light}",
+                "fill": "{sem.color.surface.light}",
                 "borderRadius": "{ref.borderRadius.400}",
                 "border": "{sem.border.disabled}",
                 "verticalPadding": "{ref.spacing.150}",
@@ -16,7 +16,7 @@
             },
             "lg": {
               "value": {
-                "fill": "{sem.colorSurface.light}",
+                "fill": "{sem.color.surface.light}",
                 "borderRadius": "{ref.borderRadius.400}",
                 "border": "{sem.border.disabled}",
                 "verticalPadding": "{ref.spacing.300}",
@@ -31,7 +31,7 @@
               "verticalPadding": "{ref.spacing.150}",
               "horizontalPadding": "{ref.spacing.150}",
               "itemSpacing": "{ref.spacing.100}",
-              "fill": "{sem.colorSurface.sub}"
+              "fill": "{sem.color.surface.sub}"
             },
             "type": "composition"
           }
@@ -39,7 +39,7 @@
         "carousel": {
           "topbar": {
             "value": {
-              "fill": "{sem.colorSurface.light}",
+              "fill": "{sem.color.surface.light}",
               "verticalPadding": "{ref.spacing.200}"
             },
             "type": "composition"
@@ -87,7 +87,7 @@
             },
             "disabled": {
               "value": {
-                "fill": "{sem.colorSurface.disabled}",
+                "fill": "{sem.color.surface.disabled}",
                 "opacity": "{ref.effects.opacity.40}"
               },
               "type": "composition"
@@ -109,7 +109,7 @@
               "title": {
                 "value": {
                   "typography": "{sem.typography.textStyle.heading.heading5}",
-                  "fill": "{sem.colorText.dark}"
+                  "fill": "{sem.color.text.dark}"
                 },
                 "type": "composition"
               },
@@ -136,14 +136,14 @@
                   "letter": {
                     "light": {
                       "value": {
-                        "fill": "{sem.colorText.light}",
+                        "fill": "{sem.color.text.light}",
                         "typography": "{sem.typography.textStyle.paragraph.md.strong}"
                       },
                       "type": "composition"
                     },
                     "dark": {
                       "value": {
-                        "fill": "{sem.colorText.dark}",
+                        "fill": "{sem.color.text.dark}",
                         "typography": "{sem.typography.textStyle.paragraph.md.strong}"
                       },
                       "type": "composition"
@@ -153,14 +153,14 @@
                 "data": {
                   "number": {
                     "value": {
-                      "fill": "{sem.colorText.dark}",
+                      "fill": "{sem.color.text.dark}",
                       "typography": "{sem.typography.textStyle.paragraph.lg.strong}"
                     },
                     "type": "composition"
                   },
                   "metric": {
                     "value": {
-                      "fill": "{sem.colorText.diminish}",
+                      "fill": "{sem.color.text.diminish}",
                       "typography": "{sem.typography.textStyle.label.body.xs}"
                     },
                     "type": "composition"
@@ -280,7 +280,7 @@
               "title": {
                 "value": {
                   "typography": "{sem.typography.textStyle.heading.heading3}",
-                  "fill": "{sem.colorText.dark}"
+                  "fill": "{sem.color.text.dark}"
                 },
                 "type": "composition"
               }
@@ -293,7 +293,7 @@
           "container": {
             "sm": {
               "value": {
-                "fill": "{sem.colorSurface.light}",
+                "fill": "{sem.color.surface.light}",
                 "itemSpacing": "{ref.spacing.50}",
                 "borderRadius": "{ref.borderRadius.200}",
                 "verticalPadding": "{ref.spacing.50}",
@@ -303,7 +303,7 @@
             },
             "lg": {
               "value": {
-                "fill": "{sem.colorSurface.light}",
+                "fill": "{sem.color.surface.light}",
                 "itemSpacing": "{ref.spacing.100}",
                 "borderRadius": "{ref.borderRadius.200}",
                 "verticalPadding": "{ref.spacing.100}",
@@ -317,7 +317,7 @@
           "container": {
             "sm": {
               "value": {
-                "fill": "{sem.colorSurface.sub}",
+                "fill": "{sem.color.surface.sub}",
                 "itemSpacing": "{ref.spacing.50}",
                 "borderRadius": "{ref.borderRadius.200}",
                 "verticalPadding": "{ref.spacing.50}",
@@ -327,7 +327,7 @@
             },
             "lg": {
               "value": {
-                "fill": "{sem.colorSurface.sub}",
+                "fill": "{sem.color.surface.sub}",
                 "itemSpacing": "{ref.spacing.100}",
                 "borderRadius": "{ref.borderRadius.200}",
                 "verticalPadding": "{ref.spacing.100}",
@@ -342,7 +342,7 @@
         "item": {
           "default": {
             "value": {
-              "fill": "{sem.colorSurface.interactive.light.default}",
+              "fill": "{sem.color.surface.interactive.light.default}",
               "borderRadius": "{ref.borderRadius.400}",
               "verticalPadding": "{ref.spacing.300}",
               "itemSpacing": "{ref.spacing.200}",
@@ -352,7 +352,7 @@
           },
           "hover": {
             "value": {
-              "fill": "{sem.colorSurface.interactive.light.hover}",
+              "fill": "{sem.color.surface.interactive.light.hover}",
               "borderRadius": "{ref.borderRadius.400}",
               "verticalPadding": "{ref.spacing.300}",
               "itemSpacing": "{ref.spacing.200}",
@@ -362,7 +362,7 @@
           },
           "open": {
             "value": {
-              "fill": "{sem.colorSurface.interactive.light.default}",
+              "fill": "{sem.color.surface.interactive.light.default}",
               "verticalPadding": "{ref.spacing.300}",
               "itemSpacing": "{ref.spacing.200}",
               "borderRadiusTopLeft": "{ref.borderRadius.400}",
@@ -375,7 +375,7 @@
           },
           "disabled": {
             "value": {
-              "fill": "{sem.colorSurface.sub}",
+              "fill": "{sem.color.surface.sub}",
               "verticalPadding": "{ref.spacing.300}",
               "itemSpacing": "{ref.spacing.200}",
               "horizontalPadding": "{ref.spacing.300}",
@@ -387,7 +387,7 @@
         "container": {
           "default": {
             "value": {
-              "fill": "{sem.colorSurface.light}",
+              "fill": "{sem.color.surface.light}",
               "borderRadius": "{ref.borderRadius.400}",
               "boxShadow": "{ref.effects.dropShadow.500}",
               "itemSpacing": "{ref.spacing.200}",
@@ -397,7 +397,7 @@
           },
           "open": {
             "value": {
-              "fill": "{sem.colorSurface.sub}",
+              "fill": "{sem.color.surface.sub}",
               "borderRadius": "{ref.borderRadius.400}",
               "itemSpacing": "{ref.spacing.200}",
               "paddingRight": "{ref.spacing.200}"
