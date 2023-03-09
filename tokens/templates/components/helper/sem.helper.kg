@@ -13,7 +13,7 @@ sem
     "icon": {
       "size": {
         "value": "{ref.sizing.200}",
-        "type": "size"
+        "type": "sizing"
       }
     },
     "textWrapper": {

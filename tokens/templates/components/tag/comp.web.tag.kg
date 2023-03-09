@@ -9,7 +9,7 @@ comp
       "value": {
         "borderRadius": "{sem.tag.container.borderRadius}",
         "fill": "{sem.colorTag.<<color>>}",
-        "vertialPadding": "{sem.tag.container.padding}",
+        "verticalPadding": "{sem.tag.container.padding}",
         "horizontalPadding": "{sem.tag.container.padding}",
         "itemSpacing": "{sem.tag.container.spacing}"
       },
