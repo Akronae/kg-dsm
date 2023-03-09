@@ -510,19 +510,19 @@
       "fontWeight": {
         "regular": {
           "value": "{ref.typography.fontWeight.400}",
-          "type": "fontWeights"
+          "type": "fontWeight"
         },
         "medium": {
           "value": "{ref.typography.fontWeight.500}",
-          "type": "fontWeights"
+          "type": "fontWeight"
         },
         "semibold": {
           "value": "{ref.typography.fontWeight.600}",
-          "type": "fontWeights"
+          "type": "fontWeight"
         },
         "bold": {
           "value": "{ref.typography.fontWeight.700}",
-          "type": "fontWeights"
+          "type": "fontWeight"
         }
       },
       "fontSize": {
