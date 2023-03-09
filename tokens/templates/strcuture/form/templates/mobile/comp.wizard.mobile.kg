@@ -8,7 +8,7 @@ comp
       "step": {
         "body": {
           "value": {
-            "fill": "{sem.colorBackground.dark}"
+            "fill": "{sem.color.background.dark}"
           },
           "type": "composition"
         },
@@ -17,7 +17,7 @@ comp
             "value": {
               "paddingLeft": "{sem.structure.form.template.wizard.mobile.step.content.helpOpen.horizontalPadding}",
               "paddingRight": "{sem.structure.form.template.wizard.mobile.step.content.helpOpen.horizontalPadding}",
-              "fill": "{sem.colorSurface.default}",
+              "fill": "{sem.color.surface.default}",
               "borderRadiusTopRight": "{sem.structure.form.template.wizard.mobile.step.content.helpOpen.borderRadius}",
               "borderRadiusTopLeft": "{sem.structure.form.template.wizard.mobile.step.content.helpOpen.borderRadius}"
             },
@@ -27,7 +27,7 @@ comp
             "value": {
               "paddingLeft": "{sem.structure.form.template.wizard.mobile.step.content.helpClosed.horizontalPadding}",
               "paddingRight": "{sem.structure.form.template.wizard.mobile.step.content.helpClosed.horizontalPadding}",
-              "fill": "{sem.colorSurface.default}"
+              "fill": "{sem.color.surface.default}"
             },
             "type": "composition"
           },
@@ -42,7 +42,7 @@ comp
         "summary": {
           "body": {
             "value": {
-              "fill": "{sem.colorBackground.default}"
+              "fill": "{sem.color.background.default}"
             },
             "type": "composition"
           },
@@ -50,7 +50,7 @@ comp
             "value": {
               "paddingLeft": "{sem.structure.form.template.wizard.mobile.summary.content.horizontalPadding}",
               "paddingRight": "{sem.structure.form.template.wizard.mobile.summary.content.horizontalPadding}",
-              "fill": "{sem.colorSurface.default}"
+              "fill": "{sem.color.surface.default}"
             },
             "type": "composition"
           },

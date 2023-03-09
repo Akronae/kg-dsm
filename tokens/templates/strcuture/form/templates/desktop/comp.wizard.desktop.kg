@@ -7,7 +7,7 @@ comp
     "step": {
       "body": {
         "value": {
-          "fill": "{sem.colorBackground.dark}"
+          "fill": "{sem.color.background.dark}"
         },
         "type": "composition"
       },
@@ -15,7 +15,7 @@ comp
         "value": {
           "paddingLeft": "{sem.structure.form.template.wizard.desktop.step.content.horizontalPadding}",
           "paddingRight": "{sem.structure.form.template.wizard.desktop.step.content.horizontalPadding}",
-          "fill": "{sem.colorSurface.default}",
+          "fill": "{sem.color.surface.default}",
           "borderRadiusTopRight": "{sem.structure.form.template.wizard.desktop.step.content.borderRadius}",
           "borderRadiusBottomRight": "{sem.structure.form.template.wizard.desktop.step.content.borderRadius}"
         },
@@ -33,7 +33,7 @@ comp
     "summary": {
       "body": {
         "value": {
-          "fill": "{sem.colorBackground.default}"
+          "fill": "{sem.color.background.default}"
         },
         "type": "composition"
       },

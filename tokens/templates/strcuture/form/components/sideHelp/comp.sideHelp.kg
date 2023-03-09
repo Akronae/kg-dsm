@@ -24,14 +24,14 @@ comp
     "title": {
       "value": {
         "typography": "{sem.typography.textStyle.heading.heading3}",
-        "fill": "{sem.colorText.default}"
+        "fill": "{sem.color.text.default}"
       },
       "type": "composition"
     },
     "bullet": {
       "value": {
         "typography": "{sem.typography.textStyle.paragraph.md.default}",
-        "fill": "{sem.colorText.default}"
+        "fill": "{sem.color.text.default}"
       },
       "type": "composition"
     }

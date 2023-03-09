@@ -14,14 +14,14 @@ comp
     "title": {
       "value": {
         "typography": "{sem.typography.textStyle.heading.<< ({ step: 'heading3', sub: 'heading4', summary: 'heading2'})[type] >>}",
-        "fill": "{sem.colorText.dark}"
+        "fill": "{sem.color.text.dark}"
       },
       "type": "composition"
     },
     "description": {
       "value": {
         "typography": "{sem.typography.textStyle.paragraph.md.default}",
-        "fill": "{sem.colorText.default}"
+        "fill": "{sem.color.text.default}"
       },
       "type": "composition"
     }

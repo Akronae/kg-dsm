@@ -8,7 +8,7 @@
             "horizontalPadding": "{ref.spacing.150}",
             "border": "{sem.border.interactive.default}",
             "borderRadius": "{ref.borderRadius.300}",
-            "fill": "{sem.colorSurface.interactive.sub.default}",
+            "fill": "{sem.color.surface.interactive.sub.default}",
             "itemSpacing": "{ref.spacing.100}"
           },
           "type": "composition"
@@ -19,7 +19,7 @@
             "horizontalPadding": "{ref.spacing.150}",
             "border": "{sem.border.interactive.hover}",
             "borderRadius": "{ref.borderRadius.300}",
-            "fill": "{sem.colorSurface.interactive.sub.hover}",
+            "fill": "{sem.color.surface.interactive.sub.hover}",
             "itemSpacing": "{ref.spacing.100}"
           },
           "type": "composition"
@@ -30,7 +30,7 @@
             "horizontalPadding": "{ref.spacing.150}",
             "border": "{sem.border.interactive.pressed}",
             "borderRadius": "{ref.borderRadius.300}",
-            "fill": "{sem.colorSurface.interactive.sub.pressed}",
+            "fill": "{sem.color.surface.interactive.sub.pressed}",
             "itemSpacing": "{ref.spacing.100}"
           },
           "type": "composition"
@@ -41,7 +41,7 @@
             "horizontalPadding": "{ref.spacing.150}",
             "border": "{sem.border.interactive.active}",
             "borderRadius": "{ref.borderRadius.300}",
-            "fill": "{sem.colorSurface.interactive.sub.default}",
+            "fill": "{sem.color.surface.interactive.sub.default}",
             "itemSpacing": "{ref.spacing.100}"
           },
           "type": "composition"
@@ -54,7 +54,7 @@
             "horizontalPadding": "{ref.spacing.150}",
             "border": "{sem.border.interactive.default}",
             "borderRadius": "{ref.borderRadius.300}",
-            "fill": "{sem.colorSurface.interactive.light.default}",
+            "fill": "{sem.color.surface.interactive.light.default}",
             "itemSpacing": "{ref.spacing.100}"
           },
           "type": "composition"
@@ -65,7 +65,7 @@
             "horizontalPadding": "{ref.spacing.150}",
             "border": "{sem.border.interactive.hover}",
             "borderRadius": "{ref.borderRadius.300}",
-            "fill": "{sem.colorSurface.interactive.light.hover}",
+            "fill": "{sem.color.surface.interactive.light.hover}",
             "itemSpacing": "{ref.spacing.100}"
           },
           "type": "composition"
@@ -76,7 +76,7 @@
             "horizontalPadding": "{ref.spacing.150}",
             "border": "{sem.border.interactive.pressed}",
             "borderRadius": "{ref.borderRadius.300}",
-            "fill": "{sem.colorSurface.interactive.light.pressed}",
+            "fill": "{sem.color.surface.interactive.light.pressed}",
             "itemSpacing": "{ref.spacing.100}"
           },
           "type": "composition"
@@ -87,7 +87,7 @@
             "horizontalPadding": "{ref.spacing.150}",
             "border": "{sem.border.interactive.active}",
             "borderRadius": "{ref.borderRadius.300}",
-            "fill": "{sem.colorSurface.interactive.light.default}",
+            "fill": "{sem.color.surface.interactive.light.default}",
             "itemSpacing": "{ref.spacing.100}"
           },
           "type": "composition"

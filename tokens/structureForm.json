@@ -137,7 +137,7 @@
                 "dragZone": {
                   "container": {
                     "value": {
-                      "fill": "{sem.colorSurface.interactive.default}",
+                      "fill": "{sem.color.surface.interactive.default}",
                       "itemSpacing": "{sem.structure.form.components.multipleUploader.uploader.dragZone.container.spacing}",
                       "paddingTop": "{sem.structure.form.components.multipleUploader.uploader.dragZone.container.padding}",
                       "paddingBottom": "{sem.structure.form.components.multipleUploader.uploader.dragZone.container.padding}",
@@ -166,14 +166,14 @@
                     "label": {
                       "value": {
                         "typegraphy": "{sem.typography.textStyle.label.body.sm}",
-                        "fill": "{sem.colorText.dark}"
+                        "fill": "{sem.color.text.dark}"
                       },
                       "type": "composition"
                     },
                     "description": {
                       "value": {
                         "typegraphy": "{sem.typography.textStyle.paragraph.sm.default}",
-                        "fill": "{sem.colorText.default}"
+                        "fill": "{sem.color.text.default}"
                       },
                       "type": "composition"
                     }
@@ -196,7 +196,7 @@
                 "dragZone": {
                   "container": {
                     "value": {
-                      "fill": "{sem.colorSurface.interactive.hover}",
+                      "fill": "{sem.color.surface.interactive.hover}",
                       "itemSpacing": "{sem.structure.form.components.multipleUploader.uploader.dragZone.container.spacing}",
                       "paddingTop": "{sem.structure.form.components.multipleUploader.uploader.dragZone.container.padding}",
                       "paddingBottom": "{sem.structure.form.components.multipleUploader.uploader.dragZone.container.padding}",
@@ -225,14 +225,14 @@
                     "label": {
                       "value": {
                         "typegraphy": "{sem.typography.textStyle.label.body.sm}",
-                        "fill": "{sem.colorText.dark}"
+                        "fill": "{sem.color.text.dark}"
                       },
                       "type": "composition"
                     },
                     "description": {
                       "value": {
                         "typegraphy": "{sem.typography.textStyle.paragraph.sm.default}",
-                        "fill": "{sem.colorText.default}"
+                        "fill": "{sem.color.text.default}"
                       },
                       "type": "composition"
                     }
@@ -255,7 +255,7 @@
                 "dragZone": {
                   "container": {
                     "value": {
-                      "fill": "{sem.colorSurface.interactive.pressed}",
+                      "fill": "{sem.color.surface.interactive.pressed}",
                       "itemSpacing": "{sem.structure.form.components.multipleUploader.uploader.dragZone.container.spacing}",
                       "paddingTop": "{sem.structure.form.components.multipleUploader.uploader.dragZone.container.padding}",
                       "paddingBottom": "{sem.structure.form.components.multipleUploader.uploader.dragZone.container.padding}",
@@ -284,14 +284,14 @@
                     "label": {
                       "value": {
                         "typegraphy": "{sem.typography.textStyle.label.body.sm}",
-                        "fill": "{sem.colorText.dark}"
+                        "fill": "{sem.color.text.dark}"
                       },
                       "type": "composition"
                     },
                     "description": {
                       "value": {
                         "typegraphy": "{sem.typography.textStyle.paragraph.sm.default}",
-                        "fill": "{sem.colorText.default}"
+                        "fill": "{sem.color.text.default}"
                       },
                       "type": "composition"
                     }
@@ -343,14 +343,14 @@
                     "label": {
                       "value": {
                         "typegraphy": "{sem.typography.textStyle.label.body.sm}",
-                        "fill": "{sem.colorText.dark}"
+                        "fill": "{sem.color.text.dark}"
                       },
                       "type": "composition"
                     },
                     "description": {
                       "value": {
                         "typegraphy": "{sem.typography.textStyle.paragraph.sm.default}",
-                        "fill": "{sem.colorText.default}"
+                        "fill": "{sem.color.text.default}"
                       },
                       "type": "composition"
                     }
@@ -402,14 +402,14 @@
                     "label": {
                       "value": {
                         "typegraphy": "{sem.typography.textStyle.label.body.sm}",
-                        "fill": "{sem.colorText.danger}"
+                        "fill": "{sem.color.text.danger}"
                       },
                       "type": "composition"
                     },
                     "description": {
                       "value": {
                         "typegraphy": "{sem.typography.textStyle.paragraph.sm.default}",
-                        "fill": "{sem.colorText.danger}"
+                        "fill": "{sem.color.text.danger}"
                       },
                       "type": "composition"
                     }
@@ -432,7 +432,7 @@
                 "dragZone": {
                   "container": {
                     "value": {
-                      "fill": "{sem.colorSurface.interactive.disabled}",
+                      "fill": "{sem.color.surface.interactive.disabled}",
                       "itemSpacing": "{sem.structure.form.components.multipleUploader.uploader.dragZone.container.spacing}",
                       "paddingTop": "{sem.structure.form.components.multipleUploader.uploader.dragZone.container.padding}",
                       "paddingBottom": "{sem.structure.form.components.multipleUploader.uploader.dragZone.container.padding}",
@@ -461,14 +461,14 @@
                     "label": {
                       "value": {
                         "typegraphy": "{sem.typography.textStyle.label.body.sm}",
-                        "fill": "{sem.colorText.dark}"
+                        "fill": "{sem.color.text.dark}"
                       },
                       "type": "composition"
                     },
                     "description": {
                       "value": {
                         "typegraphy": "{sem.typography.textStyle.paragraph.sm.default}",
-                        "fill": "{sem.colorText.default}"
+                        "fill": "{sem.color.text.default}"
                       },
                       "type": "composition"
                     }
@@ -529,14 +529,14 @@
               "title": {
                 "value": {
                   "typography": "{sem.typography.textStyle.heading.heading3}",
-                  "fill": "{sem.colorText.default}"
+                  "fill": "{sem.color.text.default}"
                 },
                 "type": "composition"
               },
               "bullet": {
                 "value": {
                   "typography": "{sem.typography.textStyle.paragraph.md.default}",
-                  "fill": "{sem.colorText.default}"
+                  "fill": "{sem.color.text.default}"
                 },
                 "type": "composition"
               }
@@ -561,14 +561,14 @@
               "title": {
                 "value": {
                   "typography": "{sem.typography.textStyle.heading.heading3}",
-                  "fill": "{sem.colorText.default}"
+                  "fill": "{sem.color.text.default}"
                 },
                 "type": "composition"
               },
               "bullet": {
                 "value": {
                   "typography": "{sem.typography.textStyle.paragraph.md.default}",
-                  "fill": "{sem.colorText.default}"
+                  "fill": "{sem.color.text.default}"
                 },
                 "type": "composition"
               }
@@ -585,14 +585,14 @@
               "title": {
                 "value": {
                   "typography": "{sem.typography.textStyle.heading.heading3}",
-                  "fill": "{sem.colorText.dark}"
+                  "fill": "{sem.color.text.dark}"
                 },
                 "type": "composition"
               },
               "description": {
                 "value": {
                   "typography": "{sem.typography.textStyle.paragraph.md.default}",
-                  "fill": "{sem.colorText.default}"
+                  "fill": "{sem.color.text.default}"
                 },
                 "type": "composition"
               }
@@ -607,14 +607,14 @@
               "title": {
                 "value": {
                   "typography": "{sem.typography.textStyle.heading.heading4}",
-                  "fill": "{sem.colorText.dark}"
+                  "fill": "{sem.color.text.dark}"
                 },
                 "type": "composition"
               },
               "description": {
                 "value": {
                   "typography": "{sem.typography.textStyle.paragraph.md.default}",
-                  "fill": "{sem.colorText.default}"
+                  "fill": "{sem.color.text.default}"
                 },
                 "type": "composition"
               }
@@ -629,14 +629,14 @@
               "title": {
                 "value": {
                   "typography": "{sem.typography.textStyle.heading.heading2}",
-                  "fill": "{sem.colorText.dark}"
+                  "fill": "{sem.color.text.dark}"
                 },
                 "type": "composition"
               },
               "description": {
                 "value": {
                   "typography": "{sem.typography.textStyle.paragraph.md.default}",
-                  "fill": "{sem.colorText.default}"
+                  "fill": "{sem.color.text.default}"
                 },
                 "type": "composition"
               }
@@ -678,7 +678,7 @@
               "step": {
                 "body": {
                   "value": {
-                    "fill": "{sem.colorBackground.dark}"
+                    "fill": "{sem.color.background.dark}"
                   },
                   "type": "composition"
                 },
@@ -686,7 +686,7 @@
                   "value": {
                     "paddingLeft": "{sem.structure.form.template.wizard.desktop.step.content.horizontalPadding}",
                     "paddingRight": "{sem.structure.form.template.wizard.desktop.step.content.horizontalPadding}",
-                    "fill": "{sem.colorSurface.default}",
+                    "fill": "{sem.color.surface.default}",
                     "borderRadiusTopRight": "{sem.structure.form.template.wizard.desktop.step.content.borderRadius}",
                     "borderRadiusBottomRight": "{sem.structure.form.template.wizard.desktop.step.content.borderRadius}"
                   },
@@ -704,7 +704,7 @@
               "summary": {
                 "body": {
                   "value": {
-                    "fill": "{sem.colorBackground.default}"
+                    "fill": "{sem.color.background.default}"
                   },
                   "type": "composition"
                 },
@@ -730,7 +730,7 @@
                 "step": {
                   "body": {
                     "value": {
-                      "fill": "{sem.colorBackground.dark}"
+                      "fill": "{sem.color.background.dark}"
                     },
                     "type": "composition"
                   },
@@ -739,7 +739,7 @@
                       "value": {
                         "paddingLeft": "{sem.structure.form.template.wizard.mobile.step.content.helpOpen.horizontalPadding}",
                         "paddingRight": "{sem.structure.form.template.wizard.mobile.step.content.helpOpen.horizontalPadding}",
-                        "fill": "{sem.colorSurface.default}",
+                        "fill": "{sem.color.surface.default}",
                         "borderRadiusTopRight": "{sem.structure.form.template.wizard.mobile.step.content.helpOpen.borderRadius}",
                         "borderRadiusTopLeft": "{sem.structure.form.template.wizard.mobile.step.content.helpOpen.borderRadius}"
                       },
@@ -749,7 +749,7 @@
                       "value": {
                         "paddingLeft": "{sem.structure.form.template.wizard.mobile.step.content.helpClosed.horizontalPadding}",
                         "paddingRight": "{sem.structure.form.template.wizard.mobile.step.content.helpClosed.horizontalPadding}",
-                        "fill": "{sem.colorSurface.default}"
+                        "fill": "{sem.color.surface.default}"
                       },
                       "type": "composition"
                     },
@@ -764,7 +764,7 @@
                   "summary": {
                     "body": {
                       "value": {
-                        "fill": "{sem.colorBackground.default}"
+                        "fill": "{sem.color.background.default}"
                       },
                       "type": "composition"
                     },
@@ -772,7 +772,7 @@
                       "value": {
                         "paddingLeft": "{sem.structure.form.template.wizard.mobile.summary.content.horizontalPadding}",
                         "paddingRight": "{sem.structure.form.template.wizard.mobile.summary.content.horizontalPadding}",
-                        "fill": "{sem.colorSurface.default}"
+                        "fill": "{sem.color.surface.default}"
                       },
                       "type": "composition"
                     },

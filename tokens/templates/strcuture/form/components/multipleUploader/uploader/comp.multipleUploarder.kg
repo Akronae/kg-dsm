@@ -20,7 +20,7 @@ comp
     "dragZone": {
       "container": {
         "value": {
-          "fill": "<< ({ default: '{sem.colorSurface.interactive.default}', hover: '{sem.colorSurface.interactive.hover}', pressed: '{sem.colorSurface.interactive.pressed}', active: 'none', danger: 'none', disabled: '{sem.colorSurface.interactive.disabled}' })[state] >>",
+          "fill": "<< ({ default: '{sem.color.surface.interactive.default}', hover: '{sem.color.surface.interactive.hover}', pressed: '{sem.color.surface.interactive.pressed}', active: 'none', danger: 'none', disabled: '{sem.color.surface.interactive.disabled}' })[state] >>",
           "itemSpacing": "{sem.structure.form.components.multipleUploader.uploader.dragZone.container.spacing}",
           "paddingTop": "{sem.structure.form.components.multipleUploader.uploader.dragZone.container.padding}",
           "paddingBottom": "{sem.structure.form.components.multipleUploader.uploader.dragZone.container.padding}",
@@ -49,14 +49,14 @@ comp
         "label": {
           "value": {
             "typegraphy": "{sem.typography.textStyle.label.body.sm}",
-            "fill": "{sem.colorText.<< state == 'danger' ? 'danger' : 'dark' >>}"
+            "fill": "{sem.color.text.<< state == 'danger' ? 'danger' : 'dark' >>}"
           },
           "type": "composition"
         },
         "description": {
           "value": {
             "typegraphy": "{sem.typography.textStyle.paragraph.sm.default}",
-            "fill": "{sem.colorText.<< state == 'danger' ? 'danger' : 'default' >>}"
+            "fill": "{sem.color.text.<< state == 'danger' ? 'danger' : 'default' >>}"
           },
           "type": "composition"
         }
