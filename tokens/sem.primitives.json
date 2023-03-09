@@ -115,9 +115,7 @@
             "type": "color"
           }
         }
-      }
-    },
-    "color": {
+      },
       "text": {
         "default": {
           "value": "{ref.colors.neutral.600}",
@@ -161,9 +159,7 @@
             "type": "color"
           }
         }
-      }
-    },
-    "color": {
+      },
       "icon": {
         "default": {
           "value": "{ref.colors.neutral.600}",
@@ -189,9 +185,7 @@
           "value": "{ref.colors.red.500}",
           "type": "color"
         }
-      }
-    },
-    "color": {
+      },
       "border": {
         "active": {
           "value": "{ref.colors.primary.500}",
@@ -239,9 +233,7 @@
             "type": "color"
           }
         }
-      }
-    },
-    "color": {
+      },
       "background": {
         "default": {
           "value": "{ref.colors.neutral.100}",
@@ -255,9 +247,7 @@
           "value": "{ref.colors.neutral.Alpha.800.4}",
           "type": "color"
         }
-      }
-    },
-    "color": {
+      },
       "surface": {
         "default": {
           "value": "{ref.colors.neutral.100}",
@@ -367,9 +357,7 @@
             }
           }
         }
-      }
-    },
-    "color": {
+      },
       "tag": {
         "redLight": {
           "value": "{ref.colors.red.50}",
@@ -415,9 +403,7 @@
           "value": "{ref.colors.blue.500}",
           "type": "color"
         }
-      }
-    },
-    "color": {
+      },
       "sub": {
         "others": {
           "periwinkle": {
