@@ -2204,7 +2204,8 @@
                 },
                 "container": {
                   "value": {
-                    "itemSpacing": "{sem.toggle.toggleCard.content.sm.rightSide.top.container.spacing}}"
+                    "itemSpacing": "{sem.toggle.toggleCard.content.sm.rightSide.top.container.spacing}}",
+                    "layoutMode": "horizontal"
                   },
                   "type": "composition"
                 }
@@ -2265,7 +2266,8 @@
                 },
                 "container": {
                   "value": {
-                    "itemSpacing": "{sem.toggle.toggleCard.content.md.rightSide.top.container.spacing}}"
+                    "itemSpacing": "{sem.toggle.toggleCard.content.md.rightSide.top.container.spacing}}",
+                    "layoutMode": "horizontal"
                   },
                   "type": "composition"
                 }
@@ -2326,7 +2328,8 @@
                 },
                 "container": {
                   "value": {
-                    "itemSpacing": "{sem.toggle.toggleCard.content.lg.rightSide.top.container.spacing}}"
+                    "itemSpacing": "{sem.toggle.toggleCard.content.lg.rightSide.top.container.spacing}}",
+                    "layoutMode": "horizontal"
                   },
                   "type": "composition"
                 }
@@ -15182,26 +15185,6 @@
           "type": "composition"
         }
       },
-      "black": {
-        "container": {
-          "value": {
-            "borderRadius": "{sem.tag.container.borderRadius}",
-            "fill": "{sem.color.tag.black}",
-            "verticalPadding": "{sem.tag.container.padding}",
-            "horizontalPadding": "{sem.tag.container.padding}",
-            "itemSpacing": "{sem.tag.container.spacing}"
-          },
-          "type": "composition"
-        },
-        "text": {
-          "value": {
-            "typography": "{sem.typography.textStyle.label.body.sm}",
-            "fontWeight": "{ref.typography.fontWeight.700}",
-            "fill": "{sem.color.text.light}"
-          },
-          "type": "composition"
-        }
-      },
       "grey": {
         "container": {
           "value": {
@@ -15227,26 +15210,6 @@
           "value": {
             "borderRadius": "{sem.tag.container.borderRadius}",
             "fill": "{sem.color.tag.greyLight}",
-            "verticalPadding": "{sem.tag.container.padding}",
-            "horizontalPadding": "{sem.tag.container.padding}",
-            "itemSpacing": "{sem.tag.container.spacing}"
-          },
-          "type": "composition"
-        },
-        "text": {
-          "value": {
-            "typography": "{sem.typography.textStyle.label.body.sm}",
-            "fontWeight": "{ref.typography.fontWeight.700}",
-            "fill": "{sem.color.text.dark}"
-          },
-          "type": "composition"
-        }
-      },
-      "white": {
-        "container": {
-          "value": {
-            "borderRadius": "{sem.tag.container.borderRadius}",
-            "fill": "{sem.color.tag.white}",
             "verticalPadding": "{sem.tag.container.padding}",
             "horizontalPadding": "{sem.tag.container.padding}",
             "itemSpacing": "{sem.tag.container.spacing}"
