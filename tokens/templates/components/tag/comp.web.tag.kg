@@ -2,7 +2,7 @@
 
 comp
 .tag
-[color: 'primary' | 'black' | 'grey' | 'greyLight' | 'white' | 'blue' | 'green' | 'greenDark' | 'red' | 'redDark' | 'redLight' | 'blue' ]
+[color: 'primary' | 'grey' | 'greyLight' | 'blue' | 'green' | 'greenDark' | 'red' | 'redDark' | 'redLight' | 'blue' ]
 [
   {
     "container": {
