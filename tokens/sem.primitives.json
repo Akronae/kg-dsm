@@ -507,22 +507,22 @@
       }
     },
     "typography": {
-      "fontWeight": {
+      "fontWeights": {
         "regular": {
-          "value": "{ref.typography.fontWeight.400}",
-          "type": "fontWeight"
+          "value": "{ref.typography.fontWeights.400}",
+          "type": "fontWeights"
         },
         "medium": {
-          "value": "{ref.typography.fontWeight.500}",
-          "type": "fontWeight"
+          "value": "{ref.typography.fontWeights.500}",
+          "type": "fontWeights"
         },
         "semibold": {
-          "value": "{ref.typography.fontWeight.600}",
-          "type": "fontWeight"
+          "value": "{ref.typography.fontWeights.600}",
+          "type": "fontWeights"
         },
         "bold": {
-          "value": "{ref.typography.fontWeight.700}",
-          "type": "fontWeight"
+          "value": "{ref.typography.fontWeights.700}",
+          "type": "fontWeights"
         }
       },
       "fontSize": {
@@ -572,7 +572,7 @@
           "heading1": {
             "value": {
               "fontFamily": "{ref.typography.fontFamily.mazzard}",
-              "fontWeight": "{sem.typography.fontWeight.bold}",
+              "fontWeights": "{sem.typography.fontWeights.bold}",
               "lineHeight": "{ref.typography.lineHeight.multiple.100}",
               "fontSize": "{sem.typography.fontSize.heading.1}",
               "letterSpacing": "{ref.typography.letterSpacing.default}",
@@ -586,7 +586,7 @@
           "heading2": {
             "value": {
               "fontFamily": "{ref.typography.fontFamily.mazzard}",
-              "fontWeight": "{sem.typography.fontWeight.bold}",
+              "fontWeights": "{sem.typography.fontWeights.bold}",
               "lineHeight": "{ref.typography.lineHeight.multiple.100}",
               "fontSize": "{sem.typography.fontSize.heading.2}",
               "letterSpacing": "{ref.typography.letterSpacing.default}",
@@ -600,7 +600,7 @@
           "heading3": {
             "value": {
               "fontFamily": "{ref.typography.fontFamily.mazzard}",
-              "fontWeight": "{sem.typography.fontWeight.bold}",
+              "fontWeights": "{sem.typography.fontWeights.bold}",
               "lineHeight": "{ref.typography.lineHeight.multiple.100}",
               "fontSize": "{sem.typography.fontSize.heading.3}",
               "letterSpacing": "{ref.typography.letterSpacing.default}",
@@ -614,7 +614,7 @@
           "heading4": {
             "value": {
               "fontFamily": "{ref.typography.fontFamily.mazzard}",
-              "fontWeight": "{sem.typography.fontWeight.bold}",
+              "fontWeights": "{sem.typography.fontWeights.bold}",
               "lineHeight": "{ref.typography.lineHeight.multiple.100}",
               "fontSize": "{sem.typography.fontSize.heading.4}",
               "letterSpacing": "{ref.typography.letterSpacing.default}",
@@ -628,7 +628,7 @@
           "heading5": {
             "value": {
               "fontFamily": "{ref.typography.fontFamily.mazzard}",
-              "fontWeight": "{sem.typography.fontWeight.bold}",
+              "fontWeights": "{sem.typography.fontWeights.bold}",
               "lineHeight": "{ref.typography.lineHeight.multiple.100}",
               "fontSize": "{sem.typography.fontSize.heading.5}",
               "letterSpacing": "{ref.typography.letterSpacing.default}",
@@ -645,7 +645,7 @@
             "default": {
               "value": {
                 "fontFamily": "{ref.typography.fontFamily.mazzard}",
-                "fontWeight": "{sem.typography.fontWeight.medium}",
+                "fontWeights": "{sem.typography.fontWeights.medium}",
                 "lineHeight": "{ref.typography.lineHeight.multiple.150}",
                 "fontSize": "{sem.typography.fontSize.body.sm}",
                 "letterSpacing": "{ref.typography.letterSpacing.default}",
@@ -658,7 +658,7 @@
             "strong": {
               "value": {
                 "fontFamily": "{ref.typography.fontFamily.mazzard}",
-                "fontWeight": "{sem.typography.fontWeight.semibold}",
+                "fontWeights": "{sem.typography.fontWeights.semibold}",
                 "lineHeight": "{ref.typography.lineHeight.multiple.150}",
                 "fontSize": "{sem.typography.fontSize.body.sm}",
                 "letterSpacing": "{ref.typography.letterSpacing.default}",
@@ -671,7 +671,7 @@
             "underline": {
               "value": {
                 "fontFamily": "{ref.typography.fontFamily.mazzard}",
-                "fontWeight": "{sem.typography.fontWeight.semibold}",
+                "fontWeights": "{sem.typography.fontWeights.semibold}",
                 "lineHeight": "{ref.typography.lineHeight.multiple.150}",
                 "fontSize": "{sem.typography.fontSize.body.sm}",
                 "letterSpacing": "{ref.typography.letterSpacing.default}",
@@ -686,7 +686,7 @@
             "default": {
               "value": {
                 "fontFamily": "{ref.typography.fontFamily.mazzard}",
-                "fontWeight": "{sem.typography.fontWeight.regular}",
+                "fontWeights": "{sem.typography.fontWeights.regular}",
                 "lineHeight": "{ref.typography.lineHeight.multiple.150}",
                 "fontSize": "{sem.typography.fontSize.body.md}",
                 "letterSpacing": "{ref.typography.letterSpacing.default}",
@@ -699,7 +699,7 @@
             "strong": {
               "value": {
                 "fontFamily": "{ref.typography.fontFamily.mazzard}",
-                "fontWeight": "{sem.typography.fontWeight.semibold}",
+                "fontWeights": "{sem.typography.fontWeights.semibold}",
                 "lineHeight": "{ref.typography.lineHeight.multiple.150}",
                 "fontSize": "{sem.typography.fontSize.body.md}",
                 "letterSpacing": "{ref.typography.letterSpacing.default}",
@@ -712,7 +712,7 @@
             "underline": {
               "value": {
                 "fontFamily": "{ref.typography.fontFamily.mazzard}",
-                "fontWeight": "{sem.typography.fontWeight.semibold}",
+                "fontWeights": "{sem.typography.fontWeights.semibold}",
                 "lineHeight": "{ref.typography.lineHeight.multiple.150}",
                 "fontSize": "{sem.typography.fontSize.body.md}",
                 "letterSpacing": "{ref.typography.letterSpacing.default}",
@@ -727,7 +727,7 @@
             "default": {
               "value": {
                 "fontFamily": "{ref.typography.fontFamily.mazzard}",
-                "fontWeight": "{sem.typography.fontWeight.regular}",
+                "fontWeights": "{sem.typography.fontWeights.regular}",
                 "lineHeight": "{ref.typography.lineHeight.multiple.150}",
                 "fontSize": "{sem.typography.fontSize.body.lg}",
                 "letterSpacing": "{ref.typography.letterSpacing.default}",
@@ -740,7 +740,7 @@
             "strong": {
               "value": {
                 "fontFamily": "{ref.typography.fontFamily.mazzard}",
-                "fontWeight": "{sem.typography.fontWeight.bold}",
+                "fontWeights": "{sem.typography.fontWeights.bold}",
                 "lineHeight": "{ref.typography.lineHeight.multiple.150}",
                 "fontSize": "{sem.typography.fontSize.body.lg}",
                 "letterSpacing": "{ref.typography.letterSpacing.default}",
@@ -753,7 +753,7 @@
             "underline": {
               "value": {
                 "fontFamily": "{ref.typography.fontFamily.mazzard}",
-                "fontWeight": "{sem.typography.fontWeight.semibold}",
+                "fontWeights": "{sem.typography.fontWeights.semibold}",
                 "lineHeight": "{ref.typography.lineHeight.multiple.150}",
                 "fontSize": "{sem.typography.fontSize.body.lg}",
                 "letterSpacing": "{ref.typography.letterSpacing.default}",
@@ -770,7 +770,7 @@
             "xs": {
               "value": {
                 "fontFamily": "{ref.typography.fontFamily.mazzard}",
-                "fontWeight": "{sem.typography.fontWeight.semibold}",
+                "fontWeights": "{sem.typography.fontWeights.semibold}",
                 "lineHeight": "{ref.typography.lineHeight.multiple.100}",
                 "fontSize": "{sem.typography.fontSize.body.xs}",
                 "letterSpacing": "{ref.typography.letterSpacing.default}",
@@ -783,7 +783,7 @@
             "sm": {
               "value": {
                 "fontFamily": "{ref.typography.fontFamily.mazzard}",
-                "fontWeight": "{sem.typography.fontWeight.semibold}",
+                "fontWeights": "{sem.typography.fontWeights.semibold}",
                 "lineHeight": "{ref.typography.lineHeight.multiple.100}",
                 "fontSize": "{sem.typography.fontSize.body.sm}",
                 "letterSpacing": "{ref.typography.letterSpacing.default}",
@@ -796,7 +796,7 @@
             "md": {
               "value": {
                 "fontFamily": "{ref.typography.fontFamily.mazzard}",
-                "fontWeight": "{sem.typography.fontWeight.semibold}",
+                "fontWeights": "{sem.typography.fontWeights.semibold}",
                 "lineHeight": "{ref.typography.lineHeight.multiple.100}",
                 "fontSize": "{sem.typography.fontSize.body.md}",
                 "letterSpacing": "{ref.typography.letterSpacing.default}",
@@ -809,7 +809,7 @@
             "lg": {
               "value": {
                 "fontFamily": "{ref.typography.fontFamily.mazzard}",
-                "fontWeight": "{sem.typography.fontWeight.bold}",
+                "fontWeights": "{sem.typography.fontWeights.bold}",
                 "lineHeight": "{ref.typography.lineHeight.multiple.100}",
                 "fontSize": "{sem.typography.fontSize.body.lg}",
                 "letterSpacing": "{ref.typography.letterSpacing.default}",
@@ -824,7 +824,7 @@
             "sm": {
               "value": {
                 "fontFamily": "{ref.typography.fontFamily.mazzard}",
-                "fontWeight": "{sem.typography.fontWeight.bold}",
+                "fontWeights": "{sem.typography.fontWeights.bold}",
                 "lineHeight": "{ref.typography.lineHeight.absolute.sm}",
                 "fontSize": "{sem.typography.fontSize.body.sm}",
                 "letterSpacing": "{ref.typography.letterSpacing.default}",
@@ -837,7 +837,7 @@
             "md": {
               "value": {
                 "fontFamily": "{ref.typography.fontFamily.mazzard}",
-                "fontWeight": "{sem.typography.fontWeight.bold}",
+                "fontWeights": "{sem.typography.fontWeights.bold}",
                 "lineHeight": "{ref.typography.lineHeight.absolute.md}",
                 "fontSize": "{sem.typography.fontSize.body.md}",
                 "letterSpacing": "{ref.typography.letterSpacing.default}",
@@ -850,7 +850,7 @@
             "lg": {
               "value": {
                 "fontFamily": "{ref.typography.fontFamily.mazzard}",
-                "fontWeight": "{sem.typography.fontWeight.bold}",
+                "fontWeights": "{sem.typography.fontWeights.bold}",
                 "lineHeight": "{ref.typography.lineHeight.absolute.md}",
                 "fontSize": "{sem.typography.fontSize.body.lg}",
                 "letterSpacing": "{ref.typography.letterSpacing.default}",
@@ -866,7 +866,7 @@
           "sm": {
             "value": {
               "fontFamily": "{ref.typography.fontFamily.mazzard}",
-              "fontWeight": "{sem.typography.fontWeight.semibold}",
+              "fontWeights": "{sem.typography.fontWeights.semibold}",
               "lineHeight": "{ref.typography.lineHeight.multiple.100}",
               "fontSize": "{sem.typography.fontSize.body.sm}",
               "letterSpacing": "{ref.typography.letterSpacing.default}",
@@ -880,7 +880,7 @@
           "md": {
             "value": {
               "fontFamily": "{ref.typography.fontFamily.mazzard}",
-              "fontWeight": "{sem.typography.fontWeight.semibold}",
+              "fontWeights": "{sem.typography.fontWeights.semibold}",
               "lineHeight": "{ref.typography.lineHeight.absolute.sm}",
               "fontSize": "{sem.typography.fontSize.body.md}",
               "letterSpacing": "{ref.typography.letterSpacing.default}",

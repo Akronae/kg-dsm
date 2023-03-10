@@ -81,42 +81,42 @@
           "type": "fontSizes"
         }
       },
-      "fontWeight": {
+      "fontWeights": {
         "100": {
           "value": "M Thin",
-          "type": "fontWeight"
+          "type": "fontWeights"
         },
         "200": {
           "value": "M ExtraLight",
-          "type": "fontWeight"
+          "type": "fontWeights"
         },
         "300": {
           "value": "M Light",
-          "type": "fontWeight"
+          "type": "fontWeights"
         },
         "400": {
           "value": "M Regular",
-          "type": "fontWeight"
+          "type": "fontWeights"
         },
         "500": {
           "value": "M Medium",
-          "type": "fontWeight"
+          "type": "fontWeights"
         },
         "600": {
           "value": "M SemiBold",
-          "type": "fontWeight"
+          "type": "fontWeights"
         },
         "700": {
           "value": "M Bold",
-          "type": "fontWeight"
+          "type": "fontWeights"
         },
         "800": {
           "value": "M ExtraBold",
-          "type": "fontWeight"
+          "type": "fontWeights"
         },
         "900": {
           "value": "M Black",
-          "type": "fontWeight"
+          "type": "fontWeights"
         }
       },
       "textDecoration": {
