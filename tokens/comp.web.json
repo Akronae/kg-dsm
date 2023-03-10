@@ -2160,7 +2160,8 @@
           "sm": {
             "container": {
               "value": {
-                "itemSpacing": "{sem.toggle.toggleCard.content.sm.spacing}"
+                "itemSpacing": "{sem.toggle.toggleCard.content.sm.spacing}",
+                "layoutMode": "horizontal"
               },
               "type": "composition"
             },
@@ -2220,7 +2221,8 @@
           "md": {
             "container": {
               "value": {
-                "itemSpacing": "{sem.toggle.toggleCard.content.md.spacing}"
+                "itemSpacing": "{sem.toggle.toggleCard.content.md.spacing}",
+                "layoutMode": "horizontal"
               },
               "type": "composition"
             },
@@ -2280,7 +2282,8 @@
           "lg": {
             "container": {
               "value": {
-                "itemSpacing": "{sem.toggle.toggleCard.content.lg.spacing}"
+                "itemSpacing": "{sem.toggle.toggleCard.content.lg.spacing}",
+                "layoutMode": "horizontal"
               },
               "type": "composition"
             },
