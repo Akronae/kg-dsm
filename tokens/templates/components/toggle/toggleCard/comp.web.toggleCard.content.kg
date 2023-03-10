@@ -52,7 +52,7 @@ comp
         },
         "container": {
           "value": {
-            "itemSpacing": "{sem.toggle.toggleCard.content.<<size>>.rightSide.top.container.spacing}}",
+            "itemSpacing": "{sem.toggle.toggleCard.content.<<size>>.rightSide.top.container.spacing}",
             "layoutMode": "horizontal"
           },
           "type": "composition"
