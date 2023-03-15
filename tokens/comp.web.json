@@ -2191,7 +2191,8 @@
                 "label": {
                   "container": {
                     "value": {
-                      "paddingTop": "{sem.toggle.toggleCard.content.sm.rightSide.top.container.label.paddingTop}"
+                      "paddingTop": "{sem.toggle.toggleCard.content.sm.rightSide.top.container.label.paddingTop}",
+                      "horizontalResizing": "fill"
                     },
                     "type": "composition"
                   },
@@ -2206,7 +2207,8 @@
                 "container": {
                   "value": {
                     "itemSpacing": "{sem.toggle.toggleCard.content.sm.rightSide.top.container.spacing}",
-                    "layoutMode": "horizontal"
+                    "layoutMode": "horizontal",
+                    "horizontalResizing": "fill"
                   },
                   "type": "composition"
                 }
@@ -2254,7 +2256,8 @@
                 "label": {
                   "container": {
                     "value": {
-                      "paddingTop": "{sem.toggle.toggleCard.content.md.rightSide.top.container.label.paddingTop}"
+                      "paddingTop": "{sem.toggle.toggleCard.content.md.rightSide.top.container.label.paddingTop}",
+                      "horizontalResizing": "fill"
                     },
                     "type": "composition"
                   },
@@ -2269,7 +2272,8 @@
                 "container": {
                   "value": {
                     "itemSpacing": "{sem.toggle.toggleCard.content.md.rightSide.top.container.spacing}",
-                    "layoutMode": "horizontal"
+                    "layoutMode": "horizontal",
+                    "horizontalResizing": "fill"
                   },
                   "type": "composition"
                 }
@@ -2317,7 +2321,8 @@
                 "label": {
                   "container": {
                     "value": {
-                      "paddingTop": "{sem.toggle.toggleCard.content.lg.rightSide.top.container.label.paddingTop}"
+                      "paddingTop": "{sem.toggle.toggleCard.content.lg.rightSide.top.container.label.paddingTop}",
+                      "horizontalResizing": "fill"
                     },
                     "type": "composition"
                   },
@@ -2332,7 +2337,8 @@
                 "container": {
                   "value": {
                     "itemSpacing": "{sem.toggle.toggleCard.content.lg.rightSide.top.container.spacing}",
-                    "layoutMode": "horizontal"
+                    "layoutMode": "horizontal",
+                    "horizontalResizing": "fill"
                   },
                   "type": "composition"
                 }

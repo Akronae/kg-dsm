@@ -39,7 +39,8 @@ comp
         "label": {
           "container": {
             "value": {
-              "paddingTop": "{sem.toggle.toggleCard.content.<<size>>.rightSide.top.container.label.paddingTop}"
+              "paddingTop": "{sem.toggle.toggleCard.content.<<size>>.rightSide.top.container.label.paddingTop}",
+              "horizontalResizing": "fill"
             },
             "type": "composition"
           },
@@ -54,7 +55,8 @@ comp
         "container": {
           "value": {
             "itemSpacing": "{sem.toggle.toggleCard.content.<<size>>.rightSide.top.container.spacing}",
-            "layoutMode": "horizontal"
+            "layoutMode": "horizontal",
+            "horizontalResizing": "fill"
           },
           "type": "composition"
         }
