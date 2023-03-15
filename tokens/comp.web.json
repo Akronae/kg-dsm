@@ -2480,7 +2480,7 @@
               "value": {
                 "horizontalPadding": "{sem.card.md.padding}",
                 "verticalPadding": "{sem.card.md.padding}",
-                "fill": "{sem.color.surface.light}",
+                "fill": "{sem.color.surface.disabled}",
                 "boxShadow": "none",
                 "borderRadiusTopLeft": "{sem.card.md.borderRadiusTopLeft}",
                 "borderRadiusTopRight": "{sem.card.md.borderRadiusTopRight}",
@@ -7910,7 +7910,7 @@
             "value": {
               "horizontalPadding": "{sem.card.xs.padding}",
               "verticalPadding": "{sem.card.xs.padding}",
-              "fill": "{sem.color.surface.light}",
+              "fill": "{sem.color.surface.disabled}",
               "boxShadow": "none",
               "borderRadiusTopLeft": "{sem.card.xs.borderRadiusTopLeft}",
               "borderRadiusTopRight": "{sem.card.xs.borderRadiusTopRight}",
@@ -8024,7 +8024,7 @@
             "value": {
               "horizontalPadding": "{sem.card.xs.padding}",
               "verticalPadding": "{sem.card.xs.padding}",
-              "fill": "{sem.color.surface.light}",
+              "fill": "{sem.color.surface.disabled}",
               "boxShadow": "none",
               "borderRadiusTopLeft": "{sem.card.xs.borderRadiusTopLeft}",
               "borderRadiusTopRight": "{sem.card.xs.borderRadiusTopRight}",
@@ -8140,7 +8140,7 @@
             "value": {
               "horizontalPadding": "{sem.card.sm.padding}",
               "verticalPadding": "{sem.card.sm.padding}",
-              "fill": "{sem.color.surface.light}",
+              "fill": "{sem.color.surface.disabled}",
               "boxShadow": "none",
               "borderRadiusTopLeft": "{sem.card.sm.borderRadiusTopLeft}",
               "borderRadiusTopRight": "{sem.card.sm.borderRadiusTopRight}",
@@ -8254,7 +8254,7 @@
             "value": {
               "horizontalPadding": "{sem.card.sm.padding}",
               "verticalPadding": "{sem.card.sm.padding}",
-              "fill": "{sem.color.surface.light}",
+              "fill": "{sem.color.surface.disabled}",
               "boxShadow": "none",
               "borderRadiusTopLeft": "{sem.card.sm.borderRadiusTopLeft}",
               "borderRadiusTopRight": "{sem.card.sm.borderRadiusTopRight}",
@@ -8370,7 +8370,7 @@
             "value": {
               "horizontalPadding": "{sem.card.md.padding}",
               "verticalPadding": "{sem.card.md.padding}",
-              "fill": "{sem.color.surface.light}",
+              "fill": "{sem.color.surface.disabled}",
               "boxShadow": "none",
               "borderRadiusTopLeft": "{sem.card.md.borderRadiusTopLeft}",
               "borderRadiusTopRight": "{sem.card.md.borderRadiusTopRight}",
@@ -8484,7 +8484,7 @@
             "value": {
               "horizontalPadding": "{sem.card.md.padding}",
               "verticalPadding": "{sem.card.md.padding}",
-              "fill": "{sem.color.surface.light}",
+              "fill": "{sem.color.surface.disabled}",
               "boxShadow": "none",
               "borderRadiusTopLeft": "{sem.card.md.borderRadiusTopLeft}",
               "borderRadiusTopRight": "{sem.card.md.borderRadiusTopRight}",
@@ -8928,7 +8928,7 @@
                 "value": {
                   "horizontalPadding": "{sem.card.xs.padding}",
                   "verticalPadding": "{sem.card.xs.padding}",
-                  "fill": "{sem.color.surface.light}",
+                  "fill": "{sem.color.surface.disabled}",
                   "boxShadow": "none",
                   "borderRadiusTopLeft": "{sem.card.xs.borderRadiusTopLeft}",
                   "borderRadiusTopRight": "{sem.card.xs.borderRadiusTopRight}",
@@ -9338,7 +9338,7 @@
                 "value": {
                   "horizontalPadding": "{sem.card.xs.padding}",
                   "verticalPadding": "{sem.card.xs.padding}",
-                  "fill": "{sem.color.surface.light}",
+                  "fill": "{sem.color.surface.disabled}",
                   "boxShadow": "none",
                   "borderRadiusTopLeft": "{sem.card.xs.borderRadiusTopLeft}",
                   "borderRadiusTopRight": "{sem.card.xs.borderRadiusTopRight}",
@@ -9750,7 +9750,7 @@
                 "value": {
                   "horizontalPadding": "{sem.card.sm.padding}",
                   "verticalPadding": "{sem.card.sm.padding}",
-                  "fill": "{sem.color.surface.light}",
+                  "fill": "{sem.color.surface.disabled}",
                   "boxShadow": "none",
                   "borderRadiusTopLeft": "{sem.card.sm.borderRadiusTopLeft}",
                   "borderRadiusTopRight": "{sem.card.sm.borderRadiusTopRight}",
@@ -10160,7 +10160,7 @@
                 "value": {
                   "horizontalPadding": "{sem.card.sm.padding}",
                   "verticalPadding": "{sem.card.sm.padding}",
-                  "fill": "{sem.color.surface.light}",
+                  "fill": "{sem.color.surface.disabled}",
                   "boxShadow": "none",
                   "borderRadiusTopLeft": "{sem.card.sm.borderRadiusTopLeft}",
                   "borderRadiusTopRight": "{sem.card.sm.borderRadiusTopRight}",
@@ -10610,7 +10610,7 @@
                 "value": {
                   "horizontalPadding": "{sem.card.xs.padding}",
                   "verticalPadding": "{sem.card.xs.padding}",
-                  "fill": "{sem.color.surface.light}",
+                  "fill": "{sem.color.surface.disabled}",
                   "boxShadow": "none",
                   "borderRadiusTopLeft": "{sem.card.xs.borderRadiusTopLeft}",
                   "borderRadiusTopRight": "{sem.card.xs.borderRadiusTopRight}",
@@ -11062,7 +11062,7 @@
                 "value": {
                   "horizontalPadding": "{sem.card.xs.padding}",
                   "verticalPadding": "{sem.card.xs.padding}",
-                  "fill": "{sem.color.surface.light}",
+                  "fill": "{sem.color.surface.disabled}",
                   "boxShadow": "none",
                   "borderRadiusTopLeft": "{sem.card.xs.borderRadiusTopLeft}",
                   "borderRadiusTopRight": "{sem.card.xs.borderRadiusTopRight}",
@@ -11516,7 +11516,7 @@
                 "value": {
                   "horizontalPadding": "{sem.card.sm.padding}",
                   "verticalPadding": "{sem.card.sm.padding}",
-                  "fill": "{sem.color.surface.light}",
+                  "fill": "{sem.color.surface.disabled}",
                   "boxShadow": "none",
                   "borderRadiusTopLeft": "{sem.card.sm.borderRadiusTopLeft}",
                   "borderRadiusTopRight": "{sem.card.sm.borderRadiusTopRight}",
@@ -11968,7 +11968,7 @@
                 "value": {
                   "horizontalPadding": "{sem.card.sm.padding}",
                   "verticalPadding": "{sem.card.sm.padding}",
-                  "fill": "{sem.color.surface.light}",
+                  "fill": "{sem.color.surface.disabled}",
                   "boxShadow": "none",
                   "borderRadiusTopLeft": "{sem.card.sm.borderRadiusTopLeft}",
                   "borderRadiusTopRight": "{sem.card.sm.borderRadiusTopRight}",
@@ -12424,7 +12424,7 @@
                 "value": {
                   "horizontalPadding": "{sem.card.xs.padding}",
                   "verticalPadding": "{sem.card.xs.padding}",
-                  "fill": "{sem.color.surface.light}",
+                  "fill": "{sem.color.surface.disabled}",
                   "boxShadow": "none",
                   "borderRadiusTopLeft": "{sem.card.xs.borderRadiusTopLeft}",
                   "borderRadiusTopRight": "{sem.card.xs.borderRadiusTopRight}",
@@ -12876,7 +12876,7 @@
                 "value": {
                   "horizontalPadding": "{sem.card.xs.padding}",
                   "verticalPadding": "{sem.card.xs.padding}",
-                  "fill": "{sem.color.surface.light}",
+                  "fill": "{sem.color.surface.disabled}",
                   "boxShadow": "none",
                   "borderRadiusTopLeft": "{sem.card.xs.borderRadiusTopLeft}",
                   "borderRadiusTopRight": "{sem.card.xs.borderRadiusTopRight}",
@@ -13330,7 +13330,7 @@
                 "value": {
                   "horizontalPadding": "{sem.card.sm.padding}",
                   "verticalPadding": "{sem.card.sm.padding}",
-                  "fill": "{sem.color.surface.light}",
+                  "fill": "{sem.color.surface.disabled}",
                   "boxShadow": "none",
                   "borderRadiusTopLeft": "{sem.card.sm.borderRadiusTopLeft}",
                   "borderRadiusTopRight": "{sem.card.sm.borderRadiusTopRight}",
@@ -13782,7 +13782,7 @@
                 "value": {
                   "horizontalPadding": "{sem.card.sm.padding}",
                   "verticalPadding": "{sem.card.sm.padding}",
-                  "fill": "{sem.color.surface.light}",
+                  "fill": "{sem.color.surface.disabled}",
                   "boxShadow": "none",
                   "borderRadiusTopLeft": "{sem.card.sm.borderRadiusTopLeft}",
                   "borderRadiusTopRight": "{sem.card.sm.borderRadiusTopRight}",
@@ -14036,7 +14036,7 @@
                 "value": {
                   "horizontalPadding": "none",
                   "verticalPadding": "none",
-                  "fill": "{sem.color.surface.light}",
+                  "fill": "{sem.color.surface.disabled}",
                   "boxShadow": "none",
                   "borderRadiusTopLeft": "{sem.card.xs.borderRadiusTopLeft}",
                   "borderRadiusTopRight": "{sem.card.xs.borderRadiusTopRight}",
@@ -14053,7 +14053,7 @@
                   "value": {
                     "horizontalPadding": "{sem.card.xs.padding}",
                     "verticalPadding": "{sem.card.xs.padding}",
-                    "fill": "{sem.color.surface.light}",
+                    "fill": "{sem.color.surface.disabled}",
                     "boxShadow": "none",
                     "borderRadiusTopLeft": "none",
                     "borderRadiusTopRight": "{sem.card.xs.borderRadiusTopRight}",
@@ -14254,7 +14254,7 @@
                 "value": {
                   "horizontalPadding": "none",
                   "verticalPadding": "none",
-                  "fill": "{sem.color.surface.light}",
+                  "fill": "{sem.color.surface.disabled}",
                   "boxShadow": "none",
                   "borderRadiusTopLeft": "{sem.card.xs.borderRadiusTopLeft}",
                   "borderRadiusTopRight": "{sem.card.xs.borderRadiusTopRight}",
@@ -14271,7 +14271,7 @@
                   "value": {
                     "horizontalPadding": "{sem.card.xs.padding}",
                     "verticalPadding": "{sem.card.xs.padding}",
-                    "fill": "{sem.color.surface.light}",
+                    "fill": "{sem.color.surface.disabled}",
                     "boxShadow": "none",
                     "borderRadiusTopLeft": "none",
                     "borderRadiusTopRight": "{sem.card.xs.borderRadiusTopRight}",
@@ -14474,7 +14474,7 @@
                 "value": {
                   "horizontalPadding": "none",
                   "verticalPadding": "none",
-                  "fill": "{sem.color.surface.light}",
+                  "fill": "{sem.color.surface.disabled}",
                   "boxShadow": "none",
                   "borderRadiusTopLeft": "{sem.card.sm.borderRadiusTopLeft}",
                   "borderRadiusTopRight": "{sem.card.sm.borderRadiusTopRight}",
@@ -14491,7 +14491,7 @@
                   "value": {
                     "horizontalPadding": "{sem.card.sm.padding}",
                     "verticalPadding": "{sem.card.sm.padding}",
-                    "fill": "{sem.color.surface.light}",
+                    "fill": "{sem.color.surface.disabled}",
                     "boxShadow": "none",
                     "borderRadiusTopLeft": "none",
                     "borderRadiusTopRight": "{sem.card.sm.borderRadiusTopRight}",
@@ -14692,7 +14692,7 @@
                 "value": {
                   "horizontalPadding": "none",
                   "verticalPadding": "none",
-                  "fill": "{sem.color.surface.light}",
+                  "fill": "{sem.color.surface.disabled}",
                   "boxShadow": "none",
                   "borderRadiusTopLeft": "{sem.card.sm.borderRadiusTopLeft}",
                   "borderRadiusTopRight": "{sem.card.sm.borderRadiusTopRight}",
@@ -14709,7 +14709,7 @@
                   "value": {
                     "horizontalPadding": "{sem.card.sm.padding}",
                     "verticalPadding": "{sem.card.sm.padding}",
-                    "fill": "{sem.color.surface.light}",
+                    "fill": "{sem.color.surface.disabled}",
                     "boxShadow": "none",
                     "borderRadiusTopLeft": "none",
                     "borderRadiusTopRight": "{sem.card.sm.borderRadiusTopRight}",
@@ -14823,7 +14823,7 @@
                   "value": {
                     "horizontalPadding": "{sem.card.xs.padding}",
                     "verticalPadding": "{sem.card.xs.padding}",
-                    "fill": "{sem.color.surface.light}",
+                    "fill": "{sem.color.surface.disabled}",
                     "boxShadow": "none",
                     "borderRadiusTopLeft": "{sem.card.xs.borderRadiusTopLeft}",
                     "borderRadiusTopRight": "none",
@@ -14933,7 +14933,7 @@
                   "value": {
                     "horizontalPadding": "{sem.card.xs.padding}",
                     "verticalPadding": "{sem.card.xs.padding}",
-                    "fill": "{sem.color.surface.light}",
+                    "fill": "{sem.color.surface.disabled}",
                     "boxShadow": "none",
                     "borderRadiusTopLeft": "{sem.card.xs.borderRadiusTopLeft}",
                     "borderRadiusTopRight": "none",
@@ -15045,7 +15045,7 @@
                   "value": {
                     "horizontalPadding": "{sem.card.sm.padding}",
                     "verticalPadding": "{sem.card.sm.padding}",
-                    "fill": "{sem.color.surface.light}",
+                    "fill": "{sem.color.surface.disabled}",
                     "boxShadow": "none",
                     "borderRadiusTopLeft": "{sem.card.sm.borderRadiusTopLeft}",
                     "borderRadiusTopRight": "none",
@@ -15155,7 +15155,7 @@
                   "value": {
                     "horizontalPadding": "{sem.card.sm.padding}",
                     "verticalPadding": "{sem.card.sm.padding}",
-                    "fill": "{sem.color.surface.light}",
+                    "fill": "{sem.color.surface.disabled}",
                     "boxShadow": "none",
                     "borderRadiusTopLeft": "{sem.card.sm.borderRadiusTopLeft}",
                     "borderRadiusTopRight": "none",

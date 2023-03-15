@@ -10,7 +10,7 @@ comp
     "value": {
       "horizontalPadding": "{sem.card.<<size>>.padding}",
       "verticalPadding": "{sem.card.<<size>>.padding}",
-      "fill": "{sem.color.surface.<< state == 'disabled' && 'disabled' || contrast == 'uncontrasted' ? 'light' : 'sub'>>}",
+      "fill": "{sem.color.surface.<< state == 'disabled' && 'disabled' || (contrast == 'uncontrasted' ? 'light' : 'sub')>>}",
       "boxShadow": "<< contrast == 'uncontrasted' &&  state == 'hover' ? ('{sem.card.' + size + '.dropShadow}') : 'none' >>",
       "borderRadiusTopLeft": "{sem.card.<<size>>.borderRadiusTopLeft}",
       "borderRadiusTopRight": "{sem.card.<<size>>.borderRadiusTopRight}",
