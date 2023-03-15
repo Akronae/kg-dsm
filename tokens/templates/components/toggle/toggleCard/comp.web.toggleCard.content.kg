@@ -30,7 +30,8 @@ comp
     "rightSide": {
       "container": {
         "value": {
-          "itemSpacing": "{sem.toggle.toggleCard.content.<<size>>.rightSide.spacing}"
+          "itemSpacing": "{sem.toggle.toggleCard.content.<<size>>.rightSide.spacing}",
+          "horizontalResizing": "fill"
         },
         "type": "composition"
       },
