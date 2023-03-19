@@ -516,7 +516,7 @@
                   "paddingRight": "{sem.structure.form.components.sideHelp.mobile.container.paddingRight}",
                   "paddingBottom": "{sem.structure.form.components.sideHelp.mobile.container.paddingBottom}",
                   "paddingTop": "{sem.structure.form.components.sideHelp.mobile.container.paddingTop}",
-                  "width": "none"
+                  "width": "undefined"
                 },
                 "type": "composition"
               },
