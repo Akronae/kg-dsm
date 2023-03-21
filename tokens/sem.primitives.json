@@ -211,6 +211,10 @@
           "value": "{ref.colors.neutral.400}",
           "type": "color"
         },
+        "transparent": {
+          "value": "#00000000",
+          "type": "color"
+        },
         "interactive": {
           "default": {
             "value": "{ref.colors.neutral.500}",
@@ -930,6 +934,14 @@
       "disabled": {
         "value": {
           "color": "{sem.color.border.interactive.disabled}",
+          "width": "{ref.borderWidth.md}",
+          "style": "solid"
+        },
+        "type": "border"
+      },
+      "transparent": {
+        "value": {
+          "color": "{sem.color.border.transparent}",
           "width": "{ref.borderWidth.md}",
           "style": "solid"
         },

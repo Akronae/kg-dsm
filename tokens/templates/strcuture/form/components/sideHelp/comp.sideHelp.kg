@@ -11,7 +11,7 @@ comp
         "paddingRight": "{sem.structure.form.components.sideHelp.<<aspectRatio>>.container.paddingRight}",
         "paddingBottom": "{sem.structure.form.components.sideHelp.<<aspectRatio>>.container.paddingBottom}",
         "paddingTop": "{sem.structure.form.components.sideHelp.<<aspectRatio>>.container.paddingTop}",
-        "width": "<< ({ mobile: 'none', desktop: '{sem.containerSize.maxWidth.sm}' })[aspectRatio]>>"
+        "width": "<< ({ mobile: 'undefined', desktop: '{sem.containerSize.maxWidth.sm}' })[aspectRatio]>>"
       },
       "type": "composition"
     },

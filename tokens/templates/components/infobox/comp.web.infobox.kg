@@ -10,7 +10,8 @@ comp
         "borderRadius": "{sem.infobox.container.borderRadius}",
         "verticalPadding": "{sem.infobox.container.padding}",
         "horizontalPadding": "{sem.infobox.container.padding}",
-        "itemSpacing": "{sem.infobox.container.spacing}"
+        "itemSpacing": "{sem.infobox.container.spacing}",
+        "layoutMode": "horizontal"
       },
       "type": "composition"
     },

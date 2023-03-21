@@ -8,7 +8,8 @@ comp
   {
     "container": {
       "value": {
-        "itemSpacing": "{sem.toggle.toggleCard.content.<<size>>.spacing}"
+        "itemSpacing": "{sem.toggle.toggleCard.content.<<size>>.spacing}",
+        "layoutMode": "horizontal"
       },
         "type": "composition"
     },
@@ -29,7 +30,8 @@ comp
     "rightSide": {
       "container": {
         "value": {
-          "itemSpacing": "{sem.toggle.toggleCard.content.<<size>>.rightSide.spacing}"
+          "itemSpacing": "{sem.toggle.toggleCard.content.<<size>>.rightSide.spacing}",
+          "horizontalResizing": "fill"
         },
         "type": "composition"
       },
@@ -37,7 +39,8 @@ comp
         "label": {
           "container": {
             "value": {
-              "paddingTop": "{sem.toggle.toggleCard.content.<<size>>.rightSide.top.container.label.paddingTop}"
+              "paddingTop": "{sem.toggle.toggleCard.content.<<size>>.rightSide.top.container.label.paddingTop}",
+              "horizontalResizing": "fill"
             },
             "type": "composition"
           },
@@ -51,7 +54,9 @@ comp
         },
         "container": {
           "value": {
-            "itemSpacing": "{sem.toggle.toggleCard.content.<<size>>.rightSide.top.container.spacing}}"
+            "itemSpacing": "{sem.toggle.toggleCard.content.<<size>>.rightSide.top.container.spacing}",
+            "layoutMode": "horizontal",
+            "horizontalResizing": "fill"
           },
           "type": "composition"
         }
