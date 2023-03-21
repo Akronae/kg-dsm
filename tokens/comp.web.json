@@ -1307,7 +1307,7 @@
               "borderRadiusTopRight": "{sem.card.xs.borderRadiusTopRight}",
               "borderRadiusBottomRight": "{sem.card.xs.borderRadiusBottomRight}",
               "borderRadiusBottomLeft": "{sem.card.xs.borderRadiusBottomLeft}",
-              "border": "undefined",
+              "border": "{sem.border.transparent}",
               "itemSpacing": "{sem.dropdown.container.spacing}"
             },
             "type": "composition",
@@ -1331,7 +1331,7 @@
               "borderRadiusTopRight": "{sem.card.sm.borderRadiusTopRight}",
               "borderRadiusBottomRight": "{sem.card.sm.borderRadiusBottomRight}",
               "borderRadiusBottomLeft": "{sem.card.sm.borderRadiusBottomLeft}",
-              "border": "undefined",
+              "border": "{sem.border.transparent}",
               "itemSpacing": "{sem.dropdown.container.spacing}"
             },
             "type": "composition",
@@ -2372,7 +2372,7 @@
                 "borderRadiusTopRight": "{sem.card.md.borderRadiusTopRight}",
                 "borderRadiusBottomRight": "{sem.card.md.borderRadiusBottomRight}",
                 "borderRadiusBottomLeft": "{sem.card.md.borderRadiusBottomLeft}",
-                "border": "undefined"
+                "border": "{sem.border.transparent}"
               },
               "type": "composition",
               "description": "({extends: 'comp.card.md.uncontrasted.default'})"
@@ -2395,7 +2395,7 @@
                 "borderRadiusTopRight": "{sem.card.md.borderRadiusTopRight}",
                 "borderRadiusBottomRight": "{sem.card.md.borderRadiusBottomRight}",
                 "borderRadiusBottomLeft": "{sem.card.md.borderRadiusBottomLeft}",
-                "border": "undefined"
+                "border": "{sem.border.transparent}"
               },
               "type": "composition",
               "description": "({extends: 'comp.card.md.uncontrasted.hover'})"
@@ -2418,7 +2418,7 @@
                 "borderRadiusTopRight": "{sem.card.md.borderRadiusTopRight}",
                 "borderRadiusBottomRight": "{sem.card.md.borderRadiusBottomRight}",
                 "borderRadiusBottomLeft": "{sem.card.md.borderRadiusBottomLeft}",
-                "border": "undefined"
+                "border": "{sem.border.transparent}"
               },
               "type": "composition",
               "description": "({extends: 'comp.card.md.uncontrasted.pressed'})"
@@ -2487,7 +2487,7 @@
                 "borderRadiusTopRight": "{sem.card.md.borderRadiusTopRight}",
                 "borderRadiusBottomRight": "{sem.card.md.borderRadiusBottomRight}",
                 "borderRadiusBottomLeft": "{sem.card.md.borderRadiusBottomLeft}",
-                "border": "undefined"
+                "border": "{sem.border.transparent}"
               },
               "type": "composition",
               "description": "({extends: 'comp.card.md.uncontrasted.disabled'})"
@@ -7819,7 +7819,7 @@
               "borderRadiusTopRight": "{sem.card.xs.borderRadiusTopRight}",
               "borderRadiusBottomRight": "{sem.card.xs.borderRadiusBottomRight}",
               "borderRadiusBottomLeft": "{sem.card.xs.borderRadiusBottomLeft}",
-              "border": "undefined"
+              "border": "{sem.border.transparent}"
             },
             "type": "composition"
           },
@@ -7833,7 +7833,7 @@
               "borderRadiusTopRight": "{sem.card.xs.borderRadiusTopRight}",
               "borderRadiusBottomRight": "{sem.card.xs.borderRadiusBottomRight}",
               "borderRadiusBottomLeft": "{sem.card.xs.borderRadiusBottomLeft}",
-              "border": "undefined"
+              "border": "{sem.border.transparent}"
             },
             "type": "composition"
           },
@@ -7847,7 +7847,7 @@
               "borderRadiusTopRight": "{sem.card.xs.borderRadiusTopRight}",
               "borderRadiusBottomRight": "{sem.card.xs.borderRadiusBottomRight}",
               "borderRadiusBottomLeft": "{sem.card.xs.borderRadiusBottomLeft}",
-              "border": "undefined"
+              "border": "{sem.border.transparent}"
             },
             "type": "composition"
           },
@@ -7861,7 +7861,7 @@
               "borderRadiusTopRight": "{sem.card.xs.borderRadiusTopRight}",
               "borderRadiusBottomRight": "{sem.card.xs.borderRadiusBottomRight}",
               "borderRadiusBottomLeft": "{sem.card.xs.borderRadiusBottomLeft}",
-              "border": "undefined"
+              "border": "{sem.border.transparent}"
             },
             "type": "composition"
           },
@@ -7917,7 +7917,7 @@
               "borderRadiusTopRight": "{sem.card.xs.borderRadiusTopRight}",
               "borderRadiusBottomRight": "{sem.card.xs.borderRadiusBottomRight}",
               "borderRadiusBottomLeft": "{sem.card.xs.borderRadiusBottomLeft}",
-              "border": "undefined"
+              "border": "{sem.border.transparent}"
             },
             "type": "composition"
           }
@@ -8049,7 +8049,7 @@
               "borderRadiusTopRight": "{sem.card.sm.borderRadiusTopRight}",
               "borderRadiusBottomRight": "{sem.card.sm.borderRadiusBottomRight}",
               "borderRadiusBottomLeft": "{sem.card.sm.borderRadiusBottomLeft}",
-              "border": "undefined"
+              "border": "{sem.border.transparent}"
             },
             "type": "composition"
           },
@@ -8063,7 +8063,7 @@
               "borderRadiusTopRight": "{sem.card.sm.borderRadiusTopRight}",
               "borderRadiusBottomRight": "{sem.card.sm.borderRadiusBottomRight}",
               "borderRadiusBottomLeft": "{sem.card.sm.borderRadiusBottomLeft}",
-              "border": "undefined"
+              "border": "{sem.border.transparent}"
             },
             "type": "composition"
           },
@@ -8077,7 +8077,7 @@
               "borderRadiusTopRight": "{sem.card.sm.borderRadiusTopRight}",
               "borderRadiusBottomRight": "{sem.card.sm.borderRadiusBottomRight}",
               "borderRadiusBottomLeft": "{sem.card.sm.borderRadiusBottomLeft}",
-              "border": "undefined"
+              "border": "{sem.border.transparent}"
             },
             "type": "composition"
           },
@@ -8091,7 +8091,7 @@
               "borderRadiusTopRight": "{sem.card.sm.borderRadiusTopRight}",
               "borderRadiusBottomRight": "{sem.card.sm.borderRadiusBottomRight}",
               "borderRadiusBottomLeft": "{sem.card.sm.borderRadiusBottomLeft}",
-              "border": "undefined"
+              "border": "{sem.border.transparent}"
             },
             "type": "composition"
           },
@@ -8147,7 +8147,7 @@
               "borderRadiusTopRight": "{sem.card.sm.borderRadiusTopRight}",
               "borderRadiusBottomRight": "{sem.card.sm.borderRadiusBottomRight}",
               "borderRadiusBottomLeft": "{sem.card.sm.borderRadiusBottomLeft}",
-              "border": "undefined"
+              "border": "{sem.border.transparent}"
             },
             "type": "composition"
           }
@@ -8279,7 +8279,7 @@
               "borderRadiusTopRight": "{sem.card.md.borderRadiusTopRight}",
               "borderRadiusBottomRight": "{sem.card.md.borderRadiusBottomRight}",
               "borderRadiusBottomLeft": "{sem.card.md.borderRadiusBottomLeft}",
-              "border": "undefined"
+              "border": "{sem.border.transparent}"
             },
             "type": "composition"
           },
@@ -8293,7 +8293,7 @@
               "borderRadiusTopRight": "{sem.card.md.borderRadiusTopRight}",
               "borderRadiusBottomRight": "{sem.card.md.borderRadiusBottomRight}",
               "borderRadiusBottomLeft": "{sem.card.md.borderRadiusBottomLeft}",
-              "border": "undefined"
+              "border": "{sem.border.transparent}"
             },
             "type": "composition"
           },
@@ -8307,7 +8307,7 @@
               "borderRadiusTopRight": "{sem.card.md.borderRadiusTopRight}",
               "borderRadiusBottomRight": "{sem.card.md.borderRadiusBottomRight}",
               "borderRadiusBottomLeft": "{sem.card.md.borderRadiusBottomLeft}",
-              "border": "undefined"
+              "border": "{sem.border.transparent}"
             },
             "type": "composition"
           },
@@ -8321,7 +8321,7 @@
               "borderRadiusTopRight": "{sem.card.md.borderRadiusTopRight}",
               "borderRadiusBottomRight": "{sem.card.md.borderRadiusBottomRight}",
               "borderRadiusBottomLeft": "{sem.card.md.borderRadiusBottomLeft}",
-              "border": "undefined"
+              "border": "{sem.border.transparent}"
             },
             "type": "composition"
           },
@@ -8377,7 +8377,7 @@
               "borderRadiusTopRight": "{sem.card.md.borderRadiusTopRight}",
               "borderRadiusBottomRight": "{sem.card.md.borderRadiusBottomRight}",
               "borderRadiusBottomLeft": "{sem.card.md.borderRadiusBottomLeft}",
-              "border": "undefined"
+              "border": "{sem.border.transparent}"
             },
             "type": "composition"
           }
@@ -8595,7 +8595,7 @@
                   "borderRadiusTopRight": "{sem.card.xs.borderRadiusTopRight}",
                   "borderRadiusBottomRight": "{sem.card.xs.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.xs.borderRadiusBottomLeft}",
-                  "border": "undefined",
+                  "border": "{sem.border.transparent}",
                   "itemSpacing": "{sem.input.sm.fieldWrapper.spacer}"
                 },
                 "type": "composition",
@@ -8663,7 +8663,7 @@
                   "borderRadiusTopRight": "{sem.card.xs.borderRadiusTopRight}",
                   "borderRadiusBottomRight": "{sem.card.xs.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.xs.borderRadiusBottomLeft}",
-                  "border": "undefined",
+                  "border": "{sem.border.transparent}",
                   "itemSpacing": "{sem.input.sm.fieldWrapper.spacer}"
                 },
                 "type": "composition",
@@ -8731,7 +8731,7 @@
                   "borderRadiusTopRight": "{sem.card.xs.borderRadiusTopRight}",
                   "borderRadiusBottomRight": "{sem.card.xs.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.xs.borderRadiusBottomLeft}",
-                  "border": "undefined",
+                  "border": "{sem.border.transparent}",
                   "itemSpacing": "{sem.input.sm.fieldWrapper.spacer}"
                 },
                 "type": "composition",
@@ -8935,7 +8935,7 @@
                   "borderRadiusTopRight": "{sem.card.xs.borderRadiusTopRight}",
                   "borderRadiusBottomRight": "{sem.card.xs.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.xs.borderRadiusBottomLeft}",
-                  "border": "undefined",
+                  "border": "{sem.border.transparent}",
                   "itemSpacing": "{sem.input.sm.fieldWrapper.spacer}"
                 },
                 "type": "composition",
@@ -9417,7 +9417,7 @@
                   "borderRadiusTopRight": "{sem.card.sm.borderRadiusTopRight}",
                   "borderRadiusBottomRight": "{sem.card.sm.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.sm.borderRadiusBottomLeft}",
-                  "border": "undefined",
+                  "border": "{sem.border.transparent}",
                   "itemSpacing": "{sem.input.md.fieldWrapper.spacer}"
                 },
                 "type": "composition",
@@ -9485,7 +9485,7 @@
                   "borderRadiusTopRight": "{sem.card.sm.borderRadiusTopRight}",
                   "borderRadiusBottomRight": "{sem.card.sm.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.sm.borderRadiusBottomLeft}",
-                  "border": "undefined",
+                  "border": "{sem.border.transparent}",
                   "itemSpacing": "{sem.input.md.fieldWrapper.spacer}"
                 },
                 "type": "composition",
@@ -9553,7 +9553,7 @@
                   "borderRadiusTopRight": "{sem.card.sm.borderRadiusTopRight}",
                   "borderRadiusBottomRight": "{sem.card.sm.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.sm.borderRadiusBottomLeft}",
-                  "border": "undefined",
+                  "border": "{sem.border.transparent}",
                   "itemSpacing": "{sem.input.md.fieldWrapper.spacer}"
                 },
                 "type": "composition",
@@ -9757,7 +9757,7 @@
                   "borderRadiusTopRight": "{sem.card.sm.borderRadiusTopRight}",
                   "borderRadiusBottomRight": "{sem.card.sm.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.sm.borderRadiusBottomLeft}",
-                  "border": "undefined",
+                  "border": "{sem.border.transparent}",
                   "itemSpacing": "{sem.input.md.fieldWrapper.spacer}"
                 },
                 "type": "composition",
@@ -10242,7 +10242,7 @@
                   "borderRadiusTopRight": "{sem.card.xs.borderRadiusTopRight}",
                   "borderRadiusBottomRight": "{sem.card.xs.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.xs.borderRadiusBottomLeft}",
-                  "border": "undefined",
+                  "border": "{sem.border.transparent}",
                   "itemSpacing": "{sem.input.sm.fieldWrapper.spacer}"
                 },
                 "type": "composition",
@@ -10317,7 +10317,7 @@
                   "borderRadiusTopRight": "{sem.card.xs.borderRadiusTopRight}",
                   "borderRadiusBottomRight": "{sem.card.xs.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.xs.borderRadiusBottomLeft}",
-                  "border": "undefined",
+                  "border": "{sem.border.transparent}",
                   "itemSpacing": "{sem.input.sm.fieldWrapper.spacer}"
                 },
                 "type": "composition",
@@ -10392,7 +10392,7 @@
                   "borderRadiusTopRight": "{sem.card.xs.borderRadiusTopRight}",
                   "borderRadiusBottomRight": "{sem.card.xs.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.xs.borderRadiusBottomLeft}",
-                  "border": "undefined",
+                  "border": "{sem.border.transparent}",
                   "itemSpacing": "{sem.input.sm.fieldWrapper.spacer}"
                 },
                 "type": "composition",
@@ -10617,7 +10617,7 @@
                   "borderRadiusTopRight": "{sem.card.xs.borderRadiusTopRight}",
                   "borderRadiusBottomRight": "{sem.card.xs.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.xs.borderRadiusBottomLeft}",
-                  "border": "undefined",
+                  "border": "{sem.border.transparent}",
                   "itemSpacing": "{sem.input.sm.fieldWrapper.spacer}"
                 },
                 "type": "composition",
@@ -11148,7 +11148,7 @@
                   "borderRadiusTopRight": "{sem.card.sm.borderRadiusTopRight}",
                   "borderRadiusBottomRight": "{sem.card.sm.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.sm.borderRadiusBottomLeft}",
-                  "border": "undefined",
+                  "border": "{sem.border.transparent}",
                   "itemSpacing": "{sem.input.md.fieldWrapper.spacer}"
                 },
                 "type": "composition",
@@ -11223,7 +11223,7 @@
                   "borderRadiusTopRight": "{sem.card.sm.borderRadiusTopRight}",
                   "borderRadiusBottomRight": "{sem.card.sm.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.sm.borderRadiusBottomLeft}",
-                  "border": "undefined",
+                  "border": "{sem.border.transparent}",
                   "itemSpacing": "{sem.input.md.fieldWrapper.spacer}"
                 },
                 "type": "composition",
@@ -11298,7 +11298,7 @@
                   "borderRadiusTopRight": "{sem.card.sm.borderRadiusTopRight}",
                   "borderRadiusBottomRight": "{sem.card.sm.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.sm.borderRadiusBottomLeft}",
-                  "border": "undefined",
+                  "border": "{sem.border.transparent}",
                   "itemSpacing": "{sem.input.md.fieldWrapper.spacer}"
                 },
                 "type": "composition",
@@ -11523,7 +11523,7 @@
                   "borderRadiusTopRight": "{sem.card.sm.borderRadiusTopRight}",
                   "borderRadiusBottomRight": "{sem.card.sm.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.sm.borderRadiusBottomLeft}",
-                  "border": "undefined",
+                  "border": "{sem.border.transparent}",
                   "itemSpacing": "{sem.input.md.fieldWrapper.spacer}"
                 },
                 "type": "composition",
@@ -12056,7 +12056,7 @@
                   "borderRadiusTopRight": "{sem.card.xs.borderRadiusTopRight}",
                   "borderRadiusBottomRight": "{sem.card.xs.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.xs.borderRadiusBottomLeft}",
-                  "border": "undefined",
+                  "border": "{sem.border.transparent}",
                   "itemSpacing": "{sem.input.sm.fieldWrapper.spacer}"
                 },
                 "type": "composition",
@@ -12131,7 +12131,7 @@
                   "borderRadiusTopRight": "{sem.card.xs.borderRadiusTopRight}",
                   "borderRadiusBottomRight": "{sem.card.xs.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.xs.borderRadiusBottomLeft}",
-                  "border": "undefined",
+                  "border": "{sem.border.transparent}",
                   "itemSpacing": "{sem.input.sm.fieldWrapper.spacer}"
                 },
                 "type": "composition",
@@ -12206,7 +12206,7 @@
                   "borderRadiusTopRight": "{sem.card.xs.borderRadiusTopRight}",
                   "borderRadiusBottomRight": "{sem.card.xs.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.xs.borderRadiusBottomLeft}",
-                  "border": "undefined",
+                  "border": "{sem.border.transparent}",
                   "itemSpacing": "{sem.input.sm.fieldWrapper.spacer}"
                 },
                 "type": "composition",
@@ -12431,7 +12431,7 @@
                   "borderRadiusTopRight": "{sem.card.xs.borderRadiusTopRight}",
                   "borderRadiusBottomRight": "{sem.card.xs.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.xs.borderRadiusBottomLeft}",
-                  "border": "undefined",
+                  "border": "{sem.border.transparent}",
                   "itemSpacing": "{sem.input.sm.fieldWrapper.spacer}"
                 },
                 "type": "composition",
@@ -12962,7 +12962,7 @@
                   "borderRadiusTopRight": "{sem.card.sm.borderRadiusTopRight}",
                   "borderRadiusBottomRight": "{sem.card.sm.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.sm.borderRadiusBottomLeft}",
-                  "border": "undefined",
+                  "border": "{sem.border.transparent}",
                   "itemSpacing": "{sem.input.md.fieldWrapper.spacer}"
                 },
                 "type": "composition",
@@ -13037,7 +13037,7 @@
                   "borderRadiusTopRight": "{sem.card.sm.borderRadiusTopRight}",
                   "borderRadiusBottomRight": "{sem.card.sm.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.sm.borderRadiusBottomLeft}",
-                  "border": "undefined",
+                  "border": "{sem.border.transparent}",
                   "itemSpacing": "{sem.input.md.fieldWrapper.spacer}"
                 },
                 "type": "composition",
@@ -13112,7 +13112,7 @@
                   "borderRadiusTopRight": "{sem.card.sm.borderRadiusTopRight}",
                   "borderRadiusBottomRight": "{sem.card.sm.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.sm.borderRadiusBottomLeft}",
-                  "border": "undefined",
+                  "border": "{sem.border.transparent}",
                   "itemSpacing": "{sem.input.md.fieldWrapper.spacer}"
                 },
                 "type": "composition",
@@ -13337,7 +13337,7 @@
                   "borderRadiusTopRight": "{sem.card.sm.borderRadiusTopRight}",
                   "borderRadiusBottomRight": "{sem.card.sm.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.sm.borderRadiusBottomLeft}",
-                  "border": "undefined",
+                  "border": "{sem.border.transparent}",
                   "itemSpacing": "{sem.input.md.fieldWrapper.spacer}"
                 },
                 "type": "composition",
@@ -13863,7 +13863,7 @@
                   "borderRadiusTopRight": "{sem.card.xs.borderRadiusTopRight}",
                   "borderRadiusBottomRight": "{sem.card.xs.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.xs.borderRadiusBottomLeft}",
-                  "border": "undefined",
+                  "border": "{sem.border.transparent}",
                   "itemSpacing": "none"
                 },
                 "type": "composition",
@@ -13899,7 +13899,7 @@
                   "borderRadiusTopRight": "{sem.card.xs.borderRadiusTopRight}",
                   "borderRadiusBottomRight": "{sem.card.xs.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.xs.borderRadiusBottomLeft}",
-                  "border": "undefined",
+                  "border": "{sem.border.transparent}",
                   "itemSpacing": "none"
                 },
                 "type": "composition",
@@ -13935,7 +13935,7 @@
                   "borderRadiusTopRight": "{sem.card.xs.borderRadiusTopRight}",
                   "borderRadiusBottomRight": "{sem.card.xs.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.xs.borderRadiusBottomLeft}",
-                  "border": "undefined",
+                  "border": "{sem.border.transparent}",
                   "itemSpacing": "none"
                 },
                 "type": "composition",
@@ -14043,7 +14043,7 @@
                   "borderRadiusTopRight": "{sem.card.xs.borderRadiusTopRight}",
                   "borderRadiusBottomRight": "{sem.card.xs.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.xs.borderRadiusBottomLeft}",
-                  "border": "undefined",
+                  "border": "{sem.border.transparent}",
                   "itemSpacing": "none"
                 },
                 "type": "composition",
@@ -14301,7 +14301,7 @@
                   "borderRadiusTopRight": "{sem.card.sm.borderRadiusTopRight}",
                   "borderRadiusBottomRight": "{sem.card.sm.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.sm.borderRadiusBottomLeft}",
-                  "border": "undefined",
+                  "border": "{sem.border.transparent}",
                   "itemSpacing": "none"
                 },
                 "type": "composition",
@@ -14337,7 +14337,7 @@
                   "borderRadiusTopRight": "{sem.card.sm.borderRadiusTopRight}",
                   "borderRadiusBottomRight": "{sem.card.sm.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.sm.borderRadiusBottomLeft}",
-                  "border": "undefined",
+                  "border": "{sem.border.transparent}",
                   "itemSpacing": "none"
                 },
                 "type": "composition",
@@ -14373,7 +14373,7 @@
                   "borderRadiusTopRight": "{sem.card.sm.borderRadiusTopRight}",
                   "borderRadiusBottomRight": "{sem.card.sm.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.sm.borderRadiusBottomLeft}",
-                  "border": "undefined",
+                  "border": "{sem.border.transparent}",
                   "itemSpacing": "none"
                 },
                 "type": "composition",
@@ -14481,7 +14481,7 @@
                   "borderRadiusTopRight": "{sem.card.sm.borderRadiusTopRight}",
                   "borderRadiusBottomRight": "{sem.card.sm.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.sm.borderRadiusBottomLeft}",
-                  "border": "undefined",
+                  "border": "{sem.border.transparent}",
                   "itemSpacing": "none"
                 },
                 "type": "composition",
