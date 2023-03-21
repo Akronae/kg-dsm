@@ -2481,7 +2481,7 @@
               "value": {
                 "horizontalPadding": "{sem.card.md.padding}",
                 "verticalPadding": "{sem.card.md.padding}",
-                "fill": "{sem.color.surface.disabled}",
+                "fill": "{sem.color.surface.light}",
                 "boxShadow": "none",
                 "borderRadiusTopLeft": "{sem.card.md.borderRadiusTopLeft}",
                 "borderRadiusTopRight": "{sem.card.md.borderRadiusTopRight}",
@@ -7911,7 +7911,7 @@
             "value": {
               "horizontalPadding": "{sem.card.xs.padding}",
               "verticalPadding": "{sem.card.xs.padding}",
-              "fill": "{sem.color.surface.disabled}",
+              "fill": "{sem.color.surface.light}",
               "boxShadow": "none",
               "borderRadiusTopLeft": "{sem.card.xs.borderRadiusTopLeft}",
               "borderRadiusTopRight": "{sem.card.xs.borderRadiusTopRight}",
@@ -8025,7 +8025,7 @@
             "value": {
               "horizontalPadding": "{sem.card.xs.padding}",
               "verticalPadding": "{sem.card.xs.padding}",
-              "fill": "{sem.color.surface.disabled}",
+              "fill": "{sem.color.surface.sub}",
               "boxShadow": "none",
               "borderRadiusTopLeft": "{sem.card.xs.borderRadiusTopLeft}",
               "borderRadiusTopRight": "{sem.card.xs.borderRadiusTopRight}",
@@ -8141,7 +8141,7 @@
             "value": {
               "horizontalPadding": "{sem.card.sm.padding}",
               "verticalPadding": "{sem.card.sm.padding}",
-              "fill": "{sem.color.surface.disabled}",
+              "fill": "{sem.color.surface.light}",
               "boxShadow": "none",
               "borderRadiusTopLeft": "{sem.card.sm.borderRadiusTopLeft}",
               "borderRadiusTopRight": "{sem.card.sm.borderRadiusTopRight}",
@@ -8255,7 +8255,7 @@
             "value": {
               "horizontalPadding": "{sem.card.sm.padding}",
               "verticalPadding": "{sem.card.sm.padding}",
-              "fill": "{sem.color.surface.disabled}",
+              "fill": "{sem.color.surface.sub}",
               "boxShadow": "none",
               "borderRadiusTopLeft": "{sem.card.sm.borderRadiusTopLeft}",
               "borderRadiusTopRight": "{sem.card.sm.borderRadiusTopRight}",
@@ -8371,7 +8371,7 @@
             "value": {
               "horizontalPadding": "{sem.card.md.padding}",
               "verticalPadding": "{sem.card.md.padding}",
-              "fill": "{sem.color.surface.disabled}",
+              "fill": "{sem.color.surface.light}",
               "boxShadow": "none",
               "borderRadiusTopLeft": "{sem.card.md.borderRadiusTopLeft}",
               "borderRadiusTopRight": "{sem.card.md.borderRadiusTopRight}",
@@ -8485,7 +8485,7 @@
             "value": {
               "horizontalPadding": "{sem.card.md.padding}",
               "verticalPadding": "{sem.card.md.padding}",
-              "fill": "{sem.color.surface.disabled}",
+              "fill": "{sem.color.surface.sub}",
               "boxShadow": "none",
               "borderRadiusTopLeft": "{sem.card.md.borderRadiusTopLeft}",
               "borderRadiusTopRight": "{sem.card.md.borderRadiusTopRight}",
@@ -8929,7 +8929,7 @@
                 "value": {
                   "horizontalPadding": "{sem.card.xs.padding}",
                   "verticalPadding": "{sem.card.xs.padding}",
-                  "fill": "{sem.color.surface.disabled}",
+                  "fill": "{sem.color.surface.light}",
                   "boxShadow": "none",
                   "borderRadiusTopLeft": "{sem.card.xs.borderRadiusTopLeft}",
                   "borderRadiusTopRight": "{sem.card.xs.borderRadiusTopRight}",
@@ -9339,7 +9339,7 @@
                 "value": {
                   "horizontalPadding": "{sem.card.xs.padding}",
                   "verticalPadding": "{sem.card.xs.padding}",
-                  "fill": "{sem.color.surface.disabled}",
+                  "fill": "{sem.color.surface.sub}",
                   "boxShadow": "none",
                   "borderRadiusTopLeft": "{sem.card.xs.borderRadiusTopLeft}",
                   "borderRadiusTopRight": "{sem.card.xs.borderRadiusTopRight}",
@@ -9751,7 +9751,7 @@
                 "value": {
                   "horizontalPadding": "{sem.card.sm.padding}",
                   "verticalPadding": "{sem.card.sm.padding}",
-                  "fill": "{sem.color.surface.disabled}",
+                  "fill": "{sem.color.surface.light}",
                   "boxShadow": "none",
                   "borderRadiusTopLeft": "{sem.card.sm.borderRadiusTopLeft}",
                   "borderRadiusTopRight": "{sem.card.sm.borderRadiusTopRight}",
@@ -10161,7 +10161,7 @@
                 "value": {
                   "horizontalPadding": "{sem.card.sm.padding}",
                   "verticalPadding": "{sem.card.sm.padding}",
-                  "fill": "{sem.color.surface.disabled}",
+                  "fill": "{sem.color.surface.sub}",
                   "boxShadow": "none",
                   "borderRadiusTopLeft": "{sem.card.sm.borderRadiusTopLeft}",
                   "borderRadiusTopRight": "{sem.card.sm.borderRadiusTopRight}",
@@ -10611,7 +10611,7 @@
                 "value": {
                   "horizontalPadding": "{sem.card.xs.padding}",
                   "verticalPadding": "{sem.card.xs.padding}",
-                  "fill": "{sem.color.surface.disabled}",
+                  "fill": "{sem.color.surface.light}",
                   "boxShadow": "none",
                   "borderRadiusTopLeft": "{sem.card.xs.borderRadiusTopLeft}",
                   "borderRadiusTopRight": "{sem.card.xs.borderRadiusTopRight}",
@@ -11063,7 +11063,7 @@
                 "value": {
                   "horizontalPadding": "{sem.card.xs.padding}",
                   "verticalPadding": "{sem.card.xs.padding}",
-                  "fill": "{sem.color.surface.disabled}",
+                  "fill": "{sem.color.surface.sub}",
                   "boxShadow": "none",
                   "borderRadiusTopLeft": "{sem.card.xs.borderRadiusTopLeft}",
                   "borderRadiusTopRight": "{sem.card.xs.borderRadiusTopRight}",
@@ -11517,7 +11517,7 @@
                 "value": {
                   "horizontalPadding": "{sem.card.sm.padding}",
                   "verticalPadding": "{sem.card.sm.padding}",
-                  "fill": "{sem.color.surface.disabled}",
+                  "fill": "{sem.color.surface.light}",
                   "boxShadow": "none",
                   "borderRadiusTopLeft": "{sem.card.sm.borderRadiusTopLeft}",
                   "borderRadiusTopRight": "{sem.card.sm.borderRadiusTopRight}",
@@ -11969,7 +11969,7 @@
                 "value": {
                   "horizontalPadding": "{sem.card.sm.padding}",
                   "verticalPadding": "{sem.card.sm.padding}",
-                  "fill": "{sem.color.surface.disabled}",
+                  "fill": "{sem.color.surface.sub}",
                   "boxShadow": "none",
                   "borderRadiusTopLeft": "{sem.card.sm.borderRadiusTopLeft}",
                   "borderRadiusTopRight": "{sem.card.sm.borderRadiusTopRight}",
@@ -12425,7 +12425,7 @@
                 "value": {
                   "horizontalPadding": "{sem.card.xs.padding}",
                   "verticalPadding": "{sem.card.xs.padding}",
-                  "fill": "{sem.color.surface.disabled}",
+                  "fill": "{sem.color.surface.light}",
                   "boxShadow": "none",
                   "borderRadiusTopLeft": "{sem.card.xs.borderRadiusTopLeft}",
                   "borderRadiusTopRight": "{sem.card.xs.borderRadiusTopRight}",
@@ -12877,7 +12877,7 @@
                 "value": {
                   "horizontalPadding": "{sem.card.xs.padding}",
                   "verticalPadding": "{sem.card.xs.padding}",
-                  "fill": "{sem.color.surface.disabled}",
+                  "fill": "{sem.color.surface.sub}",
                   "boxShadow": "none",
                   "borderRadiusTopLeft": "{sem.card.xs.borderRadiusTopLeft}",
                   "borderRadiusTopRight": "{sem.card.xs.borderRadiusTopRight}",
@@ -13331,7 +13331,7 @@
                 "value": {
                   "horizontalPadding": "{sem.card.sm.padding}",
                   "verticalPadding": "{sem.card.sm.padding}",
-                  "fill": "{sem.color.surface.disabled}",
+                  "fill": "{sem.color.surface.light}",
                   "boxShadow": "none",
                   "borderRadiusTopLeft": "{sem.card.sm.borderRadiusTopLeft}",
                   "borderRadiusTopRight": "{sem.card.sm.borderRadiusTopRight}",
@@ -13783,7 +13783,7 @@
                 "value": {
                   "horizontalPadding": "{sem.card.sm.padding}",
                   "verticalPadding": "{sem.card.sm.padding}",
-                  "fill": "{sem.color.surface.disabled}",
+                  "fill": "{sem.color.surface.sub}",
                   "boxShadow": "none",
                   "borderRadiusTopLeft": "{sem.card.sm.borderRadiusTopLeft}",
                   "borderRadiusTopRight": "{sem.card.sm.borderRadiusTopRight}",
@@ -14037,7 +14037,7 @@
                 "value": {
                   "horizontalPadding": "none",
                   "verticalPadding": "none",
-                  "fill": "{sem.color.surface.disabled}",
+                  "fill": "{sem.color.surface.light}",
                   "boxShadow": "none",
                   "borderRadiusTopLeft": "{sem.card.xs.borderRadiusTopLeft}",
                   "borderRadiusTopRight": "{sem.card.xs.borderRadiusTopRight}",
@@ -14054,7 +14054,7 @@
                   "value": {
                     "horizontalPadding": "{sem.card.xs.padding}",
                     "verticalPadding": "{sem.card.xs.padding}",
-                    "fill": "{sem.color.surface.disabled}",
+                    "fill": "{sem.color.surface.light}",
                     "boxShadow": "none",
                     "borderRadiusTopLeft": "none",
                     "borderRadiusTopRight": "{sem.card.xs.borderRadiusTopRight}",
@@ -14255,7 +14255,7 @@
                 "value": {
                   "horizontalPadding": "none",
                   "verticalPadding": "none",
-                  "fill": "{sem.color.surface.disabled}",
+                  "fill": "{sem.color.surface.sub}",
                   "boxShadow": "none",
                   "borderRadiusTopLeft": "{sem.card.xs.borderRadiusTopLeft}",
                   "borderRadiusTopRight": "{sem.card.xs.borderRadiusTopRight}",
@@ -14272,7 +14272,7 @@
                   "value": {
                     "horizontalPadding": "{sem.card.xs.padding}",
                     "verticalPadding": "{sem.card.xs.padding}",
-                    "fill": "{sem.color.surface.disabled}",
+                    "fill": "{sem.color.surface.sub}",
                     "boxShadow": "none",
                     "borderRadiusTopLeft": "none",
                     "borderRadiusTopRight": "{sem.card.xs.borderRadiusTopRight}",
@@ -14475,7 +14475,7 @@
                 "value": {
                   "horizontalPadding": "none",
                   "verticalPadding": "none",
-                  "fill": "{sem.color.surface.disabled}",
+                  "fill": "{sem.color.surface.light}",
                   "boxShadow": "none",
                   "borderRadiusTopLeft": "{sem.card.sm.borderRadiusTopLeft}",
                   "borderRadiusTopRight": "{sem.card.sm.borderRadiusTopRight}",
@@ -14492,7 +14492,7 @@
                   "value": {
                     "horizontalPadding": "{sem.card.sm.padding}",
                     "verticalPadding": "{sem.card.sm.padding}",
-                    "fill": "{sem.color.surface.disabled}",
+                    "fill": "{sem.color.surface.light}",
                     "boxShadow": "none",
                     "borderRadiusTopLeft": "none",
                     "borderRadiusTopRight": "{sem.card.sm.borderRadiusTopRight}",
@@ -14693,7 +14693,7 @@
                 "value": {
                   "horizontalPadding": "none",
                   "verticalPadding": "none",
-                  "fill": "{sem.color.surface.disabled}",
+                  "fill": "{sem.color.surface.sub}",
                   "boxShadow": "none",
                   "borderRadiusTopLeft": "{sem.card.sm.borderRadiusTopLeft}",
                   "borderRadiusTopRight": "{sem.card.sm.borderRadiusTopRight}",
@@ -14710,7 +14710,7 @@
                   "value": {
                     "horizontalPadding": "{sem.card.sm.padding}",
                     "verticalPadding": "{sem.card.sm.padding}",
-                    "fill": "{sem.color.surface.disabled}",
+                    "fill": "{sem.color.surface.sub}",
                     "boxShadow": "none",
                     "borderRadiusTopLeft": "none",
                     "borderRadiusTopRight": "{sem.card.sm.borderRadiusTopRight}",
@@ -14824,7 +14824,7 @@
                   "value": {
                     "horizontalPadding": "{sem.card.xs.padding}",
                     "verticalPadding": "{sem.card.xs.padding}",
-                    "fill": "{sem.color.surface.disabled}",
+                    "fill": "{sem.color.surface.sub}",
                     "boxShadow": "none",
                     "borderRadiusTopLeft": "{sem.card.xs.borderRadiusTopLeft}",
                     "borderRadiusTopRight": "none",
@@ -14934,7 +14934,7 @@
                   "value": {
                     "horizontalPadding": "{sem.card.xs.padding}",
                     "verticalPadding": "{sem.card.xs.padding}",
-                    "fill": "{sem.color.surface.disabled}",
+                    "fill": "{sem.color.surface.light}",
                     "boxShadow": "none",
                     "borderRadiusTopLeft": "{sem.card.xs.borderRadiusTopLeft}",
                     "borderRadiusTopRight": "none",
@@ -15046,7 +15046,7 @@
                   "value": {
                     "horizontalPadding": "{sem.card.sm.padding}",
                     "verticalPadding": "{sem.card.sm.padding}",
-                    "fill": "{sem.color.surface.disabled}",
+                    "fill": "{sem.color.surface.sub}",
                     "boxShadow": "none",
                     "borderRadiusTopLeft": "{sem.card.sm.borderRadiusTopLeft}",
                     "borderRadiusTopRight": "none",
@@ -15156,7 +15156,7 @@
                   "value": {
                     "horizontalPadding": "{sem.card.sm.padding}",
                     "verticalPadding": "{sem.card.sm.padding}",
-                    "fill": "{sem.color.surface.disabled}",
+                    "fill": "{sem.color.surface.light}",
                     "boxShadow": "none",
                     "borderRadiusTopLeft": "{sem.card.sm.borderRadiusTopLeft}",
                     "borderRadiusTopRight": "none",
@@ -15189,7 +15189,7 @@
         "text": {
           "value": {
             "typography": "{sem.typography.textStyle.label.body.sm}",
-            "fontWeight": "{ref.typography.fontWeight.700}",
+            "fontWeights": "{ref.typography.fontWeights.700}",
             "fill": "{sem.color.text.light}"
           },
           "type": "composition"
@@ -15209,7 +15209,7 @@
         "text": {
           "value": {
             "typography": "{sem.typography.textStyle.label.body.sm}",
-            "fontWeight": "{ref.typography.fontWeight.700}",
+            "fontWeights": "{ref.typography.fontWeights.700}",
             "fill": "{sem.color.text.light}"
           },
           "type": "composition"
@@ -15229,7 +15229,7 @@
         "text": {
           "value": {
             "typography": "{sem.typography.textStyle.label.body.sm}",
-            "fontWeight": "{ref.typography.fontWeight.700}",
+            "fontWeights": "{ref.typography.fontWeights.700}",
             "fill": "{sem.color.text.dark}"
           },
           "type": "composition"
@@ -15249,7 +15249,7 @@
         "text": {
           "value": {
             "typography": "{sem.typography.textStyle.label.body.sm}",
-            "fontWeight": "{ref.typography.fontWeight.700}",
+            "fontWeights": "{ref.typography.fontWeights.700}",
             "fill": "{sem.color.text.light}"
           },
           "type": "composition"
@@ -15269,7 +15269,7 @@
         "text": {
           "value": {
             "typography": "{sem.typography.textStyle.label.body.sm}",
-            "fontWeight": "{ref.typography.fontWeight.700}",
+            "fontWeights": "{ref.typography.fontWeights.700}",
             "fill": "{sem.color.text.light}"
           },
           "type": "composition"
@@ -15289,7 +15289,7 @@
         "text": {
           "value": {
             "typography": "{sem.typography.textStyle.label.body.sm}",
-            "fontWeight": "{ref.typography.fontWeight.700}",
+            "fontWeights": "{ref.typography.fontWeights.700}",
             "fill": "{sem.color.text.light}"
           },
           "type": "composition"
@@ -15309,7 +15309,7 @@
         "text": {
           "value": {
             "typography": "{sem.typography.textStyle.label.body.sm}",
-            "fontWeight": "{ref.typography.fontWeight.700}",
+            "fontWeights": "{ref.typography.fontWeights.700}",
             "fill": "{sem.color.text.light}"
           },
           "type": "composition"
@@ -15329,7 +15329,7 @@
         "text": {
           "value": {
             "typography": "{sem.typography.textStyle.label.body.sm}",
-            "fontWeight": "{ref.typography.fontWeight.700}",
+            "fontWeights": "{ref.typography.fontWeights.700}",
             "fill": "{sem.color.text.light}"
           },
           "type": "composition"
@@ -15349,7 +15349,7 @@
         "text": {
           "value": {
             "typography": "{sem.typography.textStyle.label.body.sm}",
-            "fontWeight": "{ref.typography.fontWeight.700}",
+            "fontWeights": "{ref.typography.fontWeights.700}",
             "fill": "{sem.color.text.danger}"
           },
           "type": "composition"
