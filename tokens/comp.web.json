@@ -15362,7 +15362,7 @@
       "rectangular": {
         "sm": {
           "borderRadius": {
-            "value": "{ref.borderRadius.200}",
+            "value": "{ref.borderRadius.250}",
             "type": "borderRadius"
           },
           "spacing": {
@@ -15384,7 +15384,7 @@
         },
         "md": {
           "borderRadius": {
-            "value": "{ref.borderRadius.250}",
+            "value": "{ref.borderRadius.300}",
             "type": "borderRadius"
           },
           "spacing": {
@@ -15406,7 +15406,7 @@
         },
         "lg": {
           "borderRadius": {
-            "value": "{ref.borderRadius.300}",
+            "value": "{ref.borderRadius.350}",
             "type": "borderRadius"
           },
           "spacing": {
