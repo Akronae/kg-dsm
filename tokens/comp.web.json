@@ -16071,7 +16071,7 @@
           "type": "spacing"
         },
         "borderRadius": {
-          "value": "{ref.borderRadius.300}",
+          "value": "{ref.borderRadius.250}",
           "type": "borderRadius"
         },
         "paddingLeft": {
