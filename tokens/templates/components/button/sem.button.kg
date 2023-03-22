@@ -7,7 +7,7 @@ sem
 [
   {
     "borderRadius": {
-      "value": "{<< shape == 'rectangular' ? ({lg: 'ref.borderRadius.300', md: 'ref.borderRadius.250', sm: 'ref.borderRadius.200'})[size] : 'ref.borderRadius.9999' >>}",
+      "value": "{<< shape == 'rectangular' ? ({lg: 'ref.borderRadius.350', md: 'ref.borderRadius.300', sm: 'ref.borderRadius.250'})[size] : 'ref.borderRadius.9999' >>}",
       "type": "borderRadius"
     },
     "spacing": {
