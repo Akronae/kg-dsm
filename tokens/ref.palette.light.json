@@ -93,10 +93,17 @@
           "type": "color"
         },
         "Alpha": {
-          "50": {
-            "4": {
-              "value": "#ffffff66",
-              "type": "color"
+          "16": {
+            "value": "{ref.colors.neutral.900}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.16",
+                  "space": "lch"
+                }
+              }
             }
           },
           "800": {
