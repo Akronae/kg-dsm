@@ -45,7 +45,7 @@ comp
       "text": {
         "placeholder": {
           "value": {
-            "typography": "{sem.typography.textStyle.paragraph.<<size>>.default}",
+            "typography": "{sem.typography.textStyle.paragraph.<<size>>.strong}",
             "fill": "{sem.color.text.<< state == 'danger' ? 'danger' : 'diminish'>>}"
           },
           "type": "composition"
