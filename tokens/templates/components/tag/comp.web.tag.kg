@@ -17,7 +17,7 @@ comp
     },
     "text": {
       "value": {
-        "typography": "{sem.typography.textStyle.label.body.sm}",
+        "typography": "{sem.typography.textStyle.label.button.sm}",
         "fontWeight": "{ref.typography.fontWeight.700}",
         "fill": "{sem.color.text.<< ({white: 'dark', greyLight: 'dark', redLight: 'danger'})[color] || 'light' >>}"
       },

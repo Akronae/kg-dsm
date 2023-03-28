@@ -15189,7 +15189,7 @@
         },
         "text": {
           "value": {
-            "typography": "{sem.typography.textStyle.label.body.sm}",
+            "typography": "{sem.typography.textStyle.label.button.sm}",
             "fontWeight": "{ref.typography.fontWeight.700}",
             "fill": "{sem.color.text.light}"
           },
@@ -15209,7 +15209,7 @@
         },
         "text": {
           "value": {
-            "typography": "{sem.typography.textStyle.label.body.sm}",
+            "typography": "{sem.typography.textStyle.label.button.sm}",
             "fontWeight": "{ref.typography.fontWeight.700}",
             "fill": "{sem.color.text.light}"
           },
@@ -15229,7 +15229,7 @@
         },
         "text": {
           "value": {
-            "typography": "{sem.typography.textStyle.label.body.sm}",
+            "typography": "{sem.typography.textStyle.label.button.sm}",
             "fontWeight": "{ref.typography.fontWeight.700}",
             "fill": "{sem.color.text.dark}"
           },
@@ -15249,7 +15249,7 @@
         },
         "text": {
           "value": {
-            "typography": "{sem.typography.textStyle.label.body.sm}",
+            "typography": "{sem.typography.textStyle.label.button.sm}",
             "fontWeight": "{ref.typography.fontWeight.700}",
             "fill": "{sem.color.text.light}"
           },
@@ -15269,7 +15269,7 @@
         },
         "text": {
           "value": {
-            "typography": "{sem.typography.textStyle.label.body.sm}",
+            "typography": "{sem.typography.textStyle.label.button.sm}",
             "fontWeight": "{ref.typography.fontWeight.700}",
             "fill": "{sem.color.text.light}"
           },
@@ -15289,7 +15289,7 @@
         },
         "text": {
           "value": {
-            "typography": "{sem.typography.textStyle.label.body.sm}",
+            "typography": "{sem.typography.textStyle.label.button.sm}",
             "fontWeight": "{ref.typography.fontWeight.700}",
             "fill": "{sem.color.text.light}"
           },
@@ -15309,7 +15309,7 @@
         },
         "text": {
           "value": {
-            "typography": "{sem.typography.textStyle.label.body.sm}",
+            "typography": "{sem.typography.textStyle.label.button.sm}",
             "fontWeight": "{ref.typography.fontWeight.700}",
             "fill": "{sem.color.text.light}"
           },
@@ -15329,7 +15329,7 @@
         },
         "text": {
           "value": {
-            "typography": "{sem.typography.textStyle.label.body.sm}",
+            "typography": "{sem.typography.textStyle.label.button.sm}",
             "fontWeight": "{ref.typography.fontWeight.700}",
             "fill": "{sem.color.text.light}"
           },
@@ -15349,7 +15349,7 @@
         },
         "text": {
           "value": {
-            "typography": "{sem.typography.textStyle.label.body.sm}",
+            "typography": "{sem.typography.textStyle.label.button.sm}",
             "fontWeight": "{ref.typography.fontWeight.700}",
             "fill": "{sem.color.text.danger}"
           },
