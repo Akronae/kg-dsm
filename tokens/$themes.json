@@ -221,24 +221,5 @@
       "color.border.light": "S:a88061b4fe3f866534ee22256de1e953b5f9a3c0,",
       "color.icon.light": "S:5ba45c16783bf89a63bd1edefb61ac99594323d4,"
     }
-  },
-  {
-    "id": "8884a39b8bc1f547c18cbe0dd09d79e3c766b42b",
-    "name": "KG-DARK",
-    "selectedTokenSets": {
-      "ref.typography": "enabled",
-      "sem.primitives": "enabled",
-      "ref.sizing": "enabled",
-      "ref.border": "enabled",
-      "ref.effects": "enabled",
-      "ref.spacing": "enabled",
-      "ref.palette.dark": "enabled",
-      "structureListing": "enabled",
-      "structureEmpty-state": "enabled",
-      "structureForm": "enabled",
-      "comp.web": "enabled",
-      "searchProperty": "enabled"
-    },
-    "$figmaStyleReferences": {}
   }
 ]
