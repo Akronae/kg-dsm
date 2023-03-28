@@ -8530,7 +8530,8 @@
     "helper": {
       "container": {
         "value": {
-          "itemSpacing": "{sem.helper.container.spacing}"
+          "itemSpacing": "{sem.helper.container.spacing}",
+          "layoutMode": "horizontal"
         },
         "type": "composition"
       },
