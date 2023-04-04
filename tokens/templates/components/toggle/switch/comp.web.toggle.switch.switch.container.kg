@@ -13,8 +13,9 @@ comp
       "fill": "{sem.color.surface.<< ({ default: 'dark', active: 'success', disabled: 'disabled' })[state] >>}",
       "verticalPadding": "{ref.spacing.25}",
       "horizontalPadding": "{ref.spacing.25}",
-      "width": "{ref.sizing.500}",
-      "layoutAlignItems": "<< state == 'active' ? 'center right' : 'center left' >>"
+      "layoutAlignItems": "<< state == 'active' ? 'center right' : 'center left' >>",
+      "layoutMode": "horizontal",
+      "width": "{ref.sizing.500}"
     },
     "type": "composition"
   }

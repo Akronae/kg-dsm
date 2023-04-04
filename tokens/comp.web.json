@@ -1648,8 +1648,9 @@
                 "fill": "{sem.color.surface.dark}",
                 "verticalPadding": "{ref.spacing.25}",
                 "horizontalPadding": "{ref.spacing.25}",
-                "width": "{ref.sizing.500}",
-                "layoutAlignItems": "center left"
+                "layoutAlignItems": "center left",
+                "layoutMode": "horizontal",
+                "width": "{ref.sizing.500}"
               },
               "type": "composition"
             },
@@ -1659,8 +1660,9 @@
                 "fill": "{sem.color.surface.success}",
                 "verticalPadding": "{ref.spacing.25}",
                 "horizontalPadding": "{ref.spacing.25}",
-                "width": "{ref.sizing.500}",
-                "layoutAlignItems": "center right"
+                "layoutAlignItems": "center right",
+                "layoutMode": "horizontal",
+                "width": "{ref.sizing.500}"
               },
               "type": "composition"
             },
@@ -1670,8 +1672,9 @@
                 "fill": "{sem.color.surface.disabled}",
                 "verticalPadding": "{ref.spacing.25}",
                 "horizontalPadding": "{ref.spacing.25}",
-                "width": "{ref.sizing.500}",
-                "layoutAlignItems": "center left"
+                "layoutAlignItems": "center left",
+                "layoutMode": "horizontal",
+                "width": "{ref.sizing.500}"
               },
               "type": "composition"
             }
