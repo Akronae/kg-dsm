@@ -1,0 +1,22 @@
+// @replacepath: tokens/comp.web.json
+
+comp
+.toggle
+.switch
+.switch
+.container
+[state: 'default' | 'active' | 'disabled']
+[
+  {
+    "value": {
+      "borderRadius": "{ref.borderRadius.500}",
+      "fill": "{sem.color.surface.<< ({ default: 'dark', active: 'success', disabled: 'disabled' })[state] >>}",
+      "verticalPadding": "{ref.spacing.25}",
+      "horizontalPadding": "{ref.spacing.25}",
+      "layoutAlignItems": "<< state == 'active' ? 'center right' : 'center left' >>",
+      "layoutMode": "horizontal",
+      "width": "{ref.sizing.500}"
+    },
+    "type": "composition"
+  }
+]

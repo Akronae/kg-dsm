@@ -1619,38 +1619,6 @@
       },
       "switch": {
         "switch": {
-          "container": {
-            "default": {
-              "value": {
-                "borderRadius": "{ref.borderRadius.500}",
-                "fill": "{sem.color.surface.dark}",
-                "verticalPadding": "{ref.spacing.25}",
-                "horizontalPadding": "{ref.spacing.25}",
-                "width": "{ref.sizing.500}"
-              },
-              "type": "composition"
-            },
-            "active": {
-              "value": {
-                "borderRadius": "{ref.borderRadius.500}",
-                "fill": "{sem.color.surface.success}",
-                "verticalPadding": "{ref.spacing.25}",
-                "horizontalPadding": "{ref.spacing.25}",
-                "width": "{ref.sizing.500}"
-              },
-              "type": "composition"
-            },
-            "disabled": {
-              "value": {
-                "borderRadius": "{ref.borderRadius.500}",
-                "fill": "{sem.color.surface.disabled}",
-                "verticalPadding": "{ref.spacing.25}",
-                "horizontalPadding": "{ref.spacing.25}",
-                "width": "{ref.sizing.500}"
-              },
-              "type": "composition"
-            }
-          },
           "button": {
             "container": {
               "value": {
@@ -1669,6 +1637,44 @@
             "iconColor": {
               "value": {
                 "borderColor": "{sem.color.icon.default}"
+              },
+              "type": "composition"
+            }
+          },
+          "container": {
+            "default": {
+              "value": {
+                "borderRadius": "{ref.borderRadius.500}",
+                "fill": "{sem.color.surface.dark}",
+                "verticalPadding": "{ref.spacing.25}",
+                "horizontalPadding": "{ref.spacing.25}",
+                "layoutAlignItems": "center left",
+                "layoutMode": "horizontal",
+                "width": "{ref.sizing.500}"
+              },
+              "type": "composition"
+            },
+            "active": {
+              "value": {
+                "borderRadius": "{ref.borderRadius.500}",
+                "fill": "{sem.color.surface.success}",
+                "verticalPadding": "{ref.spacing.25}",
+                "horizontalPadding": "{ref.spacing.25}",
+                "layoutAlignItems": "center right",
+                "layoutMode": "horizontal",
+                "width": "{ref.sizing.500}"
+              },
+              "type": "composition"
+            },
+            "disabled": {
+              "value": {
+                "borderRadius": "{ref.borderRadius.500}",
+                "fill": "{sem.color.surface.disabled}",
+                "verticalPadding": "{ref.spacing.25}",
+                "horizontalPadding": "{ref.spacing.25}",
+                "layoutAlignItems": "center left",
+                "layoutMode": "horizontal",
+                "width": "{ref.sizing.500}"
               },
               "type": "composition"
             }
@@ -1700,7 +1706,8 @@
         "container": {
           "spacer": {
             "value": {
-              "itemSpacing": "{ref.spacing.100}"
+              "itemSpacing": "{ref.spacing.100}",
+              "layoutMode": "horizontal"
             },
             "type": "composition"
           }
