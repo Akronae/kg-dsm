@@ -1648,7 +1648,8 @@
                 "fill": "{sem.color.surface.dark}",
                 "verticalPadding": "{ref.spacing.25}",
                 "horizontalPadding": "{ref.spacing.25}",
-                "width": "{ref.sizing.500}"
+                "width": "{ref.sizing.500}",
+                "layoutAlignItems": "center left"
               },
               "type": "composition"
             },
@@ -1658,7 +1659,8 @@
                 "fill": "{sem.color.surface.success}",
                 "verticalPadding": "{ref.spacing.25}",
                 "horizontalPadding": "{ref.spacing.25}",
-                "width": "{ref.sizing.500}"
+                "width": "{ref.sizing.500}",
+                "layoutAlignItems": "center right"
               },
               "type": "composition"
             },
@@ -1668,7 +1670,8 @@
                 "fill": "{sem.color.surface.disabled}",
                 "verticalPadding": "{ref.spacing.25}",
                 "horizontalPadding": "{ref.spacing.25}",
-                "width": "{ref.sizing.500}"
+                "width": "{ref.sizing.500}",
+                "layoutAlignItems": "center left"
               },
               "type": "composition"
             }
