@@ -1,0 +1,64 @@
+// @replacepath: tokens/comp.web.json
+
+comp
+.toggle
+.switch
+[
+  {
+    "switch": {
+      "button": {
+        "container": {
+          "value": {
+            "fill": "{sem.color.surface.light}",
+            "borderRadius": "{ref.borderRadius.9999}",
+            "sizing": "{ref.sizing.200}"
+          },
+          "type": "composition"
+        },
+        "iconSize": {
+          "value": {
+            "sizing": "{ref.sizing.100}"
+          },
+          "type": "composition"
+        },
+        "iconColor": {
+          "value": {
+            "borderColor": "{sem.color.icon.default}"
+          },
+          "type": "composition"
+        }
+      }
+    },
+    "txt": {
+      "container": {
+        "value": {
+          "itemSpacing": "{ref.spacing.50}",
+          "paddingTop": "{ref.spacing.100}"
+        },
+        "type": "composition"
+      },
+      "title": {
+        "value": {
+          "typography": "{sem.typography.textStyle.label.body.md}",
+          "fill": "{sem.color.text.dark}"
+        },
+        "type": "composition"
+      },
+      "description": {
+        "value": {
+          "typography": "{sem.typography.textStyle.paragraph.md.default}",
+          "fill": "{sem.color.text.default}"
+        },
+        "type": "composition"
+      }
+    },
+    "container": {
+      "spacer": {
+        "value": {
+          "itemSpacing": "{ref.spacing.100}"
+        },
+        "type": "composition"
+      }
+    }
+  }
+]

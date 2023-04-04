@@ -1619,6 +1619,28 @@
       },
       "switch": {
         "switch": {
+          "button": {
+            "container": {
+              "value": {
+                "fill": "{sem.color.surface.light}",
+                "borderRadius": "{ref.borderRadius.9999}",
+                "sizing": "{ref.sizing.200}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{ref.sizing.100}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.color.icon.default}"
+              },
+              "type": "composition"
+            }
+          },
           "container": {
             "default": {
               "value": {
@@ -1647,28 +1669,6 @@
                 "verticalPadding": "{ref.spacing.25}",
                 "horizontalPadding": "{ref.spacing.25}",
                 "width": "{ref.sizing.500}"
-              },
-              "type": "composition"
-            }
-          },
-          "button": {
-            "container": {
-              "value": {
-                "fill": "{sem.color.surface.light}",
-                "borderRadius": "{ref.borderRadius.9999}",
-                "sizing": "{ref.sizing.200}"
-              },
-              "type": "composition"
-            },
-            "iconSize": {
-              "value": {
-                "sizing": "{ref.sizing.100}"
-              },
-              "type": "composition"
-            },
-            "iconColor": {
-              "value": {
-                "borderColor": "{sem.color.icon.default}"
               },
               "type": "composition"
             }
