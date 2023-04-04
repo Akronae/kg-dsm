@@ -55,7 +55,8 @@ comp
     "container": {
       "spacer": {
         "value": {
-          "itemSpacing": "{ref.spacing.100}"
+          "itemSpacing": "{ref.spacing.100}",
+          "layoutMode": "horizontal"
         },
         "type": "composition"
       }
