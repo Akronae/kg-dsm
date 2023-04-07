@@ -1,7 +1,6 @@
 {
   "tokenSetOrder": [
     "ref.palette.light",
-    "ref.palette.dark",
     "ref.typography",
     "ref.sizing",
     "ref.spacing",
