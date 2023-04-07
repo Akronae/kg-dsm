@@ -1,0 +1,16 @@
+// @replacepath: tokens/structureForm.json
+
+comp
+.structure.form.components.formBoilerplate.childGroup
+[aspectRatio: 'mobile' | 'desktop']
+[
+  {
+    "container": {
+      "value": {
+        "itemSpacing": "{sem.structure.form.components.formBoilerplate.childGroup.container.spacing}",
+        "layoutMode": "<< aspectRatio == 'mobile' ? 'vertical' : 'horizontal' >>"
+      },
+      "type": "composition"
+    }
+  }
+]

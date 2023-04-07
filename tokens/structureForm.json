@@ -46,12 +46,24 @@
               },
               "type": "composition"
             },
-            "child": {
-              "container": {
-                "value": {
-                  "itemSpacing": "{sem.structure.form.components.formBoilerplate.child.container.spacing}"
-                },
-                "type": "composition"
+            "childGroup": {
+              "mobile": {
+                "container": {
+                  "value": {
+                    "itemSpacing": "{sem.structure.form.components.formBoilerplate.childGroup.container.spacing}",
+                    "layoutMode": "vertical"
+                  },
+                  "type": "composition"
+                }
+              },
+              "desktop": {
+                "container": {
+                  "value": {
+                    "itemSpacing": "{sem.structure.form.components.formBoilerplate.childGroup.container.spacing}",
+                    "layoutMode": "horizontal"
+                  },
+                  "type": "composition"
+                }
               }
             },
             "section": {
@@ -845,7 +857,7 @@
                 "type": "spacing"
               }
             },
-            "child": {
+            "childGroup": {
               "container": {
                 "spacing": {
                   "value": "{ref.spacing.200}",
