@@ -590,7 +590,8 @@
             "step": {
               "container": {
                 "value": {
-                  "itemSpacing": "{sem.structure.form.components.title.step.container.spacing}"
+                  "itemSpacing": "{sem.structure.form.components.title.step.container.spacing}",
+                  "layoutMode": "vertical"
                 },
                 "type": "composition"
               },
@@ -612,7 +613,8 @@
             "sub": {
               "container": {
                 "value": {
-                  "itemSpacing": "{sem.structure.form.components.title.sub.container.spacing}"
+                  "itemSpacing": "{sem.structure.form.components.title.sub.container.spacing}",
+                  "layoutMode": "vertical"
                 },
                 "type": "composition"
               },
@@ -634,7 +636,8 @@
             "summary": {
               "container": {
                 "value": {
-                  "itemSpacing": "{sem.structure.form.components.title.summary.container.spacing}"
+                  "itemSpacing": "{sem.structure.form.components.title.summary.container.spacing}",
+                  "layoutMode": "vertical"
                 },
                 "type": "composition"
               },
