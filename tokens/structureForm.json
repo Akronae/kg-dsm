@@ -50,7 +50,7 @@
               "mobile": {
                 "container": {
                   "value": {
-                    "itemSpacing": "{sem.structure.form.components.formBoilerplate.child.container.spacing}",
+                    "itemSpacing": "{sem.structure.form.components.formBoilerplate.childGroup.container.spacing}",
                     "layoutMode": "vertical"
                   },
                   "type": "composition"
@@ -59,7 +59,7 @@
               "desktop": {
                 "container": {
                   "value": {
-                    "itemSpacing": "{sem.structure.form.components.formBoilerplate.child.container.spacing}",
+                    "itemSpacing": "{sem.structure.form.components.formBoilerplate.childGroup.container.spacing}",
                     "layoutMode": "horizontal"
                   },
                   "type": "composition"

@@ -7,7 +7,7 @@ comp
   {
     "container": {
       "value": {
-        "itemSpacing": "{sem.structure.form.components.formBoilerplate.child.container.spacing}",
+        "itemSpacing": "{sem.structure.form.components.formBoilerplate.childGroup.container.spacing}",
         "layoutMode": "<< aspectRatio == 'mobile' ? 'vertical' : 'horizontal' >>"
       },
       "type": "composition"
