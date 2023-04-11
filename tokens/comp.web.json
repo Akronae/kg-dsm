@@ -2543,7 +2543,7 @@
         "icon": {
           "color": {
             "value": {
-              "border": "{sem.border.icon.sm.default}"
+              "border": "{sem.borderIcon.sm.default}"
             },
             "type": "composition"
           },
@@ -2579,7 +2579,7 @@
         "icon": {
           "color": {
             "value": {
-              "border": "{sem.border.icon.sm.default}"
+              "border": "{sem.borderIcon.sm.default}"
             },
             "type": "composition"
           },
@@ -2615,7 +2615,7 @@
         "icon": {
           "color": {
             "value": {
-              "border": "{sem.border.icon.sm.default}"
+              "border": "{sem.borderIcon.sm.default}"
             },
             "type": "composition"
           },
@@ -2651,7 +2651,7 @@
         "icon": {
           "color": {
             "value": {
-              "border": "{sem.border.icon.sm.light}"
+              "border": "{sem.borderIcon.sm.light}"
             },
             "type": "composition"
           },
