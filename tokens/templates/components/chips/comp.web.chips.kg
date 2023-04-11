@@ -20,7 +20,7 @@ comp
     "icon": {
       "color": {
         "value": {
-          "border": "{sem.borderIcon.sm.<< state == 'active' ? 'light' : 'default'>>}"
+          "border": "{sem.border.icon.sm.<< state == 'active' ? 'light' : 'default'>>}"
         },
         "type": "composition"
       },
