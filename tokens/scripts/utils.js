@@ -10,18 +10,18 @@ module.exports = {
     if (!sources.length) return target;
     const source = sources.shift();
 
-    if (this.isObject(target) && this.isObject(source)) {
+    if (module.exports.isObject(target) && module.exports.isObject(source)) {
       for (const key in source) {
-        if (this.isObject(source[key])) {
+        if (module.exports.isObject(source[key])) {
           if (!target[key]) Object.assign(target, { [key]: {} });
-          this.mergeDeep(target[key], source[key]);
+          module.exports.mergeDeep(target[key], source[key]);
         } else {
           Object.assign(target, { [key]: source[key] });
         }
       }
     }
 
-    return this.mergeDeep(target, ...sources);
+    return module.exports.mergeDeep(target, ...sources);
   },
 
   indexOfFirst(str, ...arr) {
@@ -159,6 +159,11 @@ module.exports = {
     }
   },
 
+  /**
+   * 
+   * @param {string} dir 
+   * @returns {string[]}
+   */
   readdirRecursive(dir) {
     const dirents = fs.readdirSync(dir, { withFileTypes: true });
     const files = dirents.map((dirent) => {
