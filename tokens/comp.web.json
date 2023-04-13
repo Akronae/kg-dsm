@@ -15363,6 +15363,15 @@
           "type": "composition"
         }
       }
+    },
+    "formField": {
+      "wrapper": {
+        "value": {
+          "itemSpacing": "{sem.formField.wrapper.spacing}",
+          "layoutMode": "vertical"
+        },
+        "type": "composition"
+      }
     }
   },
   "sem": {
@@ -16099,6 +16108,14 @@
         "size": {
           "value": "{ref.sizing.200}",
           "type": "sizing"
+        }
+      }
+    },
+    "formField": {
+      "wrapper": {
+        "spacing": {
+          "value": "{ref.spacing.100}",
+          "type": "spacing"
         }
       }
     }
