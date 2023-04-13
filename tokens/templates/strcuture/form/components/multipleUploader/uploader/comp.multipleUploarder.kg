@@ -11,12 +11,6 @@ comp
       },
       "type": "composition"
     },
-    "wrapper": {
-      "value": {
-        "itemSpacing": "{sem.structure.form.components.multipleUploader.uploader.wrapper.spacing}"
-      },
-      "type": "composition"
-    },
     "dragZone": {
       "container": {
         "value": {

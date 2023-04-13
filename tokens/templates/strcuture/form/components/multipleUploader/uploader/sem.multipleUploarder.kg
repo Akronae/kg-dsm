@@ -10,12 +10,6 @@ sem
         "type": "spacing"
       }
     },
-    "wrapper": {
-      "spacing": {
-        "value": "{ref.spacing.100}",
-        "type": "spacing"
-      }
-    },
     "dragZone": {
       "container": {
         "spacing": {
