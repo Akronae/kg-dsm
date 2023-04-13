@@ -160,12 +160,6 @@
                   },
                   "type": "composition"
                 },
-                "wrapper": {
-                  "value": {
-                    "itemSpacing": "{sem.structure.form.components.multipleUploader.uploader.wrapper.spacing}"
-                  },
-                  "type": "composition"
-                },
                 "dragZone": {
                   "container": {
                     "value": {
@@ -216,12 +210,6 @@
                 "container": {
                   "value": {
                     "itemSpacing": "{sem.structure.form.components.multipleUploader.uploader.container.spacing}"
-                  },
-                  "type": "composition"
-                },
-                "wrapper": {
-                  "value": {
-                    "itemSpacing": "{sem.structure.form.components.multipleUploader.uploader.wrapper.spacing}"
                   },
                   "type": "composition"
                 },
@@ -278,12 +266,6 @@
                   },
                   "type": "composition"
                 },
-                "wrapper": {
-                  "value": {
-                    "itemSpacing": "{sem.structure.form.components.multipleUploader.uploader.wrapper.spacing}"
-                  },
-                  "type": "composition"
-                },
                 "dragZone": {
                   "container": {
                     "value": {
@@ -334,12 +316,6 @@
                 "container": {
                   "value": {
                     "itemSpacing": "{sem.structure.form.components.multipleUploader.uploader.container.spacing}"
-                  },
-                  "type": "composition"
-                },
-                "wrapper": {
-                  "value": {
-                    "itemSpacing": "{sem.structure.form.components.multipleUploader.uploader.wrapper.spacing}"
                   },
                   "type": "composition"
                 },
@@ -396,12 +372,6 @@
                   },
                   "type": "composition"
                 },
-                "wrapper": {
-                  "value": {
-                    "itemSpacing": "{sem.structure.form.components.multipleUploader.uploader.wrapper.spacing}"
-                  },
-                  "type": "composition"
-                },
                 "dragZone": {
                   "container": {
                     "value": {
@@ -452,12 +422,6 @@
                 "container": {
                   "value": {
                     "itemSpacing": "{sem.structure.form.components.multipleUploader.uploader.container.spacing}"
-                  },
-                  "type": "composition"
-                },
-                "wrapper": {
-                  "value": {
-                    "itemSpacing": "{sem.structure.form.components.multipleUploader.uploader.wrapper.spacing}"
                   },
                   "type": "composition"
                 },
@@ -909,12 +873,6 @@
               "container": {
                 "spacing": {
                   "value": "{ref.spacing.200}",
-                  "type": "spacing"
-                }
-              },
-              "wrapper": {
-                "spacing": {
-                  "value": "{ref.spacing.100}",
                   "type": "spacing"
                 }
               },
