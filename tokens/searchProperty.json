@@ -195,7 +195,7 @@
             "item": {
               "cel": {
                 "colors": {
-                  "dpe": {
+                  "DPE": {
                     "A": {
                       "value": "#009035",
                       "type": "color"
@@ -225,7 +225,7 @@
                       "type": "color"
                     }
                   },
-                  "ges": {
+                  "GES": {
                     "A": {
                       "value": "#FCF0F4",
                       "type": "color"
