@@ -1,0 +1,19 @@
+// @replacepath: tokens/comp.web.json
+
+comp
+.diag
+.energy
+[state: 'default' | 'hover' | 'pressed' | 'active']
+[type: 'dpe' | 'ges']
+[value: 'a' | 'b' | 'c' | 'd' | 'e' | 'f' | 'g' | 'empty']
+[
+  {
+    "container": {
+      "value": {
+        "fill": "{<<state == 'active' ? 'comp.searchProperty.announcePage.sections.diag.item.cel.colors.' + type + '.' + value : 'sem.color.surface.interactive.sub.' + state>>}"
+      },
+      "type": "composition",
+      "description": "({extends: 'comp.chip.<<state>>.container'})"
+    }
+  }
+]

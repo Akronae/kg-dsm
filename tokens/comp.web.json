@@ -15376,6 +15376,1144 @@
           "type": "composition"
         }
       }
+    },
+    "diag": {
+      "energy": {
+        "default": {
+          "dpe": {
+            "a": {
+              "container": {
+                "value": {
+                  "fill": "{sem.color.surface.interactive.sub.default}",
+                  "border": "{sem.border.interactive.default}",
+                  "itemSpacing": "{sem.chip.container.spacing}",
+                  "borderRadius": "{sem.chip.container.borderRadius}",
+                  "paddingLeft": "{sem.chip.container.paddingLeft}",
+                  "paddingRight": "{sem.chip.container.paddingRight}",
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.chip.default.container'})"
+              }
+            },
+            "b": {
+              "container": {
+                "value": {
+                  "fill": "{sem.color.surface.interactive.sub.default}",
+                  "border": "{sem.border.interactive.default}",
+                  "itemSpacing": "{sem.chip.container.spacing}",
+                  "borderRadius": "{sem.chip.container.borderRadius}",
+                  "paddingLeft": "{sem.chip.container.paddingLeft}",
+                  "paddingRight": "{sem.chip.container.paddingRight}",
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.chip.default.container'})"
+              }
+            },
+            "c": {
+              "container": {
+                "value": {
+                  "fill": "{sem.color.surface.interactive.sub.default}",
+                  "border": "{sem.border.interactive.default}",
+                  "itemSpacing": "{sem.chip.container.spacing}",
+                  "borderRadius": "{sem.chip.container.borderRadius}",
+                  "paddingLeft": "{sem.chip.container.paddingLeft}",
+                  "paddingRight": "{sem.chip.container.paddingRight}",
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.chip.default.container'})"
+              }
+            },
+            "d": {
+              "container": {
+                "value": {
+                  "fill": "{sem.color.surface.interactive.sub.default}",
+                  "border": "{sem.border.interactive.default}",
+                  "itemSpacing": "{sem.chip.container.spacing}",
+                  "borderRadius": "{sem.chip.container.borderRadius}",
+                  "paddingLeft": "{sem.chip.container.paddingLeft}",
+                  "paddingRight": "{sem.chip.container.paddingRight}",
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.chip.default.container'})"
+              }
+            },
+            "e": {
+              "container": {
+                "value": {
+                  "fill": "{sem.color.surface.interactive.sub.default}",
+                  "border": "{sem.border.interactive.default}",
+                  "itemSpacing": "{sem.chip.container.spacing}",
+                  "borderRadius": "{sem.chip.container.borderRadius}",
+                  "paddingLeft": "{sem.chip.container.paddingLeft}",
+                  "paddingRight": "{sem.chip.container.paddingRight}",
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.chip.default.container'})"
+              }
+            },
+            "f": {
+              "container": {
+                "value": {
+                  "fill": "{sem.color.surface.interactive.sub.default}",
+                  "border": "{sem.border.interactive.default}",
+                  "itemSpacing": "{sem.chip.container.spacing}",
+                  "borderRadius": "{sem.chip.container.borderRadius}",
+                  "paddingLeft": "{sem.chip.container.paddingLeft}",
+                  "paddingRight": "{sem.chip.container.paddingRight}",
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.chip.default.container'})"
+              }
+            },
+            "g": {
+              "container": {
+                "value": {
+                  "fill": "{sem.color.surface.interactive.sub.default}",
+                  "border": "{sem.border.interactive.default}",
+                  "itemSpacing": "{sem.chip.container.spacing}",
+                  "borderRadius": "{sem.chip.container.borderRadius}",
+                  "paddingLeft": "{sem.chip.container.paddingLeft}",
+                  "paddingRight": "{sem.chip.container.paddingRight}",
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.chip.default.container'})"
+              }
+            },
+            "empty": {
+              "container": {
+                "value": {
+                  "fill": "{sem.color.surface.interactive.sub.default}",
+                  "border": "{sem.border.interactive.default}",
+                  "itemSpacing": "{sem.chip.container.spacing}",
+                  "borderRadius": "{sem.chip.container.borderRadius}",
+                  "paddingLeft": "{sem.chip.container.paddingLeft}",
+                  "paddingRight": "{sem.chip.container.paddingRight}",
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.chip.default.container'})"
+              }
+            }
+          },
+          "ges": {
+            "a": {
+              "container": {
+                "value": {
+                  "fill": "{sem.color.surface.interactive.sub.default}",
+                  "border": "{sem.border.interactive.default}",
+                  "itemSpacing": "{sem.chip.container.spacing}",
+                  "borderRadius": "{sem.chip.container.borderRadius}",
+                  "paddingLeft": "{sem.chip.container.paddingLeft}",
+                  "paddingRight": "{sem.chip.container.paddingRight}",
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.chip.default.container'})"
+              }
+            },
+            "b": {
+              "container": {
+                "value": {
+                  "fill": "{sem.color.surface.interactive.sub.default}",
+                  "border": "{sem.border.interactive.default}",
+                  "itemSpacing": "{sem.chip.container.spacing}",
+                  "borderRadius": "{sem.chip.container.borderRadius}",
+                  "paddingLeft": "{sem.chip.container.paddingLeft}",
+                  "paddingRight": "{sem.chip.container.paddingRight}",
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.chip.default.container'})"
+              }
+            },
+            "c": {
+              "container": {
+                "value": {
+                  "fill": "{sem.color.surface.interactive.sub.default}",
+                  "border": "{sem.border.interactive.default}",
+                  "itemSpacing": "{sem.chip.container.spacing}",
+                  "borderRadius": "{sem.chip.container.borderRadius}",
+                  "paddingLeft": "{sem.chip.container.paddingLeft}",
+                  "paddingRight": "{sem.chip.container.paddingRight}",
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.chip.default.container'})"
+              }
+            },
+            "d": {
+              "container": {
+                "value": {
+                  "fill": "{sem.color.surface.interactive.sub.default}",
+                  "border": "{sem.border.interactive.default}",
+                  "itemSpacing": "{sem.chip.container.spacing}",
+                  "borderRadius": "{sem.chip.container.borderRadius}",
+                  "paddingLeft": "{sem.chip.container.paddingLeft}",
+                  "paddingRight": "{sem.chip.container.paddingRight}",
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.chip.default.container'})"
+              }
+            },
+            "e": {
+              "container": {
+                "value": {
+                  "fill": "{sem.color.surface.interactive.sub.default}",
+                  "border": "{sem.border.interactive.default}",
+                  "itemSpacing": "{sem.chip.container.spacing}",
+                  "borderRadius": "{sem.chip.container.borderRadius}",
+                  "paddingLeft": "{sem.chip.container.paddingLeft}",
+                  "paddingRight": "{sem.chip.container.paddingRight}",
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.chip.default.container'})"
+              }
+            },
+            "f": {
+              "container": {
+                "value": {
+                  "fill": "{sem.color.surface.interactive.sub.default}",
+                  "border": "{sem.border.interactive.default}",
+                  "itemSpacing": "{sem.chip.container.spacing}",
+                  "borderRadius": "{sem.chip.container.borderRadius}",
+                  "paddingLeft": "{sem.chip.container.paddingLeft}",
+                  "paddingRight": "{sem.chip.container.paddingRight}",
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.chip.default.container'})"
+              }
+            },
+            "g": {
+              "container": {
+                "value": {
+                  "fill": "{sem.color.surface.interactive.sub.default}",
+                  "border": "{sem.border.interactive.default}",
+                  "itemSpacing": "{sem.chip.container.spacing}",
+                  "borderRadius": "{sem.chip.container.borderRadius}",
+                  "paddingLeft": "{sem.chip.container.paddingLeft}",
+                  "paddingRight": "{sem.chip.container.paddingRight}",
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.chip.default.container'})"
+              }
+            },
+            "empty": {
+              "container": {
+                "value": {
+                  "fill": "{sem.color.surface.interactive.sub.default}",
+                  "border": "{sem.border.interactive.default}",
+                  "itemSpacing": "{sem.chip.container.spacing}",
+                  "borderRadius": "{sem.chip.container.borderRadius}",
+                  "paddingLeft": "{sem.chip.container.paddingLeft}",
+                  "paddingRight": "{sem.chip.container.paddingRight}",
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.chip.default.container'})"
+              }
+            }
+          }
+        },
+        "hover": {
+          "dpe": {
+            "a": {
+              "container": {
+                "value": {
+                  "fill": "{sem.color.surface.interactive.sub.hover}",
+                  "border": "{sem.border.interactive.hover}",
+                  "itemSpacing": "{sem.chip.container.spacing}",
+                  "borderRadius": "{sem.chip.container.borderRadius}",
+                  "paddingLeft": "{sem.chip.container.paddingLeft}",
+                  "paddingRight": "{sem.chip.container.paddingRight}",
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.chip.hover.container'})"
+              }
+            },
+            "b": {
+              "container": {
+                "value": {
+                  "fill": "{sem.color.surface.interactive.sub.hover}",
+                  "border": "{sem.border.interactive.hover}",
+                  "itemSpacing": "{sem.chip.container.spacing}",
+                  "borderRadius": "{sem.chip.container.borderRadius}",
+                  "paddingLeft": "{sem.chip.container.paddingLeft}",
+                  "paddingRight": "{sem.chip.container.paddingRight}",
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.chip.hover.container'})"
+              }
+            },
+            "c": {
+              "container": {
+                "value": {
+                  "fill": "{sem.color.surface.interactive.sub.hover}",
+                  "border": "{sem.border.interactive.hover}",
+                  "itemSpacing": "{sem.chip.container.spacing}",
+                  "borderRadius": "{sem.chip.container.borderRadius}",
+                  "paddingLeft": "{sem.chip.container.paddingLeft}",
+                  "paddingRight": "{sem.chip.container.paddingRight}",
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.chip.hover.container'})"
+              }
+            },
+            "d": {
+              "container": {
+                "value": {
+                  "fill": "{sem.color.surface.interactive.sub.hover}",
+                  "border": "{sem.border.interactive.hover}",
+                  "itemSpacing": "{sem.chip.container.spacing}",
+                  "borderRadius": "{sem.chip.container.borderRadius}",
+                  "paddingLeft": "{sem.chip.container.paddingLeft}",
+                  "paddingRight": "{sem.chip.container.paddingRight}",
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.chip.hover.container'})"
+              }
+            },
+            "e": {
+              "container": {
+                "value": {
+                  "fill": "{sem.color.surface.interactive.sub.hover}",
+                  "border": "{sem.border.interactive.hover}",
+                  "itemSpacing": "{sem.chip.container.spacing}",
+                  "borderRadius": "{sem.chip.container.borderRadius}",
+                  "paddingLeft": "{sem.chip.container.paddingLeft}",
+                  "paddingRight": "{sem.chip.container.paddingRight}",
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.chip.hover.container'})"
+              }
+            },
+            "f": {
+              "container": {
+                "value": {
+                  "fill": "{sem.color.surface.interactive.sub.hover}",
+                  "border": "{sem.border.interactive.hover}",
+                  "itemSpacing": "{sem.chip.container.spacing}",
+                  "borderRadius": "{sem.chip.container.borderRadius}",
+                  "paddingLeft": "{sem.chip.container.paddingLeft}",
+                  "paddingRight": "{sem.chip.container.paddingRight}",
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.chip.hover.container'})"
+              }
+            },
+            "g": {
+              "container": {
+                "value": {
+                  "fill": "{sem.color.surface.interactive.sub.hover}",
+                  "border": "{sem.border.interactive.hover}",
+                  "itemSpacing": "{sem.chip.container.spacing}",
+                  "borderRadius": "{sem.chip.container.borderRadius}",
+                  "paddingLeft": "{sem.chip.container.paddingLeft}",
+                  "paddingRight": "{sem.chip.container.paddingRight}",
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.chip.hover.container'})"
+              }
+            },
+            "empty": {
+              "container": {
+                "value": {
+                  "fill": "{sem.color.surface.interactive.sub.hover}",
+                  "border": "{sem.border.interactive.hover}",
+                  "itemSpacing": "{sem.chip.container.spacing}",
+                  "borderRadius": "{sem.chip.container.borderRadius}",
+                  "paddingLeft": "{sem.chip.container.paddingLeft}",
+                  "paddingRight": "{sem.chip.container.paddingRight}",
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.chip.hover.container'})"
+              }
+            }
+          },
+          "ges": {
+            "a": {
+              "container": {
+                "value": {
+                  "fill": "{sem.color.surface.interactive.sub.hover}",
+                  "border": "{sem.border.interactive.hover}",
+                  "itemSpacing": "{sem.chip.container.spacing}",
+                  "borderRadius": "{sem.chip.container.borderRadius}",
+                  "paddingLeft": "{sem.chip.container.paddingLeft}",
+                  "paddingRight": "{sem.chip.container.paddingRight}",
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.chip.hover.container'})"
+              }
+            },
+            "b": {
+              "container": {
+                "value": {
+                  "fill": "{sem.color.surface.interactive.sub.hover}",
+                  "border": "{sem.border.interactive.hover}",
+                  "itemSpacing": "{sem.chip.container.spacing}",
+                  "borderRadius": "{sem.chip.container.borderRadius}",
+                  "paddingLeft": "{sem.chip.container.paddingLeft}",
+                  "paddingRight": "{sem.chip.container.paddingRight}",
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.chip.hover.container'})"
+              }
+            },
+            "c": {
+              "container": {
+                "value": {
+                  "fill": "{sem.color.surface.interactive.sub.hover}",
+                  "border": "{sem.border.interactive.hover}",
+                  "itemSpacing": "{sem.chip.container.spacing}",
+                  "borderRadius": "{sem.chip.container.borderRadius}",
+                  "paddingLeft": "{sem.chip.container.paddingLeft}",
+                  "paddingRight": "{sem.chip.container.paddingRight}",
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.chip.hover.container'})"
+              }
+            },
+            "d": {
+              "container": {
+                "value": {
+                  "fill": "{sem.color.surface.interactive.sub.hover}",
+                  "border": "{sem.border.interactive.hover}",
+                  "itemSpacing": "{sem.chip.container.spacing}",
+                  "borderRadius": "{sem.chip.container.borderRadius}",
+                  "paddingLeft": "{sem.chip.container.paddingLeft}",
+                  "paddingRight": "{sem.chip.container.paddingRight}",
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.chip.hover.container'})"
+              }
+            },
+            "e": {
+              "container": {
+                "value": {
+                  "fill": "{sem.color.surface.interactive.sub.hover}",
+                  "border": "{sem.border.interactive.hover}",
+                  "itemSpacing": "{sem.chip.container.spacing}",
+                  "borderRadius": "{sem.chip.container.borderRadius}",
+                  "paddingLeft": "{sem.chip.container.paddingLeft}",
+                  "paddingRight": "{sem.chip.container.paddingRight}",
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.chip.hover.container'})"
+              }
+            },
+            "f": {
+              "container": {
+                "value": {
+                  "fill": "{sem.color.surface.interactive.sub.hover}",
+                  "border": "{sem.border.interactive.hover}",
+                  "itemSpacing": "{sem.chip.container.spacing}",
+                  "borderRadius": "{sem.chip.container.borderRadius}",
+                  "paddingLeft": "{sem.chip.container.paddingLeft}",
+                  "paddingRight": "{sem.chip.container.paddingRight}",
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.chip.hover.container'})"
+              }
+            },
+            "g": {
+              "container": {
+                "value": {
+                  "fill": "{sem.color.surface.interactive.sub.hover}",
+                  "border": "{sem.border.interactive.hover}",
+                  "itemSpacing": "{sem.chip.container.spacing}",
+                  "borderRadius": "{sem.chip.container.borderRadius}",
+                  "paddingLeft": "{sem.chip.container.paddingLeft}",
+                  "paddingRight": "{sem.chip.container.paddingRight}",
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.chip.hover.container'})"
+              }
+            },
+            "empty": {
+              "container": {
+                "value": {
+                  "fill": "{sem.color.surface.interactive.sub.hover}",
+                  "border": "{sem.border.interactive.hover}",
+                  "itemSpacing": "{sem.chip.container.spacing}",
+                  "borderRadius": "{sem.chip.container.borderRadius}",
+                  "paddingLeft": "{sem.chip.container.paddingLeft}",
+                  "paddingRight": "{sem.chip.container.paddingRight}",
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.chip.hover.container'})"
+              }
+            }
+          }
+        },
+        "pressed": {
+          "dpe": {
+            "a": {
+              "container": {
+                "value": {
+                  "fill": "{sem.color.surface.interactive.sub.pressed}",
+                  "border": "{sem.border.interactive.pressed}",
+                  "itemSpacing": "{sem.chip.container.spacing}",
+                  "borderRadius": "{sem.chip.container.borderRadius}",
+                  "paddingLeft": "{sem.chip.container.paddingLeft}",
+                  "paddingRight": "{sem.chip.container.paddingRight}",
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.chip.pressed.container'})"
+              }
+            },
+            "b": {
+              "container": {
+                "value": {
+                  "fill": "{sem.color.surface.interactive.sub.pressed}",
+                  "border": "{sem.border.interactive.pressed}",
+                  "itemSpacing": "{sem.chip.container.spacing}",
+                  "borderRadius": "{sem.chip.container.borderRadius}",
+                  "paddingLeft": "{sem.chip.container.paddingLeft}",
+                  "paddingRight": "{sem.chip.container.paddingRight}",
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.chip.pressed.container'})"
+              }
+            },
+            "c": {
+              "container": {
+                "value": {
+                  "fill": "{sem.color.surface.interactive.sub.pressed}",
+                  "border": "{sem.border.interactive.pressed}",
+                  "itemSpacing": "{sem.chip.container.spacing}",
+                  "borderRadius": "{sem.chip.container.borderRadius}",
+                  "paddingLeft": "{sem.chip.container.paddingLeft}",
+                  "paddingRight": "{sem.chip.container.paddingRight}",
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.chip.pressed.container'})"
+              }
+            },
+            "d": {
+              "container": {
+                "value": {
+                  "fill": "{sem.color.surface.interactive.sub.pressed}",
+                  "border": "{sem.border.interactive.pressed}",
+                  "itemSpacing": "{sem.chip.container.spacing}",
+                  "borderRadius": "{sem.chip.container.borderRadius}",
+                  "paddingLeft": "{sem.chip.container.paddingLeft}",
+                  "paddingRight": "{sem.chip.container.paddingRight}",
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.chip.pressed.container'})"
+              }
+            },
+            "e": {
+              "container": {
+                "value": {
+                  "fill": "{sem.color.surface.interactive.sub.pressed}",
+                  "border": "{sem.border.interactive.pressed}",
+                  "itemSpacing": "{sem.chip.container.spacing}",
+                  "borderRadius": "{sem.chip.container.borderRadius}",
+                  "paddingLeft": "{sem.chip.container.paddingLeft}",
+                  "paddingRight": "{sem.chip.container.paddingRight}",
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.chip.pressed.container'})"
+              }
+            },
+            "f": {
+              "container": {
+                "value": {
+                  "fill": "{sem.color.surface.interactive.sub.pressed}",
+                  "border": "{sem.border.interactive.pressed}",
+                  "itemSpacing": "{sem.chip.container.spacing}",
+                  "borderRadius": "{sem.chip.container.borderRadius}",
+                  "paddingLeft": "{sem.chip.container.paddingLeft}",
+                  "paddingRight": "{sem.chip.container.paddingRight}",
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.chip.pressed.container'})"
+              }
+            },
+            "g": {
+              "container": {
+                "value": {
+                  "fill": "{sem.color.surface.interactive.sub.pressed}",
+                  "border": "{sem.border.interactive.pressed}",
+                  "itemSpacing": "{sem.chip.container.spacing}",
+                  "borderRadius": "{sem.chip.container.borderRadius}",
+                  "paddingLeft": "{sem.chip.container.paddingLeft}",
+                  "paddingRight": "{sem.chip.container.paddingRight}",
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.chip.pressed.container'})"
+              }
+            },
+            "empty": {
+              "container": {
+                "value": {
+                  "fill": "{sem.color.surface.interactive.sub.pressed}",
+                  "border": "{sem.border.interactive.pressed}",
+                  "itemSpacing": "{sem.chip.container.spacing}",
+                  "borderRadius": "{sem.chip.container.borderRadius}",
+                  "paddingLeft": "{sem.chip.container.paddingLeft}",
+                  "paddingRight": "{sem.chip.container.paddingRight}",
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.chip.pressed.container'})"
+              }
+            }
+          },
+          "ges": {
+            "a": {
+              "container": {
+                "value": {
+                  "fill": "{sem.color.surface.interactive.sub.pressed}",
+                  "border": "{sem.border.interactive.pressed}",
+                  "itemSpacing": "{sem.chip.container.spacing}",
+                  "borderRadius": "{sem.chip.container.borderRadius}",
+                  "paddingLeft": "{sem.chip.container.paddingLeft}",
+                  "paddingRight": "{sem.chip.container.paddingRight}",
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.chip.pressed.container'})"
+              }
+            },
+            "b": {
+              "container": {
+                "value": {
+                  "fill": "{sem.color.surface.interactive.sub.pressed}",
+                  "border": "{sem.border.interactive.pressed}",
+                  "itemSpacing": "{sem.chip.container.spacing}",
+                  "borderRadius": "{sem.chip.container.borderRadius}",
+                  "paddingLeft": "{sem.chip.container.paddingLeft}",
+                  "paddingRight": "{sem.chip.container.paddingRight}",
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.chip.pressed.container'})"
+              }
+            },
+            "c": {
+              "container": {
+                "value": {
+                  "fill": "{sem.color.surface.interactive.sub.pressed}",
+                  "border": "{sem.border.interactive.pressed}",
+                  "itemSpacing": "{sem.chip.container.spacing}",
+                  "borderRadius": "{sem.chip.container.borderRadius}",
+                  "paddingLeft": "{sem.chip.container.paddingLeft}",
+                  "paddingRight": "{sem.chip.container.paddingRight}",
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.chip.pressed.container'})"
+              }
+            },
+            "d": {
+              "container": {
+                "value": {
+                  "fill": "{sem.color.surface.interactive.sub.pressed}",
+                  "border": "{sem.border.interactive.pressed}",
+                  "itemSpacing": "{sem.chip.container.spacing}",
+                  "borderRadius": "{sem.chip.container.borderRadius}",
+                  "paddingLeft": "{sem.chip.container.paddingLeft}",
+                  "paddingRight": "{sem.chip.container.paddingRight}",
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.chip.pressed.container'})"
+              }
+            },
+            "e": {
+              "container": {
+                "value": {
+                  "fill": "{sem.color.surface.interactive.sub.pressed}",
+                  "border": "{sem.border.interactive.pressed}",
+                  "itemSpacing": "{sem.chip.container.spacing}",
+                  "borderRadius": "{sem.chip.container.borderRadius}",
+                  "paddingLeft": "{sem.chip.container.paddingLeft}",
+                  "paddingRight": "{sem.chip.container.paddingRight}",
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.chip.pressed.container'})"
+              }
+            },
+            "f": {
+              "container": {
+                "value": {
+                  "fill": "{sem.color.surface.interactive.sub.pressed}",
+                  "border": "{sem.border.interactive.pressed}",
+                  "itemSpacing": "{sem.chip.container.spacing}",
+                  "borderRadius": "{sem.chip.container.borderRadius}",
+                  "paddingLeft": "{sem.chip.container.paddingLeft}",
+                  "paddingRight": "{sem.chip.container.paddingRight}",
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.chip.pressed.container'})"
+              }
+            },
+            "g": {
+              "container": {
+                "value": {
+                  "fill": "{sem.color.surface.interactive.sub.pressed}",
+                  "border": "{sem.border.interactive.pressed}",
+                  "itemSpacing": "{sem.chip.container.spacing}",
+                  "borderRadius": "{sem.chip.container.borderRadius}",
+                  "paddingLeft": "{sem.chip.container.paddingLeft}",
+                  "paddingRight": "{sem.chip.container.paddingRight}",
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.chip.pressed.container'})"
+              }
+            },
+            "empty": {
+              "container": {
+                "value": {
+                  "fill": "{sem.color.surface.interactive.sub.pressed}",
+                  "border": "{sem.border.interactive.pressed}",
+                  "itemSpacing": "{sem.chip.container.spacing}",
+                  "borderRadius": "{sem.chip.container.borderRadius}",
+                  "paddingLeft": "{sem.chip.container.paddingLeft}",
+                  "paddingRight": "{sem.chip.container.paddingRight}",
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.chip.pressed.container'})"
+              }
+            }
+          }
+        },
+        "active": {
+          "dpe": {
+            "a": {
+              "container": {
+                "value": {
+                  "fill": "{comp.searchProperty.announcePage.sections.diag.item.cel.colors.dpe.a}",
+                  "border": "none",
+                  "itemSpacing": "{sem.chip.container.spacing}",
+                  "borderRadius": "{sem.chip.container.borderRadius}",
+                  "paddingLeft": "{sem.chip.container.paddingLeft}",
+                  "paddingRight": "{sem.chip.container.paddingRight}",
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.chip.active.container'})"
+              }
+            },
+            "b": {
+              "container": {
+                "value": {
+                  "fill": "{comp.searchProperty.announcePage.sections.diag.item.cel.colors.dpe.b}",
+                  "border": "none",
+                  "itemSpacing": "{sem.chip.container.spacing}",
+                  "borderRadius": "{sem.chip.container.borderRadius}",
+                  "paddingLeft": "{sem.chip.container.paddingLeft}",
+                  "paddingRight": "{sem.chip.container.paddingRight}",
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.chip.active.container'})"
+              }
+            },
+            "c": {
+              "container": {
+                "value": {
+                  "fill": "{comp.searchProperty.announcePage.sections.diag.item.cel.colors.dpe.c}",
+                  "border": "none",
+                  "itemSpacing": "{sem.chip.container.spacing}",
+                  "borderRadius": "{sem.chip.container.borderRadius}",
+                  "paddingLeft": "{sem.chip.container.paddingLeft}",
+                  "paddingRight": "{sem.chip.container.paddingRight}",
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.chip.active.container'})"
+              }
+            },
+            "d": {
+              "container": {
+                "value": {
+                  "fill": "{comp.searchProperty.announcePage.sections.diag.item.cel.colors.dpe.d}",
+                  "border": "none",
+                  "itemSpacing": "{sem.chip.container.spacing}",
+                  "borderRadius": "{sem.chip.container.borderRadius}",
+                  "paddingLeft": "{sem.chip.container.paddingLeft}",
+                  "paddingRight": "{sem.chip.container.paddingRight}",
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.chip.active.container'})"
+              }
+            },
+            "e": {
+              "container": {
+                "value": {
+                  "fill": "{comp.searchProperty.announcePage.sections.diag.item.cel.colors.dpe.e}",
+                  "border": "none",
+                  "itemSpacing": "{sem.chip.container.spacing}",
+                  "borderRadius": "{sem.chip.container.borderRadius}",
+                  "paddingLeft": "{sem.chip.container.paddingLeft}",
+                  "paddingRight": "{sem.chip.container.paddingRight}",
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.chip.active.container'})"
+              }
+            },
+            "f": {
+              "container": {
+                "value": {
+                  "fill": "{comp.searchProperty.announcePage.sections.diag.item.cel.colors.dpe.f}",
+                  "border": "none",
+                  "itemSpacing": "{sem.chip.container.spacing}",
+                  "borderRadius": "{sem.chip.container.borderRadius}",
+                  "paddingLeft": "{sem.chip.container.paddingLeft}",
+                  "paddingRight": "{sem.chip.container.paddingRight}",
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.chip.active.container'})"
+              }
+            },
+            "g": {
+              "container": {
+                "value": {
+                  "fill": "{comp.searchProperty.announcePage.sections.diag.item.cel.colors.dpe.g}",
+                  "border": "none",
+                  "itemSpacing": "{sem.chip.container.spacing}",
+                  "borderRadius": "{sem.chip.container.borderRadius}",
+                  "paddingLeft": "{sem.chip.container.paddingLeft}",
+                  "paddingRight": "{sem.chip.container.paddingRight}",
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.chip.active.container'})"
+              }
+            },
+            "empty": {
+              "container": {
+                "value": {
+                  "fill": "{comp.searchProperty.announcePage.sections.diag.item.cel.colors.dpe.empty}",
+                  "border": "none",
+                  "itemSpacing": "{sem.chip.container.spacing}",
+                  "borderRadius": "{sem.chip.container.borderRadius}",
+                  "paddingLeft": "{sem.chip.container.paddingLeft}",
+                  "paddingRight": "{sem.chip.container.paddingRight}",
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.chip.active.container'})"
+              }
+            }
+          },
+          "ges": {
+            "a": {
+              "container": {
+                "value": {
+                  "fill": "{comp.searchProperty.announcePage.sections.diag.item.cel.colors.ges.a}",
+                  "border": "none",
+                  "itemSpacing": "{sem.chip.container.spacing}",
+                  "borderRadius": "{sem.chip.container.borderRadius}",
+                  "paddingLeft": "{sem.chip.container.paddingLeft}",
+                  "paddingRight": "{sem.chip.container.paddingRight}",
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.chip.active.container'})"
+              }
+            },
+            "b": {
+              "container": {
+                "value": {
+                  "fill": "{comp.searchProperty.announcePage.sections.diag.item.cel.colors.ges.b}",
+                  "border": "none",
+                  "itemSpacing": "{sem.chip.container.spacing}",
+                  "borderRadius": "{sem.chip.container.borderRadius}",
+                  "paddingLeft": "{sem.chip.container.paddingLeft}",
+                  "paddingRight": "{sem.chip.container.paddingRight}",
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.chip.active.container'})"
+              }
+            },
+            "c": {
+              "container": {
+                "value": {
+                  "fill": "{comp.searchProperty.announcePage.sections.diag.item.cel.colors.ges.c}",
+                  "border": "none",
+                  "itemSpacing": "{sem.chip.container.spacing}",
+                  "borderRadius": "{sem.chip.container.borderRadius}",
+                  "paddingLeft": "{sem.chip.container.paddingLeft}",
+                  "paddingRight": "{sem.chip.container.paddingRight}",
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.chip.active.container'})"
+              }
+            },
+            "d": {
+              "container": {
+                "value": {
+                  "fill": "{comp.searchProperty.announcePage.sections.diag.item.cel.colors.ges.d}",
+                  "border": "none",
+                  "itemSpacing": "{sem.chip.container.spacing}",
+                  "borderRadius": "{sem.chip.container.borderRadius}",
+                  "paddingLeft": "{sem.chip.container.paddingLeft}",
+                  "paddingRight": "{sem.chip.container.paddingRight}",
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.chip.active.container'})"
+              }
+            },
+            "e": {
+              "container": {
+                "value": {
+                  "fill": "{comp.searchProperty.announcePage.sections.diag.item.cel.colors.ges.e}",
+                  "border": "none",
+                  "itemSpacing": "{sem.chip.container.spacing}",
+                  "borderRadius": "{sem.chip.container.borderRadius}",
+                  "paddingLeft": "{sem.chip.container.paddingLeft}",
+                  "paddingRight": "{sem.chip.container.paddingRight}",
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.chip.active.container'})"
+              }
+            },
+            "f": {
+              "container": {
+                "value": {
+                  "fill": "{comp.searchProperty.announcePage.sections.diag.item.cel.colors.ges.f}",
+                  "border": "none",
+                  "itemSpacing": "{sem.chip.container.spacing}",
+                  "borderRadius": "{sem.chip.container.borderRadius}",
+                  "paddingLeft": "{sem.chip.container.paddingLeft}",
+                  "paddingRight": "{sem.chip.container.paddingRight}",
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.chip.active.container'})"
+              }
+            },
+            "g": {
+              "container": {
+                "value": {
+                  "fill": "{comp.searchProperty.announcePage.sections.diag.item.cel.colors.ges.g}",
+                  "border": "none",
+                  "itemSpacing": "{sem.chip.container.spacing}",
+                  "borderRadius": "{sem.chip.container.borderRadius}",
+                  "paddingLeft": "{sem.chip.container.paddingLeft}",
+                  "paddingRight": "{sem.chip.container.paddingRight}",
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.chip.active.container'})"
+              }
+            },
+            "empty": {
+              "container": {
+                "value": {
+                  "fill": "{comp.searchProperty.announcePage.sections.diag.item.cel.colors.ges.empty}",
+                  "border": "none",
+                  "itemSpacing": "{sem.chip.container.spacing}",
+                  "borderRadius": "{sem.chip.container.borderRadius}",
+                  "paddingLeft": "{sem.chip.container.paddingLeft}",
+                  "paddingRight": "{sem.chip.container.paddingRight}",
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.chip.active.container'})"
+              }
+            }
+          }
+        },
+        "label": {
+          "light": {
+            "default": {
+              "label": {
+                "value": {
+                  "typography": "{sem.typography.textStyle.label.body.sm}",
+                  "fill": "{sem.color.text.default}"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.chip.default.label'})"
+              }
+            },
+            "hover": {
+              "label": {
+                "value": {
+                  "typography": "{sem.typography.textStyle.label.body.sm}",
+                  "fill": "{sem.color.text.default}"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.chip.hover.label'})"
+              }
+            },
+            "pressed": {
+              "label": {
+                "value": {
+                  "typography": "{sem.typography.textStyle.label.body.sm}",
+                  "fill": "{sem.color.text.default}"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.chip.pressed.label'})"
+              }
+            },
+            "active": {
+              "label": {
+                "value": {
+                  "typography": "{sem.typography.textStyle.label.body.sm}",
+                  "fill": "{sem.color.text.dark}"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.chip.active.label'})"
+              }
+            }
+          },
+          "dark": {
+            "default": {
+              "label": {
+                "value": {
+                  "typography": "{sem.typography.textStyle.label.body.sm}",
+                  "fill": "{sem.color.text.default}"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.chip.default.label'})"
+              }
+            },
+            "hover": {
+              "label": {
+                "value": {
+                  "typography": "{sem.typography.textStyle.label.body.sm}",
+                  "fill": "{sem.color.text.default}"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.chip.hover.label'})"
+              }
+            },
+            "pressed": {
+              "label": {
+                "value": {
+                  "typography": "{sem.typography.textStyle.label.body.sm}",
+                  "fill": "{sem.color.text.default}"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.chip.pressed.label'})"
+              }
+            },
+            "active": {
+              "label": {
+                "value": {
+                  "typography": "{sem.typography.textStyle.label.body.sm}",
+                  "fill": "{sem.color.text.default}"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.chip.active.label'})"
+              }
+            }
+          }
+        }
+      }
     }
   },
   "sem": {

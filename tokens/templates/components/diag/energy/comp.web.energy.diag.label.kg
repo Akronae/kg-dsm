@@ -1,0 +1,19 @@
+// @replacepath: tokens/comp.web.json
+
+comp
+.diag
+.energy
+.label
+[luminance: 'light' | 'dark']
+[state: 'default' | 'hover' | 'pressed' | 'active']
+[
+  {
+    "label": {
+      "value": {
+        "fill": "{<<state == 'active' && luminance == 'light' ? 'sem.color.text.dark' : 'sem.color.text.default'>>}"
+      },
+      "type": "composition",
+      "description": "({extends: 'comp.chip.<<state>>.label'})"
+    }
+  }
+]
