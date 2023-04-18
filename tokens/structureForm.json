@@ -169,7 +169,7 @@
                 "dragZone": {
                   "container": {
                     "value": {
-                      "fill": "{sem.color.surface.interactive.default}",
+                      "fill": "none",
                       "itemSpacing": "{sem.structure.form.components.multipleUploader.uploader.dragZone.container.spacing}",
                       "paddingTop": "{sem.structure.form.components.multipleUploader.uploader.dragZone.container.padding}",
                       "paddingBottom": "{sem.structure.form.components.multipleUploader.uploader.dragZone.container.padding}",

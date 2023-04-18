@@ -20,7 +20,7 @@ comp
     "dragZone": {
       "container": {
         "value": {
-          "fill": "<< ({ default: '{sem.color.surface.interactive.default}', hover: '{sem.color.surface.interactive.hover}', pressed: '{sem.color.surface.interactive.pressed}', active: '{sem.color.surface.interactive.pressed}', danger: 'none', disabled: '{sem.color.surface.interactive.disabled}' })[state] >>",
+          "fill": "<< ({ default: 'none', hover: '{sem.color.surface.interactive.hover}', pressed: '{sem.color.surface.interactive.pressed}', active: '{sem.color.surface.interactive.pressed}', danger: 'none', disabled: '{sem.color.surface.interactive.disabled}' })[state] >>",
           "itemSpacing": "{sem.structure.form.components.multipleUploader.uploader.dragZone.container.spacing}",
           "paddingTop": "{sem.structure.form.components.multipleUploader.uploader.dragZone.container.padding}",
           "paddingBottom": "{sem.structure.form.components.multipleUploader.uploader.dragZone.container.padding}",
