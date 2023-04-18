@@ -2526,152 +2526,6 @@
         }
       }
     },
-    "chips": {
-      "default": {
-        "container": {
-          "value": {
-            "fill": "{sem.color.surface.interactive.sub.default}",
-            "border": "{sem.border.interactive.default}",
-            "itemSpacing": "{sem.chips.container.spacing}",
-            "borderRadius": "{sem.chips.container.borderRadius}",
-            "paddingLeft": "{sem.chips.container.paddingLeft}",
-            "paddingRight": "{sem.chips.container.paddingRight}",
-            "height": "{sem.chips.container.height}"
-          },
-          "type": "composition"
-        },
-        "icon": {
-          "color": {
-            "value": {
-              "border": "{sem.borderIcon.sm.default}"
-            },
-            "type": "composition"
-          },
-          "size": {
-            "value": {
-              "height": "{sem.chips.icon.size}",
-              "width": "{sem.chips.icon.size}"
-            },
-            "type": "composition"
-          }
-        },
-        "label": {
-          "value": {
-            "typography": "{sem.typography.textStyle.label.body.sm}",
-            "fill": "{sem.color.text.default}"
-          },
-          "type": "composition"
-        }
-      },
-      "hover": {
-        "container": {
-          "value": {
-            "fill": "{sem.color.surface.interactive.sub.hover}",
-            "border": "{sem.border.interactive.hover}",
-            "itemSpacing": "{sem.chips.container.spacing}",
-            "borderRadius": "{sem.chips.container.borderRadius}",
-            "paddingLeft": "{sem.chips.container.paddingLeft}",
-            "paddingRight": "{sem.chips.container.paddingRight}",
-            "height": "{sem.chips.container.height}"
-          },
-          "type": "composition"
-        },
-        "icon": {
-          "color": {
-            "value": {
-              "border": "{sem.borderIcon.sm.default}"
-            },
-            "type": "composition"
-          },
-          "size": {
-            "value": {
-              "height": "{sem.chips.icon.size}",
-              "width": "{sem.chips.icon.size}"
-            },
-            "type": "composition"
-          }
-        },
-        "label": {
-          "value": {
-            "typography": "{sem.typography.textStyle.label.body.sm}",
-            "fill": "{sem.color.text.default}"
-          },
-          "type": "composition"
-        }
-      },
-      "pressed": {
-        "container": {
-          "value": {
-            "fill": "{sem.color.surface.interactive.sub.pressed}",
-            "border": "{sem.border.interactive.pressed}",
-            "itemSpacing": "{sem.chips.container.spacing}",
-            "borderRadius": "{sem.chips.container.borderRadius}",
-            "paddingLeft": "{sem.chips.container.paddingLeft}",
-            "paddingRight": "{sem.chips.container.paddingRight}",
-            "height": "{sem.chips.container.height}"
-          },
-          "type": "composition"
-        },
-        "icon": {
-          "color": {
-            "value": {
-              "border": "{sem.borderIcon.sm.default}"
-            },
-            "type": "composition"
-          },
-          "size": {
-            "value": {
-              "height": "{sem.chips.icon.size}",
-              "width": "{sem.chips.icon.size}"
-            },
-            "type": "composition"
-          }
-        },
-        "label": {
-          "value": {
-            "typography": "{sem.typography.textStyle.label.body.sm}",
-            "fill": "{sem.color.text.default}"
-          },
-          "type": "composition"
-        }
-      },
-      "active": {
-        "container": {
-          "value": {
-            "fill": "{sem.color.surface.interactive.sub.active}",
-            "border": "none",
-            "itemSpacing": "{sem.chips.container.spacing}",
-            "borderRadius": "{sem.chips.container.borderRadius}",
-            "paddingLeft": "{sem.chips.container.paddingLeft}",
-            "paddingRight": "{sem.chips.container.paddingRight}",
-            "height": "{sem.chips.container.height}"
-          },
-          "type": "composition"
-        },
-        "icon": {
-          "color": {
-            "value": {
-              "border": "{sem.borderIcon.sm.light}"
-            },
-            "type": "composition"
-          },
-          "size": {
-            "value": {
-              "height": "{sem.chips.icon.size}",
-              "width": "{sem.chips.icon.size}"
-            },
-            "type": "composition"
-          }
-        },
-        "label": {
-          "value": {
-            "typography": "{sem.typography.textStyle.label.body.sm}",
-            "fill": "{sem.color.text.light}"
-          },
-          "type": "composition"
-        }
-      }
-    },
     "caroussel": {
       "dots": {
         "value": {
@@ -15372,6 +15226,152 @@
         },
         "type": "composition"
       }
+    },
+    "chip": {
+      "default": {
+        "container": {
+          "value": {
+            "fill": "{sem.color.surface.interactive.sub.default}",
+            "border": "{sem.border.interactive.default}",
+            "itemSpacing": "{sem.chip.container.spacing}",
+            "borderRadius": "{sem.chip.container.borderRadius}",
+            "paddingLeft": "{sem.chip.container.paddingLeft}",
+            "paddingRight": "{sem.chip.container.paddingRight}",
+            "height": "{sem.chip.container.height}"
+          },
+          "type": "composition"
+        },
+        "icon": {
+          "color": {
+            "value": {
+              "border": "{sem.borderIcon.sm.default}"
+            },
+            "type": "composition"
+          },
+          "size": {
+            "value": {
+              "height": "{sem.chip.icon.size}",
+              "width": "{sem.chip.icon.size}"
+            },
+            "type": "composition"
+          }
+        },
+        "label": {
+          "value": {
+            "typography": "{sem.typography.textStyle.label.body.sm}",
+            "fill": "{sem.color.text.default}"
+          },
+          "type": "composition"
+        }
+      },
+      "hover": {
+        "container": {
+          "value": {
+            "fill": "{sem.color.surface.interactive.sub.hover}",
+            "border": "{sem.border.interactive.hover}",
+            "itemSpacing": "{sem.chip.container.spacing}",
+            "borderRadius": "{sem.chip.container.borderRadius}",
+            "paddingLeft": "{sem.chip.container.paddingLeft}",
+            "paddingRight": "{sem.chip.container.paddingRight}",
+            "height": "{sem.chip.container.height}"
+          },
+          "type": "composition"
+        },
+        "icon": {
+          "color": {
+            "value": {
+              "border": "{sem.borderIcon.sm.default}"
+            },
+            "type": "composition"
+          },
+          "size": {
+            "value": {
+              "height": "{sem.chip.icon.size}",
+              "width": "{sem.chip.icon.size}"
+            },
+            "type": "composition"
+          }
+        },
+        "label": {
+          "value": {
+            "typography": "{sem.typography.textStyle.label.body.sm}",
+            "fill": "{sem.color.text.default}"
+          },
+          "type": "composition"
+        }
+      },
+      "pressed": {
+        "container": {
+          "value": {
+            "fill": "{sem.color.surface.interactive.sub.pressed}",
+            "border": "{sem.border.interactive.pressed}",
+            "itemSpacing": "{sem.chip.container.spacing}",
+            "borderRadius": "{sem.chip.container.borderRadius}",
+            "paddingLeft": "{sem.chip.container.paddingLeft}",
+            "paddingRight": "{sem.chip.container.paddingRight}",
+            "height": "{sem.chip.container.height}"
+          },
+          "type": "composition"
+        },
+        "icon": {
+          "color": {
+            "value": {
+              "border": "{sem.borderIcon.sm.default}"
+            },
+            "type": "composition"
+          },
+          "size": {
+            "value": {
+              "height": "{sem.chip.icon.size}",
+              "width": "{sem.chip.icon.size}"
+            },
+            "type": "composition"
+          }
+        },
+        "label": {
+          "value": {
+            "typography": "{sem.typography.textStyle.label.body.sm}",
+            "fill": "{sem.color.text.default}"
+          },
+          "type": "composition"
+        }
+      },
+      "active": {
+        "container": {
+          "value": {
+            "fill": "{sem.color.surface.interactive.sub.active}",
+            "border": "none",
+            "itemSpacing": "{sem.chip.container.spacing}",
+            "borderRadius": "{sem.chip.container.borderRadius}",
+            "paddingLeft": "{sem.chip.container.paddingLeft}",
+            "paddingRight": "{sem.chip.container.paddingRight}",
+            "height": "{sem.chip.container.height}"
+          },
+          "type": "composition"
+        },
+        "icon": {
+          "color": {
+            "value": {
+              "border": "{sem.borderIcon.sm.light}"
+            },
+            "type": "composition"
+          },
+          "size": {
+            "value": {
+              "height": "{sem.chip.icon.size}",
+              "width": "{sem.chip.icon.size}"
+            },
+            "type": "composition"
+          }
+        },
+        "label": {
+          "value": {
+            "typography": "{sem.typography.textStyle.label.body.sm}",
+            "fill": "{sem.color.text.light}"
+          },
+          "type": "composition"
+        }
+      }
     }
   },
   "sem": {
@@ -16081,7 +16081,15 @@
         }
       }
     },
-    "chips": {
+    "formField": {
+      "wrapper": {
+        "spacing": {
+          "value": "{ref.spacing.100}",
+          "type": "spacing"
+        }
+      }
+    },
+    "chip": {
       "container": {
         "spacing": {
           "value": "{ref.spacing.50}",
@@ -16108,14 +16116,6 @@
         "size": {
           "value": "{ref.sizing.200}",
           "type": "sizing"
-        }
-      }
-    },
-    "formField": {
-      "wrapper": {
-        "spacing": {
-          "value": "{ref.spacing.100}",
-          "type": "spacing"
         }
       }
     }
