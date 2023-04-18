@@ -929,7 +929,7 @@
                     "type": "spacing"
                   },
                   "borderRadius": {
-                    "value": "{ref.borderRadius.300}",
+                    "value": "{ref.borderRadius.350}",
                     "type": "borderRadius"
                   }
                 },
