@@ -10,7 +10,7 @@ comp
   {
     "container": {
       "value": {
-        "fill": "{<<state == 'active' ? 'comp.searchProperty.announcePage.sections.diag.item.cel.colors.' + type + '.' + value : 'sem.color.surface.interactive.sub.' + state>>}"
+        "fill": "{<<state == 'active' && value != 'empty' ? 'comp.searchProperty.announcePage.sections.diag.item.cel.colors.' + type + '.' + value : 'sem.color.surface.interactive.sub.' + state>>}"
       },
       "type": "composition",
       "description": "({extends: 'comp.chip.<<state>>.container'})"

@@ -16282,7 +16282,7 @@
             "empty": {
               "container": {
                 "value": {
-                  "fill": "{comp.searchProperty.announcePage.sections.diag.item.cel.colors.DPE.empty}",
+                  "fill": "{sem.color.surface.interactive.sub.active}",
                   "border": "none",
                   "itemSpacing": "{sem.chip.container.spacing}",
                   "borderRadius": "{sem.chip.container.borderRadius}",
@@ -16412,7 +16412,7 @@
             "empty": {
               "container": {
                 "value": {
-                  "fill": "{comp.searchProperty.announcePage.sections.diag.item.cel.colors.GES.empty}",
+                  "fill": "{sem.color.surface.interactive.sub.active}",
                   "border": "none",
                   "itemSpacing": "{sem.chip.container.spacing}",
                   "borderRadius": "{sem.chip.container.borderRadius}",
