@@ -15379,10 +15379,108 @@
     },
     "diag": {
       "energy": {
-        "default": {
-          "DPE": {
-            "A": {
-              "container": {
+        "container": {
+          "default": {
+            "DPE": {
+              "A": {
+                "value": {
+                  "fill": "{sem.color.surface.interactive.sub.default}",
+                  "border": "{sem.border.interactive.default}",
+                  "itemSpacing": "{sem.chip.container.spacing}",
+                  "borderRadius": "{sem.chip.container.borderRadius}",
+                  "paddingLeft": "{sem.chip.container.paddingLeft}",
+                  "paddingRight": "{sem.chip.container.paddingRight}",
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.chip.default.container'})"
+              },
+              "B": {
+                "value": {
+                  "fill": "{sem.color.surface.interactive.sub.default}",
+                  "border": "{sem.border.interactive.default}",
+                  "itemSpacing": "{sem.chip.container.spacing}",
+                  "borderRadius": "{sem.chip.container.borderRadius}",
+                  "paddingLeft": "{sem.chip.container.paddingLeft}",
+                  "paddingRight": "{sem.chip.container.paddingRight}",
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.chip.default.container'})"
+              },
+              "C": {
+                "value": {
+                  "fill": "{sem.color.surface.interactive.sub.default}",
+                  "border": "{sem.border.interactive.default}",
+                  "itemSpacing": "{sem.chip.container.spacing}",
+                  "borderRadius": "{sem.chip.container.borderRadius}",
+                  "paddingLeft": "{sem.chip.container.paddingLeft}",
+                  "paddingRight": "{sem.chip.container.paddingRight}",
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.chip.default.container'})"
+              },
+              "D": {
+                "value": {
+                  "fill": "{sem.color.surface.interactive.sub.default}",
+                  "border": "{sem.border.interactive.default}",
+                  "itemSpacing": "{sem.chip.container.spacing}",
+                  "borderRadius": "{sem.chip.container.borderRadius}",
+                  "paddingLeft": "{sem.chip.container.paddingLeft}",
+                  "paddingRight": "{sem.chip.container.paddingRight}",
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.chip.default.container'})"
+              },
+              "E": {
+                "value": {
+                  "fill": "{sem.color.surface.interactive.sub.default}",
+                  "border": "{sem.border.interactive.default}",
+                  "itemSpacing": "{sem.chip.container.spacing}",
+                  "borderRadius": "{sem.chip.container.borderRadius}",
+                  "paddingLeft": "{sem.chip.container.paddingLeft}",
+                  "paddingRight": "{sem.chip.container.paddingRight}",
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.chip.default.container'})"
+              },
+              "F": {
+                "value": {
+                  "fill": "{sem.color.surface.interactive.sub.default}",
+                  "border": "{sem.border.interactive.default}",
+                  "itemSpacing": "{sem.chip.container.spacing}",
+                  "borderRadius": "{sem.chip.container.borderRadius}",
+                  "paddingLeft": "{sem.chip.container.paddingLeft}",
+                  "paddingRight": "{sem.chip.container.paddingRight}",
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.chip.default.container'})"
+              },
+              "G": {
+                "value": {
+                  "fill": "{sem.color.surface.interactive.sub.default}",
+                  "border": "{sem.border.interactive.default}",
+                  "itemSpacing": "{sem.chip.container.spacing}",
+                  "borderRadius": "{sem.chip.container.borderRadius}",
+                  "paddingLeft": "{sem.chip.container.paddingLeft}",
+                  "paddingRight": "{sem.chip.container.paddingRight}",
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.chip.default.container'})"
+              },
+              "empty": {
                 "value": {
                   "fill": "{sem.color.surface.interactive.sub.default}",
                   "border": "{sem.border.interactive.default}",
@@ -15397,8 +15495,8 @@
                 "description": "({extends: 'comp.chip.default.container'})"
               }
             },
-            "B": {
-              "container": {
+            "GES": {
+              "A": {
                 "value": {
                   "fill": "{sem.color.surface.interactive.sub.default}",
                   "border": "{sem.border.interactive.default}",
@@ -15411,10 +15509,8 @@
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.chip.default.container'})"
-              }
-            },
-            "C": {
-              "container": {
+              },
+              "B": {
                 "value": {
                   "fill": "{sem.color.surface.interactive.sub.default}",
                   "border": "{sem.border.interactive.default}",
@@ -15427,10 +15523,8 @@
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.chip.default.container'})"
-              }
-            },
-            "D": {
-              "container": {
+              },
+              "C": {
                 "value": {
                   "fill": "{sem.color.surface.interactive.sub.default}",
                   "border": "{sem.border.interactive.default}",
@@ -15443,10 +15537,8 @@
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.chip.default.container'})"
-              }
-            },
-            "E": {
-              "container": {
+              },
+              "D": {
                 "value": {
                   "fill": "{sem.color.surface.interactive.sub.default}",
                   "border": "{sem.border.interactive.default}",
@@ -15459,10 +15551,8 @@
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.chip.default.container'})"
-              }
-            },
-            "F": {
-              "container": {
+              },
+              "E": {
                 "value": {
                   "fill": "{sem.color.surface.interactive.sub.default}",
                   "border": "{sem.border.interactive.default}",
@@ -15475,10 +15565,8 @@
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.chip.default.container'})"
-              }
-            },
-            "G": {
-              "container": {
+              },
+              "F": {
                 "value": {
                   "fill": "{sem.color.surface.interactive.sub.default}",
                   "border": "{sem.border.interactive.default}",
@@ -15491,10 +15579,22 @@
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.chip.default.container'})"
-              }
-            },
-            "empty": {
-              "container": {
+              },
+              "G": {
+                "value": {
+                  "fill": "{sem.color.surface.interactive.sub.default}",
+                  "border": "{sem.border.interactive.default}",
+                  "itemSpacing": "{sem.chip.container.spacing}",
+                  "borderRadius": "{sem.chip.container.borderRadius}",
+                  "paddingLeft": "{sem.chip.container.paddingLeft}",
+                  "paddingRight": "{sem.chip.container.paddingRight}",
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.chip.default.container'})"
+              },
+              "empty": {
                 "value": {
                   "fill": "{sem.color.surface.interactive.sub.default}",
                   "border": "{sem.border.interactive.default}",
@@ -15510,12 +15610,12 @@
               }
             }
           },
-          "GES": {
-            "A": {
-              "container": {
+          "hover": {
+            "DPE": {
+              "A": {
                 "value": {
-                  "fill": "{sem.color.surface.interactive.sub.default}",
-                  "border": "{sem.border.interactive.default}",
+                  "fill": "{sem.color.surface.interactive.sub.hover}",
+                  "border": "{sem.border.interactive.hover}",
                   "itemSpacing": "{sem.chip.container.spacing}",
                   "borderRadius": "{sem.chip.container.borderRadius}",
                   "paddingLeft": "{sem.chip.container.paddingLeft}",
@@ -15524,14 +15624,12 @@
                   "layoutAlignItems": "center"
                 },
                 "type": "composition",
-                "description": "({extends: 'comp.chip.default.container'})"
-              }
-            },
-            "B": {
-              "container": {
+                "description": "({extends: 'comp.chip.hover.container'})"
+              },
+              "B": {
                 "value": {
-                  "fill": "{sem.color.surface.interactive.sub.default}",
-                  "border": "{sem.border.interactive.default}",
+                  "fill": "{sem.color.surface.interactive.sub.hover}",
+                  "border": "{sem.border.interactive.hover}",
                   "itemSpacing": "{sem.chip.container.spacing}",
                   "borderRadius": "{sem.chip.container.borderRadius}",
                   "paddingLeft": "{sem.chip.container.paddingLeft}",
@@ -15540,14 +15638,12 @@
                   "layoutAlignItems": "center"
                 },
                 "type": "composition",
-                "description": "({extends: 'comp.chip.default.container'})"
-              }
-            },
-            "C": {
-              "container": {
+                "description": "({extends: 'comp.chip.hover.container'})"
+              },
+              "C": {
                 "value": {
-                  "fill": "{sem.color.surface.interactive.sub.default}",
-                  "border": "{sem.border.interactive.default}",
+                  "fill": "{sem.color.surface.interactive.sub.hover}",
+                  "border": "{sem.border.interactive.hover}",
                   "itemSpacing": "{sem.chip.container.spacing}",
                   "borderRadius": "{sem.chip.container.borderRadius}",
                   "paddingLeft": "{sem.chip.container.paddingLeft}",
@@ -15556,14 +15652,12 @@
                   "layoutAlignItems": "center"
                 },
                 "type": "composition",
-                "description": "({extends: 'comp.chip.default.container'})"
-              }
-            },
-            "D": {
-              "container": {
+                "description": "({extends: 'comp.chip.hover.container'})"
+              },
+              "D": {
                 "value": {
-                  "fill": "{sem.color.surface.interactive.sub.default}",
-                  "border": "{sem.border.interactive.default}",
+                  "fill": "{sem.color.surface.interactive.sub.hover}",
+                  "border": "{sem.border.interactive.hover}",
                   "itemSpacing": "{sem.chip.container.spacing}",
                   "borderRadius": "{sem.chip.container.borderRadius}",
                   "paddingLeft": "{sem.chip.container.paddingLeft}",
@@ -15572,14 +15666,12 @@
                   "layoutAlignItems": "center"
                 },
                 "type": "composition",
-                "description": "({extends: 'comp.chip.default.container'})"
-              }
-            },
-            "E": {
-              "container": {
+                "description": "({extends: 'comp.chip.hover.container'})"
+              },
+              "E": {
                 "value": {
-                  "fill": "{sem.color.surface.interactive.sub.default}",
-                  "border": "{sem.border.interactive.default}",
+                  "fill": "{sem.color.surface.interactive.sub.hover}",
+                  "border": "{sem.border.interactive.hover}",
                   "itemSpacing": "{sem.chip.container.spacing}",
                   "borderRadius": "{sem.chip.container.borderRadius}",
                   "paddingLeft": "{sem.chip.container.paddingLeft}",
@@ -15588,14 +15680,12 @@
                   "layoutAlignItems": "center"
                 },
                 "type": "composition",
-                "description": "({extends: 'comp.chip.default.container'})"
-              }
-            },
-            "F": {
-              "container": {
+                "description": "({extends: 'comp.chip.hover.container'})"
+              },
+              "F": {
                 "value": {
-                  "fill": "{sem.color.surface.interactive.sub.default}",
-                  "border": "{sem.border.interactive.default}",
+                  "fill": "{sem.color.surface.interactive.sub.hover}",
+                  "border": "{sem.border.interactive.hover}",
                   "itemSpacing": "{sem.chip.container.spacing}",
                   "borderRadius": "{sem.chip.container.borderRadius}",
                   "paddingLeft": "{sem.chip.container.paddingLeft}",
@@ -15604,14 +15694,12 @@
                   "layoutAlignItems": "center"
                 },
                 "type": "composition",
-                "description": "({extends: 'comp.chip.default.container'})"
-              }
-            },
-            "G": {
-              "container": {
+                "description": "({extends: 'comp.chip.hover.container'})"
+              },
+              "G": {
                 "value": {
-                  "fill": "{sem.color.surface.interactive.sub.default}",
-                  "border": "{sem.border.interactive.default}",
+                  "fill": "{sem.color.surface.interactive.sub.hover}",
+                  "border": "{sem.border.interactive.hover}",
                   "itemSpacing": "{sem.chip.container.spacing}",
                   "borderRadius": "{sem.chip.container.borderRadius}",
                   "paddingLeft": "{sem.chip.container.paddingLeft}",
@@ -15620,31 +15708,9 @@
                   "layoutAlignItems": "center"
                 },
                 "type": "composition",
-                "description": "({extends: 'comp.chip.default.container'})"
-              }
-            },
-            "empty": {
-              "container": {
-                "value": {
-                  "fill": "{sem.color.surface.interactive.sub.default}",
-                  "border": "{sem.border.interactive.default}",
-                  "itemSpacing": "{sem.chip.container.spacing}",
-                  "borderRadius": "{sem.chip.container.borderRadius}",
-                  "paddingLeft": "{sem.chip.container.paddingLeft}",
-                  "paddingRight": "{sem.chip.container.paddingRight}",
-                  "height": "{sem.chip.container.height}",
-                  "layoutAlignItems": "center"
-                },
-                "type": "composition",
-                "description": "({extends: 'comp.chip.default.container'})"
-              }
-            }
-          }
-        },
-        "hover": {
-          "DPE": {
-            "A": {
-              "container": {
+                "description": "({extends: 'comp.chip.hover.container'})"
+              },
+              "empty": {
                 "value": {
                   "fill": "{sem.color.surface.interactive.sub.hover}",
                   "border": "{sem.border.interactive.hover}",
@@ -15659,8 +15725,8 @@
                 "description": "({extends: 'comp.chip.hover.container'})"
               }
             },
-            "B": {
-              "container": {
+            "GES": {
+              "A": {
                 "value": {
                   "fill": "{sem.color.surface.interactive.sub.hover}",
                   "border": "{sem.border.interactive.hover}",
@@ -15673,10 +15739,8 @@
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.chip.hover.container'})"
-              }
-            },
-            "C": {
-              "container": {
+              },
+              "B": {
                 "value": {
                   "fill": "{sem.color.surface.interactive.sub.hover}",
                   "border": "{sem.border.interactive.hover}",
@@ -15689,10 +15753,8 @@
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.chip.hover.container'})"
-              }
-            },
-            "D": {
-              "container": {
+              },
+              "C": {
                 "value": {
                   "fill": "{sem.color.surface.interactive.sub.hover}",
                   "border": "{sem.border.interactive.hover}",
@@ -15705,10 +15767,8 @@
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.chip.hover.container'})"
-              }
-            },
-            "E": {
-              "container": {
+              },
+              "D": {
                 "value": {
                   "fill": "{sem.color.surface.interactive.sub.hover}",
                   "border": "{sem.border.interactive.hover}",
@@ -15721,10 +15781,8 @@
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.chip.hover.container'})"
-              }
-            },
-            "F": {
-              "container": {
+              },
+              "E": {
                 "value": {
                   "fill": "{sem.color.surface.interactive.sub.hover}",
                   "border": "{sem.border.interactive.hover}",
@@ -15737,10 +15795,8 @@
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.chip.hover.container'})"
-              }
-            },
-            "G": {
-              "container": {
+              },
+              "F": {
                 "value": {
                   "fill": "{sem.color.surface.interactive.sub.hover}",
                   "border": "{sem.border.interactive.hover}",
@@ -15753,10 +15809,22 @@
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.chip.hover.container'})"
-              }
-            },
-            "empty": {
-              "container": {
+              },
+              "G": {
+                "value": {
+                  "fill": "{sem.color.surface.interactive.sub.hover}",
+                  "border": "{sem.border.interactive.hover}",
+                  "itemSpacing": "{sem.chip.container.spacing}",
+                  "borderRadius": "{sem.chip.container.borderRadius}",
+                  "paddingLeft": "{sem.chip.container.paddingLeft}",
+                  "paddingRight": "{sem.chip.container.paddingRight}",
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.chip.hover.container'})"
+              },
+              "empty": {
                 "value": {
                   "fill": "{sem.color.surface.interactive.sub.hover}",
                   "border": "{sem.border.interactive.hover}",
@@ -15772,12 +15840,12 @@
               }
             }
           },
-          "GES": {
-            "A": {
-              "container": {
+          "pressed": {
+            "DPE": {
+              "A": {
                 "value": {
-                  "fill": "{sem.color.surface.interactive.sub.hover}",
-                  "border": "{sem.border.interactive.hover}",
+                  "fill": "{sem.color.surface.interactive.sub.pressed}",
+                  "border": "{sem.border.interactive.pressed}",
                   "itemSpacing": "{sem.chip.container.spacing}",
                   "borderRadius": "{sem.chip.container.borderRadius}",
                   "paddingLeft": "{sem.chip.container.paddingLeft}",
@@ -15786,14 +15854,12 @@
                   "layoutAlignItems": "center"
                 },
                 "type": "composition",
-                "description": "({extends: 'comp.chip.hover.container'})"
-              }
-            },
-            "B": {
-              "container": {
+                "description": "({extends: 'comp.chip.pressed.container'})"
+              },
+              "B": {
                 "value": {
-                  "fill": "{sem.color.surface.interactive.sub.hover}",
-                  "border": "{sem.border.interactive.hover}",
+                  "fill": "{sem.color.surface.interactive.sub.pressed}",
+                  "border": "{sem.border.interactive.pressed}",
                   "itemSpacing": "{sem.chip.container.spacing}",
                   "borderRadius": "{sem.chip.container.borderRadius}",
                   "paddingLeft": "{sem.chip.container.paddingLeft}",
@@ -15802,14 +15868,12 @@
                   "layoutAlignItems": "center"
                 },
                 "type": "composition",
-                "description": "({extends: 'comp.chip.hover.container'})"
-              }
-            },
-            "C": {
-              "container": {
+                "description": "({extends: 'comp.chip.pressed.container'})"
+              },
+              "C": {
                 "value": {
-                  "fill": "{sem.color.surface.interactive.sub.hover}",
-                  "border": "{sem.border.interactive.hover}",
+                  "fill": "{sem.color.surface.interactive.sub.pressed}",
+                  "border": "{sem.border.interactive.pressed}",
                   "itemSpacing": "{sem.chip.container.spacing}",
                   "borderRadius": "{sem.chip.container.borderRadius}",
                   "paddingLeft": "{sem.chip.container.paddingLeft}",
@@ -15818,14 +15882,12 @@
                   "layoutAlignItems": "center"
                 },
                 "type": "composition",
-                "description": "({extends: 'comp.chip.hover.container'})"
-              }
-            },
-            "D": {
-              "container": {
+                "description": "({extends: 'comp.chip.pressed.container'})"
+              },
+              "D": {
                 "value": {
-                  "fill": "{sem.color.surface.interactive.sub.hover}",
-                  "border": "{sem.border.interactive.hover}",
+                  "fill": "{sem.color.surface.interactive.sub.pressed}",
+                  "border": "{sem.border.interactive.pressed}",
                   "itemSpacing": "{sem.chip.container.spacing}",
                   "borderRadius": "{sem.chip.container.borderRadius}",
                   "paddingLeft": "{sem.chip.container.paddingLeft}",
@@ -15834,14 +15896,12 @@
                   "layoutAlignItems": "center"
                 },
                 "type": "composition",
-                "description": "({extends: 'comp.chip.hover.container'})"
-              }
-            },
-            "E": {
-              "container": {
+                "description": "({extends: 'comp.chip.pressed.container'})"
+              },
+              "E": {
                 "value": {
-                  "fill": "{sem.color.surface.interactive.sub.hover}",
-                  "border": "{sem.border.interactive.hover}",
+                  "fill": "{sem.color.surface.interactive.sub.pressed}",
+                  "border": "{sem.border.interactive.pressed}",
                   "itemSpacing": "{sem.chip.container.spacing}",
                   "borderRadius": "{sem.chip.container.borderRadius}",
                   "paddingLeft": "{sem.chip.container.paddingLeft}",
@@ -15850,14 +15910,12 @@
                   "layoutAlignItems": "center"
                 },
                 "type": "composition",
-                "description": "({extends: 'comp.chip.hover.container'})"
-              }
-            },
-            "F": {
-              "container": {
+                "description": "({extends: 'comp.chip.pressed.container'})"
+              },
+              "F": {
                 "value": {
-                  "fill": "{sem.color.surface.interactive.sub.hover}",
-                  "border": "{sem.border.interactive.hover}",
+                  "fill": "{sem.color.surface.interactive.sub.pressed}",
+                  "border": "{sem.border.interactive.pressed}",
                   "itemSpacing": "{sem.chip.container.spacing}",
                   "borderRadius": "{sem.chip.container.borderRadius}",
                   "paddingLeft": "{sem.chip.container.paddingLeft}",
@@ -15866,14 +15924,12 @@
                   "layoutAlignItems": "center"
                 },
                 "type": "composition",
-                "description": "({extends: 'comp.chip.hover.container'})"
-              }
-            },
-            "G": {
-              "container": {
+                "description": "({extends: 'comp.chip.pressed.container'})"
+              },
+              "G": {
                 "value": {
-                  "fill": "{sem.color.surface.interactive.sub.hover}",
-                  "border": "{sem.border.interactive.hover}",
+                  "fill": "{sem.color.surface.interactive.sub.pressed}",
+                  "border": "{sem.border.interactive.pressed}",
                   "itemSpacing": "{sem.chip.container.spacing}",
                   "borderRadius": "{sem.chip.container.borderRadius}",
                   "paddingLeft": "{sem.chip.container.paddingLeft}",
@@ -15882,31 +15938,9 @@
                   "layoutAlignItems": "center"
                 },
                 "type": "composition",
-                "description": "({extends: 'comp.chip.hover.container'})"
-              }
-            },
-            "empty": {
-              "container": {
-                "value": {
-                  "fill": "{sem.color.surface.interactive.sub.hover}",
-                  "border": "{sem.border.interactive.hover}",
-                  "itemSpacing": "{sem.chip.container.spacing}",
-                  "borderRadius": "{sem.chip.container.borderRadius}",
-                  "paddingLeft": "{sem.chip.container.paddingLeft}",
-                  "paddingRight": "{sem.chip.container.paddingRight}",
-                  "height": "{sem.chip.container.height}",
-                  "layoutAlignItems": "center"
-                },
-                "type": "composition",
-                "description": "({extends: 'comp.chip.hover.container'})"
-              }
-            }
-          }
-        },
-        "pressed": {
-          "DPE": {
-            "A": {
-              "container": {
+                "description": "({extends: 'comp.chip.pressed.container'})"
+              },
+              "empty": {
                 "value": {
                   "fill": "{sem.color.surface.interactive.sub.pressed}",
                   "border": "{sem.border.interactive.pressed}",
@@ -15921,8 +15955,8 @@
                 "description": "({extends: 'comp.chip.pressed.container'})"
               }
             },
-            "B": {
-              "container": {
+            "GES": {
+              "A": {
                 "value": {
                   "fill": "{sem.color.surface.interactive.sub.pressed}",
                   "border": "{sem.border.interactive.pressed}",
@@ -15935,10 +15969,8 @@
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.chip.pressed.container'})"
-              }
-            },
-            "C": {
-              "container": {
+              },
+              "B": {
                 "value": {
                   "fill": "{sem.color.surface.interactive.sub.pressed}",
                   "border": "{sem.border.interactive.pressed}",
@@ -15951,10 +15983,8 @@
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.chip.pressed.container'})"
-              }
-            },
-            "D": {
-              "container": {
+              },
+              "C": {
                 "value": {
                   "fill": "{sem.color.surface.interactive.sub.pressed}",
                   "border": "{sem.border.interactive.pressed}",
@@ -15967,10 +15997,8 @@
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.chip.pressed.container'})"
-              }
-            },
-            "E": {
-              "container": {
+              },
+              "D": {
                 "value": {
                   "fill": "{sem.color.surface.interactive.sub.pressed}",
                   "border": "{sem.border.interactive.pressed}",
@@ -15983,10 +16011,8 @@
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.chip.pressed.container'})"
-              }
-            },
-            "F": {
-              "container": {
+              },
+              "E": {
                 "value": {
                   "fill": "{sem.color.surface.interactive.sub.pressed}",
                   "border": "{sem.border.interactive.pressed}",
@@ -15999,10 +16025,8 @@
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.chip.pressed.container'})"
-              }
-            },
-            "G": {
-              "container": {
+              },
+              "F": {
                 "value": {
                   "fill": "{sem.color.surface.interactive.sub.pressed}",
                   "border": "{sem.border.interactive.pressed}",
@@ -16015,10 +16039,22 @@
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.chip.pressed.container'})"
-              }
-            },
-            "empty": {
-              "container": {
+              },
+              "G": {
+                "value": {
+                  "fill": "{sem.color.surface.interactive.sub.pressed}",
+                  "border": "{sem.border.interactive.pressed}",
+                  "itemSpacing": "{sem.chip.container.spacing}",
+                  "borderRadius": "{sem.chip.container.borderRadius}",
+                  "paddingLeft": "{sem.chip.container.paddingLeft}",
+                  "paddingRight": "{sem.chip.container.paddingRight}",
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.chip.pressed.container'})"
+              },
+              "empty": {
                 "value": {
                   "fill": "{sem.color.surface.interactive.sub.pressed}",
                   "border": "{sem.border.interactive.pressed}",
@@ -16034,141 +16070,9 @@
               }
             }
           },
-          "GES": {
-            "A": {
-              "container": {
-                "value": {
-                  "fill": "{sem.color.surface.interactive.sub.pressed}",
-                  "border": "{sem.border.interactive.pressed}",
-                  "itemSpacing": "{sem.chip.container.spacing}",
-                  "borderRadius": "{sem.chip.container.borderRadius}",
-                  "paddingLeft": "{sem.chip.container.paddingLeft}",
-                  "paddingRight": "{sem.chip.container.paddingRight}",
-                  "height": "{sem.chip.container.height}",
-                  "layoutAlignItems": "center"
-                },
-                "type": "composition",
-                "description": "({extends: 'comp.chip.pressed.container'})"
-              }
-            },
-            "B": {
-              "container": {
-                "value": {
-                  "fill": "{sem.color.surface.interactive.sub.pressed}",
-                  "border": "{sem.border.interactive.pressed}",
-                  "itemSpacing": "{sem.chip.container.spacing}",
-                  "borderRadius": "{sem.chip.container.borderRadius}",
-                  "paddingLeft": "{sem.chip.container.paddingLeft}",
-                  "paddingRight": "{sem.chip.container.paddingRight}",
-                  "height": "{sem.chip.container.height}",
-                  "layoutAlignItems": "center"
-                },
-                "type": "composition",
-                "description": "({extends: 'comp.chip.pressed.container'})"
-              }
-            },
-            "C": {
-              "container": {
-                "value": {
-                  "fill": "{sem.color.surface.interactive.sub.pressed}",
-                  "border": "{sem.border.interactive.pressed}",
-                  "itemSpacing": "{sem.chip.container.spacing}",
-                  "borderRadius": "{sem.chip.container.borderRadius}",
-                  "paddingLeft": "{sem.chip.container.paddingLeft}",
-                  "paddingRight": "{sem.chip.container.paddingRight}",
-                  "height": "{sem.chip.container.height}",
-                  "layoutAlignItems": "center"
-                },
-                "type": "composition",
-                "description": "({extends: 'comp.chip.pressed.container'})"
-              }
-            },
-            "D": {
-              "container": {
-                "value": {
-                  "fill": "{sem.color.surface.interactive.sub.pressed}",
-                  "border": "{sem.border.interactive.pressed}",
-                  "itemSpacing": "{sem.chip.container.spacing}",
-                  "borderRadius": "{sem.chip.container.borderRadius}",
-                  "paddingLeft": "{sem.chip.container.paddingLeft}",
-                  "paddingRight": "{sem.chip.container.paddingRight}",
-                  "height": "{sem.chip.container.height}",
-                  "layoutAlignItems": "center"
-                },
-                "type": "composition",
-                "description": "({extends: 'comp.chip.pressed.container'})"
-              }
-            },
-            "E": {
-              "container": {
-                "value": {
-                  "fill": "{sem.color.surface.interactive.sub.pressed}",
-                  "border": "{sem.border.interactive.pressed}",
-                  "itemSpacing": "{sem.chip.container.spacing}",
-                  "borderRadius": "{sem.chip.container.borderRadius}",
-                  "paddingLeft": "{sem.chip.container.paddingLeft}",
-                  "paddingRight": "{sem.chip.container.paddingRight}",
-                  "height": "{sem.chip.container.height}",
-                  "layoutAlignItems": "center"
-                },
-                "type": "composition",
-                "description": "({extends: 'comp.chip.pressed.container'})"
-              }
-            },
-            "F": {
-              "container": {
-                "value": {
-                  "fill": "{sem.color.surface.interactive.sub.pressed}",
-                  "border": "{sem.border.interactive.pressed}",
-                  "itemSpacing": "{sem.chip.container.spacing}",
-                  "borderRadius": "{sem.chip.container.borderRadius}",
-                  "paddingLeft": "{sem.chip.container.paddingLeft}",
-                  "paddingRight": "{sem.chip.container.paddingRight}",
-                  "height": "{sem.chip.container.height}",
-                  "layoutAlignItems": "center"
-                },
-                "type": "composition",
-                "description": "({extends: 'comp.chip.pressed.container'})"
-              }
-            },
-            "G": {
-              "container": {
-                "value": {
-                  "fill": "{sem.color.surface.interactive.sub.pressed}",
-                  "border": "{sem.border.interactive.pressed}",
-                  "itemSpacing": "{sem.chip.container.spacing}",
-                  "borderRadius": "{sem.chip.container.borderRadius}",
-                  "paddingLeft": "{sem.chip.container.paddingLeft}",
-                  "paddingRight": "{sem.chip.container.paddingRight}",
-                  "height": "{sem.chip.container.height}",
-                  "layoutAlignItems": "center"
-                },
-                "type": "composition",
-                "description": "({extends: 'comp.chip.pressed.container'})"
-              }
-            },
-            "empty": {
-              "container": {
-                "value": {
-                  "fill": "{sem.color.surface.interactive.sub.pressed}",
-                  "border": "{sem.border.interactive.pressed}",
-                  "itemSpacing": "{sem.chip.container.spacing}",
-                  "borderRadius": "{sem.chip.container.borderRadius}",
-                  "paddingLeft": "{sem.chip.container.paddingLeft}",
-                  "paddingRight": "{sem.chip.container.paddingRight}",
-                  "height": "{sem.chip.container.height}",
-                  "layoutAlignItems": "center"
-                },
-                "type": "composition",
-                "description": "({extends: 'comp.chip.pressed.container'})"
-              }
-            }
-          }
-        },
-        "active": {
-          "DPE": {
-            "A": {
-              "container": {
+          "active": {
+            "DPE": {
+              "A": {
                 "value": {
                   "fill": "{comp.searchProperty.announcePage.sections.diag.item.cel.colors.DPE.A}",
                   "border": "none",
@@ -16181,10 +16085,8 @@
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.chip.active.container'})"
-              }
-            },
-            "B": {
-              "container": {
+              },
+              "B": {
                 "value": {
                   "fill": "{comp.searchProperty.announcePage.sections.diag.item.cel.colors.DPE.B}",
                   "border": "none",
@@ -16197,10 +16099,8 @@
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.chip.active.container'})"
-              }
-            },
-            "C": {
-              "container": {
+              },
+              "C": {
                 "value": {
                   "fill": "{comp.searchProperty.announcePage.sections.diag.item.cel.colors.DPE.C}",
                   "border": "none",
@@ -16213,10 +16113,8 @@
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.chip.active.container'})"
-              }
-            },
-            "D": {
-              "container": {
+              },
+              "D": {
                 "value": {
                   "fill": "{comp.searchProperty.announcePage.sections.diag.item.cel.colors.DPE.D}",
                   "border": "none",
@@ -16229,10 +16127,8 @@
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.chip.active.container'})"
-              }
-            },
-            "E": {
-              "container": {
+              },
+              "E": {
                 "value": {
                   "fill": "{comp.searchProperty.announcePage.sections.diag.item.cel.colors.DPE.E}",
                   "border": "none",
@@ -16245,10 +16141,8 @@
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.chip.active.container'})"
-              }
-            },
-            "F": {
-              "container": {
+              },
+              "F": {
                 "value": {
                   "fill": "{comp.searchProperty.announcePage.sections.diag.item.cel.colors.DPE.F}",
                   "border": "none",
@@ -16261,10 +16155,8 @@
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.chip.active.container'})"
-              }
-            },
-            "G": {
-              "container": {
+              },
+              "G": {
                 "value": {
                   "fill": "{comp.searchProperty.announcePage.sections.diag.item.cel.colors.DPE.G}",
                   "border": "none",
@@ -16277,10 +16169,8 @@
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.chip.active.container'})"
-              }
-            },
-            "empty": {
-              "container": {
+              },
+              "empty": {
                 "value": {
                   "fill": "{sem.color.surface.interactive.sub.active}",
                   "border": "none",
@@ -16294,11 +16184,9 @@
                 "type": "composition",
                 "description": "({extends: 'comp.chip.active.container'})"
               }
-            }
-          },
-          "GES": {
-            "A": {
-              "container": {
+            },
+            "GES": {
+              "A": {
                 "value": {
                   "fill": "{comp.searchProperty.announcePage.sections.diag.item.cel.colors.GES.A}",
                   "border": "none",
@@ -16311,10 +16199,8 @@
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.chip.active.container'})"
-              }
-            },
-            "B": {
-              "container": {
+              },
+              "B": {
                 "value": {
                   "fill": "{comp.searchProperty.announcePage.sections.diag.item.cel.colors.GES.B}",
                   "border": "none",
@@ -16327,10 +16213,8 @@
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.chip.active.container'})"
-              }
-            },
-            "C": {
-              "container": {
+              },
+              "C": {
                 "value": {
                   "fill": "{comp.searchProperty.announcePage.sections.diag.item.cel.colors.GES.C}",
                   "border": "none",
@@ -16343,10 +16227,8 @@
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.chip.active.container'})"
-              }
-            },
-            "D": {
-              "container": {
+              },
+              "D": {
                 "value": {
                   "fill": "{comp.searchProperty.announcePage.sections.diag.item.cel.colors.GES.D}",
                   "border": "none",
@@ -16359,10 +16241,8 @@
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.chip.active.container'})"
-              }
-            },
-            "E": {
-              "container": {
+              },
+              "E": {
                 "value": {
                   "fill": "{comp.searchProperty.announcePage.sections.diag.item.cel.colors.GES.E}",
                   "border": "none",
@@ -16375,10 +16255,8 @@
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.chip.active.container'})"
-              }
-            },
-            "F": {
-              "container": {
+              },
+              "F": {
                 "value": {
                   "fill": "{comp.searchProperty.announcePage.sections.diag.item.cel.colors.GES.F}",
                   "border": "none",
@@ -16391,10 +16269,8 @@
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.chip.active.container'})"
-              }
-            },
-            "G": {
-              "container": {
+              },
+              "G": {
                 "value": {
                   "fill": "{comp.searchProperty.announcePage.sections.diag.item.cel.colors.GES.G}",
                   "border": "none",
@@ -16407,10 +16283,8 @@
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.chip.active.container'})"
-              }
-            },
-            "empty": {
-              "container": {
+              },
+              "empty": {
                 "value": {
                   "fill": "{sem.color.surface.interactive.sub.active}",
                   "border": "none",
@@ -16430,86 +16304,70 @@
         "label": {
           "light": {
             "default": {
-              "label": {
-                "value": {
-                  "typography": "{sem.typography.textStyle.label.body.sm}",
-                  "fill": "{sem.color.text.default}"
-                },
-                "type": "composition",
-                "description": "({extends: 'comp.chip.default.label'})"
-              }
+              "value": {
+                "typography": "{sem.typography.textStyle.label.body.sm}",
+                "fill": "{sem.color.text.default}"
+              },
+              "type": "composition",
+              "description": "({extends: 'comp.chip.default.label'})"
             },
             "hover": {
-              "label": {
-                "value": {
-                  "typography": "{sem.typography.textStyle.label.body.sm}",
-                  "fill": "{sem.color.text.default}"
-                },
-                "type": "composition",
-                "description": "({extends: 'comp.chip.hover.label'})"
-              }
+              "value": {
+                "typography": "{sem.typography.textStyle.label.body.sm}",
+                "fill": "{sem.color.text.default}"
+              },
+              "type": "composition",
+              "description": "({extends: 'comp.chip.hover.label'})"
             },
             "pressed": {
-              "label": {
-                "value": {
-                  "typography": "{sem.typography.textStyle.label.body.sm}",
-                  "fill": "{sem.color.text.default}"
-                },
-                "type": "composition",
-                "description": "({extends: 'comp.chip.pressed.label'})"
-              }
+              "value": {
+                "typography": "{sem.typography.textStyle.label.body.sm}",
+                "fill": "{sem.color.text.default}"
+              },
+              "type": "composition",
+              "description": "({extends: 'comp.chip.pressed.label'})"
             },
             "active": {
-              "label": {
-                "value": {
-                  "typography": "{sem.typography.textStyle.label.body.sm}",
-                  "fill": "{sem.color.text.dark}"
-                },
-                "type": "composition",
-                "description": "({extends: 'comp.chip.active.label'})"
-              }
+              "value": {
+                "typography": "{sem.typography.textStyle.label.body.sm}",
+                "fill": "{sem.color.text.dark}"
+              },
+              "type": "composition",
+              "description": "({extends: 'comp.chip.active.label'})"
             }
           },
           "dark": {
             "default": {
-              "label": {
-                "value": {
-                  "typography": "{sem.typography.textStyle.label.body.sm}",
-                  "fill": "{sem.color.text.default}"
-                },
-                "type": "composition",
-                "description": "({extends: 'comp.chip.default.label'})"
-              }
+              "value": {
+                "typography": "{sem.typography.textStyle.label.body.sm}",
+                "fill": "{sem.color.text.default}"
+              },
+              "type": "composition",
+              "description": "({extends: 'comp.chip.default.label'})"
             },
             "hover": {
-              "label": {
-                "value": {
-                  "typography": "{sem.typography.textStyle.label.body.sm}",
-                  "fill": "{sem.color.text.default}"
-                },
-                "type": "composition",
-                "description": "({extends: 'comp.chip.hover.label'})"
-              }
+              "value": {
+                "typography": "{sem.typography.textStyle.label.body.sm}",
+                "fill": "{sem.color.text.default}"
+              },
+              "type": "composition",
+              "description": "({extends: 'comp.chip.hover.label'})"
             },
             "pressed": {
-              "label": {
-                "value": {
-                  "typography": "{sem.typography.textStyle.label.body.sm}",
-                  "fill": "{sem.color.text.default}"
-                },
-                "type": "composition",
-                "description": "({extends: 'comp.chip.pressed.label'})"
-              }
+              "value": {
+                "typography": "{sem.typography.textStyle.label.body.sm}",
+                "fill": "{sem.color.text.default}"
+              },
+              "type": "composition",
+              "description": "({extends: 'comp.chip.pressed.label'})"
             },
             "active": {
-              "label": {
-                "value": {
-                  "typography": "{sem.typography.textStyle.label.body.sm}",
-                  "fill": "{sem.color.text.default}"
-                },
-                "type": "composition",
-                "description": "({extends: 'comp.chip.active.label'})"
-              }
+              "value": {
+                "typography": "{sem.typography.textStyle.label.body.sm}",
+                "fill": "{sem.color.text.default}"
+              },
+              "type": "composition",
+              "description": "({extends: 'comp.chip.active.label'})"
             }
           }
         }
