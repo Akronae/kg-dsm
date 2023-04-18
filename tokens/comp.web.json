@@ -15380,8 +15380,8 @@
     "diag": {
       "energy": {
         "default": {
-          "dpe": {
-            "a": {
+          "DPE": {
+            "A": {
               "container": {
                 "value": {
                   "fill": "{sem.color.surface.interactive.sub.default}",
@@ -15397,7 +15397,7 @@
                 "description": "({extends: 'comp.chip.default.container'})"
               }
             },
-            "b": {
+            "B": {
               "container": {
                 "value": {
                   "fill": "{sem.color.surface.interactive.sub.default}",
@@ -15413,7 +15413,7 @@
                 "description": "({extends: 'comp.chip.default.container'})"
               }
             },
-            "c": {
+            "C": {
               "container": {
                 "value": {
                   "fill": "{sem.color.surface.interactive.sub.default}",
@@ -15429,7 +15429,7 @@
                 "description": "({extends: 'comp.chip.default.container'})"
               }
             },
-            "d": {
+            "D": {
               "container": {
                 "value": {
                   "fill": "{sem.color.surface.interactive.sub.default}",
@@ -15445,7 +15445,7 @@
                 "description": "({extends: 'comp.chip.default.container'})"
               }
             },
-            "e": {
+            "E": {
               "container": {
                 "value": {
                   "fill": "{sem.color.surface.interactive.sub.default}",
@@ -15461,7 +15461,7 @@
                 "description": "({extends: 'comp.chip.default.container'})"
               }
             },
-            "f": {
+            "F": {
               "container": {
                 "value": {
                   "fill": "{sem.color.surface.interactive.sub.default}",
@@ -15477,7 +15477,7 @@
                 "description": "({extends: 'comp.chip.default.container'})"
               }
             },
-            "g": {
+            "G": {
               "container": {
                 "value": {
                   "fill": "{sem.color.surface.interactive.sub.default}",
@@ -15510,8 +15510,8 @@
               }
             }
           },
-          "ges": {
-            "a": {
+          "GES": {
+            "A": {
               "container": {
                 "value": {
                   "fill": "{sem.color.surface.interactive.sub.default}",
@@ -15527,7 +15527,7 @@
                 "description": "({extends: 'comp.chip.default.container'})"
               }
             },
-            "b": {
+            "B": {
               "container": {
                 "value": {
                   "fill": "{sem.color.surface.interactive.sub.default}",
@@ -15543,7 +15543,7 @@
                 "description": "({extends: 'comp.chip.default.container'})"
               }
             },
-            "c": {
+            "C": {
               "container": {
                 "value": {
                   "fill": "{sem.color.surface.interactive.sub.default}",
@@ -15559,7 +15559,7 @@
                 "description": "({extends: 'comp.chip.default.container'})"
               }
             },
-            "d": {
+            "D": {
               "container": {
                 "value": {
                   "fill": "{sem.color.surface.interactive.sub.default}",
@@ -15575,7 +15575,7 @@
                 "description": "({extends: 'comp.chip.default.container'})"
               }
             },
-            "e": {
+            "E": {
               "container": {
                 "value": {
                   "fill": "{sem.color.surface.interactive.sub.default}",
@@ -15591,7 +15591,7 @@
                 "description": "({extends: 'comp.chip.default.container'})"
               }
             },
-            "f": {
+            "F": {
               "container": {
                 "value": {
                   "fill": "{sem.color.surface.interactive.sub.default}",
@@ -15607,7 +15607,7 @@
                 "description": "({extends: 'comp.chip.default.container'})"
               }
             },
-            "g": {
+            "G": {
               "container": {
                 "value": {
                   "fill": "{sem.color.surface.interactive.sub.default}",
@@ -15642,8 +15642,8 @@
           }
         },
         "hover": {
-          "dpe": {
-            "a": {
+          "DPE": {
+            "A": {
               "container": {
                 "value": {
                   "fill": "{sem.color.surface.interactive.sub.hover}",
@@ -15659,7 +15659,7 @@
                 "description": "({extends: 'comp.chip.hover.container'})"
               }
             },
-            "b": {
+            "B": {
               "container": {
                 "value": {
                   "fill": "{sem.color.surface.interactive.sub.hover}",
@@ -15675,7 +15675,7 @@
                 "description": "({extends: 'comp.chip.hover.container'})"
               }
             },
-            "c": {
+            "C": {
               "container": {
                 "value": {
                   "fill": "{sem.color.surface.interactive.sub.hover}",
@@ -15691,7 +15691,7 @@
                 "description": "({extends: 'comp.chip.hover.container'})"
               }
             },
-            "d": {
+            "D": {
               "container": {
                 "value": {
                   "fill": "{sem.color.surface.interactive.sub.hover}",
@@ -15707,7 +15707,7 @@
                 "description": "({extends: 'comp.chip.hover.container'})"
               }
             },
-            "e": {
+            "E": {
               "container": {
                 "value": {
                   "fill": "{sem.color.surface.interactive.sub.hover}",
@@ -15723,7 +15723,7 @@
                 "description": "({extends: 'comp.chip.hover.container'})"
               }
             },
-            "f": {
+            "F": {
               "container": {
                 "value": {
                   "fill": "{sem.color.surface.interactive.sub.hover}",
@@ -15739,7 +15739,7 @@
                 "description": "({extends: 'comp.chip.hover.container'})"
               }
             },
-            "g": {
+            "G": {
               "container": {
                 "value": {
                   "fill": "{sem.color.surface.interactive.sub.hover}",
@@ -15772,8 +15772,8 @@
               }
             }
           },
-          "ges": {
-            "a": {
+          "GES": {
+            "A": {
               "container": {
                 "value": {
                   "fill": "{sem.color.surface.interactive.sub.hover}",
@@ -15789,7 +15789,7 @@
                 "description": "({extends: 'comp.chip.hover.container'})"
               }
             },
-            "b": {
+            "B": {
               "container": {
                 "value": {
                   "fill": "{sem.color.surface.interactive.sub.hover}",
@@ -15805,7 +15805,7 @@
                 "description": "({extends: 'comp.chip.hover.container'})"
               }
             },
-            "c": {
+            "C": {
               "container": {
                 "value": {
                   "fill": "{sem.color.surface.interactive.sub.hover}",
@@ -15821,7 +15821,7 @@
                 "description": "({extends: 'comp.chip.hover.container'})"
               }
             },
-            "d": {
+            "D": {
               "container": {
                 "value": {
                   "fill": "{sem.color.surface.interactive.sub.hover}",
@@ -15837,7 +15837,7 @@
                 "description": "({extends: 'comp.chip.hover.container'})"
               }
             },
-            "e": {
+            "E": {
               "container": {
                 "value": {
                   "fill": "{sem.color.surface.interactive.sub.hover}",
@@ -15853,7 +15853,7 @@
                 "description": "({extends: 'comp.chip.hover.container'})"
               }
             },
-            "f": {
+            "F": {
               "container": {
                 "value": {
                   "fill": "{sem.color.surface.interactive.sub.hover}",
@@ -15869,7 +15869,7 @@
                 "description": "({extends: 'comp.chip.hover.container'})"
               }
             },
-            "g": {
+            "G": {
               "container": {
                 "value": {
                   "fill": "{sem.color.surface.interactive.sub.hover}",
@@ -15904,8 +15904,8 @@
           }
         },
         "pressed": {
-          "dpe": {
-            "a": {
+          "DPE": {
+            "A": {
               "container": {
                 "value": {
                   "fill": "{sem.color.surface.interactive.sub.pressed}",
@@ -15921,7 +15921,7 @@
                 "description": "({extends: 'comp.chip.pressed.container'})"
               }
             },
-            "b": {
+            "B": {
               "container": {
                 "value": {
                   "fill": "{sem.color.surface.interactive.sub.pressed}",
@@ -15937,7 +15937,7 @@
                 "description": "({extends: 'comp.chip.pressed.container'})"
               }
             },
-            "c": {
+            "C": {
               "container": {
                 "value": {
                   "fill": "{sem.color.surface.interactive.sub.pressed}",
@@ -15953,7 +15953,7 @@
                 "description": "({extends: 'comp.chip.pressed.container'})"
               }
             },
-            "d": {
+            "D": {
               "container": {
                 "value": {
                   "fill": "{sem.color.surface.interactive.sub.pressed}",
@@ -15969,7 +15969,7 @@
                 "description": "({extends: 'comp.chip.pressed.container'})"
               }
             },
-            "e": {
+            "E": {
               "container": {
                 "value": {
                   "fill": "{sem.color.surface.interactive.sub.pressed}",
@@ -15985,7 +15985,7 @@
                 "description": "({extends: 'comp.chip.pressed.container'})"
               }
             },
-            "f": {
+            "F": {
               "container": {
                 "value": {
                   "fill": "{sem.color.surface.interactive.sub.pressed}",
@@ -16001,7 +16001,7 @@
                 "description": "({extends: 'comp.chip.pressed.container'})"
               }
             },
-            "g": {
+            "G": {
               "container": {
                 "value": {
                   "fill": "{sem.color.surface.interactive.sub.pressed}",
@@ -16034,8 +16034,8 @@
               }
             }
           },
-          "ges": {
-            "a": {
+          "GES": {
+            "A": {
               "container": {
                 "value": {
                   "fill": "{sem.color.surface.interactive.sub.pressed}",
@@ -16051,7 +16051,7 @@
                 "description": "({extends: 'comp.chip.pressed.container'})"
               }
             },
-            "b": {
+            "B": {
               "container": {
                 "value": {
                   "fill": "{sem.color.surface.interactive.sub.pressed}",
@@ -16067,7 +16067,7 @@
                 "description": "({extends: 'comp.chip.pressed.container'})"
               }
             },
-            "c": {
+            "C": {
               "container": {
                 "value": {
                   "fill": "{sem.color.surface.interactive.sub.pressed}",
@@ -16083,7 +16083,7 @@
                 "description": "({extends: 'comp.chip.pressed.container'})"
               }
             },
-            "d": {
+            "D": {
               "container": {
                 "value": {
                   "fill": "{sem.color.surface.interactive.sub.pressed}",
@@ -16099,7 +16099,7 @@
                 "description": "({extends: 'comp.chip.pressed.container'})"
               }
             },
-            "e": {
+            "E": {
               "container": {
                 "value": {
                   "fill": "{sem.color.surface.interactive.sub.pressed}",
@@ -16115,7 +16115,7 @@
                 "description": "({extends: 'comp.chip.pressed.container'})"
               }
             },
-            "f": {
+            "F": {
               "container": {
                 "value": {
                   "fill": "{sem.color.surface.interactive.sub.pressed}",
@@ -16131,7 +16131,7 @@
                 "description": "({extends: 'comp.chip.pressed.container'})"
               }
             },
-            "g": {
+            "G": {
               "container": {
                 "value": {
                   "fill": "{sem.color.surface.interactive.sub.pressed}",
@@ -16166,11 +16166,11 @@
           }
         },
         "active": {
-          "dpe": {
-            "a": {
+          "DPE": {
+            "A": {
               "container": {
                 "value": {
-                  "fill": "{comp.searchProperty.announcePage.sections.diag.item.cel.colors.dpe.a}",
+                  "fill": "{comp.searchProperty.announcePage.sections.diag.item.cel.colors.DPE.A}",
                   "border": "none",
                   "itemSpacing": "{sem.chip.container.spacing}",
                   "borderRadius": "{sem.chip.container.borderRadius}",
@@ -16183,10 +16183,10 @@
                 "description": "({extends: 'comp.chip.active.container'})"
               }
             },
-            "b": {
+            "B": {
               "container": {
                 "value": {
-                  "fill": "{comp.searchProperty.announcePage.sections.diag.item.cel.colors.dpe.b}",
+                  "fill": "{comp.searchProperty.announcePage.sections.diag.item.cel.colors.DPE.B}",
                   "border": "none",
                   "itemSpacing": "{sem.chip.container.spacing}",
                   "borderRadius": "{sem.chip.container.borderRadius}",
@@ -16199,10 +16199,10 @@
                 "description": "({extends: 'comp.chip.active.container'})"
               }
             },
-            "c": {
+            "C": {
               "container": {
                 "value": {
-                  "fill": "{comp.searchProperty.announcePage.sections.diag.item.cel.colors.dpe.c}",
+                  "fill": "{comp.searchProperty.announcePage.sections.diag.item.cel.colors.DPE.C}",
                   "border": "none",
                   "itemSpacing": "{sem.chip.container.spacing}",
                   "borderRadius": "{sem.chip.container.borderRadius}",
@@ -16215,10 +16215,10 @@
                 "description": "({extends: 'comp.chip.active.container'})"
               }
             },
-            "d": {
+            "D": {
               "container": {
                 "value": {
-                  "fill": "{comp.searchProperty.announcePage.sections.diag.item.cel.colors.dpe.d}",
+                  "fill": "{comp.searchProperty.announcePage.sections.diag.item.cel.colors.DPE.D}",
                   "border": "none",
                   "itemSpacing": "{sem.chip.container.spacing}",
                   "borderRadius": "{sem.chip.container.borderRadius}",
@@ -16231,10 +16231,10 @@
                 "description": "({extends: 'comp.chip.active.container'})"
               }
             },
-            "e": {
+            "E": {
               "container": {
                 "value": {
-                  "fill": "{comp.searchProperty.announcePage.sections.diag.item.cel.colors.dpe.e}",
+                  "fill": "{comp.searchProperty.announcePage.sections.diag.item.cel.colors.DPE.E}",
                   "border": "none",
                   "itemSpacing": "{sem.chip.container.spacing}",
                   "borderRadius": "{sem.chip.container.borderRadius}",
@@ -16247,10 +16247,10 @@
                 "description": "({extends: 'comp.chip.active.container'})"
               }
             },
-            "f": {
+            "F": {
               "container": {
                 "value": {
-                  "fill": "{comp.searchProperty.announcePage.sections.diag.item.cel.colors.dpe.f}",
+                  "fill": "{comp.searchProperty.announcePage.sections.diag.item.cel.colors.DPE.F}",
                   "border": "none",
                   "itemSpacing": "{sem.chip.container.spacing}",
                   "borderRadius": "{sem.chip.container.borderRadius}",
@@ -16263,10 +16263,10 @@
                 "description": "({extends: 'comp.chip.active.container'})"
               }
             },
-            "g": {
+            "G": {
               "container": {
                 "value": {
-                  "fill": "{comp.searchProperty.announcePage.sections.diag.item.cel.colors.dpe.g}",
+                  "fill": "{comp.searchProperty.announcePage.sections.diag.item.cel.colors.DPE.G}",
                   "border": "none",
                   "itemSpacing": "{sem.chip.container.spacing}",
                   "borderRadius": "{sem.chip.container.borderRadius}",
@@ -16282,7 +16282,7 @@
             "empty": {
               "container": {
                 "value": {
-                  "fill": "{comp.searchProperty.announcePage.sections.diag.item.cel.colors.dpe.empty}",
+                  "fill": "{comp.searchProperty.announcePage.sections.diag.item.cel.colors.DPE.empty}",
                   "border": "none",
                   "itemSpacing": "{sem.chip.container.spacing}",
                   "borderRadius": "{sem.chip.container.borderRadius}",
@@ -16296,11 +16296,11 @@
               }
             }
           },
-          "ges": {
-            "a": {
+          "GES": {
+            "A": {
               "container": {
                 "value": {
-                  "fill": "{comp.searchProperty.announcePage.sections.diag.item.cel.colors.ges.a}",
+                  "fill": "{comp.searchProperty.announcePage.sections.diag.item.cel.colors.GES.A}",
                   "border": "none",
                   "itemSpacing": "{sem.chip.container.spacing}",
                   "borderRadius": "{sem.chip.container.borderRadius}",
@@ -16313,10 +16313,10 @@
                 "description": "({extends: 'comp.chip.active.container'})"
               }
             },
-            "b": {
+            "B": {
               "container": {
                 "value": {
-                  "fill": "{comp.searchProperty.announcePage.sections.diag.item.cel.colors.ges.b}",
+                  "fill": "{comp.searchProperty.announcePage.sections.diag.item.cel.colors.GES.B}",
                   "border": "none",
                   "itemSpacing": "{sem.chip.container.spacing}",
                   "borderRadius": "{sem.chip.container.borderRadius}",
@@ -16329,10 +16329,10 @@
                 "description": "({extends: 'comp.chip.active.container'})"
               }
             },
-            "c": {
+            "C": {
               "container": {
                 "value": {
-                  "fill": "{comp.searchProperty.announcePage.sections.diag.item.cel.colors.ges.c}",
+                  "fill": "{comp.searchProperty.announcePage.sections.diag.item.cel.colors.GES.C}",
                   "border": "none",
                   "itemSpacing": "{sem.chip.container.spacing}",
                   "borderRadius": "{sem.chip.container.borderRadius}",
@@ -16345,10 +16345,10 @@
                 "description": "({extends: 'comp.chip.active.container'})"
               }
             },
-            "d": {
+            "D": {
               "container": {
                 "value": {
-                  "fill": "{comp.searchProperty.announcePage.sections.diag.item.cel.colors.ges.d}",
+                  "fill": "{comp.searchProperty.announcePage.sections.diag.item.cel.colors.GES.D}",
                   "border": "none",
                   "itemSpacing": "{sem.chip.container.spacing}",
                   "borderRadius": "{sem.chip.container.borderRadius}",
@@ -16361,10 +16361,10 @@
                 "description": "({extends: 'comp.chip.active.container'})"
               }
             },
-            "e": {
+            "E": {
               "container": {
                 "value": {
-                  "fill": "{comp.searchProperty.announcePage.sections.diag.item.cel.colors.ges.e}",
+                  "fill": "{comp.searchProperty.announcePage.sections.diag.item.cel.colors.GES.E}",
                   "border": "none",
                   "itemSpacing": "{sem.chip.container.spacing}",
                   "borderRadius": "{sem.chip.container.borderRadius}",
@@ -16377,10 +16377,10 @@
                 "description": "({extends: 'comp.chip.active.container'})"
               }
             },
-            "f": {
+            "F": {
               "container": {
                 "value": {
-                  "fill": "{comp.searchProperty.announcePage.sections.diag.item.cel.colors.ges.f}",
+                  "fill": "{comp.searchProperty.announcePage.sections.diag.item.cel.colors.GES.F}",
                   "border": "none",
                   "itemSpacing": "{sem.chip.container.spacing}",
                   "borderRadius": "{sem.chip.container.borderRadius}",
@@ -16393,10 +16393,10 @@
                 "description": "({extends: 'comp.chip.active.container'})"
               }
             },
-            "g": {
+            "G": {
               "container": {
                 "value": {
-                  "fill": "{comp.searchProperty.announcePage.sections.diag.item.cel.colors.ges.g}",
+                  "fill": "{comp.searchProperty.announcePage.sections.diag.item.cel.colors.GES.G}",
                   "border": "none",
                   "itemSpacing": "{sem.chip.container.spacing}",
                   "borderRadius": "{sem.chip.container.borderRadius}",
@@ -16412,7 +16412,7 @@
             "empty": {
               "container": {
                 "value": {
-                  "fill": "{comp.searchProperty.announcePage.sections.diag.item.cel.colors.ges.empty}",
+                  "fill": "{comp.searchProperty.announcePage.sections.diag.item.cel.colors.GES.empty}",
                   "border": "none",
                   "itemSpacing": "{sem.chip.container.spacing}",
                   "borderRadius": "{sem.chip.container.borderRadius}",
