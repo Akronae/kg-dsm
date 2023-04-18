@@ -9,7 +9,7 @@ comp
 [
   {
     "value": {
-      "fill": "{<<state == 'active' && luminance == 'light' ? 'sem.color.text.dark' : 'sem.color.text.default'>>}"
+      "fill": "{<<state == 'active' && luminance == 'light' ? 'sem.color.text.light' : 'sem.color.text.dark'>>}"
     },
     "type": "composition",
     "description": "({extends: 'comp.chip.<<state>>.label'})"

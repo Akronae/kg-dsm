@@ -16306,7 +16306,7 @@
             "default": {
               "value": {
                 "typography": "{sem.typography.textStyle.label.body.sm}",
-                "fill": "{sem.color.text.default}"
+                "fill": "{sem.color.text.dark}"
               },
               "type": "composition",
               "description": "({extends: 'comp.chip.default.label'})"
@@ -16314,7 +16314,7 @@
             "hover": {
               "value": {
                 "typography": "{sem.typography.textStyle.label.body.sm}",
-                "fill": "{sem.color.text.default}"
+                "fill": "{sem.color.text.dark}"
               },
               "type": "composition",
               "description": "({extends: 'comp.chip.hover.label'})"
@@ -16322,7 +16322,7 @@
             "pressed": {
               "value": {
                 "typography": "{sem.typography.textStyle.label.body.sm}",
-                "fill": "{sem.color.text.default}"
+                "fill": "{sem.color.text.dark}"
               },
               "type": "composition",
               "description": "({extends: 'comp.chip.pressed.label'})"
@@ -16330,7 +16330,7 @@
             "active": {
               "value": {
                 "typography": "{sem.typography.textStyle.label.body.sm}",
-                "fill": "{sem.color.text.dark}"
+                "fill": "{sem.color.text.light}"
               },
               "type": "composition",
               "description": "({extends: 'comp.chip.active.label'})"
@@ -16340,7 +16340,7 @@
             "default": {
               "value": {
                 "typography": "{sem.typography.textStyle.label.body.sm}",
-                "fill": "{sem.color.text.default}"
+                "fill": "{sem.color.text.dark}"
               },
               "type": "composition",
               "description": "({extends: 'comp.chip.default.label'})"
@@ -16348,7 +16348,7 @@
             "hover": {
               "value": {
                 "typography": "{sem.typography.textStyle.label.body.sm}",
-                "fill": "{sem.color.text.default}"
+                "fill": "{sem.color.text.dark}"
               },
               "type": "composition",
               "description": "({extends: 'comp.chip.hover.label'})"
@@ -16356,7 +16356,7 @@
             "pressed": {
               "value": {
                 "typography": "{sem.typography.textStyle.label.body.sm}",
-                "fill": "{sem.color.text.default}"
+                "fill": "{sem.color.text.dark}"
               },
               "type": "composition",
               "description": "({extends: 'comp.chip.pressed.label'})"
@@ -16364,7 +16364,7 @@
             "active": {
               "value": {
                 "typography": "{sem.typography.textStyle.label.body.sm}",
-                "fill": "{sem.color.text.default}"
+                "fill": "{sem.color.text.dark}"
               },
               "type": "composition",
               "description": "({extends: 'comp.chip.active.label'})"
