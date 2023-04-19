@@ -1169,24 +1169,6 @@
           "type": "border"
         }
       }
-    },
-    "contrast": {
-      "threshold": {
-        "text": {
-          "normal": {
-            "value": 5,
-            "type": "other"
-          },
-          "large": {
-            "value": 5,
-            "type": "other"
-          }
-        },
-        "surface": {
-          "value": 5,
-          "type": "other"
-        }
-      }
     }
   }
 }
