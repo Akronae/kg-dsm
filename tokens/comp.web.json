@@ -5668,7 +5668,7 @@
                 "width": "sem.contentCard.TODO_NAME.xs.icon.sizing",
                 "height": "sem.contentCard.TODO_NAME.xs.icon.sizing"
               },
-              "type": "Compostion"
+              "type": "Composition"
             },
             "color": {
               "value": {
@@ -5682,7 +5682,7 @@
               "typography": "{sem.typography.textStyle.label.body.xs}",
               "fill": "{sem.color.text.default}"
             },
-            "type": "Compostion"
+            "type": "Composition"
           },
           "avatar": {
             "value": {
@@ -5710,7 +5710,7 @@
                 "width": "sem.contentCard.TODO_NAME.md.icon.sizing",
                 "height": "sem.contentCard.TODO_NAME.md.icon.sizing"
               },
-              "type": "Compostion"
+              "type": "Composition"
             },
             "color": {
               "value": {
@@ -5724,7 +5724,7 @@
               "typography": "{sem.typography.textStyle.label.body.sm}",
               "fill": "{sem.color.text.default}"
             },
-            "type": "Compostion"
+            "type": "Composition"
           },
           "avatar": {
             "value": {
