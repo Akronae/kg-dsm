@@ -8560,29 +8560,27 @@
             "type": "composition"
           },
           "textWrapper": {
-            "wrapper": {
-              "value": {
-                "horizontalResizing": "fill",
-                "itemSpacing": "{sem.contentCard.xs.contentWrapper.itemSpacing}"
-              },
-              "type": "composition"
+            "value": {
+              "horizontalResizing": "fill",
+              "itemSpacing": "{sem.contentCard.xs.contentWrapper.itemSpacing}"
             },
-            "sub": {
-              "value": {
-                "typography": "{sem.typography.textStyle.label.body.xs}",
-                "fill": "{sem.color.text.default}",
-                "horizontalResizing": "fill"
-              },
-              "type": "composition"
+            "type": "composition"
+          },
+          "sub": {
+            "value": {
+              "typography": "{sem.typography.textStyle.label.body.xs}",
+              "fill": "{sem.color.text.default}",
+              "horizontalResizing": "fill"
             },
-            "label": {
-              "value": {
-                "typography": "{sem.typography.textStyle.label.body.sm}",
-                "fill": "{sem.color.text.default}",
-                "horizontalResizing": "fill"
-              },
-              "type": "composition"
-            }
+            "type": "composition"
+          },
+          "label": {
+            "value": {
+              "typography": "{sem.typography.textStyle.label.body.sm}",
+              "fill": "{sem.color.text.default}",
+              "horizontalResizing": "fill"
+            },
+            "type": "composition"
           }
         },
         "mobile": {
@@ -8611,29 +8609,27 @@
             "type": "composition"
           },
           "textWrapper": {
-            "wrapper": {
-              "value": {
-                "horizontalResizing": "fill",
-                "itemSpacing": "{sem.contentCard.xs.contentWrapper.itemSpacing}"
-              },
-              "type": "composition"
+            "value": {
+              "horizontalResizing": "fill",
+              "itemSpacing": "{sem.contentCard.xs.contentWrapper.itemSpacing}"
             },
-            "sub": {
-              "value": {
-                "typography": "{sem.typography.textStyle.label.body.xs}",
-                "fill": "{sem.color.text.default}",
-                "horizontalResizing": "fill"
-              },
-              "type": "composition"
+            "type": "composition"
+          },
+          "sub": {
+            "value": {
+              "typography": "{sem.typography.textStyle.label.body.xs}",
+              "fill": "{sem.color.text.default}",
+              "horizontalResizing": "fill"
             },
-            "label": {
-              "value": {
-                "typography": "{sem.typography.textStyle.label.body.sm}",
-                "fill": "{sem.color.text.default}",
-                "horizontalResizing": "fill"
-              },
-              "type": "composition"
-            }
+            "type": "composition"
+          },
+          "label": {
+            "value": {
+              "typography": "{sem.typography.textStyle.label.body.sm}",
+              "fill": "{sem.color.text.default}",
+              "horizontalResizing": "fill"
+            },
+            "type": "composition"
           }
         }
       },
@@ -8664,29 +8660,27 @@
             "type": "composition"
           },
           "textWrapper": {
-            "wrapper": {
-              "value": {
-                "horizontalResizing": "fill",
-                "itemSpacing": "{sem.contentCard.md.contentWrapper.itemSpacing}"
-              },
-              "type": "composition"
+            "value": {
+              "horizontalResizing": "fill",
+              "itemSpacing": "{sem.contentCard.md.contentWrapper.itemSpacing}"
             },
-            "sub": {
-              "value": {
-                "typography": "{sem.typography.textStyle.label.body.md}",
-                "fill": "{sem.color.text.default}",
-                "horizontalResizing": "fill"
-              },
-              "type": "composition"
+            "type": "composition"
+          },
+          "sub": {
+            "value": {
+              "typography": "{sem.typography.textStyle.label.body.md}",
+              "fill": "{sem.color.text.default}",
+              "horizontalResizing": "fill"
             },
-            "label": {
-              "value": {
-                "typography": "{sem.typography.textStyle.label.body.md}",
-                "fill": "{sem.color.text.default}",
-                "horizontalResizing": "fill"
-              },
-              "type": "composition"
-            }
+            "type": "composition"
+          },
+          "label": {
+            "value": {
+              "typography": "{sem.typography.textStyle.label.body.md}",
+              "fill": "{sem.color.text.default}",
+              "horizontalResizing": "fill"
+            },
+            "type": "composition"
           }
         },
         "mobile": {
@@ -8715,29 +8709,27 @@
             "type": "composition"
           },
           "textWrapper": {
-            "wrapper": {
-              "value": {
-                "horizontalResizing": "fill",
-                "itemSpacing": "{sem.contentCard.md.contentWrapper.itemSpacing}"
-              },
-              "type": "composition"
+            "value": {
+              "horizontalResizing": "fill",
+              "itemSpacing": "{sem.contentCard.md.contentWrapper.itemSpacing}"
             },
-            "sub": {
-              "value": {
-                "typography": "{sem.typography.textStyle.label.body.md}",
-                "fill": "{sem.color.text.default}",
-                "horizontalResizing": "fill"
-              },
-              "type": "composition"
+            "type": "composition"
+          },
+          "sub": {
+            "value": {
+              "typography": "{sem.typography.textStyle.label.body.md}",
+              "fill": "{sem.color.text.default}",
+              "horizontalResizing": "fill"
             },
-            "label": {
-              "value": {
-                "typography": "{sem.typography.textStyle.label.body.md}",
-                "fill": "{sem.color.text.default}",
-                "horizontalResizing": "fill"
-              },
-              "type": "composition"
-            }
+            "type": "composition"
+          },
+          "label": {
+            "value": {
+              "typography": "{sem.typography.textStyle.label.body.md}",
+              "fill": "{sem.color.text.default}",
+              "horizontalResizing": "fill"
+            },
+            "type": "composition"
           }
         }
       }
