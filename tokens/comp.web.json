@@ -5523,14 +5523,14 @@
               "value": {
                 "horizontalResizing": "fill",
                 "layoutMode": "horizontal",
-                "itemSpacing": "{sem.contentCard.xs.contentWrapper.itemSpacing}"
+                "itemSpacing": "{sem.contentCard.card.xs.contentWrapper.itemSpacing}"
               },
               "type": "composition"
             },
             "textWrapper": {
               "value": {
                 "horizontalResizing": "fill",
-                "itemSpacing": "{sem.contentCard.xs.contentWrapper.textWrapper.itemSpacing}"
+                "itemSpacing": "{sem.contentCard.card.xs.contentWrapper.textWrapper.itemSpacing}"
               },
               "type": "composition"
             },
@@ -5553,7 +5553,7 @@
             "buttonWrapper": {
               "value": {
                 "layoutMode": "horizontal",
-                "itemSpacing": "{sem.contentCard.xs.buttonWrapper.itemSpacing}",
+                "itemSpacing": "{sem.contentCard.card.xs.buttonWrapper.itemSpacing}",
                 "horizontalResizing": "hug"
               },
               "type": "composition"
@@ -5581,14 +5581,14 @@
               "value": {
                 "horizontalResizing": "fill",
                 "layoutMode": "mobile",
-                "itemSpacing": "{sem.contentCard.xs.contentWrapper.itemSpacing}"
+                "itemSpacing": "{sem.contentCard.card.xs.contentWrapper.itemSpacing}"
               },
               "type": "composition"
             },
             "textWrapper": {
               "value": {
                 "horizontalResizing": "fill",
-                "itemSpacing": "{sem.contentCard.xs.contentWrapper.textWrapper.itemSpacing}"
+                "itemSpacing": "{sem.contentCard.card.xs.contentWrapper.textWrapper.itemSpacing}"
               },
               "type": "composition"
             },
@@ -5611,7 +5611,7 @@
             "buttonWrapper": {
               "value": {
                 "layoutMode": "horizontal",
-                "itemSpacing": "{sem.contentCard.xs.buttonWrapper.itemSpacing}",
+                "itemSpacing": "{sem.contentCard.card.xs.buttonWrapper.itemSpacing}",
                 "horizontalResizing": "fill"
               },
               "type": "composition"
@@ -5641,14 +5641,14 @@
               "value": {
                 "horizontalResizing": "fill",
                 "layoutMode": "horizontal",
-                "itemSpacing": "{sem.contentCard.md.contentWrapper.itemSpacing}"
+                "itemSpacing": "{sem.contentCard.card.md.contentWrapper.itemSpacing}"
               },
               "type": "composition"
             },
             "textWrapper": {
               "value": {
                 "horizontalResizing": "fill",
-                "itemSpacing": "{sem.contentCard.md.contentWrapper.textWrapper.itemSpacing}"
+                "itemSpacing": "{sem.contentCard.card.md.contentWrapper.textWrapper.itemSpacing}"
               },
               "type": "composition"
             },
@@ -5671,7 +5671,7 @@
             "buttonWrapper": {
               "value": {
                 "layoutMode": "horizontal",
-                "itemSpacing": "{sem.contentCard.md.buttonWrapper.itemSpacing}",
+                "itemSpacing": "{sem.contentCard.card.md.buttonWrapper.itemSpacing}",
                 "horizontalResizing": "hug"
               },
               "type": "composition"
@@ -5699,14 +5699,14 @@
               "value": {
                 "horizontalResizing": "fill",
                 "layoutMode": "mobile",
-                "itemSpacing": "{sem.contentCard.md.contentWrapper.itemSpacing}"
+                "itemSpacing": "{sem.contentCard.card.md.contentWrapper.itemSpacing}"
               },
               "type": "composition"
             },
             "textWrapper": {
               "value": {
                 "horizontalResizing": "fill",
-                "itemSpacing": "{sem.contentCard.md.contentWrapper.textWrapper.itemSpacing}"
+                "itemSpacing": "{sem.contentCard.card.md.contentWrapper.textWrapper.itemSpacing}"
               },
               "type": "composition"
             },
@@ -5729,7 +5729,7 @@
             "buttonWrapper": {
               "value": {
                 "layoutMode": "horizontal",
-                "itemSpacing": "{sem.contentCard.md.buttonWrapper.itemSpacing}",
+                "itemSpacing": "{sem.contentCard.card.md.buttonWrapper.itemSpacing}",
                 "horizontalResizing": "fill"
               },
               "type": "composition"
