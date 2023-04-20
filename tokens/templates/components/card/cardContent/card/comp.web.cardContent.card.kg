@@ -40,7 +40,7 @@ comp
     "label": {
       "value": {
         "typography": "<< ({ xs: '{sem.typography.textStyle.label.body.sm}', md: '{sem.typography.textStyle.label.body.md}' })[size] >>",
-        "fill": "{sem.color.text.default}",
+        "fill": "{sem.color.text.strong}",
         "horizontalResizing": "fill"
       },
       "type": "composition"

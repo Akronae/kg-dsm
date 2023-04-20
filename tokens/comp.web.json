@@ -5545,7 +5545,7 @@
             "label": {
               "value": {
                 "typography": "{sem.typography.textStyle.label.body.sm}",
-                "fill": "{sem.color.text.default}",
+                "fill": "{sem.color.text.strong}",
                 "horizontalResizing": "fill"
               },
               "type": "composition"
@@ -5603,7 +5603,7 @@
             "label": {
               "value": {
                 "typography": "{sem.typography.textStyle.label.body.sm}",
-                "fill": "{sem.color.text.default}",
+                "fill": "{sem.color.text.strong}",
                 "horizontalResizing": "fill"
               },
               "type": "composition"
@@ -5663,7 +5663,7 @@
             "label": {
               "value": {
                 "typography": "{sem.typography.textStyle.label.body.md}",
-                "fill": "{sem.color.text.default}",
+                "fill": "{sem.color.text.strong}",
                 "horizontalResizing": "fill"
               },
               "type": "composition"
@@ -5721,7 +5721,7 @@
             "label": {
               "value": {
                 "typography": "{sem.typography.textStyle.label.body.md}",
-                "fill": "{sem.color.text.default}",
+                "fill": "{sem.color.text.strong}",
                 "horizontalResizing": "fill"
               },
               "type": "composition"
