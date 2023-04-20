@@ -5413,242 +5413,6 @@
       }
     },
     "contentCard": {
-      "xs": {
-        "desktop": {
-          "container": {
-            "value": {
-              "horizontalPadding": "{sem.card.base.xs.padding}",
-              "verticalPadding": "{sem.card.base.xs.padding}",
-              "fill": "{sem.color.surface.light}",
-              "boxShadow": "none",
-              "borderRadiusTopLeft": "{sem.card.base.xs.borderRadiusTopLeft}",
-              "borderRadiusTopRight": "{sem.card.base.xs.borderRadiusTopRight}",
-              "borderRadiusBottomRight": "{sem.card.base.xs.borderRadiusBottomRight}",
-              "borderRadiusBottomLeft": "{sem.card.base.xs.borderRadiusBottomLeft}",
-              "border": "{sem.border.transparent}",
-              "layoutMode": "vertical",
-              "itemSpacing": "{sem.contentCard.xs.container.itemSpacing}"
-            },
-            "type": "composition",
-            "description": "({extends: 'comp.card.base.xs.uncontrasted.default'})"
-          },
-          "contentWrapper": {
-            "value": {
-              "horizontalResizing": "fill",
-              "layoutMode": "horizontal",
-              "itemSpacing": "{sem.contentCard.xs.contentWrapper.itemSpacing}"
-            },
-            "type": "composition"
-          },
-          "textWrapper": {
-            "value": {
-              "horizontalResizing": "fill",
-              "itemSpacing": "{sem.contentCard.xs.contentWrapper.textWrapper.itemSpacing}"
-            },
-            "type": "composition"
-          },
-          "sub": {
-            "value": {
-              "typography": "{sem.typography.textStyle.label.body.xs}",
-              "fill": "{sem.color.text.default}",
-              "horizontalResizing": "fill"
-            },
-            "type": "composition"
-          },
-          "label": {
-            "value": {
-              "typography": "{sem.typography.textStyle.label.body.sm}",
-              "fill": "{sem.color.text.default}",
-              "horizontalResizing": "fill"
-            },
-            "type": "composition"
-          },
-          "buttonWrapper": {
-            "value": {
-              "layoutMode": "horizontal",
-              "itemSpacing": "{sem.contentCard.xs.buttonWrapper.itemSpacing}",
-              "horizontalResizing": "hug"
-            },
-            "type": "composition"
-          }
-        },
-        "mobile": {
-          "container": {
-            "value": {
-              "horizontalPadding": "{sem.card.base.xs.padding}",
-              "verticalPadding": "{sem.card.base.xs.padding}",
-              "fill": "{sem.color.surface.light}",
-              "boxShadow": "none",
-              "borderRadiusTopLeft": "{sem.card.base.xs.borderRadiusTopLeft}",
-              "borderRadiusTopRight": "{sem.card.base.xs.borderRadiusTopRight}",
-              "borderRadiusBottomRight": "{sem.card.base.xs.borderRadiusBottomRight}",
-              "borderRadiusBottomLeft": "{sem.card.base.xs.borderRadiusBottomLeft}",
-              "border": "{sem.border.transparent}",
-              "layoutMode": "vertical",
-              "itemSpacing": "{sem.contentCard.xs.container.itemSpacing}"
-            },
-            "type": "composition",
-            "description": "({extends: 'comp.card.base.xs.uncontrasted.default'})"
-          },
-          "contentWrapper": {
-            "value": {
-              "horizontalResizing": "fill",
-              "layoutMode": "mobile",
-              "itemSpacing": "{sem.contentCard.xs.contentWrapper.itemSpacing}"
-            },
-            "type": "composition"
-          },
-          "textWrapper": {
-            "value": {
-              "horizontalResizing": "fill",
-              "itemSpacing": "{sem.contentCard.xs.contentWrapper.textWrapper.itemSpacing}"
-            },
-            "type": "composition"
-          },
-          "sub": {
-            "value": {
-              "typography": "{sem.typography.textStyle.label.body.xs}",
-              "fill": "{sem.color.text.default}",
-              "horizontalResizing": "fill"
-            },
-            "type": "composition"
-          },
-          "label": {
-            "value": {
-              "typography": "{sem.typography.textStyle.label.body.sm}",
-              "fill": "{sem.color.text.default}",
-              "horizontalResizing": "fill"
-            },
-            "type": "composition"
-          },
-          "buttonWrapper": {
-            "value": {
-              "layoutMode": "horizontal",
-              "itemSpacing": "{sem.contentCard.xs.buttonWrapper.itemSpacing}",
-              "horizontalResizing": "fill"
-            },
-            "type": "composition"
-          }
-        }
-      },
-      "md": {
-        "desktop": {
-          "container": {
-            "value": {
-              "horizontalPadding": "{sem.card.base.md.padding}",
-              "verticalPadding": "{sem.card.base.md.padding}",
-              "fill": "{sem.color.surface.light}",
-              "boxShadow": "none",
-              "borderRadiusTopLeft": "{sem.card.base.md.borderRadiusTopLeft}",
-              "borderRadiusTopRight": "{sem.card.base.md.borderRadiusTopRight}",
-              "borderRadiusBottomRight": "{sem.card.base.md.borderRadiusBottomRight}",
-              "borderRadiusBottomLeft": "{sem.card.base.md.borderRadiusBottomLeft}",
-              "border": "{sem.border.transparent}",
-              "layoutMode": "vertical",
-              "itemSpacing": "{sem.contentCard.md.container.itemSpacing}"
-            },
-            "type": "composition",
-            "description": "({extends: 'comp.card.base.md.uncontrasted.default'})"
-          },
-          "contentWrapper": {
-            "value": {
-              "horizontalResizing": "fill",
-              "layoutMode": "horizontal",
-              "itemSpacing": "{sem.contentCard.md.contentWrapper.itemSpacing}"
-            },
-            "type": "composition"
-          },
-          "textWrapper": {
-            "value": {
-              "horizontalResizing": "fill",
-              "itemSpacing": "{sem.contentCard.md.contentWrapper.textWrapper.itemSpacing}"
-            },
-            "type": "composition"
-          },
-          "sub": {
-            "value": {
-              "typography": "{sem.typography.textStyle.label.body.md}",
-              "fill": "{sem.color.text.default}",
-              "horizontalResizing": "fill"
-            },
-            "type": "composition"
-          },
-          "label": {
-            "value": {
-              "typography": "{sem.typography.textStyle.label.body.md}",
-              "fill": "{sem.color.text.default}",
-              "horizontalResizing": "fill"
-            },
-            "type": "composition"
-          },
-          "buttonWrapper": {
-            "value": {
-              "layoutMode": "horizontal",
-              "itemSpacing": "{sem.contentCard.md.buttonWrapper.itemSpacing}",
-              "horizontalResizing": "hug"
-            },
-            "type": "composition"
-          }
-        },
-        "mobile": {
-          "container": {
-            "value": {
-              "horizontalPadding": "{sem.card.base.md.padding}",
-              "verticalPadding": "{sem.card.base.md.padding}",
-              "fill": "{sem.color.surface.light}",
-              "boxShadow": "none",
-              "borderRadiusTopLeft": "{sem.card.base.md.borderRadiusTopLeft}",
-              "borderRadiusTopRight": "{sem.card.base.md.borderRadiusTopRight}",
-              "borderRadiusBottomRight": "{sem.card.base.md.borderRadiusBottomRight}",
-              "borderRadiusBottomLeft": "{sem.card.base.md.borderRadiusBottomLeft}",
-              "border": "{sem.border.transparent}",
-              "layoutMode": "vertical",
-              "itemSpacing": "{sem.contentCard.md.container.itemSpacing}"
-            },
-            "type": "composition",
-            "description": "({extends: 'comp.card.base.md.uncontrasted.default'})"
-          },
-          "contentWrapper": {
-            "value": {
-              "horizontalResizing": "fill",
-              "layoutMode": "mobile",
-              "itemSpacing": "{sem.contentCard.md.contentWrapper.itemSpacing}"
-            },
-            "type": "composition"
-          },
-          "textWrapper": {
-            "value": {
-              "horizontalResizing": "fill",
-              "itemSpacing": "{sem.contentCard.md.contentWrapper.textWrapper.itemSpacing}"
-            },
-            "type": "composition"
-          },
-          "sub": {
-            "value": {
-              "typography": "{sem.typography.textStyle.label.body.md}",
-              "fill": "{sem.color.text.default}",
-              "horizontalResizing": "fill"
-            },
-            "type": "composition"
-          },
-          "label": {
-            "value": {
-              "typography": "{sem.typography.textStyle.label.body.md}",
-              "fill": "{sem.color.text.default}",
-              "horizontalResizing": "fill"
-            },
-            "type": "composition"
-          },
-          "buttonWrapper": {
-            "value": {
-              "layoutMode": "horizontal",
-              "itemSpacing": "{sem.contentCard.md.buttonWrapper.itemSpacing}",
-              "horizontalResizing": "fill"
-            },
-            "type": "composition"
-          }
-        }
-      },
       "leftContent": {
         "xs": {
           "container": {
@@ -15917,96 +15681,6 @@
       }
     },
     "contentCard": {
-      "xs": {
-        "container": {
-          "itemSpacing": {
-            "value": "{ref.spacing.100}",
-            "type": "spacing"
-          }
-        },
-        "contentWrapper": {
-          "itemSpacing": {
-            "value": "{ref.spacing.100}",
-            "type": "spacing"
-          },
-          "textWrapper": {
-            "itemSpacing": {
-              "value": "{ref.spacing.50}",
-              "type": "spacing"
-            }
-          }
-        },
-        "buttonWrapper": {
-          "itemSpacing": {
-            "value": "{ref.spacing.100}",
-            "type": "spacing"
-          }
-        }
-      },
-      "md": {
-        "container": {
-          "itemSpacing": {
-            "value": "{ref.spacing.200}",
-            "type": "spacing"
-          }
-        },
-        "contentWrapper": {
-          "itemSpacing": {
-            "value": "{ref.spacing.150}",
-            "type": "spacing"
-          },
-          "textWrapper": {
-            "itemSpacing": {
-              "value": "{ref.spacing.50}",
-              "type": "spacing"
-            }
-          }
-        },
-        "buttonWrapper": {
-          "itemSpacing": {
-            "value": "{ref.spacing.100}",
-            "type": "spacing"
-          }
-        }
-      },
-      "leftContent": {
-        "xs": {
-          "container": {
-            "sizing": {
-              "value": "{ref.sizing.300}",
-              "type": "sizing"
-            },
-            "borderRadius": {
-              "value": "ref.borderRadius.200",
-              "type": "borderRadius"
-            }
-          },
-          "icon": {
-            "sizing": {
-              "value": "{ref.sizing.200}",
-              "type": "sizing"
-            }
-          }
-        },
-        "md": {
-          "container": {
-            "sizing": {
-              "value": "{ref.sizing.600}",
-              "type": "sizing"
-            },
-            "borderRadius": {
-              "value": "ref.borderRadius.300",
-              "type": "borderRadius"
-            }
-          },
-          "icon": {
-            "sizing": {
-              "value": "{ref.sizing.200}",
-              "type": "sizing"
-            }
-          }
-        }
-      },
       "card": {
         "xs": {
           "container": {
@@ -16057,6 +15731,44 @@
             "itemSpacing": {
               "value": "{ref.spacing.100}",
               "type": "spacing"
+            }
+          }
+        }
+      },
+      "leftContent": {
+        "xs": {
+          "container": {
+            "sizing": {
+              "value": "{ref.sizing.300}",
+              "type": "sizing"
+            },
+            "borderRadius": {
+              "value": "ref.borderRadius.200",
+              "type": "borderRadius"
+            }
+          },
+          "icon": {
+            "sizing": {
+              "value": "{ref.sizing.200}",
+              "type": "sizing"
+            }
+          }
+        },
+        "md": {
+          "container": {
+            "sizing": {
+              "value": "{ref.sizing.600}",
+              "type": "sizing"
+            },
+            "borderRadius": {
+              "value": "ref.borderRadius.300",
+              "type": "borderRadius"
+            }
+          },
+          "icon": {
+            "sizing": {
+              "value": "{ref.sizing.200}",
+              "type": "sizing"
             }
           }
         }
