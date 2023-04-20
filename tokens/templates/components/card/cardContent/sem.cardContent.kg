@@ -22,6 +22,12 @@ sem
           "type": "spacing"
         }
       }
+    },
+    "buttonWrapper": {
+      "itemSpacing": {
+        "value": "{ref.spacing.100}",
+        "type": "spacing"
+      }
     }
   }
 ]

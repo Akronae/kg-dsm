@@ -43,6 +43,14 @@ comp
         "horizontalResizing": "fill"
       },
       "type": "composition"
+    },
+    "buttonWrapper": {
+      "value": {
+        "layoutMode": "horizontal",
+        "itemSpacing": "{sem.contentCard.<<size>>.buttonWrapper.itemSpacing}",
+        "horizontalResizing": "<< ({ desktop: 'hug', mobile: 'fill' }) [aspectRatio]>>"
+      },
+      "type": "composition"
     }
   }
 ]

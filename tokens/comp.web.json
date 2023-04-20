@@ -8581,6 +8581,14 @@
               "horizontalResizing": "fill"
             },
             "type": "composition"
+          },
+          "buttonWrapper": {
+            "value": {
+              "layoutMode": "horizontal",
+              "itemSpacing": "{sem.contentCard.xs.buttonWrapper.itemSpacing}",
+              "horizontalResizing": "hug"
+            },
+            "type": "composition"
           }
         },
         "mobile": {
@@ -8627,6 +8635,14 @@
             "value": {
               "typography": "{sem.typography.textStyle.label.body.sm}",
               "fill": "{sem.color.text.default}",
+              "horizontalResizing": "fill"
+            },
+            "type": "composition"
+          },
+          "buttonWrapper": {
+            "value": {
+              "layoutMode": "horizontal",
+              "itemSpacing": "{sem.contentCard.xs.buttonWrapper.itemSpacing}",
               "horizontalResizing": "fill"
             },
             "type": "composition"
@@ -8681,6 +8697,14 @@
               "horizontalResizing": "fill"
             },
             "type": "composition"
+          },
+          "buttonWrapper": {
+            "value": {
+              "layoutMode": "horizontal",
+              "itemSpacing": "{sem.contentCard.md.buttonWrapper.itemSpacing}",
+              "horizontalResizing": "hug"
+            },
+            "type": "composition"
           }
         },
         "mobile": {
@@ -8727,6 +8751,14 @@
             "value": {
               "typography": "{sem.typography.textStyle.label.body.md}",
               "fill": "{sem.color.text.default}",
+              "horizontalResizing": "fill"
+            },
+            "type": "composition"
+          },
+          "buttonWrapper": {
+            "value": {
+              "layoutMode": "horizontal",
+              "itemSpacing": "{sem.contentCard.md.buttonWrapper.itemSpacing}",
               "horizontalResizing": "fill"
             },
             "type": "composition"
@@ -15575,6 +15607,12 @@
               "type": "spacing"
             }
           }
+        },
+        "buttonWrapper": {
+          "itemSpacing": {
+            "value": "{ref.spacing.100}",
+            "type": "spacing"
+          }
         }
       },
       "md": {
@@ -15594,6 +15632,12 @@
               "value": "{ref.spacing.50}",
               "type": "spacing"
             }
+          }
+        },
+        "buttonWrapper": {
+          "itemSpacing": {
+            "value": "{ref.spacing.100}",
+            "type": "spacing"
           }
         }
       }
