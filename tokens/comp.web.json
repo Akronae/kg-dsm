@@ -5649,15 +5649,15 @@
           }
         }
       },
-      "TODO_NAME": {
+      "leftContent": {
         "xs": {
           "container": {
             "value": {
-              "width": "sem.contentCard.TODO_NAME.xs.container.sizing",
-              "height": "sem.contentCard.TODO_NAME.xs.container.sizing",
+              "width": "sem.contentCard.leftContent.xs.container.sizing",
+              "height": "sem.contentCard.leftContent.xs.container.sizing",
               "fill": "sem.color.surface.sub",
               "border": "sem.border.diminished",
-              "borderRadius": "sem.contentCard.TODO_NAME.xs.container.borderRadius",
+              "borderRadius": "sem.contentCard.leftContent.xs.container.borderRadius",
               "layoutAlignItems": "center"
             },
             "type": "composition"
@@ -5665,8 +5665,8 @@
           "icon": {
             "size": {
               "value": {
-                "width": "sem.contentCard.TODO_NAME.xs.icon.sizing",
-                "height": "sem.contentCard.TODO_NAME.xs.icon.sizing"
+                "width": "sem.contentCard.leftContent.xs.icon.sizing",
+                "height": "sem.contentCard.leftContent.xs.icon.sizing"
               },
               "type": "composition"
             },
@@ -5695,11 +5695,11 @@
         "md": {
           "container": {
             "value": {
-              "width": "sem.contentCard.TODO_NAME.md.container.sizing",
-              "height": "sem.contentCard.TODO_NAME.md.container.sizing",
+              "width": "sem.contentCard.leftContent.md.container.sizing",
+              "height": "sem.contentCard.leftContent.md.container.sizing",
               "fill": "sem.color.surface.sub",
               "border": "sem.border.diminished",
-              "borderRadius": "sem.contentCard.TODO_NAME.md.container.borderRadius",
+              "borderRadius": "sem.contentCard.leftContent.md.container.borderRadius",
               "layoutAlignItems": "center"
             },
             "type": "composition"
@@ -5707,8 +5707,8 @@
           "icon": {
             "size": {
               "value": {
-                "width": "sem.contentCard.TODO_NAME.md.icon.sizing",
-                "height": "sem.contentCard.TODO_NAME.md.icon.sizing"
+                "width": "sem.contentCard.leftContent.md.icon.sizing",
+                "height": "sem.contentCard.leftContent.md.icon.sizing"
               },
               "type": "composition"
             },

@@ -1,17 +1,17 @@
 // @replacepath: tokens/comp.web.json
 
 comp
-.contentCard.TODO_NAME
+.contentCard.leftContent
 [size: 'xs' | 'md']
 [
   {
     "container": {
       "value": {
-        "width": "sem.contentCard.TODO_NAME.<<size>>.container.sizing",
-        "height": "sem.contentCard.TODO_NAME.<<size>>.container.sizing",
+        "width": "sem.contentCard.leftContent.<<size>>.container.sizing",
+        "height": "sem.contentCard.leftContent.<<size>>.container.sizing",
         "fill": "sem.color.surface.sub",
         "border": "sem.border.diminished",
-        "borderRadius": "sem.contentCard.TODO_NAME.<<size>>.container.borderRadius",
+        "borderRadius": "sem.contentCard.leftContent.<<size>>.container.borderRadius",
         "layoutAlignItems": "center"
       },
       "type": "composition"
@@ -19,8 +19,8 @@ comp
     "icon": {
       "size": {
         "value": {
-          "width": "sem.contentCard.TODO_NAME.<<size>>.icon.sizing",
-          "height": "sem.contentCard.TODO_NAME.<<size>>.icon.sizing"
+          "width": "sem.contentCard.leftContent.<<size>>.icon.sizing",
+          "height": "sem.contentCard.leftContent.<<size>>.icon.sizing"
         },
         "type": "composition"
       },
