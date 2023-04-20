@@ -17,7 +17,6 @@ comp
         "borderRadius": "{sem.structure.form.components.fileUploader.dragZone.container.borderRadius}",
         "border": "{sem.boderDashed.<<state>>}",
         "horizontalResizing": "fill",
-        "verticalResizing": "hug",
         "layoutMode": "<< ({ md: 'horizontal', lg: 'vertical' })[size] >>",
         "layoutAlignItems": "<< ({ md: 'center left', lg: 'top center' })[size] >>"
       },
@@ -36,8 +35,7 @@ comp
           "itemSpacing": "{sem.structure.form.components.fileUploader.dragZone.text.wrapper.spacing}",
           "opacity": "<< state == 'disabled' ? '{sem.structure.form.components.fileUploader.dragZone.text.wrapper.opacity}' : 'none' >>",
           "layoutMode": "vertical",
-          "horizontalResizing": "fill",
-          "verticalResizing": "hug"
+          "horizontalResizing": "fill"
         },
         "type": "composition"
       },

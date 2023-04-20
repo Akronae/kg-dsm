@@ -690,7 +690,6 @@
                       "borderRadius": "{sem.structure.form.components.fileUploader.dragZone.container.borderRadius}",
                       "border": "{sem.boderDashed.default}",
                       "horizontalResizing": "fill",
-                      "verticalResizing": "hug",
                       "layoutMode": "horizontal",
                       "layoutAlignItems": "center left"
                     },
@@ -709,8 +708,7 @@
                         "itemSpacing": "{sem.structure.form.components.fileUploader.dragZone.text.wrapper.spacing}",
                         "opacity": "none",
                         "layoutMode": "vertical",
-                        "horizontalResizing": "fill",
-                        "verticalResizing": "hug"
+                        "horizontalResizing": "fill"
                       },
                       "type": "composition"
                     },
@@ -744,7 +742,6 @@
                       "borderRadius": "{sem.structure.form.components.fileUploader.dragZone.container.borderRadius}",
                       "border": "{sem.boderDashed.hover}",
                       "horizontalResizing": "fill",
-                      "verticalResizing": "hug",
                       "layoutMode": "horizontal",
                       "layoutAlignItems": "center left"
                     },
@@ -763,8 +760,7 @@
                         "itemSpacing": "{sem.structure.form.components.fileUploader.dragZone.text.wrapper.spacing}",
                         "opacity": "none",
                         "layoutMode": "vertical",
-                        "horizontalResizing": "fill",
-                        "verticalResizing": "hug"
+                        "horizontalResizing": "fill"
                       },
                       "type": "composition"
                     },
@@ -798,7 +794,6 @@
                       "borderRadius": "{sem.structure.form.components.fileUploader.dragZone.container.borderRadius}",
                       "border": "{sem.boderDashed.pressed}",
                       "horizontalResizing": "fill",
-                      "verticalResizing": "hug",
                       "layoutMode": "horizontal",
                       "layoutAlignItems": "center left"
                     },
@@ -817,8 +812,7 @@
                         "itemSpacing": "{sem.structure.form.components.fileUploader.dragZone.text.wrapper.spacing}",
                         "opacity": "none",
                         "layoutMode": "vertical",
-                        "horizontalResizing": "fill",
-                        "verticalResizing": "hug"
+                        "horizontalResizing": "fill"
                       },
                       "type": "composition"
                     },
@@ -852,7 +846,6 @@
                       "borderRadius": "{sem.structure.form.components.fileUploader.dragZone.container.borderRadius}",
                       "border": "{sem.boderDashed.active}",
                       "horizontalResizing": "fill",
-                      "verticalResizing": "hug",
                       "layoutMode": "horizontal",
                       "layoutAlignItems": "center left"
                     },
@@ -871,8 +864,7 @@
                         "itemSpacing": "{sem.structure.form.components.fileUploader.dragZone.text.wrapper.spacing}",
                         "opacity": "none",
                         "layoutMode": "vertical",
-                        "horizontalResizing": "fill",
-                        "verticalResizing": "hug"
+                        "horizontalResizing": "fill"
                       },
                       "type": "composition"
                     },
@@ -906,7 +898,6 @@
                       "borderRadius": "{sem.structure.form.components.fileUploader.dragZone.container.borderRadius}",
                       "border": "{sem.boderDashed.danger}",
                       "horizontalResizing": "fill",
-                      "verticalResizing": "hug",
                       "layoutMode": "horizontal",
                       "layoutAlignItems": "center left"
                     },
@@ -925,8 +916,7 @@
                         "itemSpacing": "{sem.structure.form.components.fileUploader.dragZone.text.wrapper.spacing}",
                         "opacity": "none",
                         "layoutMode": "vertical",
-                        "horizontalResizing": "fill",
-                        "verticalResizing": "hug"
+                        "horizontalResizing": "fill"
                       },
                       "type": "composition"
                     },
@@ -960,7 +950,6 @@
                       "borderRadius": "{sem.structure.form.components.fileUploader.dragZone.container.borderRadius}",
                       "border": "{sem.boderDashed.disabled}",
                       "horizontalResizing": "fill",
-                      "verticalResizing": "hug",
                       "layoutMode": "horizontal",
                       "layoutAlignItems": "center left"
                     },
@@ -979,8 +968,7 @@
                         "itemSpacing": "{sem.structure.form.components.fileUploader.dragZone.text.wrapper.spacing}",
                         "opacity": "{sem.structure.form.components.fileUploader.dragZone.text.wrapper.opacity}",
                         "layoutMode": "vertical",
-                        "horizontalResizing": "fill",
-                        "verticalResizing": "hug"
+                        "horizontalResizing": "fill"
                       },
                       "type": "composition"
                     },
@@ -1016,7 +1004,6 @@
                       "borderRadius": "{sem.structure.form.components.fileUploader.dragZone.container.borderRadius}",
                       "border": "{sem.boderDashed.default}",
                       "horizontalResizing": "fill",
-                      "verticalResizing": "hug",
                       "layoutMode": "vertical",
                       "layoutAlignItems": "top center"
                     },
@@ -1035,8 +1022,7 @@
                         "itemSpacing": "{sem.structure.form.components.fileUploader.dragZone.text.wrapper.spacing}",
                         "opacity": "none",
                         "layoutMode": "vertical",
-                        "horizontalResizing": "fill",
-                        "verticalResizing": "hug"
+                        "horizontalResizing": "fill"
                       },
                       "type": "composition"
                     },
@@ -1070,7 +1056,6 @@
                       "borderRadius": "{sem.structure.form.components.fileUploader.dragZone.container.borderRadius}",
                       "border": "{sem.boderDashed.hover}",
                       "horizontalResizing": "fill",
-                      "verticalResizing": "hug",
                       "layoutMode": "vertical",
                       "layoutAlignItems": "top center"
                     },
@@ -1089,8 +1074,7 @@
                         "itemSpacing": "{sem.structure.form.components.fileUploader.dragZone.text.wrapper.spacing}",
                         "opacity": "none",
                         "layoutMode": "vertical",
-                        "horizontalResizing": "fill",
-                        "verticalResizing": "hug"
+                        "horizontalResizing": "fill"
                       },
                       "type": "composition"
                     },
@@ -1124,7 +1108,6 @@
                       "borderRadius": "{sem.structure.form.components.fileUploader.dragZone.container.borderRadius}",
                       "border": "{sem.boderDashed.pressed}",
                       "horizontalResizing": "fill",
-                      "verticalResizing": "hug",
                       "layoutMode": "vertical",
                       "layoutAlignItems": "top center"
                     },
@@ -1143,8 +1126,7 @@
                         "itemSpacing": "{sem.structure.form.components.fileUploader.dragZone.text.wrapper.spacing}",
                         "opacity": "none",
                         "layoutMode": "vertical",
-                        "horizontalResizing": "fill",
-                        "verticalResizing": "hug"
+                        "horizontalResizing": "fill"
                       },
                       "type": "composition"
                     },
@@ -1178,7 +1160,6 @@
                       "borderRadius": "{sem.structure.form.components.fileUploader.dragZone.container.borderRadius}",
                       "border": "{sem.boderDashed.active}",
                       "horizontalResizing": "fill",
-                      "verticalResizing": "hug",
                       "layoutMode": "vertical",
                       "layoutAlignItems": "top center"
                     },
@@ -1197,8 +1178,7 @@
                         "itemSpacing": "{sem.structure.form.components.fileUploader.dragZone.text.wrapper.spacing}",
                         "opacity": "none",
                         "layoutMode": "vertical",
-                        "horizontalResizing": "fill",
-                        "verticalResizing": "hug"
+                        "horizontalResizing": "fill"
                       },
                       "type": "composition"
                     },
@@ -1232,7 +1212,6 @@
                       "borderRadius": "{sem.structure.form.components.fileUploader.dragZone.container.borderRadius}",
                       "border": "{sem.boderDashed.danger}",
                       "horizontalResizing": "fill",
-                      "verticalResizing": "hug",
                       "layoutMode": "vertical",
                       "layoutAlignItems": "top center"
                     },
@@ -1251,8 +1230,7 @@
                         "itemSpacing": "{sem.structure.form.components.fileUploader.dragZone.text.wrapper.spacing}",
                         "opacity": "none",
                         "layoutMode": "vertical",
-                        "horizontalResizing": "fill",
-                        "verticalResizing": "hug"
+                        "horizontalResizing": "fill"
                       },
                       "type": "composition"
                     },
@@ -1286,7 +1264,6 @@
                       "borderRadius": "{sem.structure.form.components.fileUploader.dragZone.container.borderRadius}",
                       "border": "{sem.boderDashed.disabled}",
                       "horizontalResizing": "fill",
-                      "verticalResizing": "hug",
                       "layoutMode": "vertical",
                       "layoutAlignItems": "top center"
                     },
@@ -1305,8 +1282,7 @@
                         "itemSpacing": "{sem.structure.form.components.fileUploader.dragZone.text.wrapper.spacing}",
                         "opacity": "{sem.structure.form.components.fileUploader.dragZone.text.wrapper.opacity}",
                         "layoutMode": "vertical",
-                        "horizontalResizing": "fill",
-                        "verticalResizing": "hug"
+                        "horizontalResizing": "fill"
                       },
                       "type": "composition"
                     },
