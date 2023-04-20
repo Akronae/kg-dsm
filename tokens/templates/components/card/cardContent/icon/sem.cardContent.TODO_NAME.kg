@@ -18,7 +18,7 @@ sem
     "icon": {
       "sizing": {
         "value": "{ref.sizing.200}",
-        "type": "composition"
+        "type": "sizing"
       }
     }
   }
