@@ -1,7 +1,7 @@
 // @replacepath: tokens/comp.web.json
 
 comp
-.contentCard
+.contentCard.card
 [size: 'xs' | 'md']
 [aspectRatio: 'desktop' | 'mobile']
 [
