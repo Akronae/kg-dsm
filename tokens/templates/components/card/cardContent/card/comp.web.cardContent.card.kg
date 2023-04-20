@@ -17,7 +17,7 @@ comp
     "contentWrapper": {
       "value": {
         "horizontalResizing": "fill",
-        "layoutMode": "<< ({ desktop: 'horizontal', mobile: 'mobile' })[aspectRatio]>>",
+        "layoutMode": "<< ({ desktop: 'horizontal', mobile: 'vertical' })[aspectRatio]>>",
         "itemSpacing": "{sem.contentCard.card.<<size>>.contentWrapper.itemSpacing}"
       },
       "type": "composition"

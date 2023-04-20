@@ -5580,7 +5580,7 @@
             "contentWrapper": {
               "value": {
                 "horizontalResizing": "fill",
-                "layoutMode": "mobile",
+                "layoutMode": "vertical",
                 "itemSpacing": "{sem.contentCard.card.xs.contentWrapper.itemSpacing}"
               },
               "type": "composition"
@@ -5698,7 +5698,7 @@
             "contentWrapper": {
               "value": {
                 "horizontalResizing": "fill",
-                "layoutMode": "mobile",
+                "layoutMode": "vertical",
                 "itemSpacing": "{sem.contentCard.card.md.contentWrapper.itemSpacing}"
               },
               "type": "composition"
