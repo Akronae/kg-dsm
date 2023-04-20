@@ -8562,7 +8562,7 @@
           "textWrapper": {
             "value": {
               "horizontalResizing": "fill",
-              "itemSpacing": "{sem.contentCard.xs.textWrapper.itemSpacing}"
+              "itemSpacing": "{sem.contentCard.xs.contentWrapper.textWrapper.itemSpacing}"
             },
             "type": "composition"
           },
@@ -8611,7 +8611,7 @@
           "textWrapper": {
             "value": {
               "horizontalResizing": "fill",
-              "itemSpacing": "{sem.contentCard.xs.textWrapper.itemSpacing}"
+              "itemSpacing": "{sem.contentCard.xs.contentWrapper.textWrapper.itemSpacing}"
             },
             "type": "composition"
           },
@@ -8662,7 +8662,7 @@
           "textWrapper": {
             "value": {
               "horizontalResizing": "fill",
-              "itemSpacing": "{sem.contentCard.md.textWrapper.itemSpacing}"
+              "itemSpacing": "{sem.contentCard.md.contentWrapper.textWrapper.itemSpacing}"
             },
             "type": "composition"
           },
@@ -8711,7 +8711,7 @@
           "textWrapper": {
             "value": {
               "horizontalResizing": "fill",
-              "itemSpacing": "{sem.contentCard.md.textWrapper.itemSpacing}"
+              "itemSpacing": "{sem.contentCard.md.contentWrapper.textWrapper.itemSpacing}"
             },
             "type": "composition"
           },
