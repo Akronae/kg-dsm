@@ -1,0 +1,49 @@
+// @replacepath: tokens/comp.web.json
+
+comp
+.contentCard.TODO_NAME
+[size: 'xs' | 'md']
+[
+  {
+    "container": {
+      "value": {
+        "width": "sem.contentCard.TODO_NAME.<<size>>.container.sizing",
+        "height": "sem.contentCard.TODO_NAME.<<size>>.container.sizing",
+        "fill": "sem.color.surface.sub",
+        "border": "sem.border.diminished",
+        "borderRadius": "sem.contentCard.TODO_NAME.<<size>>.container.borderRadius",
+        "layoutAlignItems": "center"
+      },
+      "type": "composition"
+    },
+    "icon": {
+      "size": {
+        "value": {
+          "width": "sem.contentCard.TODO_NAME.<<size>>.icon.sizing",
+          "height": "sem.contentCard.TODO_NAME.<<size>>.icon.sizing"
+        },
+        "type": "compostion"
+      },
+      "color": {
+        "value": {
+          "fill": "{sem.borderIcon.sm.dark}"
+        },
+        "type": "composition"
+      }
+    },
+    "text": {
+      "value": {
+        "typography": "<< ({ xs: '{sem.typography.textStyle.label.body.xs}', md: '{sem.typography.textStyle.label.body.sm}' })[size] >>",
+        "fill": "{sem.color.text.default}"
+      },
+      "type": "compostion"
+    },
+    "avatar": {
+      "value": {
+        "horizontalResizing": "fill",
+        "verticalResizing": "fill"
+      },
+      "type": "composition"
+    }
+  }
+]

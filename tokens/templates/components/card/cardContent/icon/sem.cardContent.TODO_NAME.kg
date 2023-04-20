@@ -1,0 +1,25 @@
+// @replacepath: tokens/comp.web.json
+
+sem
+.contentCard.TODO_NAME
+[size: 'xs' | 'md']
+[
+  {
+    "container": {
+      "sizing": {
+        "value": "<< ({ xs: '{ref.sizing.300}', md: '{ref.sizing.600}' })[size] >>",
+        "type": "sizing"
+      },
+      "borderRadius": {
+        "value": "<< ({ xs: 'ref.borderRadius.200', md: 'ref.borderRadius.300' })[size] >>",
+        "type": "borderRadius"
+      }
+    },
+    "icon": {
+      "sizing": {
+        "value": "{ref.sizing.200}",
+        "type": "composition"
+      }
+    }
+  }
+]

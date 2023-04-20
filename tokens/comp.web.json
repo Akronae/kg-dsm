@@ -8768,6 +8768,92 @@
             "type": "composition"
           }
         }
+      },
+      "TODO_NAME": {
+        "xs": {
+          "container": {
+            "value": {
+              "width": "sem.contentCard.TODO_NAME.xs.container.sizing",
+              "height": "sem.contentCard.TODO_NAME.xs.container.sizing",
+              "fill": "sem.color.surface.sub",
+              "border": "sem.border.diminished",
+              "borderRadius": "sem.contentCard.TODO_NAME.xs.container.borderRadius",
+              "layoutAlignItems": "center"
+            },
+            "type": "composition"
+          },
+          "icon": {
+            "size": {
+              "value": {
+                "width": "sem.contentCard.TODO_NAME.xs.icon.sizing",
+                "height": "sem.contentCard.TODO_NAME.xs.icon.sizing"
+              },
+              "type": "compostion"
+            },
+            "color": {
+              "value": {
+                "fill": "{sem.borderIcon.sm.dark}"
+              },
+              "type": "composition"
+            }
+          },
+          "text": {
+            "value": {
+              "typography": "{sem.typography.textStyle.label.body.xs}",
+              "fill": "{sem.color.text.default}"
+            },
+            "type": "compostion"
+          },
+          "avatar": {
+            "value": {
+              "horizontalResizing": "fill",
+              "verticalResizing": "fill"
+            },
+            "type": "composition"
+          }
+        },
+        "md": {
+          "container": {
+            "value": {
+              "width": "sem.contentCard.TODO_NAME.md.container.sizing",
+              "height": "sem.contentCard.TODO_NAME.md.container.sizing",
+              "fill": "sem.color.surface.sub",
+              "border": "sem.border.diminished",
+              "borderRadius": "sem.contentCard.TODO_NAME.md.container.borderRadius",
+              "layoutAlignItems": "center"
+            },
+            "type": "composition"
+          },
+          "icon": {
+            "size": {
+              "value": {
+                "width": "sem.contentCard.TODO_NAME.md.icon.sizing",
+                "height": "sem.contentCard.TODO_NAME.md.icon.sizing"
+              },
+              "type": "compostion"
+            },
+            "color": {
+              "value": {
+                "fill": "{sem.borderIcon.sm.dark}"
+              },
+              "type": "composition"
+            }
+          },
+          "text": {
+            "value": {
+              "typography": "{sem.typography.textStyle.label.body.sm}",
+              "fill": "{sem.color.text.default}"
+            },
+            "type": "compostion"
+          },
+          "avatar": {
+            "value": {
+              "horizontalResizing": "fill",
+              "verticalResizing": "fill"
+            },
+            "type": "composition"
+          }
+        }
       }
     },
     "input": {
@@ -15642,6 +15728,44 @@
           "itemSpacing": {
             "value": "{ref.spacing.100}",
             "type": "spacing"
+          }
+        }
+      },
+      "TODO_NAME": {
+        "xs": {
+          "container": {
+            "sizing": {
+              "value": "{ref.sizing.300}",
+              "type": "sizing"
+            },
+            "borderRadius": {
+              "value": "ref.borderRadius.200",
+              "type": "borderRadius"
+            }
+          },
+          "icon": {
+            "sizing": {
+              "value": "{ref.sizing.200}",
+              "type": "composition"
+            }
+          }
+        },
+        "md": {
+          "container": {
+            "sizing": {
+              "value": "{ref.sizing.600}",
+              "type": "sizing"
+            },
+            "borderRadius": {
+              "value": "ref.borderRadius.300",
+              "type": "borderRadius"
+            }
+          },
+          "icon": {
+            "sizing": {
+              "value": "{ref.sizing.200}",
+              "type": "composition"
+            }
           }
         }
       }
