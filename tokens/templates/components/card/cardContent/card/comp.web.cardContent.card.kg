@@ -9,7 +9,7 @@ comp
     "container": {
       "value": {
         "layoutMode": "vertical",
-        "itemSpacing": "{sem.contentCard.<<size>>.container.itemSpacing}"
+        "itemSpacing": "{sem.contentCard.card.<<size>>.container.itemSpacing}"
       },
       "type": "composition",
       "description": "({extends: 'comp.card.base.<<size>>.uncontrasted.default'})"

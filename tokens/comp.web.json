@@ -5514,7 +5514,7 @@
                 "borderRadiusBottomLeft": "{sem.card.base.xs.borderRadiusBottomLeft}",
                 "border": "{sem.border.transparent}",
                 "layoutMode": "vertical",
-                "itemSpacing": "{sem.contentCard.xs.container.itemSpacing}"
+                "itemSpacing": "{sem.contentCard.card.xs.container.itemSpacing}"
               },
               "type": "composition",
               "description": "({extends: 'comp.card.base.xs.uncontrasted.default'})"
@@ -5572,7 +5572,7 @@
                 "borderRadiusBottomLeft": "{sem.card.base.xs.borderRadiusBottomLeft}",
                 "border": "{sem.border.transparent}",
                 "layoutMode": "vertical",
-                "itemSpacing": "{sem.contentCard.xs.container.itemSpacing}"
+                "itemSpacing": "{sem.contentCard.card.xs.container.itemSpacing}"
               },
               "type": "composition",
               "description": "({extends: 'comp.card.base.xs.uncontrasted.default'})"
@@ -5632,7 +5632,7 @@
                 "borderRadiusBottomLeft": "{sem.card.base.md.borderRadiusBottomLeft}",
                 "border": "{sem.border.transparent}",
                 "layoutMode": "vertical",
-                "itemSpacing": "{sem.contentCard.md.container.itemSpacing}"
+                "itemSpacing": "{sem.contentCard.card.md.container.itemSpacing}"
               },
               "type": "composition",
               "description": "({extends: 'comp.card.base.md.uncontrasted.default'})"
@@ -5690,7 +5690,7 @@
                 "borderRadiusBottomLeft": "{sem.card.base.md.borderRadiusBottomLeft}",
                 "border": "{sem.border.transparent}",
                 "layoutMode": "vertical",
-                "itemSpacing": "{sem.contentCard.md.container.itemSpacing}"
+                "itemSpacing": "{sem.contentCard.card.md.container.itemSpacing}"
               },
               "type": "composition",
               "description": "({extends: 'comp.card.base.md.uncontrasted.default'})"
