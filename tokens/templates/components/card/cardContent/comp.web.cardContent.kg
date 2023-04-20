@@ -24,7 +24,7 @@ comp
     "textWrapper": {
       "value": {
         "horizontalResizing": "fill",
-        "itemSpacing": "{sem.contentCard.<<size>>.contentWrapper.itemSpacing}"
+        "itemSpacing": "{sem.contentCard.<<size>>.textWrapper.itemSpacing}"
       },
       "type": "composition"
     },
