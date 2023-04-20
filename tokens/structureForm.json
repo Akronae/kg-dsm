@@ -678,7 +678,8 @@
           "fileUploader": {
             "container": {
               "value": {
-                "itemSpacing": "{sem.structure.form.components.fileUploader.container.spacing}"
+                "itemSpacing": "{sem.structure.form.components.fileUploader.container.spacing}",
+                "layoutMode": "vertical"
               },
               "type": "composition"
             },
