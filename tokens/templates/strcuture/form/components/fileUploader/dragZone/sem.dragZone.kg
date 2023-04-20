@@ -2,15 +2,16 @@
 
 sem
 .structure.form.components.fileUploader.dragZone
+[size: 'md' | 'lg']
 [
   {
     "container": {
       "spacing": {
-        "value": "{ref.spacing.300}",
+        "value": "<< ({ md: '{ref.spacing.200}', lg: '{ref.spacing.300}' })[size] >>",
         "type": "spacing"
       },
       "padding": {
-        "value": "{ref.spacing.300}",
+        "value": "<< ({ md: '{ref.spacing.200}', lg: '{ref.spacing.300}' })[size] >>",
         "type": "spacing"
       },
       "borderRadius": {
