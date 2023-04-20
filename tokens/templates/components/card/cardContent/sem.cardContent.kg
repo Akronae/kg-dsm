@@ -1,0 +1,27 @@
+// @replacepath: tokens/comp.web.json
+
+sem
+.contentCard
+[size: 'xs' | 'md']
+[
+  {
+    "container": {
+      "itemSpacing": {
+        "value": "{<< ({xs: 'ref.spacing.100', md: 'ref.spacing.200'})[size] >>}",
+        "type": "spacing"
+      }
+    },
+    "contentWrapper": {
+      "itemSpacing": {
+        "value": "{<< ({xs: 'ref.spacing.100', md: 'ref.spacing.150'})[size] >>}",
+        "type": "spacing"
+      },
+      "textWrapper": {
+        "itemSpacing": {
+          "value": "{ref.spacing.50}",
+          "type": "spacing"
+        }
+      }
+    }
+  }
+]

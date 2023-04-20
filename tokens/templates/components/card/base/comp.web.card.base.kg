@@ -1,7 +1,7 @@
 // @replacepath: tokens/comp.web.json
 
 comp
-.card
+.card.base
 [size: 'xs' | 'sm' | 'md']
 [contrast: 'uncontrasted' | 'contrasted']
 [state: 'default' | 'hover' | 'pressed' | 'open' | 'danger' | 'active' | 'forced' | 'disabled']

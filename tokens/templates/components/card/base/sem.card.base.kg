@@ -1,7 +1,7 @@
 // @replacepath: tokens/comp.web.json
 
 sem
-.card
+.card.base
 [size: 'xs' | 'sm' | 'md']
 [
   {
