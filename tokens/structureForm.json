@@ -689,7 +689,10 @@
                       "paddingRight": "{sem.structure.form.components.fileUploader.dragZone.container.padding}",
                       "borderRadius": "{sem.structure.form.components.fileUploader.dragZone.container.borderRadius}",
                       "border": "{sem.boderDashed.default}",
-                      "layoutMode": "horizontal"
+                      "horizontalResizing": "fill",
+                      "verticalResizing": "hug",
+                      "layoutMode": "horizontal",
+                      "layoutAlignItems": "center left"
                     },
                     "type": "composition"
                   },
@@ -705,21 +708,25 @@
                       "value": {
                         "itemSpacing": "{sem.structure.form.components.fileUploader.dragZone.text.wrapper.spacing}",
                         "opacity": "none",
-                        "layoutMode": "vertical"
+                        "layoutMode": "vertical",
+                        "horizontalResizing": "fill",
+                        "verticalResizing": "hug"
                       },
                       "type": "composition"
                     },
                     "label": {
                       "value": {
                         "typography": "{sem.typography.textStyle.label.body.sm}",
-                        "fill": "{sem.color.text.dark}"
+                        "fill": "{sem.color.text.dark}",
+                        "horizontalResizing": "fill"
                       },
                       "type": "composition"
                     },
                     "description": {
                       "value": {
                         "typography": "{sem.typography.textStyle.paragraph.sm.default}",
-                        "fill": "{sem.color.text.default}"
+                        "fill": "{sem.color.text.default}",
+                        "horizontalResizing": "fill"
                       },
                       "type": "composition"
                     }
@@ -736,7 +743,10 @@
                       "paddingRight": "{sem.structure.form.components.fileUploader.dragZone.container.padding}",
                       "borderRadius": "{sem.structure.form.components.fileUploader.dragZone.container.borderRadius}",
                       "border": "{sem.boderDashed.hover}",
-                      "layoutMode": "horizontal"
+                      "horizontalResizing": "fill",
+                      "verticalResizing": "hug",
+                      "layoutMode": "horizontal",
+                      "layoutAlignItems": "center left"
                     },
                     "type": "composition"
                   },
@@ -752,21 +762,25 @@
                       "value": {
                         "itemSpacing": "{sem.structure.form.components.fileUploader.dragZone.text.wrapper.spacing}",
                         "opacity": "none",
-                        "layoutMode": "vertical"
+                        "layoutMode": "vertical",
+                        "horizontalResizing": "fill",
+                        "verticalResizing": "hug"
                       },
                       "type": "composition"
                     },
                     "label": {
                       "value": {
                         "typography": "{sem.typography.textStyle.label.body.sm}",
-                        "fill": "{sem.color.text.dark}"
+                        "fill": "{sem.color.text.dark}",
+                        "horizontalResizing": "fill"
                       },
                       "type": "composition"
                     },
                     "description": {
                       "value": {
                         "typography": "{sem.typography.textStyle.paragraph.sm.default}",
-                        "fill": "{sem.color.text.default}"
+                        "fill": "{sem.color.text.default}",
+                        "horizontalResizing": "fill"
                       },
                       "type": "composition"
                     }
@@ -783,7 +797,10 @@
                       "paddingRight": "{sem.structure.form.components.fileUploader.dragZone.container.padding}",
                       "borderRadius": "{sem.structure.form.components.fileUploader.dragZone.container.borderRadius}",
                       "border": "{sem.boderDashed.pressed}",
-                      "layoutMode": "horizontal"
+                      "horizontalResizing": "fill",
+                      "verticalResizing": "hug",
+                      "layoutMode": "horizontal",
+                      "layoutAlignItems": "center left"
                     },
                     "type": "composition"
                   },
@@ -799,21 +816,25 @@
                       "value": {
                         "itemSpacing": "{sem.structure.form.components.fileUploader.dragZone.text.wrapper.spacing}",
                         "opacity": "none",
-                        "layoutMode": "vertical"
+                        "layoutMode": "vertical",
+                        "horizontalResizing": "fill",
+                        "verticalResizing": "hug"
                       },
                       "type": "composition"
                     },
                     "label": {
                       "value": {
                         "typography": "{sem.typography.textStyle.label.body.sm}",
-                        "fill": "{sem.color.text.dark}"
+                        "fill": "{sem.color.text.dark}",
+                        "horizontalResizing": "fill"
                       },
                       "type": "composition"
                     },
                     "description": {
                       "value": {
                         "typography": "{sem.typography.textStyle.paragraph.sm.default}",
-                        "fill": "{sem.color.text.default}"
+                        "fill": "{sem.color.text.default}",
+                        "horizontalResizing": "fill"
                       },
                       "type": "composition"
                     }
@@ -830,7 +851,10 @@
                       "paddingRight": "{sem.structure.form.components.fileUploader.dragZone.container.padding}",
                       "borderRadius": "{sem.structure.form.components.fileUploader.dragZone.container.borderRadius}",
                       "border": "{sem.boderDashed.active}",
-                      "layoutMode": "horizontal"
+                      "horizontalResizing": "fill",
+                      "verticalResizing": "hug",
+                      "layoutMode": "horizontal",
+                      "layoutAlignItems": "center left"
                     },
                     "type": "composition"
                   },
@@ -846,21 +870,25 @@
                       "value": {
                         "itemSpacing": "{sem.structure.form.components.fileUploader.dragZone.text.wrapper.spacing}",
                         "opacity": "none",
-                        "layoutMode": "vertical"
+                        "layoutMode": "vertical",
+                        "horizontalResizing": "fill",
+                        "verticalResizing": "hug"
                       },
                       "type": "composition"
                     },
                     "label": {
                       "value": {
                         "typography": "{sem.typography.textStyle.label.body.sm}",
-                        "fill": "{sem.color.text.dark}"
+                        "fill": "{sem.color.text.dark}",
+                        "horizontalResizing": "fill"
                       },
                       "type": "composition"
                     },
                     "description": {
                       "value": {
                         "typography": "{sem.typography.textStyle.paragraph.sm.default}",
-                        "fill": "{sem.color.text.default}"
+                        "fill": "{sem.color.text.default}",
+                        "horizontalResizing": "fill"
                       },
                       "type": "composition"
                     }
@@ -877,7 +905,10 @@
                       "paddingRight": "{sem.structure.form.components.fileUploader.dragZone.container.padding}",
                       "borderRadius": "{sem.structure.form.components.fileUploader.dragZone.container.borderRadius}",
                       "border": "{sem.boderDashed.danger}",
-                      "layoutMode": "horizontal"
+                      "horizontalResizing": "fill",
+                      "verticalResizing": "hug",
+                      "layoutMode": "horizontal",
+                      "layoutAlignItems": "center left"
                     },
                     "type": "composition"
                   },
@@ -893,21 +924,25 @@
                       "value": {
                         "itemSpacing": "{sem.structure.form.components.fileUploader.dragZone.text.wrapper.spacing}",
                         "opacity": "none",
-                        "layoutMode": "vertical"
+                        "layoutMode": "vertical",
+                        "horizontalResizing": "fill",
+                        "verticalResizing": "hug"
                       },
                       "type": "composition"
                     },
                     "label": {
                       "value": {
                         "typography": "{sem.typography.textStyle.label.body.sm}",
-                        "fill": "{sem.color.text.danger}"
+                        "fill": "{sem.color.text.danger}",
+                        "horizontalResizing": "fill"
                       },
                       "type": "composition"
                     },
                     "description": {
                       "value": {
                         "typography": "{sem.typography.textStyle.paragraph.sm.default}",
-                        "fill": "{sem.color.text.danger}"
+                        "fill": "{sem.color.text.danger}",
+                        "horizontalResizing": "fill"
                       },
                       "type": "composition"
                     }
@@ -924,7 +959,10 @@
                       "paddingRight": "{sem.structure.form.components.fileUploader.dragZone.container.padding}",
                       "borderRadius": "{sem.structure.form.components.fileUploader.dragZone.container.borderRadius}",
                       "border": "{sem.boderDashed.disabled}",
-                      "layoutMode": "horizontal"
+                      "horizontalResizing": "fill",
+                      "verticalResizing": "hug",
+                      "layoutMode": "horizontal",
+                      "layoutAlignItems": "center left"
                     },
                     "type": "composition"
                   },
@@ -940,21 +978,25 @@
                       "value": {
                         "itemSpacing": "{sem.structure.form.components.fileUploader.dragZone.text.wrapper.spacing}",
                         "opacity": "{sem.structure.form.components.fileUploader.dragZone.text.wrapper.opacity}",
-                        "layoutMode": "vertical"
+                        "layoutMode": "vertical",
+                        "horizontalResizing": "fill",
+                        "verticalResizing": "hug"
                       },
                       "type": "composition"
                     },
                     "label": {
                       "value": {
                         "typography": "{sem.typography.textStyle.label.body.sm}",
-                        "fill": "{sem.color.text.dark}"
+                        "fill": "{sem.color.text.dark}",
+                        "horizontalResizing": "fill"
                       },
                       "type": "composition"
                     },
                     "description": {
                       "value": {
                         "typography": "{sem.typography.textStyle.paragraph.sm.default}",
-                        "fill": "{sem.color.text.default}"
+                        "fill": "{sem.color.text.default}",
+                        "horizontalResizing": "fill"
                       },
                       "type": "composition"
                     }
@@ -973,7 +1015,10 @@
                       "paddingRight": "{sem.structure.form.components.fileUploader.dragZone.container.padding}",
                       "borderRadius": "{sem.structure.form.components.fileUploader.dragZone.container.borderRadius}",
                       "border": "{sem.boderDashed.default}",
-                      "layoutMode": "vertical"
+                      "horizontalResizing": "fill",
+                      "verticalResizing": "hug",
+                      "layoutMode": "vertical",
+                      "layoutAlignItems": "top center"
                     },
                     "type": "composition"
                   },
@@ -989,21 +1034,25 @@
                       "value": {
                         "itemSpacing": "{sem.structure.form.components.fileUploader.dragZone.text.wrapper.spacing}",
                         "opacity": "none",
-                        "layoutMode": "vertical"
+                        "layoutMode": "vertical",
+                        "horizontalResizing": "fill",
+                        "verticalResizing": "hug"
                       },
                       "type": "composition"
                     },
                     "label": {
                       "value": {
                         "typography": "{sem.typography.textStyle.label.body.sm}",
-                        "fill": "{sem.color.text.dark}"
+                        "fill": "{sem.color.text.dark}",
+                        "horizontalResizing": "fill"
                       },
                       "type": "composition"
                     },
                     "description": {
                       "value": {
                         "typography": "{sem.typography.textStyle.paragraph.sm.default}",
-                        "fill": "{sem.color.text.default}"
+                        "fill": "{sem.color.text.default}",
+                        "horizontalResizing": "fill"
                       },
                       "type": "composition"
                     }
@@ -1020,7 +1069,10 @@
                       "paddingRight": "{sem.structure.form.components.fileUploader.dragZone.container.padding}",
                       "borderRadius": "{sem.structure.form.components.fileUploader.dragZone.container.borderRadius}",
                       "border": "{sem.boderDashed.hover}",
-                      "layoutMode": "vertical"
+                      "horizontalResizing": "fill",
+                      "verticalResizing": "hug",
+                      "layoutMode": "vertical",
+                      "layoutAlignItems": "top center"
                     },
                     "type": "composition"
                   },
@@ -1036,21 +1088,25 @@
                       "value": {
                         "itemSpacing": "{sem.structure.form.components.fileUploader.dragZone.text.wrapper.spacing}",
                         "opacity": "none",
-                        "layoutMode": "vertical"
+                        "layoutMode": "vertical",
+                        "horizontalResizing": "fill",
+                        "verticalResizing": "hug"
                       },
                       "type": "composition"
                     },
                     "label": {
                       "value": {
                         "typography": "{sem.typography.textStyle.label.body.sm}",
-                        "fill": "{sem.color.text.dark}"
+                        "fill": "{sem.color.text.dark}",
+                        "horizontalResizing": "fill"
                       },
                       "type": "composition"
                     },
                     "description": {
                       "value": {
                         "typography": "{sem.typography.textStyle.paragraph.sm.default}",
-                        "fill": "{sem.color.text.default}"
+                        "fill": "{sem.color.text.default}",
+                        "horizontalResizing": "fill"
                       },
                       "type": "composition"
                     }
@@ -1067,7 +1123,10 @@
                       "paddingRight": "{sem.structure.form.components.fileUploader.dragZone.container.padding}",
                       "borderRadius": "{sem.structure.form.components.fileUploader.dragZone.container.borderRadius}",
                       "border": "{sem.boderDashed.pressed}",
-                      "layoutMode": "vertical"
+                      "horizontalResizing": "fill",
+                      "verticalResizing": "hug",
+                      "layoutMode": "vertical",
+                      "layoutAlignItems": "top center"
                     },
                     "type": "composition"
                   },
@@ -1083,21 +1142,25 @@
                       "value": {
                         "itemSpacing": "{sem.structure.form.components.fileUploader.dragZone.text.wrapper.spacing}",
                         "opacity": "none",
-                        "layoutMode": "vertical"
+                        "layoutMode": "vertical",
+                        "horizontalResizing": "fill",
+                        "verticalResizing": "hug"
                       },
                       "type": "composition"
                     },
                     "label": {
                       "value": {
                         "typography": "{sem.typography.textStyle.label.body.sm}",
-                        "fill": "{sem.color.text.dark}"
+                        "fill": "{sem.color.text.dark}",
+                        "horizontalResizing": "fill"
                       },
                       "type": "composition"
                     },
                     "description": {
                       "value": {
                         "typography": "{sem.typography.textStyle.paragraph.sm.default}",
-                        "fill": "{sem.color.text.default}"
+                        "fill": "{sem.color.text.default}",
+                        "horizontalResizing": "fill"
                       },
                       "type": "composition"
                     }
@@ -1114,7 +1177,10 @@
                       "paddingRight": "{sem.structure.form.components.fileUploader.dragZone.container.padding}",
                       "borderRadius": "{sem.structure.form.components.fileUploader.dragZone.container.borderRadius}",
                       "border": "{sem.boderDashed.active}",
-                      "layoutMode": "vertical"
+                      "horizontalResizing": "fill",
+                      "verticalResizing": "hug",
+                      "layoutMode": "vertical",
+                      "layoutAlignItems": "top center"
                     },
                     "type": "composition"
                   },
@@ -1130,21 +1196,25 @@
                       "value": {
                         "itemSpacing": "{sem.structure.form.components.fileUploader.dragZone.text.wrapper.spacing}",
                         "opacity": "none",
-                        "layoutMode": "vertical"
+                        "layoutMode": "vertical",
+                        "horizontalResizing": "fill",
+                        "verticalResizing": "hug"
                       },
                       "type": "composition"
                     },
                     "label": {
                       "value": {
                         "typography": "{sem.typography.textStyle.label.body.sm}",
-                        "fill": "{sem.color.text.dark}"
+                        "fill": "{sem.color.text.dark}",
+                        "horizontalResizing": "fill"
                       },
                       "type": "composition"
                     },
                     "description": {
                       "value": {
                         "typography": "{sem.typography.textStyle.paragraph.sm.default}",
-                        "fill": "{sem.color.text.default}"
+                        "fill": "{sem.color.text.default}",
+                        "horizontalResizing": "fill"
                       },
                       "type": "composition"
                     }
@@ -1161,7 +1231,10 @@
                       "paddingRight": "{sem.structure.form.components.fileUploader.dragZone.container.padding}",
                       "borderRadius": "{sem.structure.form.components.fileUploader.dragZone.container.borderRadius}",
                       "border": "{sem.boderDashed.danger}",
-                      "layoutMode": "vertical"
+                      "horizontalResizing": "fill",
+                      "verticalResizing": "hug",
+                      "layoutMode": "vertical",
+                      "layoutAlignItems": "top center"
                     },
                     "type": "composition"
                   },
@@ -1177,21 +1250,25 @@
                       "value": {
                         "itemSpacing": "{sem.structure.form.components.fileUploader.dragZone.text.wrapper.spacing}",
                         "opacity": "none",
-                        "layoutMode": "vertical"
+                        "layoutMode": "vertical",
+                        "horizontalResizing": "fill",
+                        "verticalResizing": "hug"
                       },
                       "type": "composition"
                     },
                     "label": {
                       "value": {
                         "typography": "{sem.typography.textStyle.label.body.sm}",
-                        "fill": "{sem.color.text.danger}"
+                        "fill": "{sem.color.text.danger}",
+                        "horizontalResizing": "fill"
                       },
                       "type": "composition"
                     },
                     "description": {
                       "value": {
                         "typography": "{sem.typography.textStyle.paragraph.sm.default}",
-                        "fill": "{sem.color.text.danger}"
+                        "fill": "{sem.color.text.danger}",
+                        "horizontalResizing": "fill"
                       },
                       "type": "composition"
                     }
@@ -1208,7 +1285,10 @@
                       "paddingRight": "{sem.structure.form.components.fileUploader.dragZone.container.padding}",
                       "borderRadius": "{sem.structure.form.components.fileUploader.dragZone.container.borderRadius}",
                       "border": "{sem.boderDashed.disabled}",
-                      "layoutMode": "vertical"
+                      "horizontalResizing": "fill",
+                      "verticalResizing": "hug",
+                      "layoutMode": "vertical",
+                      "layoutAlignItems": "top center"
                     },
                     "type": "composition"
                   },
@@ -1224,21 +1304,25 @@
                       "value": {
                         "itemSpacing": "{sem.structure.form.components.fileUploader.dragZone.text.wrapper.spacing}",
                         "opacity": "{sem.structure.form.components.fileUploader.dragZone.text.wrapper.opacity}",
-                        "layoutMode": "vertical"
+                        "layoutMode": "vertical",
+                        "horizontalResizing": "fill",
+                        "verticalResizing": "hug"
                       },
                       "type": "composition"
                     },
                     "label": {
                       "value": {
                         "typography": "{sem.typography.textStyle.label.body.sm}",
-                        "fill": "{sem.color.text.dark}"
+                        "fill": "{sem.color.text.dark}",
+                        "horizontalResizing": "fill"
                       },
                       "type": "composition"
                     },
                     "description": {
                       "value": {
                         "typography": "{sem.typography.textStyle.paragraph.sm.default}",
-                        "fill": "{sem.color.text.default}"
+                        "fill": "{sem.color.text.default}",
+                        "horizontalResizing": "fill"
                       },
                       "type": "composition"
                     }
