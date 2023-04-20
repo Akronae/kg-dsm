@@ -8546,7 +8546,7 @@
               "borderRadiusBottomRight": "{sem.card.base.xs.borderRadiusBottomRight}",
               "borderRadiusBottomLeft": "{sem.card.base.xs.borderRadiusBottomLeft}",
               "border": "{sem.border.transparent}",
-              "layoutMode": "horizontal",
+              "layoutMode": "vertical",
               "itemSpacing": "{sem.contentCard.xs.container.itemSpacing}"
             },
             "type": "composition",
@@ -8555,6 +8555,7 @@
           "contentWrapper": {
             "value": {
               "horizontalResizing": "fill",
+              "layoutMode": "horizontal",
               "itemSpacing": "{sem.contentCard.xs.contentWrapper.itemSpacing}"
             },
             "type": "composition"
@@ -8603,7 +8604,7 @@
               "borderRadiusBottomRight": "{sem.card.base.xs.borderRadiusBottomRight}",
               "borderRadiusBottomLeft": "{sem.card.base.xs.borderRadiusBottomLeft}",
               "border": "{sem.border.transparent}",
-              "layoutMode": "mobile",
+              "layoutMode": "vertical",
               "itemSpacing": "{sem.contentCard.xs.container.itemSpacing}"
             },
             "type": "composition",
@@ -8612,6 +8613,7 @@
           "contentWrapper": {
             "value": {
               "horizontalResizing": "fill",
+              "layoutMode": "mobile",
               "itemSpacing": "{sem.contentCard.xs.contentWrapper.itemSpacing}"
             },
             "type": "composition"
@@ -8662,7 +8664,7 @@
               "borderRadiusBottomRight": "{sem.card.base.md.borderRadiusBottomRight}",
               "borderRadiusBottomLeft": "{sem.card.base.md.borderRadiusBottomLeft}",
               "border": "{sem.border.transparent}",
-              "layoutMode": "horizontal",
+              "layoutMode": "vertical",
               "itemSpacing": "{sem.contentCard.md.container.itemSpacing}"
             },
             "type": "composition",
@@ -8671,6 +8673,7 @@
           "contentWrapper": {
             "value": {
               "horizontalResizing": "fill",
+              "layoutMode": "horizontal",
               "itemSpacing": "{sem.contentCard.md.contentWrapper.itemSpacing}"
             },
             "type": "composition"
@@ -8719,7 +8722,7 @@
               "borderRadiusBottomRight": "{sem.card.base.md.borderRadiusBottomRight}",
               "borderRadiusBottomLeft": "{sem.card.base.md.borderRadiusBottomLeft}",
               "border": "{sem.border.transparent}",
-              "layoutMode": "mobile",
+              "layoutMode": "vertical",
               "itemSpacing": "{sem.contentCard.md.container.itemSpacing}"
             },
             "type": "composition",
@@ -8728,6 +8731,7 @@
           "contentWrapper": {
             "value": {
               "horizontalResizing": "fill",
+              "layoutMode": "mobile",
               "itemSpacing": "{sem.contentCard.md.contentWrapper.itemSpacing}"
             },
             "type": "composition"

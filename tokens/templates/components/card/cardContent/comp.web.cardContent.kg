@@ -8,7 +8,7 @@ comp
   {
     "container": {
       "value": {
-        "layoutMode": "<< ({ desktop: 'horizontal', mobile: 'mobile' })[aspectRatio]>>",
+        "layoutMode": "vertical",
         "itemSpacing": "{sem.contentCard.<<size>>.container.itemSpacing}"
       },
       "type": "composition",
@@ -17,6 +17,7 @@ comp
     "contentWrapper": {
       "value": {
         "horizontalResizing": "fill",
+        "layoutMode": "<< ({ desktop: 'horizontal', mobile: 'mobile' })[aspectRatio]>>",
         "itemSpacing": "{sem.contentCard.<<size>>.contentWrapper.itemSpacing}"
       },
       "type": "composition"
