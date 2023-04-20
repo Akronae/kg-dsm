@@ -676,6 +676,12 @@
             }
           },
           "fileUploader": {
+            "container": {
+              "value": {
+                "itemSpacing": "{sem.structure.form.components.fileUploader.container.spacing}"
+              },
+              "type": "composition"
+            },
             "dragZone": {
               "md": {
                 "default": {
@@ -1759,6 +1765,28 @@
             }
           },
           "fileUploader": {
+            "container": {
+              "spacing": {
+                "value": "{ref.spacing.200}",
+                "type": "spacing"
+              }
+            },
+            "pictureItem": {
+              "container": {
+                "padding": {
+                  "value": "{ref.spacing.100}",
+                  "type": "spacing"
+                },
+                "borderRadius": {
+                  "value": "{ref.borderRadius.250}",
+                  "type": "borderRadius"
+                },
+                "height": {
+                  "value": "{ref.sizing.650}",
+                  "type": "sizing"
+                }
+              }
+            },
             "dragZone": {
               "md": {
                 "container": {
@@ -1834,22 +1862,6 @@
                       "type": "opacity"
                     }
                   }
-                }
-              }
-            },
-            "pictureItem": {
-              "container": {
-                "padding": {
-                  "value": "{ref.spacing.100}",
-                  "type": "spacing"
-                },
-                "borderRadius": {
-                  "value": "{ref.borderRadius.250}",
-                  "type": "borderRadius"
-                },
-                "height": {
-                  "value": "{ref.sizing.650}",
-                  "type": "sizing"
                 }
               }
             },
