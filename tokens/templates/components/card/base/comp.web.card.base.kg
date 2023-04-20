@@ -8,14 +8,14 @@ comp
 [
   {
     "value": {
-      "horizontalPadding": "{sem.card.<<size>>.padding}",
-      "verticalPadding": "{sem.card.<<size>>.padding}",
+      "horizontalPadding": "{sem.card.base.<<size>>.padding}",
+      "verticalPadding": "{sem.card.base.<<size>>.padding}",
       "fill": "{sem.color.surface.<< contrast == 'uncontrasted' ? 'light' : 'sub' || state == 'disabled' && 'disabled'>>}",
-      "boxShadow": "<< contrast == 'uncontrasted' &&  state == 'hover' ? ('{sem.card.' + size + '.dropShadow}') : 'none' >>",
-      "borderRadiusTopLeft": "{sem.card.<<size>>.borderRadiusTopLeft}",
-      "borderRadiusTopRight": "{sem.card.<<size>>.borderRadiusTopRight}",
-      "borderRadiusBottomRight": "{sem.card.<<size>>.borderRadiusBottomRight}",
-      "borderRadiusBottomLeft": "{sem.card.<<size>>.borderRadiusBottomLeft}",
+      "boxShadow": "<< contrast == 'uncontrasted' &&  state == 'hover' ? ('{sem.card.base.' + size + '.dropShadow}') : 'none' >>",
+      "borderRadiusTopLeft": "{sem.card.base.<<size>>.borderRadiusTopLeft}",
+      "borderRadiusTopRight": "{sem.card.base.<<size>>.borderRadiusTopRight}",
+      "borderRadiusBottomRight": "{sem.card.base.<<size>>.borderRadiusBottomRight}",
+      "borderRadiusBottomLeft": "{sem.card.base.<<size>>.borderRadiusBottomLeft}",
       "border": "<< (contrast == 'uncontrasted' ? ({danger : '{sem.border.danger}', active : '{sem.border.active}', forced: '{sem.border.forced}' })[state] : ({ default: '{sem.border.interactive.default}', hover: '{sem.border.interactive.hover}', pressed: '{sem.border.interactive.pressed}', open: 'none', active: '{sem.border.interactive.active}', danger: '{sem.border.danger}', disabled: '{sem.border.interactive.disabled}', forced: '{sem.border.forced}' })[state]) || '{sem.border.transparent}' >>"
     },
     "type": "composition"
