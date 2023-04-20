@@ -5660,7 +5660,7 @@
               "borderRadius": "sem.contentCard.TODO_NAME.xs.container.borderRadius",
               "layoutAlignItems": "center"
             },
-            "type": "Composition"
+            "type": "composition"
           },
           "icon": {
             "size": {
@@ -5668,13 +5668,13 @@
                 "width": "sem.contentCard.TODO_NAME.xs.icon.sizing",
                 "height": "sem.contentCard.TODO_NAME.xs.icon.sizing"
               },
-              "type": "Composition"
+              "type": "composition"
             },
             "color": {
               "value": {
                 "fill": "{sem.borderIcon.sm.dark}"
               },
-              "type": "Composition"
+              "type": "composition"
             }
           },
           "text": {
@@ -5682,14 +5682,14 @@
               "typography": "{sem.typography.textStyle.label.body.xs}",
               "fill": "{sem.color.text.default}"
             },
-            "type": "Composition"
+            "type": "composition"
           },
           "avatar": {
             "value": {
               "horizontalResizing": "fill",
               "verticalResizing": "fill"
             },
-            "type": "Composition"
+            "type": "composition"
           }
         },
         "md": {
@@ -5702,7 +5702,7 @@
               "borderRadius": "sem.contentCard.TODO_NAME.md.container.borderRadius",
               "layoutAlignItems": "center"
             },
-            "type": "Composition"
+            "type": "composition"
           },
           "icon": {
             "size": {
@@ -5710,13 +5710,13 @@
                 "width": "sem.contentCard.TODO_NAME.md.icon.sizing",
                 "height": "sem.contentCard.TODO_NAME.md.icon.sizing"
               },
-              "type": "Composition"
+              "type": "composition"
             },
             "color": {
               "value": {
                 "fill": "{sem.borderIcon.sm.dark}"
               },
-              "type": "Composition"
+              "type": "composition"
             }
           },
           "text": {
@@ -5724,14 +5724,14 @@
               "typography": "{sem.typography.textStyle.label.body.sm}",
               "fill": "{sem.color.text.default}"
             },
-            "type": "Composition"
+            "type": "composition"
           },
           "avatar": {
             "value": {
               "horizontalResizing": "fill",
               "verticalResizing": "fill"
             },
-            "type": "Composition"
+            "type": "composition"
           }
         }
       }
