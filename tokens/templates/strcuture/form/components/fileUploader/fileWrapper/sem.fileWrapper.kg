@@ -1,12 +1,12 @@
 // @replacepath: tokens/structureForm.json
 
 sem
-.structure.form.components.fileUploader.picture
+.structure.form.components.fileUploader.fileWrapper
 [
   {
     "container": {
       "spacing": {
-        "value": "{ref.spacing.200}",
+        "value": "{ref.spacing.100}",
         "type": "spacing"
       }
     }

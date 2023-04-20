@@ -1362,6 +1362,24 @@
                 },
                 "type": "composition"
               }
+            },
+            "picture": {
+              "container": {
+                "value": {
+                  "itemSpacing": "{sem.structure.form.components.fileUploader..picture.container.spacing}",
+                  "layoutMode": "vertical"
+                },
+                "type": "composition"
+              }
+            },
+            "fileWrapper": {
+              "container": {
+                "value": {
+                  "itemSpacing": "{sem.structure.form.components.fileUploader.fileWrapper.container.spacing}",
+                  "layoutMode": "vertical"
+                },
+                "type": "composition"
+              }
             }
           }
         },
@@ -1870,6 +1888,22 @@
               "wrapper": {
                 "spacing": {
                   "value": "{ref.spacing.100}",
+                  "type": "spacing"
+                }
+              }
+            },
+            "fileWrapper": {
+              "container": {
+                "spacing": {
+                  "value": "{ref.spacing.100}",
+                  "type": "spacing"
+                }
+              }
+            },
+            "picture": {
+              "container": {
+                "spacing": {
+                  "value": "{ref.spacing.200}",
                   "type": "spacing"
                 }
               }
