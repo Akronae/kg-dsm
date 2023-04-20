@@ -714,7 +714,7 @@
                     },
                     "label": {
                       "value": {
-                        "typography": "{sem.typography.textStyle.label.body.sm}",
+                        "typography": "{sem.typography.textStyle.label.body.md}",
                         "fill": "{sem.color.text.dark}",
                         "horizontalResizing": "fill"
                       },
@@ -722,7 +722,7 @@
                     },
                     "description": {
                       "value": {
-                        "typography": "{sem.typography.textStyle.paragraph.sm.default}",
+                        "typography": "{sem.typography.textStyle.paragraph.md.default}",
                         "fill": "{sem.color.text.default}",
                         "horizontalResizing": "fill"
                       },
@@ -766,7 +766,7 @@
                     },
                     "label": {
                       "value": {
-                        "typography": "{sem.typography.textStyle.label.body.sm}",
+                        "typography": "{sem.typography.textStyle.label.body.md}",
                         "fill": "{sem.color.text.dark}",
                         "horizontalResizing": "fill"
                       },
@@ -774,7 +774,7 @@
                     },
                     "description": {
                       "value": {
-                        "typography": "{sem.typography.textStyle.paragraph.sm.default}",
+                        "typography": "{sem.typography.textStyle.paragraph.md.default}",
                         "fill": "{sem.color.text.default}",
                         "horizontalResizing": "fill"
                       },
@@ -818,7 +818,7 @@
                     },
                     "label": {
                       "value": {
-                        "typography": "{sem.typography.textStyle.label.body.sm}",
+                        "typography": "{sem.typography.textStyle.label.body.md}",
                         "fill": "{sem.color.text.dark}",
                         "horizontalResizing": "fill"
                       },
@@ -826,7 +826,7 @@
                     },
                     "description": {
                       "value": {
-                        "typography": "{sem.typography.textStyle.paragraph.sm.default}",
+                        "typography": "{sem.typography.textStyle.paragraph.md.default}",
                         "fill": "{sem.color.text.default}",
                         "horizontalResizing": "fill"
                       },
@@ -870,7 +870,7 @@
                     },
                     "label": {
                       "value": {
-                        "typography": "{sem.typography.textStyle.label.body.sm}",
+                        "typography": "{sem.typography.textStyle.label.body.md}",
                         "fill": "{sem.color.text.dark}",
                         "horizontalResizing": "fill"
                       },
@@ -878,7 +878,7 @@
                     },
                     "description": {
                       "value": {
-                        "typography": "{sem.typography.textStyle.paragraph.sm.default}",
+                        "typography": "{sem.typography.textStyle.paragraph.md.default}",
                         "fill": "{sem.color.text.default}",
                         "horizontalResizing": "fill"
                       },
@@ -922,7 +922,7 @@
                     },
                     "label": {
                       "value": {
-                        "typography": "{sem.typography.textStyle.label.body.sm}",
+                        "typography": "{sem.typography.textStyle.label.body.md}",
                         "fill": "{sem.color.text.danger}",
                         "horizontalResizing": "fill"
                       },
@@ -930,7 +930,7 @@
                     },
                     "description": {
                       "value": {
-                        "typography": "{sem.typography.textStyle.paragraph.sm.default}",
+                        "typography": "{sem.typography.textStyle.paragraph.md.default}",
                         "fill": "{sem.color.text.danger}",
                         "horizontalResizing": "fill"
                       },
@@ -974,7 +974,7 @@
                     },
                     "label": {
                       "value": {
-                        "typography": "{sem.typography.textStyle.label.body.sm}",
+                        "typography": "{sem.typography.textStyle.label.body.md}",
                         "fill": "{sem.color.text.dark}",
                         "horizontalResizing": "fill"
                       },
@@ -982,7 +982,7 @@
                     },
                     "description": {
                       "value": {
-                        "typography": "{sem.typography.textStyle.paragraph.sm.default}",
+                        "typography": "{sem.typography.textStyle.paragraph.md.default}",
                         "fill": "{sem.color.text.default}",
                         "horizontalResizing": "fill"
                       },
@@ -1028,7 +1028,7 @@
                     },
                     "label": {
                       "value": {
-                        "typography": "{sem.typography.textStyle.label.body.sm}",
+                        "typography": "{sem.typography.textStyle.label.body.md}",
                         "fill": "{sem.color.text.dark}",
                         "horizontalResizing": "fill"
                       },
@@ -1036,7 +1036,7 @@
                     },
                     "description": {
                       "value": {
-                        "typography": "{sem.typography.textStyle.paragraph.sm.default}",
+                        "typography": "{sem.typography.textStyle.paragraph.md.default}",
                         "fill": "{sem.color.text.default}",
                         "horizontalResizing": "fill"
                       },
@@ -1080,7 +1080,7 @@
                     },
                     "label": {
                       "value": {
-                        "typography": "{sem.typography.textStyle.label.body.sm}",
+                        "typography": "{sem.typography.textStyle.label.body.md}",
                         "fill": "{sem.color.text.dark}",
                         "horizontalResizing": "fill"
                       },
@@ -1088,7 +1088,7 @@
                     },
                     "description": {
                       "value": {
-                        "typography": "{sem.typography.textStyle.paragraph.sm.default}",
+                        "typography": "{sem.typography.textStyle.paragraph.md.default}",
                         "fill": "{sem.color.text.default}",
                         "horizontalResizing": "fill"
                       },
@@ -1132,7 +1132,7 @@
                     },
                     "label": {
                       "value": {
-                        "typography": "{sem.typography.textStyle.label.body.sm}",
+                        "typography": "{sem.typography.textStyle.label.body.md}",
                         "fill": "{sem.color.text.dark}",
                         "horizontalResizing": "fill"
                       },
@@ -1140,7 +1140,7 @@
                     },
                     "description": {
                       "value": {
-                        "typography": "{sem.typography.textStyle.paragraph.sm.default}",
+                        "typography": "{sem.typography.textStyle.paragraph.md.default}",
                         "fill": "{sem.color.text.default}",
                         "horizontalResizing": "fill"
                       },
@@ -1184,7 +1184,7 @@
                     },
                     "label": {
                       "value": {
-                        "typography": "{sem.typography.textStyle.label.body.sm}",
+                        "typography": "{sem.typography.textStyle.label.body.md}",
                         "fill": "{sem.color.text.dark}",
                         "horizontalResizing": "fill"
                       },
@@ -1192,7 +1192,7 @@
                     },
                     "description": {
                       "value": {
-                        "typography": "{sem.typography.textStyle.paragraph.sm.default}",
+                        "typography": "{sem.typography.textStyle.paragraph.md.default}",
                         "fill": "{sem.color.text.default}",
                         "horizontalResizing": "fill"
                       },
@@ -1236,7 +1236,7 @@
                     },
                     "label": {
                       "value": {
-                        "typography": "{sem.typography.textStyle.label.body.sm}",
+                        "typography": "{sem.typography.textStyle.label.body.md}",
                         "fill": "{sem.color.text.danger}",
                         "horizontalResizing": "fill"
                       },
@@ -1244,7 +1244,7 @@
                     },
                     "description": {
                       "value": {
-                        "typography": "{sem.typography.textStyle.paragraph.sm.default}",
+                        "typography": "{sem.typography.textStyle.paragraph.md.default}",
                         "fill": "{sem.color.text.danger}",
                         "horizontalResizing": "fill"
                       },
@@ -1288,7 +1288,7 @@
                     },
                     "label": {
                       "value": {
-                        "typography": "{sem.typography.textStyle.label.body.sm}",
+                        "typography": "{sem.typography.textStyle.label.body.md}",
                         "fill": "{sem.color.text.dark}",
                         "horizontalResizing": "fill"
                       },
@@ -1296,7 +1296,7 @@
                     },
                     "description": {
                       "value": {
-                        "typography": "{sem.typography.textStyle.paragraph.sm.default}",
+                        "typography": "{sem.typography.textStyle.paragraph.md.default}",
                         "fill": "{sem.color.text.default}",
                         "horizontalResizing": "fill"
                       },

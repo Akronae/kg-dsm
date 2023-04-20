@@ -41,7 +41,7 @@ comp
       },
       "label": {
         "value": {
-          "typography": "{sem.typography.textStyle.label.body.sm}",
+          "typography": "{sem.typography.textStyle.label.body.md}",
           "fill": "{sem.color.text.<< state == 'danger' ? 'danger' : 'dark' >>}",
           "horizontalResizing": "fill"
         },
@@ -49,7 +49,7 @@ comp
       },
       "description": {
         "value": {
-          "typography": "{sem.typography.textStyle.paragraph.sm.default}",
+          "typography": "{sem.typography.textStyle.paragraph.md.default}",
           "fill": "{sem.color.text.<< state == 'danger' ? 'danger' : 'default' >>}",
           "horizontalResizing": "fill"
         },
