@@ -722,7 +722,7 @@
                     },
                     "description": {
                       "value": {
-                        "typography": "{sem.typography.textStyle.label.body.md}",
+                        "typography": "{sem.typography.textStyle.label.body.sm}",
                         "fill": "{sem.color.text.default}",
                         "horizontalResizing": "fill"
                       },
@@ -774,7 +774,7 @@
                     },
                     "description": {
                       "value": {
-                        "typography": "{sem.typography.textStyle.label.body.md}",
+                        "typography": "{sem.typography.textStyle.label.body.sm}",
                         "fill": "{sem.color.text.default}",
                         "horizontalResizing": "fill"
                       },
@@ -826,7 +826,7 @@
                     },
                     "description": {
                       "value": {
-                        "typography": "{sem.typography.textStyle.label.body.md}",
+                        "typography": "{sem.typography.textStyle.label.body.sm}",
                         "fill": "{sem.color.text.default}",
                         "horizontalResizing": "fill"
                       },
@@ -878,7 +878,7 @@
                     },
                     "description": {
                       "value": {
-                        "typography": "{sem.typography.textStyle.label.body.md}",
+                        "typography": "{sem.typography.textStyle.label.body.sm}",
                         "fill": "{sem.color.text.default}",
                         "horizontalResizing": "fill"
                       },
@@ -930,7 +930,7 @@
                     },
                     "description": {
                       "value": {
-                        "typography": "{sem.typography.textStyle.label.body.md}",
+                        "typography": "{sem.typography.textStyle.label.body.sm}",
                         "fill": "{sem.color.text.danger}",
                         "horizontalResizing": "fill"
                       },
@@ -982,7 +982,7 @@
                     },
                     "description": {
                       "value": {
-                        "typography": "{sem.typography.textStyle.label.body.md}",
+                        "typography": "{sem.typography.textStyle.label.body.sm}",
                         "fill": "{sem.color.text.default}",
                         "horizontalResizing": "fill"
                       },
@@ -1036,7 +1036,7 @@
                     },
                     "description": {
                       "value": {
-                        "typography": "{sem.typography.textStyle.label.body.md}",
+                        "typography": "{sem.typography.textStyle.label.body.sm}",
                         "fill": "{sem.color.text.default}",
                         "horizontalResizing": "fill"
                       },
@@ -1088,7 +1088,7 @@
                     },
                     "description": {
                       "value": {
-                        "typography": "{sem.typography.textStyle.label.body.md}",
+                        "typography": "{sem.typography.textStyle.label.body.sm}",
                         "fill": "{sem.color.text.default}",
                         "horizontalResizing": "fill"
                       },
@@ -1140,7 +1140,7 @@
                     },
                     "description": {
                       "value": {
-                        "typography": "{sem.typography.textStyle.label.body.md}",
+                        "typography": "{sem.typography.textStyle.label.body.sm}",
                         "fill": "{sem.color.text.default}",
                         "horizontalResizing": "fill"
                       },
@@ -1192,7 +1192,7 @@
                     },
                     "description": {
                       "value": {
-                        "typography": "{sem.typography.textStyle.label.body.md}",
+                        "typography": "{sem.typography.textStyle.label.body.sm}",
                         "fill": "{sem.color.text.default}",
                         "horizontalResizing": "fill"
                       },
@@ -1244,7 +1244,7 @@
                     },
                     "description": {
                       "value": {
-                        "typography": "{sem.typography.textStyle.label.body.md}",
+                        "typography": "{sem.typography.textStyle.label.body.sm}",
                         "fill": "{sem.color.text.danger}",
                         "horizontalResizing": "fill"
                       },
@@ -1296,7 +1296,7 @@
                     },
                     "description": {
                       "value": {
-                        "typography": "{sem.typography.textStyle.label.body.md}",
+                        "typography": "{sem.typography.textStyle.label.body.sm}",
                         "fill": "{sem.color.text.default}",
                         "horizontalResizing": "fill"
                       },

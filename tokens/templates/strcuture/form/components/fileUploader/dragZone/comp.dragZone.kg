@@ -49,7 +49,7 @@ comp
       },
       "description": {
         "value": {
-          "typography": "{sem.typography.textStyle.label.body.md}",
+          "typography": "{sem.typography.textStyle.label.body.sm}",
           "fill": "{sem.color.text.<< state == 'danger' ? 'danger' : 'default' >>}",
           "horizontalResizing": "fill"
         },
