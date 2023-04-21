@@ -1437,7 +1437,7 @@
             "unfilled": {
               "container": {
                 "value": {
-                  "itemSpacing": "{sem.structure.form.components.documentViewer}",
+                  "itemSpacing": "{sem.structure.form.components.documentViewer.container.itemSpacing}",
                   "layoutMode": "vertical"
                 },
                 "type": "composition"
@@ -1446,14 +1446,14 @@
                 "value": {
                   "fill": "{sem.color.surface.sub}"
                 },
-                "type": "compostion",
+                "type": "composition",
                 "description": "({extends: 'comp.contentCard.card.md.desktop.container'})"
               }
             },
-            "in moderation  valide": {
+            "in moderation": {
               "container": {
                 "value": {
-                  "itemSpacing": "{sem.structure.form.components.documentViewer}",
+                  "itemSpacing": "{sem.structure.form.components.documentViewer.container.itemSpacing}",
                   "layoutMode": "vertical"
                 },
                 "type": "composition"
@@ -1462,14 +1462,30 @@
                 "value": {
                   "fill": "undefined"
                 },
-                "type": "compostion",
+                "type": "composition",
+                "description": "({extends: 'comp.contentCard.card.md.desktop.container'})"
+              }
+            },
+            "valide": {
+              "container": {
+                "value": {
+                  "itemSpacing": "{sem.structure.form.components.documentViewer.container.itemSpacing}",
+                  "layoutMode": "vertical"
+                },
+                "type": "composition"
+              },
+              "cardContent": {
+                "value": {
+                  "fill": "undefined"
+                },
+                "type": "composition",
                 "description": "({extends: 'comp.contentCard.card.md.desktop.container'})"
               }
             },
             "declined": {
               "container": {
                 "value": {
-                  "itemSpacing": "{sem.structure.form.components.documentViewer}",
+                  "itemSpacing": "{sem.structure.form.components.documentViewer.container.itemSpacing}",
                   "layoutMode": "vertical"
                 },
                 "type": "composition"
@@ -1478,7 +1494,7 @@
                 "value": {
                   "fill": "undefined"
                 },
-                "type": "compostion",
+                "type": "composition",
                 "description": "({extends: 'comp.contentCard.card.md.desktop.container'})"
               }
             }

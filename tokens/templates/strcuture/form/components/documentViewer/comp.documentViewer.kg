@@ -2,12 +2,12 @@
 
 comp
 .structure.form.components.documentViewer
-[state : 'unfilled' | 'in moderation'  'valide' | 'declined' ]
+[state : 'unfilled' | 'in moderation' | 'valide' | 'declined' ]
 [
   {
     "container": {
       "value": {
-        "itemSpacing": "{sem.structure.form.components.documentViewer}",
+        "itemSpacing": "{sem.structure.form.components.documentViewer.container.itemSpacing}",
         "layoutMode": "vertical"
       },
       "type": "composition"
@@ -16,7 +16,7 @@ comp
       "value": {
         "fill": "<< state == 'unfilled' ? '{sem.color.surface.sub}' : undefined >>"
       },
-      "type": "compostion",
+      "type": "composition",
       "description": "({extends: 'comp.contentCard.card.md.desktop.container'})"
     }
   }
