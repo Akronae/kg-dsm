@@ -697,6 +697,7 @@
                       "borderRadius": "{sem.structure.form.components.fileUploader.dragZone.md.container.borderRadius}",
                       "border": "{sem.boderDashed.default}",
                       "horizontalResizing": "fill",
+                      "verticalResizing": "hug",
                       "layoutMode": "horizontal",
                       "layoutAlignItems": "center left"
                     },
@@ -716,7 +717,8 @@
                         "opacity": "none",
                         "layoutMode": "vertical",
                         "layoutAlignItems": "center",
-                        "horizontalResizing": "fill"
+                        "horizontalResizing": "fill",
+                        "verticalResizing": "hug"
                       },
                       "type": "composition"
                     },
@@ -724,7 +726,8 @@
                       "value": {
                         "typography": "{sem.typography.textStyle.label.body.md}",
                         "fill": "{sem.color.text.dark}",
-                        "horizontalResizing": "fill"
+                        "horizontalResizing": "fill",
+                        "verticalResizing": "hug"
                       },
                       "type": "composition"
                     },
@@ -732,7 +735,8 @@
                       "value": {
                         "typography": "{sem.typography.textStyle.label.body.sm}",
                         "fill": "{sem.color.text.default}",
-                        "horizontalResizing": "fill"
+                        "horizontalResizing": "fill",
+                        "verticalResizing": "hug"
                       },
                       "type": "composition"
                     }
@@ -750,6 +754,7 @@
                       "borderRadius": "{sem.structure.form.components.fileUploader.dragZone.md.container.borderRadius}",
                       "border": "{sem.boderDashed.hover}",
                       "horizontalResizing": "fill",
+                      "verticalResizing": "hug",
                       "layoutMode": "horizontal",
                       "layoutAlignItems": "center left"
                     },
@@ -769,7 +774,8 @@
                         "opacity": "none",
                         "layoutMode": "vertical",
                         "layoutAlignItems": "center",
-                        "horizontalResizing": "fill"
+                        "horizontalResizing": "fill",
+                        "verticalResizing": "hug"
                       },
                       "type": "composition"
                     },
@@ -777,7 +783,8 @@
                       "value": {
                         "typography": "{sem.typography.textStyle.label.body.md}",
                         "fill": "{sem.color.text.dark}",
-                        "horizontalResizing": "fill"
+                        "horizontalResizing": "fill",
+                        "verticalResizing": "hug"
                       },
                       "type": "composition"
                     },
@@ -785,7 +792,8 @@
                       "value": {
                         "typography": "{sem.typography.textStyle.label.body.sm}",
                         "fill": "{sem.color.text.default}",
-                        "horizontalResizing": "fill"
+                        "horizontalResizing": "fill",
+                        "verticalResizing": "hug"
                       },
                       "type": "composition"
                     }
@@ -803,6 +811,7 @@
                       "borderRadius": "{sem.structure.form.components.fileUploader.dragZone.md.container.borderRadius}",
                       "border": "{sem.boderDashed.pressed}",
                       "horizontalResizing": "fill",
+                      "verticalResizing": "hug",
                       "layoutMode": "horizontal",
                       "layoutAlignItems": "center left"
                     },
@@ -822,7 +831,8 @@
                         "opacity": "none",
                         "layoutMode": "vertical",
                         "layoutAlignItems": "center",
-                        "horizontalResizing": "fill"
+                        "horizontalResizing": "fill",
+                        "verticalResizing": "hug"
                       },
                       "type": "composition"
                     },
@@ -830,7 +840,8 @@
                       "value": {
                         "typography": "{sem.typography.textStyle.label.body.md}",
                         "fill": "{sem.color.text.dark}",
-                        "horizontalResizing": "fill"
+                        "horizontalResizing": "fill",
+                        "verticalResizing": "hug"
                       },
                       "type": "composition"
                     },
@@ -838,7 +849,8 @@
                       "value": {
                         "typography": "{sem.typography.textStyle.label.body.sm}",
                         "fill": "{sem.color.text.default}",
-                        "horizontalResizing": "fill"
+                        "horizontalResizing": "fill",
+                        "verticalResizing": "hug"
                       },
                       "type": "composition"
                     }
@@ -856,6 +868,7 @@
                       "borderRadius": "{sem.structure.form.components.fileUploader.dragZone.md.container.borderRadius}",
                       "border": "{sem.boderDashed.active}",
                       "horizontalResizing": "fill",
+                      "verticalResizing": "hug",
                       "layoutMode": "horizontal",
                       "layoutAlignItems": "center left"
                     },
@@ -875,7 +888,8 @@
                         "opacity": "none",
                         "layoutMode": "vertical",
                         "layoutAlignItems": "center",
-                        "horizontalResizing": "fill"
+                        "horizontalResizing": "fill",
+                        "verticalResizing": "hug"
                       },
                       "type": "composition"
                     },
@@ -883,7 +897,8 @@
                       "value": {
                         "typography": "{sem.typography.textStyle.label.body.md}",
                         "fill": "{sem.color.text.dark}",
-                        "horizontalResizing": "fill"
+                        "horizontalResizing": "fill",
+                        "verticalResizing": "hug"
                       },
                       "type": "composition"
                     },
@@ -891,7 +906,8 @@
                       "value": {
                         "typography": "{sem.typography.textStyle.label.body.sm}",
                         "fill": "{sem.color.text.default}",
-                        "horizontalResizing": "fill"
+                        "horizontalResizing": "fill",
+                        "verticalResizing": "hug"
                       },
                       "type": "composition"
                     }
@@ -909,6 +925,7 @@
                       "borderRadius": "{sem.structure.form.components.fileUploader.dragZone.md.container.borderRadius}",
                       "border": "{sem.boderDashed.danger}",
                       "horizontalResizing": "fill",
+                      "verticalResizing": "hug",
                       "layoutMode": "horizontal",
                       "layoutAlignItems": "center left"
                     },
@@ -928,7 +945,8 @@
                         "opacity": "none",
                         "layoutMode": "vertical",
                         "layoutAlignItems": "center",
-                        "horizontalResizing": "fill"
+                        "horizontalResizing": "fill",
+                        "verticalResizing": "hug"
                       },
                       "type": "composition"
                     },
@@ -936,7 +954,8 @@
                       "value": {
                         "typography": "{sem.typography.textStyle.label.body.md}",
                         "fill": "{sem.color.text.danger}",
-                        "horizontalResizing": "fill"
+                        "horizontalResizing": "fill",
+                        "verticalResizing": "hug"
                       },
                       "type": "composition"
                     },
@@ -944,7 +963,8 @@
                       "value": {
                         "typography": "{sem.typography.textStyle.label.body.sm}",
                         "fill": "{sem.color.text.danger}",
-                        "horizontalResizing": "fill"
+                        "horizontalResizing": "fill",
+                        "verticalResizing": "hug"
                       },
                       "type": "composition"
                     }
@@ -962,6 +982,7 @@
                       "borderRadius": "{sem.structure.form.components.fileUploader.dragZone.md.container.borderRadius}",
                       "border": "{sem.boderDashed.disabled}",
                       "horizontalResizing": "fill",
+                      "verticalResizing": "hug",
                       "layoutMode": "horizontal",
                       "layoutAlignItems": "center left"
                     },
@@ -981,7 +1002,8 @@
                         "opacity": "{sem.structure.form.components.fileUploader.dragZone.md.text.wrapper.opacity}",
                         "layoutMode": "vertical",
                         "layoutAlignItems": "center",
-                        "horizontalResizing": "fill"
+                        "horizontalResizing": "fill",
+                        "verticalResizing": "hug"
                       },
                       "type": "composition"
                     },
@@ -989,7 +1011,8 @@
                       "value": {
                         "typography": "{sem.typography.textStyle.label.body.md}",
                         "fill": "{sem.color.text.dark}",
-                        "horizontalResizing": "fill"
+                        "horizontalResizing": "fill",
+                        "verticalResizing": "hug"
                       },
                       "type": "composition"
                     },
@@ -997,7 +1020,8 @@
                       "value": {
                         "typography": "{sem.typography.textStyle.label.body.sm}",
                         "fill": "{sem.color.text.default}",
-                        "horizontalResizing": "fill"
+                        "horizontalResizing": "fill",
+                        "verticalResizing": "hug"
                       },
                       "type": "composition"
                     }
@@ -1017,6 +1041,7 @@
                       "borderRadius": "{sem.structure.form.components.fileUploader.dragZone.lg.container.borderRadius}",
                       "border": "{sem.boderDashed.default}",
                       "horizontalResizing": "fill",
+                      "verticalResizing": "hug",
                       "layoutMode": "vertical",
                       "layoutAlignItems": "top center"
                     },
@@ -1036,7 +1061,8 @@
                         "opacity": "none",
                         "layoutMode": "vertical",
                         "layoutAlignItems": "center",
-                        "horizontalResizing": "hug"
+                        "horizontalResizing": "hug",
+                        "verticalResizing": "hug"
                       },
                       "type": "composition"
                     },
@@ -1044,7 +1070,8 @@
                       "value": {
                         "typography": "{sem.typography.textStyle.label.body.md}",
                         "fill": "{sem.color.text.dark}",
-                        "horizontalResizing": "hug"
+                        "horizontalResizing": "hug",
+                        "verticalResizing": "hug"
                       },
                       "type": "composition"
                     },
@@ -1052,7 +1079,8 @@
                       "value": {
                         "typography": "{sem.typography.textStyle.label.body.sm}",
                         "fill": "{sem.color.text.default}",
-                        "horizontalResizing": "hug"
+                        "horizontalResizing": "hug",
+                        "verticalResizing": "hug"
                       },
                       "type": "composition"
                     }
@@ -1070,6 +1098,7 @@
                       "borderRadius": "{sem.structure.form.components.fileUploader.dragZone.lg.container.borderRadius}",
                       "border": "{sem.boderDashed.hover}",
                       "horizontalResizing": "fill",
+                      "verticalResizing": "hug",
                       "layoutMode": "vertical",
                       "layoutAlignItems": "top center"
                     },
@@ -1089,7 +1118,8 @@
                         "opacity": "none",
                         "layoutMode": "vertical",
                         "layoutAlignItems": "center",
-                        "horizontalResizing": "hug"
+                        "horizontalResizing": "hug",
+                        "verticalResizing": "hug"
                       },
                       "type": "composition"
                     },
@@ -1097,7 +1127,8 @@
                       "value": {
                         "typography": "{sem.typography.textStyle.label.body.md}",
                         "fill": "{sem.color.text.dark}",
-                        "horizontalResizing": "hug"
+                        "horizontalResizing": "hug",
+                        "verticalResizing": "hug"
                       },
                       "type": "composition"
                     },
@@ -1105,7 +1136,8 @@
                       "value": {
                         "typography": "{sem.typography.textStyle.label.body.sm}",
                         "fill": "{sem.color.text.default}",
-                        "horizontalResizing": "hug"
+                        "horizontalResizing": "hug",
+                        "verticalResizing": "hug"
                       },
                       "type": "composition"
                     }
@@ -1123,6 +1155,7 @@
                       "borderRadius": "{sem.structure.form.components.fileUploader.dragZone.lg.container.borderRadius}",
                       "border": "{sem.boderDashed.pressed}",
                       "horizontalResizing": "fill",
+                      "verticalResizing": "hug",
                       "layoutMode": "vertical",
                       "layoutAlignItems": "top center"
                     },
@@ -1142,7 +1175,8 @@
                         "opacity": "none",
                         "layoutMode": "vertical",
                         "layoutAlignItems": "center",
-                        "horizontalResizing": "hug"
+                        "horizontalResizing": "hug",
+                        "verticalResizing": "hug"
                       },
                       "type": "composition"
                     },
@@ -1150,7 +1184,8 @@
                       "value": {
                         "typography": "{sem.typography.textStyle.label.body.md}",
                         "fill": "{sem.color.text.dark}",
-                        "horizontalResizing": "hug"
+                        "horizontalResizing": "hug",
+                        "verticalResizing": "hug"
                       },
                       "type": "composition"
                     },
@@ -1158,7 +1193,8 @@
                       "value": {
                         "typography": "{sem.typography.textStyle.label.body.sm}",
                         "fill": "{sem.color.text.default}",
-                        "horizontalResizing": "hug"
+                        "horizontalResizing": "hug",
+                        "verticalResizing": "hug"
                       },
                       "type": "composition"
                     }
@@ -1176,6 +1212,7 @@
                       "borderRadius": "{sem.structure.form.components.fileUploader.dragZone.lg.container.borderRadius}",
                       "border": "{sem.boderDashed.active}",
                       "horizontalResizing": "fill",
+                      "verticalResizing": "hug",
                       "layoutMode": "vertical",
                       "layoutAlignItems": "top center"
                     },
@@ -1195,7 +1232,8 @@
                         "opacity": "none",
                         "layoutMode": "vertical",
                         "layoutAlignItems": "center",
-                        "horizontalResizing": "hug"
+                        "horizontalResizing": "hug",
+                        "verticalResizing": "hug"
                       },
                       "type": "composition"
                     },
@@ -1203,7 +1241,8 @@
                       "value": {
                         "typography": "{sem.typography.textStyle.label.body.md}",
                         "fill": "{sem.color.text.dark}",
-                        "horizontalResizing": "hug"
+                        "horizontalResizing": "hug",
+                        "verticalResizing": "hug"
                       },
                       "type": "composition"
                     },
@@ -1211,7 +1250,8 @@
                       "value": {
                         "typography": "{sem.typography.textStyle.label.body.sm}",
                         "fill": "{sem.color.text.default}",
-                        "horizontalResizing": "hug"
+                        "horizontalResizing": "hug",
+                        "verticalResizing": "hug"
                       },
                       "type": "composition"
                     }
@@ -1229,6 +1269,7 @@
                       "borderRadius": "{sem.structure.form.components.fileUploader.dragZone.lg.container.borderRadius}",
                       "border": "{sem.boderDashed.danger}",
                       "horizontalResizing": "fill",
+                      "verticalResizing": "hug",
                       "layoutMode": "vertical",
                       "layoutAlignItems": "top center"
                     },
@@ -1248,7 +1289,8 @@
                         "opacity": "none",
                         "layoutMode": "vertical",
                         "layoutAlignItems": "center",
-                        "horizontalResizing": "hug"
+                        "horizontalResizing": "hug",
+                        "verticalResizing": "hug"
                       },
                       "type": "composition"
                     },
@@ -1256,7 +1298,8 @@
                       "value": {
                         "typography": "{sem.typography.textStyle.label.body.md}",
                         "fill": "{sem.color.text.danger}",
-                        "horizontalResizing": "hug"
+                        "horizontalResizing": "hug",
+                        "verticalResizing": "hug"
                       },
                       "type": "composition"
                     },
@@ -1264,7 +1307,8 @@
                       "value": {
                         "typography": "{sem.typography.textStyle.label.body.sm}",
                         "fill": "{sem.color.text.danger}",
-                        "horizontalResizing": "hug"
+                        "horizontalResizing": "hug",
+                        "verticalResizing": "hug"
                       },
                       "type": "composition"
                     }
@@ -1282,6 +1326,7 @@
                       "borderRadius": "{sem.structure.form.components.fileUploader.dragZone.lg.container.borderRadius}",
                       "border": "{sem.boderDashed.disabled}",
                       "horizontalResizing": "fill",
+                      "verticalResizing": "hug",
                       "layoutMode": "vertical",
                       "layoutAlignItems": "top center"
                     },
@@ -1301,7 +1346,8 @@
                         "opacity": "{sem.structure.form.components.fileUploader.dragZone.lg.text.wrapper.opacity}",
                         "layoutMode": "vertical",
                         "layoutAlignItems": "center",
-                        "horizontalResizing": "hug"
+                        "horizontalResizing": "hug",
+                        "verticalResizing": "hug"
                       },
                       "type": "composition"
                     },
@@ -1309,7 +1355,8 @@
                       "value": {
                         "typography": "{sem.typography.textStyle.label.body.md}",
                         "fill": "{sem.color.text.dark}",
-                        "horizontalResizing": "hug"
+                        "horizontalResizing": "hug",
+                        "verticalResizing": "hug"
                       },
                       "type": "composition"
                     },
@@ -1317,7 +1364,8 @@
                       "value": {
                         "typography": "{sem.typography.textStyle.label.body.sm}",
                         "fill": "{sem.color.text.default}",
-                        "horizontalResizing": "hug"
+                        "horizontalResizing": "hug",
+                        "verticalResizing": "hug"
                       },
                       "type": "composition"
                     }
