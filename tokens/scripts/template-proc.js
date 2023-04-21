@@ -1,6 +1,7 @@
 const fs = require("fs");
 const utils = require("./utils");
 const templateParser = require("./template-parser");
+const { set } = require("./utils");
 
 function appendToBuds(tokens, obj, val, path = []) {
   if (JSON.stringify(obj) === "{}") return val;
@@ -26,7 +27,13 @@ function appendToBuds(tokens, obj, val, path = []) {
             eval(`${currPathJsCtx}; ${match[1]}`)
           );
         }
+
         obj[key] = JSON.parse(replaceVal);
+        utils.mapForEachEntry(obj[key], ({ key: kkk, value, path }) => {
+          if (value.toString().trim() == "undefined") {
+            set(obj[key], [path, kkk].join('.'), undefined)
+          }
+        });
       } else {
         appendToBuds(tokens, value, val, [...path, key]);
       }
@@ -38,7 +45,7 @@ function appendToBuds(tokens, obj, val, path = []) {
 
 //////////////////////////////////////////////////////////////////////////////////////////////////
 
-function generate(templatepath, options = { output: 'fs' }) {
+function generate(templatepath, options = { output: "fs" }) {
   let template = fs.readFileSync(templatepath, "utf8");
   const tokens = templateParser.parse(template);
   const res = {};
@@ -59,7 +66,7 @@ function generate(templatepath, options = { output: 'fs' }) {
     Object.assign(res, appendToBuds(tokens, res, parsed));
   }
 
-  if (!options.output == 'stdout') console.log(JSON.stringify(res, null, 2));
+  if (!options.output == "stdout") console.log(JSON.stringify(res, null, 2));
 
   const replacepathComment = tokens
     .filter((t) => t.type == "comment")
@@ -67,21 +74,23 @@ function generate(templatepath, options = { output: 'fs' }) {
     .find((comment) => comment.includes("@replacepath:"));
   const replacepath = replacepathComment.match(/@replacepath:(.*)/)[1].trim();
 
-  if (replacepath && options.output == 'fs') {
+  if (replacepath && options.output == "fs") {
     const replacefileContent = fs.readFileSync(replacepath, "utf8");
     const replacefileJSON = JSON.parse(replacefileContent);
     utils.mergeDeep(replacefileJSON, res);
     fs.writeFileSync(replacepath, JSON.stringify(replacefileJSON, null, 2));
   }
 
-  return res
+  return res;
 }
 
 if (require.main == module) {
   if (!process.argv[2])
     throw new Error("Please provide a template path as argument");
 
-  process.argv.slice(2).forEach((templatepath) => generate(templatepath, {output: 'fs'}));
+  process.argv
+    .slice(2)
+    .forEach((templatepath) => generate(templatepath, { output: "fs" }));
 }
 
 module.exports = { generate };
