@@ -26,21 +26,28 @@ comp
           "horizontalResizing": "fill"
         },
         "type": "composition"
+      },
+      "icon": {
+        "color": {
+          "value": {
+            "fill": "{sem.borderIcon.sm.dark}"
+          },
+          "type": "composition"
+        },
+        "size": {
+          "value": {
+            "height": "{sem.formField.label.icon.size}",
+            "width": "{sem.formField.label.icon.size}"
+          },
+          "type": "composition"
+        }
       }
     },
-    "icon": {
-      "color": {
-        "value": {
-          "fill": "{sem.borderIcon.sm.dark}"
-        },
-        "type": "composition"
-      },
-      "size": {
-        "value": {
-          "height": "{sem.formField.label.icon.size}",
-          "width": "{sem.formField.label.icon.size}"
-        },
-        "type": "composition"
+    "errorMessage": {
+      "value": {
+        "typography": "{sem.typography.textStyle.paragraph.sm.default}",
+        "fill": "{sem.color.text.danger}",
+        "horizontalResizing": "fill"
       }
     }
   }
