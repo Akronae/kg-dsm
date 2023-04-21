@@ -909,8 +909,7 @@
                   "paddingLeft": "{sem.structure.form.components.sideHelp.mobile.container.paddingLeft}",
                   "paddingRight": "{sem.structure.form.components.sideHelp.mobile.container.paddingRight}",
                   "paddingBottom": "{sem.structure.form.components.sideHelp.mobile.container.paddingBottom}",
-                  "paddingTop": "{sem.structure.form.components.sideHelp.mobile.container.paddingTop}",
-                  "width": "undefined"
+                  "paddingTop": "{sem.structure.form.components.sideHelp.mobile.container.paddingTop}"
                 },
                 "type": "composition"
               },
@@ -1078,7 +1077,7 @@
                 "value": {
                   "horizontalPadding": "{sem.card.base.md.padding}",
                   "verticalPadding": "{sem.card.base.md.padding}",
-                  "fill": "undefined",
+                  "fill": "{sem.color.surface.light}",
                   "boxShadow": "none",
                   "borderRadiusTopLeft": "{sem.card.base.md.borderRadiusTopLeft}",
                   "borderRadiusTopRight": "{sem.card.base.md.borderRadiusTopRight}",
@@ -1104,7 +1103,7 @@
                 "value": {
                   "horizontalPadding": "{sem.card.base.md.padding}",
                   "verticalPadding": "{sem.card.base.md.padding}",
-                  "fill": "undefined",
+                  "fill": "{sem.color.surface.light}",
                   "boxShadow": "none",
                   "borderRadiusTopLeft": "{sem.card.base.md.borderRadiusTopLeft}",
                   "borderRadiusTopRight": "{sem.card.base.md.borderRadiusTopRight}",
@@ -1130,7 +1129,7 @@
                 "value": {
                   "horizontalPadding": "{sem.card.base.md.padding}",
                   "verticalPadding": "{sem.card.base.md.padding}",
-                  "fill": "undefined",
+                  "fill": "{sem.color.surface.light}",
                   "boxShadow": "none",
                   "borderRadiusTopLeft": "{sem.card.base.md.borderRadiusTopLeft}",
                   "borderRadiusTopRight": "{sem.card.base.md.borderRadiusTopRight}",
