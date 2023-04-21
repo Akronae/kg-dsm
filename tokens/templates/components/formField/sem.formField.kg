@@ -9,6 +9,20 @@ sem
         "value": "{ref.spacing.100}",
         "type": "spacing"
       }
+    },
+    "label": {
+      "LabelWrapper": {
+        "spacing": {
+          "value": "{ref.spacing.25}",
+          "type": "spacing"
+        }
+      },
+      "icon": {
+        "size": {
+          "value": "{ref.sizing.100}",
+          "type": "sizing"
+        }
+      }
     }
   }
 ]

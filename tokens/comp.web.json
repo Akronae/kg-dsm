@@ -15511,6 +15511,38 @@
           "layoutMode": "vertical"
         },
         "type": "composition"
+      },
+      "label": {
+        "labelWrapper": {
+          "value": {
+            "itemSpacing": "",
+            "layoutMode": "horizontal"
+          },
+          "type": "composition"
+        },
+        "label": {
+          "value": {
+            "typography": "sem.typography.textStyle.label.body.sm",
+            "fill": "sem.color.text.dark",
+            "horizontalResizing": "fill"
+          },
+          "type": "composition"
+        }
+      },
+      "icon": {
+        "color": {
+          "value": {
+            "fill": "{sem.borderIcon.sm.dark}"
+          },
+          "type": "composition"
+        },
+        "size": {
+          "value": {
+            "height": "{sem.formField.label.icon.size}",
+            "width": "{sem.formField.label.icon.size}"
+          },
+          "type": "composition"
+        }
       }
     }
   },
@@ -16314,6 +16346,20 @@
         "spacing": {
           "value": "{ref.spacing.100}",
           "type": "spacing"
+        }
+      },
+      "label": {
+        "LabelWrapper": {
+          "spacing": {
+            "value": "{ref.spacing.25}",
+            "type": "spacing"
+          }
+        },
+        "icon": {
+          "size": {
+            "value": "{ref.sizing.100}",
+            "type": "sizing"
+          }
         }
       }
     }
