@@ -36,7 +36,7 @@ comp
           "opacity": "<< state == 'disabled' ? '{sem.structure.form.components.fileUploader.dragZone.' + size + '.text.wrapper.opacity}' : 'none' >>",
           "layoutMode": "vertical",
           "layoutAlignItems": "center",
-          "horizontalResizing": "hug"
+          "horizontalResizing": "<< ({ md: 'fill', lg: 'hug' })[size] >>"
         },
         "type": "composition"
       },
@@ -44,7 +44,7 @@ comp
         "value": {
           "typography": "{sem.typography.textStyle.label.body.md}",
           "fill": "{sem.color.text.<< state == 'danger' ? 'danger' : 'dark' >>}",
-          "horizontalResizing": "hug"
+          "horizontalResizing": "<< ({ md: 'fill', lg: 'hug' })[size] >>"
         },
         "type": "composition"
       },
@@ -52,7 +52,7 @@ comp
         "value": {
           "typography": "{sem.typography.textStyle.label.body.sm}",
           "fill": "{sem.color.text.<< state == 'danger' ? 'danger' : 'default' >>}",
-          "horizontalResizing": "hug"
+          "horizontalResizing": "<< ({ md: 'fill', lg: 'hug' })[size] >>"
         },
         "type": "composition"
       }

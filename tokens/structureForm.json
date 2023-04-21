@@ -716,7 +716,7 @@
                         "opacity": "none",
                         "layoutMode": "vertical",
                         "layoutAlignItems": "center",
-                        "horizontalResizing": "hug"
+                        "horizontalResizing": "fill"
                       },
                       "type": "composition"
                     },
@@ -724,7 +724,7 @@
                       "value": {
                         "typography": "{sem.typography.textStyle.label.body.md}",
                         "fill": "{sem.color.text.dark}",
-                        "horizontalResizing": "hug"
+                        "horizontalResizing": "fill"
                       },
                       "type": "composition"
                     },
@@ -732,7 +732,7 @@
                       "value": {
                         "typography": "{sem.typography.textStyle.label.body.sm}",
                         "fill": "{sem.color.text.default}",
-                        "horizontalResizing": "hug"
+                        "horizontalResizing": "fill"
                       },
                       "type": "composition"
                     }
@@ -769,7 +769,7 @@
                         "opacity": "none",
                         "layoutMode": "vertical",
                         "layoutAlignItems": "center",
-                        "horizontalResizing": "hug"
+                        "horizontalResizing": "fill"
                       },
                       "type": "composition"
                     },
@@ -777,7 +777,7 @@
                       "value": {
                         "typography": "{sem.typography.textStyle.label.body.md}",
                         "fill": "{sem.color.text.dark}",
-                        "horizontalResizing": "hug"
+                        "horizontalResizing": "fill"
                       },
                       "type": "composition"
                     },
@@ -785,7 +785,7 @@
                       "value": {
                         "typography": "{sem.typography.textStyle.label.body.sm}",
                         "fill": "{sem.color.text.default}",
-                        "horizontalResizing": "hug"
+                        "horizontalResizing": "fill"
                       },
                       "type": "composition"
                     }
@@ -822,7 +822,7 @@
                         "opacity": "none",
                         "layoutMode": "vertical",
                         "layoutAlignItems": "center",
-                        "horizontalResizing": "hug"
+                        "horizontalResizing": "fill"
                       },
                       "type": "composition"
                     },
@@ -830,7 +830,7 @@
                       "value": {
                         "typography": "{sem.typography.textStyle.label.body.md}",
                         "fill": "{sem.color.text.dark}",
-                        "horizontalResizing": "hug"
+                        "horizontalResizing": "fill"
                       },
                       "type": "composition"
                     },
@@ -838,7 +838,7 @@
                       "value": {
                         "typography": "{sem.typography.textStyle.label.body.sm}",
                         "fill": "{sem.color.text.default}",
-                        "horizontalResizing": "hug"
+                        "horizontalResizing": "fill"
                       },
                       "type": "composition"
                     }
@@ -875,7 +875,7 @@
                         "opacity": "none",
                         "layoutMode": "vertical",
                         "layoutAlignItems": "center",
-                        "horizontalResizing": "hug"
+                        "horizontalResizing": "fill"
                       },
                       "type": "composition"
                     },
@@ -883,7 +883,7 @@
                       "value": {
                         "typography": "{sem.typography.textStyle.label.body.md}",
                         "fill": "{sem.color.text.dark}",
-                        "horizontalResizing": "hug"
+                        "horizontalResizing": "fill"
                       },
                       "type": "composition"
                     },
@@ -891,7 +891,7 @@
                       "value": {
                         "typography": "{sem.typography.textStyle.label.body.sm}",
                         "fill": "{sem.color.text.default}",
-                        "horizontalResizing": "hug"
+                        "horizontalResizing": "fill"
                       },
                       "type": "composition"
                     }
@@ -928,7 +928,7 @@
                         "opacity": "none",
                         "layoutMode": "vertical",
                         "layoutAlignItems": "center",
-                        "horizontalResizing": "hug"
+                        "horizontalResizing": "fill"
                       },
                       "type": "composition"
                     },
@@ -936,7 +936,7 @@
                       "value": {
                         "typography": "{sem.typography.textStyle.label.body.md}",
                         "fill": "{sem.color.text.danger}",
-                        "horizontalResizing": "hug"
+                        "horizontalResizing": "fill"
                       },
                       "type": "composition"
                     },
@@ -944,7 +944,7 @@
                       "value": {
                         "typography": "{sem.typography.textStyle.label.body.sm}",
                         "fill": "{sem.color.text.danger}",
-                        "horizontalResizing": "hug"
+                        "horizontalResizing": "fill"
                       },
                       "type": "composition"
                     }
@@ -981,7 +981,7 @@
                         "opacity": "{sem.structure.form.components.fileUploader.dragZone.md.text.wrapper.opacity}",
                         "layoutMode": "vertical",
                         "layoutAlignItems": "center",
-                        "horizontalResizing": "hug"
+                        "horizontalResizing": "fill"
                       },
                       "type": "composition"
                     },
@@ -989,7 +989,7 @@
                       "value": {
                         "typography": "{sem.typography.textStyle.label.body.md}",
                         "fill": "{sem.color.text.dark}",
-                        "horizontalResizing": "hug"
+                        "horizontalResizing": "fill"
                       },
                       "type": "composition"
                     },
@@ -997,7 +997,7 @@
                       "value": {
                         "typography": "{sem.typography.textStyle.label.body.sm}",
                         "fill": "{sem.color.text.default}",
-                        "horizontalResizing": "hug"
+                        "horizontalResizing": "fill"
                       },
                       "type": "composition"
                     }
