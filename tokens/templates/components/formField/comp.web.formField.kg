@@ -48,7 +48,8 @@ comp
         "typography": "{sem.typography.textStyle.paragraph.sm.default}",
         "fill": "{sem.color.text.danger}",
         "horizontalResizing": "fill"
-      }
+      },
+      "type": "composition"
     }
   }
 ]
