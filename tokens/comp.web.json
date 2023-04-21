@@ -7196,7 +7196,7 @@
       },
       "errorMessage": {
         "value": {
-          "typography": "{sem.typography.textStyle.paragraph.sm.default}",
+          "typography": "{sem.typography.textStyle.paragraph.sm.strong}",
           "fill": "{sem.color.text.danger}",
           "horizontalResizing": "fill"
         },
