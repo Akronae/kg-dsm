@@ -1,0 +1,18 @@
+// @replacepath: tokens/comp.web.json
+
+comp
+.misc.progressBar
+[size: 'sm' | 'md' ]
+[
+  {
+    "container": {
+      "value": {
+        "fill": "{sem.color.surface.primary}",
+        "borderRadius": "{sem.misc.progressBar.<<size>>.container.borderRadius}",
+        "height": "{sem.misc.progressBar.<<size>>.container.height}",
+        "hozirontalAlignItems": "fill"
+      },
+      "type": "composition"
+    }
+  }
+]

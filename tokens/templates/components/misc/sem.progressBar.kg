@@ -1,0 +1,19 @@
+// @replacepath: tokens/comp.web.json
+
+sem
+.misc.progressBar
+[size: 'sm' | 'md' ]
+[
+  {
+    "container": {
+      "borderRadius": {
+        "value": "{ref.borderRadius.9999}",
+        "type": "borderRadius"
+      },
+      "height": {
+        "value": "<< ({ sm: '{ref.sizing.25}', md: '{ref.sizing.50}' })[size] >>",
+        "type": "sizing"
+      }
+    }
+  }
+]

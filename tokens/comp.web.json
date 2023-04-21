@@ -15543,6 +15543,32 @@
           }
         }
       }
+    },
+    "misc": {
+      "progressBar": {
+        "sm": {
+          "container": {
+            "value": {
+              "fill": "{sem.color.surface.primary}",
+              "borderRadius": "{sem.misc.progressBar.sm.container.borderRadius}",
+              "height": "{sem.misc.progressBar.sm.container.height}",
+              "hozirontalAlignItems": "fill"
+            },
+            "type": "composition"
+          }
+        },
+        "md": {
+          "container": {
+            "value": {
+              "fill": "{sem.color.surface.primary}",
+              "borderRadius": "{sem.misc.progressBar.md.container.borderRadius}",
+              "height": "{sem.misc.progressBar.md.container.height}",
+              "hozirontalAlignItems": "fill"
+            },
+            "type": "composition"
+          }
+        }
+      }
     }
   },
   "sem": {
@@ -16346,6 +16372,34 @@
           "spacing": {
             "value": "{ref.spacing.100}",
             "type": "spacing"
+          }
+        }
+      }
+    },
+    "misc": {
+      "progressBar": {
+        "sm": {
+          "container": {
+            "borderRadius": {
+              "value": "{ref.borderRadius.9999}",
+              "type": "borderRadius"
+            },
+            "height": {
+              "value": "{ref.sizing.25}",
+              "type": "sizing"
+            }
+          }
+        },
+        "md": {
+          "container": {
+            "borderRadius": {
+              "value": "{ref.borderRadius.9999}",
+              "type": "borderRadius"
+            },
+            "height": {
+              "value": "{ref.sizing.50}",
+              "type": "sizing"
+            }
           }
         }
       }
