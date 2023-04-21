@@ -15,7 +15,7 @@ comp
     "card": {
       "value": {},
       "type": "composition",
-      "description": "({extends: 'comp.card.md.uncontrasted.<<state>>'})"
+      "description": "({extends: 'comp.card.base.md.uncontrasted.<<state>>'})"
     }
   }
 ]

@@ -1,0 +1,15 @@
+// @replacepath: tokens/structureForm.json
+
+comp
+.structure.form.components.fileUploader.fileWrapper
+[
+  {
+    "container": {
+      "value": {
+        "itemSpacing": "{sem.structure.form.components.fileUploader.fileWrapper.container.spacing}",
+        "layoutMode": "vertical"
+      },
+      "type": "composition"
+    }
+  }
+]

@@ -1,7 +1,7 @@
 // @replacepath: tokens/structureForm.json
 
 sem
-.structure.form.components.multipleUploader.imgItem
+.structure.form.components.fileUploader.pictureItem
 [
   {
     "container": {

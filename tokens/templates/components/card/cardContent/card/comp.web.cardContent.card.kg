@@ -1,0 +1,57 @@
+// @replacepath: tokens/comp.web.json
+
+comp
+.contentCard.card
+[size: 'xs' | 'md']
+[aspectRatio: 'desktop' | 'mobile']
+[
+  {
+    "container": {
+      "value": {
+        "layoutMode": "vertical",
+        "itemSpacing": "{sem.contentCard.card.<<size>>.container.itemSpacing}"
+      },
+      "type": "composition",
+      "description": "({extends: 'comp.card.base.<<size>>.uncontrasted.default'})"
+    },
+    "contentWrapper": {
+      "value": {
+        "horizontalResizing": "fill",
+        "layoutMode": "<< ({ desktop: 'horizontal', mobile: 'vertical' })[aspectRatio]>>",
+        "itemSpacing": "{sem.contentCard.card.<<size>>.contentWrapper.itemSpacing}"
+      },
+      "type": "composition"
+    },
+    "textWrapper": {
+      "value": {
+        "horizontalResizing": "fill",
+        "itemSpacing": "{sem.contentCard.card.<<size>>.contentWrapper.textWrapper.itemSpacing}"
+      },
+      "type": "composition"
+    },
+    "sub": {
+      "value": {
+        "typography": "{sem.typography.textStyle.label.body.<<size>>}",
+        "fill": "{sem.color.text.default}",
+        "horizontalResizing": "fill"
+      },
+      "type": "composition"
+    },
+    "label": {
+      "value": {
+        "typography": "<< ({ xs: '{sem.typography.textStyle.label.body.sm}', md: '{sem.typography.textStyle.label.body.md}' })[size] >>",
+        "fill": "{sem.color.text.dark}",
+        "horizontalResizing": "fill"
+      },
+      "type": "composition"
+    },
+    "buttonWrapper": {
+      "value": {
+        "layoutMode": "horizontal",
+        "itemSpacing": "{sem.contentCard.card.<<size>>.buttonWrapper.itemSpacing}",
+        "horizontalResizing": "<< ({ desktop: 'hug', mobile: 'fill' }) [aspectRatio]>>"
+      },
+      "type": "composition"
+    }
+  }
+]

@@ -1,0 +1,65 @@
+// @replacepath: tokens/structureForm.json
+
+comp
+.structure.form.components.fileUploader.dragZone
+[size: 'md' | 'lg']
+[state: 'default' | 'hover' | 'pressed' | 'active' | 'danger' | 'disabled']
+[
+  {
+    "container": {
+      "value": {
+        "fill": "<< ({ default: 'none', hover: '{sem.color.surface.interactive.hover}', pressed: '{sem.color.surface.interactive.pressed}', active: '{sem.color.surface.interactive.pressed}', danger: 'none', disabled: '{sem.color.surface.interactive.disabled}' })[state] >>",
+        "itemSpacing": "{sem.structure.form.components.fileUploader.dragZone.<<size>>.container.spacing}",
+        "paddingTop": "{sem.structure.form.components.fileUploader.dragZone.<<size>>.container.padding}",
+        "paddingBottom": "{sem.structure.form.components.fileUploader.dragZone.<<size>>.container.padding}",
+        "paddingLeft": "{sem.structure.form.components.fileUploader.dragZone.<<size>>.container.padding}",
+        "paddingRight": "{sem.structure.form.components.fileUploader.dragZone.<<size>>.container.padding}",
+        "borderRadius": "{sem.structure.form.components.fileUploader.dragZone.<<size>>.container.borderRadius}",
+        "border": "{sem.boderDashed.<<state>>}",
+        "horizontalResizing": "fill",
+        "verticalResizing": "hug",
+        "layoutMode": "<< ({ md: 'horizontal', lg: 'vertical' })[size] >>",
+        "layoutAlignItems": "<< ({ md: 'center left', lg: 'top center' })[size] >>"
+      },
+      "type": "composition"
+    },
+    "fileIcon": {
+      "value": {
+        "height": "{sem.structure.form.components.fileUploader.dragZone.<<size>>.fileIcon.height}",
+        "opacity": "<< state == 'disabled' ? '{sem.structure.form.components.fileUploader.dragZone.' + size + '.fileIcon.opacity}' : 'none' >>"
+      },
+      "type": "composition"
+    },
+    "text": {
+      "wrapper": {
+        "value": {
+          "itemSpacing": "{sem.structure.form.components.fileUploader.dragZone.<<size>>.text.wrapper.spacing}",
+          "opacity": "<< state == 'disabled' ? '{sem.structure.form.components.fileUploader.dragZone.' + size + '.text.wrapper.opacity}' : 'none' >>",
+          "layoutMode": "vertical",
+          "layoutAlignItems": "<< ({ md: 'center left', lg: 'top center' })[size] >>",
+          "horizontalResizing": "<< ({ md: 'fill', lg: 'hug' })[size] >>",
+          "verticalResizing": "hug"
+        },
+        "type": "composition"
+      },
+      "label": {
+        "value": {
+          "typography": "{sem.typography.textStyle.label.body.md}",
+          "fill": "{sem.color.text.<< state == 'danger' ? 'danger' : 'dark' >>}",
+          "horizontalResizing": "<< ({ md: 'fill', lg: 'hug' })[size] >>",
+          "verticalResizing": "hug"
+        },
+        "type": "composition"
+      },
+      "description": {
+        "value": {
+          "typography": "{sem.typography.textStyle.label.body.sm}",
+          "fill": "{sem.color.text.<< state == 'danger' ? 'danger' : 'default' >>}",
+          "horizontalResizing": "<< ({ md: 'fill', lg: 'hug' })[size] >>",
+          "verticalResizing": "hug"
+        },
+        "type": "composition"
+      }
+    }
+  }
+]

@@ -1,0 +1,14 @@
+// @replacepath: tokens/structureForm.json
+
+sem
+.structure.form.components.fileUploader.pictureWrapper
+[
+  {
+    "wrapper": {
+      "spacing": {
+        "value": "{ref.spacing.100}",
+        "type": "spacing"
+      }
+    }
+  }
+]

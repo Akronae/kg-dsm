@@ -1,0 +1,23 @@
+// @replacepath: tokens/structureForm.json
+
+comp
+.structure.form.components.documentViewer
+[state : 'unfilled' | 'inModeration' | 'valide' | 'declined' ]
+[
+  {
+    "container": {
+      "value": {
+        "itemSpacing": "{sem.structure.form.components.documentViewer.container.itemSpacing}",
+        "layoutMode": "vertical"
+      },
+      "type": "composition"
+    },
+    "cardContent": {
+      "value": {
+        "fill": "<< state == 'unfilled' ? '{sem.color.surface.sub}' : undefined >>"
+      },
+      "type": "composition",
+      "description": "({extends: 'comp.contentCard.card.md.desktop.container'})"
+    }
+  }
+]

@@ -1,7 +1,7 @@
 // @replacepath: tokens/comp.web.json
 
 comp
-.chip
+.chips
 [state: 'default' | 'hover' | 'pressed' | 'active']
 [
   {
@@ -9,12 +9,11 @@ comp
       "value": {
         "fill": "{sem.color.surface.interactive.sub.<<state>>}",
         "border": "<< ({ default: '{sem.border.interactive.default}', hover: '{sem.border.interactive.hover}', pressed: '{sem.border.interactive.pressed}' })[state] || 'none' >>",
-        "itemSpacing": "{sem.chip.container.spacing}",
-        "borderRadius": "{sem.chip.container.borderRadius}",
-        "paddingLeft": "{sem.chip.container.paddingLeft}",
-        "paddingRight": "{sem.chip.container.paddingRight}",
-        "height": "{sem.chip.container.height}",
-        "layoutAlignItems": "center"
+        "itemSpacing": "{sem.chips.container.spacing}",
+        "borderRadius": "{sem.chips.container.borderRadius}",
+        "paddingLeft": "{sem.chips.container.paddingLeft}",
+        "paddingRight": "{sem.chips.container.paddingRight}",
+        "height": "{sem.chips.container.height}"
       },
       "type": "composition"
     },
@@ -27,8 +26,8 @@ comp
       },
       "size": {
         "value": {
-          "height": "{sem.chip.icon.size}",
-          "width": "{sem.chip.icon.size}"
+          "height": "{sem.chips.icon.size}",
+          "width": "{sem.chips.icon.size}"
         },
         "type": "composition"
       }

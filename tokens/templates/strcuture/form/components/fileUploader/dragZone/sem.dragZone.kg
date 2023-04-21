@@ -1,0 +1,45 @@
+// @replacepath: tokens/structureForm.json
+
+sem
+.structure.form.components.fileUploader.dragZone
+[size: 'md' | 'lg']
+[
+  {
+    "container": {
+      "spacing": {
+        "value": "<< ({ md: '{ref.spacing.200}', lg: '{ref.spacing.300}' })[size] >>",
+        "type": "spacing"
+      },
+      "padding": {
+        "value": "<< ({ md: '{ref.spacing.200}', lg: '{ref.spacing.300}' })[size] >>",
+        "type": "spacing"
+      },
+      "borderRadius": {
+        "value": "{ref.borderRadius.350}",
+        "type": "borderRadius"
+      }
+    },
+    "fileIcon": {
+      "height": {
+        "value": "{ref.sizing.500}",
+        "type": "sizing"
+      },
+      "opacity": {
+        "value": "{ref.effects.opacity.40}",
+        "type": "opacity"
+      }
+    },
+    "text": {
+      "wrapper": {
+        "spacing": {
+          "value": "{ref.spacing.50}",
+          "type": "spacing"
+        },
+        "opacity": {
+          "value": "{ref.effects.opacity.40}",
+          "type": "opacity"
+        }
+      }
+    }
+  }
+]

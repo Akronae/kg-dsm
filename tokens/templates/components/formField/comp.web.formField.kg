@@ -10,6 +10,46 @@ comp
         "layoutMode": "vertical"
       },
       "type": "composition"
+    },
+    "label": {
+      "labelWrapper": {
+        "value": {
+          "itemSpacing": "",
+          "layoutMode": "horizontal"
+        },
+        "type": "composition"
+      },
+     "label": {
+        "value": {
+          "typography": "sem.typography.textStyle.label.body.sm",
+          "fill": "sem.color.text.dark",
+          "horizontalResizing": "fill"
+        },
+        "type": "composition"
+      },
+      "icon": {
+        "color": {
+          "value": {
+            "fill": "{sem.borderIcon.sm.dark}"
+          },
+          "type": "composition"
+        },
+        "size": {
+          "value": {
+            "height": "{sem.formField.label.icon.size}",
+            "width": "{sem.formField.label.icon.size}"
+          },
+          "type": "composition"
+        }
+      }
+    },
+    "errorMessage": {
+      "value": {
+        "typography": "{sem.typography.textStyle.paragraph.sm.strong}",
+        "fill": "{sem.color.text.danger}",
+        "horizontalResizing": "fill"
+      },
+      "type": "composition"
     }
   }
 ]
