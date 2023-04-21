@@ -22,6 +22,13 @@ comp
         "boxShadow": "{ref.effects.innerShadow.100}"
       },
       "type": "composition"
+    },
+    "wrapper": {
+      "value": {
+        "horizontalResizing": "fill",
+        "layoutAlignItems": "top right"
+      },
+      "type": "composition"
     }
   }
 ]
