@@ -1,0 +1,15 @@
+// @replacepath: tokens/comp.web.json
+
+comp
+.formField
+[
+  {
+    "wrapper": {
+      "value": {
+        "itemSpacing": "{sem.formField.wrapper.spacing}",
+        "layoutMode": "vertical"
+      },
+      "type": "composition"
+    }
+  }
+]
