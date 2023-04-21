@@ -15549,23 +15549,43 @@
         "sm": {
           "container": {
             "value": {
-              "fill": "{sem.color.surface.primary}",
+              "fill": "{sem.color.surface.sub}",
               "borderRadius": "{sem.misc.progressBar.sm.container.borderRadius}",
               "height": "{sem.misc.progressBar.sm.container.height}",
               "hozirontalAlignItems": "fill"
             },
             "type": "composition"
+          },
+          "bar": {
+            "value": {
+              "fill": "{sem.color.surface.primary}",
+              "borderRadius": "{sem.misc.progressBar.sm.container.borderRadius}",
+              "height": "{sem.misc.progressBar.sm.container.height}",
+              "hozirontalAlignItems": "fixed"
+            },
+            "type": "composition",
+            "description": "({extends: 'comp.misc.progressBar.sm.container'})"
           }
         },
         "md": {
           "container": {
             "value": {
-              "fill": "{sem.color.surface.primary}",
+              "fill": "{sem.color.surface.sub}",
               "borderRadius": "{sem.misc.progressBar.md.container.borderRadius}",
               "height": "{sem.misc.progressBar.md.container.height}",
               "hozirontalAlignItems": "fill"
             },
             "type": "composition"
+          },
+          "bar": {
+            "value": {
+              "fill": "{sem.color.surface.primary}",
+              "borderRadius": "{sem.misc.progressBar.md.container.borderRadius}",
+              "height": "{sem.misc.progressBar.md.container.height}",
+              "hozirontalAlignItems": "fixed"
+            },
+            "type": "composition",
+            "description": "({extends: 'comp.misc.progressBar.md.container'})"
           }
         }
       }
