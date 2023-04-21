@@ -1,20 +1,28 @@
 const fs = require("fs");
+const path = require("path");
+const { mergeDeep } = require("./utils");
 const utils = require("./utils");
 
 /**
  * @param {string} readpath
  */
 function extend(readpath) {
-  const read = JSON.parse(fs.readFileSync(readpath, "utf8"));
+  const toExtend = JSON.parse(fs.readFileSync(readpath, "utf8"));
+  const extendCtx = {}
+  const ctxFiles = utils.readdirRecursive(path.dirname(readpath)).filter((file) => file.endsWith(".json"));
+  for (const file of ctxFiles) {
+    const content = JSON.parse(fs.readFileSync(file, 'utf-8') || "{}")
+    mergeDeep(extendCtx, content)
+  }
 
   const compoWithExtend = utils
-    .getCompositons(read)
+    .getCompositons(toExtend)
     .filter((res) => res.compo.description && eval(res.compo.description)?.extends);
 
   for (const res of compoWithExtend) {
     const compo = res.compo;
     const extendPath = eval(compo.description).extends;
-    const extended = utils.get(read, extendPath);
+    const extended = utils.get(extendCtx, extendPath);
     if (!extended) {
       console.error(compo);
       // this should be an errror, and the script should exit
@@ -32,7 +40,7 @@ function extend(readpath) {
     );
   }
 
-  const res = JSON.stringify(read, null, 2);
+  const res = JSON.stringify(toExtend, null, 2);
 
   fs.writeFileSync(readpath, res, "utf8");
 
