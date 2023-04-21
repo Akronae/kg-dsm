@@ -1,0 +1,14 @@
+// @replacepath: tokens/comp.web.json
+
+sem
+.formField
+[
+  {
+    "wrapper": {
+      "spacing": {
+        "value": "{ref.spacing.100}",
+        "type": "spacing"
+      }
+    }
+  }
+]

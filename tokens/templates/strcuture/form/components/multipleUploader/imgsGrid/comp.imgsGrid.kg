@@ -1,0 +1,14 @@
+// @replacepath: tokens/structureForm.json
+
+comp
+.structure.form.components.multipleUploader.imgsGrid
+[
+  {
+    "wrapper": {
+      "value": {
+        "itemSpacing": "{sem.structure.form.components.multipleUploader.imgsGrid.wrapper.spacing}"
+      },
+      "type": "composition"
+    }
+  }
+]
