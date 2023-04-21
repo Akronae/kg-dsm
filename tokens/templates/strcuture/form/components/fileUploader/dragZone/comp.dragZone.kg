@@ -36,7 +36,7 @@ comp
           "itemSpacing": "{sem.structure.form.components.fileUploader.dragZone.<<size>>.text.wrapper.spacing}",
           "opacity": "<< state == 'disabled' ? '{sem.structure.form.components.fileUploader.dragZone.' + size + '.text.wrapper.opacity}' : 'none' >>",
           "layoutMode": "vertical",
-          "layoutAlignItems": "center",
+          "layoutAlignItems": "<< ({ md: 'center left', lg: 'top center' })[size] >>",
           "horizontalResizing": "<< ({ md: 'fill', lg: 'hug' })[size] >>",
           "verticalResizing": "hug"
         },
