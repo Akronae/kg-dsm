@@ -11,7 +11,7 @@ function extend(readpath) {
   const extendCtx = {}
   const ctxFiles = utils.readdirRecursive(path.dirname(readpath)).filter((file) => file.endsWith(".json"));
   for (const file of ctxFiles) {
-    const content = JSON.parse(fs.readFileSync(file))
+    const content = JSON.parse(fs.readFileSync(file, 'utf-8') || "{}")
     mergeDeep(extendCtx, content)
   }
 
