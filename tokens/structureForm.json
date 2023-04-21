@@ -1432,6 +1432,56 @@
                 "type": "composition"
               }
             }
+          },
+          "documentViewer": {
+            "unfilled": {
+              "container": {
+                "value": {
+                  "itemSpacing": "{sem.structure.form.components.documentViewer}",
+                  "layoutMode": "vertical"
+                },
+                "type": "composition"
+              },
+              "cardContent": {
+                "value": {
+                  "fill": "{sem.color.surface.sub}"
+                },
+                "type": "compostion",
+                "description": "({extends: 'comp.contentCard.card.md.desktop.container'})"
+              }
+            },
+            "in moderation  valide": {
+              "container": {
+                "value": {
+                  "itemSpacing": "{sem.structure.form.components.documentViewer}",
+                  "layoutMode": "vertical"
+                },
+                "type": "composition"
+              },
+              "cardContent": {
+                "value": {
+                  "fill": "undefined"
+                },
+                "type": "compostion",
+                "description": "({extends: 'comp.contentCard.card.md.desktop.container'})"
+              }
+            },
+            "declined": {
+              "container": {
+                "value": {
+                  "itemSpacing": "{sem.structure.form.components.documentViewer}",
+                  "layoutMode": "vertical"
+                },
+                "type": "composition"
+              },
+              "cardContent": {
+                "value": {
+                  "fill": "undefined"
+                },
+                "type": "compostion",
+                "description": "({extends: 'comp.contentCard.card.md.desktop.container'})"
+              }
+            }
           }
         },
         "template": {
@@ -1841,6 +1891,14 @@
                 "type": "spacing"
               }
             },
+            "fileWrapper": {
+              "container": {
+                "spacing": {
+                  "value": "{ref.spacing.100}",
+                  "type": "spacing"
+                }
+              }
+            },
             "dragZone": {
               "md": {
                 "container": {
@@ -1919,14 +1977,6 @@
                 }
               }
             },
-            "fileWrapper": {
-              "container": {
-                "spacing": {
-                  "value": "{ref.spacing.100}",
-                  "type": "spacing"
-                }
-              }
-            },
             "pictureItem": {
               "container": {
                 "padding": {
@@ -1949,6 +1999,14 @@
                   "value": "{ref.spacing.100}",
                   "type": "spacing"
                 }
+              }
+            }
+          },
+          "documentViewer": {
+            "container": {
+              "itemSpacing": {
+                "value": "{ref.spacing.100}",
+                "type": "spacing"
               }
             }
           }
