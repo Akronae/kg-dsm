@@ -2,7 +2,7 @@
 
 comp
 .structure.form.components.documentViewer
-[state : 'unfilled' | 'in moderation' | 'valide' | 'declined' ]
+[state : 'unfilled' | 'inModeration' | 'valide' | 'declined' ]
 [
   {
     "container": {

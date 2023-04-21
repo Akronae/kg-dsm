@@ -1066,7 +1066,7 @@
                 "description": "({extends: 'comp.contentCard.card.md.desktop.container'})"
               }
             },
-            "in moderation": {
+            "inModeration": {
               "container": {
                 "value": {
                   "itemSpacing": "{sem.structure.form.components.documentViewer.container.itemSpacing}",
