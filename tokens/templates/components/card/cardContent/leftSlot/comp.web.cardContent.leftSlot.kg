@@ -1,0 +1,49 @@
+// @replacepath: tokens/comp.web.json
+
+comp
+.contentCard.leftSlot
+[size: 'xs' | 'md']
+[
+  {
+    "container": {
+      "value": {
+        "width": "sem.contentCard.leftSlot.<<size>>.container.sizing",
+        "height": "sem.contentCard.leftSlot.<<size>>.container.sizing",
+        "fill": "sem.color.surface.sub",
+        "border": "sem.border.diminished",
+        "borderRadius": "sem.contentCard.leftSlot.<<size>>.container.borderRadius",
+        "layoutAlignItems": "center"
+      },
+      "type": "composition"
+    },
+    "icon": {
+      "size": {
+        "value": {
+          "width": "sem.contentCard.leftSlot.<<size>>.icon.sizing",
+          "height": "sem.contentCard.leftSlot.<<size>>.icon.sizing"
+        },
+        "type": "composition"
+      },
+      "color": {
+        "value": {
+          "fill": "{sem.borderIcon.sm.dark}"
+        },
+        "type": "composition"
+      }
+    },
+    "text": {
+      "value": {
+        "typography": "<< ({ xs: '{sem.typography.textStyle.label.body.xs}', md: '{sem.typography.textStyle.label.body.sm}' })[size] >>",
+        "fill": "{sem.color.text.default}"
+      },
+      "type": "composition"
+    },
+    "avatar": {
+      "value": {
+        "horizontalResizing": "fill",
+        "verticalResizing": "fill"
+      },
+      "type": "composition"
+    }
+  }
+]

@@ -19,7 +19,7 @@ comp
         "itemSpacing": "{sem.input.<<size>>.fieldWrapper.spacer}"
       },
       "type": "composition",
-      "description": "({extends: 'comp.card.<< ({sm: 'xs', md: 'sm'})[size] >>.<<contrast>>.<<state>>'})"
+      "description": "({extends: 'comp.card.base.<< ({sm: 'xs', md: 'sm'})[size] >>.<<contrast>>.<<state>>'})"
     },
     "iconSize": {
       "value": {
