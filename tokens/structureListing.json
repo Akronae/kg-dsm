@@ -172,6 +172,13 @@
                       "fill": "{sem.color.text.default}"
                     },
                     "type": "composition"
+                  },
+                  "value": {
+                    "value": {
+                      "typography": "{sem.typography.textStyle.label.body.sm}",
+                      "fill": "{sem.color.text.dark}"
+                    },
+                    "type": "composition"
                   }
                 }
               },
@@ -244,6 +251,13 @@
                     "value": {
                       "typography": "{sem.typography.textStyle.label.body.sm}",
                       "fill": "{sem.color.text.default}"
+                    },
+                    "type": "composition"
+                  },
+                  "value": {
+                    "value": {
+                      "typography": "{sem.typography.textStyle.label.body.sm}",
+                      "fill": "{sem.color.text.dark}"
                     },
                     "type": "composition"
                   }
@@ -320,6 +334,13 @@
                       "fill": "{sem.color.text.default}"
                     },
                     "type": "composition"
+                  },
+                  "value": {
+                    "value": {
+                      "typography": "{sem.typography.textStyle.label.body.sm}",
+                      "fill": "{sem.color.text.dark}"
+                    },
+                    "type": "composition"
                   }
                 }
               },
@@ -331,7 +352,7 @@
                       "itemSpacing": "{sem.structure.listing.components.filterButton.sm.container.itemSpacing}",
                       "horizontalPadding": "{sem.structure.listing.components.filterButton.sm.container.padding}",
                       "verticalPadding": "{sem.structure.listing.components.filterButton.sm.container.padding}",
-                      "fill": "{sem.color.surface.interactive.sub.active}",
+                      "fill": "{sem.color.surface.interactive.sub.default}",
                       "border": "{sem.border.interactive.active}",
                       "layoutAlignItems": "center left"
                     },
@@ -367,7 +388,7 @@
                       "itemSpacing": "{sem.structure.listing.components.filterButton.sm.container.itemSpacing}",
                       "horizontalPadding": "{sem.structure.listing.components.filterButton.sm.container.padding}",
                       "verticalPadding": "{sem.structure.listing.components.filterButton.sm.container.padding}",
-                      "fill": "{sem.color.surface.interactive.light.active}",
+                      "fill": "{sem.color.surface.interactive.light.default}",
                       "border": "{sem.border.interactive.active}",
                       "layoutAlignItems": "left center"
                     },
@@ -392,6 +413,13 @@
                     "value": {
                       "typography": "{sem.typography.textStyle.label.body.sm}",
                       "fill": "{sem.color.text.default}"
+                    },
+                    "type": "composition"
+                  },
+                  "value": {
+                    "value": {
+                      "typography": "{sem.typography.textStyle.label.body.sm}",
+                      "fill": "{sem.color.text.dark}"
                     },
                     "type": "composition"
                   }
@@ -470,6 +498,13 @@
                       "fill": "{sem.color.text.default}"
                     },
                     "type": "composition"
+                  },
+                  "value": {
+                    "value": {
+                      "typography": "{sem.typography.textStyle.label.body.md}",
+                      "fill": "{sem.color.text.dark}"
+                    },
+                    "type": "composition"
                   }
                 }
               },
@@ -542,6 +577,13 @@
                     "value": {
                       "typography": "{sem.typography.textStyle.label.body.md}",
                       "fill": "{sem.color.text.default}"
+                    },
+                    "type": "composition"
+                  },
+                  "value": {
+                    "value": {
+                      "typography": "{sem.typography.textStyle.label.body.md}",
+                      "fill": "{sem.color.text.dark}"
                     },
                     "type": "composition"
                   }
@@ -618,6 +660,13 @@
                       "fill": "{sem.color.text.default}"
                     },
                     "type": "composition"
+                  },
+                  "value": {
+                    "value": {
+                      "typography": "{sem.typography.textStyle.label.body.md}",
+                      "fill": "{sem.color.text.dark}"
+                    },
+                    "type": "composition"
                   }
                 }
               },
@@ -629,7 +678,7 @@
                       "itemSpacing": "{sem.structure.listing.components.filterButton.md.container.itemSpacing}",
                       "horizontalPadding": "{sem.structure.listing.components.filterButton.md.container.padding}",
                       "verticalPadding": "{sem.structure.listing.components.filterButton.md.container.padding}",
-                      "fill": "{sem.color.surface.interactive.sub.active}",
+                      "fill": "{sem.color.surface.interactive.sub.default}",
                       "border": "{sem.border.interactive.active}",
                       "layoutAlignItems": "center left"
                     },
@@ -665,7 +714,7 @@
                       "itemSpacing": "{sem.structure.listing.components.filterButton.md.container.itemSpacing}",
                       "horizontalPadding": "{sem.structure.listing.components.filterButton.md.container.padding}",
                       "verticalPadding": "{sem.structure.listing.components.filterButton.md.container.padding}",
-                      "fill": "{sem.color.surface.interactive.light.active}",
+                      "fill": "{sem.color.surface.interactive.light.default}",
                       "border": "{sem.border.interactive.active}",
                       "layoutAlignItems": "left center"
                     },
@@ -690,6 +739,13 @@
                     "value": {
                       "typography": "{sem.typography.textStyle.label.body.md}",
                       "fill": "{sem.color.text.default}"
+                    },
+                    "type": "composition"
+                  },
+                  "value": {
+                    "value": {
+                      "typography": "{sem.typography.textStyle.label.body.md}",
+                      "fill": "{sem.color.text.dark}"
                     },
                     "type": "composition"
                   }
