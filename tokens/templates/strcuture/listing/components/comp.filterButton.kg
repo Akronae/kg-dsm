@@ -6,7 +6,7 @@ comp
 [state: 'default' | 'hover' | 'pressed' | 'active']
 [
   {
-    "filled": {
+    "unFilled": {
       "container": {
         "value": {
           "borderRadius": "{sem.structure.listing.components.filterButton.<<size>>.container.borderRadius}",
@@ -14,7 +14,8 @@ comp
           "horizontalPadding": "{sem.structure.listing.components.filterButton.<<size>>.container.padding}",
           "verticalPadding": "{sem.structure.listing.components.filterButton.<<size>>.container.padding}",
           "fill": "{sem.color.surface.interactive.sub.<<state>>}",
-          "border": "{sem.border.interactive.<<state>>}"
+          "border": "{sem.border.interactive.<<state>>}",
+          "layoutAlignItems": "left center"
         },
         "type": "composition"
       },
@@ -41,7 +42,7 @@ comp
         "type": "composition"
       }
     },
-    "unFilled": {
+    "filled": {
       "container": {
         "value": {
           "borderRadius": "{sem.structure.listing.components.filterButton.<<size>>.container.borderRadius}",
@@ -49,7 +50,8 @@ comp
           "horizontalPadding": "{sem.structure.listing.components.filterButton.<<size>>.container.padding}",
           "verticalPadding": "{sem.structure.listing.components.filterButton.<<size>>.container.padding}",
           "fill": "{sem.color.surface.interactive.light.<<state>>}",
-          "border": "{sem.border.interactive.<<state>>}"
+          "border": "{sem.border.interactive.<<state>>}",
+          "layoutAlignItems": "left center"
         },
         "type": "composition"
       },

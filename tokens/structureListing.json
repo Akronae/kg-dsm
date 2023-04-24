@@ -102,7 +102,7 @@
           "filterButton": {
             "sm": {
               "default": {
-                "filled": {
+                "unFilled": {
                   "container": {
                     "value": {
                       "borderRadius": "{sem.structure.listing.components.filterButton.sm.container.borderRadius}",
@@ -110,7 +110,8 @@
                       "horizontalPadding": "{sem.structure.listing.components.filterButton.sm.container.padding}",
                       "verticalPadding": "{sem.structure.listing.components.filterButton.sm.container.padding}",
                       "fill": "{sem.color.surface.interactive.sub.default}",
-                      "border": "{sem.border.interactive.default}"
+                      "border": "{sem.border.interactive.default}",
+                      "layoutAlignItems": "left center"
                     },
                     "type": "composition"
                   },
@@ -137,7 +138,7 @@
                     "type": "composition"
                   }
                 },
-                "unFilled": {
+                "filled": {
                   "container": {
                     "value": {
                       "borderRadius": "{sem.structure.listing.components.filterButton.sm.container.borderRadius}",
@@ -145,7 +146,8 @@
                       "horizontalPadding": "{sem.structure.listing.components.filterButton.sm.container.padding}",
                       "verticalPadding": "{sem.structure.listing.components.filterButton.sm.container.padding}",
                       "fill": "{sem.color.surface.interactive.light.default}",
-                      "border": "{sem.border.interactive.default}"
+                      "border": "{sem.border.interactive.default}",
+                      "layoutAlignItems": "left center"
                     },
                     "type": "composition"
                   },
@@ -174,7 +176,7 @@
                 }
               },
               "hover": {
-                "filled": {
+                "unFilled": {
                   "container": {
                     "value": {
                       "borderRadius": "{sem.structure.listing.components.filterButton.sm.container.borderRadius}",
@@ -182,7 +184,8 @@
                       "horizontalPadding": "{sem.structure.listing.components.filterButton.sm.container.padding}",
                       "verticalPadding": "{sem.structure.listing.components.filterButton.sm.container.padding}",
                       "fill": "{sem.color.surface.interactive.sub.hover}",
-                      "border": "{sem.border.interactive.hover}"
+                      "border": "{sem.border.interactive.hover}",
+                      "layoutAlignItems": "left center"
                     },
                     "type": "composition"
                   },
@@ -209,7 +212,7 @@
                     "type": "composition"
                   }
                 },
-                "unFilled": {
+                "filled": {
                   "container": {
                     "value": {
                       "borderRadius": "{sem.structure.listing.components.filterButton.sm.container.borderRadius}",
@@ -217,7 +220,8 @@
                       "horizontalPadding": "{sem.structure.listing.components.filterButton.sm.container.padding}",
                       "verticalPadding": "{sem.structure.listing.components.filterButton.sm.container.padding}",
                       "fill": "{sem.color.surface.interactive.light.hover}",
-                      "border": "{sem.border.interactive.hover}"
+                      "border": "{sem.border.interactive.hover}",
+                      "layoutAlignItems": "left center"
                     },
                     "type": "composition"
                   },
@@ -246,7 +250,7 @@
                 }
               },
               "pressed": {
-                "filled": {
+                "unFilled": {
                   "container": {
                     "value": {
                       "borderRadius": "{sem.structure.listing.components.filterButton.sm.container.borderRadius}",
@@ -254,7 +258,8 @@
                       "horizontalPadding": "{sem.structure.listing.components.filterButton.sm.container.padding}",
                       "verticalPadding": "{sem.structure.listing.components.filterButton.sm.container.padding}",
                       "fill": "{sem.color.surface.interactive.sub.pressed}",
-                      "border": "{sem.border.interactive.pressed}"
+                      "border": "{sem.border.interactive.pressed}",
+                      "layoutAlignItems": "left center"
                     },
                     "type": "composition"
                   },
@@ -281,7 +286,7 @@
                     "type": "composition"
                   }
                 },
-                "unFilled": {
+                "filled": {
                   "container": {
                     "value": {
                       "borderRadius": "{sem.structure.listing.components.filterButton.sm.container.borderRadius}",
@@ -289,7 +294,8 @@
                       "horizontalPadding": "{sem.structure.listing.components.filterButton.sm.container.padding}",
                       "verticalPadding": "{sem.structure.listing.components.filterButton.sm.container.padding}",
                       "fill": "{sem.color.surface.interactive.light.pressed}",
-                      "border": "{sem.border.interactive.pressed}"
+                      "border": "{sem.border.interactive.pressed}",
+                      "layoutAlignItems": "left center"
                     },
                     "type": "composition"
                   },
@@ -318,7 +324,7 @@
                 }
               },
               "active": {
-                "filled": {
+                "unFilled": {
                   "container": {
                     "value": {
                       "borderRadius": "{sem.structure.listing.components.filterButton.sm.container.borderRadius}",
@@ -326,7 +332,8 @@
                       "horizontalPadding": "{sem.structure.listing.components.filterButton.sm.container.padding}",
                       "verticalPadding": "{sem.structure.listing.components.filterButton.sm.container.padding}",
                       "fill": "{sem.color.surface.interactive.sub.active}",
-                      "border": "{sem.border.interactive.active}"
+                      "border": "{sem.border.interactive.active}",
+                      "layoutAlignItems": "left center"
                     },
                     "type": "composition"
                   },
@@ -353,7 +360,7 @@
                     "type": "composition"
                   }
                 },
-                "unFilled": {
+                "filled": {
                   "container": {
                     "value": {
                       "borderRadius": "{sem.structure.listing.components.filterButton.sm.container.borderRadius}",
@@ -361,7 +368,8 @@
                       "horizontalPadding": "{sem.structure.listing.components.filterButton.sm.container.padding}",
                       "verticalPadding": "{sem.structure.listing.components.filterButton.sm.container.padding}",
                       "fill": "{sem.color.surface.interactive.light.active}",
-                      "border": "{sem.border.interactive.active}"
+                      "border": "{sem.border.interactive.active}",
+                      "layoutAlignItems": "left center"
                     },
                     "type": "composition"
                   },
@@ -392,7 +400,7 @@
             },
             "md": {
               "default": {
-                "filled": {
+                "unFilled": {
                   "container": {
                     "value": {
                       "borderRadius": "{sem.structure.listing.components.filterButton.md.container.borderRadius}",
@@ -400,7 +408,8 @@
                       "horizontalPadding": "{sem.structure.listing.components.filterButton.md.container.padding}",
                       "verticalPadding": "{sem.structure.listing.components.filterButton.md.container.padding}",
                       "fill": "{sem.color.surface.interactive.sub.default}",
-                      "border": "{sem.border.interactive.default}"
+                      "border": "{sem.border.interactive.default}",
+                      "layoutAlignItems": "left center"
                     },
                     "type": "composition"
                   },
@@ -427,7 +436,7 @@
                     "type": "composition"
                   }
                 },
-                "unFilled": {
+                "filled": {
                   "container": {
                     "value": {
                       "borderRadius": "{sem.structure.listing.components.filterButton.md.container.borderRadius}",
@@ -435,7 +444,8 @@
                       "horizontalPadding": "{sem.structure.listing.components.filterButton.md.container.padding}",
                       "verticalPadding": "{sem.structure.listing.components.filterButton.md.container.padding}",
                       "fill": "{sem.color.surface.interactive.light.default}",
-                      "border": "{sem.border.interactive.default}"
+                      "border": "{sem.border.interactive.default}",
+                      "layoutAlignItems": "left center"
                     },
                     "type": "composition"
                   },
@@ -464,7 +474,7 @@
                 }
               },
               "hover": {
-                "filled": {
+                "unFilled": {
                   "container": {
                     "value": {
                       "borderRadius": "{sem.structure.listing.components.filterButton.md.container.borderRadius}",
@@ -472,7 +482,8 @@
                       "horizontalPadding": "{sem.structure.listing.components.filterButton.md.container.padding}",
                       "verticalPadding": "{sem.structure.listing.components.filterButton.md.container.padding}",
                       "fill": "{sem.color.surface.interactive.sub.hover}",
-                      "border": "{sem.border.interactive.hover}"
+                      "border": "{sem.border.interactive.hover}",
+                      "layoutAlignItems": "left center"
                     },
                     "type": "composition"
                   },
@@ -499,7 +510,7 @@
                     "type": "composition"
                   }
                 },
-                "unFilled": {
+                "filled": {
                   "container": {
                     "value": {
                       "borderRadius": "{sem.structure.listing.components.filterButton.md.container.borderRadius}",
@@ -507,7 +518,8 @@
                       "horizontalPadding": "{sem.structure.listing.components.filterButton.md.container.padding}",
                       "verticalPadding": "{sem.structure.listing.components.filterButton.md.container.padding}",
                       "fill": "{sem.color.surface.interactive.light.hover}",
-                      "border": "{sem.border.interactive.hover}"
+                      "border": "{sem.border.interactive.hover}",
+                      "layoutAlignItems": "left center"
                     },
                     "type": "composition"
                   },
@@ -536,7 +548,7 @@
                 }
               },
               "pressed": {
-                "filled": {
+                "unFilled": {
                   "container": {
                     "value": {
                       "borderRadius": "{sem.structure.listing.components.filterButton.md.container.borderRadius}",
@@ -544,7 +556,8 @@
                       "horizontalPadding": "{sem.structure.listing.components.filterButton.md.container.padding}",
                       "verticalPadding": "{sem.structure.listing.components.filterButton.md.container.padding}",
                       "fill": "{sem.color.surface.interactive.sub.pressed}",
-                      "border": "{sem.border.interactive.pressed}"
+                      "border": "{sem.border.interactive.pressed}",
+                      "layoutAlignItems": "left center"
                     },
                     "type": "composition"
                   },
@@ -571,7 +584,7 @@
                     "type": "composition"
                   }
                 },
-                "unFilled": {
+                "filled": {
                   "container": {
                     "value": {
                       "borderRadius": "{sem.structure.listing.components.filterButton.md.container.borderRadius}",
@@ -579,7 +592,8 @@
                       "horizontalPadding": "{sem.structure.listing.components.filterButton.md.container.padding}",
                       "verticalPadding": "{sem.structure.listing.components.filterButton.md.container.padding}",
                       "fill": "{sem.color.surface.interactive.light.pressed}",
-                      "border": "{sem.border.interactive.pressed}"
+                      "border": "{sem.border.interactive.pressed}",
+                      "layoutAlignItems": "left center"
                     },
                     "type": "composition"
                   },
@@ -608,7 +622,7 @@
                 }
               },
               "active": {
-                "filled": {
+                "unFilled": {
                   "container": {
                     "value": {
                       "borderRadius": "{sem.structure.listing.components.filterButton.md.container.borderRadius}",
@@ -616,7 +630,8 @@
                       "horizontalPadding": "{sem.structure.listing.components.filterButton.md.container.padding}",
                       "verticalPadding": "{sem.structure.listing.components.filterButton.md.container.padding}",
                       "fill": "{sem.color.surface.interactive.sub.active}",
-                      "border": "{sem.border.interactive.active}"
+                      "border": "{sem.border.interactive.active}",
+                      "layoutAlignItems": "left center"
                     },
                     "type": "composition"
                   },
@@ -643,7 +658,7 @@
                     "type": "composition"
                   }
                 },
-                "unFilled": {
+                "filled": {
                   "container": {
                     "value": {
                       "borderRadius": "{sem.structure.listing.components.filterButton.md.container.borderRadius}",
@@ -651,7 +666,8 @@
                       "horizontalPadding": "{sem.structure.listing.components.filterButton.md.container.padding}",
                       "verticalPadding": "{sem.structure.listing.components.filterButton.md.container.padding}",
                       "fill": "{sem.color.surface.interactive.light.active}",
-                      "border": "{sem.border.interactive.active}"
+                      "border": "{sem.border.interactive.active}",
+                      "layoutAlignItems": "left center"
                     },
                     "type": "composition"
                   },
