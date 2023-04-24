@@ -15,6 +15,7 @@ comp
           "verticalPadding": "{sem.structure.listing.components.filterButton.<<size>>.container.padding}",
           "fill": "{sem.color.surface.interactive.sub.<< ({ default: 'default', hover: 'hover', pressed: 'pressed', 'active': 'default' })[state]>>}",
           "border": "{sem.border.interactive.<<state>>}",
+          "layoutMode": "horizontal",
           "layoutAlignItems": "center left"
         },
         "type": "composition"
@@ -51,6 +52,7 @@ comp
           "verticalPadding": "{sem.structure.listing.components.filterButton.<<size>>.container.padding}",
           "fill": "{sem.color.surface.interactive.light.<< ({ default: 'default', hover: 'hover', pressed: 'pressed', 'active': 'default' })[state]>>}",
           "border": "{sem.border.interactive.<<state>>}",
+          "layoutMode": "horizontal",
           "layoutAlignItems": "center left"
         },
         "type": "composition"
