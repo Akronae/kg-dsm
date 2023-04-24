@@ -111,7 +111,7 @@
                       "verticalPadding": "{sem.structure.listing.components.filterButton.sm.container.padding}",
                       "fill": "{sem.color.surface.interactive.sub.default}",
                       "border": "{sem.border.interactive.default}",
-                      "layoutAlignItems": "left center"
+                      "layoutAlignItems": "center left"
                     },
                     "type": "composition"
                   },
@@ -185,7 +185,7 @@
                       "verticalPadding": "{sem.structure.listing.components.filterButton.sm.container.padding}",
                       "fill": "{sem.color.surface.interactive.sub.hover}",
                       "border": "{sem.border.interactive.hover}",
-                      "layoutAlignItems": "left center"
+                      "layoutAlignItems": "center left"
                     },
                     "type": "composition"
                   },
@@ -259,7 +259,7 @@
                       "verticalPadding": "{sem.structure.listing.components.filterButton.sm.container.padding}",
                       "fill": "{sem.color.surface.interactive.sub.pressed}",
                       "border": "{sem.border.interactive.pressed}",
-                      "layoutAlignItems": "left center"
+                      "layoutAlignItems": "center left"
                     },
                     "type": "composition"
                   },
@@ -333,7 +333,7 @@
                       "verticalPadding": "{sem.structure.listing.components.filterButton.sm.container.padding}",
                       "fill": "{sem.color.surface.interactive.sub.active}",
                       "border": "{sem.border.interactive.active}",
-                      "layoutAlignItems": "left center"
+                      "layoutAlignItems": "center left"
                     },
                     "type": "composition"
                   },
@@ -409,7 +409,7 @@
                       "verticalPadding": "{sem.structure.listing.components.filterButton.md.container.padding}",
                       "fill": "{sem.color.surface.interactive.sub.default}",
                       "border": "{sem.border.interactive.default}",
-                      "layoutAlignItems": "left center"
+                      "layoutAlignItems": "center left"
                     },
                     "type": "composition"
                   },
@@ -483,7 +483,7 @@
                       "verticalPadding": "{sem.structure.listing.components.filterButton.md.container.padding}",
                       "fill": "{sem.color.surface.interactive.sub.hover}",
                       "border": "{sem.border.interactive.hover}",
-                      "layoutAlignItems": "left center"
+                      "layoutAlignItems": "center left"
                     },
                     "type": "composition"
                   },
@@ -557,7 +557,7 @@
                       "verticalPadding": "{sem.structure.listing.components.filterButton.md.container.padding}",
                       "fill": "{sem.color.surface.interactive.sub.pressed}",
                       "border": "{sem.border.interactive.pressed}",
-                      "layoutAlignItems": "left center"
+                      "layoutAlignItems": "center left"
                     },
                     "type": "composition"
                   },
@@ -631,7 +631,7 @@
                       "verticalPadding": "{sem.structure.listing.components.filterButton.md.container.padding}",
                       "fill": "{sem.color.surface.interactive.sub.active}",
                       "border": "{sem.border.interactive.active}",
-                      "layoutAlignItems": "left center"
+                      "layoutAlignItems": "center left"
                     },
                     "type": "composition"
                   },
