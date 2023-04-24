@@ -9,7 +9,9 @@
                 "value": {
                   "paddingTop": "{sem.structure.form.components.actionZone.mobile.buttonWrapper.paddingTop}",
                   "paddingBottom": "{sem.structure.form.components.actionZone.mobile.buttonWrapper.paddingBottom}",
-                  "itemSpacing": "{sem.structure.form.components.actionZone.mobile.buttonWrapper.spacing}"
+                  "itemSpacing": "{sem.structure.form.components.actionZone.mobile.buttonWrapper.spacing}",
+                  "layoutMode": "horizontal",
+                  "horizontalResizing": "fill"
                 },
                 "type": "composition"
               },
@@ -26,7 +28,9 @@
                 "value": {
                   "paddingTop": "{sem.structure.form.components.actionZone.desktop.buttonWrapper.paddingTop}",
                   "paddingBottom": "{sem.structure.form.components.actionZone.desktop.buttonWrapper.paddingBottom}",
-                  "itemSpacing": "{sem.structure.form.components.actionZone.desktop.buttonWrapper.spacing}"
+                  "itemSpacing": "{sem.structure.form.components.actionZone.desktop.buttonWrapper.spacing}",
+                  "layoutMode": "horizontal",
+                  "horizontalResizing": "fill"
                 },
                 "type": "composition"
               },
