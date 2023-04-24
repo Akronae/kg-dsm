@@ -21,7 +21,7 @@ sem
     },
     "icon": {
       "size": {
-        "value": "{ref.sizing..<< size == 'sm' ? '100' : '200' >>}",
+        "value": "{ref.sizing.<< size == 'sm' ? '100' : '200' >>}",
         "type": "sizing"
       } 
     }

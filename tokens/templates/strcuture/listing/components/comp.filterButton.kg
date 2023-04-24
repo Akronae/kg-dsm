@@ -48,7 +48,7 @@ comp
           "itemSpacing": "{sem.structure.listing.components.filterButton.<<size>>.container.itemSpacing}",
           "horizontalPadding": "{sem.structure.listing.components.filterButton.<<size>>.container.padding}",
           "verticalPadding": "{sem.structure.listing.components.filterButton.<<size>>.container.padding}",
-          "fill": "{em.color.surface.interactive.light.<<state>>}",
+          "fill": "{sem.color.surface.interactive.light.<<state>>}",
           "border": "{sem.border.interactive.<<state>>}"
         },
         "type": "composition"
