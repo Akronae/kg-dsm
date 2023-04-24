@@ -1,0 +1,29 @@
+// @replacepath: tokens/structureListing.json
+
+sem
+.structure.listing.components.filterButton
+[size: 'sm' | 'md']
+[
+  {
+    "container": {
+      "itemSpacing": {
+        "value": "{ref.spacing.<< size == 'sm' ? '50' : '100' >>}",
+        "type": "spacing"
+      },
+      "borderRadius": {
+        "value": "{ref.borderRadius.<< size == 'sm' ? '250' : '300' >>}",
+        "type": "borderRadius"
+      },
+      "padding": {
+        "value": "{ref.spacing.<< size == 'sm' ? '100' : '150' >>}",
+        "type": "spacing"
+      }
+    },
+    "icon": {
+      "size": {
+        "value": "{ref.sizing..<< size == 'sm' ? '100' : '200' >>}",
+        "type": "sizing"
+      } 
+    }
+  }
+]
