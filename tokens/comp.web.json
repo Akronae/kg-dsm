@@ -15565,7 +15565,7 @@
         },
         "shortcutWrapper": {
           "value": {
-            "layoutMode": "horizontal",
+            "layoutMode": "vertical",
             "itemSpacing": "{sem.calendar.shortcutWrapper.spacing}"
           },
           "type": "composition"
@@ -15631,7 +15631,7 @@
         },
         "shortcutWrapper": {
           "value": {
-            "layoutMode": "vertical",
+            "layoutMode": "horizontal",
             "itemSpacing": "{sem.calendar.shortcutWrapper.spacing}"
           },
           "type": "composition"
