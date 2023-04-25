@@ -15557,7 +15557,7 @@
       "desktop": {
         "container": {
           "value": {
-            "layoutMode": "horizontal",
+            "layoutMode": "vertical",
             "horizontalResizing": "fill",
             "itemSpacing": "{sem.calendar.container.spacing}"
           },
