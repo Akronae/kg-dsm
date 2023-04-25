@@ -15571,6 +15571,13 @@
           "type": "composition"
         },
         "rightSide": {
+          "wrapper": {
+            "value": {
+              "layoutMode": "vertical",
+              "itemSpacing": "{sem.calendar.rightSide.wrapper.spacing}"
+            },
+            "type": "composition"
+          },
           "calendarWrapper": {
             "value": {
               "layoutMode": "vertical",
@@ -15637,6 +15644,13 @@
           "type": "composition"
         },
         "rightSide": {
+          "wrapper": {
+            "value": {
+              "layoutMode": "vertical",
+              "itemSpacing": "{sem.calendar.rightSide.wrapper.spacing}"
+            },
+            "type": "composition"
+          },
           "calendarWrapper": {
             "value": {
               "layoutMode": "vertical",
@@ -16519,6 +16533,12 @@
         }
       },
       "rightSide": {
+        "wrapper": {
+          "spacing": {
+            "value": "{ref.spacing.200}",
+            "type": "spacing"
+          }
+        },
         "calendarWrapper": {
           "spacing": {
             "value": "{ref.spacing.200}",

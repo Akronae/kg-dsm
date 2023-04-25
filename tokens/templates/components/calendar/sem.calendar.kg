@@ -17,6 +17,12 @@ sem
       }
     },
     "rightSide": {
+      "wrapper": {
+        "spacing": {
+          "value": "{ref.spacing.200}",
+          "type": "spacing"
+        }
+      },
       "calendarWrapper": {
         "spacing": {
           "value": "{ref.spacing.200}",

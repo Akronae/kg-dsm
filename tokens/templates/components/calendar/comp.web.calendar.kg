@@ -21,6 +21,13 @@ comp
       "type": "composition"
     },
     "rightSide": {
+      "wrapper": {
+        "value": {
+          "layoutMode": "vertical",
+          "itemSpacing": "{sem.calendar.rightSide.wrapper.spacing}"
+        },
+        "type": "composition"
+      },
       "calendarWrapper": {
         "value": {
           "layoutMode": "vertical",
