@@ -14,7 +14,7 @@ sem
         "type": "spacing"
       },
       "borderRadius": {
-        "value": "{ref.borderRadius.100}",
+        "value": "{ref.borderRadius.200}",
         "type": "borderRadius"
       }
     }

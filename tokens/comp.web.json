@@ -15775,7 +15775,7 @@
             "label": {
               "value": {
                 "typography": "{sem.typography.textStyle.label.body.md}",
-                "fill": "{sem.color.text.light}"
+                "fill": "{sem.color.text.dark}"
               },
               "type": "composition"
             }
@@ -15795,7 +15795,7 @@
             "label": {
               "value": {
                 "typography": "{sem.typography.textStyle.label.body.md}",
-                "fill": "{sem.color.text.dark}"
+                "fill": "{sem.color.text.light}"
               },
               "type": "composition"
             }
@@ -16938,7 +16938,7 @@
             "type": "spacing"
           },
           "borderRadius": {
-            "value": "{ref.borderRadius.100}",
+            "value": "{ref.borderRadius.200}",
             "type": "borderRadius"
           }
         }
