@@ -16094,8 +16094,10 @@
           },
           "slotContent": {
             "chips": {
-              "value": "{ref.spacing.100}",
-              "type": "spacing"
+              "spacer": {
+                "value": "{ref.spacing.100}",
+                "type": "spacing"
+              }
             }
           },
           "iconSize": {
@@ -16118,8 +16120,10 @@
           },
           "slotContent": {
             "chips": {
-              "value": "{ref.spacing.50}",
-              "type": "spacing"
+              "spacer": {
+                "value": "{ref.spacing.50}",
+                "type": "spacing"
+              }
             }
           },
           "iconSize": {
