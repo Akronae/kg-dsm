@@ -7172,8 +7172,8 @@
         },
         "label": {
           "value": {
-            "typography": "sem.typography.textStyle.label.body.sm",
-            "fill": "sem.color.text.dark",
+            "typography": "{sem.typography.textStyle.label.body.sm}",
+            "fill": "{sem.color.text.dark}",
             "horizontalResizing": "fill"
           },
           "type": "composition"
