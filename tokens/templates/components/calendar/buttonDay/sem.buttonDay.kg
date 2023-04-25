@@ -12,6 +12,10 @@ sem
       "verticalPadding": {
         "value": "{ref.spacing.150}",
         "type": "spacing"
+      },
+      "borderRadius": {
+        "value": "{ref.borderRadius.100}",
+        "type": "borderRadius"
       }
     }
   }

@@ -9,7 +9,8 @@ comp
         "value": {
           "layoutAlignItems": "center",
           "verticalPadding": "{sem.calendar.buttonDay.container.verticalPadding}",
-          "horizontalPadding": "{sem.calendar.buttonDay.container.horizontalPadding}"
+          "horizontalPadding": "{sem.calendar.buttonDay.container.horizontalPadding}",
+          "borderRadius": "{sem.calendar.buttonDay.borderRadius}"
         },
         "type": "composition"
       },
@@ -65,7 +66,7 @@ comp
         "label": {
           "value": {
             "typography": "{sem.typography.textStyle.label.body.md}",
-            "fill": "{sem.color.text.dark}"
+            "fill": "{sem.color.text.light}"
           },
           "type": "composition"
         }
