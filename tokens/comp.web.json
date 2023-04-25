@@ -15707,7 +15707,7 @@
               "layoutAlignItems": "center",
               "verticalPadding": "{sem.calendar.buttonDay.container.verticalPadding}",
               "horizontalPadding": "{sem.calendar.buttonDay.container.horizontalPadding}",
-              "borderRadius": "{sem.calendar.buttonDay.borderRadius}"
+              "borderRadius": "{sem.calendar.buttonDay.container.borderRadius}"
             },
             "type": "composition"
           },
@@ -15726,7 +15726,7 @@
                 "layoutAlignItems": "center",
                 "verticalPadding": "{sem.calendar.buttonDay.container.verticalPadding}",
                 "horizontalPadding": "{sem.calendar.buttonDay.container.horizontalPadding}",
-                "borderRadius": "{sem.calendar.buttonDay.borderRadius}",
+                "borderRadius": "{sem.calendar.buttonDay.container.borderRadius}",
                 "fill": "{sem.color.surface.interactive.sub.default}"
               },
               "type": "composition",
@@ -15746,7 +15746,7 @@
                 "layoutAlignItems": "center",
                 "verticalPadding": "{sem.calendar.buttonDay.container.verticalPadding}",
                 "horizontalPadding": "{sem.calendar.buttonDay.container.horizontalPadding}",
-                "borderRadius": "{sem.calendar.buttonDay.borderRadius}",
+                "borderRadius": "{sem.calendar.buttonDay.container.borderRadius}",
                 "fill": "{sem.color.surface.interactive.sub.hover}"
               },
               "type": "composition",
@@ -15766,7 +15766,7 @@
                 "layoutAlignItems": "center",
                 "verticalPadding": "{sem.calendar.buttonDay.container.verticalPadding}",
                 "horizontalPadding": "{sem.calendar.buttonDay.container.horizontalPadding}",
-                "borderRadius": "{sem.calendar.buttonDay.borderRadius}",
+                "borderRadius": "{sem.calendar.buttonDay.container.borderRadius}",
                 "fill": "{sem.color.surface.interactive.sub.pressed}"
               },
               "type": "composition",
@@ -15786,7 +15786,7 @@
                 "layoutAlignItems": "center",
                 "verticalPadding": "{sem.calendar.buttonDay.container.verticalPadding}",
                 "horizontalPadding": "{sem.calendar.buttonDay.container.horizontalPadding}",
-                "borderRadius": "{sem.calendar.buttonDay.borderRadius}",
+                "borderRadius": "{sem.calendar.buttonDay.container.borderRadius}",
                 "fill": "{sem.color.surface.interactive.sub.active}"
               },
               "type": "composition",
@@ -15806,7 +15806,7 @@
                 "layoutAlignItems": "center",
                 "verticalPadding": "{sem.calendar.buttonDay.container.verticalPadding}",
                 "horizontalPadding": "{sem.calendar.buttonDay.container.horizontalPadding}",
-                "borderRadius": "{sem.calendar.buttonDay.borderRadius}",
+                "borderRadius": "{sem.calendar.buttonDay.container.borderRadius}",
                 "fill": "{sem.color.surface.interactive.disabled}"
               },
               "type": "composition",
@@ -15829,7 +15829,7 @@
               "layoutAlignItems": "center left",
               "verticalPadding": "{sem.calendar.buttonDay.container.verticalPadding}",
               "horizontalPadding": "{sem.calendar.buttonDay.container.horizontalPadding}",
-              "borderRadius": "{sem.calendar.buttonDay.borderRadius}",
+              "borderRadius": "{sem.calendar.buttonDay.container.borderRadius}",
               "fill": "{sem.color.surface.interactive.sub.default}"
             },
             "type": "composition",
@@ -15842,7 +15842,7 @@
               "layoutAlignItems": "center left",
               "verticalPadding": "{sem.calendar.buttonDay.container.verticalPadding}",
               "horizontalPadding": "{sem.calendar.buttonDay.container.horizontalPadding}",
-              "borderRadius": "{sem.calendar.buttonDay.borderRadius}",
+              "borderRadius": "{sem.calendar.buttonDay.container.borderRadius}",
               "fill": "{sem.color.surface.interactive.sub.hover}"
             },
             "type": "composition",
@@ -15855,7 +15855,7 @@
               "layoutAlignItems": "center left",
               "verticalPadding": "{sem.calendar.buttonDay.container.verticalPadding}",
               "horizontalPadding": "{sem.calendar.buttonDay.container.horizontalPadding}",
-              "borderRadius": "{sem.calendar.buttonDay.borderRadius}",
+              "borderRadius": "{sem.calendar.buttonDay.container.borderRadius}",
               "fill": "{sem.color.surface.interactive.sub.pressed}"
             },
             "type": "composition",
@@ -15868,7 +15868,7 @@
               "layoutAlignItems": "center left",
               "verticalPadding": "{sem.calendar.buttonDay.container.verticalPadding}",
               "horizontalPadding": "{sem.calendar.buttonDay.container.horizontalPadding}",
-              "borderRadius": "{sem.calendar.buttonDay.borderRadius}",
+              "borderRadius": "{sem.calendar.buttonDay.container.borderRadius}",
               "fill": "{sem.color.surface.interactive.sub.active}"
             },
             "type": "composition",
@@ -15881,7 +15881,7 @@
               "layoutAlignItems": "center left",
               "verticalPadding": "{sem.calendar.buttonDay.container.verticalPadding}",
               "horizontalPadding": "{sem.calendar.buttonDay.container.horizontalPadding}",
-              "borderRadius": "{sem.calendar.buttonDay.borderRadius}",
+              "borderRadius": "{sem.calendar.buttonDay.container.borderRadius}",
               "fill": "{sem.color.surface.interactive.disabled}"
             },
             "type": "composition",

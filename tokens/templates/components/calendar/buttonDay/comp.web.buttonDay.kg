@@ -10,7 +10,7 @@ comp
           "layoutAlignItems": "center",
           "verticalPadding": "{sem.calendar.buttonDay.container.verticalPadding}",
           "horizontalPadding": "{sem.calendar.buttonDay.container.horizontalPadding}",
-          "borderRadius": "{sem.calendar.buttonDay.borderRadius}"
+          "borderRadius": "{sem.calendar.buttonDay.container.borderRadius}"
         },
         "type": "composition"
       },
