@@ -16525,7 +16525,7 @@
             "type": "spacing"
           }
         },
-        "monthSelector": {
+        "mounthSelector": {
           "icon": {
             "size": {
               "value": "{ref.sizing.200}",
