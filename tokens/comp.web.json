@@ -8914,7 +8914,7 @@
             "default": {
               "container": {
                 "value": {
-                  "itemSpacing": "{sem.input.sm.container.spacer}"
+                  "itemSpacing": "{sem.input.base.sm.container.spacer}"
                 },
                 "type": "composition"
               },
@@ -8929,15 +8929,15 @@
                   "borderRadiusBottomRight": "{sem.card.base.xs.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.base.xs.borderRadiusBottomLeft}",
                   "border": "{sem.border.transparent}",
-                  "itemSpacing": "{sem.input.sm.fieldWrapper.spacer}"
+                  "itemSpacing": "{sem.input.base.sm.fieldWrapper.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.card.base.xs.uncontrasted.default'})"
               },
               "iconSize": {
                 "value": {
-                  "width": "{sem.input.sm.iconSize}",
-                  "height": "{sem.input.sm.iconSize}"
+                  "width": "{sem.input.base.sm.iconSize}",
+                  "height": "{sem.input.base.sm.iconSize}"
                 },
                 "type": "composition"
               },
@@ -8973,7 +8973,7 @@
                 },
                 "chips": {
                   "value": {
-                    "itemSpacing": "{sem.input.sm.slotContent.chips.spacer}"
+                    "itemSpacing": "{sem.input.base.sm.slotContent.chips.spacer}"
                   },
                   "type": "composition"
                 }
@@ -8982,7 +8982,7 @@
             "hover": {
               "container": {
                 "value": {
-                  "itemSpacing": "{sem.input.sm.container.spacer}"
+                  "itemSpacing": "{sem.input.base.sm.container.spacer}"
                 },
                 "type": "composition"
               },
@@ -8997,15 +8997,15 @@
                   "borderRadiusBottomRight": "{sem.card.base.xs.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.base.xs.borderRadiusBottomLeft}",
                   "border": "{sem.border.transparent}",
-                  "itemSpacing": "{sem.input.sm.fieldWrapper.spacer}"
+                  "itemSpacing": "{sem.input.base.sm.fieldWrapper.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.card.base.xs.uncontrasted.hover'})"
               },
               "iconSize": {
                 "value": {
-                  "width": "{sem.input.sm.iconSize}",
-                  "height": "{sem.input.sm.iconSize}"
+                  "width": "{sem.input.base.sm.iconSize}",
+                  "height": "{sem.input.base.sm.iconSize}"
                 },
                 "type": "composition"
               },
@@ -9041,7 +9041,7 @@
                 },
                 "chips": {
                   "value": {
-                    "itemSpacing": "{sem.input.sm.slotContent.chips.spacer}"
+                    "itemSpacing": "{sem.input.base.sm.slotContent.chips.spacer}"
                   },
                   "type": "composition"
                 }
@@ -9050,7 +9050,7 @@
             "pressed": {
               "container": {
                 "value": {
-                  "itemSpacing": "{sem.input.sm.container.spacer}"
+                  "itemSpacing": "{sem.input.base.sm.container.spacer}"
                 },
                 "type": "composition"
               },
@@ -9065,15 +9065,15 @@
                   "borderRadiusBottomRight": "{sem.card.base.xs.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.base.xs.borderRadiusBottomLeft}",
                   "border": "{sem.border.transparent}",
-                  "itemSpacing": "{sem.input.sm.fieldWrapper.spacer}"
+                  "itemSpacing": "{sem.input.base.sm.fieldWrapper.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.card.base.xs.uncontrasted.pressed'})"
               },
               "iconSize": {
                 "value": {
-                  "width": "{sem.input.sm.iconSize}",
-                  "height": "{sem.input.sm.iconSize}"
+                  "width": "{sem.input.base.sm.iconSize}",
+                  "height": "{sem.input.base.sm.iconSize}"
                 },
                 "type": "composition"
               },
@@ -9109,7 +9109,7 @@
                 },
                 "chips": {
                   "value": {
-                    "itemSpacing": "{sem.input.sm.slotContent.chips.spacer}"
+                    "itemSpacing": "{sem.input.base.sm.slotContent.chips.spacer}"
                   },
                   "type": "composition"
                 }
@@ -9118,7 +9118,7 @@
             "active": {
               "container": {
                 "value": {
-                  "itemSpacing": "{sem.input.sm.container.spacer}"
+                  "itemSpacing": "{sem.input.base.sm.container.spacer}"
                 },
                 "type": "composition"
               },
@@ -9133,15 +9133,15 @@
                   "borderRadiusBottomRight": "{sem.card.base.xs.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.base.xs.borderRadiusBottomLeft}",
                   "border": "{sem.border.active}",
-                  "itemSpacing": "{sem.input.sm.fieldWrapper.spacer}"
+                  "itemSpacing": "{sem.input.base.sm.fieldWrapper.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.card.base.xs.uncontrasted.active'})"
               },
               "iconSize": {
                 "value": {
-                  "width": "{sem.input.sm.iconSize}",
-                  "height": "{sem.input.sm.iconSize}"
+                  "width": "{sem.input.base.sm.iconSize}",
+                  "height": "{sem.input.base.sm.iconSize}"
                 },
                 "type": "composition"
               },
@@ -9177,7 +9177,7 @@
                 },
                 "chips": {
                   "value": {
-                    "itemSpacing": "{sem.input.sm.slotContent.chips.spacer}"
+                    "itemSpacing": "{sem.input.base.sm.slotContent.chips.spacer}"
                   },
                   "type": "composition"
                 }
@@ -9186,7 +9186,7 @@
             "danger": {
               "container": {
                 "value": {
-                  "itemSpacing": "{sem.input.sm.container.spacer}"
+                  "itemSpacing": "{sem.input.base.sm.container.spacer}"
                 },
                 "type": "composition"
               },
@@ -9201,15 +9201,15 @@
                   "borderRadiusBottomRight": "{sem.card.base.xs.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.base.xs.borderRadiusBottomLeft}",
                   "border": "{sem.border.danger}",
-                  "itemSpacing": "{sem.input.sm.fieldWrapper.spacer}"
+                  "itemSpacing": "{sem.input.base.sm.fieldWrapper.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.card.base.xs.uncontrasted.danger'})"
               },
               "iconSize": {
                 "value": {
-                  "width": "{sem.input.sm.iconSize}",
-                  "height": "{sem.input.sm.iconSize}"
+                  "width": "{sem.input.base.sm.iconSize}",
+                  "height": "{sem.input.base.sm.iconSize}"
                 },
                 "type": "composition"
               },
@@ -9245,7 +9245,7 @@
                 },
                 "chips": {
                   "value": {
-                    "itemSpacing": "{sem.input.sm.slotContent.chips.spacer}"
+                    "itemSpacing": "{sem.input.base.sm.slotContent.chips.spacer}"
                   },
                   "type": "composition"
                 }
@@ -9254,7 +9254,7 @@
             "disabled": {
               "container": {
                 "value": {
-                  "itemSpacing": "{sem.input.sm.container.spacer}"
+                  "itemSpacing": "{sem.input.base.sm.container.spacer}"
                 },
                 "type": "composition"
               },
@@ -9269,15 +9269,15 @@
                   "borderRadiusBottomRight": "{sem.card.base.xs.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.base.xs.borderRadiusBottomLeft}",
                   "border": "{sem.border.transparent}",
-                  "itemSpacing": "{sem.input.sm.fieldWrapper.spacer}"
+                  "itemSpacing": "{sem.input.base.sm.fieldWrapper.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.card.base.xs.uncontrasted.disabled'})"
               },
               "iconSize": {
                 "value": {
-                  "width": "{sem.input.sm.iconSize}",
-                  "height": "{sem.input.sm.iconSize}"
+                  "width": "{sem.input.base.sm.iconSize}",
+                  "height": "{sem.input.base.sm.iconSize}"
                 },
                 "type": "composition"
               },
@@ -9313,7 +9313,7 @@
                 },
                 "chips": {
                   "value": {
-                    "itemSpacing": "{sem.input.sm.slotContent.chips.spacer}"
+                    "itemSpacing": "{sem.input.base.sm.slotContent.chips.spacer}"
                   },
                   "type": "composition"
                 }
@@ -9324,7 +9324,7 @@
             "default": {
               "container": {
                 "value": {
-                  "itemSpacing": "{sem.input.sm.container.spacer}"
+                  "itemSpacing": "{sem.input.base.sm.container.spacer}"
                 },
                 "type": "composition"
               },
@@ -9339,15 +9339,15 @@
                   "borderRadiusBottomRight": "{sem.card.base.xs.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.base.xs.borderRadiusBottomLeft}",
                   "border": "{sem.border.interactive.default}",
-                  "itemSpacing": "{sem.input.sm.fieldWrapper.spacer}"
+                  "itemSpacing": "{sem.input.base.sm.fieldWrapper.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.card.base.xs.contrasted.default'})"
               },
               "iconSize": {
                 "value": {
-                  "width": "{sem.input.sm.iconSize}",
-                  "height": "{sem.input.sm.iconSize}"
+                  "width": "{sem.input.base.sm.iconSize}",
+                  "height": "{sem.input.base.sm.iconSize}"
                 },
                 "type": "composition"
               },
@@ -9383,7 +9383,7 @@
                 },
                 "chips": {
                   "value": {
-                    "itemSpacing": "{sem.input.sm.slotContent.chips.spacer}"
+                    "itemSpacing": "{sem.input.base.sm.slotContent.chips.spacer}"
                   },
                   "type": "composition"
                 }
@@ -9392,7 +9392,7 @@
             "hover": {
               "container": {
                 "value": {
-                  "itemSpacing": "{sem.input.sm.container.spacer}"
+                  "itemSpacing": "{sem.input.base.sm.container.spacer}"
                 },
                 "type": "composition"
               },
@@ -9407,15 +9407,15 @@
                   "borderRadiusBottomRight": "{sem.card.base.xs.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.base.xs.borderRadiusBottomLeft}",
                   "border": "{sem.border.interactive.hover}",
-                  "itemSpacing": "{sem.input.sm.fieldWrapper.spacer}"
+                  "itemSpacing": "{sem.input.base.sm.fieldWrapper.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.card.base.xs.contrasted.hover'})"
               },
               "iconSize": {
                 "value": {
-                  "width": "{sem.input.sm.iconSize}",
-                  "height": "{sem.input.sm.iconSize}"
+                  "width": "{sem.input.base.sm.iconSize}",
+                  "height": "{sem.input.base.sm.iconSize}"
                 },
                 "type": "composition"
               },
@@ -9451,7 +9451,7 @@
                 },
                 "chips": {
                   "value": {
-                    "itemSpacing": "{sem.input.sm.slotContent.chips.spacer}"
+                    "itemSpacing": "{sem.input.base.sm.slotContent.chips.spacer}"
                   },
                   "type": "composition"
                 }
@@ -9460,7 +9460,7 @@
             "pressed": {
               "container": {
                 "value": {
-                  "itemSpacing": "{sem.input.sm.container.spacer}"
+                  "itemSpacing": "{sem.input.base.sm.container.spacer}"
                 },
                 "type": "composition"
               },
@@ -9475,15 +9475,15 @@
                   "borderRadiusBottomRight": "{sem.card.base.xs.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.base.xs.borderRadiusBottomLeft}",
                   "border": "{sem.border.interactive.pressed}",
-                  "itemSpacing": "{sem.input.sm.fieldWrapper.spacer}"
+                  "itemSpacing": "{sem.input.base.sm.fieldWrapper.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.card.base.xs.contrasted.pressed'})"
               },
               "iconSize": {
                 "value": {
-                  "width": "{sem.input.sm.iconSize}",
-                  "height": "{sem.input.sm.iconSize}"
+                  "width": "{sem.input.base.sm.iconSize}",
+                  "height": "{sem.input.base.sm.iconSize}"
                 },
                 "type": "composition"
               },
@@ -9519,7 +9519,7 @@
                 },
                 "chips": {
                   "value": {
-                    "itemSpacing": "{sem.input.sm.slotContent.chips.spacer}"
+                    "itemSpacing": "{sem.input.base.sm.slotContent.chips.spacer}"
                   },
                   "type": "composition"
                 }
@@ -9528,7 +9528,7 @@
             "active": {
               "container": {
                 "value": {
-                  "itemSpacing": "{sem.input.sm.container.spacer}"
+                  "itemSpacing": "{sem.input.base.sm.container.spacer}"
                 },
                 "type": "composition"
               },
@@ -9543,15 +9543,15 @@
                   "borderRadiusBottomRight": "{sem.card.base.xs.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.base.xs.borderRadiusBottomLeft}",
                   "border": "{sem.border.interactive.active}",
-                  "itemSpacing": "{sem.input.sm.fieldWrapper.spacer}"
+                  "itemSpacing": "{sem.input.base.sm.fieldWrapper.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.card.base.xs.contrasted.active'})"
               },
               "iconSize": {
                 "value": {
-                  "width": "{sem.input.sm.iconSize}",
-                  "height": "{sem.input.sm.iconSize}"
+                  "width": "{sem.input.base.sm.iconSize}",
+                  "height": "{sem.input.base.sm.iconSize}"
                 },
                 "type": "composition"
               },
@@ -9587,7 +9587,7 @@
                 },
                 "chips": {
                   "value": {
-                    "itemSpacing": "{sem.input.sm.slotContent.chips.spacer}"
+                    "itemSpacing": "{sem.input.base.sm.slotContent.chips.spacer}"
                   },
                   "type": "composition"
                 }
@@ -9596,7 +9596,7 @@
             "danger": {
               "container": {
                 "value": {
-                  "itemSpacing": "{sem.input.sm.container.spacer}"
+                  "itemSpacing": "{sem.input.base.sm.container.spacer}"
                 },
                 "type": "composition"
               },
@@ -9611,15 +9611,15 @@
                   "borderRadiusBottomRight": "{sem.card.base.xs.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.base.xs.borderRadiusBottomLeft}",
                   "border": "{sem.border.danger}",
-                  "itemSpacing": "{sem.input.sm.fieldWrapper.spacer}"
+                  "itemSpacing": "{sem.input.base.sm.fieldWrapper.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.card.base.xs.contrasted.danger'})"
               },
               "iconSize": {
                 "value": {
-                  "width": "{sem.input.sm.iconSize}",
-                  "height": "{sem.input.sm.iconSize}"
+                  "width": "{sem.input.base.sm.iconSize}",
+                  "height": "{sem.input.base.sm.iconSize}"
                 },
                 "type": "composition"
               },
@@ -9655,7 +9655,7 @@
                 },
                 "chips": {
                   "value": {
-                    "itemSpacing": "{sem.input.sm.slotContent.chips.spacer}"
+                    "itemSpacing": "{sem.input.base.sm.slotContent.chips.spacer}"
                   },
                   "type": "composition"
                 }
@@ -9664,7 +9664,7 @@
             "disabled": {
               "container": {
                 "value": {
-                  "itemSpacing": "{sem.input.sm.container.spacer}"
+                  "itemSpacing": "{sem.input.base.sm.container.spacer}"
                 },
                 "type": "composition"
               },
@@ -9679,15 +9679,15 @@
                   "borderRadiusBottomRight": "{sem.card.base.xs.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.base.xs.borderRadiusBottomLeft}",
                   "border": "{sem.border.interactive.disabled}",
-                  "itemSpacing": "{sem.input.sm.fieldWrapper.spacer}"
+                  "itemSpacing": "{sem.input.base.sm.fieldWrapper.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.card.base.xs.contrasted.disabled'})"
               },
               "iconSize": {
                 "value": {
-                  "width": "{sem.input.sm.iconSize}",
-                  "height": "{sem.input.sm.iconSize}"
+                  "width": "{sem.input.base.sm.iconSize}",
+                  "height": "{sem.input.base.sm.iconSize}"
                 },
                 "type": "composition"
               },
@@ -9723,7 +9723,7 @@
                 },
                 "chips": {
                   "value": {
-                    "itemSpacing": "{sem.input.sm.slotContent.chips.spacer}"
+                    "itemSpacing": "{sem.input.base.sm.slotContent.chips.spacer}"
                   },
                   "type": "composition"
                 }
@@ -9736,7 +9736,7 @@
             "default": {
               "container": {
                 "value": {
-                  "itemSpacing": "{sem.input.md.container.spacer}"
+                  "itemSpacing": "{sem.input.base.md.container.spacer}"
                 },
                 "type": "composition"
               },
@@ -9751,15 +9751,15 @@
                   "borderRadiusBottomRight": "{sem.card.base.sm.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.base.sm.borderRadiusBottomLeft}",
                   "border": "{sem.border.transparent}",
-                  "itemSpacing": "{sem.input.md.fieldWrapper.spacer}"
+                  "itemSpacing": "{sem.input.base.md.fieldWrapper.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.card.base.sm.uncontrasted.default'})"
               },
               "iconSize": {
                 "value": {
-                  "width": "{sem.input.md.iconSize}",
-                  "height": "{sem.input.md.iconSize}"
+                  "width": "{sem.input.base.md.iconSize}",
+                  "height": "{sem.input.base.md.iconSize}"
                 },
                 "type": "composition"
               },
@@ -9795,7 +9795,7 @@
                 },
                 "chips": {
                   "value": {
-                    "itemSpacing": "{sem.input.md.slotContent.chips.spacer}"
+                    "itemSpacing": "{sem.input.base.md.slotContent.chips.spacer}"
                   },
                   "type": "composition"
                 }
@@ -9804,7 +9804,7 @@
             "hover": {
               "container": {
                 "value": {
-                  "itemSpacing": "{sem.input.md.container.spacer}"
+                  "itemSpacing": "{sem.input.base.md.container.spacer}"
                 },
                 "type": "composition"
               },
@@ -9819,15 +9819,15 @@
                   "borderRadiusBottomRight": "{sem.card.base.sm.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.base.sm.borderRadiusBottomLeft}",
                   "border": "{sem.border.transparent}",
-                  "itemSpacing": "{sem.input.md.fieldWrapper.spacer}"
+                  "itemSpacing": "{sem.input.base.md.fieldWrapper.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.card.base.sm.uncontrasted.hover'})"
               },
               "iconSize": {
                 "value": {
-                  "width": "{sem.input.md.iconSize}",
-                  "height": "{sem.input.md.iconSize}"
+                  "width": "{sem.input.base.md.iconSize}",
+                  "height": "{sem.input.base.md.iconSize}"
                 },
                 "type": "composition"
               },
@@ -9863,7 +9863,7 @@
                 },
                 "chips": {
                   "value": {
-                    "itemSpacing": "{sem.input.md.slotContent.chips.spacer}"
+                    "itemSpacing": "{sem.input.base.md.slotContent.chips.spacer}"
                   },
                   "type": "composition"
                 }
@@ -9872,7 +9872,7 @@
             "pressed": {
               "container": {
                 "value": {
-                  "itemSpacing": "{sem.input.md.container.spacer}"
+                  "itemSpacing": "{sem.input.base.md.container.spacer}"
                 },
                 "type": "composition"
               },
@@ -9887,15 +9887,15 @@
                   "borderRadiusBottomRight": "{sem.card.base.sm.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.base.sm.borderRadiusBottomLeft}",
                   "border": "{sem.border.transparent}",
-                  "itemSpacing": "{sem.input.md.fieldWrapper.spacer}"
+                  "itemSpacing": "{sem.input.base.md.fieldWrapper.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.card.base.sm.uncontrasted.pressed'})"
               },
               "iconSize": {
                 "value": {
-                  "width": "{sem.input.md.iconSize}",
-                  "height": "{sem.input.md.iconSize}"
+                  "width": "{sem.input.base.md.iconSize}",
+                  "height": "{sem.input.base.md.iconSize}"
                 },
                 "type": "composition"
               },
@@ -9931,7 +9931,7 @@
                 },
                 "chips": {
                   "value": {
-                    "itemSpacing": "{sem.input.md.slotContent.chips.spacer}"
+                    "itemSpacing": "{sem.input.base.md.slotContent.chips.spacer}"
                   },
                   "type": "composition"
                 }
@@ -9940,7 +9940,7 @@
             "active": {
               "container": {
                 "value": {
-                  "itemSpacing": "{sem.input.md.container.spacer}"
+                  "itemSpacing": "{sem.input.base.md.container.spacer}"
                 },
                 "type": "composition"
               },
@@ -9955,15 +9955,15 @@
                   "borderRadiusBottomRight": "{sem.card.base.sm.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.base.sm.borderRadiusBottomLeft}",
                   "border": "{sem.border.active}",
-                  "itemSpacing": "{sem.input.md.fieldWrapper.spacer}"
+                  "itemSpacing": "{sem.input.base.md.fieldWrapper.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.card.base.sm.uncontrasted.active'})"
               },
               "iconSize": {
                 "value": {
-                  "width": "{sem.input.md.iconSize}",
-                  "height": "{sem.input.md.iconSize}"
+                  "width": "{sem.input.base.md.iconSize}",
+                  "height": "{sem.input.base.md.iconSize}"
                 },
                 "type": "composition"
               },
@@ -9999,7 +9999,7 @@
                 },
                 "chips": {
                   "value": {
-                    "itemSpacing": "{sem.input.md.slotContent.chips.spacer}"
+                    "itemSpacing": "{sem.input.base.md.slotContent.chips.spacer}"
                   },
                   "type": "composition"
                 }
@@ -10008,7 +10008,7 @@
             "danger": {
               "container": {
                 "value": {
-                  "itemSpacing": "{sem.input.md.container.spacer}"
+                  "itemSpacing": "{sem.input.base.md.container.spacer}"
                 },
                 "type": "composition"
               },
@@ -10023,15 +10023,15 @@
                   "borderRadiusBottomRight": "{sem.card.base.sm.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.base.sm.borderRadiusBottomLeft}",
                   "border": "{sem.border.danger}",
-                  "itemSpacing": "{sem.input.md.fieldWrapper.spacer}"
+                  "itemSpacing": "{sem.input.base.md.fieldWrapper.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.card.base.sm.uncontrasted.danger'})"
               },
               "iconSize": {
                 "value": {
-                  "width": "{sem.input.md.iconSize}",
-                  "height": "{sem.input.md.iconSize}"
+                  "width": "{sem.input.base.md.iconSize}",
+                  "height": "{sem.input.base.md.iconSize}"
                 },
                 "type": "composition"
               },
@@ -10067,7 +10067,7 @@
                 },
                 "chips": {
                   "value": {
-                    "itemSpacing": "{sem.input.md.slotContent.chips.spacer}"
+                    "itemSpacing": "{sem.input.base.md.slotContent.chips.spacer}"
                   },
                   "type": "composition"
                 }
@@ -10076,7 +10076,7 @@
             "disabled": {
               "container": {
                 "value": {
-                  "itemSpacing": "{sem.input.md.container.spacer}"
+                  "itemSpacing": "{sem.input.base.md.container.spacer}"
                 },
                 "type": "composition"
               },
@@ -10091,15 +10091,15 @@
                   "borderRadiusBottomRight": "{sem.card.base.sm.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.base.sm.borderRadiusBottomLeft}",
                   "border": "{sem.border.transparent}",
-                  "itemSpacing": "{sem.input.md.fieldWrapper.spacer}"
+                  "itemSpacing": "{sem.input.base.md.fieldWrapper.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.card.base.sm.uncontrasted.disabled'})"
               },
               "iconSize": {
                 "value": {
-                  "width": "{sem.input.md.iconSize}",
-                  "height": "{sem.input.md.iconSize}"
+                  "width": "{sem.input.base.md.iconSize}",
+                  "height": "{sem.input.base.md.iconSize}"
                 },
                 "type": "composition"
               },
@@ -10135,7 +10135,7 @@
                 },
                 "chips": {
                   "value": {
-                    "itemSpacing": "{sem.input.md.slotContent.chips.spacer}"
+                    "itemSpacing": "{sem.input.base.md.slotContent.chips.spacer}"
                   },
                   "type": "composition"
                 }
@@ -10146,7 +10146,7 @@
             "default": {
               "container": {
                 "value": {
-                  "itemSpacing": "{sem.input.md.container.spacer}"
+                  "itemSpacing": "{sem.input.base.md.container.spacer}"
                 },
                 "type": "composition"
               },
@@ -10161,15 +10161,15 @@
                   "borderRadiusBottomRight": "{sem.card.base.sm.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.base.sm.borderRadiusBottomLeft}",
                   "border": "{sem.border.interactive.default}",
-                  "itemSpacing": "{sem.input.md.fieldWrapper.spacer}"
+                  "itemSpacing": "{sem.input.base.md.fieldWrapper.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.card.base.sm.contrasted.default'})"
               },
               "iconSize": {
                 "value": {
-                  "width": "{sem.input.md.iconSize}",
-                  "height": "{sem.input.md.iconSize}"
+                  "width": "{sem.input.base.md.iconSize}",
+                  "height": "{sem.input.base.md.iconSize}"
                 },
                 "type": "composition"
               },
@@ -10205,7 +10205,7 @@
                 },
                 "chips": {
                   "value": {
-                    "itemSpacing": "{sem.input.md.slotContent.chips.spacer}"
+                    "itemSpacing": "{sem.input.base.md.slotContent.chips.spacer}"
                   },
                   "type": "composition"
                 }
@@ -10214,7 +10214,7 @@
             "hover": {
               "container": {
                 "value": {
-                  "itemSpacing": "{sem.input.md.container.spacer}"
+                  "itemSpacing": "{sem.input.base.md.container.spacer}"
                 },
                 "type": "composition"
               },
@@ -10229,15 +10229,15 @@
                   "borderRadiusBottomRight": "{sem.card.base.sm.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.base.sm.borderRadiusBottomLeft}",
                   "border": "{sem.border.interactive.hover}",
-                  "itemSpacing": "{sem.input.md.fieldWrapper.spacer}"
+                  "itemSpacing": "{sem.input.base.md.fieldWrapper.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.card.base.sm.contrasted.hover'})"
               },
               "iconSize": {
                 "value": {
-                  "width": "{sem.input.md.iconSize}",
-                  "height": "{sem.input.md.iconSize}"
+                  "width": "{sem.input.base.md.iconSize}",
+                  "height": "{sem.input.base.md.iconSize}"
                 },
                 "type": "composition"
               },
@@ -10273,7 +10273,7 @@
                 },
                 "chips": {
                   "value": {
-                    "itemSpacing": "{sem.input.md.slotContent.chips.spacer}"
+                    "itemSpacing": "{sem.input.base.md.slotContent.chips.spacer}"
                   },
                   "type": "composition"
                 }
@@ -10282,7 +10282,7 @@
             "pressed": {
               "container": {
                 "value": {
-                  "itemSpacing": "{sem.input.md.container.spacer}"
+                  "itemSpacing": "{sem.input.base.md.container.spacer}"
                 },
                 "type": "composition"
               },
@@ -10297,15 +10297,15 @@
                   "borderRadiusBottomRight": "{sem.card.base.sm.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.base.sm.borderRadiusBottomLeft}",
                   "border": "{sem.border.interactive.pressed}",
-                  "itemSpacing": "{sem.input.md.fieldWrapper.spacer}"
+                  "itemSpacing": "{sem.input.base.md.fieldWrapper.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.card.base.sm.contrasted.pressed'})"
               },
               "iconSize": {
                 "value": {
-                  "width": "{sem.input.md.iconSize}",
-                  "height": "{sem.input.md.iconSize}"
+                  "width": "{sem.input.base.md.iconSize}",
+                  "height": "{sem.input.base.md.iconSize}"
                 },
                 "type": "composition"
               },
@@ -10341,7 +10341,7 @@
                 },
                 "chips": {
                   "value": {
-                    "itemSpacing": "{sem.input.md.slotContent.chips.spacer}"
+                    "itemSpacing": "{sem.input.base.md.slotContent.chips.spacer}"
                   },
                   "type": "composition"
                 }
@@ -10350,7 +10350,7 @@
             "active": {
               "container": {
                 "value": {
-                  "itemSpacing": "{sem.input.md.container.spacer}"
+                  "itemSpacing": "{sem.input.base.md.container.spacer}"
                 },
                 "type": "composition"
               },
@@ -10365,15 +10365,15 @@
                   "borderRadiusBottomRight": "{sem.card.base.sm.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.base.sm.borderRadiusBottomLeft}",
                   "border": "{sem.border.interactive.active}",
-                  "itemSpacing": "{sem.input.md.fieldWrapper.spacer}"
+                  "itemSpacing": "{sem.input.base.md.fieldWrapper.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.card.base.sm.contrasted.active'})"
               },
               "iconSize": {
                 "value": {
-                  "width": "{sem.input.md.iconSize}",
-                  "height": "{sem.input.md.iconSize}"
+                  "width": "{sem.input.base.md.iconSize}",
+                  "height": "{sem.input.base.md.iconSize}"
                 },
                 "type": "composition"
               },
@@ -10409,7 +10409,7 @@
                 },
                 "chips": {
                   "value": {
-                    "itemSpacing": "{sem.input.md.slotContent.chips.spacer}"
+                    "itemSpacing": "{sem.input.base.md.slotContent.chips.spacer}"
                   },
                   "type": "composition"
                 }
@@ -10418,7 +10418,7 @@
             "danger": {
               "container": {
                 "value": {
-                  "itemSpacing": "{sem.input.md.container.spacer}"
+                  "itemSpacing": "{sem.input.base.md.container.spacer}"
                 },
                 "type": "composition"
               },
@@ -10433,15 +10433,15 @@
                   "borderRadiusBottomRight": "{sem.card.base.sm.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.base.sm.borderRadiusBottomLeft}",
                   "border": "{sem.border.danger}",
-                  "itemSpacing": "{sem.input.md.fieldWrapper.spacer}"
+                  "itemSpacing": "{sem.input.base.md.fieldWrapper.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.card.base.sm.contrasted.danger'})"
               },
               "iconSize": {
                 "value": {
-                  "width": "{sem.input.md.iconSize}",
-                  "height": "{sem.input.md.iconSize}"
+                  "width": "{sem.input.base.md.iconSize}",
+                  "height": "{sem.input.base.md.iconSize}"
                 },
                 "type": "composition"
               },
@@ -10477,7 +10477,7 @@
                 },
                 "chips": {
                   "value": {
-                    "itemSpacing": "{sem.input.md.slotContent.chips.spacer}"
+                    "itemSpacing": "{sem.input.base.md.slotContent.chips.spacer}"
                   },
                   "type": "composition"
                 }
@@ -10486,7 +10486,7 @@
             "disabled": {
               "container": {
                 "value": {
-                  "itemSpacing": "{sem.input.md.container.spacer}"
+                  "itemSpacing": "{sem.input.base.md.container.spacer}"
                 },
                 "type": "composition"
               },
@@ -10501,15 +10501,15 @@
                   "borderRadiusBottomRight": "{sem.card.base.sm.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.base.sm.borderRadiusBottomLeft}",
                   "border": "{sem.border.interactive.disabled}",
-                  "itemSpacing": "{sem.input.md.fieldWrapper.spacer}"
+                  "itemSpacing": "{sem.input.base.md.fieldWrapper.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.card.base.sm.contrasted.disabled'})"
               },
               "iconSize": {
                 "value": {
-                  "width": "{sem.input.md.iconSize}",
-                  "height": "{sem.input.md.iconSize}"
+                  "width": "{sem.input.base.md.iconSize}",
+                  "height": "{sem.input.base.md.iconSize}"
                 },
                 "type": "composition"
               },
@@ -10545,7 +10545,7 @@
                 },
                 "chips": {
                   "value": {
-                    "itemSpacing": "{sem.input.md.slotContent.chips.spacer}"
+                    "itemSpacing": "{sem.input.base.md.slotContent.chips.spacer}"
                   },
                   "type": "composition"
                 }
@@ -10586,7 +10586,7 @@
                     "borderRadiusBottomRight": "{sem.card.base.xs.borderRadiusBottomRight}",
                     "borderRadiusBottomLeft": "none",
                     "border": "none",
-                    "itemSpacing": "{sem.input.sm.fieldWrapper.spacer}"
+                    "itemSpacing": "{sem.input.base.sm.fieldWrapper.spacer}"
                   },
                   "type": "composition",
                   "description": "({extends: 'comp.input.base.sm.uncontrasted.default.fieldWrapper'})"
@@ -10622,7 +10622,7 @@
                     "borderRadiusBottomRight": "{sem.card.base.xs.borderRadiusBottomRight}",
                     "borderRadiusBottomLeft": "none",
                     "border": "none",
-                    "itemSpacing": "{sem.input.sm.fieldWrapper.spacer}"
+                    "itemSpacing": "{sem.input.base.sm.fieldWrapper.spacer}"
                   },
                   "type": "composition",
                   "description": "({extends: 'comp.input.base.sm.uncontrasted.hover.fieldWrapper'})"
@@ -10658,7 +10658,7 @@
                     "borderRadiusBottomRight": "{sem.card.base.xs.borderRadiusBottomRight}",
                     "borderRadiusBottomLeft": "none",
                     "border": "none",
-                    "itemSpacing": "{sem.input.sm.fieldWrapper.spacer}"
+                    "itemSpacing": "{sem.input.base.sm.fieldWrapper.spacer}"
                   },
                   "type": "composition",
                   "description": "({extends: 'comp.input.base.sm.uncontrasted.pressed.fieldWrapper'})"
@@ -10694,7 +10694,7 @@
                     "borderRadiusBottomRight": "{sem.card.base.xs.borderRadiusBottomRight}",
                     "borderRadiusBottomLeft": "none",
                     "border": "none",
-                    "itemSpacing": "{sem.input.sm.fieldWrapper.spacer}"
+                    "itemSpacing": "{sem.input.base.sm.fieldWrapper.spacer}"
                   },
                   "type": "composition",
                   "description": "({extends: 'comp.input.base.sm.uncontrasted.active.fieldWrapper'})"
@@ -10730,7 +10730,7 @@
                     "borderRadiusBottomRight": "{sem.card.base.xs.borderRadiusBottomRight}",
                     "borderRadiusBottomLeft": "none",
                     "border": "none",
-                    "itemSpacing": "{sem.input.sm.fieldWrapper.spacer}"
+                    "itemSpacing": "{sem.input.base.sm.fieldWrapper.spacer}"
                   },
                   "type": "composition",
                   "description": "({extends: 'comp.input.base.sm.uncontrasted.danger.fieldWrapper'})"
@@ -10766,7 +10766,7 @@
                     "borderRadiusBottomRight": "{sem.card.base.xs.borderRadiusBottomRight}",
                     "borderRadiusBottomLeft": "none",
                     "border": "none",
-                    "itemSpacing": "{sem.input.sm.fieldWrapper.spacer}"
+                    "itemSpacing": "{sem.input.base.sm.fieldWrapper.spacer}"
                   },
                   "type": "composition",
                   "description": "({extends: 'comp.input.base.sm.uncontrasted.disabled.fieldWrapper'})"
@@ -10804,7 +10804,7 @@
                     "borderRadiusBottomRight": "{sem.card.base.xs.borderRadiusBottomRight}",
                     "borderRadiusBottomLeft": "none",
                     "border": "none",
-                    "itemSpacing": "{sem.input.sm.fieldWrapper.spacer}"
+                    "itemSpacing": "{sem.input.base.sm.fieldWrapper.spacer}"
                   },
                   "type": "composition",
                   "description": "({extends: 'comp.input.base.sm.contrasted.default.fieldWrapper'})"
@@ -10840,7 +10840,7 @@
                     "borderRadiusBottomRight": "{sem.card.base.xs.borderRadiusBottomRight}",
                     "borderRadiusBottomLeft": "none",
                     "border": "none",
-                    "itemSpacing": "{sem.input.sm.fieldWrapper.spacer}"
+                    "itemSpacing": "{sem.input.base.sm.fieldWrapper.spacer}"
                   },
                   "type": "composition",
                   "description": "({extends: 'comp.input.base.sm.contrasted.hover.fieldWrapper'})"
@@ -10876,7 +10876,7 @@
                     "borderRadiusBottomRight": "{sem.card.base.xs.borderRadiusBottomRight}",
                     "borderRadiusBottomLeft": "none",
                     "border": "none",
-                    "itemSpacing": "{sem.input.sm.fieldWrapper.spacer}"
+                    "itemSpacing": "{sem.input.base.sm.fieldWrapper.spacer}"
                   },
                   "type": "composition",
                   "description": "({extends: 'comp.input.base.sm.contrasted.pressed.fieldWrapper'})"
@@ -10912,7 +10912,7 @@
                     "borderRadiusBottomRight": "{sem.card.base.xs.borderRadiusBottomRight}",
                     "borderRadiusBottomLeft": "none",
                     "border": "none",
-                    "itemSpacing": "{sem.input.sm.fieldWrapper.spacer}"
+                    "itemSpacing": "{sem.input.base.sm.fieldWrapper.spacer}"
                   },
                   "type": "composition",
                   "description": "({extends: 'comp.input.base.sm.contrasted.active.fieldWrapper'})"
@@ -10948,7 +10948,7 @@
                     "borderRadiusBottomRight": "{sem.card.base.xs.borderRadiusBottomRight}",
                     "borderRadiusBottomLeft": "none",
                     "border": "none",
-                    "itemSpacing": "{sem.input.sm.fieldWrapper.spacer}"
+                    "itemSpacing": "{sem.input.base.sm.fieldWrapper.spacer}"
                   },
                   "type": "composition",
                   "description": "({extends: 'comp.input.base.sm.contrasted.danger.fieldWrapper'})"
@@ -10984,7 +10984,7 @@
                     "borderRadiusBottomRight": "{sem.card.base.xs.borderRadiusBottomRight}",
                     "borderRadiusBottomLeft": "none",
                     "border": "none",
-                    "itemSpacing": "{sem.input.sm.fieldWrapper.spacer}"
+                    "itemSpacing": "{sem.input.base.sm.fieldWrapper.spacer}"
                   },
                   "type": "composition",
                   "description": "({extends: 'comp.input.base.sm.contrasted.disabled.fieldWrapper'})"
@@ -11024,7 +11024,7 @@
                     "borderRadiusBottomRight": "{sem.card.base.sm.borderRadiusBottomRight}",
                     "borderRadiusBottomLeft": "none",
                     "border": "none",
-                    "itemSpacing": "{sem.input.md.fieldWrapper.spacer}"
+                    "itemSpacing": "{sem.input.base.md.fieldWrapper.spacer}"
                   },
                   "type": "composition",
                   "description": "({extends: 'comp.input.base.md.uncontrasted.default.fieldWrapper'})"
@@ -11060,7 +11060,7 @@
                     "borderRadiusBottomRight": "{sem.card.base.sm.borderRadiusBottomRight}",
                     "borderRadiusBottomLeft": "none",
                     "border": "none",
-                    "itemSpacing": "{sem.input.md.fieldWrapper.spacer}"
+                    "itemSpacing": "{sem.input.base.md.fieldWrapper.spacer}"
                   },
                   "type": "composition",
                   "description": "({extends: 'comp.input.base.md.uncontrasted.hover.fieldWrapper'})"
@@ -11096,7 +11096,7 @@
                     "borderRadiusBottomRight": "{sem.card.base.sm.borderRadiusBottomRight}",
                     "borderRadiusBottomLeft": "none",
                     "border": "none",
-                    "itemSpacing": "{sem.input.md.fieldWrapper.spacer}"
+                    "itemSpacing": "{sem.input.base.md.fieldWrapper.spacer}"
                   },
                   "type": "composition",
                   "description": "({extends: 'comp.input.base.md.uncontrasted.pressed.fieldWrapper'})"
@@ -11132,7 +11132,7 @@
                     "borderRadiusBottomRight": "{sem.card.base.sm.borderRadiusBottomRight}",
                     "borderRadiusBottomLeft": "none",
                     "border": "none",
-                    "itemSpacing": "{sem.input.md.fieldWrapper.spacer}"
+                    "itemSpacing": "{sem.input.base.md.fieldWrapper.spacer}"
                   },
                   "type": "composition",
                   "description": "({extends: 'comp.input.base.md.uncontrasted.active.fieldWrapper'})"
@@ -11168,7 +11168,7 @@
                     "borderRadiusBottomRight": "{sem.card.base.sm.borderRadiusBottomRight}",
                     "borderRadiusBottomLeft": "none",
                     "border": "none",
-                    "itemSpacing": "{sem.input.md.fieldWrapper.spacer}"
+                    "itemSpacing": "{sem.input.base.md.fieldWrapper.spacer}"
                   },
                   "type": "composition",
                   "description": "({extends: 'comp.input.base.md.uncontrasted.danger.fieldWrapper'})"
@@ -11204,7 +11204,7 @@
                     "borderRadiusBottomRight": "{sem.card.base.sm.borderRadiusBottomRight}",
                     "borderRadiusBottomLeft": "none",
                     "border": "none",
-                    "itemSpacing": "{sem.input.md.fieldWrapper.spacer}"
+                    "itemSpacing": "{sem.input.base.md.fieldWrapper.spacer}"
                   },
                   "type": "composition",
                   "description": "({extends: 'comp.input.base.md.uncontrasted.disabled.fieldWrapper'})"
@@ -11242,7 +11242,7 @@
                     "borderRadiusBottomRight": "{sem.card.base.sm.borderRadiusBottomRight}",
                     "borderRadiusBottomLeft": "none",
                     "border": "none",
-                    "itemSpacing": "{sem.input.md.fieldWrapper.spacer}"
+                    "itemSpacing": "{sem.input.base.md.fieldWrapper.spacer}"
                   },
                   "type": "composition",
                   "description": "({extends: 'comp.input.base.md.contrasted.default.fieldWrapper'})"
@@ -11278,7 +11278,7 @@
                     "borderRadiusBottomRight": "{sem.card.base.sm.borderRadiusBottomRight}",
                     "borderRadiusBottomLeft": "none",
                     "border": "none",
-                    "itemSpacing": "{sem.input.md.fieldWrapper.spacer}"
+                    "itemSpacing": "{sem.input.base.md.fieldWrapper.spacer}"
                   },
                   "type": "composition",
                   "description": "({extends: 'comp.input.base.md.contrasted.hover.fieldWrapper'})"
@@ -11314,7 +11314,7 @@
                     "borderRadiusBottomRight": "{sem.card.base.sm.borderRadiusBottomRight}",
                     "borderRadiusBottomLeft": "none",
                     "border": "none",
-                    "itemSpacing": "{sem.input.md.fieldWrapper.spacer}"
+                    "itemSpacing": "{sem.input.base.md.fieldWrapper.spacer}"
                   },
                   "type": "composition",
                   "description": "({extends: 'comp.input.base.md.contrasted.pressed.fieldWrapper'})"
@@ -11350,7 +11350,7 @@
                     "borderRadiusBottomRight": "{sem.card.base.sm.borderRadiusBottomRight}",
                     "borderRadiusBottomLeft": "none",
                     "border": "none",
-                    "itemSpacing": "{sem.input.md.fieldWrapper.spacer}"
+                    "itemSpacing": "{sem.input.base.md.fieldWrapper.spacer}"
                   },
                   "type": "composition",
                   "description": "({extends: 'comp.input.base.md.contrasted.active.fieldWrapper'})"
@@ -11386,7 +11386,7 @@
                     "borderRadiusBottomRight": "{sem.card.base.sm.borderRadiusBottomRight}",
                     "borderRadiusBottomLeft": "none",
                     "border": "none",
-                    "itemSpacing": "{sem.input.md.fieldWrapper.spacer}"
+                    "itemSpacing": "{sem.input.base.md.fieldWrapper.spacer}"
                   },
                   "type": "composition",
                   "description": "({extends: 'comp.input.base.md.contrasted.danger.fieldWrapper'})"
@@ -11422,7 +11422,7 @@
                     "borderRadiusBottomRight": "{sem.card.base.sm.borderRadiusBottomRight}",
                     "borderRadiusBottomLeft": "none",
                     "border": "none",
-                    "itemSpacing": "{sem.input.md.fieldWrapper.spacer}"
+                    "itemSpacing": "{sem.input.base.md.fieldWrapper.spacer}"
                   },
                   "type": "composition",
                   "description": "({extends: 'comp.input.base.md.contrasted.disabled.fieldWrapper'})"
@@ -11446,7 +11446,7 @@
                     "borderRadiusBottomRight": "none",
                     "borderRadiusBottomLeft": "{sem.card.base.xs.borderRadiusBottomLeft}",
                     "border": "none",
-                    "itemSpacing": "{sem.input.sm.fieldWrapper.spacer}"
+                    "itemSpacing": "{sem.input.base.sm.fieldWrapper.spacer}"
                   },
                   "type": "composition",
                   "description": "({extends: 'comp.input.select.sm.contrasted.default.fieldWrapper'})"
@@ -11464,7 +11464,7 @@
                     "borderRadiusBottomRight": "none",
                     "borderRadiusBottomLeft": "{sem.card.base.xs.borderRadiusBottomLeft}",
                     "border": "none",
-                    "itemSpacing": "{sem.input.sm.fieldWrapper.spacer}"
+                    "itemSpacing": "{sem.input.base.sm.fieldWrapper.spacer}"
                   },
                   "type": "composition",
                   "description": "({extends: 'comp.input.select.sm.contrasted.hover.fieldWrapper'})"
@@ -11482,7 +11482,7 @@
                     "borderRadiusBottomRight": "none",
                     "borderRadiusBottomLeft": "{sem.card.base.xs.borderRadiusBottomLeft}",
                     "border": "none",
-                    "itemSpacing": "{sem.input.sm.fieldWrapper.spacer}"
+                    "itemSpacing": "{sem.input.base.sm.fieldWrapper.spacer}"
                   },
                   "type": "composition",
                   "description": "({extends: 'comp.input.select.sm.contrasted.pressed.fieldWrapper'})"
@@ -11500,7 +11500,7 @@
                     "borderRadiusBottomRight": "none",
                     "borderRadiusBottomLeft": "{sem.card.base.xs.borderRadiusBottomLeft}",
                     "border": "none",
-                    "itemSpacing": "{sem.input.sm.fieldWrapper.spacer}"
+                    "itemSpacing": "{sem.input.base.sm.fieldWrapper.spacer}"
                   },
                   "type": "composition",
                   "description": "({extends: 'comp.input.select.sm.contrasted.active.fieldWrapper'})"
@@ -11518,7 +11518,7 @@
                     "borderRadiusBottomRight": "none",
                     "borderRadiusBottomLeft": "{sem.card.base.xs.borderRadiusBottomLeft}",
                     "border": "none",
-                    "itemSpacing": "{sem.input.sm.fieldWrapper.spacer}"
+                    "itemSpacing": "{sem.input.base.sm.fieldWrapper.spacer}"
                   },
                   "type": "composition",
                   "description": "({extends: 'comp.input.select.sm.contrasted.danger.fieldWrapper'})"
@@ -11536,7 +11536,7 @@
                     "borderRadiusBottomRight": "none",
                     "borderRadiusBottomLeft": "{sem.card.base.xs.borderRadiusBottomLeft}",
                     "border": "none",
-                    "itemSpacing": "{sem.input.sm.fieldWrapper.spacer}"
+                    "itemSpacing": "{sem.input.base.sm.fieldWrapper.spacer}"
                   },
                   "type": "composition",
                   "description": "({extends: 'comp.input.select.sm.contrasted.disabled.fieldWrapper'})"
@@ -11556,7 +11556,7 @@
                     "borderRadiusBottomRight": "none",
                     "borderRadiusBottomLeft": "{sem.card.base.xs.borderRadiusBottomLeft}",
                     "border": "none",
-                    "itemSpacing": "{sem.input.sm.fieldWrapper.spacer}"
+                    "itemSpacing": "{sem.input.base.sm.fieldWrapper.spacer}"
                   },
                   "type": "composition",
                   "description": "({extends: 'comp.input.select.sm.uncontrasted.default.fieldWrapper'})"
@@ -11574,7 +11574,7 @@
                     "borderRadiusBottomRight": "none",
                     "borderRadiusBottomLeft": "{sem.card.base.xs.borderRadiusBottomLeft}",
                     "border": "none",
-                    "itemSpacing": "{sem.input.sm.fieldWrapper.spacer}"
+                    "itemSpacing": "{sem.input.base.sm.fieldWrapper.spacer}"
                   },
                   "type": "composition",
                   "description": "({extends: 'comp.input.select.sm.uncontrasted.hover.fieldWrapper'})"
@@ -11592,7 +11592,7 @@
                     "borderRadiusBottomRight": "none",
                     "borderRadiusBottomLeft": "{sem.card.base.xs.borderRadiusBottomLeft}",
                     "border": "none",
-                    "itemSpacing": "{sem.input.sm.fieldWrapper.spacer}"
+                    "itemSpacing": "{sem.input.base.sm.fieldWrapper.spacer}"
                   },
                   "type": "composition",
                   "description": "({extends: 'comp.input.select.sm.uncontrasted.pressed.fieldWrapper'})"
@@ -11610,7 +11610,7 @@
                     "borderRadiusBottomRight": "none",
                     "borderRadiusBottomLeft": "{sem.card.base.xs.borderRadiusBottomLeft}",
                     "border": "none",
-                    "itemSpacing": "{sem.input.sm.fieldWrapper.spacer}"
+                    "itemSpacing": "{sem.input.base.sm.fieldWrapper.spacer}"
                   },
                   "type": "composition",
                   "description": "({extends: 'comp.input.select.sm.uncontrasted.active.fieldWrapper'})"
@@ -11628,7 +11628,7 @@
                     "borderRadiusBottomRight": "none",
                     "borderRadiusBottomLeft": "{sem.card.base.xs.borderRadiusBottomLeft}",
                     "border": "none",
-                    "itemSpacing": "{sem.input.sm.fieldWrapper.spacer}"
+                    "itemSpacing": "{sem.input.base.sm.fieldWrapper.spacer}"
                   },
                   "type": "composition",
                   "description": "({extends: 'comp.input.select.sm.uncontrasted.danger.fieldWrapper'})"
@@ -11646,7 +11646,7 @@
                     "borderRadiusBottomRight": "none",
                     "borderRadiusBottomLeft": "{sem.card.base.xs.borderRadiusBottomLeft}",
                     "border": "none",
-                    "itemSpacing": "{sem.input.sm.fieldWrapper.spacer}"
+                    "itemSpacing": "{sem.input.base.sm.fieldWrapper.spacer}"
                   },
                   "type": "composition",
                   "description": "({extends: 'comp.input.select.sm.uncontrasted.disabled.fieldWrapper'})"
@@ -11668,7 +11668,7 @@
                     "borderRadiusBottomRight": "none",
                     "borderRadiusBottomLeft": "{sem.card.base.sm.borderRadiusBottomLeft}",
                     "border": "none",
-                    "itemSpacing": "{sem.input.md.fieldWrapper.spacer}"
+                    "itemSpacing": "{sem.input.base.md.fieldWrapper.spacer}"
                   },
                   "type": "composition",
                   "description": "({extends: 'comp.input.select.md.contrasted.default.fieldWrapper'})"
@@ -11686,7 +11686,7 @@
                     "borderRadiusBottomRight": "none",
                     "borderRadiusBottomLeft": "{sem.card.base.sm.borderRadiusBottomLeft}",
                     "border": "none",
-                    "itemSpacing": "{sem.input.md.fieldWrapper.spacer}"
+                    "itemSpacing": "{sem.input.base.md.fieldWrapper.spacer}"
                   },
                   "type": "composition",
                   "description": "({extends: 'comp.input.select.md.contrasted.hover.fieldWrapper'})"
@@ -11704,7 +11704,7 @@
                     "borderRadiusBottomRight": "none",
                     "borderRadiusBottomLeft": "{sem.card.base.sm.borderRadiusBottomLeft}",
                     "border": "none",
-                    "itemSpacing": "{sem.input.md.fieldWrapper.spacer}"
+                    "itemSpacing": "{sem.input.base.md.fieldWrapper.spacer}"
                   },
                   "type": "composition",
                   "description": "({extends: 'comp.input.select.md.contrasted.pressed.fieldWrapper'})"
@@ -11722,7 +11722,7 @@
                     "borderRadiusBottomRight": "none",
                     "borderRadiusBottomLeft": "{sem.card.base.sm.borderRadiusBottomLeft}",
                     "border": "none",
-                    "itemSpacing": "{sem.input.md.fieldWrapper.spacer}"
+                    "itemSpacing": "{sem.input.base.md.fieldWrapper.spacer}"
                   },
                   "type": "composition",
                   "description": "({extends: 'comp.input.select.md.contrasted.active.fieldWrapper'})"
@@ -11740,7 +11740,7 @@
                     "borderRadiusBottomRight": "none",
                     "borderRadiusBottomLeft": "{sem.card.base.sm.borderRadiusBottomLeft}",
                     "border": "none",
-                    "itemSpacing": "{sem.input.md.fieldWrapper.spacer}"
+                    "itemSpacing": "{sem.input.base.md.fieldWrapper.spacer}"
                   },
                   "type": "composition",
                   "description": "({extends: 'comp.input.select.md.contrasted.danger.fieldWrapper'})"
@@ -11758,7 +11758,7 @@
                     "borderRadiusBottomRight": "none",
                     "borderRadiusBottomLeft": "{sem.card.base.sm.borderRadiusBottomLeft}",
                     "border": "none",
-                    "itemSpacing": "{sem.input.md.fieldWrapper.spacer}"
+                    "itemSpacing": "{sem.input.base.md.fieldWrapper.spacer}"
                   },
                   "type": "composition",
                   "description": "({extends: 'comp.input.select.md.contrasted.disabled.fieldWrapper'})"
@@ -11778,7 +11778,7 @@
                     "borderRadiusBottomRight": "none",
                     "borderRadiusBottomLeft": "{sem.card.base.sm.borderRadiusBottomLeft}",
                     "border": "none",
-                    "itemSpacing": "{sem.input.md.fieldWrapper.spacer}"
+                    "itemSpacing": "{sem.input.base.md.fieldWrapper.spacer}"
                   },
                   "type": "composition",
                   "description": "({extends: 'comp.input.select.md.uncontrasted.default.fieldWrapper'})"
@@ -11796,7 +11796,7 @@
                     "borderRadiusBottomRight": "none",
                     "borderRadiusBottomLeft": "{sem.card.base.sm.borderRadiusBottomLeft}",
                     "border": "none",
-                    "itemSpacing": "{sem.input.md.fieldWrapper.spacer}"
+                    "itemSpacing": "{sem.input.base.md.fieldWrapper.spacer}"
                   },
                   "type": "composition",
                   "description": "({extends: 'comp.input.select.md.uncontrasted.hover.fieldWrapper'})"
@@ -11814,7 +11814,7 @@
                     "borderRadiusBottomRight": "none",
                     "borderRadiusBottomLeft": "{sem.card.base.sm.borderRadiusBottomLeft}",
                     "border": "none",
-                    "itemSpacing": "{sem.input.md.fieldWrapper.spacer}"
+                    "itemSpacing": "{sem.input.base.md.fieldWrapper.spacer}"
                   },
                   "type": "composition",
                   "description": "({extends: 'comp.input.select.md.uncontrasted.pressed.fieldWrapper'})"
@@ -11832,7 +11832,7 @@
                     "borderRadiusBottomRight": "none",
                     "borderRadiusBottomLeft": "{sem.card.base.sm.borderRadiusBottomLeft}",
                     "border": "none",
-                    "itemSpacing": "{sem.input.md.fieldWrapper.spacer}"
+                    "itemSpacing": "{sem.input.base.md.fieldWrapper.spacer}"
                   },
                   "type": "composition",
                   "description": "({extends: 'comp.input.select.md.uncontrasted.active.fieldWrapper'})"
@@ -11850,7 +11850,7 @@
                     "borderRadiusBottomRight": "none",
                     "borderRadiusBottomLeft": "{sem.card.base.sm.borderRadiusBottomLeft}",
                     "border": "none",
-                    "itemSpacing": "{sem.input.md.fieldWrapper.spacer}"
+                    "itemSpacing": "{sem.input.base.md.fieldWrapper.spacer}"
                   },
                   "type": "composition",
                   "description": "({extends: 'comp.input.select.md.uncontrasted.danger.fieldWrapper'})"
@@ -11868,7 +11868,7 @@
                     "borderRadiusBottomRight": "none",
                     "borderRadiusBottomLeft": "{sem.card.base.sm.borderRadiusBottomLeft}",
                     "border": "none",
-                    "itemSpacing": "{sem.input.md.fieldWrapper.spacer}"
+                    "itemSpacing": "{sem.input.base.md.fieldWrapper.spacer}"
                   },
                   "type": "composition",
                   "description": "({extends: 'comp.input.select.md.uncontrasted.disabled.fieldWrapper'})"
@@ -11884,7 +11884,7 @@
             "default": {
               "container": {
                 "value": {
-                  "itemSpacing": "{sem.input.sm.container.spacer}"
+                  "itemSpacing": "{sem.input.base.sm.container.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.sm.uncontrasted.default.container'})"
@@ -11900,15 +11900,15 @@
                   "borderRadiusBottomRight": "{sem.card.base.xs.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.base.xs.borderRadiusBottomLeft}",
                   "border": "{sem.border.transparent}",
-                  "itemSpacing": "{sem.input.sm.fieldWrapper.spacer}"
+                  "itemSpacing": "{sem.input.base.sm.fieldWrapper.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.sm.uncontrasted.default.fieldWrapper'})"
               },
               "iconSize": {
                 "value": {
-                  "width": "{sem.input.sm.iconSize}",
-                  "height": "{sem.input.sm.iconSize}"
+                  "width": "{sem.input.base.sm.iconSize}",
+                  "height": "{sem.input.base.sm.iconSize}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.sm.uncontrasted.default.iconSize'})"
@@ -11949,7 +11949,7 @@
                 },
                 "chips": {
                   "value": {
-                    "itemSpacing": "{sem.input.sm.slotContent.chips.spacer}"
+                    "itemSpacing": "{sem.input.base.sm.slotContent.chips.spacer}"
                   },
                   "type": "composition",
                   "description": "({extends: 'comp.input.base.sm.uncontrasted.default.slotContent.chips'})"
@@ -11959,7 +11959,7 @@
             "hover": {
               "container": {
                 "value": {
-                  "itemSpacing": "{sem.input.sm.container.spacer}"
+                  "itemSpacing": "{sem.input.base.sm.container.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.sm.uncontrasted.hover.container'})"
@@ -11975,15 +11975,15 @@
                   "borderRadiusBottomRight": "{sem.card.base.xs.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.base.xs.borderRadiusBottomLeft}",
                   "border": "{sem.border.transparent}",
-                  "itemSpacing": "{sem.input.sm.fieldWrapper.spacer}"
+                  "itemSpacing": "{sem.input.base.sm.fieldWrapper.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.sm.uncontrasted.hover.fieldWrapper'})"
               },
               "iconSize": {
                 "value": {
-                  "width": "{sem.input.sm.iconSize}",
-                  "height": "{sem.input.sm.iconSize}"
+                  "width": "{sem.input.base.sm.iconSize}",
+                  "height": "{sem.input.base.sm.iconSize}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.sm.uncontrasted.hover.iconSize'})"
@@ -12024,7 +12024,7 @@
                 },
                 "chips": {
                   "value": {
-                    "itemSpacing": "{sem.input.sm.slotContent.chips.spacer}"
+                    "itemSpacing": "{sem.input.base.sm.slotContent.chips.spacer}"
                   },
                   "type": "composition",
                   "description": "({extends: 'comp.input.base.sm.uncontrasted.hover.slotContent.chips'})"
@@ -12034,7 +12034,7 @@
             "pressed": {
               "container": {
                 "value": {
-                  "itemSpacing": "{sem.input.sm.container.spacer}"
+                  "itemSpacing": "{sem.input.base.sm.container.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.sm.uncontrasted.pressed.container'})"
@@ -12050,15 +12050,15 @@
                   "borderRadiusBottomRight": "{sem.card.base.xs.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.base.xs.borderRadiusBottomLeft}",
                   "border": "{sem.border.transparent}",
-                  "itemSpacing": "{sem.input.sm.fieldWrapper.spacer}"
+                  "itemSpacing": "{sem.input.base.sm.fieldWrapper.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.sm.uncontrasted.pressed.fieldWrapper'})"
               },
               "iconSize": {
                 "value": {
-                  "width": "{sem.input.sm.iconSize}",
-                  "height": "{sem.input.sm.iconSize}"
+                  "width": "{sem.input.base.sm.iconSize}",
+                  "height": "{sem.input.base.sm.iconSize}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.sm.uncontrasted.pressed.iconSize'})"
@@ -12099,7 +12099,7 @@
                 },
                 "chips": {
                   "value": {
-                    "itemSpacing": "{sem.input.sm.slotContent.chips.spacer}"
+                    "itemSpacing": "{sem.input.base.sm.slotContent.chips.spacer}"
                   },
                   "type": "composition",
                   "description": "({extends: 'comp.input.base.sm.uncontrasted.pressed.slotContent.chips'})"
@@ -12109,7 +12109,7 @@
             "active": {
               "container": {
                 "value": {
-                  "itemSpacing": "{sem.input.sm.container.spacer}"
+                  "itemSpacing": "{sem.input.base.sm.container.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.sm.uncontrasted.active.container'})"
@@ -12125,15 +12125,15 @@
                   "borderRadiusBottomRight": "{sem.card.base.xs.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.base.xs.borderRadiusBottomLeft}",
                   "border": "{sem.border.active}",
-                  "itemSpacing": "{sem.input.sm.fieldWrapper.spacer}"
+                  "itemSpacing": "{sem.input.base.sm.fieldWrapper.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.sm.uncontrasted.active.fieldWrapper'})"
               },
               "iconSize": {
                 "value": {
-                  "width": "{sem.input.sm.iconSize}",
-                  "height": "{sem.input.sm.iconSize}"
+                  "width": "{sem.input.base.sm.iconSize}",
+                  "height": "{sem.input.base.sm.iconSize}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.sm.uncontrasted.active.iconSize'})"
@@ -12174,7 +12174,7 @@
                 },
                 "chips": {
                   "value": {
-                    "itemSpacing": "{sem.input.sm.slotContent.chips.spacer}"
+                    "itemSpacing": "{sem.input.base.sm.slotContent.chips.spacer}"
                   },
                   "type": "composition",
                   "description": "({extends: 'comp.input.base.sm.uncontrasted.active.slotContent.chips'})"
@@ -12184,7 +12184,7 @@
             "danger": {
               "container": {
                 "value": {
-                  "itemSpacing": "{sem.input.sm.container.spacer}"
+                  "itemSpacing": "{sem.input.base.sm.container.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.sm.uncontrasted.danger.container'})"
@@ -12200,15 +12200,15 @@
                   "borderRadiusBottomRight": "{sem.card.base.xs.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.base.xs.borderRadiusBottomLeft}",
                   "border": "{sem.border.danger}",
-                  "itemSpacing": "{sem.input.sm.fieldWrapper.spacer}"
+                  "itemSpacing": "{sem.input.base.sm.fieldWrapper.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.sm.uncontrasted.danger.fieldWrapper'})"
               },
               "iconSize": {
                 "value": {
-                  "width": "{sem.input.sm.iconSize}",
-                  "height": "{sem.input.sm.iconSize}"
+                  "width": "{sem.input.base.sm.iconSize}",
+                  "height": "{sem.input.base.sm.iconSize}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.sm.uncontrasted.danger.iconSize'})"
@@ -12249,7 +12249,7 @@
                 },
                 "chips": {
                   "value": {
-                    "itemSpacing": "{sem.input.sm.slotContent.chips.spacer}"
+                    "itemSpacing": "{sem.input.base.sm.slotContent.chips.spacer}"
                   },
                   "type": "composition",
                   "description": "({extends: 'comp.input.base.sm.uncontrasted.danger.slotContent.chips'})"
@@ -12259,7 +12259,7 @@
             "disabled": {
               "container": {
                 "value": {
-                  "itemSpacing": "{sem.input.sm.container.spacer}"
+                  "itemSpacing": "{sem.input.base.sm.container.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.sm.uncontrasted.disabled.container'})"
@@ -12275,15 +12275,15 @@
                   "borderRadiusBottomRight": "{sem.card.base.xs.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.base.xs.borderRadiusBottomLeft}",
                   "border": "{sem.border.transparent}",
-                  "itemSpacing": "{sem.input.sm.fieldWrapper.spacer}"
+                  "itemSpacing": "{sem.input.base.sm.fieldWrapper.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.sm.uncontrasted.disabled.fieldWrapper'})"
               },
               "iconSize": {
                 "value": {
-                  "width": "{sem.input.sm.iconSize}",
-                  "height": "{sem.input.sm.iconSize}"
+                  "width": "{sem.input.base.sm.iconSize}",
+                  "height": "{sem.input.base.sm.iconSize}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.sm.uncontrasted.disabled.iconSize'})"
@@ -12324,7 +12324,7 @@
                 },
                 "chips": {
                   "value": {
-                    "itemSpacing": "{sem.input.sm.slotContent.chips.spacer}"
+                    "itemSpacing": "{sem.input.base.sm.slotContent.chips.spacer}"
                   },
                   "type": "composition",
                   "description": "({extends: 'comp.input.base.sm.uncontrasted.disabled.slotContent.chips'})"
@@ -12336,7 +12336,7 @@
             "default": {
               "container": {
                 "value": {
-                  "itemSpacing": "{sem.input.sm.container.spacer}"
+                  "itemSpacing": "{sem.input.base.sm.container.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.sm.contrasted.default.container'})"
@@ -12352,15 +12352,15 @@
                   "borderRadiusBottomRight": "{sem.card.base.xs.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.base.xs.borderRadiusBottomLeft}",
                   "border": "{sem.border.interactive.default}",
-                  "itemSpacing": "{sem.input.sm.fieldWrapper.spacer}"
+                  "itemSpacing": "{sem.input.base.sm.fieldWrapper.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.sm.contrasted.default.fieldWrapper'})"
               },
               "iconSize": {
                 "value": {
-                  "width": "{sem.input.sm.iconSize}",
-                  "height": "{sem.input.sm.iconSize}"
+                  "width": "{sem.input.base.sm.iconSize}",
+                  "height": "{sem.input.base.sm.iconSize}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.sm.contrasted.default.iconSize'})"
@@ -12401,7 +12401,7 @@
                 },
                 "chips": {
                   "value": {
-                    "itemSpacing": "{sem.input.sm.slotContent.chips.spacer}"
+                    "itemSpacing": "{sem.input.base.sm.slotContent.chips.spacer}"
                   },
                   "type": "composition",
                   "description": "({extends: 'comp.input.base.sm.contrasted.default.slotContent.chips'})"
@@ -12411,7 +12411,7 @@
             "hover": {
               "container": {
                 "value": {
-                  "itemSpacing": "{sem.input.sm.container.spacer}"
+                  "itemSpacing": "{sem.input.base.sm.container.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.sm.contrasted.hover.container'})"
@@ -12427,15 +12427,15 @@
                   "borderRadiusBottomRight": "{sem.card.base.xs.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.base.xs.borderRadiusBottomLeft}",
                   "border": "{sem.border.interactive.hover}",
-                  "itemSpacing": "{sem.input.sm.fieldWrapper.spacer}"
+                  "itemSpacing": "{sem.input.base.sm.fieldWrapper.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.sm.contrasted.hover.fieldWrapper'})"
               },
               "iconSize": {
                 "value": {
-                  "width": "{sem.input.sm.iconSize}",
-                  "height": "{sem.input.sm.iconSize}"
+                  "width": "{sem.input.base.sm.iconSize}",
+                  "height": "{sem.input.base.sm.iconSize}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.sm.contrasted.hover.iconSize'})"
@@ -12476,7 +12476,7 @@
                 },
                 "chips": {
                   "value": {
-                    "itemSpacing": "{sem.input.sm.slotContent.chips.spacer}"
+                    "itemSpacing": "{sem.input.base.sm.slotContent.chips.spacer}"
                   },
                   "type": "composition",
                   "description": "({extends: 'comp.input.base.sm.contrasted.hover.slotContent.chips'})"
@@ -12486,7 +12486,7 @@
             "pressed": {
               "container": {
                 "value": {
-                  "itemSpacing": "{sem.input.sm.container.spacer}"
+                  "itemSpacing": "{sem.input.base.sm.container.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.sm.contrasted.pressed.container'})"
@@ -12502,15 +12502,15 @@
                   "borderRadiusBottomRight": "{sem.card.base.xs.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.base.xs.borderRadiusBottomLeft}",
                   "border": "{sem.border.interactive.pressed}",
-                  "itemSpacing": "{sem.input.sm.fieldWrapper.spacer}"
+                  "itemSpacing": "{sem.input.base.sm.fieldWrapper.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.sm.contrasted.pressed.fieldWrapper'})"
               },
               "iconSize": {
                 "value": {
-                  "width": "{sem.input.sm.iconSize}",
-                  "height": "{sem.input.sm.iconSize}"
+                  "width": "{sem.input.base.sm.iconSize}",
+                  "height": "{sem.input.base.sm.iconSize}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.sm.contrasted.pressed.iconSize'})"
@@ -12551,7 +12551,7 @@
                 },
                 "chips": {
                   "value": {
-                    "itemSpacing": "{sem.input.sm.slotContent.chips.spacer}"
+                    "itemSpacing": "{sem.input.base.sm.slotContent.chips.spacer}"
                   },
                   "type": "composition",
                   "description": "({extends: 'comp.input.base.sm.contrasted.pressed.slotContent.chips'})"
@@ -12561,7 +12561,7 @@
             "active": {
               "container": {
                 "value": {
-                  "itemSpacing": "{sem.input.sm.container.spacer}"
+                  "itemSpacing": "{sem.input.base.sm.container.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.sm.contrasted.active.container'})"
@@ -12577,15 +12577,15 @@
                   "borderRadiusBottomRight": "{sem.card.base.xs.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.base.xs.borderRadiusBottomLeft}",
                   "border": "{sem.border.interactive.active}",
-                  "itemSpacing": "{sem.input.sm.fieldWrapper.spacer}"
+                  "itemSpacing": "{sem.input.base.sm.fieldWrapper.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.sm.contrasted.active.fieldWrapper'})"
               },
               "iconSize": {
                 "value": {
-                  "width": "{sem.input.sm.iconSize}",
-                  "height": "{sem.input.sm.iconSize}"
+                  "width": "{sem.input.base.sm.iconSize}",
+                  "height": "{sem.input.base.sm.iconSize}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.sm.contrasted.active.iconSize'})"
@@ -12626,7 +12626,7 @@
                 },
                 "chips": {
                   "value": {
-                    "itemSpacing": "{sem.input.sm.slotContent.chips.spacer}"
+                    "itemSpacing": "{sem.input.base.sm.slotContent.chips.spacer}"
                   },
                   "type": "composition",
                   "description": "({extends: 'comp.input.base.sm.contrasted.active.slotContent.chips'})"
@@ -12636,7 +12636,7 @@
             "danger": {
               "container": {
                 "value": {
-                  "itemSpacing": "{sem.input.sm.container.spacer}"
+                  "itemSpacing": "{sem.input.base.sm.container.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.sm.contrasted.danger.container'})"
@@ -12652,15 +12652,15 @@
                   "borderRadiusBottomRight": "{sem.card.base.xs.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.base.xs.borderRadiusBottomLeft}",
                   "border": "{sem.border.danger}",
-                  "itemSpacing": "{sem.input.sm.fieldWrapper.spacer}"
+                  "itemSpacing": "{sem.input.base.sm.fieldWrapper.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.sm.contrasted.danger.fieldWrapper'})"
               },
               "iconSize": {
                 "value": {
-                  "width": "{sem.input.sm.iconSize}",
-                  "height": "{sem.input.sm.iconSize}"
+                  "width": "{sem.input.base.sm.iconSize}",
+                  "height": "{sem.input.base.sm.iconSize}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.sm.contrasted.danger.iconSize'})"
@@ -12701,7 +12701,7 @@
                 },
                 "chips": {
                   "value": {
-                    "itemSpacing": "{sem.input.sm.slotContent.chips.spacer}"
+                    "itemSpacing": "{sem.input.base.sm.slotContent.chips.spacer}"
                   },
                   "type": "composition",
                   "description": "({extends: 'comp.input.base.sm.contrasted.danger.slotContent.chips'})"
@@ -12711,7 +12711,7 @@
             "disabled": {
               "container": {
                 "value": {
-                  "itemSpacing": "{sem.input.sm.container.spacer}"
+                  "itemSpacing": "{sem.input.base.sm.container.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.sm.contrasted.disabled.container'})"
@@ -12727,15 +12727,15 @@
                   "borderRadiusBottomRight": "{sem.card.base.xs.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.base.xs.borderRadiusBottomLeft}",
                   "border": "{sem.border.interactive.disabled}",
-                  "itemSpacing": "{sem.input.sm.fieldWrapper.spacer}"
+                  "itemSpacing": "{sem.input.base.sm.fieldWrapper.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.sm.contrasted.disabled.fieldWrapper'})"
               },
               "iconSize": {
                 "value": {
-                  "width": "{sem.input.sm.iconSize}",
-                  "height": "{sem.input.sm.iconSize}"
+                  "width": "{sem.input.base.sm.iconSize}",
+                  "height": "{sem.input.base.sm.iconSize}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.sm.contrasted.disabled.iconSize'})"
@@ -12776,7 +12776,7 @@
                 },
                 "chips": {
                   "value": {
-                    "itemSpacing": "{sem.input.sm.slotContent.chips.spacer}"
+                    "itemSpacing": "{sem.input.base.sm.slotContent.chips.spacer}"
                   },
                   "type": "composition",
                   "description": "({extends: 'comp.input.base.sm.contrasted.disabled.slotContent.chips'})"
@@ -12790,7 +12790,7 @@
             "default": {
               "container": {
                 "value": {
-                  "itemSpacing": "{sem.input.md.container.spacer}"
+                  "itemSpacing": "{sem.input.base.md.container.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.md.uncontrasted.default.container'})"
@@ -12806,15 +12806,15 @@
                   "borderRadiusBottomRight": "{sem.card.base.sm.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.base.sm.borderRadiusBottomLeft}",
                   "border": "{sem.border.transparent}",
-                  "itemSpacing": "{sem.input.md.fieldWrapper.spacer}"
+                  "itemSpacing": "{sem.input.base.md.fieldWrapper.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.md.uncontrasted.default.fieldWrapper'})"
               },
               "iconSize": {
                 "value": {
-                  "width": "{sem.input.md.iconSize}",
-                  "height": "{sem.input.md.iconSize}"
+                  "width": "{sem.input.base.md.iconSize}",
+                  "height": "{sem.input.base.md.iconSize}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.md.uncontrasted.default.iconSize'})"
@@ -12855,7 +12855,7 @@
                 },
                 "chips": {
                   "value": {
-                    "itemSpacing": "{sem.input.md.slotContent.chips.spacer}"
+                    "itemSpacing": "{sem.input.base.md.slotContent.chips.spacer}"
                   },
                   "type": "composition",
                   "description": "({extends: 'comp.input.base.md.uncontrasted.default.slotContent.chips'})"
@@ -12865,7 +12865,7 @@
             "hover": {
               "container": {
                 "value": {
-                  "itemSpacing": "{sem.input.md.container.spacer}"
+                  "itemSpacing": "{sem.input.base.md.container.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.md.uncontrasted.hover.container'})"
@@ -12881,15 +12881,15 @@
                   "borderRadiusBottomRight": "{sem.card.base.sm.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.base.sm.borderRadiusBottomLeft}",
                   "border": "{sem.border.transparent}",
-                  "itemSpacing": "{sem.input.md.fieldWrapper.spacer}"
+                  "itemSpacing": "{sem.input.base.md.fieldWrapper.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.md.uncontrasted.hover.fieldWrapper'})"
               },
               "iconSize": {
                 "value": {
-                  "width": "{sem.input.md.iconSize}",
-                  "height": "{sem.input.md.iconSize}"
+                  "width": "{sem.input.base.md.iconSize}",
+                  "height": "{sem.input.base.md.iconSize}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.md.uncontrasted.hover.iconSize'})"
@@ -12930,7 +12930,7 @@
                 },
                 "chips": {
                   "value": {
-                    "itemSpacing": "{sem.input.md.slotContent.chips.spacer}"
+                    "itemSpacing": "{sem.input.base.md.slotContent.chips.spacer}"
                   },
                   "type": "composition",
                   "description": "({extends: 'comp.input.base.md.uncontrasted.hover.slotContent.chips'})"
@@ -12940,7 +12940,7 @@
             "pressed": {
               "container": {
                 "value": {
-                  "itemSpacing": "{sem.input.md.container.spacer}"
+                  "itemSpacing": "{sem.input.base.md.container.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.md.uncontrasted.pressed.container'})"
@@ -12956,15 +12956,15 @@
                   "borderRadiusBottomRight": "{sem.card.base.sm.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.base.sm.borderRadiusBottomLeft}",
                   "border": "{sem.border.transparent}",
-                  "itemSpacing": "{sem.input.md.fieldWrapper.spacer}"
+                  "itemSpacing": "{sem.input.base.md.fieldWrapper.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.md.uncontrasted.pressed.fieldWrapper'})"
               },
               "iconSize": {
                 "value": {
-                  "width": "{sem.input.md.iconSize}",
-                  "height": "{sem.input.md.iconSize}"
+                  "width": "{sem.input.base.md.iconSize}",
+                  "height": "{sem.input.base.md.iconSize}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.md.uncontrasted.pressed.iconSize'})"
@@ -13005,7 +13005,7 @@
                 },
                 "chips": {
                   "value": {
-                    "itemSpacing": "{sem.input.md.slotContent.chips.spacer}"
+                    "itemSpacing": "{sem.input.base.md.slotContent.chips.spacer}"
                   },
                   "type": "composition",
                   "description": "({extends: 'comp.input.base.md.uncontrasted.pressed.slotContent.chips'})"
@@ -13015,7 +13015,7 @@
             "active": {
               "container": {
                 "value": {
-                  "itemSpacing": "{sem.input.md.container.spacer}"
+                  "itemSpacing": "{sem.input.base.md.container.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.md.uncontrasted.active.container'})"
@@ -13031,15 +13031,15 @@
                   "borderRadiusBottomRight": "{sem.card.base.sm.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.base.sm.borderRadiusBottomLeft}",
                   "border": "{sem.border.active}",
-                  "itemSpacing": "{sem.input.md.fieldWrapper.spacer}"
+                  "itemSpacing": "{sem.input.base.md.fieldWrapper.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.md.uncontrasted.active.fieldWrapper'})"
               },
               "iconSize": {
                 "value": {
-                  "width": "{sem.input.md.iconSize}",
-                  "height": "{sem.input.md.iconSize}"
+                  "width": "{sem.input.base.md.iconSize}",
+                  "height": "{sem.input.base.md.iconSize}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.md.uncontrasted.active.iconSize'})"
@@ -13080,7 +13080,7 @@
                 },
                 "chips": {
                   "value": {
-                    "itemSpacing": "{sem.input.md.slotContent.chips.spacer}"
+                    "itemSpacing": "{sem.input.base.md.slotContent.chips.spacer}"
                   },
                   "type": "composition",
                   "description": "({extends: 'comp.input.base.md.uncontrasted.active.slotContent.chips'})"
@@ -13090,7 +13090,7 @@
             "danger": {
               "container": {
                 "value": {
-                  "itemSpacing": "{sem.input.md.container.spacer}"
+                  "itemSpacing": "{sem.input.base.md.container.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.md.uncontrasted.danger.container'})"
@@ -13106,15 +13106,15 @@
                   "borderRadiusBottomRight": "{sem.card.base.sm.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.base.sm.borderRadiusBottomLeft}",
                   "border": "{sem.border.danger}",
-                  "itemSpacing": "{sem.input.md.fieldWrapper.spacer}"
+                  "itemSpacing": "{sem.input.base.md.fieldWrapper.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.md.uncontrasted.danger.fieldWrapper'})"
               },
               "iconSize": {
                 "value": {
-                  "width": "{sem.input.md.iconSize}",
-                  "height": "{sem.input.md.iconSize}"
+                  "width": "{sem.input.base.md.iconSize}",
+                  "height": "{sem.input.base.md.iconSize}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.md.uncontrasted.danger.iconSize'})"
@@ -13155,7 +13155,7 @@
                 },
                 "chips": {
                   "value": {
-                    "itemSpacing": "{sem.input.md.slotContent.chips.spacer}"
+                    "itemSpacing": "{sem.input.base.md.slotContent.chips.spacer}"
                   },
                   "type": "composition",
                   "description": "({extends: 'comp.input.base.md.uncontrasted.danger.slotContent.chips'})"
@@ -13165,7 +13165,7 @@
             "disabled": {
               "container": {
                 "value": {
-                  "itemSpacing": "{sem.input.md.container.spacer}"
+                  "itemSpacing": "{sem.input.base.md.container.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.md.uncontrasted.disabled.container'})"
@@ -13181,15 +13181,15 @@
                   "borderRadiusBottomRight": "{sem.card.base.sm.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.base.sm.borderRadiusBottomLeft}",
                   "border": "{sem.border.transparent}",
-                  "itemSpacing": "{sem.input.md.fieldWrapper.spacer}"
+                  "itemSpacing": "{sem.input.base.md.fieldWrapper.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.md.uncontrasted.disabled.fieldWrapper'})"
               },
               "iconSize": {
                 "value": {
-                  "width": "{sem.input.md.iconSize}",
-                  "height": "{sem.input.md.iconSize}"
+                  "width": "{sem.input.base.md.iconSize}",
+                  "height": "{sem.input.base.md.iconSize}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.md.uncontrasted.disabled.iconSize'})"
@@ -13230,7 +13230,7 @@
                 },
                 "chips": {
                   "value": {
-                    "itemSpacing": "{sem.input.md.slotContent.chips.spacer}"
+                    "itemSpacing": "{sem.input.base.md.slotContent.chips.spacer}"
                   },
                   "type": "composition",
                   "description": "({extends: 'comp.input.base.md.uncontrasted.disabled.slotContent.chips'})"
@@ -13242,7 +13242,7 @@
             "default": {
               "container": {
                 "value": {
-                  "itemSpacing": "{sem.input.md.container.spacer}"
+                  "itemSpacing": "{sem.input.base.md.container.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.md.contrasted.default.container'})"
@@ -13258,15 +13258,15 @@
                   "borderRadiusBottomRight": "{sem.card.base.sm.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.base.sm.borderRadiusBottomLeft}",
                   "border": "{sem.border.interactive.default}",
-                  "itemSpacing": "{sem.input.md.fieldWrapper.spacer}"
+                  "itemSpacing": "{sem.input.base.md.fieldWrapper.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.md.contrasted.default.fieldWrapper'})"
               },
               "iconSize": {
                 "value": {
-                  "width": "{sem.input.md.iconSize}",
-                  "height": "{sem.input.md.iconSize}"
+                  "width": "{sem.input.base.md.iconSize}",
+                  "height": "{sem.input.base.md.iconSize}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.md.contrasted.default.iconSize'})"
@@ -13307,7 +13307,7 @@
                 },
                 "chips": {
                   "value": {
-                    "itemSpacing": "{sem.input.md.slotContent.chips.spacer}"
+                    "itemSpacing": "{sem.input.base.md.slotContent.chips.spacer}"
                   },
                   "type": "composition",
                   "description": "({extends: 'comp.input.base.md.contrasted.default.slotContent.chips'})"
@@ -13317,7 +13317,7 @@
             "hover": {
               "container": {
                 "value": {
-                  "itemSpacing": "{sem.input.md.container.spacer}"
+                  "itemSpacing": "{sem.input.base.md.container.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.md.contrasted.hover.container'})"
@@ -13333,15 +13333,15 @@
                   "borderRadiusBottomRight": "{sem.card.base.sm.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.base.sm.borderRadiusBottomLeft}",
                   "border": "{sem.border.interactive.hover}",
-                  "itemSpacing": "{sem.input.md.fieldWrapper.spacer}"
+                  "itemSpacing": "{sem.input.base.md.fieldWrapper.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.md.contrasted.hover.fieldWrapper'})"
               },
               "iconSize": {
                 "value": {
-                  "width": "{sem.input.md.iconSize}",
-                  "height": "{sem.input.md.iconSize}"
+                  "width": "{sem.input.base.md.iconSize}",
+                  "height": "{sem.input.base.md.iconSize}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.md.contrasted.hover.iconSize'})"
@@ -13382,7 +13382,7 @@
                 },
                 "chips": {
                   "value": {
-                    "itemSpacing": "{sem.input.md.slotContent.chips.spacer}"
+                    "itemSpacing": "{sem.input.base.md.slotContent.chips.spacer}"
                   },
                   "type": "composition",
                   "description": "({extends: 'comp.input.base.md.contrasted.hover.slotContent.chips'})"
@@ -13392,7 +13392,7 @@
             "pressed": {
               "container": {
                 "value": {
-                  "itemSpacing": "{sem.input.md.container.spacer}"
+                  "itemSpacing": "{sem.input.base.md.container.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.md.contrasted.pressed.container'})"
@@ -13408,15 +13408,15 @@
                   "borderRadiusBottomRight": "{sem.card.base.sm.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.base.sm.borderRadiusBottomLeft}",
                   "border": "{sem.border.interactive.pressed}",
-                  "itemSpacing": "{sem.input.md.fieldWrapper.spacer}"
+                  "itemSpacing": "{sem.input.base.md.fieldWrapper.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.md.contrasted.pressed.fieldWrapper'})"
               },
               "iconSize": {
                 "value": {
-                  "width": "{sem.input.md.iconSize}",
-                  "height": "{sem.input.md.iconSize}"
+                  "width": "{sem.input.base.md.iconSize}",
+                  "height": "{sem.input.base.md.iconSize}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.md.contrasted.pressed.iconSize'})"
@@ -13457,7 +13457,7 @@
                 },
                 "chips": {
                   "value": {
-                    "itemSpacing": "{sem.input.md.slotContent.chips.spacer}"
+                    "itemSpacing": "{sem.input.base.md.slotContent.chips.spacer}"
                   },
                   "type": "composition",
                   "description": "({extends: 'comp.input.base.md.contrasted.pressed.slotContent.chips'})"
@@ -13467,7 +13467,7 @@
             "active": {
               "container": {
                 "value": {
-                  "itemSpacing": "{sem.input.md.container.spacer}"
+                  "itemSpacing": "{sem.input.base.md.container.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.md.contrasted.active.container'})"
@@ -13483,15 +13483,15 @@
                   "borderRadiusBottomRight": "{sem.card.base.sm.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.base.sm.borderRadiusBottomLeft}",
                   "border": "{sem.border.interactive.active}",
-                  "itemSpacing": "{sem.input.md.fieldWrapper.spacer}"
+                  "itemSpacing": "{sem.input.base.md.fieldWrapper.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.md.contrasted.active.fieldWrapper'})"
               },
               "iconSize": {
                 "value": {
-                  "width": "{sem.input.md.iconSize}",
-                  "height": "{sem.input.md.iconSize}"
+                  "width": "{sem.input.base.md.iconSize}",
+                  "height": "{sem.input.base.md.iconSize}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.md.contrasted.active.iconSize'})"
@@ -13532,7 +13532,7 @@
                 },
                 "chips": {
                   "value": {
-                    "itemSpacing": "{sem.input.md.slotContent.chips.spacer}"
+                    "itemSpacing": "{sem.input.base.md.slotContent.chips.spacer}"
                   },
                   "type": "composition",
                   "description": "({extends: 'comp.input.base.md.contrasted.active.slotContent.chips'})"
@@ -13542,7 +13542,7 @@
             "danger": {
               "container": {
                 "value": {
-                  "itemSpacing": "{sem.input.md.container.spacer}"
+                  "itemSpacing": "{sem.input.base.md.container.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.md.contrasted.danger.container'})"
@@ -13558,15 +13558,15 @@
                   "borderRadiusBottomRight": "{sem.card.base.sm.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.base.sm.borderRadiusBottomLeft}",
                   "border": "{sem.border.danger}",
-                  "itemSpacing": "{sem.input.md.fieldWrapper.spacer}"
+                  "itemSpacing": "{sem.input.base.md.fieldWrapper.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.md.contrasted.danger.fieldWrapper'})"
               },
               "iconSize": {
                 "value": {
-                  "width": "{sem.input.md.iconSize}",
-                  "height": "{sem.input.md.iconSize}"
+                  "width": "{sem.input.base.md.iconSize}",
+                  "height": "{sem.input.base.md.iconSize}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.md.contrasted.danger.iconSize'})"
@@ -13607,7 +13607,7 @@
                 },
                 "chips": {
                   "value": {
-                    "itemSpacing": "{sem.input.md.slotContent.chips.spacer}"
+                    "itemSpacing": "{sem.input.base.md.slotContent.chips.spacer}"
                   },
                   "type": "composition",
                   "description": "({extends: 'comp.input.base.md.contrasted.danger.slotContent.chips'})"
@@ -13617,7 +13617,7 @@
             "disabled": {
               "container": {
                 "value": {
-                  "itemSpacing": "{sem.input.md.container.spacer}"
+                  "itemSpacing": "{sem.input.base.md.container.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.md.contrasted.disabled.container'})"
@@ -13633,15 +13633,15 @@
                   "borderRadiusBottomRight": "{sem.card.base.sm.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.base.sm.borderRadiusBottomLeft}",
                   "border": "{sem.border.interactive.disabled}",
-                  "itemSpacing": "{sem.input.md.fieldWrapper.spacer}"
+                  "itemSpacing": "{sem.input.base.md.fieldWrapper.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.md.contrasted.disabled.fieldWrapper'})"
               },
               "iconSize": {
                 "value": {
-                  "width": "{sem.input.md.iconSize}",
-                  "height": "{sem.input.md.iconSize}"
+                  "width": "{sem.input.base.md.iconSize}",
+                  "height": "{sem.input.base.md.iconSize}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.md.contrasted.disabled.iconSize'})"
@@ -13682,7 +13682,7 @@
                 },
                 "chips": {
                   "value": {
-                    "itemSpacing": "{sem.input.md.slotContent.chips.spacer}"
+                    "itemSpacing": "{sem.input.base.md.slotContent.chips.spacer}"
                   },
                   "type": "composition",
                   "description": "({extends: 'comp.input.base.md.contrasted.disabled.slotContent.chips'})"
@@ -13698,7 +13698,7 @@
             "default": {
               "container": {
                 "value": {
-                  "itemSpacing": "{sem.input.sm.container.spacer}"
+                  "itemSpacing": "{sem.input.base.sm.container.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.sm.uncontrasted.default.container'})"
@@ -13714,15 +13714,15 @@
                   "borderRadiusBottomRight": "{sem.card.base.xs.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.base.xs.borderRadiusBottomLeft}",
                   "border": "{sem.border.transparent}",
-                  "itemSpacing": "{sem.input.sm.fieldWrapper.spacer}"
+                  "itemSpacing": "{sem.input.base.sm.fieldWrapper.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.sm.uncontrasted.default.fieldWrapper'})"
               },
               "iconSize": {
                 "value": {
-                  "width": "{sem.input.sm.iconSize}",
-                  "height": "{sem.input.sm.iconSize}"
+                  "width": "{sem.input.base.sm.iconSize}",
+                  "height": "{sem.input.base.sm.iconSize}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.sm.uncontrasted.default.iconSize'})"
@@ -13763,7 +13763,7 @@
                 },
                 "chips": {
                   "value": {
-                    "itemSpacing": "{sem.input.sm.slotContent.chips.spacer}"
+                    "itemSpacing": "{sem.input.base.sm.slotContent.chips.spacer}"
                   },
                   "type": "composition",
                   "description": "({extends: 'comp.input.base.sm.uncontrasted.default.slotContent.chips'})"
@@ -13773,7 +13773,7 @@
             "hover": {
               "container": {
                 "value": {
-                  "itemSpacing": "{sem.input.sm.container.spacer}"
+                  "itemSpacing": "{sem.input.base.sm.container.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.sm.uncontrasted.hover.container'})"
@@ -13789,15 +13789,15 @@
                   "borderRadiusBottomRight": "{sem.card.base.xs.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.base.xs.borderRadiusBottomLeft}",
                   "border": "{sem.border.transparent}",
-                  "itemSpacing": "{sem.input.sm.fieldWrapper.spacer}"
+                  "itemSpacing": "{sem.input.base.sm.fieldWrapper.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.sm.uncontrasted.hover.fieldWrapper'})"
               },
               "iconSize": {
                 "value": {
-                  "width": "{sem.input.sm.iconSize}",
-                  "height": "{sem.input.sm.iconSize}"
+                  "width": "{sem.input.base.sm.iconSize}",
+                  "height": "{sem.input.base.sm.iconSize}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.sm.uncontrasted.hover.iconSize'})"
@@ -13838,7 +13838,7 @@
                 },
                 "chips": {
                   "value": {
-                    "itemSpacing": "{sem.input.sm.slotContent.chips.spacer}"
+                    "itemSpacing": "{sem.input.base.sm.slotContent.chips.spacer}"
                   },
                   "type": "composition",
                   "description": "({extends: 'comp.input.base.sm.uncontrasted.hover.slotContent.chips'})"
@@ -13848,7 +13848,7 @@
             "pressed": {
               "container": {
                 "value": {
-                  "itemSpacing": "{sem.input.sm.container.spacer}"
+                  "itemSpacing": "{sem.input.base.sm.container.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.sm.uncontrasted.pressed.container'})"
@@ -13864,15 +13864,15 @@
                   "borderRadiusBottomRight": "{sem.card.base.xs.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.base.xs.borderRadiusBottomLeft}",
                   "border": "{sem.border.transparent}",
-                  "itemSpacing": "{sem.input.sm.fieldWrapper.spacer}"
+                  "itemSpacing": "{sem.input.base.sm.fieldWrapper.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.sm.uncontrasted.pressed.fieldWrapper'})"
               },
               "iconSize": {
                 "value": {
-                  "width": "{sem.input.sm.iconSize}",
-                  "height": "{sem.input.sm.iconSize}"
+                  "width": "{sem.input.base.sm.iconSize}",
+                  "height": "{sem.input.base.sm.iconSize}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.sm.uncontrasted.pressed.iconSize'})"
@@ -13913,7 +13913,7 @@
                 },
                 "chips": {
                   "value": {
-                    "itemSpacing": "{sem.input.sm.slotContent.chips.spacer}"
+                    "itemSpacing": "{sem.input.base.sm.slotContent.chips.spacer}"
                   },
                   "type": "composition",
                   "description": "({extends: 'comp.input.base.sm.uncontrasted.pressed.slotContent.chips'})"
@@ -13923,7 +13923,7 @@
             "active": {
               "container": {
                 "value": {
-                  "itemSpacing": "{sem.input.sm.container.spacer}"
+                  "itemSpacing": "{sem.input.base.sm.container.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.sm.uncontrasted.active.container'})"
@@ -13939,15 +13939,15 @@
                   "borderRadiusBottomRight": "{sem.card.base.xs.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.base.xs.borderRadiusBottomLeft}",
                   "border": "{sem.border.active}",
-                  "itemSpacing": "{sem.input.sm.fieldWrapper.spacer}"
+                  "itemSpacing": "{sem.input.base.sm.fieldWrapper.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.sm.uncontrasted.active.fieldWrapper'})"
               },
               "iconSize": {
                 "value": {
-                  "width": "{sem.input.sm.iconSize}",
-                  "height": "{sem.input.sm.iconSize}"
+                  "width": "{sem.input.base.sm.iconSize}",
+                  "height": "{sem.input.base.sm.iconSize}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.sm.uncontrasted.active.iconSize'})"
@@ -13988,7 +13988,7 @@
                 },
                 "chips": {
                   "value": {
-                    "itemSpacing": "{sem.input.sm.slotContent.chips.spacer}"
+                    "itemSpacing": "{sem.input.base.sm.slotContent.chips.spacer}"
                   },
                   "type": "composition",
                   "description": "({extends: 'comp.input.base.sm.uncontrasted.active.slotContent.chips'})"
@@ -13998,7 +13998,7 @@
             "danger": {
               "container": {
                 "value": {
-                  "itemSpacing": "{sem.input.sm.container.spacer}"
+                  "itemSpacing": "{sem.input.base.sm.container.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.sm.uncontrasted.danger.container'})"
@@ -14014,15 +14014,15 @@
                   "borderRadiusBottomRight": "{sem.card.base.xs.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.base.xs.borderRadiusBottomLeft}",
                   "border": "{sem.border.danger}",
-                  "itemSpacing": "{sem.input.sm.fieldWrapper.spacer}"
+                  "itemSpacing": "{sem.input.base.sm.fieldWrapper.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.sm.uncontrasted.danger.fieldWrapper'})"
               },
               "iconSize": {
                 "value": {
-                  "width": "{sem.input.sm.iconSize}",
-                  "height": "{sem.input.sm.iconSize}"
+                  "width": "{sem.input.base.sm.iconSize}",
+                  "height": "{sem.input.base.sm.iconSize}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.sm.uncontrasted.danger.iconSize'})"
@@ -14063,7 +14063,7 @@
                 },
                 "chips": {
                   "value": {
-                    "itemSpacing": "{sem.input.sm.slotContent.chips.spacer}"
+                    "itemSpacing": "{sem.input.base.sm.slotContent.chips.spacer}"
                   },
                   "type": "composition",
                   "description": "({extends: 'comp.input.base.sm.uncontrasted.danger.slotContent.chips'})"
@@ -14073,7 +14073,7 @@
             "disabled": {
               "container": {
                 "value": {
-                  "itemSpacing": "{sem.input.sm.container.spacer}"
+                  "itemSpacing": "{sem.input.base.sm.container.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.sm.uncontrasted.disabled.container'})"
@@ -14089,15 +14089,15 @@
                   "borderRadiusBottomRight": "{sem.card.base.xs.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.base.xs.borderRadiusBottomLeft}",
                   "border": "{sem.border.transparent}",
-                  "itemSpacing": "{sem.input.sm.fieldWrapper.spacer}"
+                  "itemSpacing": "{sem.input.base.sm.fieldWrapper.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.sm.uncontrasted.disabled.fieldWrapper'})"
               },
               "iconSize": {
                 "value": {
-                  "width": "{sem.input.sm.iconSize}",
-                  "height": "{sem.input.sm.iconSize}"
+                  "width": "{sem.input.base.sm.iconSize}",
+                  "height": "{sem.input.base.sm.iconSize}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.sm.uncontrasted.disabled.iconSize'})"
@@ -14138,7 +14138,7 @@
                 },
                 "chips": {
                   "value": {
-                    "itemSpacing": "{sem.input.sm.slotContent.chips.spacer}"
+                    "itemSpacing": "{sem.input.base.sm.slotContent.chips.spacer}"
                   },
                   "type": "composition",
                   "description": "({extends: 'comp.input.base.sm.uncontrasted.disabled.slotContent.chips'})"
@@ -14150,7 +14150,7 @@
             "default": {
               "container": {
                 "value": {
-                  "itemSpacing": "{sem.input.sm.container.spacer}"
+                  "itemSpacing": "{sem.input.base.sm.container.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.sm.contrasted.default.container'})"
@@ -14166,15 +14166,15 @@
                   "borderRadiusBottomRight": "{sem.card.base.xs.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.base.xs.borderRadiusBottomLeft}",
                   "border": "{sem.border.interactive.default}",
-                  "itemSpacing": "{sem.input.sm.fieldWrapper.spacer}"
+                  "itemSpacing": "{sem.input.base.sm.fieldWrapper.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.sm.contrasted.default.fieldWrapper'})"
               },
               "iconSize": {
                 "value": {
-                  "width": "{sem.input.sm.iconSize}",
-                  "height": "{sem.input.sm.iconSize}"
+                  "width": "{sem.input.base.sm.iconSize}",
+                  "height": "{sem.input.base.sm.iconSize}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.sm.contrasted.default.iconSize'})"
@@ -14215,7 +14215,7 @@
                 },
                 "chips": {
                   "value": {
-                    "itemSpacing": "{sem.input.sm.slotContent.chips.spacer}"
+                    "itemSpacing": "{sem.input.base.sm.slotContent.chips.spacer}"
                   },
                   "type": "composition",
                   "description": "({extends: 'comp.input.base.sm.contrasted.default.slotContent.chips'})"
@@ -14225,7 +14225,7 @@
             "hover": {
               "container": {
                 "value": {
-                  "itemSpacing": "{sem.input.sm.container.spacer}"
+                  "itemSpacing": "{sem.input.base.sm.container.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.sm.contrasted.hover.container'})"
@@ -14241,15 +14241,15 @@
                   "borderRadiusBottomRight": "{sem.card.base.xs.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.base.xs.borderRadiusBottomLeft}",
                   "border": "{sem.border.interactive.hover}",
-                  "itemSpacing": "{sem.input.sm.fieldWrapper.spacer}"
+                  "itemSpacing": "{sem.input.base.sm.fieldWrapper.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.sm.contrasted.hover.fieldWrapper'})"
               },
               "iconSize": {
                 "value": {
-                  "width": "{sem.input.sm.iconSize}",
-                  "height": "{sem.input.sm.iconSize}"
+                  "width": "{sem.input.base.sm.iconSize}",
+                  "height": "{sem.input.base.sm.iconSize}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.sm.contrasted.hover.iconSize'})"
@@ -14290,7 +14290,7 @@
                 },
                 "chips": {
                   "value": {
-                    "itemSpacing": "{sem.input.sm.slotContent.chips.spacer}"
+                    "itemSpacing": "{sem.input.base.sm.slotContent.chips.spacer}"
                   },
                   "type": "composition",
                   "description": "({extends: 'comp.input.base.sm.contrasted.hover.slotContent.chips'})"
@@ -14300,7 +14300,7 @@
             "pressed": {
               "container": {
                 "value": {
-                  "itemSpacing": "{sem.input.sm.container.spacer}"
+                  "itemSpacing": "{sem.input.base.sm.container.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.sm.contrasted.pressed.container'})"
@@ -14316,15 +14316,15 @@
                   "borderRadiusBottomRight": "{sem.card.base.xs.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.base.xs.borderRadiusBottomLeft}",
                   "border": "{sem.border.interactive.pressed}",
-                  "itemSpacing": "{sem.input.sm.fieldWrapper.spacer}"
+                  "itemSpacing": "{sem.input.base.sm.fieldWrapper.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.sm.contrasted.pressed.fieldWrapper'})"
               },
               "iconSize": {
                 "value": {
-                  "width": "{sem.input.sm.iconSize}",
-                  "height": "{sem.input.sm.iconSize}"
+                  "width": "{sem.input.base.sm.iconSize}",
+                  "height": "{sem.input.base.sm.iconSize}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.sm.contrasted.pressed.iconSize'})"
@@ -14365,7 +14365,7 @@
                 },
                 "chips": {
                   "value": {
-                    "itemSpacing": "{sem.input.sm.slotContent.chips.spacer}"
+                    "itemSpacing": "{sem.input.base.sm.slotContent.chips.spacer}"
                   },
                   "type": "composition",
                   "description": "({extends: 'comp.input.base.sm.contrasted.pressed.slotContent.chips'})"
@@ -14375,7 +14375,7 @@
             "active": {
               "container": {
                 "value": {
-                  "itemSpacing": "{sem.input.sm.container.spacer}"
+                  "itemSpacing": "{sem.input.base.sm.container.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.sm.contrasted.active.container'})"
@@ -14391,15 +14391,15 @@
                   "borderRadiusBottomRight": "{sem.card.base.xs.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.base.xs.borderRadiusBottomLeft}",
                   "border": "{sem.border.interactive.active}",
-                  "itemSpacing": "{sem.input.sm.fieldWrapper.spacer}"
+                  "itemSpacing": "{sem.input.base.sm.fieldWrapper.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.sm.contrasted.active.fieldWrapper'})"
               },
               "iconSize": {
                 "value": {
-                  "width": "{sem.input.sm.iconSize}",
-                  "height": "{sem.input.sm.iconSize}"
+                  "width": "{sem.input.base.sm.iconSize}",
+                  "height": "{sem.input.base.sm.iconSize}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.sm.contrasted.active.iconSize'})"
@@ -14440,7 +14440,7 @@
                 },
                 "chips": {
                   "value": {
-                    "itemSpacing": "{sem.input.sm.slotContent.chips.spacer}"
+                    "itemSpacing": "{sem.input.base.sm.slotContent.chips.spacer}"
                   },
                   "type": "composition",
                   "description": "({extends: 'comp.input.base.sm.contrasted.active.slotContent.chips'})"
@@ -14450,7 +14450,7 @@
             "danger": {
               "container": {
                 "value": {
-                  "itemSpacing": "{sem.input.sm.container.spacer}"
+                  "itemSpacing": "{sem.input.base.sm.container.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.sm.contrasted.danger.container'})"
@@ -14466,15 +14466,15 @@
                   "borderRadiusBottomRight": "{sem.card.base.xs.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.base.xs.borderRadiusBottomLeft}",
                   "border": "{sem.border.danger}",
-                  "itemSpacing": "{sem.input.sm.fieldWrapper.spacer}"
+                  "itemSpacing": "{sem.input.base.sm.fieldWrapper.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.sm.contrasted.danger.fieldWrapper'})"
               },
               "iconSize": {
                 "value": {
-                  "width": "{sem.input.sm.iconSize}",
-                  "height": "{sem.input.sm.iconSize}"
+                  "width": "{sem.input.base.sm.iconSize}",
+                  "height": "{sem.input.base.sm.iconSize}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.sm.contrasted.danger.iconSize'})"
@@ -14515,7 +14515,7 @@
                 },
                 "chips": {
                   "value": {
-                    "itemSpacing": "{sem.input.sm.slotContent.chips.spacer}"
+                    "itemSpacing": "{sem.input.base.sm.slotContent.chips.spacer}"
                   },
                   "type": "composition",
                   "description": "({extends: 'comp.input.base.sm.contrasted.danger.slotContent.chips'})"
@@ -14525,7 +14525,7 @@
             "disabled": {
               "container": {
                 "value": {
-                  "itemSpacing": "{sem.input.sm.container.spacer}"
+                  "itemSpacing": "{sem.input.base.sm.container.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.sm.contrasted.disabled.container'})"
@@ -14541,15 +14541,15 @@
                   "borderRadiusBottomRight": "{sem.card.base.xs.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.base.xs.borderRadiusBottomLeft}",
                   "border": "{sem.border.interactive.disabled}",
-                  "itemSpacing": "{sem.input.sm.fieldWrapper.spacer}"
+                  "itemSpacing": "{sem.input.base.sm.fieldWrapper.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.sm.contrasted.disabled.fieldWrapper'})"
               },
               "iconSize": {
                 "value": {
-                  "width": "{sem.input.sm.iconSize}",
-                  "height": "{sem.input.sm.iconSize}"
+                  "width": "{sem.input.base.sm.iconSize}",
+                  "height": "{sem.input.base.sm.iconSize}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.sm.contrasted.disabled.iconSize'})"
@@ -14590,7 +14590,7 @@
                 },
                 "chips": {
                   "value": {
-                    "itemSpacing": "{sem.input.sm.slotContent.chips.spacer}"
+                    "itemSpacing": "{sem.input.base.sm.slotContent.chips.spacer}"
                   },
                   "type": "composition",
                   "description": "({extends: 'comp.input.base.sm.contrasted.disabled.slotContent.chips'})"
@@ -14604,7 +14604,7 @@
             "default": {
               "container": {
                 "value": {
-                  "itemSpacing": "{sem.input.md.container.spacer}"
+                  "itemSpacing": "{sem.input.base.md.container.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.md.uncontrasted.default.container'})"
@@ -14620,15 +14620,15 @@
                   "borderRadiusBottomRight": "{sem.card.base.sm.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.base.sm.borderRadiusBottomLeft}",
                   "border": "{sem.border.transparent}",
-                  "itemSpacing": "{sem.input.md.fieldWrapper.spacer}"
+                  "itemSpacing": "{sem.input.base.md.fieldWrapper.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.md.uncontrasted.default.fieldWrapper'})"
               },
               "iconSize": {
                 "value": {
-                  "width": "{sem.input.md.iconSize}",
-                  "height": "{sem.input.md.iconSize}"
+                  "width": "{sem.input.base.md.iconSize}",
+                  "height": "{sem.input.base.md.iconSize}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.md.uncontrasted.default.iconSize'})"
@@ -14669,7 +14669,7 @@
                 },
                 "chips": {
                   "value": {
-                    "itemSpacing": "{sem.input.md.slotContent.chips.spacer}"
+                    "itemSpacing": "{sem.input.base.md.slotContent.chips.spacer}"
                   },
                   "type": "composition",
                   "description": "({extends: 'comp.input.base.md.uncontrasted.default.slotContent.chips'})"
@@ -14679,7 +14679,7 @@
             "hover": {
               "container": {
                 "value": {
-                  "itemSpacing": "{sem.input.md.container.spacer}"
+                  "itemSpacing": "{sem.input.base.md.container.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.md.uncontrasted.hover.container'})"
@@ -14695,15 +14695,15 @@
                   "borderRadiusBottomRight": "{sem.card.base.sm.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.base.sm.borderRadiusBottomLeft}",
                   "border": "{sem.border.transparent}",
-                  "itemSpacing": "{sem.input.md.fieldWrapper.spacer}"
+                  "itemSpacing": "{sem.input.base.md.fieldWrapper.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.md.uncontrasted.hover.fieldWrapper'})"
               },
               "iconSize": {
                 "value": {
-                  "width": "{sem.input.md.iconSize}",
-                  "height": "{sem.input.md.iconSize}"
+                  "width": "{sem.input.base.md.iconSize}",
+                  "height": "{sem.input.base.md.iconSize}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.md.uncontrasted.hover.iconSize'})"
@@ -14744,7 +14744,7 @@
                 },
                 "chips": {
                   "value": {
-                    "itemSpacing": "{sem.input.md.slotContent.chips.spacer}"
+                    "itemSpacing": "{sem.input.base.md.slotContent.chips.spacer}"
                   },
                   "type": "composition",
                   "description": "({extends: 'comp.input.base.md.uncontrasted.hover.slotContent.chips'})"
@@ -14754,7 +14754,7 @@
             "pressed": {
               "container": {
                 "value": {
-                  "itemSpacing": "{sem.input.md.container.spacer}"
+                  "itemSpacing": "{sem.input.base.md.container.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.md.uncontrasted.pressed.container'})"
@@ -14770,15 +14770,15 @@
                   "borderRadiusBottomRight": "{sem.card.base.sm.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.base.sm.borderRadiusBottomLeft}",
                   "border": "{sem.border.transparent}",
-                  "itemSpacing": "{sem.input.md.fieldWrapper.spacer}"
+                  "itemSpacing": "{sem.input.base.md.fieldWrapper.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.md.uncontrasted.pressed.fieldWrapper'})"
               },
               "iconSize": {
                 "value": {
-                  "width": "{sem.input.md.iconSize}",
-                  "height": "{sem.input.md.iconSize}"
+                  "width": "{sem.input.base.md.iconSize}",
+                  "height": "{sem.input.base.md.iconSize}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.md.uncontrasted.pressed.iconSize'})"
@@ -14819,7 +14819,7 @@
                 },
                 "chips": {
                   "value": {
-                    "itemSpacing": "{sem.input.md.slotContent.chips.spacer}"
+                    "itemSpacing": "{sem.input.base.md.slotContent.chips.spacer}"
                   },
                   "type": "composition",
                   "description": "({extends: 'comp.input.base.md.uncontrasted.pressed.slotContent.chips'})"
@@ -14829,7 +14829,7 @@
             "active": {
               "container": {
                 "value": {
-                  "itemSpacing": "{sem.input.md.container.spacer}"
+                  "itemSpacing": "{sem.input.base.md.container.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.md.uncontrasted.active.container'})"
@@ -14845,15 +14845,15 @@
                   "borderRadiusBottomRight": "{sem.card.base.sm.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.base.sm.borderRadiusBottomLeft}",
                   "border": "{sem.border.active}",
-                  "itemSpacing": "{sem.input.md.fieldWrapper.spacer}"
+                  "itemSpacing": "{sem.input.base.md.fieldWrapper.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.md.uncontrasted.active.fieldWrapper'})"
               },
               "iconSize": {
                 "value": {
-                  "width": "{sem.input.md.iconSize}",
-                  "height": "{sem.input.md.iconSize}"
+                  "width": "{sem.input.base.md.iconSize}",
+                  "height": "{sem.input.base.md.iconSize}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.md.uncontrasted.active.iconSize'})"
@@ -14894,7 +14894,7 @@
                 },
                 "chips": {
                   "value": {
-                    "itemSpacing": "{sem.input.md.slotContent.chips.spacer}"
+                    "itemSpacing": "{sem.input.base.md.slotContent.chips.spacer}"
                   },
                   "type": "composition",
                   "description": "({extends: 'comp.input.base.md.uncontrasted.active.slotContent.chips'})"
@@ -14904,7 +14904,7 @@
             "danger": {
               "container": {
                 "value": {
-                  "itemSpacing": "{sem.input.md.container.spacer}"
+                  "itemSpacing": "{sem.input.base.md.container.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.md.uncontrasted.danger.container'})"
@@ -14920,15 +14920,15 @@
                   "borderRadiusBottomRight": "{sem.card.base.sm.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.base.sm.borderRadiusBottomLeft}",
                   "border": "{sem.border.danger}",
-                  "itemSpacing": "{sem.input.md.fieldWrapper.spacer}"
+                  "itemSpacing": "{sem.input.base.md.fieldWrapper.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.md.uncontrasted.danger.fieldWrapper'})"
               },
               "iconSize": {
                 "value": {
-                  "width": "{sem.input.md.iconSize}",
-                  "height": "{sem.input.md.iconSize}"
+                  "width": "{sem.input.base.md.iconSize}",
+                  "height": "{sem.input.base.md.iconSize}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.md.uncontrasted.danger.iconSize'})"
@@ -14969,7 +14969,7 @@
                 },
                 "chips": {
                   "value": {
-                    "itemSpacing": "{sem.input.md.slotContent.chips.spacer}"
+                    "itemSpacing": "{sem.input.base.md.slotContent.chips.spacer}"
                   },
                   "type": "composition",
                   "description": "({extends: 'comp.input.base.md.uncontrasted.danger.slotContent.chips'})"
@@ -14979,7 +14979,7 @@
             "disabled": {
               "container": {
                 "value": {
-                  "itemSpacing": "{sem.input.md.container.spacer}"
+                  "itemSpacing": "{sem.input.base.md.container.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.md.uncontrasted.disabled.container'})"
@@ -14995,15 +14995,15 @@
                   "borderRadiusBottomRight": "{sem.card.base.sm.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.base.sm.borderRadiusBottomLeft}",
                   "border": "{sem.border.transparent}",
-                  "itemSpacing": "{sem.input.md.fieldWrapper.spacer}"
+                  "itemSpacing": "{sem.input.base.md.fieldWrapper.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.md.uncontrasted.disabled.fieldWrapper'})"
               },
               "iconSize": {
                 "value": {
-                  "width": "{sem.input.md.iconSize}",
-                  "height": "{sem.input.md.iconSize}"
+                  "width": "{sem.input.base.md.iconSize}",
+                  "height": "{sem.input.base.md.iconSize}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.md.uncontrasted.disabled.iconSize'})"
@@ -15044,7 +15044,7 @@
                 },
                 "chips": {
                   "value": {
-                    "itemSpacing": "{sem.input.md.slotContent.chips.spacer}"
+                    "itemSpacing": "{sem.input.base.md.slotContent.chips.spacer}"
                   },
                   "type": "composition",
                   "description": "({extends: 'comp.input.base.md.uncontrasted.disabled.slotContent.chips'})"
@@ -15056,7 +15056,7 @@
             "default": {
               "container": {
                 "value": {
-                  "itemSpacing": "{sem.input.md.container.spacer}"
+                  "itemSpacing": "{sem.input.base.md.container.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.md.contrasted.default.container'})"
@@ -15072,15 +15072,15 @@
                   "borderRadiusBottomRight": "{sem.card.base.sm.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.base.sm.borderRadiusBottomLeft}",
                   "border": "{sem.border.interactive.default}",
-                  "itemSpacing": "{sem.input.md.fieldWrapper.spacer}"
+                  "itemSpacing": "{sem.input.base.md.fieldWrapper.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.md.contrasted.default.fieldWrapper'})"
               },
               "iconSize": {
                 "value": {
-                  "width": "{sem.input.md.iconSize}",
-                  "height": "{sem.input.md.iconSize}"
+                  "width": "{sem.input.base.md.iconSize}",
+                  "height": "{sem.input.base.md.iconSize}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.md.contrasted.default.iconSize'})"
@@ -15121,7 +15121,7 @@
                 },
                 "chips": {
                   "value": {
-                    "itemSpacing": "{sem.input.md.slotContent.chips.spacer}"
+                    "itemSpacing": "{sem.input.base.md.slotContent.chips.spacer}"
                   },
                   "type": "composition",
                   "description": "({extends: 'comp.input.base.md.contrasted.default.slotContent.chips'})"
@@ -15131,7 +15131,7 @@
             "hover": {
               "container": {
                 "value": {
-                  "itemSpacing": "{sem.input.md.container.spacer}"
+                  "itemSpacing": "{sem.input.base.md.container.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.md.contrasted.hover.container'})"
@@ -15147,15 +15147,15 @@
                   "borderRadiusBottomRight": "{sem.card.base.sm.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.base.sm.borderRadiusBottomLeft}",
                   "border": "{sem.border.interactive.hover}",
-                  "itemSpacing": "{sem.input.md.fieldWrapper.spacer}"
+                  "itemSpacing": "{sem.input.base.md.fieldWrapper.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.md.contrasted.hover.fieldWrapper'})"
               },
               "iconSize": {
                 "value": {
-                  "width": "{sem.input.md.iconSize}",
-                  "height": "{sem.input.md.iconSize}"
+                  "width": "{sem.input.base.md.iconSize}",
+                  "height": "{sem.input.base.md.iconSize}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.md.contrasted.hover.iconSize'})"
@@ -15196,7 +15196,7 @@
                 },
                 "chips": {
                   "value": {
-                    "itemSpacing": "{sem.input.md.slotContent.chips.spacer}"
+                    "itemSpacing": "{sem.input.base.md.slotContent.chips.spacer}"
                   },
                   "type": "composition",
                   "description": "({extends: 'comp.input.base.md.contrasted.hover.slotContent.chips'})"
@@ -15206,7 +15206,7 @@
             "pressed": {
               "container": {
                 "value": {
-                  "itemSpacing": "{sem.input.md.container.spacer}"
+                  "itemSpacing": "{sem.input.base.md.container.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.md.contrasted.pressed.container'})"
@@ -15222,15 +15222,15 @@
                   "borderRadiusBottomRight": "{sem.card.base.sm.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.base.sm.borderRadiusBottomLeft}",
                   "border": "{sem.border.interactive.pressed}",
-                  "itemSpacing": "{sem.input.md.fieldWrapper.spacer}"
+                  "itemSpacing": "{sem.input.base.md.fieldWrapper.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.md.contrasted.pressed.fieldWrapper'})"
               },
               "iconSize": {
                 "value": {
-                  "width": "{sem.input.md.iconSize}",
-                  "height": "{sem.input.md.iconSize}"
+                  "width": "{sem.input.base.md.iconSize}",
+                  "height": "{sem.input.base.md.iconSize}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.md.contrasted.pressed.iconSize'})"
@@ -15271,7 +15271,7 @@
                 },
                 "chips": {
                   "value": {
-                    "itemSpacing": "{sem.input.md.slotContent.chips.spacer}"
+                    "itemSpacing": "{sem.input.base.md.slotContent.chips.spacer}"
                   },
                   "type": "composition",
                   "description": "({extends: 'comp.input.base.md.contrasted.pressed.slotContent.chips'})"
@@ -15281,7 +15281,7 @@
             "active": {
               "container": {
                 "value": {
-                  "itemSpacing": "{sem.input.md.container.spacer}"
+                  "itemSpacing": "{sem.input.base.md.container.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.md.contrasted.active.container'})"
@@ -15297,15 +15297,15 @@
                   "borderRadiusBottomRight": "{sem.card.base.sm.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.base.sm.borderRadiusBottomLeft}",
                   "border": "{sem.border.interactive.active}",
-                  "itemSpacing": "{sem.input.md.fieldWrapper.spacer}"
+                  "itemSpacing": "{sem.input.base.md.fieldWrapper.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.md.contrasted.active.fieldWrapper'})"
               },
               "iconSize": {
                 "value": {
-                  "width": "{sem.input.md.iconSize}",
-                  "height": "{sem.input.md.iconSize}"
+                  "width": "{sem.input.base.md.iconSize}",
+                  "height": "{sem.input.base.md.iconSize}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.md.contrasted.active.iconSize'})"
@@ -15346,7 +15346,7 @@
                 },
                 "chips": {
                   "value": {
-                    "itemSpacing": "{sem.input.md.slotContent.chips.spacer}"
+                    "itemSpacing": "{sem.input.base.md.slotContent.chips.spacer}"
                   },
                   "type": "composition",
                   "description": "({extends: 'comp.input.base.md.contrasted.active.slotContent.chips'})"
@@ -15356,7 +15356,7 @@
             "danger": {
               "container": {
                 "value": {
-                  "itemSpacing": "{sem.input.md.container.spacer}"
+                  "itemSpacing": "{sem.input.base.md.container.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.md.contrasted.danger.container'})"
@@ -15372,15 +15372,15 @@
                   "borderRadiusBottomRight": "{sem.card.base.sm.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.base.sm.borderRadiusBottomLeft}",
                   "border": "{sem.border.danger}",
-                  "itemSpacing": "{sem.input.md.fieldWrapper.spacer}"
+                  "itemSpacing": "{sem.input.base.md.fieldWrapper.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.md.contrasted.danger.fieldWrapper'})"
               },
               "iconSize": {
                 "value": {
-                  "width": "{sem.input.md.iconSize}",
-                  "height": "{sem.input.md.iconSize}"
+                  "width": "{sem.input.base.md.iconSize}",
+                  "height": "{sem.input.base.md.iconSize}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.md.contrasted.danger.iconSize'})"
@@ -15421,7 +15421,7 @@
                 },
                 "chips": {
                   "value": {
-                    "itemSpacing": "{sem.input.md.slotContent.chips.spacer}"
+                    "itemSpacing": "{sem.input.base.md.slotContent.chips.spacer}"
                   },
                   "type": "composition",
                   "description": "({extends: 'comp.input.base.md.contrasted.danger.slotContent.chips'})"
@@ -15431,7 +15431,7 @@
             "disabled": {
               "container": {
                 "value": {
-                  "itemSpacing": "{sem.input.md.container.spacer}"
+                  "itemSpacing": "{sem.input.base.md.container.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.md.contrasted.disabled.container'})"
@@ -15447,15 +15447,15 @@
                   "borderRadiusBottomRight": "{sem.card.base.sm.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.base.sm.borderRadiusBottomLeft}",
                   "border": "{sem.border.interactive.disabled}",
-                  "itemSpacing": "{sem.input.md.fieldWrapper.spacer}"
+                  "itemSpacing": "{sem.input.base.md.fieldWrapper.spacer}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.md.contrasted.disabled.fieldWrapper'})"
               },
               "iconSize": {
                 "value": {
-                  "width": "{sem.input.md.iconSize}",
-                  "height": "{sem.input.md.iconSize}"
+                  "width": "{sem.input.base.md.iconSize}",
+                  "height": "{sem.input.base.md.iconSize}"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.input.base.md.contrasted.disabled.iconSize'})"
@@ -15496,7 +15496,7 @@
                 },
                 "chips": {
                   "value": {
-                    "itemSpacing": "{sem.input.md.slotContent.chips.spacer}"
+                    "itemSpacing": "{sem.input.base.md.slotContent.chips.spacer}"
                   },
                   "type": "composition",
                   "description": "({extends: 'comp.input.base.md.contrasted.disabled.slotContent.chips'})"
