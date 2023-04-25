@@ -15557,7 +15557,7 @@
       "desktop": {
         "container": {
           "value": {
-            "layoutMode": "vertical",
+            "layoutMode": "horizontal",
             "horizontalResizing": "fill",
             "itemSpacing": "{sem.calendar.container.spacing}"
           },
@@ -15630,7 +15630,7 @@
       "mobile": {
         "container": {
           "value": {
-            "layoutMode": "horizontal",
+            "layoutMode": "vertical",
             "horizontalResizing": "fill",
             "itemSpacing": "{sem.calendar.container.spacing}"
           },

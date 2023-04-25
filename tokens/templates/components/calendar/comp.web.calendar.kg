@@ -7,7 +7,7 @@ comp
   {
     "container": {
       "value": {
-        "layoutMode": "<< aspectRatio == 'desktop' ? 'vertical' : 'horizontal' >>",
+        "layoutMode": "<< aspectRatio == 'desktop' ? 'horizontal' : 'vertical' >>",
         "horizontalResizing": "fill",
         "itemSpacing": "{sem.calendar.container.spacing}"
       },
