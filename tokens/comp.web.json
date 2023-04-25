@@ -15552,6 +15552,140 @@
           }
         }
       }
+    },
+    "calendar": {
+      "desktop": {
+        "container": {
+          "value": {
+            "layoutMode": "horizontal",
+            "horizontalResizing": "fill",
+            "itemSpacing": "{sem.calendar.container.spacing}"
+          },
+          "type": "composition"
+        },
+        "shortcutWrapper": {
+          "value": {
+            "layoutMode": "horizontal",
+            "itemSpacing": "{sem.calendar.shortcutWrapper.spacing}"
+          },
+          "type": "composition"
+        },
+        "rightSide": {
+          "calendarWrapper": {
+            "value": {
+              "layoutMode": "vertical",
+              "itemSpacing": "{sem.calendar.rightSide.calendarWrapper.spacing}"
+            },
+            "type": "composition"
+          },
+          "mounthSelector": {
+            "wrapper": {
+              "value": {
+                "layoutMode": "horizontal",
+                "layoutAlignItems": "center left"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.body.md}",
+                "fill": "{sem.color.text.dark}"
+              },
+              "type": "composition"
+            },
+            "icon": {
+              "size": {
+                "value": {
+                  "width": "{sem.calendar.rightSide.mounthSelector.icon.size}",
+                  "height": "{sem.calendar.rightSide.mounthSelector.icon.size}"
+                },
+                "type": "composition"
+              },
+              "color": {
+                "value": {
+                  "border": "{sem.borderIcon.sm.dark}"
+                },
+                "type": "composition"
+              }
+            }
+          },
+          "daySelector": {
+            "wrapper": {
+              "value": {
+                "layoutmode": "horizontal",
+                "itemSapcing": "{sem.calendar.rightSide.daySelector.spacing}"
+              },
+              "type": "composition"
+            }
+          }
+        }
+      },
+      "mobile": {
+        "container": {
+          "value": {
+            "layoutMode": "horizontal",
+            "horizontalResizing": "fill",
+            "itemSpacing": "{sem.calendar.container.spacing}"
+          },
+          "type": "composition"
+        },
+        "shortcutWrapper": {
+          "value": {
+            "layoutMode": "vertical",
+            "itemSpacing": "{sem.calendar.shortcutWrapper.spacing}"
+          },
+          "type": "composition"
+        },
+        "rightSide": {
+          "calendarWrapper": {
+            "value": {
+              "layoutMode": "vertical",
+              "itemSpacing": "{sem.calendar.rightSide.calendarWrapper.spacing}"
+            },
+            "type": "composition"
+          },
+          "mounthSelector": {
+            "wrapper": {
+              "value": {
+                "layoutMode": "horizontal",
+                "layoutAlignItems": "center left"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.body.md}",
+                "fill": "{sem.color.text.dark}"
+              },
+              "type": "composition"
+            },
+            "icon": {
+              "size": {
+                "value": {
+                  "width": "{sem.calendar.rightSide.mounthSelector.icon.size}",
+                  "height": "{sem.calendar.rightSide.mounthSelector.icon.size}"
+                },
+                "type": "composition"
+              },
+              "color": {
+                "value": {
+                  "border": "{sem.borderIcon.sm.dark}"
+                },
+                "type": "composition"
+              }
+            }
+          },
+          "daySelector": {
+            "wrapper": {
+              "value": {
+                "layoutmode": "horizontal",
+                "itemSapcing": "{sem.calendar.rightSide.daySelector.spacing}"
+              },
+              "type": "composition"
+            }
+          }
+        }
+      }
     }
   },
   "sem": {
@@ -16366,6 +16500,42 @@
         "wrapper": {
           "spacing": {
             "value": "{ref.spacing.100}",
+            "type": "spacing"
+          }
+        }
+      }
+    },
+    "calendar": {
+      "container": {
+        "spacing": {
+          "value": "{ref.spacing.200}",
+          "type": "spacing"
+        }
+      },
+      "shortcutWrapper": {
+        "spacing": {
+          "value": "{ref.spacing.50}",
+          "type": "spacing"
+        }
+      },
+      "rightSide": {
+        "calendarWrapper": {
+          "spacing": {
+            "value": "{ref.spacing.200}",
+            "type": "spacing"
+          }
+        },
+        "monthSelector": {
+          "icon": {
+            "size": {
+              "value": "{ref.sizing.200}",
+              "type": "sizing"
+            }
+          }
+        },
+        "daySelector": {
+          "spacing": {
+            "value": "{ref.spacing.50}",
             "type": "spacing"
           }
         }

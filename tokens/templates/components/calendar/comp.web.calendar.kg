@@ -1,0 +1,73 @@
+// @replacepath: tokens/comp.web.json
+
+comp
+.calendar
+[aspectRatio: 'desktop' | 'mobile' ]
+[
+  {
+    "container": {
+      "value": {
+        "layoutMode": "horizontal",
+        "horizontalResizing": "fill",
+        "itemSpacing": "{sem.calendar.container.spacing}"
+      },
+      "type": "composition"
+    },
+    "shortcutWrapper": {
+      "value": {
+        "layoutMode": "<< aspectRatio == 'desktop' ? 'horizontal' : 'vertical' >>",
+        "itemSpacing": "{sem.calendar.shortcutWrapper.spacing}"
+      },
+      "type": "composition"
+    },
+    "rightSide": {
+      "calendarWrapper": {
+        "value": {
+          "layoutMode": "vertical",
+          "itemSpacing": "{sem.calendar.rightSide.calendarWrapper.spacing}"
+        },
+        "type": "composition"
+      },
+      "mounthSelector": {
+        "wrapper": {
+          "value": {
+            "layoutMode": "horizontal",
+            "layoutAlignItems": "center left"
+          },
+          "type": "composition"
+        },
+        "label": {
+          "value": {
+            "typography": "{sem.typography.textStyle.label.body.md}",
+            "fill": "{sem.color.text.dark}"
+          },
+          "type": "composition"
+        },
+        "icon": {
+          "size": {
+            "value": {
+              "width": "{sem.calendar.rightSide.mounthSelector.icon.size}",
+              "height": "{sem.calendar.rightSide.mounthSelector.icon.size}"
+            },
+            "type": "composition"
+          },
+          "color": {
+            "value": {
+              "border": "{sem.borderIcon.sm.dark}"
+            },
+            "type": "composition"
+          }
+        }
+      },
+      "daySelector": {
+        "wrapper": {
+          "value": {
+            "layoutmode": "horizontal",
+            "itemSapcing": "{sem.calendar.rightSide.daySelector.spacing}"
+          },
+          "type": "composition"
+        }
+      }
+    }
+  }
+]

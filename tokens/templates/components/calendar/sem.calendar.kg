@@ -1,0 +1,42 @@
+// @replacepath: tokens/comp.web.json
+
+sem
+.calendar
+[
+  {
+    "container": {
+      "spacing": {
+        "value": "{ref.spacing.200}",
+        "type": "spacing"
+      }
+    },
+    "shortcutWrapper": {
+      "spacing": {
+        "value": "{ref.spacing.50}",
+        "type": "spacing"
+      }
+    },
+    "rightSide": {
+      "calendarWrapper": {
+        "spacing": {
+          "value": "{ref.spacing.200}",
+          "type": "spacing"
+        }
+      },
+      "monthSelector": {
+        "icon": {
+          "size": {
+            "value": "{ref.sizing.200}",
+            "type": "sizing"
+          }
+        }
+      },
+      "daySelector": {
+        "spacing": {
+          "value": "{ref.spacing.50}",
+          "type": "spacing"
+        }
+      }
+    }
+  }
+]
