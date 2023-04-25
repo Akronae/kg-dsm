@@ -10,21 +10,21 @@ comp
   {
     "container": {
       "value": {
-        "itemSpacing": "{sem.input.<<size>>.container.spacer}"
+        "itemSpacing": "{sem.input.base.<<size>>.container.spacer}"
       },
       "type": "composition"
     },
     "fieldWrapper": {
       "value": {
-        "itemSpacing": "{sem.input.<<size>>.fieldWrapper.spacer}"
+        "itemSpacing": "{sem.input.base.<<size>>.fieldWrapper.spacer}"
       },
       "type": "composition",
       "description": "({extends: 'comp.card.base.<< ({sm: 'xs', md: 'sm'})[size] >>.<<contrast>>.<<state>>'})"
     },
     "iconSize": {
       "value": {
-        "width": "{sem.input.<<size>>.iconSize}",
-        "height": "{sem.input.<<size>>.iconSize}"
+        "width": "{sem.input.base.<<size>>.iconSize}",
+        "height": "{sem.input.base.<<size>>.iconSize}"
       },
       "type": "composition"
     },
@@ -60,7 +60,7 @@ comp
       },
       "chips": {
         "value": {
-          "itemSpacing": "{sem.input.<<size>>.slotContent.chips.spacer}"
+          "itemSpacing": "{sem.input.base.<<size>>.slotContent.chips.spacer}"
         },
         "type": "composition"
       }
