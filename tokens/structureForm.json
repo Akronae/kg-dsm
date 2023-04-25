@@ -1063,10 +1063,10 @@
                   "borderRadiusBottomLeft": "{sem.card.base.md.borderRadiusBottomLeft}",
                   "border": "{sem.border.transparent}",
                   "layoutMode": "vertical",
-                  "itemSpacing": "{sem.contentCard.card.md.container.itemSpacing}"
+                  "itemSpacing": "{sem.cardContent.card.md.container.itemSpacing}"
                 },
                 "type": "composition",
-                "description": "({extends: 'comp.contentCard.card.md.desktop.container'})"
+                "description": "({extends: 'comp.cardContent.card.md.desktop.container'})"
               }
             },
             "inModeration": {
@@ -1089,10 +1089,10 @@
                   "borderRadiusBottomLeft": "{sem.card.base.md.borderRadiusBottomLeft}",
                   "border": "{sem.border.transparent}",
                   "layoutMode": "vertical",
-                  "itemSpacing": "{sem.contentCard.card.md.container.itemSpacing}"
+                  "itemSpacing": "{sem.cardContent.card.md.container.itemSpacing}"
                 },
                 "type": "composition",
-                "description": "({extends: 'comp.contentCard.card.md.desktop.container'})"
+                "description": "({extends: 'comp.cardContent.card.md.desktop.container'})"
               }
             },
             "valide": {
@@ -1115,10 +1115,10 @@
                   "borderRadiusBottomLeft": "{sem.card.base.md.borderRadiusBottomLeft}",
                   "border": "{sem.border.transparent}",
                   "layoutMode": "vertical",
-                  "itemSpacing": "{sem.contentCard.card.md.container.itemSpacing}"
+                  "itemSpacing": "{sem.cardContent.card.md.container.itemSpacing}"
                 },
                 "type": "composition",
-                "description": "({extends: 'comp.contentCard.card.md.desktop.container'})"
+                "description": "({extends: 'comp.cardContent.card.md.desktop.container'})"
               }
             },
             "declined": {
@@ -1141,10 +1141,10 @@
                   "borderRadiusBottomLeft": "{sem.card.base.md.borderRadiusBottomLeft}",
                   "border": "{sem.border.transparent}",
                   "layoutMode": "vertical",
-                  "itemSpacing": "{sem.contentCard.card.md.container.itemSpacing}"
+                  "itemSpacing": "{sem.cardContent.card.md.container.itemSpacing}"
                 },
                 "type": "composition",
-                "description": "({extends: 'comp.contentCard.card.md.desktop.container'})"
+                "description": "({extends: 'comp.cardContent.card.md.desktop.container'})"
               }
             }
           }

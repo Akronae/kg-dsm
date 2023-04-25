@@ -1,7 +1,7 @@
 // @replacepath: tokens/comp.web.json
 
 comp
-.contentCard.card
+.cardContent.card
 [size: 'xs' | 'md']
 [aspectRatio: 'desktop' | 'mobile']
 [
@@ -9,7 +9,7 @@ comp
     "container": {
       "value": {
         "layoutMode": "vertical",
-        "itemSpacing": "{sem.contentCard.card.<<size>>.container.itemSpacing}"
+        "itemSpacing": "{sem.cardContent.card.<<size>>.container.itemSpacing}"
       },
       "type": "composition",
       "description": "({extends: 'comp.card.base.<<size>>.uncontrasted.default'})"
@@ -18,14 +18,14 @@ comp
       "value": {
         "horizontalResizing": "fill",
         "layoutMode": "<< ({ desktop: 'horizontal', mobile: 'vertical' })[aspectRatio]>>",
-        "itemSpacing": "{sem.contentCard.card.<<size>>.contentWrapper.itemSpacing}"
+        "itemSpacing": "{sem.cardContent.card.<<size>>.contentWrapper.itemSpacing}"
       },
       "type": "composition"
     },
     "textWrapper": {
       "value": {
         "horizontalResizing": "fill",
-        "itemSpacing": "{sem.contentCard.card.<<size>>.contentWrapper.textWrapper.itemSpacing}"
+        "itemSpacing": "{sem.cardContent.card.<<size>>.contentWrapper.textWrapper.itemSpacing}"
       },
       "type": "composition"
     },
@@ -48,7 +48,7 @@ comp
     "buttonWrapper": {
       "value": {
         "layoutMode": "horizontal",
-        "itemSpacing": "{sem.contentCard.card.<<size>>.buttonWrapper.itemSpacing}",
+        "itemSpacing": "{sem.cardContent.card.<<size>>.buttonWrapper.itemSpacing}",
         "horizontalResizing": "<< ({ desktop: 'hug', mobile: 'fill' }) [aspectRatio]>>"
       },
       "type": "composition"

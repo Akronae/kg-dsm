@@ -4718,6 +4718,383 @@
         }
       }
     },
+    "calendar": {
+      "desktop": {
+        "container": {
+          "value": {
+            "layoutMode": "horizontal",
+            "horizontalResizing": "fill",
+            "itemSpacing": "{sem.calendar.container.spacing}"
+          },
+          "type": "composition"
+        },
+        "shortcutWrapper": {
+          "value": {
+            "layoutMode": "vertical",
+            "itemSpacing": "{sem.calendar.shortcutWrapper.spacing}"
+          },
+          "type": "composition"
+        },
+        "rightSide": {
+          "wrapper": {
+            "value": {
+              "layoutMode": "vertical",
+              "itemSpacing": "{sem.calendar.rightSide.wrapper.spacing}"
+            },
+            "type": "composition"
+          },
+          "calendarWrapper": {
+            "value": {
+              "layoutMode": "vertical",
+              "itemSpacing": "{sem.calendar.rightSide.calendarWrapper.spacing}"
+            },
+            "type": "composition"
+          },
+          "mounthSelector": {
+            "wrapper": {
+              "value": {
+                "layoutMode": "horizontal",
+                "layoutAlignItems": "center left"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.body.md}",
+                "fill": "{sem.color.text.dark}"
+              },
+              "type": "composition"
+            },
+            "icon": {
+              "size": {
+                "value": {
+                  "width": "{sem.calendar.rightSide.mounthSelector.icon.size}",
+                  "height": "{sem.calendar.rightSide.mounthSelector.icon.size}"
+                },
+                "type": "composition"
+              },
+              "color": {
+                "value": {
+                  "border": "{sem.borderIcon.sm.dark}"
+                },
+                "type": "composition"
+              }
+            }
+          },
+          "daySelector": {
+            "wrapper": {
+              "value": {
+                "layoutmode": "horizontal",
+                "itemSapcing": "{sem.calendar.rightSide.daySelector.spacing}"
+              },
+              "type": "composition"
+            }
+          }
+        }
+      },
+      "mobile": {
+        "container": {
+          "value": {
+            "layoutMode": "vertical",
+            "horizontalResizing": "fill",
+            "itemSpacing": "{sem.calendar.container.spacing}"
+          },
+          "type": "composition"
+        },
+        "shortcutWrapper": {
+          "value": {
+            "layoutMode": "horizontal",
+            "itemSpacing": "{sem.calendar.shortcutWrapper.spacing}"
+          },
+          "type": "composition"
+        },
+        "rightSide": {
+          "wrapper": {
+            "value": {
+              "layoutMode": "vertical",
+              "itemSpacing": "{sem.calendar.rightSide.wrapper.spacing}"
+            },
+            "type": "composition"
+          },
+          "calendarWrapper": {
+            "value": {
+              "layoutMode": "vertical",
+              "itemSpacing": "{sem.calendar.rightSide.calendarWrapper.spacing}"
+            },
+            "type": "composition"
+          },
+          "mounthSelector": {
+            "wrapper": {
+              "value": {
+                "layoutMode": "horizontal",
+                "layoutAlignItems": "center left"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.body.md}",
+                "fill": "{sem.color.text.dark}"
+              },
+              "type": "composition"
+            },
+            "icon": {
+              "size": {
+                "value": {
+                  "width": "{sem.calendar.rightSide.mounthSelector.icon.size}",
+                  "height": "{sem.calendar.rightSide.mounthSelector.icon.size}"
+                },
+                "type": "composition"
+              },
+              "color": {
+                "value": {
+                  "border": "{sem.borderIcon.sm.dark}"
+                },
+                "type": "composition"
+              }
+            }
+          },
+          "daySelector": {
+            "wrapper": {
+              "value": {
+                "layoutmode": "horizontal",
+                "itemSapcing": "{sem.calendar.rightSide.daySelector.spacing}"
+              },
+              "type": "composition"
+            }
+          }
+        }
+      },
+      "buttonDay": {
+        "weekday": {
+          "container": {
+            "value": {
+              "layoutAlignItems": "center",
+              "verticalPadding": "{sem.calendar.buttonDay.container.verticalPadding}",
+              "horizontalPadding": "{sem.calendar.buttonDay.container.horizontalPadding}",
+              "borderRadius": "{sem.calendar.buttonDay.container.borderRadius}"
+            },
+            "type": "composition"
+          },
+          "label": {
+            "value": {
+              "typography": "{sem.typography.textStyle.label.body.sm}",
+              "fill": "{sem.color.text.default}"
+            },
+            "type": "composition"
+          }
+        },
+        "day": {
+          "default": {
+            "container": {
+              "value": {
+                "layoutAlignItems": "center",
+                "verticalPadding": "{sem.calendar.buttonDay.container.verticalPadding}",
+                "horizontalPadding": "{sem.calendar.buttonDay.container.horizontalPadding}",
+                "borderRadius": "{sem.calendar.buttonDay.container.borderRadius}",
+                "fill": "{sem.color.surface.interactive.sub.default}"
+              },
+              "type": "composition",
+              "description": "({extends: 'comp.calendar.buttonDay.weekday.container'})"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.body.md}",
+                "fill": "{sem.color.text.dark}"
+              },
+              "type": "composition"
+            }
+          },
+          "hover": {
+            "container": {
+              "value": {
+                "layoutAlignItems": "center",
+                "verticalPadding": "{sem.calendar.buttonDay.container.verticalPadding}",
+                "horizontalPadding": "{sem.calendar.buttonDay.container.horizontalPadding}",
+                "borderRadius": "{sem.calendar.buttonDay.container.borderRadius}",
+                "fill": "{sem.color.surface.interactive.sub.hover}"
+              },
+              "type": "composition",
+              "description": "({extends: 'comp.calendar.buttonDay.weekday.container'})"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.body.md}",
+                "fill": "{sem.color.text.dark}"
+              },
+              "type": "composition"
+            }
+          },
+          "pressed": {
+            "container": {
+              "value": {
+                "layoutAlignItems": "center",
+                "verticalPadding": "{sem.calendar.buttonDay.container.verticalPadding}",
+                "horizontalPadding": "{sem.calendar.buttonDay.container.horizontalPadding}",
+                "borderRadius": "{sem.calendar.buttonDay.container.borderRadius}",
+                "fill": "{sem.color.surface.interactive.sub.pressed}"
+              },
+              "type": "composition",
+              "description": "({extends: 'comp.calendar.buttonDay.weekday.container'})"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.body.md}",
+                "fill": "{sem.color.text.dark}"
+              },
+              "type": "composition"
+            }
+          },
+          "active": {
+            "container": {
+              "value": {
+                "layoutAlignItems": "center",
+                "verticalPadding": "{sem.calendar.buttonDay.container.verticalPadding}",
+                "horizontalPadding": "{sem.calendar.buttonDay.container.horizontalPadding}",
+                "borderRadius": "{sem.calendar.buttonDay.container.borderRadius}",
+                "fill": "{sem.color.surface.interactive.sub.active}"
+              },
+              "type": "composition",
+              "description": "({extends: 'comp.calendar.buttonDay.weekday.container'})"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.body.md}",
+                "fill": "{sem.color.text.light}"
+              },
+              "type": "composition"
+            }
+          },
+          "disabled": {
+            "container": {
+              "value": {
+                "layoutAlignItems": "center",
+                "verticalPadding": "{sem.calendar.buttonDay.container.verticalPadding}",
+                "horizontalPadding": "{sem.calendar.buttonDay.container.horizontalPadding}",
+                "borderRadius": "{sem.calendar.buttonDay.container.borderRadius}",
+                "fill": "{sem.color.surface.interactive.disabled}"
+              },
+              "type": "composition",
+              "description": "({extends: 'comp.calendar.buttonDay.weekday.container'})"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.body.md}",
+                "fill": "{sem.color.text.disabled}"
+              },
+              "type": "composition"
+            }
+          }
+        }
+      },
+      "buttonSubAction": {
+        "default": {
+          "container": {
+            "value": {
+              "layoutAlignItems": "center left",
+              "verticalPadding": "{sem.calendar.buttonDay.container.verticalPadding}",
+              "horizontalPadding": "{sem.calendar.buttonDay.container.horizontalPadding}",
+              "borderRadius": "{sem.calendar.buttonDay.container.borderRadius}",
+              "fill": "{sem.color.surface.interactive.sub.default}"
+            },
+            "type": "composition",
+            "description": "({extends: 'comp.calendar.buttonDay.day.default.container'})"
+          },
+          "label": {
+            "value": {
+              "typography": "{sem.typography.textStyle.label.body.md}",
+              "fill": "{sem.color.text.dark}"
+            },
+            "type": "composition",
+            "description": "({extends: 'comp.calendar.buttonDay.day.default.label'})"
+          }
+        },
+        "hover": {
+          "container": {
+            "value": {
+              "layoutAlignItems": "center left",
+              "verticalPadding": "{sem.calendar.buttonDay.container.verticalPadding}",
+              "horizontalPadding": "{sem.calendar.buttonDay.container.horizontalPadding}",
+              "borderRadius": "{sem.calendar.buttonDay.container.borderRadius}",
+              "fill": "{sem.color.surface.interactive.sub.hover}"
+            },
+            "type": "composition",
+            "description": "({extends: 'comp.calendar.buttonDay.day.hover.container'})"
+          },
+          "label": {
+            "value": {
+              "typography": "{sem.typography.textStyle.label.body.md}",
+              "fill": "{sem.color.text.dark}"
+            },
+            "type": "composition",
+            "description": "({extends: 'comp.calendar.buttonDay.day.hover.label'})"
+          }
+        },
+        "pressed": {
+          "container": {
+            "value": {
+              "layoutAlignItems": "center left",
+              "verticalPadding": "{sem.calendar.buttonDay.container.verticalPadding}",
+              "horizontalPadding": "{sem.calendar.buttonDay.container.horizontalPadding}",
+              "borderRadius": "{sem.calendar.buttonDay.container.borderRadius}",
+              "fill": "{sem.color.surface.interactive.sub.pressed}"
+            },
+            "type": "composition",
+            "description": "({extends: 'comp.calendar.buttonDay.day.pressed.container'})"
+          },
+          "label": {
+            "value": {
+              "typography": "{sem.typography.textStyle.label.body.md}",
+              "fill": "{sem.color.text.dark}"
+            },
+            "type": "composition",
+            "description": "({extends: 'comp.calendar.buttonDay.day.pressed.label'})"
+          }
+        },
+        "active": {
+          "container": {
+            "value": {
+              "layoutAlignItems": "center left",
+              "verticalPadding": "{sem.calendar.buttonDay.container.verticalPadding}",
+              "horizontalPadding": "{sem.calendar.buttonDay.container.horizontalPadding}",
+              "borderRadius": "{sem.calendar.buttonDay.container.borderRadius}",
+              "fill": "{sem.color.surface.interactive.sub.active}"
+            },
+            "type": "composition",
+            "description": "({extends: 'comp.calendar.buttonDay.day.active.container'})"
+          },
+          "label": {
+            "value": {
+              "typography": "{sem.typography.textStyle.label.body.md}",
+              "fill": "{sem.color.text.light}"
+            },
+            "type": "composition",
+            "description": "({extends: 'comp.calendar.buttonDay.day.active.label'})"
+          }
+        },
+        "disabled": {
+          "container": {
+            "value": {
+              "layoutAlignItems": "center left",
+              "verticalPadding": "{sem.calendar.buttonDay.container.verticalPadding}",
+              "horizontalPadding": "{sem.calendar.buttonDay.container.horizontalPadding}",
+              "borderRadius": "{sem.calendar.buttonDay.container.borderRadius}",
+              "fill": "{sem.color.surface.interactive.disabled}"
+            },
+            "type": "composition",
+            "description": "({extends: 'comp.calendar.buttonDay.day.disabled.container'})"
+          },
+          "label": {
+            "value": {
+              "typography": "{sem.typography.textStyle.label.body.md}",
+              "fill": "{sem.color.text.disabled}"
+            },
+            "type": "composition",
+            "description": "({extends: 'comp.calendar.buttonDay.day.disabled.label'})"
+          }
+        }
+      }
+    },
     "card": {
       "base": {
         "xs": {
@@ -5412,16 +5789,254 @@
         }
       }
     },
-    "contentCard": {
+    "cardContent": {
+      "card": {
+        "xs": {
+          "desktop": {
+            "container": {
+              "value": {
+                "horizontalPadding": "{sem.card.base.xs.padding}",
+                "verticalPadding": "{sem.card.base.xs.padding}",
+                "fill": "{sem.color.surface.light}",
+                "boxShadow": "none",
+                "borderRadiusTopLeft": "{sem.card.base.xs.borderRadiusTopLeft}",
+                "borderRadiusTopRight": "{sem.card.base.xs.borderRadiusTopRight}",
+                "borderRadiusBottomRight": "{sem.card.base.xs.borderRadiusBottomRight}",
+                "borderRadiusBottomLeft": "{sem.card.base.xs.borderRadiusBottomLeft}",
+                "border": "{sem.border.transparent}",
+                "layoutMode": "vertical",
+                "itemSpacing": "{sem.cardContent.card.xs.container.itemSpacing}"
+              },
+              "type": "composition",
+              "description": "({extends: 'comp.card.base.xs.uncontrasted.default'})"
+            },
+            "contentWrapper": {
+              "value": {
+                "horizontalResizing": "fill",
+                "layoutMode": "horizontal",
+                "itemSpacing": "{sem.cardContent.card.xs.contentWrapper.itemSpacing}"
+              },
+              "type": "composition"
+            },
+            "textWrapper": {
+              "value": {
+                "horizontalResizing": "fill",
+                "itemSpacing": "{sem.cardContent.card.xs.contentWrapper.textWrapper.itemSpacing}"
+              },
+              "type": "composition"
+            },
+            "sub": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.body.xs}",
+                "fill": "{sem.color.text.default}",
+                "horizontalResizing": "fill"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.body.sm}",
+                "fill": "{sem.color.text.dark}",
+                "horizontalResizing": "fill"
+              },
+              "type": "composition"
+            },
+            "buttonWrapper": {
+              "value": {
+                "layoutMode": "horizontal",
+                "itemSpacing": "{sem.cardContent.card.xs.buttonWrapper.itemSpacing}",
+                "horizontalResizing": "hug"
+              },
+              "type": "composition"
+            }
+          },
+          "mobile": {
+            "container": {
+              "value": {
+                "horizontalPadding": "{sem.card.base.xs.padding}",
+                "verticalPadding": "{sem.card.base.xs.padding}",
+                "fill": "{sem.color.surface.light}",
+                "boxShadow": "none",
+                "borderRadiusTopLeft": "{sem.card.base.xs.borderRadiusTopLeft}",
+                "borderRadiusTopRight": "{sem.card.base.xs.borderRadiusTopRight}",
+                "borderRadiusBottomRight": "{sem.card.base.xs.borderRadiusBottomRight}",
+                "borderRadiusBottomLeft": "{sem.card.base.xs.borderRadiusBottomLeft}",
+                "border": "{sem.border.transparent}",
+                "layoutMode": "vertical",
+                "itemSpacing": "{sem.cardContent.card.xs.container.itemSpacing}"
+              },
+              "type": "composition",
+              "description": "({extends: 'comp.card.base.xs.uncontrasted.default'})"
+            },
+            "contentWrapper": {
+              "value": {
+                "horizontalResizing": "fill",
+                "layoutMode": "vertical",
+                "itemSpacing": "{sem.cardContent.card.xs.contentWrapper.itemSpacing}"
+              },
+              "type": "composition"
+            },
+            "textWrapper": {
+              "value": {
+                "horizontalResizing": "fill",
+                "itemSpacing": "{sem.cardContent.card.xs.contentWrapper.textWrapper.itemSpacing}"
+              },
+              "type": "composition"
+            },
+            "sub": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.body.xs}",
+                "fill": "{sem.color.text.default}",
+                "horizontalResizing": "fill"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.body.sm}",
+                "fill": "{sem.color.text.dark}",
+                "horizontalResizing": "fill"
+              },
+              "type": "composition"
+            },
+            "buttonWrapper": {
+              "value": {
+                "layoutMode": "horizontal",
+                "itemSpacing": "{sem.cardContent.card.xs.buttonWrapper.itemSpacing}",
+                "horizontalResizing": "fill"
+              },
+              "type": "composition"
+            }
+          }
+        },
+        "md": {
+          "desktop": {
+            "container": {
+              "value": {
+                "horizontalPadding": "{sem.card.base.md.padding}",
+                "verticalPadding": "{sem.card.base.md.padding}",
+                "fill": "{sem.color.surface.light}",
+                "boxShadow": "none",
+                "borderRadiusTopLeft": "{sem.card.base.md.borderRadiusTopLeft}",
+                "borderRadiusTopRight": "{sem.card.base.md.borderRadiusTopRight}",
+                "borderRadiusBottomRight": "{sem.card.base.md.borderRadiusBottomRight}",
+                "borderRadiusBottomLeft": "{sem.card.base.md.borderRadiusBottomLeft}",
+                "border": "{sem.border.transparent}",
+                "layoutMode": "vertical",
+                "itemSpacing": "{sem.cardContent.card.md.container.itemSpacing}"
+              },
+              "type": "composition",
+              "description": "({extends: 'comp.card.base.md.uncontrasted.default'})"
+            },
+            "contentWrapper": {
+              "value": {
+                "horizontalResizing": "fill",
+                "layoutMode": "horizontal",
+                "itemSpacing": "{sem.cardContent.card.md.contentWrapper.itemSpacing}"
+              },
+              "type": "composition"
+            },
+            "textWrapper": {
+              "value": {
+                "horizontalResizing": "fill",
+                "itemSpacing": "{sem.cardContent.card.md.contentWrapper.textWrapper.itemSpacing}"
+              },
+              "type": "composition"
+            },
+            "sub": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.body.md}",
+                "fill": "{sem.color.text.default}",
+                "horizontalResizing": "fill"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.body.md}",
+                "fill": "{sem.color.text.dark}",
+                "horizontalResizing": "fill"
+              },
+              "type": "composition"
+            },
+            "buttonWrapper": {
+              "value": {
+                "layoutMode": "horizontal",
+                "itemSpacing": "{sem.cardContent.card.md.buttonWrapper.itemSpacing}",
+                "horizontalResizing": "hug"
+              },
+              "type": "composition"
+            }
+          },
+          "mobile": {
+            "container": {
+              "value": {
+                "horizontalPadding": "{sem.card.base.md.padding}",
+                "verticalPadding": "{sem.card.base.md.padding}",
+                "fill": "{sem.color.surface.light}",
+                "boxShadow": "none",
+                "borderRadiusTopLeft": "{sem.card.base.md.borderRadiusTopLeft}",
+                "borderRadiusTopRight": "{sem.card.base.md.borderRadiusTopRight}",
+                "borderRadiusBottomRight": "{sem.card.base.md.borderRadiusBottomRight}",
+                "borderRadiusBottomLeft": "{sem.card.base.md.borderRadiusBottomLeft}",
+                "border": "{sem.border.transparent}",
+                "layoutMode": "vertical",
+                "itemSpacing": "{sem.cardContent.card.md.container.itemSpacing}"
+              },
+              "type": "composition",
+              "description": "({extends: 'comp.card.base.md.uncontrasted.default'})"
+            },
+            "contentWrapper": {
+              "value": {
+                "horizontalResizing": "fill",
+                "layoutMode": "vertical",
+                "itemSpacing": "{sem.cardContent.card.md.contentWrapper.itemSpacing}"
+              },
+              "type": "composition"
+            },
+            "textWrapper": {
+              "value": {
+                "horizontalResizing": "fill",
+                "itemSpacing": "{sem.cardContent.card.md.contentWrapper.textWrapper.itemSpacing}"
+              },
+              "type": "composition"
+            },
+            "sub": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.body.md}",
+                "fill": "{sem.color.text.default}",
+                "horizontalResizing": "fill"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.body.md}",
+                "fill": "{sem.color.text.dark}",
+                "horizontalResizing": "fill"
+              },
+              "type": "composition"
+            },
+            "buttonWrapper": {
+              "value": {
+                "layoutMode": "horizontal",
+                "itemSpacing": "{sem.cardContent.card.md.buttonWrapper.itemSpacing}",
+                "horizontalResizing": "fill"
+              },
+              "type": "composition"
+            }
+          }
+        }
+      },
       "leftSlot": {
         "xs": {
           "container": {
             "value": {
-              "width": "{sem.contentCard.leftSlot.xs.container.sizing}",
-              "height": "{sem.contentCard.leftSlot.xs.container.sizing}",
+              "width": "{sem.cardContent.leftSlot.xs.container.sizing}",
+              "height": "{sem.cardContent.leftSlot.xs.container.sizing}",
               "fill": "{sem.color.surface.sub}",
               "border": "{sem.border.diminished}",
-              "borderRadius": "{sem.contentCard.leftSlot.xs.container.borderRadius}",
+              "borderRadius": "{sem.cardContent.leftSlot.xs.container.borderRadius}",
               "layoutAlignItems": "center"
             },
             "type": "composition"
@@ -5429,8 +6044,8 @@
           "icon": {
             "size": {
               "value": {
-                "width": "{sem.contentCard.leftSlot.xs.icon.sizing}",
-                "height": "{sem.contentCard.leftSlot.xs.icon.sizing}"
+                "width": "{sem.cardContent.leftSlot.xs.icon.sizing}",
+                "height": "{sem.cardContent.leftSlot.xs.icon.sizing}"
               },
               "type": "composition"
             },
@@ -5459,11 +6074,11 @@
         "md": {
           "container": {
             "value": {
-              "width": "{sem.contentCard.leftSlot.md.container.sizing}",
-              "height": "{sem.contentCard.leftSlot.md.container.sizing}",
+              "width": "{sem.cardContent.leftSlot.md.container.sizing}",
+              "height": "{sem.cardContent.leftSlot.md.container.sizing}",
               "fill": "{sem.color.surface.sub}",
               "border": "{sem.border.diminished}",
-              "borderRadius": "{sem.contentCard.leftSlot.md.container.borderRadius}",
+              "borderRadius": "{sem.cardContent.leftSlot.md.container.borderRadius}",
               "layoutAlignItems": "center"
             },
             "type": "composition"
@@ -5471,8 +6086,8 @@
           "icon": {
             "size": {
               "value": {
-                "width": "{sem.contentCard.leftSlot.md.icon.sizing}",
-                "height": "{sem.contentCard.leftSlot.md.icon.sizing}"
+                "width": "{sem.cardContent.leftSlot.md.icon.sizing}",
+                "height": "{sem.cardContent.leftSlot.md.icon.sizing}"
               },
               "type": "composition"
             },
@@ -5498,243 +6113,151 @@
             "type": "composition"
           }
         }
-      },
-      "card": {
-        "xs": {
-          "desktop": {
-            "container": {
-              "value": {
-                "horizontalPadding": "{sem.card.base.xs.padding}",
-                "verticalPadding": "{sem.card.base.xs.padding}",
-                "fill": "{sem.color.surface.light}",
-                "boxShadow": "none",
-                "borderRadiusTopLeft": "{sem.card.base.xs.borderRadiusTopLeft}",
-                "borderRadiusTopRight": "{sem.card.base.xs.borderRadiusTopRight}",
-                "borderRadiusBottomRight": "{sem.card.base.xs.borderRadiusBottomRight}",
-                "borderRadiusBottomLeft": "{sem.card.base.xs.borderRadiusBottomLeft}",
-                "border": "{sem.border.transparent}",
-                "layoutMode": "vertical",
-                "itemSpacing": "{sem.contentCard.card.xs.container.itemSpacing}"
-              },
-              "type": "composition",
-              "description": "({extends: 'comp.card.base.xs.uncontrasted.default'})"
-            },
-            "contentWrapper": {
-              "value": {
-                "horizontalResizing": "fill",
-                "layoutMode": "horizontal",
-                "itemSpacing": "{sem.contentCard.card.xs.contentWrapper.itemSpacing}"
-              },
-              "type": "composition"
-            },
-            "textWrapper": {
-              "value": {
-                "horizontalResizing": "fill",
-                "itemSpacing": "{sem.contentCard.card.xs.contentWrapper.textWrapper.itemSpacing}"
-              },
-              "type": "composition"
-            },
-            "sub": {
-              "value": {
-                "typography": "{sem.typography.textStyle.label.body.xs}",
-                "fill": "{sem.color.text.default}",
-                "horizontalResizing": "fill"
-              },
-              "type": "composition"
-            },
-            "label": {
-              "value": {
-                "typography": "{sem.typography.textStyle.label.body.sm}",
-                "fill": "{sem.color.text.dark}",
-                "horizontalResizing": "fill"
-              },
-              "type": "composition"
-            },
-            "buttonWrapper": {
-              "value": {
-                "layoutMode": "horizontal",
-                "itemSpacing": "{sem.contentCard.card.xs.buttonWrapper.itemSpacing}",
-                "horizontalResizing": "hug"
-              },
-              "type": "composition"
-            }
+      }
+    },
+    "chip": {
+      "default": {
+        "container": {
+          "value": {
+            "fill": "{sem.color.surface.interactive.sub.default}",
+            "border": "{sem.border.interactive.default}",
+            "itemSpacing": "{sem.chip.container.spacing}",
+            "borderRadius": "{sem.chip.container.borderRadius}",
+            "paddingLeft": "{sem.chip.container.paddingLeft}",
+            "paddingRight": "{sem.chip.container.paddingRight}",
+            "height": "{sem.chip.container.height}"
           },
-          "mobile": {
-            "container": {
-              "value": {
-                "horizontalPadding": "{sem.card.base.xs.padding}",
-                "verticalPadding": "{sem.card.base.xs.padding}",
-                "fill": "{sem.color.surface.light}",
-                "boxShadow": "none",
-                "borderRadiusTopLeft": "{sem.card.base.xs.borderRadiusTopLeft}",
-                "borderRadiusTopRight": "{sem.card.base.xs.borderRadiusTopRight}",
-                "borderRadiusBottomRight": "{sem.card.base.xs.borderRadiusBottomRight}",
-                "borderRadiusBottomLeft": "{sem.card.base.xs.borderRadiusBottomLeft}",
-                "border": "{sem.border.transparent}",
-                "layoutMode": "vertical",
-                "itemSpacing": "{sem.contentCard.card.xs.container.itemSpacing}"
-              },
-              "type": "composition",
-              "description": "({extends: 'comp.card.base.xs.uncontrasted.default'})"
+          "type": "composition"
+        },
+        "icon": {
+          "color": {
+            "value": {
+              "border": "{sem.borderIcon.sm.default}"
             },
-            "contentWrapper": {
-              "value": {
-                "horizontalResizing": "fill",
-                "layoutMode": "vertical",
-                "itemSpacing": "{sem.contentCard.card.xs.contentWrapper.itemSpacing}"
-              },
-              "type": "composition"
+            "type": "composition"
+          },
+          "size": {
+            "value": {
+              "height": "{sem.chip.icon.size}",
+              "width": "{sem.chip.icon.size}"
             },
-            "textWrapper": {
-              "value": {
-                "horizontalResizing": "fill",
-                "itemSpacing": "{sem.contentCard.card.xs.contentWrapper.textWrapper.itemSpacing}"
-              },
-              "type": "composition"
-            },
-            "sub": {
-              "value": {
-                "typography": "{sem.typography.textStyle.label.body.xs}",
-                "fill": "{sem.color.text.default}",
-                "horizontalResizing": "fill"
-              },
-              "type": "composition"
-            },
-            "label": {
-              "value": {
-                "typography": "{sem.typography.textStyle.label.body.sm}",
-                "fill": "{sem.color.text.dark}",
-                "horizontalResizing": "fill"
-              },
-              "type": "composition"
-            },
-            "buttonWrapper": {
-              "value": {
-                "layoutMode": "horizontal",
-                "itemSpacing": "{sem.contentCard.card.xs.buttonWrapper.itemSpacing}",
-                "horizontalResizing": "fill"
-              },
-              "type": "composition"
-            }
+            "type": "composition"
           }
         },
-        "md": {
-          "desktop": {
-            "container": {
-              "value": {
-                "horizontalPadding": "{sem.card.base.md.padding}",
-                "verticalPadding": "{sem.card.base.md.padding}",
-                "fill": "{sem.color.surface.light}",
-                "boxShadow": "none",
-                "borderRadiusTopLeft": "{sem.card.base.md.borderRadiusTopLeft}",
-                "borderRadiusTopRight": "{sem.card.base.md.borderRadiusTopRight}",
-                "borderRadiusBottomRight": "{sem.card.base.md.borderRadiusBottomRight}",
-                "borderRadiusBottomLeft": "{sem.card.base.md.borderRadiusBottomLeft}",
-                "border": "{sem.border.transparent}",
-                "layoutMode": "vertical",
-                "itemSpacing": "{sem.contentCard.card.md.container.itemSpacing}"
-              },
-              "type": "composition",
-              "description": "({extends: 'comp.card.base.md.uncontrasted.default'})"
-            },
-            "contentWrapper": {
-              "value": {
-                "horizontalResizing": "fill",
-                "layoutMode": "horizontal",
-                "itemSpacing": "{sem.contentCard.card.md.contentWrapper.itemSpacing}"
-              },
-              "type": "composition"
-            },
-            "textWrapper": {
-              "value": {
-                "horizontalResizing": "fill",
-                "itemSpacing": "{sem.contentCard.card.md.contentWrapper.textWrapper.itemSpacing}"
-              },
-              "type": "composition"
-            },
-            "sub": {
-              "value": {
-                "typography": "{sem.typography.textStyle.label.body.md}",
-                "fill": "{sem.color.text.default}",
-                "horizontalResizing": "fill"
-              },
-              "type": "composition"
-            },
-            "label": {
-              "value": {
-                "typography": "{sem.typography.textStyle.label.body.md}",
-                "fill": "{sem.color.text.dark}",
-                "horizontalResizing": "fill"
-              },
-              "type": "composition"
-            },
-            "buttonWrapper": {
-              "value": {
-                "layoutMode": "horizontal",
-                "itemSpacing": "{sem.contentCard.card.md.buttonWrapper.itemSpacing}",
-                "horizontalResizing": "hug"
-              },
-              "type": "composition"
-            }
+        "label": {
+          "value": {
+            "typography": "{sem.typography.textStyle.label.body.sm}",
+            "fill": "{sem.color.text.default}"
           },
-          "mobile": {
-            "container": {
-              "value": {
-                "horizontalPadding": "{sem.card.base.md.padding}",
-                "verticalPadding": "{sem.card.base.md.padding}",
-                "fill": "{sem.color.surface.light}",
-                "boxShadow": "none",
-                "borderRadiusTopLeft": "{sem.card.base.md.borderRadiusTopLeft}",
-                "borderRadiusTopRight": "{sem.card.base.md.borderRadiusTopRight}",
-                "borderRadiusBottomRight": "{sem.card.base.md.borderRadiusBottomRight}",
-                "borderRadiusBottomLeft": "{sem.card.base.md.borderRadiusBottomLeft}",
-                "border": "{sem.border.transparent}",
-                "layoutMode": "vertical",
-                "itemSpacing": "{sem.contentCard.card.md.container.itemSpacing}"
-              },
-              "type": "composition",
-              "description": "({extends: 'comp.card.base.md.uncontrasted.default'})"
+          "type": "composition"
+        }
+      },
+      "hover": {
+        "container": {
+          "value": {
+            "fill": "{sem.color.surface.interactive.sub.hover}",
+            "border": "{sem.border.interactive.hover}",
+            "itemSpacing": "{sem.chip.container.spacing}",
+            "borderRadius": "{sem.chip.container.borderRadius}",
+            "paddingLeft": "{sem.chip.container.paddingLeft}",
+            "paddingRight": "{sem.chip.container.paddingRight}",
+            "height": "{sem.chip.container.height}"
+          },
+          "type": "composition"
+        },
+        "icon": {
+          "color": {
+            "value": {
+              "border": "{sem.borderIcon.sm.default}"
             },
-            "contentWrapper": {
-              "value": {
-                "horizontalResizing": "fill",
-                "layoutMode": "vertical",
-                "itemSpacing": "{sem.contentCard.card.md.contentWrapper.itemSpacing}"
-              },
-              "type": "composition"
+            "type": "composition"
+          },
+          "size": {
+            "value": {
+              "height": "{sem.chip.icon.size}",
+              "width": "{sem.chip.icon.size}"
             },
-            "textWrapper": {
-              "value": {
-                "horizontalResizing": "fill",
-                "itemSpacing": "{sem.contentCard.card.md.contentWrapper.textWrapper.itemSpacing}"
-              },
-              "type": "composition"
-            },
-            "sub": {
-              "value": {
-                "typography": "{sem.typography.textStyle.label.body.md}",
-                "fill": "{sem.color.text.default}",
-                "horizontalResizing": "fill"
-              },
-              "type": "composition"
-            },
-            "label": {
-              "value": {
-                "typography": "{sem.typography.textStyle.label.body.md}",
-                "fill": "{sem.color.text.dark}",
-                "horizontalResizing": "fill"
-              },
-              "type": "composition"
-            },
-            "buttonWrapper": {
-              "value": {
-                "layoutMode": "horizontal",
-                "itemSpacing": "{sem.contentCard.card.md.buttonWrapper.itemSpacing}",
-                "horizontalResizing": "fill"
-              },
-              "type": "composition"
-            }
+            "type": "composition"
           }
+        },
+        "label": {
+          "value": {
+            "typography": "{sem.typography.textStyle.label.body.sm}",
+            "fill": "{sem.color.text.default}"
+          },
+          "type": "composition"
+        }
+      },
+      "pressed": {
+        "container": {
+          "value": {
+            "fill": "{sem.color.surface.interactive.sub.pressed}",
+            "border": "{sem.border.interactive.pressed}",
+            "itemSpacing": "{sem.chip.container.spacing}",
+            "borderRadius": "{sem.chip.container.borderRadius}",
+            "paddingLeft": "{sem.chip.container.paddingLeft}",
+            "paddingRight": "{sem.chip.container.paddingRight}",
+            "height": "{sem.chip.container.height}"
+          },
+          "type": "composition"
+        },
+        "icon": {
+          "color": {
+            "value": {
+              "border": "{sem.borderIcon.sm.default}"
+            },
+            "type": "composition"
+          },
+          "size": {
+            "value": {
+              "height": "{sem.chip.icon.size}",
+              "width": "{sem.chip.icon.size}"
+            },
+            "type": "composition"
+          }
+        },
+        "label": {
+          "value": {
+            "typography": "{sem.typography.textStyle.label.body.sm}",
+            "fill": "{sem.color.text.default}"
+          },
+          "type": "composition"
+        }
+      },
+      "active": {
+        "container": {
+          "value": {
+            "fill": "{sem.color.surface.interactive.sub.active}",
+            "border": "none",
+            "itemSpacing": "{sem.chip.container.spacing}",
+            "borderRadius": "{sem.chip.container.borderRadius}",
+            "paddingLeft": "{sem.chip.container.paddingLeft}",
+            "paddingRight": "{sem.chip.container.paddingRight}",
+            "height": "{sem.chip.container.height}"
+          },
+          "type": "composition"
+        },
+        "icon": {
+          "color": {
+            "value": {
+              "border": "{sem.borderIcon.sm.light}"
+            },
+            "type": "composition"
+          },
+          "size": {
+            "value": {
+              "height": "{sem.chip.icon.size}",
+              "width": "{sem.chip.icon.size}"
+            },
+            "type": "composition"
+          }
+        },
+        "label": {
+          "value": {
+            "typography": "{sem.typography.textStyle.label.body.sm}",
+            "fill": "{sem.color.text.light}"
+          },
+          "type": "composition"
         }
       }
     },
@@ -7145,1618 +7668,6 @@
               "fill": "{sem.color.text.default}"
             },
             "type": "composition"
-          }
-        }
-      }
-    },
-    "link": {
-      "default": {
-        "sm": {
-          "container": {
-            "value": {
-              "itemSpacing": "{sem.link.sm.container.spacing}"
-            },
-            "type": "composition"
-          },
-          "text": {
-            "value": {
-              "typography": "{sem.typography.textStyle.link.sm}",
-              "fill": "{sem.color.text.link.default}"
-            },
-            "type": "composition"
-          },
-          "icon": {
-            "size": {
-              "value": {
-                "width": "{sem.link.sm.icon.size}",
-                "height": "{sem.link.sm.icon.size}"
-              },
-              "type": "composition"
-            },
-            "color": {
-              "value": {
-                "border": "{sem.borderIcon.sm.interactive.default}"
-              },
-              "type": "composition"
-            }
-          }
-        },
-        "md": {
-          "container": {
-            "value": {
-              "itemSpacing": "{sem.link.md.container.spacing}"
-            },
-            "type": "composition"
-          },
-          "text": {
-            "value": {
-              "typography": "{sem.typography.textStyle.link.md}",
-              "fill": "{sem.color.text.link.default}"
-            },
-            "type": "composition"
-          },
-          "icon": {
-            "size": {
-              "value": {
-                "width": "{sem.link.md.icon.size}",
-                "height": "{sem.link.md.icon.size}"
-              },
-              "type": "composition"
-            },
-            "color": {
-              "value": {
-                "border": "{sem.borderIcon.sm.interactive.default}"
-              },
-              "type": "composition"
-            }
-          }
-        }
-      },
-      "hover": {
-        "sm": {
-          "container": {
-            "value": {
-              "itemSpacing": "{sem.link.sm.container.spacing}"
-            },
-            "type": "composition"
-          },
-          "text": {
-            "value": {
-              "typography": "{sem.typography.textStyle.link.sm}",
-              "fill": "{sem.color.text.link.hover}"
-            },
-            "type": "composition"
-          },
-          "icon": {
-            "size": {
-              "value": {
-                "width": "{sem.link.sm.icon.size}",
-                "height": "{sem.link.sm.icon.size}"
-              },
-              "type": "composition"
-            },
-            "color": {
-              "value": {
-                "border": "{sem.borderIcon.sm.interactive.hover}"
-              },
-              "type": "composition"
-            }
-          }
-        },
-        "md": {
-          "container": {
-            "value": {
-              "itemSpacing": "{sem.link.md.container.spacing}"
-            },
-            "type": "composition"
-          },
-          "text": {
-            "value": {
-              "typography": "{sem.typography.textStyle.link.md}",
-              "fill": "{sem.color.text.link.hover}"
-            },
-            "type": "composition"
-          },
-          "icon": {
-            "size": {
-              "value": {
-                "width": "{sem.link.md.icon.size}",
-                "height": "{sem.link.md.icon.size}"
-              },
-              "type": "composition"
-            },
-            "color": {
-              "value": {
-                "border": "{sem.borderIcon.sm.interactive.hover}"
-              },
-              "type": "composition"
-            }
-          }
-        }
-      },
-      "pressed": {
-        "sm": {
-          "container": {
-            "value": {
-              "itemSpacing": "{sem.link.sm.container.spacing}"
-            },
-            "type": "composition"
-          },
-          "text": {
-            "value": {
-              "typography": "{sem.typography.textStyle.link.sm}",
-              "fill": "{sem.color.text.link.pressed}"
-            },
-            "type": "composition"
-          },
-          "icon": {
-            "size": {
-              "value": {
-                "width": "{sem.link.sm.icon.size}",
-                "height": "{sem.link.sm.icon.size}"
-              },
-              "type": "composition"
-            },
-            "color": {
-              "value": {
-                "border": "{sem.borderIcon.sm.interactive.pressed}"
-              },
-              "type": "composition"
-            }
-          }
-        },
-        "md": {
-          "container": {
-            "value": {
-              "itemSpacing": "{sem.link.md.container.spacing}"
-            },
-            "type": "composition"
-          },
-          "text": {
-            "value": {
-              "typography": "{sem.typography.textStyle.link.md}",
-              "fill": "{sem.color.text.link.pressed}"
-            },
-            "type": "composition"
-          },
-          "icon": {
-            "size": {
-              "value": {
-                "width": "{sem.link.md.icon.size}",
-                "height": "{sem.link.md.icon.size}"
-              },
-              "type": "composition"
-            },
-            "color": {
-              "value": {
-                "border": "{sem.borderIcon.sm.interactive.pressed}"
-              },
-              "type": "composition"
-            }
-          }
-        }
-      },
-      "disabled": {
-        "sm": {
-          "container": {
-            "value": {
-              "itemSpacing": "{sem.link.sm.container.spacing}"
-            },
-            "type": "composition"
-          },
-          "text": {
-            "value": {
-              "typography": "{sem.typography.textStyle.link.sm}",
-              "fill": "{sem.color.text.link.disabled}"
-            },
-            "type": "composition"
-          },
-          "icon": {
-            "size": {
-              "value": {
-                "width": "{sem.link.sm.icon.size}",
-                "height": "{sem.link.sm.icon.size}"
-              },
-              "type": "composition"
-            },
-            "color": {
-              "value": {
-                "border": "{sem.borderIcon.sm.interactive.disabled}"
-              },
-              "type": "composition"
-            }
-          }
-        },
-        "md": {
-          "container": {
-            "value": {
-              "itemSpacing": "{sem.link.md.container.spacing}"
-            },
-            "type": "composition"
-          },
-          "text": {
-            "value": {
-              "typography": "{sem.typography.textStyle.link.md}",
-              "fill": "{sem.color.text.link.disabled}"
-            },
-            "type": "composition"
-          },
-          "icon": {
-            "size": {
-              "value": {
-                "width": "{sem.link.md.icon.size}",
-                "height": "{sem.link.md.icon.size}"
-              },
-              "type": "composition"
-            },
-            "color": {
-              "value": {
-                "border": "{sem.borderIcon.sm.interactive.disabled}"
-              },
-              "type": "composition"
-            }
-          }
-        }
-      }
-    },
-    "tag": {
-      "primary": {
-        "container": {
-          "value": {
-            "borderRadius": "{sem.tag.container.borderRadius}",
-            "fill": "{sem.color.tag.primary}",
-            "verticalPadding": "{sem.tag.container.padding}",
-            "horizontalPadding": "{sem.tag.container.padding}",
-            "itemSpacing": "{sem.tag.container.spacing}"
-          },
-          "type": "composition"
-        },
-        "text": {
-          "value": {
-            "typography": "{sem.typography.textStyle.label.button.sm}",
-            "fontWeight": "{ref.typography.fontWeight.700}",
-            "fill": "{sem.color.text.light}"
-          },
-          "type": "composition"
-        }
-      },
-      "grey": {
-        "container": {
-          "value": {
-            "borderRadius": "{sem.tag.container.borderRadius}",
-            "fill": "{sem.color.tag.grey}",
-            "verticalPadding": "{sem.tag.container.padding}",
-            "horizontalPadding": "{sem.tag.container.padding}",
-            "itemSpacing": "{sem.tag.container.spacing}"
-          },
-          "type": "composition"
-        },
-        "text": {
-          "value": {
-            "typography": "{sem.typography.textStyle.label.button.sm}",
-            "fontWeight": "{ref.typography.fontWeight.700}",
-            "fill": "{sem.color.text.light}"
-          },
-          "type": "composition"
-        }
-      },
-      "greyLight": {
-        "container": {
-          "value": {
-            "borderRadius": "{sem.tag.container.borderRadius}",
-            "fill": "{sem.color.tag.greyLight}",
-            "verticalPadding": "{sem.tag.container.padding}",
-            "horizontalPadding": "{sem.tag.container.padding}",
-            "itemSpacing": "{sem.tag.container.spacing}"
-          },
-          "type": "composition"
-        },
-        "text": {
-          "value": {
-            "typography": "{sem.typography.textStyle.label.button.sm}",
-            "fontWeight": "{ref.typography.fontWeight.700}",
-            "fill": "{sem.color.text.dark}"
-          },
-          "type": "composition"
-        }
-      },
-      "blue": {
-        "container": {
-          "value": {
-            "borderRadius": "{sem.tag.container.borderRadius}",
-            "fill": "{sem.color.tag.blue}",
-            "verticalPadding": "{sem.tag.container.padding}",
-            "horizontalPadding": "{sem.tag.container.padding}",
-            "itemSpacing": "{sem.tag.container.spacing}"
-          },
-          "type": "composition"
-        },
-        "text": {
-          "value": {
-            "typography": "{sem.typography.textStyle.label.button.sm}",
-            "fontWeight": "{ref.typography.fontWeight.700}",
-            "fill": "{sem.color.text.light}"
-          },
-          "type": "composition"
-        }
-      },
-      "green": {
-        "container": {
-          "value": {
-            "borderRadius": "{sem.tag.container.borderRadius}",
-            "fill": "{sem.color.tag.green}",
-            "verticalPadding": "{sem.tag.container.padding}",
-            "horizontalPadding": "{sem.tag.container.padding}",
-            "itemSpacing": "{sem.tag.container.spacing}"
-          },
-          "type": "composition"
-        },
-        "text": {
-          "value": {
-            "typography": "{sem.typography.textStyle.label.button.sm}",
-            "fontWeight": "{ref.typography.fontWeight.700}",
-            "fill": "{sem.color.text.light}"
-          },
-          "type": "composition"
-        }
-      },
-      "greenDark": {
-        "container": {
-          "value": {
-            "borderRadius": "{sem.tag.container.borderRadius}",
-            "fill": "{sem.color.tag.greenDark}",
-            "verticalPadding": "{sem.tag.container.padding}",
-            "horizontalPadding": "{sem.tag.container.padding}",
-            "itemSpacing": "{sem.tag.container.spacing}"
-          },
-          "type": "composition"
-        },
-        "text": {
-          "value": {
-            "typography": "{sem.typography.textStyle.label.button.sm}",
-            "fontWeight": "{ref.typography.fontWeight.700}",
-            "fill": "{sem.color.text.light}"
-          },
-          "type": "composition"
-        }
-      },
-      "red": {
-        "container": {
-          "value": {
-            "borderRadius": "{sem.tag.container.borderRadius}",
-            "fill": "{sem.color.tag.red}",
-            "verticalPadding": "{sem.tag.container.padding}",
-            "horizontalPadding": "{sem.tag.container.padding}",
-            "itemSpacing": "{sem.tag.container.spacing}"
-          },
-          "type": "composition"
-        },
-        "text": {
-          "value": {
-            "typography": "{sem.typography.textStyle.label.button.sm}",
-            "fontWeight": "{ref.typography.fontWeight.700}",
-            "fill": "{sem.color.text.light}"
-          },
-          "type": "composition"
-        }
-      },
-      "redDark": {
-        "container": {
-          "value": {
-            "borderRadius": "{sem.tag.container.borderRadius}",
-            "fill": "{sem.color.tag.redDark}",
-            "verticalPadding": "{sem.tag.container.padding}",
-            "horizontalPadding": "{sem.tag.container.padding}",
-            "itemSpacing": "{sem.tag.container.spacing}"
-          },
-          "type": "composition"
-        },
-        "text": {
-          "value": {
-            "typography": "{sem.typography.textStyle.label.button.sm}",
-            "fontWeight": "{ref.typography.fontWeight.700}",
-            "fill": "{sem.color.text.light}"
-          },
-          "type": "composition"
-        }
-      },
-      "redLight": {
-        "container": {
-          "value": {
-            "borderRadius": "{sem.tag.container.borderRadius}",
-            "fill": "{sem.color.tag.redLight}",
-            "verticalPadding": "{sem.tag.container.padding}",
-            "horizontalPadding": "{sem.tag.container.padding}",
-            "itemSpacing": "{sem.tag.container.spacing}"
-          },
-          "type": "composition"
-        },
-        "text": {
-          "value": {
-            "typography": "{sem.typography.textStyle.label.button.sm}",
-            "fontWeight": "{ref.typography.fontWeight.700}",
-            "fill": "{sem.color.text.danger}"
-          },
-          "type": "composition"
-        }
-      }
-    },
-    "toggle": {
-      "base": {
-        "default": {
-          "container": {
-            "value": {
-              "itemSpacing": "{sem.toggle.base.container.spacing}",
-              "fill": "none",
-              "borderRadius": "{sem.toggle.base.container.borderRadius}"
-            },
-            "type": "composition"
-          },
-          "mark": {
-            "container": {
-              "value": {
-                "sizing": "{sem.toggle.base.mark.containerSize}",
-                "fill": "{sem.color.surface.sub}",
-                "border": "{sem.border.interactive.default}"
-              },
-              "type": "composition"
-            },
-            "iconSize": {
-              "value": {
-                "sizing": "{sem.toggle.base.mark.iconSize}"
-              },
-              "type": "composition"
-            },
-            "iconColor": {
-              "value": {
-                "border": "{sem.borderIcon.sm.light}"
-              },
-              "type": "composition"
-            }
-          },
-          "text": {
-            "container": {
-              "value": {
-                "itemSpacing": "{sem.toggle.base.text.container.spacing}",
-                "paddingTop": "{sem.toggle.base.text.container.paddingTop}",
-                "paddingRight": "{sem.toggle.base.text.container.paddingRight}"
-              },
-              "type": "composition"
-            },
-            "label": {
-              "value": {
-                "typography": "{sem.typography.textStyle.label.body.md}",
-                "fill": "{sem.color.text.dark}"
-              },
-              "type": "composition"
-            },
-            "description": {
-              "value": {
-                "typography": "{sem.typography.textStyle.paragraph.md.default}",
-                "fill": "{sem.color.text.default}"
-              },
-              "type": "composition"
-            }
-          }
-        },
-        "hover": {
-          "container": {
-            "value": {
-              "itemSpacing": "{sem.toggle.base.container.spacing}",
-              "fill": "{sem.color.surface.interactive.hover}",
-              "borderRadius": "{sem.toggle.base.container.borderRadius}"
-            },
-            "type": "composition"
-          },
-          "mark": {
-            "container": {
-              "value": {
-                "sizing": "{sem.toggle.base.mark.containerSize}",
-                "fill": "{sem.color.surface.sub}",
-                "border": "{sem.border.interactive.hover}"
-              },
-              "type": "composition"
-            },
-            "iconSize": {
-              "value": {
-                "sizing": "{sem.toggle.base.mark.iconSize}"
-              },
-              "type": "composition"
-            },
-            "iconColor": {
-              "value": {
-                "border": "{sem.borderIcon.sm.light}"
-              },
-              "type": "composition"
-            }
-          },
-          "text": {
-            "container": {
-              "value": {
-                "itemSpacing": "{sem.toggle.base.text.container.spacing}",
-                "paddingTop": "{sem.toggle.base.text.container.paddingTop}",
-                "paddingRight": "{sem.toggle.base.text.container.paddingRight}"
-              },
-              "type": "composition"
-            },
-            "label": {
-              "value": {
-                "typography": "{sem.typography.textStyle.label.body.md}",
-                "fill": "{sem.color.text.dark}"
-              },
-              "type": "composition"
-            },
-            "description": {
-              "value": {
-                "typography": "{sem.typography.textStyle.paragraph.md.default}",
-                "fill": "{sem.color.text.default}"
-              },
-              "type": "composition"
-            }
-          }
-        },
-        "pressed": {
-          "container": {
-            "value": {
-              "itemSpacing": "{sem.toggle.base.container.spacing}",
-              "fill": "{sem.color.surface.interactive.pressed}",
-              "borderRadius": "{sem.toggle.base.container.borderRadius}"
-            },
-            "type": "composition"
-          },
-          "mark": {
-            "container": {
-              "value": {
-                "sizing": "{sem.toggle.base.mark.containerSize}",
-                "fill": "{sem.color.surface.sub}",
-                "border": "none"
-              },
-              "type": "composition"
-            },
-            "iconSize": {
-              "value": {
-                "sizing": "{sem.toggle.base.mark.iconSize}"
-              },
-              "type": "composition"
-            },
-            "iconColor": {
-              "value": {
-                "border": "{sem.borderIcon.sm.light}"
-              },
-              "type": "composition"
-            }
-          },
-          "text": {
-            "container": {
-              "value": {
-                "itemSpacing": "{sem.toggle.base.text.container.spacing}",
-                "paddingTop": "{sem.toggle.base.text.container.paddingTop}",
-                "paddingRight": "{sem.toggle.base.text.container.paddingRight}"
-              },
-              "type": "composition"
-            },
-            "label": {
-              "value": {
-                "typography": "{sem.typography.textStyle.label.body.md}",
-                "fill": "{sem.color.text.dark}"
-              },
-              "type": "composition"
-            },
-            "description": {
-              "value": {
-                "typography": "{sem.typography.textStyle.paragraph.md.default}",
-                "fill": "{sem.color.text.default}"
-              },
-              "type": "composition"
-            }
-          }
-        },
-        "active": {
-          "container": {
-            "value": {
-              "itemSpacing": "{sem.toggle.base.container.spacing}",
-              "fill": "none",
-              "borderRadius": "{sem.toggle.base.container.borderRadius}"
-            },
-            "type": "composition"
-          },
-          "mark": {
-            "container": {
-              "value": {
-                "sizing": "{sem.toggle.base.mark.containerSize}",
-                "fill": "{sem.color.surface.primary}",
-                "border": "none"
-              },
-              "type": "composition"
-            },
-            "iconSize": {
-              "value": {
-                "sizing": "{sem.toggle.base.mark.iconSize}"
-              },
-              "type": "composition"
-            },
-            "iconColor": {
-              "value": {
-                "border": "{sem.borderIcon.sm.light}"
-              },
-              "type": "composition"
-            }
-          },
-          "text": {
-            "container": {
-              "value": {
-                "itemSpacing": "{sem.toggle.base.text.container.spacing}",
-                "paddingTop": "{sem.toggle.base.text.container.paddingTop}",
-                "paddingRight": "{sem.toggle.base.text.container.paddingRight}"
-              },
-              "type": "composition"
-            },
-            "label": {
-              "value": {
-                "typography": "{sem.typography.textStyle.label.body.md}",
-                "fill": "{sem.color.text.dark}"
-              },
-              "type": "composition"
-            },
-            "description": {
-              "value": {
-                "typography": "{sem.typography.textStyle.paragraph.md.default}",
-                "fill": "{sem.color.text.default}"
-              },
-              "type": "composition"
-            }
-          }
-        },
-        "danger": {
-          "container": {
-            "value": {
-              "itemSpacing": "{sem.toggle.base.container.spacing}",
-              "fill": "none",
-              "borderRadius": "{sem.toggle.base.container.borderRadius}"
-            },
-            "type": "composition"
-          },
-          "mark": {
-            "container": {
-              "value": {
-                "sizing": "{sem.toggle.base.mark.containerSize}",
-                "fill": "{sem.color.surface.sub}",
-                "border": "{sem.border.danger}"
-              },
-              "type": "composition"
-            },
-            "iconSize": {
-              "value": {
-                "sizing": "{sem.toggle.base.mark.iconSize}"
-              },
-              "type": "composition"
-            },
-            "iconColor": {
-              "value": {
-                "border": "{sem.borderIcon.sm.light}"
-              },
-              "type": "composition"
-            }
-          },
-          "text": {
-            "container": {
-              "value": {
-                "itemSpacing": "{sem.toggle.base.text.container.spacing}",
-                "paddingTop": "{sem.toggle.base.text.container.paddingTop}",
-                "paddingRight": "{sem.toggle.base.text.container.paddingRight}"
-              },
-              "type": "composition"
-            },
-            "label": {
-              "value": {
-                "typography": "{sem.typography.textStyle.label.body.md}",
-                "fill": "{sem.color.text.dark}"
-              },
-              "type": "composition"
-            },
-            "description": {
-              "value": {
-                "typography": "{sem.typography.textStyle.paragraph.md.default}",
-                "fill": "{sem.color.text.default}"
-              },
-              "type": "composition"
-            }
-          }
-        },
-        "disabled": {
-          "container": {
-            "value": {
-              "itemSpacing": "{sem.toggle.base.container.spacing}",
-              "fill": "none",
-              "borderRadius": "{sem.toggle.base.container.borderRadius}"
-            },
-            "type": "composition"
-          },
-          "mark": {
-            "container": {
-              "value": {
-                "sizing": "{sem.toggle.base.mark.containerSize}",
-                "fill": "{sem.color.surface.disabled}",
-                "border": "{sem.border.interactive.disabled}"
-              },
-              "type": "composition"
-            },
-            "iconSize": {
-              "value": {
-                "sizing": "{sem.toggle.base.mark.iconSize}"
-              },
-              "type": "composition"
-            },
-            "iconColor": {
-              "value": {
-                "border": "{sem.borderIcon.sm.light}"
-              },
-              "type": "composition"
-            }
-          },
-          "text": {
-            "container": {
-              "value": {
-                "itemSpacing": "{sem.toggle.base.text.container.spacing}",
-                "paddingTop": "{sem.toggle.base.text.container.paddingTop}",
-                "paddingRight": "{sem.toggle.base.text.container.paddingRight}"
-              },
-              "type": "composition"
-            },
-            "label": {
-              "value": {
-                "typography": "{sem.typography.textStyle.label.body.md}",
-                "fill": "{sem.color.text.dark}"
-              },
-              "type": "composition"
-            },
-            "description": {
-              "value": {
-                "typography": "{sem.typography.textStyle.paragraph.md.default}",
-                "fill": "{sem.color.text.default}"
-              },
-              "type": "composition"
-            }
-          }
-        },
-        "forced": {
-          "container": {
-            "value": {
-              "itemSpacing": "{sem.toggle.base.container.spacing}",
-              "fill": "none",
-              "borderRadius": "{sem.toggle.base.container.borderRadius}"
-            },
-            "type": "composition"
-          },
-          "mark": {
-            "container": {
-              "value": {
-                "sizing": "{sem.toggle.base.mark.containerSize}",
-                "fill": "{sem.color.surface.black}",
-                "border": "none"
-              },
-              "type": "composition"
-            },
-            "iconSize": {
-              "value": {
-                "sizing": "{sem.toggle.base.mark.iconSize}"
-              },
-              "type": "composition"
-            },
-            "iconColor": {
-              "value": {
-                "border": "{sem.borderIcon.sm.light}"
-              },
-              "type": "composition"
-            }
-          },
-          "text": {
-            "container": {
-              "value": {
-                "itemSpacing": "{sem.toggle.base.text.container.spacing}",
-                "paddingTop": "{sem.toggle.base.text.container.paddingTop}",
-                "paddingRight": "{sem.toggle.base.text.container.paddingRight}"
-              },
-              "type": "composition"
-            },
-            "label": {
-              "value": {
-                "typography": "{sem.typography.textStyle.label.body.md}",
-                "fill": "{sem.color.text.dark}"
-              },
-              "type": "composition"
-            },
-            "description": {
-              "value": {
-                "typography": "{sem.typography.textStyle.paragraph.md.default}",
-                "fill": "{sem.color.text.default}"
-              },
-              "type": "composition"
-            }
-          }
-        },
-        "indeterminate": {
-          "container": {
-            "value": {
-              "itemSpacing": "{sem.toggle.base.container.spacing}",
-              "fill": "none",
-              "borderRadius": "{sem.toggle.base.container.borderRadius}"
-            },
-            "type": "composition"
-          },
-          "mark": {
-            "container": {
-              "value": {
-                "sizing": "{sem.toggle.base.mark.containerSize}",
-                "fill": "{sem.color.surface.primary}",
-                "border": "none"
-              },
-              "type": "composition"
-            },
-            "iconSize": {
-              "value": {
-                "sizing": "{sem.toggle.base.mark.iconSize}"
-              },
-              "type": "composition"
-            },
-            "iconColor": {
-              "value": {
-                "border": "{sem.borderIcon.sm.light}"
-              },
-              "type": "composition"
-            }
-          },
-          "text": {
-            "container": {
-              "value": {
-                "itemSpacing": "{sem.toggle.base.text.container.spacing}",
-                "paddingTop": "{sem.toggle.base.text.container.paddingTop}",
-                "paddingRight": "{sem.toggle.base.text.container.paddingRight}"
-              },
-              "type": "composition"
-            },
-            "label": {
-              "value": {
-                "typography": "{sem.typography.textStyle.label.body.md}",
-                "fill": "{sem.color.text.dark}"
-              },
-              "type": "composition"
-            },
-            "description": {
-              "value": {
-                "typography": "{sem.typography.textStyle.paragraph.md.default}",
-                "fill": "{sem.color.text.default}"
-              },
-              "type": "composition"
-            }
-          }
-        }
-      },
-      "switch": {
-        "switch": {
-          "button": {
-            "container": {
-              "value": {
-                "fill": "{sem.color.surface.light}",
-                "borderRadius": "{ref.borderRadius.9999}",
-                "sizing": "{ref.sizing.200}"
-              },
-              "type": "composition"
-            },
-            "iconSize": {
-              "value": {
-                "sizing": "{ref.sizing.100}"
-              },
-              "type": "composition"
-            },
-            "iconColor": {
-              "value": {
-                "borderColor": "{sem.color.icon.default}"
-              },
-              "type": "composition"
-            }
-          },
-          "container": {
-            "default": {
-              "value": {
-                "borderRadius": "{ref.borderRadius.500}",
-                "fill": "{sem.color.surface.dark}",
-                "verticalPadding": "{ref.spacing.25}",
-                "horizontalPadding": "{ref.spacing.25}",
-                "layoutAlignItems": "center left",
-                "layoutMode": "horizontal",
-                "width": "{ref.sizing.500}"
-              },
-              "type": "composition"
-            },
-            "active": {
-              "value": {
-                "borderRadius": "{ref.borderRadius.500}",
-                "fill": "{sem.color.surface.success}",
-                "verticalPadding": "{ref.spacing.25}",
-                "horizontalPadding": "{ref.spacing.25}",
-                "layoutAlignItems": "center right",
-                "layoutMode": "horizontal",
-                "width": "{ref.sizing.500}"
-              },
-              "type": "composition"
-            },
-            "disabled": {
-              "value": {
-                "borderRadius": "{ref.borderRadius.500}",
-                "fill": "{sem.color.surface.disabled}",
-                "verticalPadding": "{ref.spacing.25}",
-                "horizontalPadding": "{ref.spacing.25}",
-                "layoutAlignItems": "center left",
-                "layoutMode": "horizontal",
-                "width": "{ref.sizing.500}"
-              },
-              "type": "composition"
-            }
-          }
-        },
-        "txt": {
-          "container": {
-            "value": {
-              "itemSpacing": "{ref.spacing.50}",
-              "paddingTop": "{ref.spacing.100}"
-            },
-            "type": "composition"
-          },
-          "title": {
-            "value": {
-              "typography": "{sem.typography.textStyle.label.body.md}",
-              "fill": "{sem.color.text.dark}"
-            },
-            "type": "composition"
-          },
-          "description": {
-            "value": {
-              "typography": "{sem.typography.textStyle.paragraph.md.default}",
-              "fill": "{sem.color.text.default}"
-            },
-            "type": "composition"
-          }
-        },
-        "container": {
-          "spacer": {
-            "value": {
-              "itemSpacing": "{ref.spacing.100}",
-              "layoutMode": "horizontal"
-            },
-            "type": "composition"
-          }
-        }
-      },
-      "toggleCard": {
-        "content": {
-          "sm": {
-            "container": {
-              "value": {
-                "itemSpacing": "{sem.toggle.toggleCard.content.sm.spacing}",
-                "layoutMode": "horizontal"
-              },
-              "type": "composition"
-            },
-            "icon": {
-              "iconSize": {
-                "value": {
-                  "sizing": "{sem.toggle.toggleCard.content.sm.iconSize}"
-                },
-                "type": "composition"
-              },
-              "iconColor": {
-                "value": {
-                  "border": "{sem.borderIcon.sm.dark}"
-                },
-                "type": "composition"
-              }
-            },
-            "rightSide": {
-              "container": {
-                "value": {
-                  "itemSpacing": "{sem.toggle.toggleCard.content.sm.rightSide.spacing}",
-                  "horizontalResizing": "fill"
-                },
-                "type": "composition"
-              },
-              "top": {
-                "label": {
-                  "container": {
-                    "value": {
-                      "paddingTop": "{sem.toggle.toggleCard.content.sm.rightSide.top.container.label.paddingTop}",
-                      "horizontalResizing": "fill"
-                    },
-                    "type": "composition"
-                  },
-                  "text": {
-                    "value": {
-                      "typography": "{sem.typography.textStyle.label.body.md}",
-                      "fill": "{sem.color.text.dark}"
-                    },
-                    "type": "composition"
-                  }
-                },
-                "container": {
-                  "value": {
-                    "itemSpacing": "{sem.toggle.toggleCard.content.sm.rightSide.top.container.spacing}",
-                    "layoutMode": "horizontal",
-                    "horizontalResizing": "fill"
-                  },
-                  "type": "composition"
-                }
-              },
-              "description": {
-                "value": {
-                  "typography": "{sem.typography.textStyle.paragraph.sm.default}",
-                  "fill": "{sem.color.text.default}"
-                },
-                "type": "composition"
-              }
-            }
-          },
-          "md": {
-            "container": {
-              "value": {
-                "itemSpacing": "{sem.toggle.toggleCard.content.md.spacing}",
-                "layoutMode": "horizontal"
-              },
-              "type": "composition"
-            },
-            "icon": {
-              "iconSize": {
-                "value": {
-                  "sizing": "{sem.toggle.toggleCard.content.md.iconSize}"
-                },
-                "type": "composition"
-              },
-              "iconColor": {
-                "value": {
-                  "border": "{sem.borderIcon.sm.dark}"
-                },
-                "type": "composition"
-              }
-            },
-            "rightSide": {
-              "container": {
-                "value": {
-                  "itemSpacing": "{sem.toggle.toggleCard.content.md.rightSide.spacing}",
-                  "horizontalResizing": "fill"
-                },
-                "type": "composition"
-              },
-              "top": {
-                "label": {
-                  "container": {
-                    "value": {
-                      "paddingTop": "{sem.toggle.toggleCard.content.md.rightSide.top.container.label.paddingTop}",
-                      "horizontalResizing": "fill"
-                    },
-                    "type": "composition"
-                  },
-                  "text": {
-                    "value": {
-                      "typography": "{sem.typography.textStyle.label.body.md}",
-                      "fill": "{sem.color.text.dark}"
-                    },
-                    "type": "composition"
-                  }
-                },
-                "container": {
-                  "value": {
-                    "itemSpacing": "{sem.toggle.toggleCard.content.md.rightSide.top.container.spacing}",
-                    "layoutMode": "horizontal",
-                    "horizontalResizing": "fill"
-                  },
-                  "type": "composition"
-                }
-              },
-              "description": {
-                "value": {
-                  "typography": "{sem.typography.textStyle.paragraph.sm.default}",
-                  "fill": "{sem.color.text.default}"
-                },
-                "type": "composition"
-              }
-            }
-          },
-          "lg": {
-            "container": {
-              "value": {
-                "itemSpacing": "{sem.toggle.toggleCard.content.lg.spacing}",
-                "layoutMode": "horizontal"
-              },
-              "type": "composition"
-            },
-            "icon": {
-              "iconSize": {
-                "value": {
-                  "sizing": "{sem.toggle.toggleCard.content.lg.iconSize}"
-                },
-                "type": "composition"
-              },
-              "iconColor": {
-                "value": {
-                  "border": "{sem.borderIcon.sm.dark}"
-                },
-                "type": "composition"
-              }
-            },
-            "rightSide": {
-              "container": {
-                "value": {
-                  "itemSpacing": "{sem.toggle.toggleCard.content.lg.rightSide.spacing}",
-                  "horizontalResizing": "fill"
-                },
-                "type": "composition"
-              },
-              "top": {
-                "label": {
-                  "container": {
-                    "value": {
-                      "paddingTop": "{sem.toggle.toggleCard.content.lg.rightSide.top.container.label.paddingTop}",
-                      "horizontalResizing": "fill"
-                    },
-                    "type": "composition"
-                  },
-                  "text": {
-                    "value": {
-                      "typography": "{sem.typography.textStyle.label.body.md}",
-                      "fill": "{sem.color.text.dark}"
-                    },
-                    "type": "composition"
-                  }
-                },
-                "container": {
-                  "value": {
-                    "itemSpacing": "{sem.toggle.toggleCard.content.lg.rightSide.top.container.spacing}",
-                    "layoutMode": "horizontal",
-                    "horizontalResizing": "fill"
-                  },
-                  "type": "composition"
-                }
-              },
-              "description": {
-                "value": {
-                  "typography": "{sem.typography.textStyle.paragraph.sm.default}",
-                  "fill": "{sem.color.text.default}"
-                },
-                "type": "composition"
-              }
-            }
-          }
-        },
-        "wrapper": {
-          "default": {
-            "container": {
-              "value": {
-                "itemSpacing": "{sem.toggle.toggleCard.wrapper.spacing}"
-              },
-              "type": "composition"
-            },
-            "card": {
-              "value": {
-                "horizontalPadding": "{sem.card.base.md.padding}",
-                "verticalPadding": "{sem.card.base.md.padding}",
-                "fill": "{sem.color.surface.light}",
-                "boxShadow": "none",
-                "borderRadiusTopLeft": "{sem.card.base.md.borderRadiusTopLeft}",
-                "borderRadiusTopRight": "{sem.card.base.md.borderRadiusTopRight}",
-                "borderRadiusBottomRight": "{sem.card.base.md.borderRadiusBottomRight}",
-                "borderRadiusBottomLeft": "{sem.card.base.md.borderRadiusBottomLeft}",
-                "border": "{sem.border.transparent}"
-              },
-              "type": "composition",
-              "description": "({extends: 'comp.card.base.md.uncontrasted.default'})"
-            }
-          },
-          "hover": {
-            "container": {
-              "value": {
-                "itemSpacing": "{sem.toggle.toggleCard.wrapper.spacing}"
-              },
-              "type": "composition"
-            },
-            "card": {
-              "value": {
-                "horizontalPadding": "{sem.card.base.md.padding}",
-                "verticalPadding": "{sem.card.base.md.padding}",
-                "fill": "{sem.color.surface.light}",
-                "boxShadow": "{sem.card.base.md.dropShadow}",
-                "borderRadiusTopLeft": "{sem.card.base.md.borderRadiusTopLeft}",
-                "borderRadiusTopRight": "{sem.card.base.md.borderRadiusTopRight}",
-                "borderRadiusBottomRight": "{sem.card.base.md.borderRadiusBottomRight}",
-                "borderRadiusBottomLeft": "{sem.card.base.md.borderRadiusBottomLeft}",
-                "border": "{sem.border.transparent}"
-              },
-              "type": "composition",
-              "description": "({extends: 'comp.card.base.md.uncontrasted.hover'})"
-            }
-          },
-          "pressed": {
-            "container": {
-              "value": {
-                "itemSpacing": "{sem.toggle.toggleCard.wrapper.spacing}"
-              },
-              "type": "composition"
-            },
-            "card": {
-              "value": {
-                "horizontalPadding": "{sem.card.base.md.padding}",
-                "verticalPadding": "{sem.card.base.md.padding}",
-                "fill": "{sem.color.surface.light}",
-                "boxShadow": "none",
-                "borderRadiusTopLeft": "{sem.card.base.md.borderRadiusTopLeft}",
-                "borderRadiusTopRight": "{sem.card.base.md.borderRadiusTopRight}",
-                "borderRadiusBottomRight": "{sem.card.base.md.borderRadiusBottomRight}",
-                "borderRadiusBottomLeft": "{sem.card.base.md.borderRadiusBottomLeft}",
-                "border": "{sem.border.transparent}"
-              },
-              "type": "composition",
-              "description": "({extends: 'comp.card.base.md.uncontrasted.pressed'})"
-            }
-          },
-          "active": {
-            "container": {
-              "value": {
-                "itemSpacing": "{sem.toggle.toggleCard.wrapper.spacing}"
-              },
-              "type": "composition"
-            },
-            "card": {
-              "value": {
-                "horizontalPadding": "{sem.card.base.md.padding}",
-                "verticalPadding": "{sem.card.base.md.padding}",
-                "fill": "{sem.color.surface.light}",
-                "boxShadow": "none",
-                "borderRadiusTopLeft": "{sem.card.base.md.borderRadiusTopLeft}",
-                "borderRadiusTopRight": "{sem.card.base.md.borderRadiusTopRight}",
-                "borderRadiusBottomRight": "{sem.card.base.md.borderRadiusBottomRight}",
-                "borderRadiusBottomLeft": "{sem.card.base.md.borderRadiusBottomLeft}",
-                "border": "{sem.border.active}"
-              },
-              "type": "composition",
-              "description": "({extends: 'comp.card.base.md.uncontrasted.active'})"
-            }
-          },
-          "danger": {
-            "container": {
-              "value": {
-                "itemSpacing": "{sem.toggle.toggleCard.wrapper.spacing}"
-              },
-              "type": "composition"
-            },
-            "card": {
-              "value": {
-                "horizontalPadding": "{sem.card.base.md.padding}",
-                "verticalPadding": "{sem.card.base.md.padding}",
-                "fill": "{sem.color.surface.light}",
-                "boxShadow": "none",
-                "borderRadiusTopLeft": "{sem.card.base.md.borderRadiusTopLeft}",
-                "borderRadiusTopRight": "{sem.card.base.md.borderRadiusTopRight}",
-                "borderRadiusBottomRight": "{sem.card.base.md.borderRadiusBottomRight}",
-                "borderRadiusBottomLeft": "{sem.card.base.md.borderRadiusBottomLeft}",
-                "border": "{sem.border.danger}"
-              },
-              "type": "composition",
-              "description": "({extends: 'comp.card.base.md.uncontrasted.danger'})"
-            }
-          },
-          "disabled": {
-            "container": {
-              "value": {
-                "itemSpacing": "{sem.toggle.toggleCard.wrapper.spacing}"
-              },
-              "type": "composition"
-            },
-            "card": {
-              "value": {
-                "horizontalPadding": "{sem.card.base.md.padding}",
-                "verticalPadding": "{sem.card.base.md.padding}",
-                "fill": "{sem.color.surface.light}",
-                "boxShadow": "none",
-                "borderRadiusTopLeft": "{sem.card.base.md.borderRadiusTopLeft}",
-                "borderRadiusTopRight": "{sem.card.base.md.borderRadiusTopRight}",
-                "borderRadiusBottomRight": "{sem.card.base.md.borderRadiusBottomRight}",
-                "borderRadiusBottomLeft": "{sem.card.base.md.borderRadiusBottomLeft}",
-                "border": "{sem.border.transparent}"
-              },
-              "type": "composition",
-              "description": "({extends: 'comp.card.base.md.uncontrasted.disabled'})"
-            }
-          },
-          "forced": {
-            "container": {
-              "value": {
-                "itemSpacing": "{sem.toggle.toggleCard.wrapper.spacing}"
-              },
-              "type": "composition"
-            },
-            "card": {
-              "value": {
-                "horizontalPadding": "{sem.card.base.md.padding}",
-                "verticalPadding": "{sem.card.base.md.padding}",
-                "fill": "{sem.color.surface.light}",
-                "boxShadow": "none",
-                "borderRadiusTopLeft": "{sem.card.base.md.borderRadiusTopLeft}",
-                "borderRadiusTopRight": "{sem.card.base.md.borderRadiusTopRight}",
-                "borderRadiusBottomRight": "{sem.card.base.md.borderRadiusBottomRight}",
-                "borderRadiusBottomLeft": "{sem.card.base.md.borderRadiusBottomLeft}",
-                "border": "{sem.border.forced}"
-              },
-              "type": "composition",
-              "description": "({extends: 'comp.card.base.md.uncontrasted.forced'})"
-            }
-          }
-        }
-      },
-      "checkbox": {
-        "default": {
-          "mark": {
-            "container": {
-              "value": {
-                "sizing": "{sem.toggle.base.mark.containerSize}",
-                "fill": "{sem.color.surface.sub}",
-                "border": "{sem.border.interactive.default}",
-                "borderRadius": "{sem.toggle.checkbox.mark.borderRadius}"
-              },
-              "type": "composition",
-              "description": "({extends: 'comp.toggle.base.default.mark.container'})"
-            }
-          }
-        },
-        "hover": {
-          "mark": {
-            "container": {
-              "value": {
-                "sizing": "{sem.toggle.base.mark.containerSize}",
-                "fill": "{sem.color.surface.sub}",
-                "border": "{sem.border.interactive.hover}",
-                "borderRadius": "{sem.toggle.checkbox.mark.borderRadius}"
-              },
-              "type": "composition",
-              "description": "({extends: 'comp.toggle.base.hover.mark.container'})"
-            }
-          }
-        },
-        "pressed": {
-          "mark": {
-            "container": {
-              "value": {
-                "sizing": "{sem.toggle.base.mark.containerSize}",
-                "fill": "{sem.color.surface.sub}",
-                "border": "none",
-                "borderRadius": "{sem.toggle.checkbox.mark.borderRadius}"
-              },
-              "type": "composition",
-              "description": "({extends: 'comp.toggle.base.pressed.mark.container'})"
-            }
-          }
-        },
-        "active": {
-          "mark": {
-            "container": {
-              "value": {
-                "sizing": "{sem.toggle.base.mark.containerSize}",
-                "fill": "{sem.color.surface.primary}",
-                "border": "none",
-                "borderRadius": "{sem.toggle.checkbox.mark.borderRadius}"
-              },
-              "type": "composition",
-              "description": "({extends: 'comp.toggle.base.active.mark.container'})"
-            }
-          }
-        },
-        "danger": {
-          "mark": {
-            "container": {
-              "value": {
-                "sizing": "{sem.toggle.base.mark.containerSize}",
-                "fill": "{sem.color.surface.sub}",
-                "border": "{sem.border.danger}",
-                "borderRadius": "{sem.toggle.checkbox.mark.borderRadius}"
-              },
-              "type": "composition",
-              "description": "({extends: 'comp.toggle.base.danger.mark.container'})"
-            }
-          }
-        },
-        "disabled": {
-          "mark": {
-            "container": {
-              "value": {
-                "sizing": "{sem.toggle.base.mark.containerSize}",
-                "fill": "{sem.color.surface.disabled}",
-                "border": "{sem.border.interactive.disabled}",
-                "borderRadius": "{sem.toggle.checkbox.mark.borderRadius}"
-              },
-              "type": "composition",
-              "description": "({extends: 'comp.toggle.base.disabled.mark.container'})"
-            }
-          }
-        },
-        "forced": {
-          "mark": {
-            "container": {
-              "value": {
-                "sizing": "{sem.toggle.base.mark.containerSize}",
-                "fill": "{sem.color.surface.black}",
-                "border": "none",
-                "borderRadius": "{sem.toggle.checkbox.mark.borderRadius}"
-              },
-              "type": "composition",
-              "description": "({extends: 'comp.toggle.base.forced.mark.container'})"
-            }
-          }
-        },
-        "indeterminate": {
-          "mark": {
-            "container": {
-              "value": {
-                "sizing": "{sem.toggle.base.mark.containerSize}",
-                "fill": "{sem.color.surface.primary}",
-                "border": "none",
-                "borderRadius": "{sem.toggle.checkbox.mark.borderRadius}"
-              },
-              "type": "composition",
-              "description": "({extends: 'comp.toggle.base.indeterminate.mark.container'})"
-            }
-          }
-        }
-      },
-      "radio": {
-        "default": {
-          "mark": {
-            "container": {
-              "value": {
-                "sizing": "{sem.toggle.base.mark.containerSize}",
-                "fill": "{sem.color.surface.sub}",
-                "border": "{sem.border.interactive.default}",
-                "borderRadius": "{sem.toggle.radio.mark.borderRadius}"
-              },
-              "type": "composition",
-              "description": "({extends: 'comp.toggle.base.default.mark.container'})"
-            },
-            "iconColor": {
-              "value": {
-                "border": "{sem.borderIcon.sm.light}",
-                "fill": "{sem.borderIcon.sm.light}"
-              },
-              "type": "composition",
-              "description": "({extends: 'comp.toggle.base.default.mark.iconColor'})"
-            }
-          }
-        },
-        "hover": {
-          "mark": {
-            "container": {
-              "value": {
-                "sizing": "{sem.toggle.base.mark.containerSize}",
-                "fill": "{sem.color.surface.sub}",
-                "border": "{sem.border.interactive.hover}",
-                "borderRadius": "{sem.toggle.radio.mark.borderRadius}"
-              },
-              "type": "composition",
-              "description": "({extends: 'comp.toggle.base.hover.mark.container'})"
-            },
-            "iconColor": {
-              "value": {
-                "border": "{sem.borderIcon.sm.light}",
-                "fill": "{sem.borderIcon.sm.light}"
-              },
-              "type": "composition",
-              "description": "({extends: 'comp.toggle.base.hover.mark.iconColor'})"
-            }
-          }
-        },
-        "pressed": {
-          "mark": {
-            "container": {
-              "value": {
-                "sizing": "{sem.toggle.base.mark.containerSize}",
-                "fill": "{sem.color.surface.sub}",
-                "border": "none",
-                "borderRadius": "{sem.toggle.radio.mark.borderRadius}"
-              },
-              "type": "composition",
-              "description": "({extends: 'comp.toggle.base.pressed.mark.container'})"
-            },
-            "iconColor": {
-              "value": {
-                "border": "{sem.borderIcon.sm.light}",
-                "fill": "{sem.borderIcon.sm.light}"
-              },
-              "type": "composition",
-              "description": "({extends: 'comp.toggle.base.pressed.mark.iconColor'})"
-            }
-          }
-        },
-        "active": {
-          "mark": {
-            "container": {
-              "value": {
-                "sizing": "{sem.toggle.base.mark.containerSize}",
-                "fill": "{sem.color.surface.primary}",
-                "border": "none",
-                "borderRadius": "{sem.toggle.radio.mark.borderRadius}"
-              },
-              "type": "composition",
-              "description": "({extends: 'comp.toggle.base.active.mark.container'})"
-            },
-            "iconColor": {
-              "value": {
-                "border": "{sem.borderIcon.sm.light}",
-                "fill": "{sem.borderIcon.sm.light}"
-              },
-              "type": "composition",
-              "description": "({extends: 'comp.toggle.base.active.mark.iconColor'})"
-            }
-          }
-        },
-        "danger": {
-          "mark": {
-            "container": {
-              "value": {
-                "sizing": "{sem.toggle.base.mark.containerSize}",
-                "fill": "{sem.color.surface.sub}",
-                "border": "{sem.border.danger}",
-                "borderRadius": "{sem.toggle.radio.mark.borderRadius}"
-              },
-              "type": "composition",
-              "description": "({extends: 'comp.toggle.base.danger.mark.container'})"
-            },
-            "iconColor": {
-              "value": {
-                "border": "{sem.borderIcon.sm.light}",
-                "fill": "{sem.borderIcon.sm.light}"
-              },
-              "type": "composition",
-              "description": "({extends: 'comp.toggle.base.danger.mark.iconColor'})"
-            }
-          }
-        },
-        "disabled": {
-          "mark": {
-            "container": {
-              "value": {
-                "sizing": "{sem.toggle.base.mark.containerSize}",
-                "fill": "{sem.color.surface.disabled}",
-                "border": "{sem.border.interactive.disabled}",
-                "borderRadius": "{sem.toggle.radio.mark.borderRadius}"
-              },
-              "type": "composition",
-              "description": "({extends: 'comp.toggle.base.disabled.mark.container'})"
-            },
-            "iconColor": {
-              "value": {
-                "border": "{sem.borderIcon.sm.light}",
-                "fill": "{sem.borderIcon.sm.light}"
-              },
-              "type": "composition",
-              "description": "({extends: 'comp.toggle.base.disabled.mark.iconColor'})"
-            }
-          }
-        },
-        "forced": {
-          "mark": {
-            "container": {
-              "value": {
-                "sizing": "{sem.toggle.base.mark.containerSize}",
-                "fill": "{sem.color.surface.black}",
-                "border": "none",
-                "borderRadius": "{sem.toggle.radio.mark.borderRadius}"
-              },
-              "type": "composition",
-              "description": "({extends: 'comp.toggle.base.forced.mark.container'})"
-            },
-            "iconColor": {
-              "value": {
-                "border": "{sem.borderIcon.sm.light}",
-                "fill": "{sem.borderIcon.sm.light}"
-              },
-              "type": "composition",
-              "description": "({extends: 'comp.toggle.base.forced.mark.iconColor'})"
-            }
           }
         }
       }
@@ -15361,6 +14272,256 @@
         }
       }
     },
+    "link": {
+      "default": {
+        "sm": {
+          "container": {
+            "value": {
+              "itemSpacing": "{sem.link.sm.container.spacing}"
+            },
+            "type": "composition"
+          },
+          "text": {
+            "value": {
+              "typography": "{sem.typography.textStyle.link.sm}",
+              "fill": "{sem.color.text.link.default}"
+            },
+            "type": "composition"
+          },
+          "icon": {
+            "size": {
+              "value": {
+                "width": "{sem.link.sm.icon.size}",
+                "height": "{sem.link.sm.icon.size}"
+              },
+              "type": "composition"
+            },
+            "color": {
+              "value": {
+                "border": "{sem.borderIcon.sm.interactive.default}"
+              },
+              "type": "composition"
+            }
+          }
+        },
+        "md": {
+          "container": {
+            "value": {
+              "itemSpacing": "{sem.link.md.container.spacing}"
+            },
+            "type": "composition"
+          },
+          "text": {
+            "value": {
+              "typography": "{sem.typography.textStyle.link.md}",
+              "fill": "{sem.color.text.link.default}"
+            },
+            "type": "composition"
+          },
+          "icon": {
+            "size": {
+              "value": {
+                "width": "{sem.link.md.icon.size}",
+                "height": "{sem.link.md.icon.size}"
+              },
+              "type": "composition"
+            },
+            "color": {
+              "value": {
+                "border": "{sem.borderIcon.sm.interactive.default}"
+              },
+              "type": "composition"
+            }
+          }
+        }
+      },
+      "hover": {
+        "sm": {
+          "container": {
+            "value": {
+              "itemSpacing": "{sem.link.sm.container.spacing}"
+            },
+            "type": "composition"
+          },
+          "text": {
+            "value": {
+              "typography": "{sem.typography.textStyle.link.sm}",
+              "fill": "{sem.color.text.link.hover}"
+            },
+            "type": "composition"
+          },
+          "icon": {
+            "size": {
+              "value": {
+                "width": "{sem.link.sm.icon.size}",
+                "height": "{sem.link.sm.icon.size}"
+              },
+              "type": "composition"
+            },
+            "color": {
+              "value": {
+                "border": "{sem.borderIcon.sm.interactive.hover}"
+              },
+              "type": "composition"
+            }
+          }
+        },
+        "md": {
+          "container": {
+            "value": {
+              "itemSpacing": "{sem.link.md.container.spacing}"
+            },
+            "type": "composition"
+          },
+          "text": {
+            "value": {
+              "typography": "{sem.typography.textStyle.link.md}",
+              "fill": "{sem.color.text.link.hover}"
+            },
+            "type": "composition"
+          },
+          "icon": {
+            "size": {
+              "value": {
+                "width": "{sem.link.md.icon.size}",
+                "height": "{sem.link.md.icon.size}"
+              },
+              "type": "composition"
+            },
+            "color": {
+              "value": {
+                "border": "{sem.borderIcon.sm.interactive.hover}"
+              },
+              "type": "composition"
+            }
+          }
+        }
+      },
+      "pressed": {
+        "sm": {
+          "container": {
+            "value": {
+              "itemSpacing": "{sem.link.sm.container.spacing}"
+            },
+            "type": "composition"
+          },
+          "text": {
+            "value": {
+              "typography": "{sem.typography.textStyle.link.sm}",
+              "fill": "{sem.color.text.link.pressed}"
+            },
+            "type": "composition"
+          },
+          "icon": {
+            "size": {
+              "value": {
+                "width": "{sem.link.sm.icon.size}",
+                "height": "{sem.link.sm.icon.size}"
+              },
+              "type": "composition"
+            },
+            "color": {
+              "value": {
+                "border": "{sem.borderIcon.sm.interactive.pressed}"
+              },
+              "type": "composition"
+            }
+          }
+        },
+        "md": {
+          "container": {
+            "value": {
+              "itemSpacing": "{sem.link.md.container.spacing}"
+            },
+            "type": "composition"
+          },
+          "text": {
+            "value": {
+              "typography": "{sem.typography.textStyle.link.md}",
+              "fill": "{sem.color.text.link.pressed}"
+            },
+            "type": "composition"
+          },
+          "icon": {
+            "size": {
+              "value": {
+                "width": "{sem.link.md.icon.size}",
+                "height": "{sem.link.md.icon.size}"
+              },
+              "type": "composition"
+            },
+            "color": {
+              "value": {
+                "border": "{sem.borderIcon.sm.interactive.pressed}"
+              },
+              "type": "composition"
+            }
+          }
+        }
+      },
+      "disabled": {
+        "sm": {
+          "container": {
+            "value": {
+              "itemSpacing": "{sem.link.sm.container.spacing}"
+            },
+            "type": "composition"
+          },
+          "text": {
+            "value": {
+              "typography": "{sem.typography.textStyle.link.sm}",
+              "fill": "{sem.color.text.link.disabled}"
+            },
+            "type": "composition"
+          },
+          "icon": {
+            "size": {
+              "value": {
+                "width": "{sem.link.sm.icon.size}",
+                "height": "{sem.link.sm.icon.size}"
+              },
+              "type": "composition"
+            },
+            "color": {
+              "value": {
+                "border": "{sem.borderIcon.sm.interactive.disabled}"
+              },
+              "type": "composition"
+            }
+          }
+        },
+        "md": {
+          "container": {
+            "value": {
+              "itemSpacing": "{sem.link.md.container.spacing}"
+            },
+            "type": "composition"
+          },
+          "text": {
+            "value": {
+              "typography": "{sem.typography.textStyle.link.md}",
+              "fill": "{sem.color.text.link.disabled}"
+            },
+            "type": "composition"
+          },
+          "icon": {
+            "size": {
+              "value": {
+                "width": "{sem.link.md.icon.size}",
+                "height": "{sem.link.md.icon.size}"
+              },
+              "type": "composition"
+            },
+            "color": {
+              "value": {
+                "border": "{sem.borderIcon.sm.interactive.disabled}"
+              },
+              "type": "composition"
+            }
+          }
+        }
+      }
+    },
     "misc": {
       "progressBar": {
         "sm": {
@@ -15407,149 +14568,1365 @@
         }
       }
     },
-    "chip": {
-      "default": {
+    "tag": {
+      "primary": {
         "container": {
           "value": {
-            "fill": "{sem.color.surface.interactive.sub.default}",
-            "border": "{sem.border.interactive.default}",
-            "itemSpacing": "{sem.chip.container.spacing}",
-            "borderRadius": "{sem.chip.container.borderRadius}",
-            "paddingLeft": "{sem.chip.container.paddingLeft}",
-            "paddingRight": "{sem.chip.container.paddingRight}",
-            "height": "{sem.chip.container.height}"
+            "borderRadius": "{sem.tag.container.borderRadius}",
+            "fill": "{sem.color.tag.primary}",
+            "verticalPadding": "{sem.tag.container.padding}",
+            "horizontalPadding": "{sem.tag.container.padding}",
+            "itemSpacing": "{sem.tag.container.spacing}"
           },
           "type": "composition"
         },
-        "icon": {
-          "color": {
-            "value": {
-              "border": "{sem.borderIcon.sm.default}"
-            },
-            "type": "composition"
-          },
-          "size": {
-            "value": {
-              "height": "{sem.chip.icon.size}",
-              "width": "{sem.chip.icon.size}"
-            },
-            "type": "composition"
-          }
-        },
-        "label": {
+        "text": {
           "value": {
-            "typography": "{sem.typography.textStyle.label.body.sm}",
-            "fill": "{sem.color.text.default}"
-          },
-          "type": "composition"
-        }
-      },
-      "hover": {
-        "container": {
-          "value": {
-            "fill": "{sem.color.surface.interactive.sub.hover}",
-            "border": "{sem.border.interactive.hover}",
-            "itemSpacing": "{sem.chip.container.spacing}",
-            "borderRadius": "{sem.chip.container.borderRadius}",
-            "paddingLeft": "{sem.chip.container.paddingLeft}",
-            "paddingRight": "{sem.chip.container.paddingRight}",
-            "height": "{sem.chip.container.height}"
-          },
-          "type": "composition"
-        },
-        "icon": {
-          "color": {
-            "value": {
-              "border": "{sem.borderIcon.sm.default}"
-            },
-            "type": "composition"
-          },
-          "size": {
-            "value": {
-              "height": "{sem.chip.icon.size}",
-              "width": "{sem.chip.icon.size}"
-            },
-            "type": "composition"
-          }
-        },
-        "label": {
-          "value": {
-            "typography": "{sem.typography.textStyle.label.body.sm}",
-            "fill": "{sem.color.text.default}"
-          },
-          "type": "composition"
-        }
-      },
-      "pressed": {
-        "container": {
-          "value": {
-            "fill": "{sem.color.surface.interactive.sub.pressed}",
-            "border": "{sem.border.interactive.pressed}",
-            "itemSpacing": "{sem.chip.container.spacing}",
-            "borderRadius": "{sem.chip.container.borderRadius}",
-            "paddingLeft": "{sem.chip.container.paddingLeft}",
-            "paddingRight": "{sem.chip.container.paddingRight}",
-            "height": "{sem.chip.container.height}"
-          },
-          "type": "composition"
-        },
-        "icon": {
-          "color": {
-            "value": {
-              "border": "{sem.borderIcon.sm.default}"
-            },
-            "type": "composition"
-          },
-          "size": {
-            "value": {
-              "height": "{sem.chip.icon.size}",
-              "width": "{sem.chip.icon.size}"
-            },
-            "type": "composition"
-          }
-        },
-        "label": {
-          "value": {
-            "typography": "{sem.typography.textStyle.label.body.sm}",
-            "fill": "{sem.color.text.default}"
-          },
-          "type": "composition"
-        }
-      },
-      "active": {
-        "container": {
-          "value": {
-            "fill": "{sem.color.surface.interactive.sub.active}",
-            "border": "none",
-            "itemSpacing": "{sem.chip.container.spacing}",
-            "borderRadius": "{sem.chip.container.borderRadius}",
-            "paddingLeft": "{sem.chip.container.paddingLeft}",
-            "paddingRight": "{sem.chip.container.paddingRight}",
-            "height": "{sem.chip.container.height}"
-          },
-          "type": "composition"
-        },
-        "icon": {
-          "color": {
-            "value": {
-              "border": "{sem.borderIcon.sm.light}"
-            },
-            "type": "composition"
-          },
-          "size": {
-            "value": {
-              "height": "{sem.chip.icon.size}",
-              "width": "{sem.chip.icon.size}"
-            },
-            "type": "composition"
-          }
-        },
-        "label": {
-          "value": {
-            "typography": "{sem.typography.textStyle.label.body.sm}",
+            "typography": "{sem.typography.textStyle.label.button.sm}",
+            "fontWeight": "{ref.typography.fontWeight.700}",
             "fill": "{sem.color.text.light}"
           },
           "type": "composition"
+        }
+      },
+      "grey": {
+        "container": {
+          "value": {
+            "borderRadius": "{sem.tag.container.borderRadius}",
+            "fill": "{sem.color.tag.grey}",
+            "verticalPadding": "{sem.tag.container.padding}",
+            "horizontalPadding": "{sem.tag.container.padding}",
+            "itemSpacing": "{sem.tag.container.spacing}"
+          },
+          "type": "composition"
+        },
+        "text": {
+          "value": {
+            "typography": "{sem.typography.textStyle.label.button.sm}",
+            "fontWeight": "{ref.typography.fontWeight.700}",
+            "fill": "{sem.color.text.light}"
+          },
+          "type": "composition"
+        }
+      },
+      "greyLight": {
+        "container": {
+          "value": {
+            "borderRadius": "{sem.tag.container.borderRadius}",
+            "fill": "{sem.color.tag.greyLight}",
+            "verticalPadding": "{sem.tag.container.padding}",
+            "horizontalPadding": "{sem.tag.container.padding}",
+            "itemSpacing": "{sem.tag.container.spacing}"
+          },
+          "type": "composition"
+        },
+        "text": {
+          "value": {
+            "typography": "{sem.typography.textStyle.label.button.sm}",
+            "fontWeight": "{ref.typography.fontWeight.700}",
+            "fill": "{sem.color.text.dark}"
+          },
+          "type": "composition"
+        }
+      },
+      "blue": {
+        "container": {
+          "value": {
+            "borderRadius": "{sem.tag.container.borderRadius}",
+            "fill": "{sem.color.tag.blue}",
+            "verticalPadding": "{sem.tag.container.padding}",
+            "horizontalPadding": "{sem.tag.container.padding}",
+            "itemSpacing": "{sem.tag.container.spacing}"
+          },
+          "type": "composition"
+        },
+        "text": {
+          "value": {
+            "typography": "{sem.typography.textStyle.label.button.sm}",
+            "fontWeight": "{ref.typography.fontWeight.700}",
+            "fill": "{sem.color.text.light}"
+          },
+          "type": "composition"
+        }
+      },
+      "green": {
+        "container": {
+          "value": {
+            "borderRadius": "{sem.tag.container.borderRadius}",
+            "fill": "{sem.color.tag.green}",
+            "verticalPadding": "{sem.tag.container.padding}",
+            "horizontalPadding": "{sem.tag.container.padding}",
+            "itemSpacing": "{sem.tag.container.spacing}"
+          },
+          "type": "composition"
+        },
+        "text": {
+          "value": {
+            "typography": "{sem.typography.textStyle.label.button.sm}",
+            "fontWeight": "{ref.typography.fontWeight.700}",
+            "fill": "{sem.color.text.light}"
+          },
+          "type": "composition"
+        }
+      },
+      "greenDark": {
+        "container": {
+          "value": {
+            "borderRadius": "{sem.tag.container.borderRadius}",
+            "fill": "{sem.color.tag.greenDark}",
+            "verticalPadding": "{sem.tag.container.padding}",
+            "horizontalPadding": "{sem.tag.container.padding}",
+            "itemSpacing": "{sem.tag.container.spacing}"
+          },
+          "type": "composition"
+        },
+        "text": {
+          "value": {
+            "typography": "{sem.typography.textStyle.label.button.sm}",
+            "fontWeight": "{ref.typography.fontWeight.700}",
+            "fill": "{sem.color.text.light}"
+          },
+          "type": "composition"
+        }
+      },
+      "red": {
+        "container": {
+          "value": {
+            "borderRadius": "{sem.tag.container.borderRadius}",
+            "fill": "{sem.color.tag.red}",
+            "verticalPadding": "{sem.tag.container.padding}",
+            "horizontalPadding": "{sem.tag.container.padding}",
+            "itemSpacing": "{sem.tag.container.spacing}"
+          },
+          "type": "composition"
+        },
+        "text": {
+          "value": {
+            "typography": "{sem.typography.textStyle.label.button.sm}",
+            "fontWeight": "{ref.typography.fontWeight.700}",
+            "fill": "{sem.color.text.light}"
+          },
+          "type": "composition"
+        }
+      },
+      "redDark": {
+        "container": {
+          "value": {
+            "borderRadius": "{sem.tag.container.borderRadius}",
+            "fill": "{sem.color.tag.redDark}",
+            "verticalPadding": "{sem.tag.container.padding}",
+            "horizontalPadding": "{sem.tag.container.padding}",
+            "itemSpacing": "{sem.tag.container.spacing}"
+          },
+          "type": "composition"
+        },
+        "text": {
+          "value": {
+            "typography": "{sem.typography.textStyle.label.button.sm}",
+            "fontWeight": "{ref.typography.fontWeight.700}",
+            "fill": "{sem.color.text.light}"
+          },
+          "type": "composition"
+        }
+      },
+      "redLight": {
+        "container": {
+          "value": {
+            "borderRadius": "{sem.tag.container.borderRadius}",
+            "fill": "{sem.color.tag.redLight}",
+            "verticalPadding": "{sem.tag.container.padding}",
+            "horizontalPadding": "{sem.tag.container.padding}",
+            "itemSpacing": "{sem.tag.container.spacing}"
+          },
+          "type": "composition"
+        },
+        "text": {
+          "value": {
+            "typography": "{sem.typography.textStyle.label.button.sm}",
+            "fontWeight": "{ref.typography.fontWeight.700}",
+            "fill": "{sem.color.text.danger}"
+          },
+          "type": "composition"
+        }
+      }
+    },
+    "toggle": {
+      "base": {
+        "default": {
+          "container": {
+            "value": {
+              "itemSpacing": "{sem.toggle.base.container.spacing}",
+              "fill": "none",
+              "borderRadius": "{sem.toggle.base.container.borderRadius}"
+            },
+            "type": "composition"
+          },
+          "mark": {
+            "container": {
+              "value": {
+                "sizing": "{sem.toggle.base.mark.containerSize}",
+                "fill": "{sem.color.surface.sub}",
+                "border": "{sem.border.interactive.default}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.toggle.base.mark.iconSize}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "border": "{sem.borderIcon.sm.light}"
+              },
+              "type": "composition"
+            }
+          },
+          "text": {
+            "container": {
+              "value": {
+                "itemSpacing": "{sem.toggle.base.text.container.spacing}",
+                "paddingTop": "{sem.toggle.base.text.container.paddingTop}",
+                "paddingRight": "{sem.toggle.base.text.container.paddingRight}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.body.md}",
+                "fill": "{sem.color.text.dark}"
+              },
+              "type": "composition"
+            },
+            "description": {
+              "value": {
+                "typography": "{sem.typography.textStyle.paragraph.md.default}",
+                "fill": "{sem.color.text.default}"
+              },
+              "type": "composition"
+            }
+          }
+        },
+        "hover": {
+          "container": {
+            "value": {
+              "itemSpacing": "{sem.toggle.base.container.spacing}",
+              "fill": "{sem.color.surface.interactive.hover}",
+              "borderRadius": "{sem.toggle.base.container.borderRadius}"
+            },
+            "type": "composition"
+          },
+          "mark": {
+            "container": {
+              "value": {
+                "sizing": "{sem.toggle.base.mark.containerSize}",
+                "fill": "{sem.color.surface.sub}",
+                "border": "{sem.border.interactive.hover}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.toggle.base.mark.iconSize}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "border": "{sem.borderIcon.sm.light}"
+              },
+              "type": "composition"
+            }
+          },
+          "text": {
+            "container": {
+              "value": {
+                "itemSpacing": "{sem.toggle.base.text.container.spacing}",
+                "paddingTop": "{sem.toggle.base.text.container.paddingTop}",
+                "paddingRight": "{sem.toggle.base.text.container.paddingRight}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.body.md}",
+                "fill": "{sem.color.text.dark}"
+              },
+              "type": "composition"
+            },
+            "description": {
+              "value": {
+                "typography": "{sem.typography.textStyle.paragraph.md.default}",
+                "fill": "{sem.color.text.default}"
+              },
+              "type": "composition"
+            }
+          }
+        },
+        "pressed": {
+          "container": {
+            "value": {
+              "itemSpacing": "{sem.toggle.base.container.spacing}",
+              "fill": "{sem.color.surface.interactive.pressed}",
+              "borderRadius": "{sem.toggle.base.container.borderRadius}"
+            },
+            "type": "composition"
+          },
+          "mark": {
+            "container": {
+              "value": {
+                "sizing": "{sem.toggle.base.mark.containerSize}",
+                "fill": "{sem.color.surface.sub}",
+                "border": "none"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.toggle.base.mark.iconSize}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "border": "{sem.borderIcon.sm.light}"
+              },
+              "type": "composition"
+            }
+          },
+          "text": {
+            "container": {
+              "value": {
+                "itemSpacing": "{sem.toggle.base.text.container.spacing}",
+                "paddingTop": "{sem.toggle.base.text.container.paddingTop}",
+                "paddingRight": "{sem.toggle.base.text.container.paddingRight}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.body.md}",
+                "fill": "{sem.color.text.dark}"
+              },
+              "type": "composition"
+            },
+            "description": {
+              "value": {
+                "typography": "{sem.typography.textStyle.paragraph.md.default}",
+                "fill": "{sem.color.text.default}"
+              },
+              "type": "composition"
+            }
+          }
+        },
+        "active": {
+          "container": {
+            "value": {
+              "itemSpacing": "{sem.toggle.base.container.spacing}",
+              "fill": "none",
+              "borderRadius": "{sem.toggle.base.container.borderRadius}"
+            },
+            "type": "composition"
+          },
+          "mark": {
+            "container": {
+              "value": {
+                "sizing": "{sem.toggle.base.mark.containerSize}",
+                "fill": "{sem.color.surface.primary}",
+                "border": "none"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.toggle.base.mark.iconSize}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "border": "{sem.borderIcon.sm.light}"
+              },
+              "type": "composition"
+            }
+          },
+          "text": {
+            "container": {
+              "value": {
+                "itemSpacing": "{sem.toggle.base.text.container.spacing}",
+                "paddingTop": "{sem.toggle.base.text.container.paddingTop}",
+                "paddingRight": "{sem.toggle.base.text.container.paddingRight}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.body.md}",
+                "fill": "{sem.color.text.dark}"
+              },
+              "type": "composition"
+            },
+            "description": {
+              "value": {
+                "typography": "{sem.typography.textStyle.paragraph.md.default}",
+                "fill": "{sem.color.text.default}"
+              },
+              "type": "composition"
+            }
+          }
+        },
+        "danger": {
+          "container": {
+            "value": {
+              "itemSpacing": "{sem.toggle.base.container.spacing}",
+              "fill": "none",
+              "borderRadius": "{sem.toggle.base.container.borderRadius}"
+            },
+            "type": "composition"
+          },
+          "mark": {
+            "container": {
+              "value": {
+                "sizing": "{sem.toggle.base.mark.containerSize}",
+                "fill": "{sem.color.surface.sub}",
+                "border": "{sem.border.danger}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.toggle.base.mark.iconSize}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "border": "{sem.borderIcon.sm.light}"
+              },
+              "type": "composition"
+            }
+          },
+          "text": {
+            "container": {
+              "value": {
+                "itemSpacing": "{sem.toggle.base.text.container.spacing}",
+                "paddingTop": "{sem.toggle.base.text.container.paddingTop}",
+                "paddingRight": "{sem.toggle.base.text.container.paddingRight}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.body.md}",
+                "fill": "{sem.color.text.dark}"
+              },
+              "type": "composition"
+            },
+            "description": {
+              "value": {
+                "typography": "{sem.typography.textStyle.paragraph.md.default}",
+                "fill": "{sem.color.text.default}"
+              },
+              "type": "composition"
+            }
+          }
+        },
+        "disabled": {
+          "container": {
+            "value": {
+              "itemSpacing": "{sem.toggle.base.container.spacing}",
+              "fill": "none",
+              "borderRadius": "{sem.toggle.base.container.borderRadius}"
+            },
+            "type": "composition"
+          },
+          "mark": {
+            "container": {
+              "value": {
+                "sizing": "{sem.toggle.base.mark.containerSize}",
+                "fill": "{sem.color.surface.disabled}",
+                "border": "{sem.border.interactive.disabled}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.toggle.base.mark.iconSize}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "border": "{sem.borderIcon.sm.light}"
+              },
+              "type": "composition"
+            }
+          },
+          "text": {
+            "container": {
+              "value": {
+                "itemSpacing": "{sem.toggle.base.text.container.spacing}",
+                "paddingTop": "{sem.toggle.base.text.container.paddingTop}",
+                "paddingRight": "{sem.toggle.base.text.container.paddingRight}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.body.md}",
+                "fill": "{sem.color.text.dark}"
+              },
+              "type": "composition"
+            },
+            "description": {
+              "value": {
+                "typography": "{sem.typography.textStyle.paragraph.md.default}",
+                "fill": "{sem.color.text.default}"
+              },
+              "type": "composition"
+            }
+          }
+        },
+        "forced": {
+          "container": {
+            "value": {
+              "itemSpacing": "{sem.toggle.base.container.spacing}",
+              "fill": "none",
+              "borderRadius": "{sem.toggle.base.container.borderRadius}"
+            },
+            "type": "composition"
+          },
+          "mark": {
+            "container": {
+              "value": {
+                "sizing": "{sem.toggle.base.mark.containerSize}",
+                "fill": "{sem.color.surface.black}",
+                "border": "none"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.toggle.base.mark.iconSize}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "border": "{sem.borderIcon.sm.light}"
+              },
+              "type": "composition"
+            }
+          },
+          "text": {
+            "container": {
+              "value": {
+                "itemSpacing": "{sem.toggle.base.text.container.spacing}",
+                "paddingTop": "{sem.toggle.base.text.container.paddingTop}",
+                "paddingRight": "{sem.toggle.base.text.container.paddingRight}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.body.md}",
+                "fill": "{sem.color.text.dark}"
+              },
+              "type": "composition"
+            },
+            "description": {
+              "value": {
+                "typography": "{sem.typography.textStyle.paragraph.md.default}",
+                "fill": "{sem.color.text.default}"
+              },
+              "type": "composition"
+            }
+          }
+        },
+        "indeterminate": {
+          "container": {
+            "value": {
+              "itemSpacing": "{sem.toggle.base.container.spacing}",
+              "fill": "none",
+              "borderRadius": "{sem.toggle.base.container.borderRadius}"
+            },
+            "type": "composition"
+          },
+          "mark": {
+            "container": {
+              "value": {
+                "sizing": "{sem.toggle.base.mark.containerSize}",
+                "fill": "{sem.color.surface.primary}",
+                "border": "none"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{sem.toggle.base.mark.iconSize}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "border": "{sem.borderIcon.sm.light}"
+              },
+              "type": "composition"
+            }
+          },
+          "text": {
+            "container": {
+              "value": {
+                "itemSpacing": "{sem.toggle.base.text.container.spacing}",
+                "paddingTop": "{sem.toggle.base.text.container.paddingTop}",
+                "paddingRight": "{sem.toggle.base.text.container.paddingRight}"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.body.md}",
+                "fill": "{sem.color.text.dark}"
+              },
+              "type": "composition"
+            },
+            "description": {
+              "value": {
+                "typography": "{sem.typography.textStyle.paragraph.md.default}",
+                "fill": "{sem.color.text.default}"
+              },
+              "type": "composition"
+            }
+          }
+        }
+      },
+      "checkbox": {
+        "default": {
+          "mark": {
+            "container": {
+              "value": {
+                "sizing": "{sem.toggle.base.mark.containerSize}",
+                "fill": "{sem.color.surface.sub}",
+                "border": "{sem.border.interactive.default}",
+                "borderRadius": "{sem.toggle.checkbox.mark.borderRadius}"
+              },
+              "type": "composition",
+              "description": "({extends: 'comp.toggle.base.default.mark.container'})"
+            }
+          }
+        },
+        "hover": {
+          "mark": {
+            "container": {
+              "value": {
+                "sizing": "{sem.toggle.base.mark.containerSize}",
+                "fill": "{sem.color.surface.sub}",
+                "border": "{sem.border.interactive.hover}",
+                "borderRadius": "{sem.toggle.checkbox.mark.borderRadius}"
+              },
+              "type": "composition",
+              "description": "({extends: 'comp.toggle.base.hover.mark.container'})"
+            }
+          }
+        },
+        "pressed": {
+          "mark": {
+            "container": {
+              "value": {
+                "sizing": "{sem.toggle.base.mark.containerSize}",
+                "fill": "{sem.color.surface.sub}",
+                "border": "none",
+                "borderRadius": "{sem.toggle.checkbox.mark.borderRadius}"
+              },
+              "type": "composition",
+              "description": "({extends: 'comp.toggle.base.pressed.mark.container'})"
+            }
+          }
+        },
+        "active": {
+          "mark": {
+            "container": {
+              "value": {
+                "sizing": "{sem.toggle.base.mark.containerSize}",
+                "fill": "{sem.color.surface.primary}",
+                "border": "none",
+                "borderRadius": "{sem.toggle.checkbox.mark.borderRadius}"
+              },
+              "type": "composition",
+              "description": "({extends: 'comp.toggle.base.active.mark.container'})"
+            }
+          }
+        },
+        "danger": {
+          "mark": {
+            "container": {
+              "value": {
+                "sizing": "{sem.toggle.base.mark.containerSize}",
+                "fill": "{sem.color.surface.sub}",
+                "border": "{sem.border.danger}",
+                "borderRadius": "{sem.toggle.checkbox.mark.borderRadius}"
+              },
+              "type": "composition",
+              "description": "({extends: 'comp.toggle.base.danger.mark.container'})"
+            }
+          }
+        },
+        "disabled": {
+          "mark": {
+            "container": {
+              "value": {
+                "sizing": "{sem.toggle.base.mark.containerSize}",
+                "fill": "{sem.color.surface.disabled}",
+                "border": "{sem.border.interactive.disabled}",
+                "borderRadius": "{sem.toggle.checkbox.mark.borderRadius}"
+              },
+              "type": "composition",
+              "description": "({extends: 'comp.toggle.base.disabled.mark.container'})"
+            }
+          }
+        },
+        "forced": {
+          "mark": {
+            "container": {
+              "value": {
+                "sizing": "{sem.toggle.base.mark.containerSize}",
+                "fill": "{sem.color.surface.black}",
+                "border": "none",
+                "borderRadius": "{sem.toggle.checkbox.mark.borderRadius}"
+              },
+              "type": "composition",
+              "description": "({extends: 'comp.toggle.base.forced.mark.container'})"
+            }
+          }
+        },
+        "indeterminate": {
+          "mark": {
+            "container": {
+              "value": {
+                "sizing": "{sem.toggle.base.mark.containerSize}",
+                "fill": "{sem.color.surface.primary}",
+                "border": "none",
+                "borderRadius": "{sem.toggle.checkbox.mark.borderRadius}"
+              },
+              "type": "composition",
+              "description": "({extends: 'comp.toggle.base.indeterminate.mark.container'})"
+            }
+          }
+        }
+      },
+      "radio": {
+        "default": {
+          "mark": {
+            "container": {
+              "value": {
+                "sizing": "{sem.toggle.base.mark.containerSize}",
+                "fill": "{sem.color.surface.sub}",
+                "border": "{sem.border.interactive.default}",
+                "borderRadius": "{sem.toggle.radio.mark.borderRadius}"
+              },
+              "type": "composition",
+              "description": "({extends: 'comp.toggle.base.default.mark.container'})"
+            },
+            "iconColor": {
+              "value": {
+                "border": "{sem.borderIcon.sm.light}",
+                "fill": "{sem.borderIcon.sm.light}"
+              },
+              "type": "composition",
+              "description": "({extends: 'comp.toggle.base.default.mark.iconColor'})"
+            }
+          }
+        },
+        "hover": {
+          "mark": {
+            "container": {
+              "value": {
+                "sizing": "{sem.toggle.base.mark.containerSize}",
+                "fill": "{sem.color.surface.sub}",
+                "border": "{sem.border.interactive.hover}",
+                "borderRadius": "{sem.toggle.radio.mark.borderRadius}"
+              },
+              "type": "composition",
+              "description": "({extends: 'comp.toggle.base.hover.mark.container'})"
+            },
+            "iconColor": {
+              "value": {
+                "border": "{sem.borderIcon.sm.light}",
+                "fill": "{sem.borderIcon.sm.light}"
+              },
+              "type": "composition",
+              "description": "({extends: 'comp.toggle.base.hover.mark.iconColor'})"
+            }
+          }
+        },
+        "pressed": {
+          "mark": {
+            "container": {
+              "value": {
+                "sizing": "{sem.toggle.base.mark.containerSize}",
+                "fill": "{sem.color.surface.sub}",
+                "border": "none",
+                "borderRadius": "{sem.toggle.radio.mark.borderRadius}"
+              },
+              "type": "composition",
+              "description": "({extends: 'comp.toggle.base.pressed.mark.container'})"
+            },
+            "iconColor": {
+              "value": {
+                "border": "{sem.borderIcon.sm.light}",
+                "fill": "{sem.borderIcon.sm.light}"
+              },
+              "type": "composition",
+              "description": "({extends: 'comp.toggle.base.pressed.mark.iconColor'})"
+            }
+          }
+        },
+        "active": {
+          "mark": {
+            "container": {
+              "value": {
+                "sizing": "{sem.toggle.base.mark.containerSize}",
+                "fill": "{sem.color.surface.primary}",
+                "border": "none",
+                "borderRadius": "{sem.toggle.radio.mark.borderRadius}"
+              },
+              "type": "composition",
+              "description": "({extends: 'comp.toggle.base.active.mark.container'})"
+            },
+            "iconColor": {
+              "value": {
+                "border": "{sem.borderIcon.sm.light}",
+                "fill": "{sem.borderIcon.sm.light}"
+              },
+              "type": "composition",
+              "description": "({extends: 'comp.toggle.base.active.mark.iconColor'})"
+            }
+          }
+        },
+        "danger": {
+          "mark": {
+            "container": {
+              "value": {
+                "sizing": "{sem.toggle.base.mark.containerSize}",
+                "fill": "{sem.color.surface.sub}",
+                "border": "{sem.border.danger}",
+                "borderRadius": "{sem.toggle.radio.mark.borderRadius}"
+              },
+              "type": "composition",
+              "description": "({extends: 'comp.toggle.base.danger.mark.container'})"
+            },
+            "iconColor": {
+              "value": {
+                "border": "{sem.borderIcon.sm.light}",
+                "fill": "{sem.borderIcon.sm.light}"
+              },
+              "type": "composition",
+              "description": "({extends: 'comp.toggle.base.danger.mark.iconColor'})"
+            }
+          }
+        },
+        "disabled": {
+          "mark": {
+            "container": {
+              "value": {
+                "sizing": "{sem.toggle.base.mark.containerSize}",
+                "fill": "{sem.color.surface.disabled}",
+                "border": "{sem.border.interactive.disabled}",
+                "borderRadius": "{sem.toggle.radio.mark.borderRadius}"
+              },
+              "type": "composition",
+              "description": "({extends: 'comp.toggle.base.disabled.mark.container'})"
+            },
+            "iconColor": {
+              "value": {
+                "border": "{sem.borderIcon.sm.light}",
+                "fill": "{sem.borderIcon.sm.light}"
+              },
+              "type": "composition",
+              "description": "({extends: 'comp.toggle.base.disabled.mark.iconColor'})"
+            }
+          }
+        },
+        "forced": {
+          "mark": {
+            "container": {
+              "value": {
+                "sizing": "{sem.toggle.base.mark.containerSize}",
+                "fill": "{sem.color.surface.black}",
+                "border": "none",
+                "borderRadius": "{sem.toggle.radio.mark.borderRadius}"
+              },
+              "type": "composition",
+              "description": "({extends: 'comp.toggle.base.forced.mark.container'})"
+            },
+            "iconColor": {
+              "value": {
+                "border": "{sem.borderIcon.sm.light}",
+                "fill": "{sem.borderIcon.sm.light}"
+              },
+              "type": "composition",
+              "description": "({extends: 'comp.toggle.base.forced.mark.iconColor'})"
+            }
+          }
+        }
+      },
+      "switch": {
+        "switch": {
+          "button": {
+            "container": {
+              "value": {
+                "fill": "{sem.color.surface.light}",
+                "borderRadius": "{ref.borderRadius.9999}",
+                "sizing": "{ref.sizing.200}"
+              },
+              "type": "composition"
+            },
+            "iconSize": {
+              "value": {
+                "sizing": "{ref.sizing.100}"
+              },
+              "type": "composition"
+            },
+            "iconColor": {
+              "value": {
+                "borderColor": "{sem.color.icon.default}"
+              },
+              "type": "composition"
+            }
+          },
+          "container": {
+            "default": {
+              "value": {
+                "borderRadius": "{ref.borderRadius.500}",
+                "fill": "{sem.color.surface.dark}",
+                "verticalPadding": "{ref.spacing.25}",
+                "horizontalPadding": "{ref.spacing.25}",
+                "layoutAlignItems": "center left",
+                "layoutMode": "horizontal",
+                "width": "{ref.sizing.500}"
+              },
+              "type": "composition"
+            },
+            "active": {
+              "value": {
+                "borderRadius": "{ref.borderRadius.500}",
+                "fill": "{sem.color.surface.success}",
+                "verticalPadding": "{ref.spacing.25}",
+                "horizontalPadding": "{ref.spacing.25}",
+                "layoutAlignItems": "center right",
+                "layoutMode": "horizontal",
+                "width": "{ref.sizing.500}"
+              },
+              "type": "composition"
+            },
+            "disabled": {
+              "value": {
+                "borderRadius": "{ref.borderRadius.500}",
+                "fill": "{sem.color.surface.disabled}",
+                "verticalPadding": "{ref.spacing.25}",
+                "horizontalPadding": "{ref.spacing.25}",
+                "layoutAlignItems": "center left",
+                "layoutMode": "horizontal",
+                "width": "{ref.sizing.500}"
+              },
+              "type": "composition"
+            }
+          }
+        },
+        "txt": {
+          "container": {
+            "value": {
+              "itemSpacing": "{ref.spacing.50}",
+              "paddingTop": "{ref.spacing.100}"
+            },
+            "type": "composition"
+          },
+          "title": {
+            "value": {
+              "typography": "{sem.typography.textStyle.label.body.md}",
+              "fill": "{sem.color.text.dark}"
+            },
+            "type": "composition"
+          },
+          "description": {
+            "value": {
+              "typography": "{sem.typography.textStyle.paragraph.md.default}",
+              "fill": "{sem.color.text.default}"
+            },
+            "type": "composition"
+          }
+        },
+        "container": {
+          "spacer": {
+            "value": {
+              "itemSpacing": "{ref.spacing.100}",
+              "layoutMode": "horizontal"
+            },
+            "type": "composition"
+          }
+        }
+      },
+      "toggleCard": {
+        "content": {
+          "sm": {
+            "container": {
+              "value": {
+                "itemSpacing": "{sem.toggle.toggleCard.content.sm.spacing}",
+                "layoutMode": "horizontal"
+              },
+              "type": "composition"
+            },
+            "icon": {
+              "iconSize": {
+                "value": {
+                  "sizing": "{sem.toggle.toggleCard.content.sm.iconSize}"
+                },
+                "type": "composition"
+              },
+              "iconColor": {
+                "value": {
+                  "border": "{sem.borderIcon.sm.dark}"
+                },
+                "type": "composition"
+              }
+            },
+            "rightSide": {
+              "container": {
+                "value": {
+                  "itemSpacing": "{sem.toggle.toggleCard.content.sm.rightSide.spacing}",
+                  "horizontalResizing": "fill"
+                },
+                "type": "composition"
+              },
+              "top": {
+                "label": {
+                  "container": {
+                    "value": {
+                      "paddingTop": "{sem.toggle.toggleCard.content.sm.rightSide.top.container.label.paddingTop}",
+                      "horizontalResizing": "fill"
+                    },
+                    "type": "composition"
+                  },
+                  "text": {
+                    "value": {
+                      "typography": "{sem.typography.textStyle.label.body.md}",
+                      "fill": "{sem.color.text.dark}"
+                    },
+                    "type": "composition"
+                  }
+                },
+                "container": {
+                  "value": {
+                    "itemSpacing": "{sem.toggle.toggleCard.content.sm.rightSide.top.container.spacing}",
+                    "layoutMode": "horizontal",
+                    "horizontalResizing": "fill"
+                  },
+                  "type": "composition"
+                }
+              },
+              "description": {
+                "value": {
+                  "typography": "{sem.typography.textStyle.paragraph.sm.default}",
+                  "fill": "{sem.color.text.default}"
+                },
+                "type": "composition"
+              }
+            }
+          },
+          "md": {
+            "container": {
+              "value": {
+                "itemSpacing": "{sem.toggle.toggleCard.content.md.spacing}",
+                "layoutMode": "horizontal"
+              },
+              "type": "composition"
+            },
+            "icon": {
+              "iconSize": {
+                "value": {
+                  "sizing": "{sem.toggle.toggleCard.content.md.iconSize}"
+                },
+                "type": "composition"
+              },
+              "iconColor": {
+                "value": {
+                  "border": "{sem.borderIcon.sm.dark}"
+                },
+                "type": "composition"
+              }
+            },
+            "rightSide": {
+              "container": {
+                "value": {
+                  "itemSpacing": "{sem.toggle.toggleCard.content.md.rightSide.spacing}",
+                  "horizontalResizing": "fill"
+                },
+                "type": "composition"
+              },
+              "top": {
+                "label": {
+                  "container": {
+                    "value": {
+                      "paddingTop": "{sem.toggle.toggleCard.content.md.rightSide.top.container.label.paddingTop}",
+                      "horizontalResizing": "fill"
+                    },
+                    "type": "composition"
+                  },
+                  "text": {
+                    "value": {
+                      "typography": "{sem.typography.textStyle.label.body.md}",
+                      "fill": "{sem.color.text.dark}"
+                    },
+                    "type": "composition"
+                  }
+                },
+                "container": {
+                  "value": {
+                    "itemSpacing": "{sem.toggle.toggleCard.content.md.rightSide.top.container.spacing}",
+                    "layoutMode": "horizontal",
+                    "horizontalResizing": "fill"
+                  },
+                  "type": "composition"
+                }
+              },
+              "description": {
+                "value": {
+                  "typography": "{sem.typography.textStyle.paragraph.sm.default}",
+                  "fill": "{sem.color.text.default}"
+                },
+                "type": "composition"
+              }
+            }
+          },
+          "lg": {
+            "container": {
+              "value": {
+                "itemSpacing": "{sem.toggle.toggleCard.content.lg.spacing}",
+                "layoutMode": "horizontal"
+              },
+              "type": "composition"
+            },
+            "icon": {
+              "iconSize": {
+                "value": {
+                  "sizing": "{sem.toggle.toggleCard.content.lg.iconSize}"
+                },
+                "type": "composition"
+              },
+              "iconColor": {
+                "value": {
+                  "border": "{sem.borderIcon.sm.dark}"
+                },
+                "type": "composition"
+              }
+            },
+            "rightSide": {
+              "container": {
+                "value": {
+                  "itemSpacing": "{sem.toggle.toggleCard.content.lg.rightSide.spacing}",
+                  "horizontalResizing": "fill"
+                },
+                "type": "composition"
+              },
+              "top": {
+                "label": {
+                  "container": {
+                    "value": {
+                      "paddingTop": "{sem.toggle.toggleCard.content.lg.rightSide.top.container.label.paddingTop}",
+                      "horizontalResizing": "fill"
+                    },
+                    "type": "composition"
+                  },
+                  "text": {
+                    "value": {
+                      "typography": "{sem.typography.textStyle.label.body.md}",
+                      "fill": "{sem.color.text.dark}"
+                    },
+                    "type": "composition"
+                  }
+                },
+                "container": {
+                  "value": {
+                    "itemSpacing": "{sem.toggle.toggleCard.content.lg.rightSide.top.container.spacing}",
+                    "layoutMode": "horizontal",
+                    "horizontalResizing": "fill"
+                  },
+                  "type": "composition"
+                }
+              },
+              "description": {
+                "value": {
+                  "typography": "{sem.typography.textStyle.paragraph.sm.default}",
+                  "fill": "{sem.color.text.default}"
+                },
+                "type": "composition"
+              }
+            }
+          }
+        },
+        "wrapper": {
+          "default": {
+            "container": {
+              "value": {
+                "itemSpacing": "{sem.toggle.toggleCard.wrapper.spacing}"
+              },
+              "type": "composition"
+            },
+            "card": {
+              "value": {
+                "horizontalPadding": "{sem.card.base.md.padding}",
+                "verticalPadding": "{sem.card.base.md.padding}",
+                "fill": "{sem.color.surface.light}",
+                "boxShadow": "none",
+                "borderRadiusTopLeft": "{sem.card.base.md.borderRadiusTopLeft}",
+                "borderRadiusTopRight": "{sem.card.base.md.borderRadiusTopRight}",
+                "borderRadiusBottomRight": "{sem.card.base.md.borderRadiusBottomRight}",
+                "borderRadiusBottomLeft": "{sem.card.base.md.borderRadiusBottomLeft}",
+                "border": "{sem.border.transparent}"
+              },
+              "type": "composition",
+              "description": "({extends: 'comp.card.base.md.uncontrasted.default'})"
+            }
+          },
+          "hover": {
+            "container": {
+              "value": {
+                "itemSpacing": "{sem.toggle.toggleCard.wrapper.spacing}"
+              },
+              "type": "composition"
+            },
+            "card": {
+              "value": {
+                "horizontalPadding": "{sem.card.base.md.padding}",
+                "verticalPadding": "{sem.card.base.md.padding}",
+                "fill": "{sem.color.surface.light}",
+                "boxShadow": "{sem.card.base.md.dropShadow}",
+                "borderRadiusTopLeft": "{sem.card.base.md.borderRadiusTopLeft}",
+                "borderRadiusTopRight": "{sem.card.base.md.borderRadiusTopRight}",
+                "borderRadiusBottomRight": "{sem.card.base.md.borderRadiusBottomRight}",
+                "borderRadiusBottomLeft": "{sem.card.base.md.borderRadiusBottomLeft}",
+                "border": "{sem.border.transparent}"
+              },
+              "type": "composition",
+              "description": "({extends: 'comp.card.base.md.uncontrasted.hover'})"
+            }
+          },
+          "pressed": {
+            "container": {
+              "value": {
+                "itemSpacing": "{sem.toggle.toggleCard.wrapper.spacing}"
+              },
+              "type": "composition"
+            },
+            "card": {
+              "value": {
+                "horizontalPadding": "{sem.card.base.md.padding}",
+                "verticalPadding": "{sem.card.base.md.padding}",
+                "fill": "{sem.color.surface.light}",
+                "boxShadow": "none",
+                "borderRadiusTopLeft": "{sem.card.base.md.borderRadiusTopLeft}",
+                "borderRadiusTopRight": "{sem.card.base.md.borderRadiusTopRight}",
+                "borderRadiusBottomRight": "{sem.card.base.md.borderRadiusBottomRight}",
+                "borderRadiusBottomLeft": "{sem.card.base.md.borderRadiusBottomLeft}",
+                "border": "{sem.border.transparent}"
+              },
+              "type": "composition",
+              "description": "({extends: 'comp.card.base.md.uncontrasted.pressed'})"
+            }
+          },
+          "active": {
+            "container": {
+              "value": {
+                "itemSpacing": "{sem.toggle.toggleCard.wrapper.spacing}"
+              },
+              "type": "composition"
+            },
+            "card": {
+              "value": {
+                "horizontalPadding": "{sem.card.base.md.padding}",
+                "verticalPadding": "{sem.card.base.md.padding}",
+                "fill": "{sem.color.surface.light}",
+                "boxShadow": "none",
+                "borderRadiusTopLeft": "{sem.card.base.md.borderRadiusTopLeft}",
+                "borderRadiusTopRight": "{sem.card.base.md.borderRadiusTopRight}",
+                "borderRadiusBottomRight": "{sem.card.base.md.borderRadiusBottomRight}",
+                "borderRadiusBottomLeft": "{sem.card.base.md.borderRadiusBottomLeft}",
+                "border": "{sem.border.active}"
+              },
+              "type": "composition",
+              "description": "({extends: 'comp.card.base.md.uncontrasted.active'})"
+            }
+          },
+          "danger": {
+            "container": {
+              "value": {
+                "itemSpacing": "{sem.toggle.toggleCard.wrapper.spacing}"
+              },
+              "type": "composition"
+            },
+            "card": {
+              "value": {
+                "horizontalPadding": "{sem.card.base.md.padding}",
+                "verticalPadding": "{sem.card.base.md.padding}",
+                "fill": "{sem.color.surface.light}",
+                "boxShadow": "none",
+                "borderRadiusTopLeft": "{sem.card.base.md.borderRadiusTopLeft}",
+                "borderRadiusTopRight": "{sem.card.base.md.borderRadiusTopRight}",
+                "borderRadiusBottomRight": "{sem.card.base.md.borderRadiusBottomRight}",
+                "borderRadiusBottomLeft": "{sem.card.base.md.borderRadiusBottomLeft}",
+                "border": "{sem.border.danger}"
+              },
+              "type": "composition",
+              "description": "({extends: 'comp.card.base.md.uncontrasted.danger'})"
+            }
+          },
+          "disabled": {
+            "container": {
+              "value": {
+                "itemSpacing": "{sem.toggle.toggleCard.wrapper.spacing}"
+              },
+              "type": "composition"
+            },
+            "card": {
+              "value": {
+                "horizontalPadding": "{sem.card.base.md.padding}",
+                "verticalPadding": "{sem.card.base.md.padding}",
+                "fill": "{sem.color.surface.light}",
+                "boxShadow": "none",
+                "borderRadiusTopLeft": "{sem.card.base.md.borderRadiusTopLeft}",
+                "borderRadiusTopRight": "{sem.card.base.md.borderRadiusTopRight}",
+                "borderRadiusBottomRight": "{sem.card.base.md.borderRadiusBottomRight}",
+                "borderRadiusBottomLeft": "{sem.card.base.md.borderRadiusBottomLeft}",
+                "border": "{sem.border.transparent}"
+              },
+              "type": "composition",
+              "description": "({extends: 'comp.card.base.md.uncontrasted.disabled'})"
+            }
+          },
+          "forced": {
+            "container": {
+              "value": {
+                "itemSpacing": "{sem.toggle.toggleCard.wrapper.spacing}"
+              },
+              "type": "composition"
+            },
+            "card": {
+              "value": {
+                "horizontalPadding": "{sem.card.base.md.padding}",
+                "verticalPadding": "{sem.card.base.md.padding}",
+                "fill": "{sem.color.surface.light}",
+                "boxShadow": "none",
+                "borderRadiusTopLeft": "{sem.card.base.md.borderRadiusTopLeft}",
+                "borderRadiusTopRight": "{sem.card.base.md.borderRadiusTopRight}",
+                "borderRadiusBottomRight": "{sem.card.base.md.borderRadiusBottomRight}",
+                "borderRadiusBottomLeft": "{sem.card.base.md.borderRadiusBottomLeft}",
+                "border": "{sem.border.forced}"
+              },
+              "type": "composition",
+              "description": "({extends: 'comp.card.base.md.uncontrasted.forced'})"
+            }
+          }
         }
       }
     }
@@ -15693,6 +16070,64 @@
         }
       }
     },
+    "calendar": {
+      "container": {
+        "spacing": {
+          "value": "{ref.spacing.200}",
+          "type": "spacing"
+        }
+      },
+      "shortcutWrapper": {
+        "spacing": {
+          "value": "{ref.spacing.50}",
+          "type": "spacing"
+        }
+      },
+      "rightSide": {
+        "wrapper": {
+          "spacing": {
+            "value": "{ref.spacing.200}",
+            "type": "spacing"
+          }
+        },
+        "calendarWrapper": {
+          "spacing": {
+            "value": "{ref.spacing.200}",
+            "type": "spacing"
+          }
+        },
+        "mounthSelector": {
+          "icon": {
+            "size": {
+              "value": "{ref.sizing.200}",
+              "type": "sizing"
+            }
+          }
+        },
+        "daySelector": {
+          "spacing": {
+            "value": "{ref.spacing.50}",
+            "type": "spacing"
+          }
+        }
+      },
+      "buttonDay": {
+        "container": {
+          "horizontalPadding": {
+            "value": "{ref.spacing.100}",
+            "type": "spacing"
+          },
+          "verticalPadding": {
+            "value": "{ref.spacing.150}",
+            "type": "spacing"
+          },
+          "borderRadius": {
+            "value": "{ref.borderRadius.200}",
+            "type": "borderRadius"
+          }
+        }
+      }
+    },
     "card": {
       "base": {
         "xs": {
@@ -15775,7 +16210,7 @@
         }
       }
     },
-    "contentCard": {
+    "cardContent": {
       "card": {
         "xs": {
           "container": {
@@ -15866,6 +16301,36 @@
               "type": "sizing"
             }
           }
+        }
+      }
+    },
+    "chip": {
+      "container": {
+        "spacing": {
+          "value": "{ref.spacing.50}",
+          "type": "spacing"
+        },
+        "borderRadius": {
+          "value": "{ref.borderRadius.250}",
+          "type": "borderRadius"
+        },
+        "paddingLeft": {
+          "value": "{ref.spacing.100}",
+          "type": "spacing"
+        },
+        "paddingRight": {
+          "value": "{ref.spacing.100}",
+          "type": "spacing"
+        },
+        "height": {
+          "value": "{ref.sizing.400}",
+          "type": "sizing"
+        }
+      },
+      "icon": {
+        "size": {
+          "value": "{ref.sizing.200}",
+          "type": "sizing"
         }
       }
     },
@@ -16342,36 +16807,6 @@
             "value": "{ref.spacing.100}",
             "type": "spacing"
           }
-        }
-      }
-    },
-    "chip": {
-      "container": {
-        "spacing": {
-          "value": "{ref.spacing.50}",
-          "type": "spacing"
-        },
-        "borderRadius": {
-          "value": "{ref.borderRadius.250}",
-          "type": "borderRadius"
-        },
-        "paddingLeft": {
-          "value": "{ref.spacing.100}",
-          "type": "spacing"
-        },
-        "paddingRight": {
-          "value": "{ref.spacing.100}",
-          "type": "spacing"
-        },
-        "height": {
-          "value": "{ref.sizing.400}",
-          "type": "sizing"
-        }
-      },
-      "icon": {
-        "size": {
-          "value": "{ref.sizing.200}",
-          "type": "sizing"
         }
       }
     }

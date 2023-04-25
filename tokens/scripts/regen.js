@@ -131,10 +131,6 @@ function regenAll(templates) {
     ordered.map((o) => o.propsPath)
   );
 
-  for (o of ordered) {
-    if (o.extendedTemplates.length == 0) regen(o.path);
-  }
-
   for (const { path } of ordered) {
     regen(path);
   }

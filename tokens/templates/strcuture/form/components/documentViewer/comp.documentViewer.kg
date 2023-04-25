@@ -17,7 +17,7 @@ comp
         "fill": "<< state == 'unfilled' ? '{sem.color.surface.sub}' : undefined >>"
       },
       "type": "composition",
-      "description": "({extends: 'comp.contentCard.card.md.desktop.container'})"
+      "description": "({extends: 'comp.cardContent.card.md.desktop.container'})"
     }
   }
 ]
