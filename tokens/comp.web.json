@@ -15454,6 +15454,9 @@
         }
       }
     },
+    "message": {
+      "error: {\n    value: {\n      typography: {sem.typography.textStyle.paragraph.sm.strong},\n      fill: {sem.colorText.danger}\n    },\n    type: composition\n  },\n  label: {\n    value: {\n      typography: {sem.typography.textStyle.label.body.sm},\n      fill: {sem.colorText.strong}\n    },\n    type: composition\n  },\n  misc: {\n    value: {\n      typography: {sem.typography.textStyle.label.body.xs},\n      fill: {sem.colorText.default}\n    },\n    type: composition\n  },\n  spacer: {\n    value: {\n      itemSpacing: {ref.spacing.50}\n    },\n    type: composition\n  }": {}
+    },
     "misc": {
       "progressBar": {
         "sm": {
