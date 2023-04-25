@@ -15834,6 +15834,14 @@
             },
             "type": "composition",
             "description": "({extends: 'comp.calendar.buttonDay.day.default.container'})"
+          },
+          "label": {
+            "value": {
+              "typography": "{sem.typography.textStyle.label.body.md}",
+              "fill": "{sem.color.text.dark}"
+            },
+            "type": "composition",
+            "description": "({extends: 'comp.calendar.buttonDay.day.default.label'})"
           }
         },
         "hover": {
@@ -15847,6 +15855,14 @@
             },
             "type": "composition",
             "description": "({extends: 'comp.calendar.buttonDay.day.hover.container'})"
+          },
+          "label": {
+            "value": {
+              "typography": "{sem.typography.textStyle.label.body.md}",
+              "fill": "{sem.color.text.dark}"
+            },
+            "type": "composition",
+            "description": "({extends: 'comp.calendar.buttonDay.day.hover.label'})"
           }
         },
         "pressed": {
@@ -15860,6 +15876,14 @@
             },
             "type": "composition",
             "description": "({extends: 'comp.calendar.buttonDay.day.pressed.container'})"
+          },
+          "label": {
+            "value": {
+              "typography": "{sem.typography.textStyle.label.body.md}",
+              "fill": "{sem.color.text.dark}"
+            },
+            "type": "composition",
+            "description": "({extends: 'comp.calendar.buttonDay.day.pressed.label'})"
           }
         },
         "active": {
@@ -15873,6 +15897,14 @@
             },
             "type": "composition",
             "description": "({extends: 'comp.calendar.buttonDay.day.active.container'})"
+          },
+          "label": {
+            "value": {
+              "typography": "{sem.typography.textStyle.label.body.md}",
+              "fill": "{sem.color.text.light}"
+            },
+            "type": "composition",
+            "description": "({extends: 'comp.calendar.buttonDay.day.active.label'})"
           }
         },
         "disabled": {
@@ -15886,6 +15918,14 @@
             },
             "type": "composition",
             "description": "({extends: 'comp.calendar.buttonDay.day.disabled.container'})"
+          },
+          "label": {
+            "value": {
+              "typography": "{sem.typography.textStyle.label.body.md}",
+              "fill": "{sem.color.text.disabled}"
+            },
+            "type": "composition",
+            "description": "({extends: 'comp.calendar.buttonDay.day.disabled.label'})"
           }
         }
       }
