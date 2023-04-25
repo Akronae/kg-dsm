@@ -1,0 +1,18 @@
+// @replacepath: tokens/comp.web.json
+
+sem
+.buttonDay
+[
+  {
+    "container": {
+      "horizontalPadding": {
+        "value": "{ref.spacing.100}",
+        "type": "spacing"
+      },
+      "verticalPadding": {
+        "value": "{ref.spacing.150}",
+        "type": "spacing"
+      }
+    }
+  }
+]

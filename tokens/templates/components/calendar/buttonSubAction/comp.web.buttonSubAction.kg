@@ -1,0 +1,16 @@
+// @replacepath: tokens/comp.web.json
+
+comp
+.buttonSubAction
+[state: 'default' | 'hover' | 'pressed' | 'active' | 'disabled']
+[
+  {
+    "container": {
+      "value": {
+        "layoutAlignItems": "center left"
+      },
+      "type": "composition",
+       "description": "({extends: 'comp.buttonDay.day.<<state>>.container'})"
+    }
+  }
+]
