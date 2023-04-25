@@ -8503,13 +8503,22 @@
           }
         }
       },
-      "errorMessage": {
-        "value": {
-          "typography": "{sem.typography.textStyle.paragraph.sm.strong}",
-          "fill": "{sem.color.text.danger}",
-          "horizontalResizing": "fill"
+      "message": {
+        "misc": {
+          "value": {
+            "typography": "{sem.typography.textStyle.label.body.xs}",
+            "fill": "{sem.color.text.default}"
+          },
+          "type": "composition"
         },
-        "type": "composition"
+        "error": {
+          "value": {
+            "typography": "{sem.typography.textStyle.paragraph.sm.strong}",
+            "fill": "{sem.color.text.danger}",
+            "horizontalResizing": "fill"
+          },
+          "type": "composition"
+        }
       }
     },
     "helper": {
@@ -15453,9 +15462,6 @@
           }
         }
       }
-    },
-    "message": {
-      "error: {\n    value: {\n      typography: {sem.typography.textStyle.paragraph.sm.strong},\n      fill: {sem.colorText.danger}\n    },\n    type: composition\n  },\n  label: {\n    value: {\n      typography: {sem.typography.textStyle.label.body.sm},\n      fill: {sem.colorText.strong}\n    },\n    type: composition\n  },\n  misc: {\n    value: {\n      typography: {sem.typography.textStyle.label.body.xs},\n      fill: {sem.colorText.default}\n    },\n    type: composition\n  },\n  spacer: {\n    value: {\n      itemSpacing: {ref.spacing.50}\n    },\n    type: composition\n  }": {}
     },
     "misc": {
       "progressBar": {
