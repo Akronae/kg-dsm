@@ -1,0 +1,91 @@
+// @replacepath: tokens/structureListing.json
+
+comp
+.structure.listing.components.filterButton
+[size: 'sm' | 'md']
+[state: 'default' | 'hover' | 'pressed' | 'active']
+[
+  {
+    "unFilled": {
+      "container": {
+        "value": {
+          "borderRadius": "{sem.structure.listing.components.filterButton.<<size>>.container.borderRadius}",
+          "itemSpacing": "{sem.structure.listing.components.filterButton.<<size>>.container.itemSpacing}",
+          "horizontalPadding": "{sem.structure.listing.components.filterButton.<<size>>.container.padding}",
+          "verticalPadding": "{sem.structure.listing.components.filterButton.<<size>>.container.padding}",
+          "fill": "{sem.color.surface.interactive.sub.<< ({ default: 'default', hover: 'hover', pressed: 'pressed', 'active': 'default' })[state]>>}",
+          "border": "{sem.border.interactive.<<state>>}",
+          "layoutMode": "horizontal",
+          "layoutAlignItems": "center left"
+        },
+        "type": "composition"
+      },
+      "icon": {
+        "size": {
+          "value": {
+            "width": "{sem.structure.listing.components.filterButton.<<size>>.icon.size}",
+            "height": "{sem.structure.listing.components.filterButton.<<size>>.icon.size}"
+          },
+          "type": "composition"
+        },
+        "color": {
+          "value": {
+            "border": "{sem.borderIcon.sm.default}"
+          },
+          "type": "composition"
+        }
+      },
+      "label": {
+        "value": {
+          "typography": "{sem.typography.textStyle.label.body.<<size>>}",
+          "fill": "{sem.color.text.default}"
+        },
+        "type": "composition"
+      }
+    },
+    "filled": {
+      "container": {
+        "value": {
+          "borderRadius": "{sem.structure.listing.components.filterButton.<<size>>.container.borderRadius}",
+          "itemSpacing": "{sem.structure.listing.components.filterButton.<<size>>.container.itemSpacing}",
+          "horizontalPadding": "{sem.structure.listing.components.filterButton.<<size>>.container.padding}",
+          "verticalPadding": "{sem.structure.listing.components.filterButton.<<size>>.container.padding}",
+          "fill": "{sem.color.surface.interactive.light.<< ({ default: 'default', hover: 'hover', pressed: 'pressed', 'active': 'default' })[state]>>}",
+          "border": "{sem.border.interactive.<<state>>}",
+          "layoutMode": "horizontal",
+          "layoutAlignItems": "center left"
+        },
+        "type": "composition"
+      },
+      "icon": {
+        "size": {
+          "value": {
+            "width": "{sem.structure.listing.components.filterButton.<<size>>.icon.size}",
+            "height": "{sem.structure.listing.components.filterButton.<<size>>.icon.size}"
+          },
+          "type": "composition"
+        },
+        "color": {
+          "value": {
+            "border": "{sem.borderIcon.sm.default}"
+          },
+          "type": "composition"
+        }
+      },
+      "label": {
+        "value": {
+          "typography": "{sem.typography.textStyle.label.body.<<size>>}",
+          "fill": "{sem.color.text.default}"
+        },
+        "type": "composition"
+      },
+      "value": {
+        "value": {
+          "typography": "{sem.typography.textStyle.label.body.<<size>>}",
+          "fill": "{sem.color.text.dark}"
+        },
+        "type": "composition"
+      }
+    }
+  }
+]
