@@ -3,31 +3,33 @@
 comp
 .message
 [
-  "error": {
-    "value": {
-      "typography": "{sem.typography.textStyle.paragraph.sm.strong}",
-      "fill": "{sem.colorText.danger}"
+  {
+    "error": {
+      "value": {
+        "typography": "{sem.typography.textStyle.paragraph.sm.strong}",
+        "fill": "{sem.colorText.danger}"
+      },
+      "type": "composition"
     },
-    "type": "composition"
-  },
-  "label": {
-    "value": {
-      "typography": "{sem.typography.textStyle.label.body.sm}",
-      "fill": "{sem.colorText.strong}"
+    "label": {
+      "value": {
+        "typography": "{sem.typography.textStyle.label.body.sm}",
+        "fill": "{sem.colorText.strong}"
+      },
+      "type": "composition"
     },
-    "type": "composition"
-  },
-  "misc": {
-    "value": {
-      "typography": "{sem.typography.textStyle.label.body.xs}",
-      "fill": "{sem.colorText.default}"
+    "misc": {
+      "value": {
+        "typography": "{sem.typography.textStyle.label.body.xs}",
+        "fill": "{sem.colorText.default}"
+      },
+      "type": "composition"
     },
-    "type": "composition"
-  },
-  "spacer": {
-    "value": {
-      "itemSpacing": "{ref.spacing.50}"
-    },
-    "type": "composition"
+    "spacer": {
+      "value": {
+        "itemSpacing": "{ref.spacing.50}"
+      },
+      "type": "composition"
+    }
   }
 ]
