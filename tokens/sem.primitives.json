@@ -158,6 +158,10 @@
             "value": "{ref.colors.neutral.400}",
             "type": "color"
           }
+        },
+        "disabled": {
+          "value": "{ref.colors.neutral.400}",
+          "type": "color"
         }
       },
       "icon": {

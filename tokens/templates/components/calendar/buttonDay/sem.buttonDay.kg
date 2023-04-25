@@ -1,0 +1,22 @@
+// @replacepath: tokens/comp.web.json
+
+sem
+.calendar.buttonDay
+[
+  {
+    "container": {
+      "horizontalPadding": {
+        "value": "{ref.spacing.100}",
+        "type": "spacing"
+      },
+      "verticalPadding": {
+        "value": "{ref.spacing.150}",
+        "type": "spacing"
+      },
+      "borderRadius": {
+        "value": "{ref.borderRadius.200}",
+        "type": "borderRadius"
+      }
+    }
+  }
+]

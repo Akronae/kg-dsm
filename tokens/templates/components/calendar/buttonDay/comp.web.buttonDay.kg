@@ -1,0 +1,108 @@
+// @replacepath: tokens/comp.web.json
+
+comp
+.calendar.buttonDay
+[
+  {
+    "weekday": {
+      "container": {
+        "value": {
+          "layoutAlignItems": "center",
+          "verticalPadding": "{sem.calendar.buttonDay.container.verticalPadding}",
+          "horizontalPadding": "{sem.calendar.buttonDay.container.horizontalPadding}",
+          "borderRadius": "{sem.calendar.buttonDay.container.borderRadius}"
+        },
+        "type": "composition"
+      },
+      "label": {
+        "value": {
+          "typography": "{sem.typography.textStyle.label.body.sm}",
+          "fill": "{sem.color.text.default}"
+        },
+        "type": "composition"
+      }
+    },
+    "day": {
+      "default": {
+        "container": {
+          "value": {
+            "fill": "{sem.color.surface.interactive.sub.default}"
+          },
+          "type": "composition",
+          "description": "({extends: 'comp.calendar.buttonDay.weekday.container'})"
+        },
+        "label": {
+          "value": {
+            "typography": "{sem.typography.textStyle.label.body.md}",
+            "fill": "{sem.color.text.dark}"
+          },
+          "type": "composition"
+        }
+      },
+      "hover": {
+        "container": {
+          "value": {
+            "fill": "{sem.color.surface.interactive.sub.hover}"
+          },
+          "type": "composition",
+          "description": "({extends: 'comp.calendar.buttonDay.weekday.container'})"
+        },
+        "label": {
+          "value": {
+            "typography": "{sem.typography.textStyle.label.body.md}",
+            "fill": "{sem.color.text.dark}"
+          },
+          "type": "composition"
+        }
+      },
+      "pressed": {
+        "container": {
+          "value": {
+            "fill": "{sem.color.surface.interactive.sub.pressed}"
+          },
+          "type": "composition",
+          "description": "({extends: 'comp.calendar.buttonDay.weekday.container'})"
+        },
+        "label": {
+          "value": {
+            "typography": "{sem.typography.textStyle.label.body.md}",
+            "fill": "{sem.color.text.dark}"
+          },
+          "type": "composition"
+        }
+      },
+      "active": {
+        "container": {
+          "value": {
+            "fill": "{sem.color.surface.interactive.sub.active}"
+          },
+          "type": "composition",
+          "description": "({extends: 'comp.calendar.buttonDay.weekday.container'})"
+        },
+        "label": {
+          "value": {
+            "typography": "{sem.typography.textStyle.label.body.md}",
+            "fill": "{sem.color.text.light}"
+          },
+          "type": "composition"
+        }
+      },
+      "disabled": {
+        "container": {
+          "value": {
+            "fill": "{sem.color.surface.interactive.disabled}"
+          },
+          "type": "composition",
+          "description": "({extends: 'comp.calendar.buttonDay.weekday.container'})"
+        },
+        "label": {
+          "value": {
+            "typography": "{sem.typography.textStyle.label.body.md}",
+            "fill": "{sem.color.text.disabled}"
+          },
+          "type": "composition"
+        }
+      }
+    }
+  }
+]
