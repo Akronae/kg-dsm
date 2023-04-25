@@ -10,7 +10,7 @@ comp
         "layoutAlignItems": "center left"
       },
       "type": "composition",
-       "description": "({extends: 'comp.buttonDay.day.<<state>>.container'})"
+       "description": "({extends: 'comp.calendar.buttonDay.day.<<state>>.container'})"
     }
   }
 ]

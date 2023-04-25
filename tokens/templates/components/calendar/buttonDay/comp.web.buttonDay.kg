@@ -8,8 +8,8 @@ comp
       "container": {
         "value": {
           "layoutAlignItems": "center",
-          "verticalPadding": "{sem.buttonDay.container.verticalPadding}",
-          "horizontalPadding": "{sem.buttonDay.container.horizontalPadding}"
+          "verticalPadding": "{sem.calendar.buttonDay.container.verticalPadding}",
+          "horizontalPadding": "{sem.calendar.buttonDay.container.horizontalPadding}"
         },
         "type": "composition"
       },
@@ -28,7 +28,7 @@ comp
             "fill": "{sem.color.surface.interactive.sub.default}"
           },
           "type": "composition",
-          "description": "({extends: 'comp.buttonDay.weekday.container'})"
+          "description": "({extends: 'comp.calendar.buttonDay.weekday.container'})"
         },
         "label": {
           "value": {
@@ -44,7 +44,7 @@ comp
             "fill": "{sem.color.surface.interactive.sub.hover}"
           },
           "type": "composition",
-          "description": "({extends: 'comp.buttonDay.weekday.container'})"
+          "description": "({extends: 'comp.calendar.buttonDay.weekday.container'})"
         },
         "label": {
           "value": {
@@ -60,7 +60,7 @@ comp
             "fill": "{sem.color.surface.interactive.sub.pressed}"
           },
           "type": "composition",
-          "description": "({extends: 'comp.buttonDay.weekday.container'})"
+          "description": "({extends: 'comp.calendar.buttonDay.weekday.container'})"
         },
         "label": {
           "value": {
@@ -76,7 +76,7 @@ comp
             "fill": "{sem.color.surface.interactive.sub.active}"
           },
           "type": "composition",
-          "description": "({extends: 'comp.buttonDay.weekday.container'})"
+          "description": "({extends: 'comp.calendar.buttonDay.weekday.container'})"
         },
         "label": {
           "value": {
@@ -92,7 +92,7 @@ comp
             "fill": "{sem.color.surface.interactive.disabled}"
           },
           "type": "composition",
-          "description": "({extends: 'comp.buttonDay.weekday.container'})"
+          "description": "({extends: 'comp.calendar.buttonDay.weekday.container'})"
         },
         "label": {
           "value": {
