@@ -5417,11 +5417,11 @@
         "xs": {
           "container": {
             "value": {
-              "width": "sem.contentCard.leftSlot.xs.container.sizing",
-              "height": "sem.contentCard.leftSlot.xs.container.sizing",
-              "fill": "sem.color.surface.sub",
-              "border": "sem.border.diminished",
-              "borderRadius": "sem.contentCard.leftSlot.xs.container.borderRadius",
+              "width": "{sem.contentCard.leftSlot.xs.container.sizing}",
+              "height": "{sem.contentCard.leftSlot.xs.container.sizing}",
+              "fill": "{sem.color.surface.sub}",
+              "border": "{sem.border.diminished}",
+              "borderRadius": "{sem.contentCard.leftSlot.xs.container.borderRadius}",
               "layoutAlignItems": "center"
             },
             "type": "composition"
@@ -5429,8 +5429,8 @@
           "icon": {
             "size": {
               "value": {
-                "width": "sem.contentCard.leftSlot.xs.icon.sizing",
-                "height": "sem.contentCard.leftSlot.xs.icon.sizing"
+                "width": "{sem.contentCard.leftSlot.xs.icon.sizing}",
+                "height": "{sem.contentCard.leftSlot.xs.icon.sizing}"
               },
               "type": "composition"
             },
@@ -5459,11 +5459,11 @@
         "md": {
           "container": {
             "value": {
-              "width": "sem.contentCard.leftSlot.md.container.sizing",
-              "height": "sem.contentCard.leftSlot.md.container.sizing",
-              "fill": "sem.color.surface.sub",
-              "border": "sem.border.diminished",
-              "borderRadius": "sem.contentCard.leftSlot.md.container.borderRadius",
+              "width": "{sem.contentCard.leftSlot.md.container.sizing}",
+              "height": "{sem.contentCard.leftSlot.md.container.sizing}",
+              "fill": "{sem.color.surface.sub}",
+              "border": "{sem.border.diminished}",
+              "borderRadius": "{sem.contentCard.leftSlot.md.container.borderRadius}",
               "layoutAlignItems": "center"
             },
             "type": "composition"
@@ -5471,8 +5471,8 @@
           "icon": {
             "size": {
               "value": {
-                "width": "sem.contentCard.leftSlot.md.icon.sizing",
-                "height": "sem.contentCard.leftSlot.md.icon.sizing"
+                "width": "{sem.contentCard.leftSlot.md.icon.sizing}",
+                "height": "{sem.contentCard.leftSlot.md.icon.sizing}"
               },
               "type": "composition"
             },
