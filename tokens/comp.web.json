@@ -15705,7 +15705,7 @@
           "container": {
             "value": {
               "layoutAlignItems": "center",
-              "verticalPadding": "{sem.buttonDay.container.verticalalPadding}",
+              "verticalPadding": "{sem.buttonDay.container.verticalPadding}",
               "horizontalPadding": "{sem.buttonDay.container.horizontalPadding}"
             },
             "type": "composition"
