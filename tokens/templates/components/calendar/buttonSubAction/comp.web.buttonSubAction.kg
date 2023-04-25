@@ -1,7 +1,7 @@
 // @replacepath: tokens/comp.web.json
 
 comp
-.buttonSubAction
+.calendar.buttonSubAction
 [state: 'default' | 'hover' | 'pressed' | 'active' | 'disabled']
 [
   {

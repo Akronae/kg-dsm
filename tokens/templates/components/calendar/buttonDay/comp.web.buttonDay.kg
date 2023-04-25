@@ -1,7 +1,7 @@
 // @replacepath: tokens/comp.web.json
 
 comp
-.buttonDay
+.calendar.buttonDay
 [
   {
     "weekday": {
