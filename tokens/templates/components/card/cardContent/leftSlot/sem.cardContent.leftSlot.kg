@@ -1,7 +1,7 @@
 // @replacepath: tokens/comp.web.json
 
 sem
-.contentCard.leftSlot
+.cardContent.leftSlot
 [size: 'xs' | 'md']
 [
   {
