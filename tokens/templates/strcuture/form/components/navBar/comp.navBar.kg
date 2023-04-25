@@ -26,7 +26,8 @@ comp
       "wrapper": {
         "value": {
           "paddingTop": "{sem.structure.form.components.navBar.desktop.wrapper.paddingTop}",
-          "paddingBottom": "{sem.structure.form.components.navBar.desktop.wrapper.paddingBottom}"
+          "paddingBottom": "{sem.structure.form.components.navBar.desktop.wrapper.paddingBottom}",
+          "layoutAlignItems": "center right"
         },
         "type": "composition"
       }
