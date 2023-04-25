@@ -1,0 +1,22 @@
+// @replacepath: tokens/comp.web.json
+
+comp
+.calendar.buttonSubAction
+[state: 'default' | 'hover' | 'pressed' | 'active' | 'disabled']
+[
+  {
+    "container": {
+      "value": {
+        "layoutAlignItems": "center left"
+      },
+      "type": "composition",
+       "description": "({extends: 'comp.calendar.buttonDay.day.<<state>>.container'})"
+    },
+    "label": {
+      "value": {
+      },
+      "type": "composition",
+      "description": "({extends: 'comp.calendar.buttonDay.day.<<state>>.label'})"
+    }
+  }
+]
