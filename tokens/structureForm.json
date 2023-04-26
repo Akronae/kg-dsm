@@ -11,6 +11,7 @@
                   "paddingBottom": "{sem.structure.form.components.actionZone.mobile.buttonWrapper.paddingBottom}",
                   "itemSpacing": "{sem.structure.form.components.actionZone.mobile.buttonWrapper.spacing}",
                   "layoutMode": "horizontal",
+                  "spacingMode": "space between",
                   "horizontalResizing": "fill"
                 },
                 "type": "composition"
@@ -29,6 +30,7 @@
                   "paddingBottom": "{sem.structure.form.components.actionZone.desktop.buttonWrapper.paddingBottom}",
                   "itemSpacing": "{sem.structure.form.components.actionZone.desktop.buttonWrapper.spacing}",
                   "layoutMode": "horizontal",
+                  "spacingMode": "space between",
                   "horizontalResizing": "fill"
                 },
                 "type": "composition"

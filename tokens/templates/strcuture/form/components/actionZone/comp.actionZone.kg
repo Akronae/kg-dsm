@@ -11,6 +11,7 @@ comp
         "paddingBottom": "{sem.structure.form.components.actionZone.<<aspectRatio>>.buttonWrapper.paddingBottom}",
         "itemSpacing": "{sem.structure.form.components.actionZone.<<aspectRatio>>.buttonWrapper.spacing}",
         "layoutMode": "horizontal",
+        "spacingMode": "space between",
         "horizontalResizing": "fill"
       },
       "type": "composition"
