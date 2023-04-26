@@ -15,9 +15,9 @@
                 },
                 "type": "composition"
               },
-              "nextButtonWidth": {
+              "nextButton": {
                 "value": {
-                  "width": "{sem.structure.form.components.actionZone.mobile.nextButtonWidth}"
+                  "horizontalResizing": "fill"
                 },
                 "type": "composition"
               }
@@ -33,7 +33,7 @@
                 },
                 "type": "composition"
               },
-              "nextButtonWidth": {
+              "nextButton": {
                 "value": {
                   "width": "{sem.structure.form.components.actionZone.desktop.nextButtonWidth}"
                 },
