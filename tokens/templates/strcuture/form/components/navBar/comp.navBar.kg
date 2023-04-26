@@ -16,7 +16,8 @@ comp
         "isOpen": {
           "value": {
             "paddingTop": "{sem.structure.form.components.navBar.mobile.wrapper.isOpen.paddingTop}",
-            "paddingBottom": "{sem.structure.form.components.navBar.mobile.wrapper.isOpen.paddingBottom}"
+            "paddingBottom": "{sem.structure.form.components.navBar.mobile.wrapper.isOpen.paddingBottom}",
+            "layoutAlignItems": "center"
           },
           "type": "composition"
         }
