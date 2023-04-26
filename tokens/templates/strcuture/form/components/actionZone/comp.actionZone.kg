@@ -5,7 +5,7 @@ comp
 [aspectRatio: 'mobile' | 'desktop']
 [
   {
-    "buttonbuttonWrapper": {
+    "buttonWrapper": {
       "value": {
         "paddingTop": "{sem.structure.form.components.actionZone.<<aspectRatio>>.buttonWrapper.paddingTop}",
         "paddingBottom": "{sem.structure.form.components.actionZone.<<aspectRatio>>.buttonWrapper.paddingBottom}",
@@ -19,8 +19,7 @@ comp
       "value": {
         "width": "{sem.structure.form.components.actionZone.<<aspectRatio>>.nextButtonWidth}"
       },
-      "type": "composition",
-      "description": "//({extends: 'comp.button.primary.rectangular.lg.default.container'})"
+      "type": "composition"
     }
   }
 ]
