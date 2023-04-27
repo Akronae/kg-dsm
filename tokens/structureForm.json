@@ -1027,7 +1027,10 @@
               },
               "contentWrapper": {
                 "value": {
-                  "itemSpacing": "{sem.structure.form.components.sideHelp.mobile.contentWrapper.spacing}"
+                  "itemSpacing": "{sem.structure.form.components.sideHelp.mobile.contentWrapper.spacing}",
+                  "layoutMode": "vertical",
+                  "layoutAlignItems": "top left",
+                  "horizontalResizing": "fill"
                 },
                 "type": "composition"
               },
@@ -1059,7 +1062,10 @@
               },
               "contentWrapper": {
                 "value": {
-                  "itemSpacing": "{sem.structure.form.components.sideHelp.desktop.contentWrapper.spacing}"
+                  "itemSpacing": "{sem.structure.form.components.sideHelp.desktop.contentWrapper.spacing}",
+                  "layoutMode": "vertical",
+                  "layoutAlignItems": "top left",
+                  "horizontalResizing": "fill"
                 },
                 "type": "composition"
               },
