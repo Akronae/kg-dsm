@@ -22,7 +22,8 @@ comp
             "borderRadiusTopLeft": "{sem.structure.form.template.wizard.mobile.step.content.helpOpen.borderRadius}",
             "layoutAlignItems": "top center",
             "layoutMode": "vertical",
-            "horizontalResizing": "fill"
+            "horizontalResizing": "fill",
+            "verticalResizing": "fill"
           },
           "type": "composition"
         },
@@ -33,7 +34,8 @@ comp
             "fill": "{sem.color.surface.default}",
             "layoutAlignItems": "top center",
             "layoutMode": "vertical",
-            "horizontalResizing": "fill"
+            "horizontalResizing": "fill",
+            "verticalResizing": "fill"
           },
           "type": "composition"
         }

@@ -21,7 +21,8 @@ comp
           "borderRadiusBottomRight": "{sem.structure.form.template.wizard.desktop.step.content.borderRadius}",
           "layoutAlignItems": "top center",
           "layoutMode": "vertical",
-          "horizontalResizing": "fill"
+          "horizontalResizing": "fill",
+          "verticalResizing": "fill"
         },
         "type": "composition"
       },

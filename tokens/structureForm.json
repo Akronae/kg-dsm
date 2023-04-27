@@ -1184,7 +1184,8 @@
                     "borderRadiusBottomRight": "{sem.structure.form.template.wizard.desktop.step.content.borderRadius}",
                     "layoutAlignItems": "top center",
                     "layoutMode": "vertical",
-                    "horizontalResizing": "fill"
+                    "horizontalResizing": "fill",
+                    "verticalResizing": "fill"
                   },
                   "type": "composition"
                 },
@@ -1241,7 +1242,8 @@
                       "borderRadiusTopLeft": "{sem.structure.form.template.wizard.mobile.step.content.helpOpen.borderRadius}",
                       "layoutAlignItems": "top center",
                       "layoutMode": "vertical",
-                      "horizontalResizing": "fill"
+                      "horizontalResizing": "fill",
+                      "verticalResizing": "fill"
                     },
                     "type": "composition"
                   },
@@ -1252,7 +1254,8 @@
                       "fill": "{sem.color.surface.default}",
                       "layoutAlignItems": "top center",
                       "layoutMode": "vertical",
-                      "horizontalResizing": "fill"
+                      "horizontalResizing": "fill",
+                      "verticalResizing": "fill"
                     },
                     "type": "composition"
                   }
