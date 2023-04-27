@@ -1170,7 +1170,8 @@
               "step": {
                 "body": {
                   "value": {
-                    "fill": "{sem.color.background.dark}"
+                    "fill": "{sem.color.background.dark}",
+                    "layoutMode": "horizontal"
                   },
                   "type": "composition"
                 },
@@ -1225,7 +1226,8 @@
               "step": {
                 "body": {
                   "value": {
-                    "fill": "{sem.color.background.dark}"
+                    "fill": "{sem.color.background.dark}",
+                    "layoutMode": "vertical"
                   },
                   "type": "composition"
                 },
