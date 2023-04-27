@@ -17,7 +17,8 @@ comp
           "paddingRight": "{sem.structure.form.template.wizard.desktop.step.content.horizontalPadding}",
           "fill": "{sem.color.surface.default}",
           "borderRadiusTopRight": "{sem.structure.form.template.wizard.desktop.step.content.borderRadius}",
-          "borderRadiusBottomRight": "{sem.structure.form.template.wizard.desktop.step.content.borderRadius}"
+          "borderRadiusBottomRight": "{sem.structure.form.template.wizard.desktop.step.content.borderRadius}",
+          "layoutAlignItems": "top center"
         },
         "type": "composition"
       },
