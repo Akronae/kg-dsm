@@ -4,64 +4,62 @@ comp
 .structure.form.template.wizard.mobile
 [
   {
-    "mobile": {
-      "step": {
-        "body": {
+    "step": {
+      "body": {
+        "value": {
+          "fill": "{sem.color.background.dark}"
+        },
+        "type": "composition"
+      },
+      "content": {
+        "helpOpen": {
           "value": {
-            "fill": "{sem.color.background.dark}"
+            "paddingLeft": "{sem.structure.form.template.wizard.mobile.step.content.helpOpen.horizontalPadding}",
+            "paddingRight": "{sem.structure.form.template.wizard.mobile.step.content.helpOpen.horizontalPadding}",
+            "fill": "{sem.color.surface.default}",
+            "borderRadiusTopRight": "{sem.structure.form.template.wizard.mobile.step.content.helpOpen.borderRadius}",
+            "borderRadiusTopLeft": "{sem.structure.form.template.wizard.mobile.step.content.helpOpen.borderRadius}"
           },
           "type": "composition"
         },
-        "content": {
-          "helpOpen": {
-            "value": {
-              "paddingLeft": "{sem.structure.form.template.wizard.mobile.step.content.helpOpen.horizontalPadding}",
-              "paddingRight": "{sem.structure.form.template.wizard.mobile.step.content.helpOpen.horizontalPadding}",
-              "fill": "{sem.color.surface.default}",
-              "borderRadiusTopRight": "{sem.structure.form.template.wizard.mobile.step.content.helpOpen.borderRadius}",
-              "borderRadiusTopLeft": "{sem.structure.form.template.wizard.mobile.step.content.helpOpen.borderRadius}"
-            },
-            "type": "composition"
+        "helpClosed": {
+          "value": {
+            "paddingLeft": "{sem.structure.form.template.wizard.mobile.step.content.helpClosed.horizontalPadding}",
+            "paddingRight": "{sem.structure.form.template.wizard.mobile.step.content.helpClosed.horizontalPadding}",
+            "fill": "{sem.color.surface.default}"
           },
-          "helpClosed": {
-            "value": {
-              "paddingLeft": "{sem.structure.form.template.wizard.mobile.step.content.helpClosed.horizontalPadding}",
-              "paddingRight": "{sem.structure.form.template.wizard.mobile.step.content.helpClosed.horizontalPadding}",
-              "fill": "{sem.color.surface.default}"
-            },
-            "type": "composition"
-          },
-          "formWrapper": {
-            "value": {
-              "paddingTop": "{sem.structure.form.template.wizard.mobile.step.formWrapper.paddingTop}",
-              "paddingBottom": "{sem.structure.form.template.wizard.mobile.step.formWrapper.paddingBottom}"
-            },
-            "type": "composition"
-          }
+          "type": "composition"
         },
-        "summary": {
-          "body": {
-            "value": {
-              "fill": "{sem.color.background.default}"
-            },
-            "type": "composition"
+        "formWrapper": {
+          "value": {
+            "paddingTop": "{sem.structure.form.template.wizard.mobile.step.formWrapper.paddingTop}",
+            "paddingBottom": "{sem.structure.form.template.wizard.mobile.step.formWrapper.paddingBottom}"
           },
-          "content": {
-            "value": {
-              "paddingLeft": "{sem.structure.form.template.wizard.mobile.summary.content.horizontalPadding}",
-              "paddingRight": "{sem.structure.form.template.wizard.mobile.summary.content.horizontalPadding}",
-              "fill": "{sem.color.surface.default}"
-            },
-            "type": "composition"
-          },
-          "formWrapper": {
-            "value": {
-              "paddingTop": "{sem.structure.form.template.wizard.mobile.summary.formWrapper.paddingTop}",
-              "paddingBottom": "{sem.structure.form.template.wizard.mobile.summary.formWrapper.paddingBottom}"
-            },
-            "type": "composition"
-          }
+          "type": "composition"
         }
+      }
+    },
+    "summary": {
+      "body": {
+        "value": {
+          "fill": "{sem.color.background.default}"
+        },
+        "type": "composition"
+      },
+      "content": {
+        "value": {
+          "paddingLeft": "{sem.structure.form.template.wizard.mobile.summary.content.horizontalPadding}",
+          "paddingRight": "{sem.structure.form.template.wizard.mobile.summary.content.horizontalPadding}",
+          "fill": "{sem.color.surface.default}"
+        },
+        "type": "composition"
+      },
+      "formWrapper": {
+        "value": {
+          "paddingTop": "{sem.structure.form.template.wizard.mobile.summary.formWrapper.paddingTop}",
+          "paddingBottom": "{sem.structure.form.template.wizard.mobile.summary.formWrapper.paddingBottom}"
+        },
+        "type": "composition"
       }
     }
   }
