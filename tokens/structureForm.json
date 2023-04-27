@@ -1230,14 +1230,14 @@
                       "fill": "{sem.color.surface.default}"
                     },
                     "type": "composition"
-                  },
-                  "formWrapper": {
-                    "value": {
-                      "paddingTop": "{sem.structure.form.template.wizard.mobile.step.formWrapper.paddingTop}",
-                      "paddingBottom": "{sem.structure.form.template.wizard.mobile.step.formWrapper.paddingBottom}"
-                    },
-                    "type": "composition"
                   }
+                },
+                "formWrapper": {
+                  "value": {
+                    "paddingTop": "{sem.structure.form.template.wizard.mobile.step.formWrapper.paddingTop}",
+                    "paddingBottom": "{sem.structure.form.template.wizard.mobile.step.formWrapper.paddingBottom}"
+                  },
+                  "type": "composition"
                 }
               },
               "summary": {
