@@ -10,7 +10,6 @@ comp
           "value": {
             "paddingTop": "{sem.structure.form.components.navBar.mobile.wrapper.isClosed.paddingTop}",
             "paddingBottom": "{sem.structure.form.components.navBar.mobile.wrapper.isClosed.paddingBottom}",
-            "border": "{sem.border.disabled}",
             "horizontalResizing": "fill",
             "layoutMode": "horizontal"
           },
@@ -21,7 +20,6 @@ comp
             "paddingTop": "{sem.structure.form.components.navBar.mobile.wrapper.isOpen.paddingTop}",
             "paddingBottom": "{sem.structure.form.components.navBar.mobile.wrapper.isOpen.paddingBottom}",
             "layoutAlignItems": "center",
-            "border": "{sem.border.disabled}",
             "horizontalResizing": "fill",
             "layoutMode": "horizontal"
           },
@@ -35,7 +33,6 @@ comp
           "paddingTop": "{sem.structure.form.components.navBar.desktop.wrapper.paddingTop}",
           "paddingBottom": "{sem.structure.form.components.navBar.desktop.wrapper.paddingBottom}",
           "layoutAlignItems": "center right",
-          "border": "{sem.border.disabled}",
           "horizontalResizing": "fill",
           "layoutMode": "horizontal"
         },
