@@ -9,7 +9,9 @@ comp
         "isClosed": {
           "value": {
             "paddingTop": "{sem.structure.form.components.navBar.mobile.wrapper.isClosed.paddingTop}",
-            "paddingBottom": "{sem.structure.form.components.navBar.mobile.wrapper.isClosed.paddingBottom}"
+            "paddingBottom": "{sem.structure.form.components.navBar.mobile.wrapper.isClosed.paddingBottom}",
+            "border": "{sem.border.disabled}",
+            "horizontalResizing": "fill"
           },
           "type": "composition"
         },
@@ -17,7 +19,9 @@ comp
           "value": {
             "paddingTop": "{sem.structure.form.components.navBar.mobile.wrapper.isOpen.paddingTop}",
             "paddingBottom": "{sem.structure.form.components.navBar.mobile.wrapper.isOpen.paddingBottom}",
-            "layoutAlignItems": "center"
+            "layoutAlignItems": "center",
+            "border": "{sem.border.disabled}",
+            "horizontalResizing": "fill"
           },
           "type": "composition"
         }
@@ -28,7 +32,9 @@ comp
         "value": {
           "paddingTop": "{sem.structure.form.components.navBar.desktop.wrapper.paddingTop}",
           "paddingBottom": "{sem.structure.form.components.navBar.desktop.wrapper.paddingBottom}",
-          "layoutAlignItems": "center right"
+          "layoutAlignItems": "center right",
+          "border": "{sem.border.disabled}",
+          "horizontalResizing": "fill"
         },
         "type": "composition"
       }
