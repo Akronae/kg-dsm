@@ -1258,7 +1258,8 @@
                 "formWrapper": {
                   "value": {
                     "paddingTop": "{sem.structure.form.template.wizard.mobile.step.formWrapper.paddingTop}",
-                    "paddingBottom": "{sem.structure.form.template.wizard.mobile.step.formWrapper.paddingBottom}"
+                    "paddingBottom": "{sem.structure.form.template.wizard.mobile.step.formWrapper.paddingBottom}",
+                    "verticalResizing": "fill"
                   },
                   "type": "composition"
                 }
