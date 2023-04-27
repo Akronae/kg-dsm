@@ -11,7 +11,8 @@ comp
             "paddingTop": "{sem.structure.form.components.navBar.mobile.wrapper.isClosed.paddingTop}",
             "paddingBottom": "{sem.structure.form.components.navBar.mobile.wrapper.isClosed.paddingBottom}",
             "border": "{sem.border.disabled}",
-            "horizontalResizing": "fill"
+            "horizontalResizing": "fill",
+            "layoutMode": "horizontal"
           },
           "type": "composition"
         },
@@ -21,7 +22,8 @@ comp
             "paddingBottom": "{sem.structure.form.components.navBar.mobile.wrapper.isOpen.paddingBottom}",
             "layoutAlignItems": "center",
             "border": "{sem.border.disabled}",
-            "horizontalResizing": "fill"
+            "horizontalResizing": "fill",
+            "layoutMode": "horizontal"
           },
           "type": "composition"
         }
@@ -34,7 +36,8 @@ comp
           "paddingBottom": "{sem.structure.form.components.navBar.desktop.wrapper.paddingBottom}",
           "layoutAlignItems": "center right",
           "border": "{sem.border.disabled}",
-          "horizontalResizing": "fill"
+          "horizontalResizing": "fill",
+          "layoutMode": "horizontal"
         },
         "type": "composition"
       }
