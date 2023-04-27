@@ -18,7 +18,10 @@ comp
             "paddingRight": "{sem.structure.form.template.wizard.mobile.step.content.helpOpen.horizontalPadding}",
             "fill": "{sem.color.surface.default}",
             "borderRadiusTopRight": "{sem.structure.form.template.wizard.mobile.step.content.helpOpen.borderRadius}",
-            "borderRadiusTopLeft": "{sem.structure.form.template.wizard.mobile.step.content.helpOpen.borderRadius}"
+            "borderRadiusTopLeft": "{sem.structure.form.template.wizard.mobile.step.content.helpOpen.borderRadius}",
+            "layoutAlignItems": "top center",
+            "layoutMode": "vertical",
+            "horizontalResizing": "fill"
           },
           "type": "composition"
         },
@@ -26,7 +29,10 @@ comp
           "value": {
             "paddingLeft": "{sem.structure.form.template.wizard.mobile.step.content.helpClosed.horizontalPadding}",
             "paddingRight": "{sem.structure.form.template.wizard.mobile.step.content.helpClosed.horizontalPadding}",
-            "fill": "{sem.color.surface.default}"
+            "fill": "{sem.color.surface.default}",
+            "layoutAlignItems": "top center",
+            "layoutMode": "vertical",
+            "horizontalResizing": "fill"
           },
           "type": "composition"
         }
