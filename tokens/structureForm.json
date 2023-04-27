@@ -1063,7 +1063,8 @@
                   "paddingRight": "{sem.structure.form.components.sideHelp.desktop.container.paddingRight}",
                   "paddingBottom": "{sem.structure.form.components.sideHelp.desktop.container.paddingBottom}",
                   "paddingTop": "{sem.structure.form.components.sideHelp.desktop.container.paddingTop}",
-                  "width": "{sem.containerSize.maxWidth.sm}"
+                  "width": "{sem.containerSize.maxWidth.sm}",
+                  "spacingMode": "space between"
                 },
                 "type": "composition"
               },
