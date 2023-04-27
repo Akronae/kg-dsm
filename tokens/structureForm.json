@@ -1176,8 +1176,7 @@
                     "paddingTop": "{sem.structure.form.template.wizard.desktop.step.formWrapper.paddingTop}",
                     "paddingBottom": "{sem.structure.form.template.wizard.desktop.step.formWrapper.paddingBottom}",
                     "width": "{sem.containerSize.maxWidth.md}",
-                    "verticalResizing": "fill",
-                    "layoutAlignItems": "center"
+                    "verticalResizing": "fill"
                   },
                   "type": "composition"
                 }
