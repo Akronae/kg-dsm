@@ -1,0 +1,32 @@
+// @replacepath: tokens/structureForm.json
+
+comp
+.structure.form.template.wizard.base
+[
+  {
+    "step": {
+      "body": {
+        "value": {
+          "fill": "{sem.color.background.dark}"
+        },
+        "type": "composition"
+      },
+      "content": {
+        "value": {
+          "fill": "{sem.color.surface.default}",
+          "layoutAlignItems": "top center",
+          "layoutMode": "vertical",
+          "horizontalResizing": "fill",
+          "verticalResizing": "fill"
+        },
+        "type": "composition"
+      },
+      "formWrapper": {
+        "value": {
+          "verticalResizing": "fill"
+        },
+        "type": "composition"
+      }
+    }
+  }
+]

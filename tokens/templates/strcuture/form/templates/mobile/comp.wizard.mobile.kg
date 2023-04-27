@@ -7,46 +7,38 @@ comp
     "step": {
       "body": {
         "value": {
-          "fill": "{sem.color.background.dark}",
           "layoutMode": "vertical"
         },
-        "type": "composition"
+        "type": "composition",
+        "description": "({ extends: 'comp.structure.form.template.wizard.base.step.body' })"
       },
       "content": {
         "helpOpen": {
           "value": {
             "paddingLeft": "{sem.structure.form.template.wizard.mobile.step.content.helpOpen.horizontalPadding}",
             "paddingRight": "{sem.structure.form.template.wizard.mobile.step.content.helpOpen.horizontalPadding}",
-            "fill": "{sem.color.surface.default}",
             "borderRadiusTopRight": "{sem.structure.form.template.wizard.mobile.step.content.helpOpen.borderRadius}",
-            "borderRadiusTopLeft": "{sem.structure.form.template.wizard.mobile.step.content.helpOpen.borderRadius}",
-            "layoutAlignItems": "top center",
-            "layoutMode": "vertical",
-            "horizontalResizing": "fill",
-            "verticalResizing": "fill"
+            "borderRadiusTopLeft": "{sem.structure.form.template.wizard.mobile.step.content.helpOpen.borderRadius}"
           },
-          "type": "composition"
+          "type": "composition",
+          "description": "({ extends: 'comp.structure.form.template.wizard.base.step.content' })"
         },
         "helpClosed": {
           "value": {
             "paddingLeft": "{sem.structure.form.template.wizard.mobile.step.content.helpClosed.horizontalPadding}",
-            "paddingRight": "{sem.structure.form.template.wizard.mobile.step.content.helpClosed.horizontalPadding}",
-            "fill": "{sem.color.surface.default}",
-            "layoutAlignItems": "top center",
-            "layoutMode": "vertical",
-            "horizontalResizing": "fill",
-            "verticalResizing": "fill"
+            "paddingRight": "{sem.structure.form.template.wizard.mobile.step.content.helpClosed.horizontalPadding}"
           },
-          "type": "composition"
+          "type": "composition",
+          "description": "({ extends: 'comp.structure.form.template.wizard.base.step.content' })"
         }
       },
       "formWrapper": {
         "value": {
           "paddingTop": "{sem.structure.form.template.wizard.mobile.step.formWrapper.paddingTop}",
-          "paddingBottom": "{sem.structure.form.template.wizard.mobile.step.formWrapper.paddingBottom}",
-          "verticalResizing": "fill"
+          "paddingBottom": "{sem.structure.form.template.wizard.mobile.step.formWrapper.paddingBottom}"
         },
-        "type": "composition"
+        "type": "composition",
+        "description": "({ extends: 'comp.structure.form.template.wizard.base.step.formWrapper' })"
       }
     },
     "summary": {

@@ -7,33 +7,29 @@ comp
     "step": {
       "body": {
         "value": {
-          "fill": "{sem.color.background.dark}",
           "layoutMode": "horizontal"
         },
-        "type": "composition"
+        "type": "composition",
+        "description": "({ extends: 'comp.structure.form.template.wizard.base.step.body' })"
       },
       "content": {
         "value": {
           "paddingLeft": "{sem.structure.form.template.wizard.desktop.step.content.horizontalPadding}",
           "paddingRight": "{sem.structure.form.template.wizard.desktop.step.content.horizontalPadding}",
-          "fill": "{sem.color.surface.default}",
           "borderRadiusTopRight": "{sem.structure.form.template.wizard.desktop.step.content.borderRadius}",
-          "borderRadiusBottomRight": "{sem.structure.form.template.wizard.desktop.step.content.borderRadius}",
-          "layoutAlignItems": "top center",
-          "layoutMode": "vertical",
-          "horizontalResizing": "fill",
-          "verticalResizing": "fill"
+          "borderRadiusBottomRight": "{sem.structure.form.template.wizard.desktop.step.content.borderRadius}"
         },
-        "type": "composition"
+        "type": "composition",
+        "description": "({ extends: 'comp.structure.form.template.wizard.base.step.content' })"
       },
       "formWrapper": {
         "value": {
           "paddingTop": "{sem.structure.form.template.wizard.desktop.step.formWrapper.paddingTop}",
           "paddingBottom": "{sem.structure.form.template.wizard.desktop.step.formWrapper.paddingBottom}",
-          "width": "{sem.containerSize.maxWidth.md}",
-          "verticalResizing": "fill"
+          "width": "{sem.containerSize.maxWidth.md}"
         },
-        "type": "composition"
+        "type": "composition",
+        "description": "({ extends: 'comp.structure.form.template.wizard.base.step.formWrapper' })"
       }
     },
     "summary": {
