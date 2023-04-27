@@ -991,7 +991,8 @@
                     "paddingTop": "{sem.structure.form.components.navBar.mobile.wrapper.isClosed.paddingTop}",
                     "paddingBottom": "{sem.structure.form.components.navBar.mobile.wrapper.isClosed.paddingBottom}",
                     "horizontalResizing": "fill",
-                    "layoutMode": "horizontal"
+                    "layoutMode": "horizontal",
+                    "spacingMode": "space between"
                   },
                   "type": "composition"
                 },
