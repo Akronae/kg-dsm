@@ -1320,7 +1320,8 @@
                   "value": {
                     "verticalResizing": "fill",
                     "paddingTop": "{sem.structure.form.template.wizard.mobile.step.formWrapper.paddingTop}",
-                    "paddingBottom": "{sem.structure.form.template.wizard.mobile.step.formWrapper.paddingBottom}"
+                    "paddingBottom": "{sem.structure.form.template.wizard.mobile.step.formWrapper.paddingBottom}",
+                    "horizontalResizing": "fill"
                   },
                   "type": "composition",
                   "description": "({ extends: 'comp.structure.form.template.wizard.base.step.formWrapper' })"
