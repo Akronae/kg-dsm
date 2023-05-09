@@ -1,0 +1,14 @@
+// @replacepath: tokens/structureForm.json
+
+sem
+.structure.form.components.toggleCardGroup
+[
+  {
+    "container": {
+      "spacing": {
+        "value": "{ref.spacing.200}",
+        "type": "spacing"
+      }
+    }
+  }
+]

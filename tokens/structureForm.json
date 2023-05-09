@@ -1163,6 +1163,15 @@
                 "type": "composition"
               }
             }
+          },
+          "toggleCardGroup": {
+            "container": {
+              "value": {
+                "itemSpacing": "{sem.structure.form.components.toggleCardGroup.container.spacing}",
+                "layoutMode": "vertical"
+              },
+              "type": "composition"
+            }
           }
         },
         "template": {
@@ -1657,6 +1666,14 @@
                   "value": "{ref.spacing.100}",
                   "type": "spacing"
                 }
+              }
+            }
+          },
+          "toggleCardGroup": {
+            "container": {
+              "spacing": {
+                "value": "{ref.spacing.200}",
+                "type": "spacing"
               }
             }
           }
