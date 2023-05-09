@@ -5,41 +5,161 @@
         "components": {
           "actionZone": {
             "mobile": {
-              "buttonbuttonWrapper": {
+              "buttonWrapper": {
                 "value": {
                   "paddingTop": "{sem.structure.form.components.actionZone.mobile.buttonWrapper.paddingTop}",
                   "paddingBottom": "{sem.structure.form.components.actionZone.mobile.buttonWrapper.paddingBottom}",
                   "itemSpacing": "{sem.structure.form.components.actionZone.mobile.buttonWrapper.spacing}",
                   "layoutMode": "horizontal",
+                  "spacingMode": "space between",
                   "horizontalResizing": "fill"
                 },
                 "type": "composition"
               },
-              "nextButtonWidth": {
+              "nextButton": {
                 "value": {
-                  "width": "{sem.structure.form.components.actionZone.mobile.nextButtonWidth}"
+                  "border": "none",
+                  "borderRadius": "{sem.button.rectangular.lg.borderRadius}",
+                  "verticalPadding": "{sem.button.rectangular.lg.verticalPadding}",
+                  "horizontalPadding": "{sem.button.rectangular.lg.horizontalPadding}",
+                  "itemSpacing": "{sem.button.rectangular.lg.spacing}",
+                  "fill": "{sem.color.action.primary.default}",
+                  "horizontalResizing": "fill"
                 },
                 "type": "composition",
-                "description": "//({extends: 'comp.button.primary.rectangular.lg.default.container'})"
+                "description": "({extends: 'comp.button.primary.rectangular.lg.default.container'})"
               }
             },
             "desktop": {
-              "buttonbuttonWrapper": {
+              "buttonWrapper": {
                 "value": {
                   "paddingTop": "{sem.structure.form.components.actionZone.desktop.buttonWrapper.paddingTop}",
                   "paddingBottom": "{sem.structure.form.components.actionZone.desktop.buttonWrapper.paddingBottom}",
                   "itemSpacing": "{sem.structure.form.components.actionZone.desktop.buttonWrapper.spacing}",
                   "layoutMode": "horizontal",
+                  "spacingMode": "space between",
                   "horizontalResizing": "fill"
                 },
                 "type": "composition"
               },
-              "nextButtonWidth": {
+              "nextButton": {
                 "value": {
+                  "border": "none",
+                  "borderRadius": "{sem.button.rectangular.lg.borderRadius}",
+                  "verticalPadding": "{sem.button.rectangular.lg.verticalPadding}",
+                  "horizontalPadding": "{sem.button.rectangular.lg.horizontalPadding}",
+                  "itemSpacing": "{sem.button.rectangular.lg.spacing}",
+                  "fill": "{sem.color.action.primary.default}",
                   "width": "{sem.structure.form.components.actionZone.desktop.nextButtonWidth}"
                 },
                 "type": "composition",
-                "description": "//({extends: 'comp.button.primary.rectangular.lg.default.container'})"
+                "description": "({extends: 'comp.button.primary.rectangular.lg.default.container'})"
+              }
+            }
+          },
+          "documentViewer": {
+            "unfilled": {
+              "container": {
+                "value": {
+                  "itemSpacing": "{sem.structure.form.components.documentViewer.container.itemSpacing}",
+                  "layoutMode": "vertical"
+                },
+                "type": "composition"
+              },
+              "cardContent": {
+                "value": {
+                  "horizontalPadding": "{sem.card.base.md.padding}",
+                  "verticalPadding": "{sem.card.base.md.padding}",
+                  "fill": "{sem.color.surface.sub}",
+                  "boxShadow": "none",
+                  "borderRadiusTopLeft": "{sem.card.base.md.borderRadiusTopLeft}",
+                  "borderRadiusTopRight": "{sem.card.base.md.borderRadiusTopRight}",
+                  "borderRadiusBottomRight": "{sem.card.base.md.borderRadiusBottomRight}",
+                  "borderRadiusBottomLeft": "{sem.card.base.md.borderRadiusBottomLeft}",
+                  "border": "{sem.border.transparent}",
+                  "layoutMode": "vertical",
+                  "itemSpacing": "{sem.cardContent.card.md.container.itemSpacing}"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.cardContent.card.md.desktop.container'})"
+              }
+            },
+            "inModeration": {
+              "container": {
+                "value": {
+                  "itemSpacing": "{sem.structure.form.components.documentViewer.container.itemSpacing}",
+                  "layoutMode": "vertical"
+                },
+                "type": "composition"
+              },
+              "cardContent": {
+                "value": {
+                  "horizontalPadding": "{sem.card.base.md.padding}",
+                  "verticalPadding": "{sem.card.base.md.padding}",
+                  "fill": "{sem.color.surface.light}",
+                  "boxShadow": "none",
+                  "borderRadiusTopLeft": "{sem.card.base.md.borderRadiusTopLeft}",
+                  "borderRadiusTopRight": "{sem.card.base.md.borderRadiusTopRight}",
+                  "borderRadiusBottomRight": "{sem.card.base.md.borderRadiusBottomRight}",
+                  "borderRadiusBottomLeft": "{sem.card.base.md.borderRadiusBottomLeft}",
+                  "border": "{sem.border.transparent}",
+                  "layoutMode": "vertical",
+                  "itemSpacing": "{sem.cardContent.card.md.container.itemSpacing}"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.cardContent.card.md.desktop.container'})"
+              }
+            },
+            "valide": {
+              "container": {
+                "value": {
+                  "itemSpacing": "{sem.structure.form.components.documentViewer.container.itemSpacing}",
+                  "layoutMode": "vertical"
+                },
+                "type": "composition"
+              },
+              "cardContent": {
+                "value": {
+                  "horizontalPadding": "{sem.card.base.md.padding}",
+                  "verticalPadding": "{sem.card.base.md.padding}",
+                  "fill": "{sem.color.surface.light}",
+                  "boxShadow": "none",
+                  "borderRadiusTopLeft": "{sem.card.base.md.borderRadiusTopLeft}",
+                  "borderRadiusTopRight": "{sem.card.base.md.borderRadiusTopRight}",
+                  "borderRadiusBottomRight": "{sem.card.base.md.borderRadiusBottomRight}",
+                  "borderRadiusBottomLeft": "{sem.card.base.md.borderRadiusBottomLeft}",
+                  "border": "{sem.border.transparent}",
+                  "layoutMode": "vertical",
+                  "itemSpacing": "{sem.cardContent.card.md.container.itemSpacing}"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.cardContent.card.md.desktop.container'})"
+              }
+            },
+            "declined": {
+              "container": {
+                "value": {
+                  "itemSpacing": "{sem.structure.form.components.documentViewer.container.itemSpacing}",
+                  "layoutMode": "vertical"
+                },
+                "type": "composition"
+              },
+              "cardContent": {
+                "value": {
+                  "horizontalPadding": "{sem.card.base.md.padding}",
+                  "verticalPadding": "{sem.card.base.md.padding}",
+                  "fill": "{sem.color.surface.light}",
+                  "boxShadow": "none",
+                  "borderRadiusTopLeft": "{sem.card.base.md.borderRadiusTopLeft}",
+                  "borderRadiusTopRight": "{sem.card.base.md.borderRadiusTopRight}",
+                  "borderRadiusBottomRight": "{sem.card.base.md.borderRadiusBottomRight}",
+                  "borderRadiusBottomLeft": "{sem.card.base.md.borderRadiusBottomLeft}",
+                  "border": "{sem.border.transparent}",
+                  "layoutMode": "vertical",
+                  "itemSpacing": "{sem.cardContent.card.md.container.itemSpacing}"
+                },
+                "type": "composition",
+                "description": "({extends: 'comp.cardContent.card.md.desktop.container'})"
               }
             }
           },
@@ -883,14 +1003,20 @@
                 "isClosed": {
                   "value": {
                     "paddingTop": "{sem.structure.form.components.navBar.mobile.wrapper.isClosed.paddingTop}",
-                    "paddingBottom": "{sem.structure.form.components.navBar.mobile.wrapper.isClosed.paddingBottom}"
+                    "paddingBottom": "{sem.structure.form.components.navBar.mobile.wrapper.isClosed.paddingBottom}",
+                    "horizontalResizing": "fill",
+                    "layoutMode": "horizontal",
+                    "spacingMode": "space between"
                   },
                   "type": "composition"
                 },
                 "isOpen": {
                   "value": {
                     "paddingTop": "{sem.structure.form.components.navBar.mobile.wrapper.isOpen.paddingTop}",
-                    "paddingBottom": "{sem.structure.form.components.navBar.mobile.wrapper.isOpen.paddingBottom}"
+                    "paddingBottom": "{sem.structure.form.components.navBar.mobile.wrapper.isOpen.paddingBottom}",
+                    "layoutAlignItems": "center",
+                    "horizontalResizing": "fill",
+                    "layoutMode": "horizontal"
                   },
                   "type": "composition"
                 }
@@ -900,7 +1026,10 @@
               "wrapper": {
                 "value": {
                   "paddingTop": "{sem.structure.form.components.navBar.desktop.wrapper.paddingTop}",
-                  "paddingBottom": "{sem.structure.form.components.navBar.desktop.wrapper.paddingBottom}"
+                  "paddingBottom": "{sem.structure.form.components.navBar.desktop.wrapper.paddingBottom}",
+                  "layoutAlignItems": "center right",
+                  "horizontalResizing": "fill",
+                  "layoutMode": "horizontal"
                 },
                 "type": "composition"
               }
@@ -919,7 +1048,10 @@
               },
               "contentWrapper": {
                 "value": {
-                  "itemSpacing": "{sem.structure.form.components.sideHelp.mobile.contentWrapper.spacing}"
+                  "itemSpacing": "{sem.structure.form.components.sideHelp.mobile.contentWrapper.spacing}",
+                  "layoutMode": "vertical",
+                  "layoutAlignItems": "top left",
+                  "horizontalResizing": "fill"
                 },
                 "type": "composition"
               },
@@ -945,13 +1077,17 @@
                   "paddingRight": "{sem.structure.form.components.sideHelp.desktop.container.paddingRight}",
                   "paddingBottom": "{sem.structure.form.components.sideHelp.desktop.container.paddingBottom}",
                   "paddingTop": "{sem.structure.form.components.sideHelp.desktop.container.paddingTop}",
-                  "width": "{sem.containerSize.maxWidth.sm}"
+                  "width": "{sem.containerSize.maxWidth.sm}",
+                  "spacingMode": "space between"
                 },
                 "type": "composition"
               },
               "contentWrapper": {
                 "value": {
-                  "itemSpacing": "{sem.structure.form.components.sideHelp.desktop.contentWrapper.spacing}"
+                  "itemSpacing": "{sem.structure.form.components.sideHelp.desktop.contentWrapper.spacing}",
+                  "layoutMode": "vertical",
+                  "layoutAlignItems": "top left",
+                  "horizontalResizing": "fill"
                 },
                 "type": "composition"
               },
@@ -1042,116 +1178,19 @@
               }
             }
           },
-          "documentViewer": {
-            "unfilled": {
-              "container": {
-                "value": {
-                  "itemSpacing": "{sem.structure.form.components.documentViewer.container.itemSpacing}",
-                  "layoutMode": "vertical"
-                },
-                "type": "composition"
+          "toggleCardGroup": {
+            "container": {
+              "value": {
+                "itemSpacing": "{sem.structure.form.components.toggleCardGroup.container.spacing}",
+                "layoutMode": "vertical"
               },
-              "cardContent": {
-                "value": {
-                  "horizontalPadding": "{sem.card.base.md.padding}",
-                  "verticalPadding": "{sem.card.base.md.padding}",
-                  "fill": "{sem.color.surface.sub}",
-                  "boxShadow": "none",
-                  "borderRadiusTopLeft": "{sem.card.base.md.borderRadiusTopLeft}",
-                  "borderRadiusTopRight": "{sem.card.base.md.borderRadiusTopRight}",
-                  "borderRadiusBottomRight": "{sem.card.base.md.borderRadiusBottomRight}",
-                  "borderRadiusBottomLeft": "{sem.card.base.md.borderRadiusBottomLeft}",
-                  "border": "{sem.border.transparent}",
-                  "layoutMode": "vertical",
-                  "itemSpacing": "{sem.cardContent.card.md.container.itemSpacing}"
-                },
-                "type": "composition",
-                "description": "({extends: 'comp.cardContent.card.md.desktop.container'})"
-              }
-            },
-            "inModeration": {
-              "container": {
-                "value": {
-                  "itemSpacing": "{sem.structure.form.components.documentViewer.container.itemSpacing}",
-                  "layoutMode": "vertical"
-                },
-                "type": "composition"
-              },
-              "cardContent": {
-                "value": {
-                  "horizontalPadding": "{sem.card.base.md.padding}",
-                  "verticalPadding": "{sem.card.base.md.padding}",
-                  "fill": "{sem.color.surface.light}",
-                  "boxShadow": "none",
-                  "borderRadiusTopLeft": "{sem.card.base.md.borderRadiusTopLeft}",
-                  "borderRadiusTopRight": "{sem.card.base.md.borderRadiusTopRight}",
-                  "borderRadiusBottomRight": "{sem.card.base.md.borderRadiusBottomRight}",
-                  "borderRadiusBottomLeft": "{sem.card.base.md.borderRadiusBottomLeft}",
-                  "border": "{sem.border.transparent}",
-                  "layoutMode": "vertical",
-                  "itemSpacing": "{sem.cardContent.card.md.container.itemSpacing}"
-                },
-                "type": "composition",
-                "description": "({extends: 'comp.cardContent.card.md.desktop.container'})"
-              }
-            },
-            "valide": {
-              "container": {
-                "value": {
-                  "itemSpacing": "{sem.structure.form.components.documentViewer.container.itemSpacing}",
-                  "layoutMode": "vertical"
-                },
-                "type": "composition"
-              },
-              "cardContent": {
-                "value": {
-                  "horizontalPadding": "{sem.card.base.md.padding}",
-                  "verticalPadding": "{sem.card.base.md.padding}",
-                  "fill": "{sem.color.surface.light}",
-                  "boxShadow": "none",
-                  "borderRadiusTopLeft": "{sem.card.base.md.borderRadiusTopLeft}",
-                  "borderRadiusTopRight": "{sem.card.base.md.borderRadiusTopRight}",
-                  "borderRadiusBottomRight": "{sem.card.base.md.borderRadiusBottomRight}",
-                  "borderRadiusBottomLeft": "{sem.card.base.md.borderRadiusBottomLeft}",
-                  "border": "{sem.border.transparent}",
-                  "layoutMode": "vertical",
-                  "itemSpacing": "{sem.cardContent.card.md.container.itemSpacing}"
-                },
-                "type": "composition",
-                "description": "({extends: 'comp.cardContent.card.md.desktop.container'})"
-              }
-            },
-            "declined": {
-              "container": {
-                "value": {
-                  "itemSpacing": "{sem.structure.form.components.documentViewer.container.itemSpacing}",
-                  "layoutMode": "vertical"
-                },
-                "type": "composition"
-              },
-              "cardContent": {
-                "value": {
-                  "horizontalPadding": "{sem.card.base.md.padding}",
-                  "verticalPadding": "{sem.card.base.md.padding}",
-                  "fill": "{sem.color.surface.light}",
-                  "boxShadow": "none",
-                  "borderRadiusTopLeft": "{sem.card.base.md.borderRadiusTopLeft}",
-                  "borderRadiusTopRight": "{sem.card.base.md.borderRadiusTopRight}",
-                  "borderRadiusBottomRight": "{sem.card.base.md.borderRadiusBottomRight}",
-                  "borderRadiusBottomLeft": "{sem.card.base.md.borderRadiusBottomLeft}",
-                  "border": "{sem.border.transparent}",
-                  "layoutMode": "vertical",
-                  "itemSpacing": "{sem.cardContent.card.md.container.itemSpacing}"
-                },
-                "type": "composition",
-                "description": "({extends: 'comp.cardContent.card.md.desktop.container'})"
-              }
+              "type": "composition"
             }
           }
         },
         "template": {
           "wizard": {
-            "desktop": {
+            "base": {
               "step": {
                 "body": {
                   "value": {
@@ -1161,21 +1200,56 @@
                 },
                 "content": {
                   "value": {
-                    "paddingLeft": "{sem.structure.form.template.wizard.desktop.step.content.horizontalPadding}",
-                    "paddingRight": "{sem.structure.form.template.wizard.desktop.step.content.horizontalPadding}",
                     "fill": "{sem.color.surface.default}",
-                    "borderRadiusTopRight": "{sem.structure.form.template.wizard.desktop.step.content.borderRadius}",
-                    "borderRadiusBottomRight": "{sem.structure.form.template.wizard.desktop.step.content.borderRadius}"
+                    "layoutAlignItems": "top center",
+                    "layoutMode": "vertical",
+                    "horizontalResizing": "fill",
+                    "verticalResizing": "fill"
                   },
                   "type": "composition"
                 },
                 "formWrapper": {
                   "value": {
+                    "verticalResizing": "fill"
+                  },
+                  "type": "composition"
+                }
+              }
+            },
+            "desktop": {
+              "step": {
+                "body": {
+                  "value": {
+                    "fill": "{sem.color.background.dark}",
+                    "layoutMode": "horizontal"
+                  },
+                  "type": "composition",
+                  "description": "({ extends: 'comp.structure.form.template.wizard.base.step.body' })"
+                },
+                "content": {
+                  "value": {
+                    "fill": "{sem.color.surface.default}",
+                    "layoutAlignItems": "top center",
+                    "layoutMode": "vertical",
+                    "horizontalResizing": "fill",
+                    "verticalResizing": "fill",
+                    "paddingLeft": "{sem.structure.form.template.wizard.desktop.step.content.horizontalPadding}",
+                    "paddingRight": "{sem.structure.form.template.wizard.desktop.step.content.horizontalPadding}",
+                    "borderRadiusTopRight": "{sem.structure.form.template.wizard.desktop.step.content.borderRadius}",
+                    "borderRadiusBottomRight": "{sem.structure.form.template.wizard.desktop.step.content.borderRadius}"
+                  },
+                  "type": "composition",
+                  "description": "({ extends: 'comp.structure.form.template.wizard.base.step.content' })"
+                },
+                "formWrapper": {
+                  "value": {
+                    "verticalResizing": "fill",
                     "paddingTop": "{sem.structure.form.template.wizard.desktop.step.formWrapper.paddingTop}",
                     "paddingBottom": "{sem.structure.form.template.wizard.desktop.step.formWrapper.paddingBottom}",
                     "width": "{sem.containerSize.maxWidth.md}"
                   },
-                  "type": "composition"
+                  "type": "composition",
+                  "description": "({ extends: 'comp.structure.form.template.wizard.base.step.formWrapper' })"
                 }
               },
               "summary": {
@@ -1203,64 +1277,76 @@
               }
             },
             "mobile": {
-              "mobile": {
-                "step": {
-                  "body": {
+              "step": {
+                "body": {
+                  "value": {
+                    "fill": "{sem.color.background.dark}",
+                    "layoutMode": "vertical"
+                  },
+                  "type": "composition",
+                  "description": "({ extends: 'comp.structure.form.template.wizard.base.step.body' })"
+                },
+                "content": {
+                  "helpOpen": {
                     "value": {
-                      "fill": "{sem.color.background.dark}"
+                      "fill": "{sem.color.surface.default}",
+                      "layoutAlignItems": "top center",
+                      "layoutMode": "vertical",
+                      "horizontalResizing": "fill",
+                      "verticalResizing": "fill",
+                      "paddingLeft": "{sem.structure.form.template.wizard.mobile.step.content.helpOpen.horizontalPadding}",
+                      "paddingRight": "{sem.structure.form.template.wizard.mobile.step.content.helpOpen.horizontalPadding}",
+                      "borderRadiusTopRight": "{sem.structure.form.template.wizard.mobile.step.content.helpOpen.borderRadius}",
+                      "borderRadiusTopLeft": "{sem.structure.form.template.wizard.mobile.step.content.helpOpen.borderRadius}"
                     },
-                    "type": "composition"
+                    "type": "composition",
+                    "description": "({ extends: 'comp.structure.form.template.wizard.base.step.content' })"
                   },
-                  "content": {
-                    "helpOpen": {
-                      "value": {
-                        "paddingLeft": "{sem.structure.form.template.wizard.mobile.step.content.helpOpen.horizontalPadding}",
-                        "paddingRight": "{sem.structure.form.template.wizard.mobile.step.content.helpOpen.horizontalPadding}",
-                        "fill": "{sem.color.surface.default}",
-                        "borderRadiusTopRight": "{sem.structure.form.template.wizard.mobile.step.content.helpOpen.borderRadius}",
-                        "borderRadiusTopLeft": "{sem.structure.form.template.wizard.mobile.step.content.helpOpen.borderRadius}"
-                      },
-                      "type": "composition"
+                  "helpClosed": {
+                    "value": {
+                      "fill": "{sem.color.surface.default}",
+                      "layoutAlignItems": "top center",
+                      "layoutMode": "vertical",
+                      "horizontalResizing": "fill",
+                      "verticalResizing": "fill",
+                      "paddingLeft": "{sem.structure.form.template.wizard.mobile.step.content.helpClosed.horizontalPadding}",
+                      "paddingRight": "{sem.structure.form.template.wizard.mobile.step.content.helpClosed.horizontalPadding}"
                     },
-                    "helpClosed": {
-                      "value": {
-                        "paddingLeft": "{sem.structure.form.template.wizard.mobile.step.content.helpClosed.horizontalPadding}",
-                        "paddingRight": "{sem.structure.form.template.wizard.mobile.step.content.helpClosed.horizontalPadding}",
-                        "fill": "{sem.color.surface.default}"
-                      },
-                      "type": "composition"
-                    },
-                    "formWrapper": {
-                      "value": {
-                        "paddingTop": "{sem.structure.form.template.wizard.mobile.step.formWrapper.paddingTop}",
-                        "paddingBottom": "{sem.structure.form.template.wizard.mobile.step.formWrapper.paddingBottom}"
-                      },
-                      "type": "composition"
-                    }
-                  },
-                  "summary": {
-                    "body": {
-                      "value": {
-                        "fill": "{sem.color.background.default}"
-                      },
-                      "type": "composition"
-                    },
-                    "content": {
-                      "value": {
-                        "paddingLeft": "{sem.structure.form.template.wizard.mobile.summary.content.horizontalPadding}",
-                        "paddingRight": "{sem.structure.form.template.wizard.mobile.summary.content.horizontalPadding}",
-                        "fill": "{sem.color.surface.default}"
-                      },
-                      "type": "composition"
-                    },
-                    "formWrapper": {
-                      "value": {
-                        "paddingTop": "{sem.structure.form.template.wizard.mobile.summary.formWrapper.paddingTop}",
-                        "paddingBottom": "{sem.structure.form.template.wizard.mobile.summary.formWrapper.paddingBottom}"
-                      },
-                      "type": "composition"
-                    }
+                    "type": "composition",
+                    "description": "({ extends: 'comp.structure.form.template.wizard.base.step.content' })"
                   }
+                },
+                "formWrapper": {
+                  "value": {
+                    "verticalResizing": "fill",
+                    "paddingTop": "{sem.structure.form.template.wizard.mobile.step.formWrapper.paddingTop}",
+                    "paddingBottom": "{sem.structure.form.template.wizard.mobile.step.formWrapper.paddingBottom}"
+                  },
+                  "type": "composition",
+                  "description": "({ extends: 'comp.structure.form.template.wizard.base.step.formWrapper' })"
+                }
+              },
+              "summary": {
+                "body": {
+                  "value": {
+                    "fill": "{sem.color.background.default}"
+                  },
+                  "type": "composition"
+                },
+                "content": {
+                  "value": {
+                    "paddingLeft": "{sem.structure.form.template.wizard.mobile.summary.content.horizontalPadding}",
+                    "paddingRight": "{sem.structure.form.template.wizard.mobile.summary.content.horizontalPadding}",
+                    "fill": "{sem.color.surface.default}"
+                  },
+                  "type": "composition"
+                },
+                "formWrapper": {
+                  "value": {
+                    "paddingTop": "{sem.structure.form.template.wizard.mobile.summary.formWrapper.paddingTop}",
+                    "paddingBottom": "{sem.structure.form.template.wizard.mobile.summary.formWrapper.paddingBottom}"
+                  },
+                  "type": "composition"
                 }
               }
             }
@@ -1594,6 +1680,14 @@
                   "value": "{ref.spacing.100}",
                   "type": "spacing"
                 }
+              }
+            }
+          },
+          "toggleCardGroup": {
+            "container": {
+              "spacing": {
+                "value": "{ref.spacing.200}",
+                "type": "spacing"
               }
             }
           }

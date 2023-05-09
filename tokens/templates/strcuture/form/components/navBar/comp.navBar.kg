@@ -9,14 +9,20 @@ comp
         "isClosed": {
           "value": {
             "paddingTop": "{sem.structure.form.components.navBar.mobile.wrapper.isClosed.paddingTop}",
-            "paddingBottom": "{sem.structure.form.components.navBar.mobile.wrapper.isClosed.paddingBottom}"
+            "paddingBottom": "{sem.structure.form.components.navBar.mobile.wrapper.isClosed.paddingBottom}",
+            "horizontalResizing": "fill",
+            "layoutMode": "horizontal",
+            "spacingMode": "space between"
           },
           "type": "composition"
         },
         "isOpen": {
           "value": {
             "paddingTop": "{sem.structure.form.components.navBar.mobile.wrapper.isOpen.paddingTop}",
-            "paddingBottom": "{sem.structure.form.components.navBar.mobile.wrapper.isOpen.paddingBottom}"
+            "paddingBottom": "{sem.structure.form.components.navBar.mobile.wrapper.isOpen.paddingBottom}",
+            "layoutAlignItems": "center",
+            "horizontalResizing": "fill",
+            "layoutMode": "horizontal"
           },
           "type": "composition"
         }
@@ -26,7 +32,10 @@ comp
       "wrapper": {
         "value": {
           "paddingTop": "{sem.structure.form.components.navBar.desktop.wrapper.paddingTop}",
-          "paddingBottom": "{sem.structure.form.components.navBar.desktop.wrapper.paddingBottom}"
+          "paddingBottom": "{sem.structure.form.components.navBar.desktop.wrapper.paddingBottom}",
+          "layoutAlignItems": "center right",
+          "horizontalResizing": "fill",
+          "layoutMode": "horizontal"
         },
         "type": "composition"
       }

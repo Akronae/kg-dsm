@@ -5,22 +5,24 @@ comp
 [aspectRatio: 'mobile' | 'desktop']
 [
   {
-    "buttonbuttonWrapper": {
+    "buttonWrapper": {
       "value": {
         "paddingTop": "{sem.structure.form.components.actionZone.<<aspectRatio>>.buttonWrapper.paddingTop}",
         "paddingBottom": "{sem.structure.form.components.actionZone.<<aspectRatio>>.buttonWrapper.paddingBottom}",
         "itemSpacing": "{sem.structure.form.components.actionZone.<<aspectRatio>>.buttonWrapper.spacing}",
         "layoutMode": "horizontal",
+        "spacingMode": "space between",
         "horizontalResizing": "fill"
       },
       "type": "composition"
     },
-    "nextButtonWidth": {
+    "nextButton": {
       "value": {
-        "width": "{sem.structure.form.components.actionZone.<<aspectRatio>>.nextButtonWidth}"
+        "horizontalResizing": "<< aspectRatio == 'mobile' ? 'fill' : undefined >>",
+        "width": "<< aspectRatio == 'mobile' ? undefined : '{sem.structure.form.components.actionZone.desktop.nextButtonWidth}' >>"
       },
       "type": "composition",
-      "description": "//({extends: 'comp.button.primary.rectangular.lg.default.container'})"
+      "description": "({extends: 'comp.button.primary.rectangular.lg.default.container'})"
     }
   }
 ]

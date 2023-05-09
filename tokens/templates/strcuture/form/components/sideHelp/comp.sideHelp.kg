@@ -11,13 +11,17 @@ comp
         "paddingRight": "{sem.structure.form.components.sideHelp.<<aspectRatio>>.container.paddingRight}",
         "paddingBottom": "{sem.structure.form.components.sideHelp.<<aspectRatio>>.container.paddingBottom}",
         "paddingTop": "{sem.structure.form.components.sideHelp.<<aspectRatio>>.container.paddingTop}",
-        "width": "<< ({ mobile: 'undefined', desktop: '{sem.containerSize.maxWidth.sm}' })[aspectRatio]>>"
+        "width": "<< ({ mobile: 'undefined', desktop: '{sem.containerSize.maxWidth.sm}' })[aspectRatio]>>",
+        "spacingMode": "<< ({ mobile: undefined, desktop: 'space between' })[aspectRatio] >>"
       },
       "type": "composition"
     },
     "contentWrapper": {
       "value": {
-        "itemSpacing": "{sem.structure.form.components.sideHelp.<<aspectRatio>>.contentWrapper.spacing}"
+        "itemSpacing": "{sem.structure.form.components.sideHelp.<<aspectRatio>>.contentWrapper.spacing}",
+        "layoutMode": "vertical",
+        "layoutAlignItems": "top left",
+        "horizontalResizing": "fill"
       },
       "type": "composition"
     },

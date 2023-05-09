@@ -7,19 +7,20 @@ comp
     "step": {
       "body": {
         "value": {
-          "fill": "{sem.color.background.dark}"
+          "layoutMode": "horizontal"
         },
-        "type": "composition"
+        "type": "composition",
+        "description": "({ extends: 'comp.structure.form.template.wizard.base.step.body' })"
       },
       "content": {
         "value": {
           "paddingLeft": "{sem.structure.form.template.wizard.desktop.step.content.horizontalPadding}",
           "paddingRight": "{sem.structure.form.template.wizard.desktop.step.content.horizontalPadding}",
-          "fill": "{sem.color.surface.default}",
           "borderRadiusTopRight": "{sem.structure.form.template.wizard.desktop.step.content.borderRadius}",
           "borderRadiusBottomRight": "{sem.structure.form.template.wizard.desktop.step.content.borderRadius}"
         },
-        "type": "composition"
+        "type": "composition",
+        "description": "({ extends: 'comp.structure.form.template.wizard.base.step.content' })"
       },
       "formWrapper": {
         "value": {
@@ -27,7 +28,8 @@ comp
           "paddingBottom": "{sem.structure.form.template.wizard.desktop.step.formWrapper.paddingBottom}",
           "width": "{sem.containerSize.maxWidth.md}"
         },
-        "type": "composition"
+        "type": "composition",
+        "description": "({ extends: 'comp.structure.form.template.wizard.base.step.formWrapper' })"
       }
     },
     "summary": {
