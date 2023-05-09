@@ -21,7 +21,8 @@ comp
         "horizontalResizing": "<< aspectRatio == 'mobile' ? 'fill' : undefined >>",
         "width": "<< aspectRatio == 'mobile' ? undefined : '{sem.structure.form.components.actionZone.desktop.nextButtonWidth}' >>"
       },
-      "type": "composition"
+      "type": "composition",
+      "description": "({extends: 'comp.button.primary.rectangular.lg.default.container'})"
     }
   }
 ]

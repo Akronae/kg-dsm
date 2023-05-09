@@ -18,9 +18,16 @@
               },
               "nextButton": {
                 "value": {
+                  "border": "none",
+                  "borderRadius": "{sem.button.rectangular.lg.borderRadius}",
+                  "verticalPadding": "{sem.button.rectangular.lg.verticalPadding}",
+                  "horizontalPadding": "{sem.button.rectangular.lg.horizontalPadding}",
+                  "itemSpacing": "{sem.button.rectangular.lg.spacing}",
+                  "fill": "{sem.color.action.primary.default}",
                   "horizontalResizing": "fill"
                 },
-                "type": "composition"
+                "type": "composition",
+                "description": "({extends: 'comp.button.primary.rectangular.lg.default.container'})"
               }
             },
             "desktop": {
@@ -37,9 +44,16 @@
               },
               "nextButton": {
                 "value": {
+                  "border": "none",
+                  "borderRadius": "{sem.button.rectangular.lg.borderRadius}",
+                  "verticalPadding": "{sem.button.rectangular.lg.verticalPadding}",
+                  "horizontalPadding": "{sem.button.rectangular.lg.horizontalPadding}",
+                  "itemSpacing": "{sem.button.rectangular.lg.spacing}",
+                  "fill": "{sem.color.action.primary.default}",
                   "width": "{sem.structure.form.components.actionZone.desktop.nextButtonWidth}"
                 },
-                "type": "composition"
+                "type": "composition",
+                "description": "({extends: 'comp.button.primary.rectangular.lg.default.container'})"
               }
             }
           },
