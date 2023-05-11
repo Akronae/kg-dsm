@@ -1,0 +1,11 @@
+{
+  "vars": {
+    "depositProperty": {
+      "maxRooms": {
+        "value": "12",
+        "type": "other",
+        "description": "The maximum number of rooms in the property a user can select."
+      }
+    }
+  }
+}

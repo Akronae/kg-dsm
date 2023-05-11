@@ -11,6 +11,7 @@
     "structureListing",
     "structureForm",
     "structureEmpty-state",
-    "searchProperty"
+    "searchProperty",
+    "vars"
   ]
 }

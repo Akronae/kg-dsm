@@ -14,7 +14,8 @@
       "structureEmpty-state": "enabled",
       "structureForm": "enabled",
       "comp.web": "enabled",
-      "searchProperty": "enabled"
+      "searchProperty": "enabled",
+      "vars": "enabled"
     },
     "$figmaStyleReferences": {
       "color.action.primary.default": "S:9405eb6a398f2ad3f41d513ab820c202bbc0ecdf,",
