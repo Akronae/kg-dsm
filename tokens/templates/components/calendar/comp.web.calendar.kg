@@ -39,7 +39,8 @@ comp
         "wrapper": {
           "value": {
             "layoutMode": "horizontal",
-            "layoutAlignItems": "center left"
+            "layoutAlignItems": "center left",
+            "spacingMode": "space between"
           },
           "type": "composition"
         },
