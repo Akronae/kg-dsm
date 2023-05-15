@@ -4784,7 +4784,7 @@
           "daySelector": {
             "wrapper": {
               "value": {
-                "layoutmode": "horizontal",
+                "layoutMode": "horizontal",
                 "itemSpacing": "{sem.calendar.rightSide.daySelector.spacing}"
               },
               "type": "composition"
@@ -4857,7 +4857,7 @@
           "daySelector": {
             "wrapper": {
               "value": {
-                "layoutmode": "horizontal",
+                "layoutMode": "horizontal",
                 "itemSpacing": "{sem.calendar.rightSide.daySelector.spacing}"
               },
               "type": "composition"
