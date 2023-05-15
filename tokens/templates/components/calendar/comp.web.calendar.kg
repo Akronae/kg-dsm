@@ -70,7 +70,7 @@ comp
         "wrapper": {
           "value": {
             "layoutmode": "horizontal",
-            "itemSapcing": "{sem.calendar.rightSide.daySelector.spacing}"
+            "itemSpacing": "{sem.calendar.rightSide.daySelector.spacing}"
           },
           "type": "composition"
         }
