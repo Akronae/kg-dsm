@@ -35,7 +35,7 @@ comp
         },
         "type": "composition"
       },
-      "mounthSelector": {
+      "monthSelector": {
         "wrapper": {
           "value": {
             "layoutMode": "horizontal",
@@ -53,8 +53,8 @@ comp
         "icon": {
           "size": {
             "value": {
-              "width": "{sem.calendar.rightSide.mounthSelector.icon.size}",
-              "height": "{sem.calendar.rightSide.mounthSelector.icon.size}"
+              "width": "{sem.calendar.rightSide.monthSelector.icon.size}",
+              "height": "{sem.calendar.rightSide.monthSelector.icon.size}"
             },
             "type": "composition"
           },

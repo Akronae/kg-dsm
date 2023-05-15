@@ -29,7 +29,7 @@ sem
           "type": "spacing"
         }
       },
-      "mounthSelector": {
+      "monthSelector": {
         "icon": {
           "size": {
             "value": "{ref.sizing.200}",
