@@ -9,6 +9,12 @@ sem
         "value": "{ref.spacing.200}",
         "type": "spacing"
       }
+    },
+    "cradWrapper": {
+      "spacing": {
+        "value": "{ref.spacing.200}",
+        "type": "spacing"
+      }
     }
   }
 ]

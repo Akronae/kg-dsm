@@ -1181,7 +1181,21 @@
           "toggleCardGroup": {
             "container": {
               "value": {
-                "itemSpacing": "{sem.structure.form.components.toggleCardGroup.container.spacing}",
+                "layoutMode": "vertical",
+                "itemSpacing": "{sem.structure.form.components.toggleCardGroup.container.spacing}"
+              },
+              "type": "composition"
+            },
+            "title": {
+              "value": {
+                "typography": "{sem.typography.textStyle.heading.heading5}",
+                "fill": "{sem.color.text.dark}"
+              },
+              "type": "composition"
+            },
+            "cradWrapper": {
+              "value": {
+                "itemSpacing": "{sem.structure.form.components.toggleCardGroup.cradWrapper.spacing}",
                 "layoutMode": "vertical"
               },
               "type": "composition"
@@ -1686,6 +1700,12 @@
           },
           "toggleCardGroup": {
             "container": {
+              "spacing": {
+                "value": "{ref.spacing.200}",
+                "type": "spacing"
+              }
+            },
+            "cradWrapper": {
               "spacing": {
                 "value": "{ref.spacing.200}",
                 "type": "spacing"
