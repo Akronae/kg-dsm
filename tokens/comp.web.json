@@ -4750,11 +4750,12 @@
             },
             "type": "composition"
           },
-          "mounthSelector": {
+          "monthSelector": {
             "wrapper": {
               "value": {
                 "layoutMode": "horizontal",
-                "layoutAlignItems": "center left"
+                "layoutAlignItems": "center left",
+                "spacingMode": "space between"
               },
               "type": "composition"
             },
@@ -4768,8 +4769,8 @@
             "icon": {
               "size": {
                 "value": {
-                  "width": "{sem.calendar.rightSide.mounthSelector.icon.size}",
-                  "height": "{sem.calendar.rightSide.mounthSelector.icon.size}"
+                  "width": "{sem.calendar.rightSide.monthSelector.icon.size}",
+                  "height": "{sem.calendar.rightSide.monthSelector.icon.size}"
                 },
                 "type": "composition"
               },
@@ -4784,8 +4785,8 @@
           "daySelector": {
             "wrapper": {
               "value": {
-                "layoutmode": "horizontal",
-                "itemSapcing": "{sem.calendar.rightSide.daySelector.spacing}"
+                "layoutMode": "horizontal",
+                "itemSpacing": "{sem.calendar.rightSide.daySelector.spacing}"
               },
               "type": "composition"
             }
@@ -4823,11 +4824,12 @@
             },
             "type": "composition"
           },
-          "mounthSelector": {
+          "monthSelector": {
             "wrapper": {
               "value": {
                 "layoutMode": "horizontal",
-                "layoutAlignItems": "center left"
+                "layoutAlignItems": "center left",
+                "spacingMode": "space between"
               },
               "type": "composition"
             },
@@ -4841,8 +4843,8 @@
             "icon": {
               "size": {
                 "value": {
-                  "width": "{sem.calendar.rightSide.mounthSelector.icon.size}",
-                  "height": "{sem.calendar.rightSide.mounthSelector.icon.size}"
+                  "width": "{sem.calendar.rightSide.monthSelector.icon.size}",
+                  "height": "{sem.calendar.rightSide.monthSelector.icon.size}"
                 },
                 "type": "composition"
               },
@@ -4857,8 +4859,8 @@
           "daySelector": {
             "wrapper": {
               "value": {
-                "layoutmode": "horizontal",
-                "itemSapcing": "{sem.calendar.rightSide.daySelector.spacing}"
+                "layoutMode": "horizontal",
+                "itemSpacing": "{sem.calendar.rightSide.daySelector.spacing}"
               },
               "type": "composition"
             }
@@ -8467,7 +8469,8 @@
       "wrapper": {
         "value": {
           "itemSpacing": "{sem.formField.wrapper.spacing}",
-          "layoutMode": "vertical"
+          "layoutMode": "vertical",
+          "horizontalResizing": "fill"
         },
         "type": "composition"
       },
@@ -17037,7 +17040,7 @@
             "type": "spacing"
           }
         },
-        "mounthSelector": {
+        "monthSelector": {
           "icon": {
             "size": {
               "value": "{ref.sizing.200}",
