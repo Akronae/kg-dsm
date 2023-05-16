@@ -6276,7 +6276,9 @@
                   "borderRadius": "{sem.chip.container.borderRadius}",
                   "paddingLeft": "{sem.chip.container.paddingLeft}",
                   "paddingRight": "{sem.chip.container.paddingRight}",
-                  "height": "{sem.chip.container.height}"
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center",
+                  "horizontalResizing": "fill"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.chip.default.container'})"
@@ -6289,7 +6291,9 @@
                   "borderRadius": "{sem.chip.container.borderRadius}",
                   "paddingLeft": "{sem.chip.container.paddingLeft}",
                   "paddingRight": "{sem.chip.container.paddingRight}",
-                  "height": "{sem.chip.container.height}"
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center",
+                  "horizontalResizing": "fill"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.chip.default.container'})"
@@ -6302,7 +6306,9 @@
                   "borderRadius": "{sem.chip.container.borderRadius}",
                   "paddingLeft": "{sem.chip.container.paddingLeft}",
                   "paddingRight": "{sem.chip.container.paddingRight}",
-                  "height": "{sem.chip.container.height}"
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center",
+                  "horizontalResizing": "fill"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.chip.default.container'})"
@@ -6315,7 +6321,9 @@
                   "borderRadius": "{sem.chip.container.borderRadius}",
                   "paddingLeft": "{sem.chip.container.paddingLeft}",
                   "paddingRight": "{sem.chip.container.paddingRight}",
-                  "height": "{sem.chip.container.height}"
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center",
+                  "horizontalResizing": "fill"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.chip.default.container'})"
@@ -6328,7 +6336,9 @@
                   "borderRadius": "{sem.chip.container.borderRadius}",
                   "paddingLeft": "{sem.chip.container.paddingLeft}",
                   "paddingRight": "{sem.chip.container.paddingRight}",
-                  "height": "{sem.chip.container.height}"
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center",
+                  "horizontalResizing": "fill"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.chip.default.container'})"
@@ -6341,7 +6351,9 @@
                   "borderRadius": "{sem.chip.container.borderRadius}",
                   "paddingLeft": "{sem.chip.container.paddingLeft}",
                   "paddingRight": "{sem.chip.container.paddingRight}",
-                  "height": "{sem.chip.container.height}"
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center",
+                  "horizontalResizing": "fill"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.chip.default.container'})"
@@ -6354,7 +6366,9 @@
                   "borderRadius": "{sem.chip.container.borderRadius}",
                   "paddingLeft": "{sem.chip.container.paddingLeft}",
                   "paddingRight": "{sem.chip.container.paddingRight}",
-                  "height": "{sem.chip.container.height}"
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center",
+                  "horizontalResizing": "fill"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.chip.default.container'})"
@@ -6367,7 +6381,9 @@
                   "borderRadius": "{sem.chip.container.borderRadius}",
                   "paddingLeft": "{sem.chip.container.paddingLeft}",
                   "paddingRight": "{sem.chip.container.paddingRight}",
-                  "height": "{sem.chip.container.height}"
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center",
+                  "horizontalResizing": "fill"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.chip.default.container'})"
@@ -6382,7 +6398,9 @@
                   "borderRadius": "{sem.chip.container.borderRadius}",
                   "paddingLeft": "{sem.chip.container.paddingLeft}",
                   "paddingRight": "{sem.chip.container.paddingRight}",
-                  "height": "{sem.chip.container.height}"
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center",
+                  "horizontalResizing": "fill"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.chip.default.container'})"
@@ -6395,7 +6413,9 @@
                   "borderRadius": "{sem.chip.container.borderRadius}",
                   "paddingLeft": "{sem.chip.container.paddingLeft}",
                   "paddingRight": "{sem.chip.container.paddingRight}",
-                  "height": "{sem.chip.container.height}"
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center",
+                  "horizontalResizing": "fill"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.chip.default.container'})"
@@ -6408,7 +6428,9 @@
                   "borderRadius": "{sem.chip.container.borderRadius}",
                   "paddingLeft": "{sem.chip.container.paddingLeft}",
                   "paddingRight": "{sem.chip.container.paddingRight}",
-                  "height": "{sem.chip.container.height}"
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center",
+                  "horizontalResizing": "fill"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.chip.default.container'})"
@@ -6421,7 +6443,9 @@
                   "borderRadius": "{sem.chip.container.borderRadius}",
                   "paddingLeft": "{sem.chip.container.paddingLeft}",
                   "paddingRight": "{sem.chip.container.paddingRight}",
-                  "height": "{sem.chip.container.height}"
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center",
+                  "horizontalResizing": "fill"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.chip.default.container'})"
@@ -6434,7 +6458,9 @@
                   "borderRadius": "{sem.chip.container.borderRadius}",
                   "paddingLeft": "{sem.chip.container.paddingLeft}",
                   "paddingRight": "{sem.chip.container.paddingRight}",
-                  "height": "{sem.chip.container.height}"
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center",
+                  "horizontalResizing": "fill"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.chip.default.container'})"
@@ -6447,7 +6473,9 @@
                   "borderRadius": "{sem.chip.container.borderRadius}",
                   "paddingLeft": "{sem.chip.container.paddingLeft}",
                   "paddingRight": "{sem.chip.container.paddingRight}",
-                  "height": "{sem.chip.container.height}"
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center",
+                  "horizontalResizing": "fill"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.chip.default.container'})"
@@ -6460,7 +6488,9 @@
                   "borderRadius": "{sem.chip.container.borderRadius}",
                   "paddingLeft": "{sem.chip.container.paddingLeft}",
                   "paddingRight": "{sem.chip.container.paddingRight}",
-                  "height": "{sem.chip.container.height}"
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center",
+                  "horizontalResizing": "fill"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.chip.default.container'})"
@@ -6473,7 +6503,9 @@
                   "borderRadius": "{sem.chip.container.borderRadius}",
                   "paddingLeft": "{sem.chip.container.paddingLeft}",
                   "paddingRight": "{sem.chip.container.paddingRight}",
-                  "height": "{sem.chip.container.height}"
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center",
+                  "horizontalResizing": "fill"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.chip.default.container'})"
@@ -6490,7 +6522,9 @@
                   "borderRadius": "{sem.chip.container.borderRadius}",
                   "paddingLeft": "{sem.chip.container.paddingLeft}",
                   "paddingRight": "{sem.chip.container.paddingRight}",
-                  "height": "{sem.chip.container.height}"
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center",
+                  "horizontalResizing": "fill"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.chip.hover.container'})"
@@ -6503,7 +6537,9 @@
                   "borderRadius": "{sem.chip.container.borderRadius}",
                   "paddingLeft": "{sem.chip.container.paddingLeft}",
                   "paddingRight": "{sem.chip.container.paddingRight}",
-                  "height": "{sem.chip.container.height}"
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center",
+                  "horizontalResizing": "fill"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.chip.hover.container'})"
@@ -6516,7 +6552,9 @@
                   "borderRadius": "{sem.chip.container.borderRadius}",
                   "paddingLeft": "{sem.chip.container.paddingLeft}",
                   "paddingRight": "{sem.chip.container.paddingRight}",
-                  "height": "{sem.chip.container.height}"
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center",
+                  "horizontalResizing": "fill"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.chip.hover.container'})"
@@ -6529,7 +6567,9 @@
                   "borderRadius": "{sem.chip.container.borderRadius}",
                   "paddingLeft": "{sem.chip.container.paddingLeft}",
                   "paddingRight": "{sem.chip.container.paddingRight}",
-                  "height": "{sem.chip.container.height}"
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center",
+                  "horizontalResizing": "fill"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.chip.hover.container'})"
@@ -6542,7 +6582,9 @@
                   "borderRadius": "{sem.chip.container.borderRadius}",
                   "paddingLeft": "{sem.chip.container.paddingLeft}",
                   "paddingRight": "{sem.chip.container.paddingRight}",
-                  "height": "{sem.chip.container.height}"
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center",
+                  "horizontalResizing": "fill"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.chip.hover.container'})"
@@ -6555,7 +6597,9 @@
                   "borderRadius": "{sem.chip.container.borderRadius}",
                   "paddingLeft": "{sem.chip.container.paddingLeft}",
                   "paddingRight": "{sem.chip.container.paddingRight}",
-                  "height": "{sem.chip.container.height}"
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center",
+                  "horizontalResizing": "fill"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.chip.hover.container'})"
@@ -6568,7 +6612,9 @@
                   "borderRadius": "{sem.chip.container.borderRadius}",
                   "paddingLeft": "{sem.chip.container.paddingLeft}",
                   "paddingRight": "{sem.chip.container.paddingRight}",
-                  "height": "{sem.chip.container.height}"
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center",
+                  "horizontalResizing": "fill"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.chip.hover.container'})"
@@ -6581,7 +6627,9 @@
                   "borderRadius": "{sem.chip.container.borderRadius}",
                   "paddingLeft": "{sem.chip.container.paddingLeft}",
                   "paddingRight": "{sem.chip.container.paddingRight}",
-                  "height": "{sem.chip.container.height}"
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center",
+                  "horizontalResizing": "fill"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.chip.hover.container'})"
@@ -6596,7 +6644,9 @@
                   "borderRadius": "{sem.chip.container.borderRadius}",
                   "paddingLeft": "{sem.chip.container.paddingLeft}",
                   "paddingRight": "{sem.chip.container.paddingRight}",
-                  "height": "{sem.chip.container.height}"
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center",
+                  "horizontalResizing": "fill"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.chip.hover.container'})"
@@ -6609,7 +6659,9 @@
                   "borderRadius": "{sem.chip.container.borderRadius}",
                   "paddingLeft": "{sem.chip.container.paddingLeft}",
                   "paddingRight": "{sem.chip.container.paddingRight}",
-                  "height": "{sem.chip.container.height}"
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center",
+                  "horizontalResizing": "fill"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.chip.hover.container'})"
@@ -6622,7 +6674,9 @@
                   "borderRadius": "{sem.chip.container.borderRadius}",
                   "paddingLeft": "{sem.chip.container.paddingLeft}",
                   "paddingRight": "{sem.chip.container.paddingRight}",
-                  "height": "{sem.chip.container.height}"
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center",
+                  "horizontalResizing": "fill"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.chip.hover.container'})"
@@ -6635,7 +6689,9 @@
                   "borderRadius": "{sem.chip.container.borderRadius}",
                   "paddingLeft": "{sem.chip.container.paddingLeft}",
                   "paddingRight": "{sem.chip.container.paddingRight}",
-                  "height": "{sem.chip.container.height}"
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center",
+                  "horizontalResizing": "fill"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.chip.hover.container'})"
@@ -6648,7 +6704,9 @@
                   "borderRadius": "{sem.chip.container.borderRadius}",
                   "paddingLeft": "{sem.chip.container.paddingLeft}",
                   "paddingRight": "{sem.chip.container.paddingRight}",
-                  "height": "{sem.chip.container.height}"
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center",
+                  "horizontalResizing": "fill"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.chip.hover.container'})"
@@ -6661,7 +6719,9 @@
                   "borderRadius": "{sem.chip.container.borderRadius}",
                   "paddingLeft": "{sem.chip.container.paddingLeft}",
                   "paddingRight": "{sem.chip.container.paddingRight}",
-                  "height": "{sem.chip.container.height}"
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center",
+                  "horizontalResizing": "fill"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.chip.hover.container'})"
@@ -6674,7 +6734,9 @@
                   "borderRadius": "{sem.chip.container.borderRadius}",
                   "paddingLeft": "{sem.chip.container.paddingLeft}",
                   "paddingRight": "{sem.chip.container.paddingRight}",
-                  "height": "{sem.chip.container.height}"
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center",
+                  "horizontalResizing": "fill"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.chip.hover.container'})"
@@ -6687,7 +6749,9 @@
                   "borderRadius": "{sem.chip.container.borderRadius}",
                   "paddingLeft": "{sem.chip.container.paddingLeft}",
                   "paddingRight": "{sem.chip.container.paddingRight}",
-                  "height": "{sem.chip.container.height}"
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center",
+                  "horizontalResizing": "fill"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.chip.hover.container'})"
@@ -6704,7 +6768,9 @@
                   "borderRadius": "{sem.chip.container.borderRadius}",
                   "paddingLeft": "{sem.chip.container.paddingLeft}",
                   "paddingRight": "{sem.chip.container.paddingRight}",
-                  "height": "{sem.chip.container.height}"
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center",
+                  "horizontalResizing": "fill"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.chip.pressed.container'})"
@@ -6717,7 +6783,9 @@
                   "borderRadius": "{sem.chip.container.borderRadius}",
                   "paddingLeft": "{sem.chip.container.paddingLeft}",
                   "paddingRight": "{sem.chip.container.paddingRight}",
-                  "height": "{sem.chip.container.height}"
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center",
+                  "horizontalResizing": "fill"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.chip.pressed.container'})"
@@ -6730,7 +6798,9 @@
                   "borderRadius": "{sem.chip.container.borderRadius}",
                   "paddingLeft": "{sem.chip.container.paddingLeft}",
                   "paddingRight": "{sem.chip.container.paddingRight}",
-                  "height": "{sem.chip.container.height}"
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center",
+                  "horizontalResizing": "fill"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.chip.pressed.container'})"
@@ -6743,7 +6813,9 @@
                   "borderRadius": "{sem.chip.container.borderRadius}",
                   "paddingLeft": "{sem.chip.container.paddingLeft}",
                   "paddingRight": "{sem.chip.container.paddingRight}",
-                  "height": "{sem.chip.container.height}"
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center",
+                  "horizontalResizing": "fill"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.chip.pressed.container'})"
@@ -6756,7 +6828,9 @@
                   "borderRadius": "{sem.chip.container.borderRadius}",
                   "paddingLeft": "{sem.chip.container.paddingLeft}",
                   "paddingRight": "{sem.chip.container.paddingRight}",
-                  "height": "{sem.chip.container.height}"
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center",
+                  "horizontalResizing": "fill"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.chip.pressed.container'})"
@@ -6769,7 +6843,9 @@
                   "borderRadius": "{sem.chip.container.borderRadius}",
                   "paddingLeft": "{sem.chip.container.paddingLeft}",
                   "paddingRight": "{sem.chip.container.paddingRight}",
-                  "height": "{sem.chip.container.height}"
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center",
+                  "horizontalResizing": "fill"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.chip.pressed.container'})"
@@ -6782,7 +6858,9 @@
                   "borderRadius": "{sem.chip.container.borderRadius}",
                   "paddingLeft": "{sem.chip.container.paddingLeft}",
                   "paddingRight": "{sem.chip.container.paddingRight}",
-                  "height": "{sem.chip.container.height}"
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center",
+                  "horizontalResizing": "fill"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.chip.pressed.container'})"
@@ -6795,7 +6873,9 @@
                   "borderRadius": "{sem.chip.container.borderRadius}",
                   "paddingLeft": "{sem.chip.container.paddingLeft}",
                   "paddingRight": "{sem.chip.container.paddingRight}",
-                  "height": "{sem.chip.container.height}"
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center",
+                  "horizontalResizing": "fill"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.chip.pressed.container'})"
@@ -6810,7 +6890,9 @@
                   "borderRadius": "{sem.chip.container.borderRadius}",
                   "paddingLeft": "{sem.chip.container.paddingLeft}",
                   "paddingRight": "{sem.chip.container.paddingRight}",
-                  "height": "{sem.chip.container.height}"
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center",
+                  "horizontalResizing": "fill"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.chip.pressed.container'})"
@@ -6823,7 +6905,9 @@
                   "borderRadius": "{sem.chip.container.borderRadius}",
                   "paddingLeft": "{sem.chip.container.paddingLeft}",
                   "paddingRight": "{sem.chip.container.paddingRight}",
-                  "height": "{sem.chip.container.height}"
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center",
+                  "horizontalResizing": "fill"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.chip.pressed.container'})"
@@ -6836,7 +6920,9 @@
                   "borderRadius": "{sem.chip.container.borderRadius}",
                   "paddingLeft": "{sem.chip.container.paddingLeft}",
                   "paddingRight": "{sem.chip.container.paddingRight}",
-                  "height": "{sem.chip.container.height}"
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center",
+                  "horizontalResizing": "fill"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.chip.pressed.container'})"
@@ -6849,7 +6935,9 @@
                   "borderRadius": "{sem.chip.container.borderRadius}",
                   "paddingLeft": "{sem.chip.container.paddingLeft}",
                   "paddingRight": "{sem.chip.container.paddingRight}",
-                  "height": "{sem.chip.container.height}"
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center",
+                  "horizontalResizing": "fill"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.chip.pressed.container'})"
@@ -6862,7 +6950,9 @@
                   "borderRadius": "{sem.chip.container.borderRadius}",
                   "paddingLeft": "{sem.chip.container.paddingLeft}",
                   "paddingRight": "{sem.chip.container.paddingRight}",
-                  "height": "{sem.chip.container.height}"
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center",
+                  "horizontalResizing": "fill"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.chip.pressed.container'})"
@@ -6875,7 +6965,9 @@
                   "borderRadius": "{sem.chip.container.borderRadius}",
                   "paddingLeft": "{sem.chip.container.paddingLeft}",
                   "paddingRight": "{sem.chip.container.paddingRight}",
-                  "height": "{sem.chip.container.height}"
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center",
+                  "horizontalResizing": "fill"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.chip.pressed.container'})"
@@ -6888,7 +6980,9 @@
                   "borderRadius": "{sem.chip.container.borderRadius}",
                   "paddingLeft": "{sem.chip.container.paddingLeft}",
                   "paddingRight": "{sem.chip.container.paddingRight}",
-                  "height": "{sem.chip.container.height}"
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center",
+                  "horizontalResizing": "fill"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.chip.pressed.container'})"
@@ -6901,7 +6995,9 @@
                   "borderRadius": "{sem.chip.container.borderRadius}",
                   "paddingLeft": "{sem.chip.container.paddingLeft}",
                   "paddingRight": "{sem.chip.container.paddingRight}",
-                  "height": "{sem.chip.container.height}"
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center",
+                  "horizontalResizing": "fill"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.chip.pressed.container'})"
@@ -6918,7 +7014,9 @@
                   "borderRadius": "{sem.chip.container.borderRadius}",
                   "paddingLeft": "{sem.chip.container.paddingLeft}",
                   "paddingRight": "{sem.chip.container.paddingRight}",
-                  "height": "{sem.chip.container.height}"
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center",
+                  "horizontalResizing": "fill"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.chip.active.container'})"
@@ -6931,7 +7029,9 @@
                   "borderRadius": "{sem.chip.container.borderRadius}",
                   "paddingLeft": "{sem.chip.container.paddingLeft}",
                   "paddingRight": "{sem.chip.container.paddingRight}",
-                  "height": "{sem.chip.container.height}"
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center",
+                  "horizontalResizing": "fill"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.chip.active.container'})"
@@ -6944,7 +7044,9 @@
                   "borderRadius": "{sem.chip.container.borderRadius}",
                   "paddingLeft": "{sem.chip.container.paddingLeft}",
                   "paddingRight": "{sem.chip.container.paddingRight}",
-                  "height": "{sem.chip.container.height}"
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center",
+                  "horizontalResizing": "fill"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.chip.active.container'})"
@@ -6957,7 +7059,9 @@
                   "borderRadius": "{sem.chip.container.borderRadius}",
                   "paddingLeft": "{sem.chip.container.paddingLeft}",
                   "paddingRight": "{sem.chip.container.paddingRight}",
-                  "height": "{sem.chip.container.height}"
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center",
+                  "horizontalResizing": "fill"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.chip.active.container'})"
@@ -6970,7 +7074,9 @@
                   "borderRadius": "{sem.chip.container.borderRadius}",
                   "paddingLeft": "{sem.chip.container.paddingLeft}",
                   "paddingRight": "{sem.chip.container.paddingRight}",
-                  "height": "{sem.chip.container.height}"
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center",
+                  "horizontalResizing": "fill"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.chip.active.container'})"
@@ -6983,7 +7089,9 @@
                   "borderRadius": "{sem.chip.container.borderRadius}",
                   "paddingLeft": "{sem.chip.container.paddingLeft}",
                   "paddingRight": "{sem.chip.container.paddingRight}",
-                  "height": "{sem.chip.container.height}"
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center",
+                  "horizontalResizing": "fill"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.chip.active.container'})"
@@ -6996,7 +7104,9 @@
                   "borderRadius": "{sem.chip.container.borderRadius}",
                   "paddingLeft": "{sem.chip.container.paddingLeft}",
                   "paddingRight": "{sem.chip.container.paddingRight}",
-                  "height": "{sem.chip.container.height}"
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center",
+                  "horizontalResizing": "fill"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.chip.active.container'})"
@@ -7009,7 +7119,9 @@
                   "borderRadius": "{sem.chip.container.borderRadius}",
                   "paddingLeft": "{sem.chip.container.paddingLeft}",
                   "paddingRight": "{sem.chip.container.paddingRight}",
-                  "height": "{sem.chip.container.height}"
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center",
+                  "horizontalResizing": "fill"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.chip.active.container'})"
@@ -7024,7 +7136,9 @@
                   "borderRadius": "{sem.chip.container.borderRadius}",
                   "paddingLeft": "{sem.chip.container.paddingLeft}",
                   "paddingRight": "{sem.chip.container.paddingRight}",
-                  "height": "{sem.chip.container.height}"
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center",
+                  "horizontalResizing": "fill"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.chip.active.container'})"
@@ -7037,7 +7151,9 @@
                   "borderRadius": "{sem.chip.container.borderRadius}",
                   "paddingLeft": "{sem.chip.container.paddingLeft}",
                   "paddingRight": "{sem.chip.container.paddingRight}",
-                  "height": "{sem.chip.container.height}"
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center",
+                  "horizontalResizing": "fill"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.chip.active.container'})"
@@ -7050,7 +7166,9 @@
                   "borderRadius": "{sem.chip.container.borderRadius}",
                   "paddingLeft": "{sem.chip.container.paddingLeft}",
                   "paddingRight": "{sem.chip.container.paddingRight}",
-                  "height": "{sem.chip.container.height}"
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center",
+                  "horizontalResizing": "fill"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.chip.active.container'})"
@@ -7063,7 +7181,9 @@
                   "borderRadius": "{sem.chip.container.borderRadius}",
                   "paddingLeft": "{sem.chip.container.paddingLeft}",
                   "paddingRight": "{sem.chip.container.paddingRight}",
-                  "height": "{sem.chip.container.height}"
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center",
+                  "horizontalResizing": "fill"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.chip.active.container'})"
@@ -7076,7 +7196,9 @@
                   "borderRadius": "{sem.chip.container.borderRadius}",
                   "paddingLeft": "{sem.chip.container.paddingLeft}",
                   "paddingRight": "{sem.chip.container.paddingRight}",
-                  "height": "{sem.chip.container.height}"
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center",
+                  "horizontalResizing": "fill"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.chip.active.container'})"
@@ -7089,7 +7211,9 @@
                   "borderRadius": "{sem.chip.container.borderRadius}",
                   "paddingLeft": "{sem.chip.container.paddingLeft}",
                   "paddingRight": "{sem.chip.container.paddingRight}",
-                  "height": "{sem.chip.container.height}"
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center",
+                  "horizontalResizing": "fill"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.chip.active.container'})"
@@ -7102,7 +7226,9 @@
                   "borderRadius": "{sem.chip.container.borderRadius}",
                   "paddingLeft": "{sem.chip.container.paddingLeft}",
                   "paddingRight": "{sem.chip.container.paddingRight}",
-                  "height": "{sem.chip.container.height}"
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center",
+                  "horizontalResizing": "fill"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.chip.active.container'})"
@@ -7115,7 +7241,9 @@
                   "borderRadius": "{sem.chip.container.borderRadius}",
                   "paddingLeft": "{sem.chip.container.paddingLeft}",
                   "paddingRight": "{sem.chip.container.paddingRight}",
-                  "height": "{sem.chip.container.height}"
+                  "height": "{sem.chip.container.height}",
+                  "layoutAlignItems": "center",
+                  "horizontalResizing": "fill"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.chip.active.container'})"
