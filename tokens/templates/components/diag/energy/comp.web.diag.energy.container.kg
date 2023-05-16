@@ -10,7 +10,9 @@ comp
 [
   {
     "value": {
-      "fill": "{<<state == 'active' && value != 'empty' ? 'comp.searchProperty.announcePage.sections.diag.item.cel.colors.' + type + '.' + value : 'sem.color.surface.interactive.sub.' + state>>}"
+      "fill": "{<<state == 'active' && value != 'empty' ? 'comp.searchProperty.announcePage.sections.diag.item.cel.colors.' + type + '.' + value : 'sem.color.surface.interactive.sub.' + state>>}",
+      "layoutAlignItems": "center",
+      "horizontalResizing": "fill"
     },
     "type": "composition",
     "description": "({extends: 'comp.chip.<<state>>.container'})"
