@@ -2,16 +2,17 @@
 
 comp
 .toggle
-.toggleCard.content
+.toggleCard
+.content
 [size: 'sm' | 'md' | 'lg' ]
 [
   {
     "container": {
       "value": {
         "itemSpacing": "{sem.toggle.toggleCard.content.<<size>>.spacing}",
-        "layoutMode": "horizontal"
+        "layoutMode": "<< size == 'md' ? 'vertical' : 'horizontal' >>"
       },
-        "type": "composition"
+      "type": "composition"
     },
       "icon": {
         "iconSize": {

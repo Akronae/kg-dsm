@@ -16710,7 +16710,7 @@
             "container": {
               "value": {
                 "itemSpacing": "{sem.toggle.toggleCard.content.md.spacing}",
-                "layoutMode": "horizontal"
+                "layoutMode": "vertical"
               },
               "type": "composition"
             },
