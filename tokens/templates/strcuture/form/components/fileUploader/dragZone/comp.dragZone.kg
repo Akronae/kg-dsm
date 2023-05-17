@@ -26,7 +26,8 @@ comp
     "fileIcon": {
       "value": {
         "height": "{sem.structure.form.components.fileUploader.dragZone.<<size>>.fileIcon.height}",
-        "opacity": "<< state == 'disabled' ? '{sem.structure.form.components.fileUploader.dragZone.' + size + '.fileIcon.opacity}' : 'none' >>"
+        "opacity": "<< state == 'disabled' ? '{sem.structure.form.components.fileUploader.dragZone.' + size + '.fileIcon.opacity}' : 'none' >>",
+        "fill": "{sem.structure.form.components.fileUploader.dragZone.<<size>>.fileIcon.fill}"
       },
       "type": "composition"
     },

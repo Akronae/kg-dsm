@@ -21,7 +21,7 @@ comp
     "cradWrapper": {
       "value": {
         "itemSpacing": "{sem.structure.form.components.toggleCardGroup.cradWrapper.spacing}",
-        "layoutMode": "vertical"
+        "layoutMode": "horizontal"
       },
       "type": "composition"
     }

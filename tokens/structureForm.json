@@ -194,7 +194,8 @@
                   "fileIcon": {
                     "value": {
                       "height": "{sem.structure.form.components.fileUploader.dragZone.md.fileIcon.height}",
-                      "opacity": "none"
+                      "opacity": "none",
+                      "fill": "{sem.structure.form.components.fileUploader.dragZone.md.fileIcon.fill}"
                     },
                     "type": "composition"
                   },
@@ -251,7 +252,8 @@
                   "fileIcon": {
                     "value": {
                       "height": "{sem.structure.form.components.fileUploader.dragZone.md.fileIcon.height}",
-                      "opacity": "none"
+                      "opacity": "none",
+                      "fill": "{sem.structure.form.components.fileUploader.dragZone.md.fileIcon.fill}"
                     },
                     "type": "composition"
                   },
@@ -308,7 +310,8 @@
                   "fileIcon": {
                     "value": {
                       "height": "{sem.structure.form.components.fileUploader.dragZone.md.fileIcon.height}",
-                      "opacity": "none"
+                      "opacity": "none",
+                      "fill": "{sem.structure.form.components.fileUploader.dragZone.md.fileIcon.fill}"
                     },
                     "type": "composition"
                   },
@@ -365,7 +368,8 @@
                   "fileIcon": {
                     "value": {
                       "height": "{sem.structure.form.components.fileUploader.dragZone.md.fileIcon.height}",
-                      "opacity": "none"
+                      "opacity": "none",
+                      "fill": "{sem.structure.form.components.fileUploader.dragZone.md.fileIcon.fill}"
                     },
                     "type": "composition"
                   },
@@ -422,7 +426,8 @@
                   "fileIcon": {
                     "value": {
                       "height": "{sem.structure.form.components.fileUploader.dragZone.md.fileIcon.height}",
-                      "opacity": "none"
+                      "opacity": "none",
+                      "fill": "{sem.structure.form.components.fileUploader.dragZone.md.fileIcon.fill}"
                     },
                     "type": "composition"
                   },
@@ -479,7 +484,8 @@
                   "fileIcon": {
                     "value": {
                       "height": "{sem.structure.form.components.fileUploader.dragZone.md.fileIcon.height}",
-                      "opacity": "{sem.structure.form.components.fileUploader.dragZone.md.fileIcon.opacity}"
+                      "opacity": "{sem.structure.form.components.fileUploader.dragZone.md.fileIcon.opacity}",
+                      "fill": "{sem.structure.form.components.fileUploader.dragZone.md.fileIcon.fill}"
                     },
                     "type": "composition"
                   },
@@ -538,7 +544,8 @@
                   "fileIcon": {
                     "value": {
                       "height": "{sem.structure.form.components.fileUploader.dragZone.lg.fileIcon.height}",
-                      "opacity": "none"
+                      "opacity": "none",
+                      "fill": "{sem.structure.form.components.fileUploader.dragZone.lg.fileIcon.fill}"
                     },
                     "type": "composition"
                   },
@@ -595,7 +602,8 @@
                   "fileIcon": {
                     "value": {
                       "height": "{sem.structure.form.components.fileUploader.dragZone.lg.fileIcon.height}",
-                      "opacity": "none"
+                      "opacity": "none",
+                      "fill": "{sem.structure.form.components.fileUploader.dragZone.lg.fileIcon.fill}"
                     },
                     "type": "composition"
                   },
@@ -652,7 +660,8 @@
                   "fileIcon": {
                     "value": {
                       "height": "{sem.structure.form.components.fileUploader.dragZone.lg.fileIcon.height}",
-                      "opacity": "none"
+                      "opacity": "none",
+                      "fill": "{sem.structure.form.components.fileUploader.dragZone.lg.fileIcon.fill}"
                     },
                     "type": "composition"
                   },
@@ -709,7 +718,8 @@
                   "fileIcon": {
                     "value": {
                       "height": "{sem.structure.form.components.fileUploader.dragZone.lg.fileIcon.height}",
-                      "opacity": "none"
+                      "opacity": "none",
+                      "fill": "{sem.structure.form.components.fileUploader.dragZone.lg.fileIcon.fill}"
                     },
                     "type": "composition"
                   },
@@ -766,7 +776,8 @@
                   "fileIcon": {
                     "value": {
                       "height": "{sem.structure.form.components.fileUploader.dragZone.lg.fileIcon.height}",
-                      "opacity": "none"
+                      "opacity": "none",
+                      "fill": "{sem.structure.form.components.fileUploader.dragZone.lg.fileIcon.fill}"
                     },
                     "type": "composition"
                   },
@@ -823,7 +834,8 @@
                   "fileIcon": {
                     "value": {
                       "height": "{sem.structure.form.components.fileUploader.dragZone.lg.fileIcon.height}",
-                      "opacity": "{sem.structure.form.components.fileUploader.dragZone.lg.fileIcon.opacity}"
+                      "opacity": "{sem.structure.form.components.fileUploader.dragZone.lg.fileIcon.opacity}",
+                      "fill": "{sem.structure.form.components.fileUploader.dragZone.lg.fileIcon.fill}"
                     },
                     "type": "composition"
                   },
@@ -1196,7 +1208,7 @@
             "cradWrapper": {
               "value": {
                 "itemSpacing": "{sem.structure.form.components.toggleCardGroup.cradWrapper.spacing}",
-                "layoutMode": "vertical"
+                "layoutMode": "horizontal"
               },
               "type": "composition"
             }
@@ -1455,6 +1467,10 @@
                   "opacity": {
                     "value": "{ref.effects.opacity.40}",
                     "type": "opacity"
+                  },
+                  "fill": {
+                    "value": "#d0d8e1",
+                    "type": "color"
                   }
                 },
                 "text": {
@@ -1493,6 +1509,10 @@
                   "opacity": {
                     "value": "{ref.effects.opacity.40}",
                     "type": "opacity"
+                  },
+                  "fill": {
+                    "value": "#d0d8e1",
+                    "type": "color"
                   }
                 },
                 "text": {
