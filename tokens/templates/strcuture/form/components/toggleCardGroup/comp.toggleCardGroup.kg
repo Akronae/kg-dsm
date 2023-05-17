@@ -6,7 +6,7 @@ comp
   {
     "container": {
       "value": {
-        "layoutMode": "horizontal",
+        "layoutMode": "vertical",
         "itemSpacing": "{sem.structure.form.components.toggleCardGroup.container.spacing}"
       },
       "type": "composition"
@@ -21,7 +21,7 @@ comp
     "cradWrapper": {
       "value": {
         "itemSpacing": "{sem.structure.form.components.toggleCardGroup.cradWrapper.spacing}",
-        "layoutMode": "vertical"
+        "layoutMode": "horizontal"
       },
       "type": "composition"
     }
