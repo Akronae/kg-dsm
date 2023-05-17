@@ -27,6 +27,10 @@ sem
       "opacity": {
         "value": "{ref.effects.opacity.40}",
         "type": "opacity"
+      },
+      "fill": {
+        "value": "#d0d8e1",
+        "type": "color"
       }
     },
     "text": {
