@@ -6,7 +6,7 @@ comp
   {
     "container": {
       "value": {
-        "layoutMode": "vertical",
+        "layoutMode": "horizontal",
         "itemSpacing": "{sem.structure.form.components.toggleCardGroup.container.spacing}"
       },
       "type": "composition"
