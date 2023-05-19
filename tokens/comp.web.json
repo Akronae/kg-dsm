@@ -5911,6 +5911,124 @@
             }
           }
         },
+        "sm": {
+          "desktop": {
+            "container": {
+              "value": {
+                "horizontalPadding": "{sem.card.base.sm.padding}",
+                "verticalPadding": "{sem.card.base.sm.padding}",
+                "fill": "{sem.color.surface.light}",
+                "boxShadow": "none",
+                "borderRadiusTopLeft": "{sem.card.base.sm.borderRadiusTopLeft}",
+                "borderRadiusTopRight": "{sem.card.base.sm.borderRadiusTopRight}",
+                "borderRadiusBottomRight": "{sem.card.base.sm.borderRadiusBottomRight}",
+                "borderRadiusBottomLeft": "{sem.card.base.sm.borderRadiusBottomLeft}",
+                "border": "{sem.border.transparent}",
+                "layoutMode": "vertical",
+                "itemSpacing": "{sem.cardContent.card.sm.container.itemSpacing}"
+              },
+              "type": "composition",
+              "description": "({extends: 'comp.card.base.sm.uncontrasted.default'})"
+            },
+            "contentWrapper": {
+              "value": {
+                "horizontalResizing": "fill",
+                "layoutMode": "horizontal",
+                "itemSpacing": "{sem.cardContent.card.sm.contentWrapper.itemSpacing}"
+              },
+              "type": "composition"
+            },
+            "textWrapper": {
+              "value": {
+                "horizontalResizing": "fill",
+                "itemSpacing": "{sem.cardContent.card.sm.contentWrapper.textWrapper.itemSpacing}"
+              },
+              "type": "composition"
+            },
+            "sub": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.body.sm}",
+                "fill": "{sem.color.text.default}",
+                "horizontalResizing": "fill"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.body.sm}",
+                "fill": "{sem.color.text.dark}",
+                "horizontalResizing": "fill"
+              },
+              "type": "composition"
+            },
+            "buttonWrapper": {
+              "value": {
+                "layoutMode": "horizontal",
+                "itemSpacing": "{sem.cardContent.card.sm.buttonWrapper.itemSpacing}",
+                "horizontalResizing": "hug"
+              },
+              "type": "composition"
+            }
+          },
+          "mobile": {
+            "container": {
+              "value": {
+                "horizontalPadding": "{sem.card.base.sm.padding}",
+                "verticalPadding": "{sem.card.base.sm.padding}",
+                "fill": "{sem.color.surface.light}",
+                "boxShadow": "none",
+                "borderRadiusTopLeft": "{sem.card.base.sm.borderRadiusTopLeft}",
+                "borderRadiusTopRight": "{sem.card.base.sm.borderRadiusTopRight}",
+                "borderRadiusBottomRight": "{sem.card.base.sm.borderRadiusBottomRight}",
+                "borderRadiusBottomLeft": "{sem.card.base.sm.borderRadiusBottomLeft}",
+                "border": "{sem.border.transparent}",
+                "layoutMode": "vertical",
+                "itemSpacing": "{sem.cardContent.card.sm.container.itemSpacing}"
+              },
+              "type": "composition",
+              "description": "({extends: 'comp.card.base.sm.uncontrasted.default'})"
+            },
+            "contentWrapper": {
+              "value": {
+                "horizontalResizing": "fill",
+                "layoutMode": "vertical",
+                "itemSpacing": "{sem.cardContent.card.sm.contentWrapper.itemSpacing}"
+              },
+              "type": "composition"
+            },
+            "textWrapper": {
+              "value": {
+                "horizontalResizing": "fill",
+                "itemSpacing": "{sem.cardContent.card.sm.contentWrapper.textWrapper.itemSpacing}"
+              },
+              "type": "composition"
+            },
+            "sub": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.body.sm}",
+                "fill": "{sem.color.text.default}",
+                "horizontalResizing": "fill"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.body.sm}",
+                "fill": "{sem.color.text.dark}",
+                "horizontalResizing": "fill"
+              },
+              "type": "composition"
+            },
+            "buttonWrapper": {
+              "value": {
+                "layoutMode": "horizontal",
+                "itemSpacing": "{sem.cardContent.card.sm.buttonWrapper.itemSpacing}",
+                "horizontalResizing": "fill"
+              },
+              "type": "composition"
+            }
+          }
+        },
         "md": {
           "desktop": {
             "container": {
@@ -17294,6 +17412,32 @@
           "contentWrapper": {
             "itemSpacing": {
               "value": "{ref.spacing.100}",
+              "type": "spacing"
+            },
+            "textWrapper": {
+              "itemSpacing": {
+                "value": "{ref.spacing.50}",
+                "type": "spacing"
+              }
+            }
+          },
+          "buttonWrapper": {
+            "itemSpacing": {
+              "value": "{ref.spacing.100}",
+              "type": "spacing"
+            }
+          }
+        },
+        "sm": {
+          "container": {
+            "itemSpacing": {
+              "value": "{ref.spacing.150}",
+              "type": "spacing"
+            }
+          },
+          "contentWrapper": {
+            "itemSpacing": {
+              "value": "{ref.spacing.150}",
               "type": "spacing"
             },
             "textWrapper": {
