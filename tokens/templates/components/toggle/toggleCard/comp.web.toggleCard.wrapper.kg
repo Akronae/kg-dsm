@@ -4,6 +4,7 @@ comp
 .toggle
 .toggleCard.wrapper
 [state: 'default' | 'hover' | 'pressed' | 'active' | 'danger' | 'disabled' | 'forced' ]
+[contrast: 'uncontrasted' | 'contrasted' ]
 [
   {
     "container": {
@@ -15,7 +16,7 @@ comp
     "card": {
       "value": {},
       "type": "composition",
-      "description": "({extends: 'comp.card.base.md.uncontrasted.<<state>>'})"
+      "description": "({extends: 'comp.card.base.md.<<contrast>>.<<state>>'})"
     }
   }
 ]
