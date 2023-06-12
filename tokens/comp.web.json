@@ -18020,7 +18020,7 @@
     "tag": {
       "container": {
         "borderRadius": {
-          "value": "{ref.borderRadius.200}",
+          "value": "{ref.borderRadius.250}",
           "type": "borderRadius"
         },
         "padding": {
