@@ -17908,32 +17908,6 @@
         "sm": {
           "container": {
             "spacer": {
-              "value": "{ref.spacing.100}",
-              "type": "spacing"
-            }
-          },
-          "fieldWrapper": {
-            "spacer": {
-              "value": "{ref.spacing.100}",
-              "type": "spacing"
-            }
-          },
-          "slotContent": {
-            "chips": {
-              "spacer": {
-                "value": "{ref.spacing.100}",
-                "type": "spacing"
-              }
-            }
-          },
-          "iconSize": {
-            "value": "{ref.sizing.100}",
-            "type": "spacing"
-          }
-        },
-        "md": {
-          "container": {
-            "spacer": {
               "value": "{ref.spacing.50}",
               "type": "spacing"
             }
@@ -17948,6 +17922,32 @@
             "chips": {
               "spacer": {
                 "value": "{ref.spacing.50}",
+                "type": "spacing"
+              }
+            }
+          },
+          "iconSize": {
+            "value": "{ref.sizing.100}",
+            "type": "spacing"
+          }
+        },
+        "md": {
+          "container": {
+            "spacer": {
+              "value": "{ref.spacing.100}",
+              "type": "spacing"
+            }
+          },
+          "fieldWrapper": {
+            "spacer": {
+              "value": "{ref.spacing.100}",
+              "type": "spacing"
+            }
+          },
+          "slotContent": {
+            "chips": {
+              "spacer": {
+                "value": "{ref.spacing.100}",
                 "type": "spacing"
               }
             }

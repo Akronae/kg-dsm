@@ -8,20 +8,20 @@ sem
   {
     "container": {
       "spacer": {
-        "value": "{<< ({sm: 'ref.spacing.100', md: 'ref.spacing.50'})[size] >>}",
+        "value": "{<< ({sm: 'ref.spacing.50', md: 'ref.spacing.100'})[size] >>}",
         "type": "spacing"
       }
     },
     "fieldWrapper": {
       "spacer": {
-        "value": "{<< ({sm: 'ref.spacing.100', md: 'ref.spacing.50'})[size] >>}",
+        "value": "{<< ({sm: 'ref.spacing.50', md: 'ref.spacing.100'})[size] >>}",
         "type": "spacing"
       }
     },
     "slotContent": {
       "chips": {
         "spacer": {
-          "value": "{<< ({sm: 'ref.spacing.100', md: 'ref.spacing.50'})[size] >>}",
+          "value": "{<< ({sm: 'ref.spacing.50', md: 'ref.spacing.100'})[size] >>}",
           "type": "spacing"
         }
       }
