@@ -5,55 +5,41 @@
         "components": {
           "actionZone": {
             "mobile": {
-              "buttonWrapper": {
+              "buttonsWrapper": {
                 "value": {
-                  "paddingTop": "{sem.structure.form.components.actionZone.mobile.buttonWrapper.paddingTop}",
-                  "paddingBottom": "{sem.structure.form.components.actionZone.mobile.buttonWrapper.paddingBottom}",
-                  "itemSpacing": "{sem.structure.form.components.actionZone.mobile.buttonWrapper.spacing}",
+                  "paddingTop": "{sem.structure.form.components.actionZone.mobile.buttonsWrapper.paddingTop}",
+                  "paddingBottom": "{sem.structure.form.components.actionZone.mobile.buttonsWrapper.paddingBottom}",
+                  "itemSpacing": "{sem.structure.form.components.actionZone.mobile.buttonsWrapper.spacing}",
                   "layoutMode": "horizontal",
                   "spacingMode": "space between",
                   "horizontalResizing": "fill"
                 },
                 "type": "composition"
               },
-              "nextButton": {
+              "nextButtonWrapper": {
                 "value": {
-                  "border": "none",
-                  "borderRadius": "{sem.button.rectangular.lg.borderRadius}",
-                  "verticalPadding": "{sem.button.rectangular.lg.verticalPadding}",
-                  "horizontalPadding": "{sem.button.rectangular.lg.horizontalPadding}",
-                  "itemSpacing": "{sem.button.rectangular.lg.spacing}",
-                  "fill": "{sem.color.action.primary.default}",
                   "horizontalResizing": "fill"
                 },
-                "type": "composition",
-                "description": "({extends: 'comp.button.primary.rectangular.lg.default.container'})"
+                "type": "composition"
               }
             },
             "desktop": {
-              "buttonWrapper": {
+              "buttonsWrapper": {
                 "value": {
-                  "paddingTop": "{sem.structure.form.components.actionZone.desktop.buttonWrapper.paddingTop}",
-                  "paddingBottom": "{sem.structure.form.components.actionZone.desktop.buttonWrapper.paddingBottom}",
-                  "itemSpacing": "{sem.structure.form.components.actionZone.desktop.buttonWrapper.spacing}",
+                  "paddingTop": "{sem.structure.form.components.actionZone.desktop.buttonsWrapper.paddingTop}",
+                  "paddingBottom": "{sem.structure.form.components.actionZone.desktop.buttonsWrapper.paddingBottom}",
+                  "itemSpacing": "{sem.structure.form.components.actionZone.desktop.buttonsWrapper.spacing}",
                   "layoutMode": "horizontal",
                   "spacingMode": "space between",
                   "horizontalResizing": "fill"
                 },
                 "type": "composition"
               },
-              "nextButton": {
+              "nextButtonWrapper": {
                 "value": {
-                  "border": "none",
-                  "borderRadius": "{sem.button.rectangular.lg.borderRadius}",
-                  "verticalPadding": "{sem.button.rectangular.lg.verticalPadding}",
-                  "horizontalPadding": "{sem.button.rectangular.lg.horizontalPadding}",
-                  "itemSpacing": "{sem.button.rectangular.lg.spacing}",
-                  "fill": "{sem.color.action.primary.default}",
-                  "width": "{sem.structure.form.components.actionZone.desktop.nextButtonWidth}"
+                  "width": "{sem.structure.form.components.actionZone.desktop.nextButtonWrapperWidth}"
                 },
-                "type": "composition",
-                "description": "({extends: 'comp.button.primary.rectangular.lg.default.container'})"
+                "type": "composition"
               }
             }
           },
@@ -1388,7 +1374,7 @@
         "components": {
           "actionZone": {
             "mobile": {
-              "buttonWrapper": {
+              "buttonsWrapper": {
                 "paddingTop": {
                   "value": "{ref.spacing.200}",
                   "type": "spacing"
@@ -1402,13 +1388,13 @@
                   "type": "spacing"
                 }
               },
-              "nextButtonWidth": {
+              "nextButtonWrapperWidth": {
                 "value": "{ref.sizing.700}",
                 "type": "sizing"
               }
             },
             "desktop": {
-              "buttonWrapper": {
+              "buttonsWrapper": {
                 "paddingTop": {
                   "value": "{ref.spacing.200}",
                   "type": "spacing"
@@ -1422,7 +1408,7 @@
                   "type": "spacing"
                 }
               },
-              "nextButtonWidth": {
+              "nextButtonWrapperWidth": {
                 "value": "{ref.sizing.700}",
                 "type": "sizing"
               }

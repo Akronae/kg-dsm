@@ -5,7 +5,7 @@ sem
 [aspectRatio: 'mobile' | 'desktop']
 [
   {
-    "buttonWrapper": {
+    "buttonsWrapper": {
       "paddingTop": {
         "value": "{ref.spacing.200}",
         "type": "spacing"
@@ -19,7 +19,7 @@ sem
         "type": "spacing"
       }
     },
-    "nextButtonWidth": {
+    "nextButtonWrapperWidth": {
       "value": "{ref.sizing.700}",
       "type": "sizing"
     }
