@@ -5,24 +5,23 @@ comp
 [aspectRatio: 'mobile' | 'desktop']
 [
   {
-    "buttonWrapper": {
+    "buttonsWrapper": {
       "value": {
-        "paddingTop": "{sem.structure.form.components.actionZone.<<aspectRatio>>.buttonWrapper.paddingTop}",
-        "paddingBottom": "{sem.structure.form.components.actionZone.<<aspectRatio>>.buttonWrapper.paddingBottom}",
-        "itemSpacing": "{sem.structure.form.components.actionZone.<<aspectRatio>>.buttonWrapper.spacing}",
+        "paddingTop": "{sem.structure.form.components.actionZone.<<aspectRatio>>.buttonsWrapper.paddingTop}",
+        "paddingBottom": "{sem.structure.form.components.actionZone.<<aspectRatio>>.buttonsWrapper.paddingBottom}",
+        "itemSpacing": "{sem.structure.form.components.actionZone.<<aspectRatio>>.buttonsWrapper.spacing}",
         "layoutMode": "horizontal",
         "spacingMode": "space between",
         "horizontalResizing": "fill"
       },
       "type": "composition"
     },
-    "nextButton": {
+    "nextButtonWrapper": {
       "value": {
         "horizontalResizing": "<< aspectRatio == 'mobile' ? 'fill' : undefined >>",
-        "width": "<< aspectRatio == 'mobile' ? undefined : '{sem.structure.form.components.actionZone.desktop.nextButtonWidth}' >>"
+        "width": "<< aspectRatio == 'mobile' ? undefined : '{sem.structure.form.components.actionZone.desktop.nextButtonWrapperWidth}' >>"
       },
-      "type": "composition",
-      "description": "({extends: 'comp.button.primary.rectangular.lg.default.container'})"
+      "type": "composition"
     }
   }
 ]

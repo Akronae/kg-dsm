@@ -5,6 +5,7 @@ comp
 [type: 'primary' | 'secondary' | 'ghost' | 'success' | 'external' | 'danger']
 [shape: 'rectangular' | 'circular']
 [size: 'sm' | 'md' | 'lg']
+[width: 'hug' | 'fill']
 [state: 'default' | 'hover' | 'pressed' | 'disabled']
 [
   {
@@ -15,7 +16,8 @@ comp
         "verticalPadding": "{sem.button.<<shape>>.<<size>>.verticalPadding}",
         "horizontalPadding": "{sem.button.<<shape>>.<<size>>.horizontalPadding}",
         "itemSpacing": "{sem.button.<<shape>>.<<size>>.spacing}",
-        "fill": "{sem.color.action.<<type>>.<<state>>}"
+        "fill": "{sem.color.action.<<type>>.<<state>>}",
+        "horizontalResizing": "<<width == 'fill' ? 'fill' : 'hug'>>"
       },
       "type": "composition"
     },
