@@ -13858,7 +13858,8 @@
             "verticalPadding": "{sem.infobox.container.padding}",
             "horizontalPadding": "{sem.infobox.container.padding}",
             "itemSpacing": "{sem.infobox.container.spacing}",
-            "layoutMode": "vertical"
+            "layoutMode": "vertical",
+            "verticalResizing": "hug"
           },
           "type": "composition"
         },
@@ -13911,7 +13912,8 @@
             "verticalPadding": "{sem.infobox.container.padding}",
             "horizontalPadding": "{sem.infobox.container.padding}",
             "itemSpacing": "{sem.infobox.container.spacing}",
-            "layoutMode": "horizontal"
+            "layoutMode": "horizontal",
+            "verticalResizing": "hug"
           },
           "type": "composition"
         },
