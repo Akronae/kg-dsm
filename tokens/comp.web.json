@@ -13858,8 +13858,8 @@
             "verticalPadding": "{sem.infobox.container.padding}",
             "horizontalPadding": "{sem.infobox.container.padding}",
             "itemSpacing": "{sem.infobox.container.spacing}",
-            "layoutMode": "vertical",
-            "verticalResizing": "hug"
+            "verticalResizing": "hug",
+            "layoutMode": "vertical"
           },
           "type": "composition"
         },
@@ -13912,8 +13912,8 @@
             "verticalPadding": "{sem.infobox.container.padding}",
             "horizontalPadding": "{sem.infobox.container.padding}",
             "itemSpacing": "{sem.infobox.container.spacing}",
-            "layoutMode": "horizontal",
-            "verticalResizing": "hug"
+            "verticalResizing": "hug",
+            "layoutMode": "horizontal"
           },
           "type": "composition"
         },
