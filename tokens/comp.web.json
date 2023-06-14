@@ -22793,7 +22793,7 @@
             },
             "borderRadius": {
               "value": "{ref.borderRadius.250}",
-              "type": "spacing"
+              "type": "borderRadius"
             },
             "spacing": {
               "value": "{ref.spacing.100}",
@@ -22831,7 +22831,7 @@
             },
             "borderRadius": {
               "value": "{ref.borderRadius.250}",
-              "type": "spacing"
+              "type": "borderRadius"
             },
             "spacing": {
               "value": "{ref.spacing.100}",
