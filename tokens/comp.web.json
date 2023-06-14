@@ -22053,12 +22053,6 @@
         "wrapper": {
           "default": {
             "uncontrasted": {
-              "container": {
-                "value": {
-                  "itemSpacing": "{sem.toggle.toggleCard.wrapper.spacing}"
-                },
-                "type": "composition"
-              },
               "card": {
                 "value": {
                   "horizontalPadding": "{sem.card.base.md.padding}",
@@ -22076,12 +22070,6 @@
               }
             },
             "contrasted": {
-              "container": {
-                "value": {
-                  "itemSpacing": "{sem.toggle.toggleCard.wrapper.spacing}"
-                },
-                "type": "composition"
-              },
               "card": {
                 "value": {
                   "horizontalPadding": "{sem.card.base.md.padding}",
@@ -22101,12 +22089,6 @@
           },
           "hover": {
             "uncontrasted": {
-              "container": {
-                "value": {
-                  "itemSpacing": "{sem.toggle.toggleCard.wrapper.spacing}"
-                },
-                "type": "composition"
-              },
               "card": {
                 "value": {
                   "horizontalPadding": "{sem.card.base.md.padding}",
@@ -22124,12 +22106,6 @@
               }
             },
             "contrasted": {
-              "container": {
-                "value": {
-                  "itemSpacing": "{sem.toggle.toggleCard.wrapper.spacing}"
-                },
-                "type": "composition"
-              },
               "card": {
                 "value": {
                   "horizontalPadding": "{sem.card.base.md.padding}",
@@ -22149,12 +22125,6 @@
           },
           "pressed": {
             "uncontrasted": {
-              "container": {
-                "value": {
-                  "itemSpacing": "{sem.toggle.toggleCard.wrapper.spacing}"
-                },
-                "type": "composition"
-              },
               "card": {
                 "value": {
                   "horizontalPadding": "{sem.card.base.md.padding}",
@@ -22172,12 +22142,6 @@
               }
             },
             "contrasted": {
-              "container": {
-                "value": {
-                  "itemSpacing": "{sem.toggle.toggleCard.wrapper.spacing}"
-                },
-                "type": "composition"
-              },
               "card": {
                 "value": {
                   "horizontalPadding": "{sem.card.base.md.padding}",
@@ -22197,12 +22161,6 @@
           },
           "active": {
             "uncontrasted": {
-              "container": {
-                "value": {
-                  "itemSpacing": "{sem.toggle.toggleCard.wrapper.spacing}"
-                },
-                "type": "composition"
-              },
               "card": {
                 "value": {
                   "horizontalPadding": "{sem.card.base.md.padding}",
@@ -22220,12 +22178,6 @@
               }
             },
             "contrasted": {
-              "container": {
-                "value": {
-                  "itemSpacing": "{sem.toggle.toggleCard.wrapper.spacing}"
-                },
-                "type": "composition"
-              },
               "card": {
                 "value": {
                   "horizontalPadding": "{sem.card.base.md.padding}",
@@ -22245,12 +22197,6 @@
           },
           "danger": {
             "uncontrasted": {
-              "container": {
-                "value": {
-                  "itemSpacing": "{sem.toggle.toggleCard.wrapper.spacing}"
-                },
-                "type": "composition"
-              },
               "card": {
                 "value": {
                   "horizontalPadding": "{sem.card.base.md.padding}",
@@ -22268,12 +22214,6 @@
               }
             },
             "contrasted": {
-              "container": {
-                "value": {
-                  "itemSpacing": "{sem.toggle.toggleCard.wrapper.spacing}"
-                },
-                "type": "composition"
-              },
               "card": {
                 "value": {
                   "horizontalPadding": "{sem.card.base.md.padding}",
@@ -22293,12 +22233,6 @@
           },
           "disabled": {
             "uncontrasted": {
-              "container": {
-                "value": {
-                  "itemSpacing": "{sem.toggle.toggleCard.wrapper.spacing}"
-                },
-                "type": "composition"
-              },
               "card": {
                 "value": {
                   "horizontalPadding": "{sem.card.base.md.padding}",
@@ -22316,12 +22250,6 @@
               }
             },
             "contrasted": {
-              "container": {
-                "value": {
-                  "itemSpacing": "{sem.toggle.toggleCard.wrapper.spacing}"
-                },
-                "type": "composition"
-              },
               "card": {
                 "value": {
                   "horizontalPadding": "{sem.card.base.md.padding}",
@@ -22341,12 +22269,6 @@
           },
           "forced": {
             "uncontrasted": {
-              "container": {
-                "value": {
-                  "itemSpacing": "{sem.toggle.toggleCard.wrapper.spacing}"
-                },
-                "type": "composition"
-              },
               "card": {
                 "value": {
                   "horizontalPadding": "{sem.card.base.md.padding}",
@@ -22364,12 +22286,6 @@
               }
             },
             "contrasted": {
-              "container": {
-                "value": {
-                  "itemSpacing": "{sem.toggle.toggleCard.wrapper.spacing}"
-                },
-                "type": "composition"
-              },
               "card": {
                 "value": {
                   "horizontalPadding": "{sem.card.base.md.padding}",
@@ -23288,12 +23204,7 @@
             }
           }
         },
-        "wrapper": {
-          "spacing": {
-            "value": "{ref.spacing.100}",
-            "type": "spacing"
-          }
-        }
+        "wrapper": {}
       }
     }
   }
