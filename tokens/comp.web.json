@@ -13850,54 +13850,109 @@
       }
     },
     "infobox": {
-      "container": {
-        "value": {
-          "fill": "{sem.color.surface.sub}",
-          "borderRadius": "{sem.infobox.container.borderRadius}",
-          "verticalPadding": "{sem.infobox.container.padding}",
-          "horizontalPadding": "{sem.infobox.container.padding}",
-          "itemSpacing": "{sem.infobox.container.spacing}",
-          "layoutMode": "horizontal"
-        },
-        "type": "composition"
-      },
-      "icon": {
-        "size": {
-          "value": {
-            "width": "{sem.infobox.icon.size}",
-            "height": "{sem.infobox.icon.size}"
-          },
-          "type": "composition"
-        }
-      },
-      "rightSide": {
+      "mobile": {
         "container": {
           "value": {
-            "itemSpacing": "{sem.infobox.rightSide.container.spacing}"
+            "fill": "{sem.color.surface.sub}",
+            "borderRadius": "{sem.infobox.container.borderRadius}",
+            "verticalPadding": "{sem.infobox.container.padding}",
+            "horizontalPadding": "{sem.infobox.container.padding}",
+            "itemSpacing": "{sem.infobox.container.spacing}",
+            "layoutMode": "vertical"
           },
           "type": "composition"
         },
-        "textWrapper": {
+        "icon": {
+          "size": {
+            "value": {
+              "width": "{sem.infobox.icon.size}",
+              "height": "{sem.infobox.icon.size}"
+            },
+            "type": "composition"
+          }
+        },
+        "rightSide": {
           "container": {
             "value": {
-              "paddingTop": "{sem.infobox.rightSide.textWrapper.container.paddingTop}",
-              "itemSpacing": "{sem.infobox.rightSide.textWrapper.container.spacing}"
+              "itemSpacing": "{sem.infobox.rightSide.container.spacing}"
             },
             "type": "composition"
           },
-          "title": {
+          "textWrapper": {
+            "container": {
+              "value": {
+                "paddingTop": "{sem.infobox.rightSide.textWrapper.container.paddingTop}",
+                "itemSpacing": "{sem.infobox.rightSide.textWrapper.container.spacing}"
+              },
+              "type": "composition"
+            },
+            "title": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.body.md}",
+                "fill": "{sem.color.text.dark}"
+              },
+              "type": "composition"
+            },
+            "description": {
+              "value": {
+                "typography": "{sem.typography.textStyle.paragraph.sm.default}",
+                "fill": "{sem.color.text.default}"
+              },
+              "type": "composition"
+            }
+          }
+        }
+      },
+      "desktop": {
+        "container": {
+          "value": {
+            "fill": "{sem.color.surface.sub}",
+            "borderRadius": "{sem.infobox.container.borderRadius}",
+            "verticalPadding": "{sem.infobox.container.padding}",
+            "horizontalPadding": "{sem.infobox.container.padding}",
+            "itemSpacing": "{sem.infobox.container.spacing}",
+            "layoutMode": "horizontal"
+          },
+          "type": "composition"
+        },
+        "icon": {
+          "size": {
             "value": {
-              "typography": "{sem.typography.textStyle.label.body.md}",
-              "fill": "{sem.color.text.dark}"
+              "width": "{sem.infobox.icon.size}",
+              "height": "{sem.infobox.icon.size}"
+            },
+            "type": "composition"
+          }
+        },
+        "rightSide": {
+          "container": {
+            "value": {
+              "itemSpacing": "{sem.infobox.rightSide.container.spacing}"
             },
             "type": "composition"
           },
-          "description": {
-            "value": {
-              "typography": "{sem.typography.textStyle.paragraph.sm.default}",
-              "fill": "{sem.color.text.default}"
+          "textWrapper": {
+            "container": {
+              "value": {
+                "paddingTop": "{sem.infobox.rightSide.textWrapper.container.paddingTop}",
+                "itemSpacing": "{sem.infobox.rightSide.textWrapper.container.spacing}"
+              },
+              "type": "composition"
             },
-            "type": "composition"
+            "title": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.body.md}",
+                "fill": "{sem.color.text.dark}"
+              },
+              "type": "composition"
+            },
+            "description": {
+              "value": {
+                "typography": "{sem.typography.textStyle.paragraph.sm.default}",
+                "fill": "{sem.color.text.default}"
+              },
+              "type": "composition"
+            }
           }
         }
       }
