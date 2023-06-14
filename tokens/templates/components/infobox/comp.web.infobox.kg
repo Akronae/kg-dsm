@@ -12,7 +12,6 @@ comp
         "verticalPadding": "{sem.infobox.container.padding}",
         "horizontalPadding": "{sem.infobox.container.padding}",
         "itemSpacing": "{sem.infobox.container.spacing}",
-        "verticalResizing": "hug",
         "layoutMode": "<< aspectRatio == 'mobile' ? 'vertical' : 'horizontal' >>"
       },
       "type": "composition"
