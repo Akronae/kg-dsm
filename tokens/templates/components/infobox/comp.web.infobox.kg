@@ -2,6 +2,7 @@
 
 comp
 .infobox
+[aspectRatio: 'mobile' | 'desktop']
 [
   {
     "container": {
@@ -11,7 +12,7 @@ comp
         "verticalPadding": "{sem.infobox.container.padding}",
         "horizontalPadding": "{sem.infobox.container.padding}",
         "itemSpacing": "{sem.infobox.container.spacing}",
-        "layoutMode": "horizontal"
+        "layoutMode": "<< aspectRatio == 'mobile' ? 'vertical' : 'horizontal' >>"
       },
       "type": "composition"
     },
