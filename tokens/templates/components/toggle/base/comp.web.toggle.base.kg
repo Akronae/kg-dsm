@@ -10,7 +10,8 @@ comp
       "value": {
         "itemSpacing": "{sem.toggle.base.container.spacing}",
         "fill": "<< ({hover: '{sem.color.surface.interactive.sub.hover}',pressed: '{sem.color.surface.interactive.sub.pressed}'})[state] || 'none'>>",
-        "borderRadius": "{sem.toggle.base.container.borderRadius}"
+        "borderRadius": "{sem.toggle.base.container.borderRadius}",
+        "layoutAlignItems": "top left"
       },
       "type": "composition"
     },
