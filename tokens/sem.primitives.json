@@ -1176,6 +1176,90 @@
           },
           "type": "border"
         }
+      },
+      "md": {
+        "default": {
+          "value": {
+            "color": "{sem.color.icon.default}",
+            "width": "{sem.borderWidth.icon.md}",
+            "style": "solid"
+          },
+          "type": "border"
+        },
+        "interactive": {
+          "default": {
+            "value": {
+              "color": "{sem.color.action.primary.default}",
+              "width": "{sem.borderWidth.icon.md}",
+              "style": "solid"
+            },
+            "type": "border"
+          },
+          "hover": {
+            "value": {
+              "color": "{sem.color.action.primary.hover}",
+              "width": "{sem.borderWidth.icon.md}",
+              "style": "solid"
+            },
+            "type": "border"
+          },
+          "pressed": {
+            "value": {
+              "color": "{sem.color.action.primary.pressed}",
+              "width": "{sem.borderWidth.icon.md}",
+              "style": "solid"
+            },
+            "type": "border"
+          },
+          "disabled": {
+            "value": {
+              "color": "{sem.color.action.primary.disabled}",
+              "width": "{sem.borderWidth.icon.md}",
+              "style": "solid"
+            },
+            "type": "border"
+          }
+        },
+        "primary": {
+          "value": {
+            "color": "{sem.color.icon.primary}",
+            "width": "{sem.borderWidth.icon.md}",
+            "style": "solid"
+          },
+          "type": "border"
+        },
+        "dark": {
+          "value": {
+            "color": "{sem.color.icon.dark}",
+            "width": "{sem.borderWidth.icon.md}",
+            "style": "solid"
+          },
+          "type": "border"
+        },
+        "light": {
+          "value": {
+            "color": "{sem.color.icon.light}",
+            "width": "{sem.borderWidth.icon.md}",
+            "style": "solid"
+          },
+          "type": "border"
+        },
+        "success": {
+          "value": {
+            "color": "{sem.color.icon.success}",
+            "width": "{sem.borderWidth.icon.md}",
+            "style": "solid"
+          },
+          "type": "border"
+        },
+        "danger": {
+          "value": {
+            "color": "{sem.color.icon.danger}",
+            "width": "{sem.borderWidth.icon.md}",
+            "style": "solid"
+          },
+          "type": "border"
+        }
       }
     }
   }
