@@ -21044,7 +21044,8 @@
             "value": {
               "itemSpacing": "{sem.toggle.base.container.spacing}",
               "fill": "none",
-              "borderRadius": "{sem.toggle.base.container.borderRadius}"
+              "borderRadius": "{sem.toggle.base.container.borderRadius}",
+              "layoutAlignItems": "top left"
             },
             "type": "composition"
           },
@@ -21100,7 +21101,8 @@
             "value": {
               "itemSpacing": "{sem.toggle.base.container.spacing}",
               "fill": "{sem.color.surface.interactive.sub.hover}",
-              "borderRadius": "{sem.toggle.base.container.borderRadius}"
+              "borderRadius": "{sem.toggle.base.container.borderRadius}",
+              "layoutAlignItems": "top left"
             },
             "type": "composition"
           },
@@ -21156,7 +21158,8 @@
             "value": {
               "itemSpacing": "{sem.toggle.base.container.spacing}",
               "fill": "{sem.color.surface.interactive.sub.pressed}",
-              "borderRadius": "{sem.toggle.base.container.borderRadius}"
+              "borderRadius": "{sem.toggle.base.container.borderRadius}",
+              "layoutAlignItems": "top left"
             },
             "type": "composition"
           },
@@ -21212,7 +21215,8 @@
             "value": {
               "itemSpacing": "{sem.toggle.base.container.spacing}",
               "fill": "none",
-              "borderRadius": "{sem.toggle.base.container.borderRadius}"
+              "borderRadius": "{sem.toggle.base.container.borderRadius}",
+              "layoutAlignItems": "top left"
             },
             "type": "composition"
           },
@@ -21268,7 +21272,8 @@
             "value": {
               "itemSpacing": "{sem.toggle.base.container.spacing}",
               "fill": "none",
-              "borderRadius": "{sem.toggle.base.container.borderRadius}"
+              "borderRadius": "{sem.toggle.base.container.borderRadius}",
+              "layoutAlignItems": "top left"
             },
             "type": "composition"
           },
@@ -21324,7 +21329,8 @@
             "value": {
               "itemSpacing": "{sem.toggle.base.container.spacing}",
               "fill": "none",
-              "borderRadius": "{sem.toggle.base.container.borderRadius}"
+              "borderRadius": "{sem.toggle.base.container.borderRadius}",
+              "layoutAlignItems": "top left"
             },
             "type": "composition"
           },
@@ -21380,7 +21386,8 @@
             "value": {
               "itemSpacing": "{sem.toggle.base.container.spacing}",
               "fill": "none",
-              "borderRadius": "{sem.toggle.base.container.borderRadius}"
+              "borderRadius": "{sem.toggle.base.container.borderRadius}",
+              "layoutAlignItems": "top left"
             },
             "type": "composition"
           },
@@ -21436,7 +21443,8 @@
             "value": {
               "itemSpacing": "{sem.toggle.base.container.spacing}",
               "fill": "none",
-              "borderRadius": "{sem.toggle.base.container.borderRadius}"
+              "borderRadius": "{sem.toggle.base.container.borderRadius}",
+              "layoutAlignItems": "top left"
             },
             "type": "composition"
           },
@@ -23209,7 +23217,8 @@
               }
             }
           }
-        }
+        },
+        "wrapper": {}
       }
     }
   }
