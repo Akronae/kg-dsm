@@ -21065,7 +21065,7 @@
             },
             "iconColor": {
               "value": {
-                "border": "{sem.borderIcon.sm.light}"
+                "border": "{sem.borderIcon.md.light}"
               },
               "type": "composition"
             }
@@ -21099,7 +21099,7 @@
           "container": {
             "value": {
               "itemSpacing": "{sem.toggle.base.container.spacing}",
-              "fill": "{sem.color.surface.sub.hover}",
+              "fill": "{sem.color.surface.interactive.sub.hover}",
               "borderRadius": "{sem.toggle.base.container.borderRadius}"
             },
             "type": "composition"
@@ -21121,7 +21121,7 @@
             },
             "iconColor": {
               "value": {
-                "border": "{sem.borderIcon.sm.light}"
+                "border": "{sem.borderIcon.md.light}"
               },
               "type": "composition"
             }
@@ -21155,7 +21155,7 @@
           "container": {
             "value": {
               "itemSpacing": "{sem.toggle.base.container.spacing}",
-              "fill": "{sem.color.surface.sub.pressed}",
+              "fill": "{sem.color.surface.interactive.sub.pressed}",
               "borderRadius": "{sem.toggle.base.container.borderRadius}"
             },
             "type": "composition"
@@ -21177,7 +21177,7 @@
             },
             "iconColor": {
               "value": {
-                "border": "{sem.borderIcon.sm.light}"
+                "border": "{sem.borderIcon.md.light}"
               },
               "type": "composition"
             }
@@ -21233,7 +21233,7 @@
             },
             "iconColor": {
               "value": {
-                "border": "{sem.borderIcon.sm.light}"
+                "border": "{sem.borderIcon.md.light}"
               },
               "type": "composition"
             }
@@ -21289,7 +21289,7 @@
             },
             "iconColor": {
               "value": {
-                "border": "{sem.borderIcon.sm.light}"
+                "border": "{sem.borderIcon.md.light}"
               },
               "type": "composition"
             }
@@ -21345,7 +21345,7 @@
             },
             "iconColor": {
               "value": {
-                "border": "{sem.borderIcon.sm.light}"
+                "border": "{sem.borderIcon.md.light}"
               },
               "type": "composition"
             }
@@ -21401,7 +21401,7 @@
             },
             "iconColor": {
               "value": {
-                "border": "{sem.borderIcon.sm.light}"
+                "border": "{sem.borderIcon.md.light}"
               },
               "type": "composition"
             }
@@ -21457,7 +21457,7 @@
             },
             "iconColor": {
               "value": {
-                "border": "{sem.borderIcon.sm.light}"
+                "border": "{sem.borderIcon.md.light}"
               },
               "type": "composition"
             }
@@ -21617,7 +21617,7 @@
             },
             "iconColor": {
               "value": {
-                "border": "{sem.borderIcon.sm.light}",
+                "border": "{sem.borderIcon.md.light}",
                 "fill": "{sem.borderIcon.sm.light}"
               },
               "type": "composition",
@@ -21639,7 +21639,7 @@
             },
             "iconColor": {
               "value": {
-                "border": "{sem.borderIcon.sm.light}",
+                "border": "{sem.borderIcon.md.light}",
                 "fill": "{sem.borderIcon.sm.light}"
               },
               "type": "composition",
@@ -21661,7 +21661,7 @@
             },
             "iconColor": {
               "value": {
-                "border": "{sem.borderIcon.sm.light}",
+                "border": "{sem.borderIcon.md.light}",
                 "fill": "{sem.borderIcon.sm.light}"
               },
               "type": "composition",
@@ -21683,7 +21683,7 @@
             },
             "iconColor": {
               "value": {
-                "border": "{sem.borderIcon.sm.light}",
+                "border": "{sem.borderIcon.md.light}",
                 "fill": "{sem.borderIcon.sm.light}"
               },
               "type": "composition",
@@ -21705,7 +21705,7 @@
             },
             "iconColor": {
               "value": {
-                "border": "{sem.borderIcon.sm.light}",
+                "border": "{sem.borderIcon.md.light}",
                 "fill": "{sem.borderIcon.sm.light}"
               },
               "type": "composition",
@@ -21727,7 +21727,7 @@
             },
             "iconColor": {
               "value": {
-                "border": "{sem.borderIcon.sm.light}",
+                "border": "{sem.borderIcon.md.light}",
                 "fill": "{sem.borderIcon.sm.light}"
               },
               "type": "composition",
@@ -21749,7 +21749,7 @@
             },
             "iconColor": {
               "value": {
-                "border": "{sem.borderIcon.sm.light}",
+                "border": "{sem.borderIcon.md.light}",
                 "fill": "{sem.borderIcon.sm.light}"
               },
               "type": "composition",
