@@ -13713,7 +13713,8 @@
               "borderRadiusBottomRight": "{sem.card.base.xs.borderRadiusBottomRight}",
               "borderRadiusBottomLeft": "{sem.card.base.xs.borderRadiusBottomLeft}",
               "border": "{sem.border.transparent}",
-              "itemSpacing": "{sem.dropdown.container.spacing}"
+              "itemSpacing": "{sem.dropdown.container.spacing}",
+              "maxHeight": "{sem.dropdown.container.maxHeight}"
             },
             "type": "composition",
             "description": "({extends: 'comp.input.base.sm.uncontrasted.default.fieldWrapper'})"
@@ -13737,7 +13738,8 @@
               "borderRadiusBottomRight": "{sem.card.base.sm.borderRadiusBottomRight}",
               "borderRadiusBottomLeft": "{sem.card.base.sm.borderRadiusBottomLeft}",
               "border": "{sem.border.transparent}",
-              "itemSpacing": "{sem.dropdown.container.spacing}"
+              "itemSpacing": "{sem.dropdown.container.spacing}",
+              "maxHeight": "{sem.dropdown.container.maxHeight}"
             },
             "type": "composition",
             "description": "({extends: 'comp.input.base.md.uncontrasted.default.fieldWrapper'})"
@@ -22745,6 +22747,10 @@
         "padding": {
           "value": "{ref.spacing.100}",
           "type": "spacing"
+        },
+        "maxHeight": {
+          "value": "{ref.sizing.700}",
+          "type": "sizing"
         },
         "dropShadow": {
           "value": "{ref.effects.dropShadow.300}",
