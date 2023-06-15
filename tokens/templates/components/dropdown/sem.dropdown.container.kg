@@ -12,6 +12,10 @@ sem
       "value": "{ref.spacing.100}",
       "type": "spacing"
     },
+    "maxHeight": {
+      "value": "{ref.spacing.700}",
+      "type": "spacing"
+    },
     "dropShadow": {
       "value": "{ref.effects.dropShadow.300}",
       "type": "boxShadow"
