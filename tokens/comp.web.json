@@ -21097,7 +21097,7 @@
           "container": {
             "value": {
               "itemSpacing": "{sem.toggle.base.container.spacing}",
-              "fill": "{sem.color.surface.interactive.hover}",
+              "fill": "{sem.color.surface.sub.hover}",
               "borderRadius": "{sem.toggle.base.container.borderRadius}"
             },
             "type": "composition"
@@ -21153,7 +21153,7 @@
           "container": {
             "value": {
               "itemSpacing": "{sem.toggle.base.container.spacing}",
-              "fill": "{sem.color.surface.interactive.pressed}",
+              "fill": "{sem.color.surface.sub.pressed}",
               "borderRadius": "{sem.toggle.base.container.borderRadius}"
             },
             "type": "composition"
