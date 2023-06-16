@@ -9,7 +9,8 @@
                 "value": {
                   "paddingLeft": "{sem.structure.form.template.wizard.mobile.step.horizontalPadding}",
                   "paddingRight": "{sem.structure.form.template.wizard.mobile.step.horizontalPadding}",
-                  "layoutMode": "vertical"
+                  "layoutMode": "vertical",
+                  "horizontalResizing": "fill"
                 },
                 "type": "composition"
               },
@@ -35,7 +36,8 @@
                 "value": {
                   "paddingLeft": "{sem.structure.form.template.wizard.mobile.step.horizontalPadding}",
                   "paddingRight": "{sem.structure.form.template.wizard.mobile.step.horizontalPadding}",
-                  "layoutMode": "vertical"
+                  "layoutMode": "vertical",
+                  "horizontalResizing": "fill"
                 },
                 "type": "composition"
               },
