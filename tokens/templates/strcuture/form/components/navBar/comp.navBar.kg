@@ -5,13 +5,19 @@ comp
 [
   {
     "mobile": {
+      "container": {
+        "value": {
+            "paddingLeft": "{sem.structure.form.template.wizard.mobile.step.horizontalPadding}",
+            "paddingRight": "{sem.structure.form.template.wizard.mobile.step.horizontalPadding}",
+            "layoutMode": "vertical"
+        },
+        "type": "composition"
+      },
       "wrapper": {
         "isClosed": {
           "value": {
             "paddingTop": "{sem.structure.form.components.navBar.mobile.wrapper.isClosed.paddingTop}",
             "paddingBottom": "{sem.structure.form.components.navBar.mobile.wrapper.isClosed.paddingBottom}",
-            "paddingLeft": "{sem.structure.form.template.wizard.mobile.step.horizontalPadding}",
-            "paddingRight": "{sem.structure.form.template.wizard.mobile.step.horizontalPadding}",
             "horizontalResizing": "fill",
             "layoutMode": "horizontal",
             "spacingMode": "space between"
@@ -22,8 +28,6 @@ comp
           "value": {
             "paddingTop": "{sem.structure.form.components.navBar.mobile.wrapper.isOpen.paddingTop}",
             "paddingBottom": "{sem.structure.form.components.navBar.mobile.wrapper.isOpen.paddingBottom}",
-            "paddingLeft": "{sem.structure.form.template.wizard.mobile.step.horizontalPadding}",
-            "paddingRight": "{sem.structure.form.template.wizard.mobile.step.horizontalPadding}",
             "layoutAlignItems": "center",
             "horizontalResizing": "fill",
             "layoutMode": "horizontal"
@@ -37,8 +41,6 @@ comp
         "value": {
           "paddingTop": "{sem.structure.form.components.navBar.desktop.wrapper.paddingTop}",
           "paddingBottom": "{sem.structure.form.components.navBar.desktop.wrapper.paddingBottom}",
-          "paddingLeft": "{sem.structure.form.template.wizard.mobile.step.horizontalPadding}",
-          "paddingRight": "{sem.structure.form.template.wizard.mobile.step.horizontalPadding}",
           "layoutAlignItems": "center right",
           "horizontalResizing": "fill",
           "layoutMode": "horizontal"
