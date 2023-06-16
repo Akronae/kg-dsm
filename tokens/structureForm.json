@@ -10,6 +10,8 @@
                   "paddingTop": "{sem.structure.form.components.actionZone.mobile.buttonsWrapper.paddingTop}",
                   "paddingBottom": "{sem.structure.form.components.actionZone.mobile.buttonsWrapper.paddingBottom}",
                   "itemSpacing": "{sem.structure.form.components.actionZone.mobile.buttonsWrapper.spacing}",
+                  "paddingLeft": "{sem.structure.form.template.wizard.mobile.step.horizontalPadding}",
+                  "paddingRight": "{sem.structure.form.template.wizard.mobile.step.horizontalPadding}",
                   "layoutMode": "horizontal",
                   "spacingMode": "space between",
                   "horizontalResizing": "fill"
@@ -29,6 +31,8 @@
                   "paddingTop": "{sem.structure.form.components.actionZone.desktop.buttonsWrapper.paddingTop}",
                   "paddingBottom": "{sem.structure.form.components.actionZone.desktop.buttonsWrapper.paddingBottom}",
                   "itemSpacing": "{sem.structure.form.components.actionZone.desktop.buttonsWrapper.spacing}",
+                  "paddingLeft": "{sem.structure.form.template.wizard.mobile.step.horizontalPadding}",
+                  "paddingRight": "{sem.structure.form.template.wizard.mobile.step.horizontalPadding}",
                   "layoutMode": "horizontal",
                   "spacingMode": "space between",
                   "horizontalResizing": "fill"
@@ -1002,6 +1006,8 @@
                   "value": {
                     "paddingTop": "{sem.structure.form.components.navBar.mobile.wrapper.isClosed.paddingTop}",
                     "paddingBottom": "{sem.structure.form.components.navBar.mobile.wrapper.isClosed.paddingBottom}",
+                    "paddingLeft": "{sem.structure.form.template.wizard.mobile.step.horizontalPadding}",
+                    "paddingRight": "{sem.structure.form.template.wizard.mobile.step.horizontalPadding}",
                     "horizontalResizing": "fill",
                     "layoutMode": "horizontal",
                     "spacingMode": "space between"
@@ -1012,6 +1018,8 @@
                   "value": {
                     "paddingTop": "{sem.structure.form.components.navBar.mobile.wrapper.isOpen.paddingTop}",
                     "paddingBottom": "{sem.structure.form.components.navBar.mobile.wrapper.isOpen.paddingBottom}",
+                    "paddingLeft": "{sem.structure.form.template.wizard.mobile.step.horizontalPadding}",
+                    "paddingRight": "{sem.structure.form.template.wizard.mobile.step.horizontalPadding}",
                     "layoutAlignItems": "center",
                     "horizontalResizing": "fill",
                     "layoutMode": "horizontal"
@@ -1025,6 +1033,8 @@
                 "value": {
                   "paddingTop": "{sem.structure.form.components.navBar.desktop.wrapper.paddingTop}",
                   "paddingBottom": "{sem.structure.form.components.navBar.desktop.wrapper.paddingBottom}",
+                  "paddingLeft": "{sem.structure.form.template.wizard.mobile.step.horizontalPadding}",
+                  "paddingRight": "{sem.structure.form.template.wizard.mobile.step.horizontalPadding}",
                   "layoutAlignItems": "center right",
                   "horizontalResizing": "fill",
                   "layoutMode": "horizontal"
@@ -1329,8 +1339,8 @@
                     "verticalResizing": "fill",
                     "paddingTop": "{sem.structure.form.template.wizard.mobile.step.formWrapper.paddingTop}",
                     "paddingBottom": "{sem.structure.form.template.wizard.mobile.step.formWrapper.paddingBottom}",
-                    "paddingLeft": "{sem.structure.form.template.wizard.mobile.step.content.horizontalPadding}",
-                    "paddingRight": "{sem.structure.form.template.wizard.mobile.step.content.horizontalPadding}",
+                    "paddingLeft": "{sem.structure.form.template.wizard.mobile.step.horizontalPadding}",
+                    "paddingRight": "{sem.structure.form.template.wizard.mobile.step.horizontalPadding}",
                     "horizontalResizing": "fill"
                   },
                   "type": "composition",
@@ -1767,6 +1777,10 @@
             },
             "mobile": {
               "step": {
+                "horizontalPadding": {
+                  "value": "{ref.spacing.200}",
+                  "type": "spacing"
+                },
                 "content": {
                   "helpOpen": {
                     "horizontalPadding": {
@@ -1777,10 +1791,6 @@
                       "value": "{ref.borderRadius.400}",
                       "type": "borderRadius"
                     }
-                  },
-                  "horizontalPadding": {
-                    "value": "{ref.spacing.200}",
-                    "type": "spacing"
                   }
                 },
                 "formWrapper": {

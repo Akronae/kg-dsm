@@ -5,6 +5,10 @@ sem
 [
   {
     "step": {
+      "horizontalPadding": {
+        "value": "{ref.spacing.200}",
+        "type": "spacing"
+      },
       "content": {
         "helpOpen": {
           "horizontalPadding": {
@@ -15,10 +19,6 @@ sem
             "value": "{ref.borderRadius.400}",
             "type": "borderRadius"
           }
-        },
-        "horizontalPadding": {
-          "value": "{ref.spacing.200}",
-          "type": "spacing"
         }
       },
       "formWrapper": {
