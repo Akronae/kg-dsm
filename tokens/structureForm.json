@@ -1245,8 +1245,6 @@
                     "layoutMode": "vertical",
                     "horizontalResizing": "fill",
                     "verticalResizing": "fill",
-                    "paddingLeft": "{sem.structure.form.template.wizard.desktop.step.content.horizontalPadding}",
-                    "paddingRight": "{sem.structure.form.template.wizard.desktop.step.content.horizontalPadding}",
                     "borderRadiusTopRight": "{sem.structure.form.template.wizard.desktop.step.content.borderRadius}",
                     "borderRadiusBottomRight": "{sem.structure.form.template.wizard.desktop.step.content.borderRadius}"
                   },
@@ -1258,6 +1256,8 @@
                     "verticalResizing": "fill",
                     "paddingTop": "{sem.structure.form.template.wizard.desktop.step.formWrapper.paddingTop}",
                     "paddingBottom": "{sem.structure.form.template.wizard.desktop.step.formWrapper.paddingBottom}",
+                    "paddingLeft": "{sem.structure.form.template.wizard.desktop.step.horizontalPadding}",
+                    "paddingRight": "{sem.structure.form.template.wizard.desktop.step.horizontalPadding}",
                     "width": "{sem.containerSize.maxWidth.md}"
                   },
                   "type": "composition",
@@ -1306,8 +1306,6 @@
                       "layoutMode": "vertical",
                       "horizontalResizing": "fill",
                       "verticalResizing": "fill",
-                      "paddingLeft": "{sem.structure.form.template.wizard.mobile.step.content.helpOpen.horizontalPadding}",
-                      "paddingRight": "{sem.structure.form.template.wizard.mobile.step.content.helpOpen.horizontalPadding}",
                       "borderRadiusTopRight": "{sem.structure.form.template.wizard.mobile.step.content.helpOpen.borderRadius}",
                       "borderRadiusTopLeft": "{sem.structure.form.template.wizard.mobile.step.content.helpOpen.borderRadius}"
                     },
@@ -1320,9 +1318,7 @@
                       "layoutAlignItems": "top center",
                       "layoutMode": "vertical",
                       "horizontalResizing": "fill",
-                      "verticalResizing": "fill",
-                      "paddingLeft": "{sem.structure.form.template.wizard.mobile.step.content.helpClosed.horizontalPadding}",
-                      "paddingRight": "{sem.structure.form.template.wizard.mobile.step.content.helpClosed.horizontalPadding}"
+                      "verticalResizing": "fill"
                     },
                     "type": "composition",
                     "description": "({ extends: 'comp.structure.form.template.wizard.base.step.content' })"
@@ -1333,6 +1329,8 @@
                     "verticalResizing": "fill",
                     "paddingTop": "{sem.structure.form.template.wizard.mobile.step.formWrapper.paddingTop}",
                     "paddingBottom": "{sem.structure.form.template.wizard.mobile.step.formWrapper.paddingBottom}",
+                    "paddingLeft": "{sem.structure.form.template.wizard.mobile.step.content.horizontalPadding}",
+                    "paddingRight": "{sem.structure.form.template.wizard.mobile.step.content.horizontalPadding}",
                     "horizontalResizing": "fill"
                   },
                   "type": "composition",
@@ -1723,11 +1721,11 @@
           "wizard": {
             "desktop": {
               "step": {
+                "horizontalPadding": {
+                  "value": "{ref.spacing.300}",
+                  "type": "spacing"
+                },
                 "content": {
-                  "horizontalPadding": {
-                    "value": "{ref.spacing.300}",
-                    "type": "spacing"
-                  },
                   "borderRadius": {
                     "value": "{ref.borderRadius.500}",
                     "type": "borderRadius"
@@ -1780,11 +1778,9 @@
                       "type": "borderRadius"
                     }
                   },
-                  "helpClosed": {
-                    "horizontalPadding": {
-                      "value": "{ref.spacing.200}",
-                      "type": "spacing"
-                    }
+                  "horizontalPadding": {
+                    "value": "{ref.spacing.200}",
+                    "type": "spacing"
                   }
                 },
                 "formWrapper": {

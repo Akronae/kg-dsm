@@ -14,8 +14,6 @@ comp
       },
       "content": {
         "value": {
-          "paddingLeft": "{sem.structure.form.template.wizard.desktop.step.content.horizontalPadding}",
-          "paddingRight": "{sem.structure.form.template.wizard.desktop.step.content.horizontalPadding}",
           "borderRadiusTopRight": "{sem.structure.form.template.wizard.desktop.step.content.borderRadius}",
           "borderRadiusBottomRight": "{sem.structure.form.template.wizard.desktop.step.content.borderRadius}"
         },
@@ -26,6 +24,8 @@ comp
         "value": {
           "paddingTop": "{sem.structure.form.template.wizard.desktop.step.formWrapper.paddingTop}",
           "paddingBottom": "{sem.structure.form.template.wizard.desktop.step.formWrapper.paddingBottom}",
+          "paddingLeft": "{sem.structure.form.template.wizard.desktop.step.horizontalPadding}",
+          "paddingRight": "{sem.structure.form.template.wizard.desktop.step.horizontalPadding}",
           "width": "{sem.containerSize.maxWidth.md}"
         },
         "type": "composition",

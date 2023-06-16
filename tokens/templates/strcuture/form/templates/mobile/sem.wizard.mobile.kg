@@ -16,11 +16,9 @@ sem
             "type": "borderRadius"
           }
         },
-        "helpClosed": {
-          "horizontalPadding": {
-            "value": "{ref.spacing.200}",
-            "type": "spacing"
-          }
+        "horizontalPadding": {
+          "value": "{ref.spacing.200}",
+          "type": "spacing"
         }
       },
       "formWrapper": {

@@ -15,8 +15,7 @@ comp
       "content": {
         "helpOpen": {
           "value": {
-            "paddingLeft": "{sem.structure.form.template.wizard.mobile.step.content.helpOpen.horizontalPadding}",
-            "paddingRight": "{sem.structure.form.template.wizard.mobile.step.content.helpOpen.horizontalPadding}",
+
             "borderRadiusTopRight": "{sem.structure.form.template.wizard.mobile.step.content.helpOpen.borderRadius}",
             "borderRadiusTopLeft": "{sem.structure.form.template.wizard.mobile.step.content.helpOpen.borderRadius}"
           },
@@ -25,8 +24,7 @@ comp
         },
         "helpClosed": {
           "value": {
-            "paddingLeft": "{sem.structure.form.template.wizard.mobile.step.content.helpClosed.horizontalPadding}",
-            "paddingRight": "{sem.structure.form.template.wizard.mobile.step.content.helpClosed.horizontalPadding}"
+
           },
           "type": "composition",
           "description": "({ extends: 'comp.structure.form.template.wizard.base.step.content' })"
@@ -36,6 +34,8 @@ comp
         "value": {
           "paddingTop": "{sem.structure.form.template.wizard.mobile.step.formWrapper.paddingTop}",
           "paddingBottom": "{sem.structure.form.template.wizard.mobile.step.formWrapper.paddingBottom}",
+          "paddingLeft": "{sem.structure.form.template.wizard.mobile.step.content.horizontalPadding}",
+          "paddingRight": "{sem.structure.form.template.wizard.mobile.step.content.horizontalPadding}",
           "horizontalResizing": "fill"
         },
         "type": "composition",
