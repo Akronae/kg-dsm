@@ -1044,6 +1044,14 @@
               }
             },
             "desktop": {
+              "container": {
+                "value": {
+                  "paddingLeft": "{sem.structure.form.template.wizard.mobile.step.horizontalPadding}",
+                  "paddingRight": "{sem.structure.form.template.wizard.mobile.step.horizontalPadding}",
+                  "layoutMode": "vertical"
+                },
+                "type": "composition"
+              },
               "wrapper": {
                 "value": {
                   "paddingTop": "{sem.structure.form.components.navBar.desktop.wrapper.paddingTop}",
