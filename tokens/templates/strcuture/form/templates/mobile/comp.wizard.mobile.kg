@@ -23,7 +23,8 @@ comp
         },
         "helpClosed": {
           "value": {
-
+            "borderRadiusTopRight": "{sem.structure.form.template.wizard.mobile.step.content.helpOpen.borderRadius}",
+            "borderRadiusTopLeft": "{sem.structure.form.template.wizard.mobile.step.content.helpOpen.borderRadius}"
           },
           "type": "composition",
           "description": "({ extends: 'comp.structure.form.template.wizard.base.step.content' })"
