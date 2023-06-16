@@ -5,11 +5,11 @@ sem
 [
   {
     "step": {
+      "horizontalPadding": {
+        "value": "{ref.spacing.300}",
+        "type": "spacing"
+      },
       "content": {
-        "horizontalPadding": {
-          "value": "{ref.spacing.300}",
-          "type": "spacing"
-        },
         "borderRadius": {
           "value": "{ref.borderRadius.500}",
           "type": "borderRadius"

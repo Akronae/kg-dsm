@@ -10,6 +10,8 @@ comp
         "paddingTop": "{sem.structure.form.components.actionZone.<<aspectRatio>>.buttonsWrapper.paddingTop}",
         "paddingBottom": "{sem.structure.form.components.actionZone.<<aspectRatio>>.buttonsWrapper.paddingBottom}",
         "itemSpacing": "{sem.structure.form.components.actionZone.<<aspectRatio>>.buttonsWrapper.spacing}",
+        "paddingLeft": "{sem.structure.form.template.wizard.mobile.step.horizontalPadding}",
+        "paddingRight": "{sem.structure.form.template.wizard.mobile.step.horizontalPadding}",
         "layoutMode": "horizontal",
         "spacingMode": "space between",
         "horizontalResizing": "fill"
