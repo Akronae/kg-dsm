@@ -1328,7 +1328,9 @@
                       "layoutAlignItems": "top center",
                       "layoutMode": "vertical",
                       "horizontalResizing": "fill",
-                      "verticalResizing": "fill"
+                      "verticalResizing": "fill",
+                      "borderRadiusTopRight": "{sem.structure.form.template.wizard.mobile.step.content.helpClosed.borderRadius}",
+                      "borderRadiusTopLeft": "{sem.structure.form.template.wizard.mobile.step.content.helpClosed.borderRadius}"
                     },
                     "type": "composition",
                     "description": "({ extends: 'comp.structure.form.template.wizard.base.step.content' })"
@@ -1783,10 +1785,12 @@
                 },
                 "content": {
                   "helpOpen": {
-                    "horizontalPadding": {
-                      "value": "{ref.spacing.200}",
-                      "type": "spacing"
-                    },
+                    "borderRadius": {
+                      "value": "{ref.borderRadius.400}",
+                      "type": "borderRadius"
+                    }
+                  },
+                  "helpClosed": {
                     "borderRadius": {
                       "value": "{ref.borderRadius.400}",
                       "type": "borderRadius"

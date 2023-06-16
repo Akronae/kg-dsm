@@ -11,10 +11,12 @@ sem
       },
       "content": {
         "helpOpen": {
-          "horizontalPadding": {
-            "value": "{ref.spacing.200}",
-            "type": "spacing"
-          },
+          "borderRadius": {
+            "value": "{ref.borderRadius.400}",
+            "type": "borderRadius"
+          }
+        },
+        "helpClosed": {
           "borderRadius": {
             "value": "{ref.borderRadius.400}",
             "type": "borderRadius"
