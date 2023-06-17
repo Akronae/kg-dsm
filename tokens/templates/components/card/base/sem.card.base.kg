@@ -26,8 +26,14 @@ sem
       "type": "borderRadius"
     },
     "dropShadow": {
-      "value": "{ref.effects.dropShadow.200}",
-      "type": "boxShadow"
+      "hover": {
+        "value": "{'ref.effects.dropShadow.200'}",
+        "type": "boxShadow"
+      },
+      "pressed": {
+        "value": "{'ref.effects.dropShadow.100'}",
+        "type": "boxShadow"
+      }
     }
   }
 ]
