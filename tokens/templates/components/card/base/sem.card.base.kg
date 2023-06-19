@@ -27,11 +27,11 @@ sem
     },
     "dropShadow": {
       "hover": {
-        "value": "{'ref.effects.dropShadow.200'}",
+        "value": "{ref.effects.dropShadow.200}",
         "type": "boxShadow"
       },
       "pressed": {
-        "value": "{'ref.effects.dropShadow.100'}",
+        "value": "{ref.effects.dropShadow.100}",
         "type": "boxShadow"
       }
     }
