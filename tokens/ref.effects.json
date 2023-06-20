@@ -20,7 +20,7 @@
             "y": "2",
             "blur": "8",
             "spread": "0",
-            "color": "{ref.colors.neutral.Alpha.8}",
+            "color": "{ref.colors.neutral.Alpha.08}",
             "type": "dropShadow"
           },
           "type": "boxShadow",
@@ -32,7 +32,7 @@
             "y": "2",
             "blur": "16",
             "spread": "0",
-            "color": "{ref.colors.neutral.Alpha.8}",
+            "color": "{ref.colors.neutral.Alpha.08}",
             "type": "dropShadow"
           },
           "type": "boxShadow",
