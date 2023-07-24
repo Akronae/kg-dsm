@@ -1,0 +1,43 @@
+// @replacepath: tokens/comp.web.json
+
+comp
+.bottomSheet
+[aspectRatio: 'desktop' | 'mobile']
+[
+  {
+    "overlay": {
+      "value": {
+        "fill": "#0A0A0A7A",
+        "layoutMode": "vertical",
+        "layoutAlignItems": "center",
+        "horizontalResizing": "fill",
+        "verticalResizing": "fill"
+      },
+      "type": "composition"
+    },
+    "closeBar": {
+      "card": {
+          "value": {
+          "fill": "#6F685D"
+        },
+        "type": "composition"
+      },
+      "label": {
+        "value": {
+          "typography": "{sem.typography.textStyle.label.body.sm}",
+          "fill": "#6F685D"
+        },
+        "type": "composition"
+      }
+    },
+    "container": {
+      "value": {
+        "width": "536px",
+        "layoutMode": "vertical",
+        "itemSpacing": "24px"
+      },
+      "type": "composition",
+      "description": "({extends: 'comp.card.base.md.uncontrasted.default'})"
+    }
+  }
+]

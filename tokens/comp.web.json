@@ -22315,6 +22315,98 @@
           }
         }
       }
+    },
+    "bottomSheet": {
+      "desktop": {
+        "overlay": {
+          "value": {
+            "fill": "#0A0A0A7A",
+            "layoutMode": "vertical",
+            "layoutAlignItems": "center",
+            "horizontalResizing": "fill",
+            "verticalResizing": "fill"
+          },
+          "type": "composition"
+        },
+        "closeBar": {
+          "card": {
+            "value": {
+              "fill": "#6F685D"
+            },
+            "type": "composition"
+          },
+          "label": {
+            "value": {
+              "typography": "{sem.typography.textStyle.label.body.sm}",
+              "fill": "#6F685D"
+            },
+            "type": "composition"
+          }
+        },
+        "container": {
+          "value": {
+            "horizontalPadding": "{sem.card.base.md.padding}",
+            "verticalPadding": "{sem.card.base.md.padding}",
+            "fill": "{sem.color.surface.light}",
+            "boxShadow": "none",
+            "borderRadiusTopLeft": "{sem.card.base.md.borderRadiusTopLeft}",
+            "borderRadiusTopRight": "{sem.card.base.md.borderRadiusTopRight}",
+            "borderRadiusBottomRight": "{sem.card.base.md.borderRadiusBottomRight}",
+            "borderRadiusBottomLeft": "{sem.card.base.md.borderRadiusBottomLeft}",
+            "border": "{sem.border.transparent}",
+            "width": "536px",
+            "layoutMode": "vertical",
+            "itemSpacing": "24px"
+          },
+          "type": "composition",
+          "description": "({extends: 'comp.card.base.md.uncontrasted.default'})"
+        }
+      },
+      "mobile": {
+        "overlay": {
+          "value": {
+            "fill": "#0A0A0A7A",
+            "layoutMode": "vertical",
+            "layoutAlignItems": "center",
+            "horizontalResizing": "fill",
+            "verticalResizing": "fill"
+          },
+          "type": "composition"
+        },
+        "closeBar": {
+          "card": {
+            "value": {
+              "fill": "#6F685D"
+            },
+            "type": "composition"
+          },
+          "label": {
+            "value": {
+              "typography": "{sem.typography.textStyle.label.body.sm}",
+              "fill": "#6F685D"
+            },
+            "type": "composition"
+          }
+        },
+        "container": {
+          "value": {
+            "horizontalPadding": "{sem.card.base.md.padding}",
+            "verticalPadding": "{sem.card.base.md.padding}",
+            "fill": "{sem.color.surface.light}",
+            "boxShadow": "none",
+            "borderRadiusTopLeft": "{sem.card.base.md.borderRadiusTopLeft}",
+            "borderRadiusTopRight": "{sem.card.base.md.borderRadiusTopRight}",
+            "borderRadiusBottomRight": "{sem.card.base.md.borderRadiusBottomRight}",
+            "borderRadiusBottomLeft": "{sem.card.base.md.borderRadiusBottomLeft}",
+            "border": "{sem.border.transparent}",
+            "width": "536px",
+            "layoutMode": "vertical",
+            "itemSpacing": "24px"
+          },
+          "type": "composition",
+          "description": "({extends: 'comp.card.base.md.uncontrasted.default'})"
+        }
+      }
     }
   },
   "sem": {
@@ -23235,7 +23327,8 @@
               }
             }
           }
-        }
+        },
+        "wrapper": {}
       }
     }
   }
