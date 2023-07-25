@@ -32,16 +32,24 @@ comp
     },
     "container": {
       "value": {
-        "maxWidth": "<< ({ desktop: '536px', mobile: undefined }) >>",
+        "maxWidth": "<< ({ desktop: '536px', mobile: undefined })[aspectRatio] >>",
+        "height": "<< ({ desktop: undefined, mobile: '750px' })[aspectRatio] >>",
         "layoutMode": "vertical",
         "horizontalResizing": "fill",
         "itemSpacing": "24px",
         "borderRadius": "<< ({ desktop: '32px', mobile: '24px' })[aspectRatio] >>",
         "borderRadiusBottomLeft": "0",
-        "borderRadiusBottomRight": "0"
+        "borderRadiusBottomRight": "0",
+        "fill": "#F7F3ED"
       },
-      "type": "composition",
-      "description": "({extends: 'comp.card.base.md.uncontrasted.default'})"
+      "type": "composition"
+    },
+    "content": {
+      "value": {
+        "horizontalPadding": "<< ({ desktop: '24px', mobile: '16px' })[aspectRatio] >>",
+        "verticalPadding": "24px"
+      },
+      "type": "composition"
     }
   }
 ]

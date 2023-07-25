@@ -22345,23 +22345,23 @@
         },
         "container": {
           "value": {
-            "horizontalPadding": "{sem.card.base.md.padding}",
-            "verticalPadding": "{sem.card.base.md.padding}",
-            "fill": "{sem.color.surface.light}",
-            "boxShadow": "none",
-            "borderRadiusTopLeft": "{sem.card.base.md.borderRadiusTopLeft}",
-            "borderRadiusTopRight": "{sem.card.base.md.borderRadiusTopRight}",
-            "borderRadiusBottomRight": "0",
-            "borderRadiusBottomLeft": "0",
-            "border": "{sem.border.transparent}",
-            "maxWidth": "[object Object]",
+            "maxWidth": "536px",
             "layoutMode": "vertical",
             "horizontalResizing": "fill",
             "itemSpacing": "24px",
-            "borderRadius": "32px"
+            "borderRadius": "32px",
+            "borderRadiusBottomLeft": "0",
+            "borderRadiusBottomRight": "0",
+            "fill": "#F7F3ED"
           },
-          "type": "composition",
-          "description": "({extends: 'comp.card.base.md.uncontrasted.default'})"
+          "type": "composition"
+        },
+        "content": {
+          "value": {
+            "horizontalPadding": "24px",
+            "verticalPadding": "24px"
+          },
+          "type": "composition"
         }
       },
       "mobile": {
@@ -22392,23 +22392,23 @@
         },
         "container": {
           "value": {
-            "horizontalPadding": "{sem.card.base.md.padding}",
-            "verticalPadding": "{sem.card.base.md.padding}",
-            "fill": "{sem.color.surface.light}",
-            "boxShadow": "none",
-            "borderRadiusTopLeft": "{sem.card.base.md.borderRadiusTopLeft}",
-            "borderRadiusTopRight": "{sem.card.base.md.borderRadiusTopRight}",
-            "borderRadiusBottomRight": "0",
-            "borderRadiusBottomLeft": "0",
-            "border": "{sem.border.transparent}",
-            "maxWidth": "[object Object]",
+            "height": "750px",
             "layoutMode": "vertical",
             "horizontalResizing": "fill",
             "itemSpacing": "24px",
-            "borderRadius": "24px"
+            "borderRadius": "24px",
+            "borderRadiusBottomLeft": "0",
+            "borderRadiusBottomRight": "0",
+            "fill": "#F7F3ED"
           },
-          "type": "composition",
-          "description": "({extends: 'comp.card.base.md.uncontrasted.default'})"
+          "type": "composition"
+        },
+        "content": {
+          "value": {
+            "horizontalPadding": "16px",
+            "verticalPadding": "24px"
+          },
+          "type": "composition"
         }
       }
     }
