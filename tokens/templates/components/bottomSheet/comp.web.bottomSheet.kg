@@ -18,7 +18,7 @@ comp
     "closeBar": {
       "card": {
           "value": {
-          "fill": "#6F685D"
+          "fill": "#E1DDD8"
         },
         "type": "composition"
       },
@@ -32,8 +32,9 @@ comp
     },
     "container": {
       "value": {
-        "width": "<< ({ desktop: '536px', mobile: undefined }) >>",
+        "maxWidth": "<< ({ desktop: '536px', mobile: undefined }) >>",
         "layoutMode": "vertical",
+        "horizontalResizing": "fill",
         "itemSpacing": "24px",
         "borderRadius": "<< ({ desktop: '32px', mobile: '24px' })[aspectRatio] >>"
       },

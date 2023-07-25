@@ -22331,7 +22331,7 @@
         "closeBar": {
           "card": {
             "value": {
-              "fill": "#6F685D"
+              "fill": "#E1DDD8"
             },
             "type": "composition"
           },
@@ -22354,8 +22354,9 @@
             "borderRadiusBottomRight": "{sem.card.base.md.borderRadiusBottomRight}",
             "borderRadiusBottomLeft": "{sem.card.base.md.borderRadiusBottomLeft}",
             "border": "{sem.border.transparent}",
-            "width": "[object Object]",
+            "maxWidth": "[object Object]",
             "layoutMode": "vertical",
+            "horizontalResizing": "fill",
             "itemSpacing": "24px",
             "borderRadius": "32px"
           },
@@ -22377,7 +22378,7 @@
         "closeBar": {
           "card": {
             "value": {
-              "fill": "#6F685D"
+              "fill": "#E1DDD8"
             },
             "type": "composition"
           },
@@ -22400,8 +22401,9 @@
             "borderRadiusBottomRight": "{sem.card.base.md.borderRadiusBottomRight}",
             "borderRadiusBottomLeft": "{sem.card.base.md.borderRadiusBottomLeft}",
             "border": "{sem.border.transparent}",
-            "width": "[object Object]",
+            "maxWidth": "[object Object]",
             "layoutMode": "vertical",
+            "horizontalResizing": "fill",
             "itemSpacing": "24px",
             "borderRadius": "24px"
           },
