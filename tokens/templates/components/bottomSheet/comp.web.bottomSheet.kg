@@ -36,7 +36,9 @@ comp
         "layoutMode": "vertical",
         "horizontalResizing": "fill",
         "itemSpacing": "24px",
-        "borderRadius": "<< ({ desktop: '32px', mobile: '24px' })[aspectRatio] >>"
+        "borderRadius": "<< ({ desktop: '32px', mobile: '24px' })[aspectRatio] >>",
+        "borderRadiusBottomLeft": "0",
+        "borderRadiusBottomRight": "0"
       },
       "type": "composition",
       "description": "({extends: 'comp.card.base.md.uncontrasted.default'})"
