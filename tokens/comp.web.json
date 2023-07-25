@@ -22354,9 +22354,10 @@
             "borderRadiusBottomRight": "{sem.card.base.md.borderRadiusBottomRight}",
             "borderRadiusBottomLeft": "{sem.card.base.md.borderRadiusBottomLeft}",
             "border": "{sem.border.transparent}",
-            "width": "536px",
+            "width": "[object Object]",
             "layoutMode": "vertical",
-            "itemSpacing": "24px"
+            "itemSpacing": "24px",
+            "borderRadius": "32px"
           },
           "type": "composition",
           "description": "({extends: 'comp.card.base.md.uncontrasted.default'})"
@@ -22399,9 +22400,10 @@
             "borderRadiusBottomRight": "{sem.card.base.md.borderRadiusBottomRight}",
             "borderRadiusBottomLeft": "{sem.card.base.md.borderRadiusBottomLeft}",
             "border": "{sem.border.transparent}",
-            "width": "536px",
+            "width": "[object Object]",
             "layoutMode": "vertical",
-            "itemSpacing": "24px"
+            "itemSpacing": "24px",
+            "borderRadius": "24px"
           },
           "type": "composition",
           "description": "({extends: 'comp.card.base.md.uncontrasted.default'})"

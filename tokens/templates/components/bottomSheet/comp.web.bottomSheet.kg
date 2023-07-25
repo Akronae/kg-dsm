@@ -32,9 +32,10 @@ comp
     },
     "container": {
       "value": {
-        "width": "536px",
+        "width": "<< ({ desktop: '536px', mobile: undefined }) >>",
         "layoutMode": "vertical",
-        "itemSpacing": "24px"
+        "itemSpacing": "24px",
+        "borderRadius": "<< ({ desktop: '32px', mobile: '24px' })[aspectRatio] >>"
       },
       "type": "composition",
       "description": "({extends: 'comp.card.base.md.uncontrasted.default'})"
