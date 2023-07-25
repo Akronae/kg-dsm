@@ -17,8 +17,11 @@ comp
     },
     "closeBar": {
       "card": {
-          "value": {
-          "fill": "#E1DDD8"
+        "value": {
+          "fill": "#E1DDD8",
+          "borderRadius": "<< ({ desktop: '32px', mobile: '24px' })[aspectRatio] >>",
+          "borderRadiusBottomLeft": "0",
+          "borderRadiusBottomRight": "0"
         },
         "type": "composition"
       },

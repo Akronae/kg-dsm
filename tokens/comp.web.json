@@ -22331,7 +22331,10 @@
         "closeBar": {
           "card": {
             "value": {
-              "fill": "#E1DDD8"
+              "fill": "#E1DDD8",
+              "borderRadius": "32px",
+              "borderRadiusBottomLeft": "0",
+              "borderRadiusBottomRight": "0"
             },
             "type": "composition"
           },
@@ -22378,7 +22381,10 @@
         "closeBar": {
           "card": {
             "value": {
-              "fill": "#E1DDD8"
+              "fill": "#E1DDD8",
+              "borderRadius": "24px",
+              "borderRadiusBottomLeft": "0",
+              "borderRadiusBottomRight": "0"
             },
             "type": "composition"
           },
