@@ -48,7 +48,7 @@ comp
     "container": {
       "value": {
         "maxWidth": "<< ({ desktop: '536px', mobile: undefined })[aspectRatio] >>",
-        "height": "<< ({ desktop: undefined, mobile: '750px' })[aspectRatio] >>",
+        "height": "<< ({ desktop: undefined, mobile: '80%' })[aspectRatio] >>",
         "layoutMode": "vertical",
         "horizontalResizing": "fill",
         "itemSpacing": "24px",

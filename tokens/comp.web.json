@@ -22422,7 +22422,7 @@
         },
         "container": {
           "value": {
-            "height": "750px",
+            "height": "80%",
             "layoutMode": "vertical",
             "horizontalResizing": "fill",
             "itemSpacing": "24px",
