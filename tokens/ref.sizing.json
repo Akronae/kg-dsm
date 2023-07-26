@@ -105,6 +105,14 @@
       "900": {
         "value": "536px",
         "type": "sizing"
+      },
+      "950": {
+        "value": "640px",
+        "type": "sizing"
+      },
+      "1000": {
+        "value": "800px",
+        "type": "sizing"
       }
     }
   }
