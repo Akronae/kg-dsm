@@ -1,0 +1,22 @@
+// @replacepath: tokens/comp.web.json
+
+// TODO: refs
+comp
+.dialog
+.closeBar
+.card
+[state: 'default' | 'hover' | 'pressed']
+[
+  {
+    "value": {
+      "fill": "<< ({ default: '#E1DDD8', hover: '#EBE8E4', pressed: '#D1CDC7' })[state] >>",
+      "borderRadius": "32px",
+      "borderRadiusBottomLeft": "0",
+      "borderRadiusBottomRight": "0",
+      "height": "36px",
+      "layoutMode": "horizontal",
+      "layoutAlignItems": "center"
+    },
+    "type": "composition"
+  }
+]

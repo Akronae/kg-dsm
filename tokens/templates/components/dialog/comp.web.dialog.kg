@@ -2,14 +2,21 @@
 
 // TODO: refs
 comp
-.bottomSheet
+.dialog
 [
   {
+    "root": {
+      "value": {
+        "layoutMode": "vertical",
+        "layoutAlignItems": "center",
+        "horizontalResizing": "fill",
+        "verticalResizing": "fill"
+      },
+      "type": "composition"
+    },
     "overlay": {
       "value": {
         "fill": "#0A0A0A7A",
-        "layoutMode": "vertical",
-        "layoutAlignItems": "center",
         "horizontalResizing": "fill",
         "verticalResizing": "fill"
       },
@@ -19,7 +26,7 @@ comp
       "card": {
         "value": {
           "fill": "#E1DDD8",
-          "borderRadius": "24px",
+          "borderRadius": "32px",
           "borderRadiusBottomLeft": "0",
           "borderRadiusBottomRight": "0",
           "height": "36px",
@@ -34,30 +41,19 @@ comp
           "fill": "#6F685D"
         },
         "type": "composition"
-      },
-      "notch": {
-        "value": {
-          "fill": "#6F685D",
-          "width": "40px",
-          "height": "4px",
-          "borderRadius": "999px"
-        },
-        "type": "composition"
       }
     },
     "container": {
       "value": {
-        "height": "85%",
-        "borderRadius": "24px",
-        "borderRadiusBottomLeft": "0",
-        "borderRadiusBottomRight": "0",
+        "maxWidth": "536px",
+        "borderRadius": "32px",
         "fill": "#F7F3ED"
       },
       "type": "composition"
     },
     "content": {
       "value": {
-        "horizontalPadding": "16px",
+        "horizontalPadding": "24px",
         "verticalPadding": "24px",
         "layoutMode": "vertical",
         "horizontalResizing": "fill",

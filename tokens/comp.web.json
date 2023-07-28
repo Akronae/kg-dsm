@@ -15607,1327 +15607,12 @@
         }
       },
       "inputSelect": {
-        "sm": {
-          "uncontrasted": {
-            "default": {
-              "wrapper": {
-                "value": {
-                  "horizontalPadding": "none",
-                  "verticalPadding": "none",
-                  "fill": "{sem.color.surface.light}",
-                  "boxShadow": "none",
-                  "borderRadiusTopLeft": "{sem.card.base.xs.borderRadiusTopLeft}",
-                  "borderRadiusTopRight": "{sem.card.base.xs.borderRadiusTopRight}",
-                  "borderRadiusBottomRight": "{sem.card.base.xs.borderRadiusBottomRight}",
-                  "borderRadiusBottomLeft": "{sem.card.base.xs.borderRadiusBottomLeft}",
-                  "border": "{sem.border.transparent}",
-                  "itemSpacing": "none"
-                },
-                "type": "composition",
-                "description": "({extends: 'comp.input.base.sm.uncontrasted.default.fieldWrapper'})"
-              },
-              "textInput": {
-                "fieldWrapper": {
-                  "value": {
-                    "horizontalPadding": "{sem.card.base.xs.padding}",
-                    "verticalPadding": "{sem.card.base.xs.padding}",
-                    "fill": "{sem.color.surface.light}",
-                    "boxShadow": "none",
-                    "borderRadiusTopLeft": "none",
-                    "borderRadiusTopRight": "{sem.card.base.xs.borderRadiusTopRight}",
-                    "borderRadiusBottomRight": "{sem.card.base.xs.borderRadiusBottomRight}",
-                    "borderRadiusBottomLeft": "none",
-                    "border": "none",
-                    "itemSpacing": "{sem.input.base.sm.fieldWrapper.spacer}"
-                  },
-                  "type": "composition",
-                  "description": "({extends: 'comp.input.base.sm.uncontrasted.default.fieldWrapper'})"
-                }
-              }
-            },
-            "hover": {
-              "wrapper": {
-                "value": {
-                  "horizontalPadding": "none",
-                  "verticalPadding": "none",
-                  "fill": "{sem.color.surface.light}",
-                  "boxShadow": "{sem.card.base.xs.dropShadow.hover}",
-                  "borderRadiusTopLeft": "{sem.card.base.xs.borderRadiusTopLeft}",
-                  "borderRadiusTopRight": "{sem.card.base.xs.borderRadiusTopRight}",
-                  "borderRadiusBottomRight": "{sem.card.base.xs.borderRadiusBottomRight}",
-                  "borderRadiusBottomLeft": "{sem.card.base.xs.borderRadiusBottomLeft}",
-                  "border": "{sem.border.transparent}",
-                  "itemSpacing": "none"
-                },
-                "type": "composition",
-                "description": "({extends: 'comp.input.base.sm.uncontrasted.hover.fieldWrapper'})"
-              },
-              "textInput": {
-                "fieldWrapper": {
-                  "value": {
-                    "horizontalPadding": "{sem.card.base.xs.padding}",
-                    "verticalPadding": "{sem.card.base.xs.padding}",
-                    "fill": "{sem.color.surface.light}",
-                    "boxShadow": "none",
-                    "borderRadiusTopLeft": "none",
-                    "borderRadiusTopRight": "{sem.card.base.xs.borderRadiusTopRight}",
-                    "borderRadiusBottomRight": "{sem.card.base.xs.borderRadiusBottomRight}",
-                    "borderRadiusBottomLeft": "none",
-                    "border": "none",
-                    "itemSpacing": "{sem.input.base.sm.fieldWrapper.spacer}"
-                  },
-                  "type": "composition",
-                  "description": "({extends: 'comp.input.base.sm.uncontrasted.hover.fieldWrapper'})"
-                }
-              }
-            },
-            "pressed": {
-              "wrapper": {
-                "value": {
-                  "horizontalPadding": "none",
-                  "verticalPadding": "none",
-                  "fill": "{sem.color.surface.light}",
-                  "boxShadow": "{sem.card.base.xs.dropShadow.pressed}",
-                  "borderRadiusTopLeft": "{sem.card.base.xs.borderRadiusTopLeft}",
-                  "borderRadiusTopRight": "{sem.card.base.xs.borderRadiusTopRight}",
-                  "borderRadiusBottomRight": "{sem.card.base.xs.borderRadiusBottomRight}",
-                  "borderRadiusBottomLeft": "{sem.card.base.xs.borderRadiusBottomLeft}",
-                  "border": "{sem.border.transparent}",
-                  "itemSpacing": "none"
-                },
-                "type": "composition",
-                "description": "({extends: 'comp.input.base.sm.uncontrasted.pressed.fieldWrapper'})"
-              },
-              "textInput": {
-                "fieldWrapper": {
-                  "value": {
-                    "horizontalPadding": "{sem.card.base.xs.padding}",
-                    "verticalPadding": "{sem.card.base.xs.padding}",
-                    "fill": "{sem.color.surface.light}",
-                    "boxShadow": "none",
-                    "borderRadiusTopLeft": "none",
-                    "borderRadiusTopRight": "{sem.card.base.xs.borderRadiusTopRight}",
-                    "borderRadiusBottomRight": "{sem.card.base.xs.borderRadiusBottomRight}",
-                    "borderRadiusBottomLeft": "none",
-                    "border": "none",
-                    "itemSpacing": "{sem.input.base.sm.fieldWrapper.spacer}"
-                  },
-                  "type": "composition",
-                  "description": "({extends: 'comp.input.base.sm.uncontrasted.pressed.fieldWrapper'})"
-                }
-              }
-            },
-            "active": {
-              "wrapper": {
-                "value": {
-                  "horizontalPadding": "none",
-                  "verticalPadding": "none",
-                  "fill": "{sem.color.surface.light}",
-                  "boxShadow": "none",
-                  "borderRadiusTopLeft": "{sem.card.base.xs.borderRadiusTopLeft}",
-                  "borderRadiusTopRight": "{sem.card.base.xs.borderRadiusTopRight}",
-                  "borderRadiusBottomRight": "{sem.card.base.xs.borderRadiusBottomRight}",
-                  "borderRadiusBottomLeft": "{sem.card.base.xs.borderRadiusBottomLeft}",
-                  "border": "{sem.border.active}",
-                  "itemSpacing": "none"
-                },
-                "type": "composition",
-                "description": "({extends: 'comp.input.base.sm.uncontrasted.active.fieldWrapper'})"
-              },
-              "textInput": {
-                "fieldWrapper": {
-                  "value": {
-                    "horizontalPadding": "{sem.card.base.xs.padding}",
-                    "verticalPadding": "{sem.card.base.xs.padding}",
-                    "fill": "{sem.color.surface.light}",
-                    "boxShadow": "none",
-                    "borderRadiusTopLeft": "none",
-                    "borderRadiusTopRight": "{sem.card.base.xs.borderRadiusTopRight}",
-                    "borderRadiusBottomRight": "{sem.card.base.xs.borderRadiusBottomRight}",
-                    "borderRadiusBottomLeft": "none",
-                    "border": "none",
-                    "itemSpacing": "{sem.input.base.sm.fieldWrapper.spacer}"
-                  },
-                  "type": "composition",
-                  "description": "({extends: 'comp.input.base.sm.uncontrasted.active.fieldWrapper'})"
-                }
-              }
-            },
-            "danger": {
-              "wrapper": {
-                "value": {
-                  "horizontalPadding": "none",
-                  "verticalPadding": "none",
-                  "fill": "{sem.color.surface.light}",
-                  "boxShadow": "none",
-                  "borderRadiusTopLeft": "{sem.card.base.xs.borderRadiusTopLeft}",
-                  "borderRadiusTopRight": "{sem.card.base.xs.borderRadiusTopRight}",
-                  "borderRadiusBottomRight": "{sem.card.base.xs.borderRadiusBottomRight}",
-                  "borderRadiusBottomLeft": "{sem.card.base.xs.borderRadiusBottomLeft}",
-                  "border": "{sem.border.danger}",
-                  "itemSpacing": "none"
-                },
-                "type": "composition",
-                "description": "({extends: 'comp.input.base.sm.uncontrasted.danger.fieldWrapper'})"
-              },
-              "textInput": {
-                "fieldWrapper": {
-                  "value": {
-                    "horizontalPadding": "{sem.card.base.xs.padding}",
-                    "verticalPadding": "{sem.card.base.xs.padding}",
-                    "fill": "{sem.color.surface.light}",
-                    "boxShadow": "none",
-                    "borderRadiusTopLeft": "none",
-                    "borderRadiusTopRight": "{sem.card.base.xs.borderRadiusTopRight}",
-                    "borderRadiusBottomRight": "{sem.card.base.xs.borderRadiusBottomRight}",
-                    "borderRadiusBottomLeft": "none",
-                    "border": "none",
-                    "itemSpacing": "{sem.input.base.sm.fieldWrapper.spacer}"
-                  },
-                  "type": "composition",
-                  "description": "({extends: 'comp.input.base.sm.uncontrasted.danger.fieldWrapper'})"
-                }
-              }
-            },
-            "disabled": {
-              "wrapper": {
-                "value": {
-                  "horizontalPadding": "none",
-                  "verticalPadding": "none",
-                  "fill": "{sem.color.surface.disabled}",
-                  "boxShadow": "none",
-                  "borderRadiusTopLeft": "{sem.card.base.xs.borderRadiusTopLeft}",
-                  "borderRadiusTopRight": "{sem.card.base.xs.borderRadiusTopRight}",
-                  "borderRadiusBottomRight": "{sem.card.base.xs.borderRadiusBottomRight}",
-                  "borderRadiusBottomLeft": "{sem.card.base.xs.borderRadiusBottomLeft}",
-                  "border": "{sem.border.transparent}",
-                  "itemSpacing": "none"
-                },
-                "type": "composition",
-                "description": "({extends: 'comp.input.base.sm.uncontrasted.disabled.fieldWrapper'})"
-              },
-              "textInput": {
-                "fieldWrapper": {
-                  "value": {
-                    "horizontalPadding": "{sem.card.base.xs.padding}",
-                    "verticalPadding": "{sem.card.base.xs.padding}",
-                    "fill": "{sem.color.surface.disabled}",
-                    "boxShadow": "none",
-                    "borderRadiusTopLeft": "none",
-                    "borderRadiusTopRight": "{sem.card.base.xs.borderRadiusTopRight}",
-                    "borderRadiusBottomRight": "{sem.card.base.xs.borderRadiusBottomRight}",
-                    "borderRadiusBottomLeft": "none",
-                    "border": "none",
-                    "itemSpacing": "{sem.input.base.sm.fieldWrapper.spacer}"
-                  },
-                  "type": "composition",
-                  "description": "({extends: 'comp.input.base.sm.uncontrasted.disabled.fieldWrapper'})"
-                }
-              }
-            }
+        "wrapper": {
+          "value": {
+            "layoutMode": "horizontal",
+            "itemSpacing": "8px"
           },
-          "contrasted": {
-            "default": {
-              "wrapper": {
-                "value": {
-                  "horizontalPadding": "none",
-                  "verticalPadding": "none",
-                  "fill": "{sem.color.surface.sub}",
-                  "boxShadow": "none",
-                  "borderRadiusTopLeft": "{sem.card.base.xs.borderRadiusTopLeft}",
-                  "borderRadiusTopRight": "{sem.card.base.xs.borderRadiusTopRight}",
-                  "borderRadiusBottomRight": "{sem.card.base.xs.borderRadiusBottomRight}",
-                  "borderRadiusBottomLeft": "{sem.card.base.xs.borderRadiusBottomLeft}",
-                  "border": "{sem.border.interactive.default}",
-                  "itemSpacing": "none"
-                },
-                "type": "composition",
-                "description": "({extends: 'comp.input.base.sm.contrasted.default.fieldWrapper'})"
-              },
-              "textInput": {
-                "fieldWrapper": {
-                  "value": {
-                    "horizontalPadding": "{sem.card.base.xs.padding}",
-                    "verticalPadding": "{sem.card.base.xs.padding}",
-                    "fill": "{sem.color.surface.sub}",
-                    "boxShadow": "none",
-                    "borderRadiusTopLeft": "none",
-                    "borderRadiusTopRight": "{sem.card.base.xs.borderRadiusTopRight}",
-                    "borderRadiusBottomRight": "{sem.card.base.xs.borderRadiusBottomRight}",
-                    "borderRadiusBottomLeft": "none",
-                    "border": "none",
-                    "itemSpacing": "{sem.input.base.sm.fieldWrapper.spacer}"
-                  },
-                  "type": "composition",
-                  "description": "({extends: 'comp.input.base.sm.contrasted.default.fieldWrapper'})"
-                }
-              }
-            },
-            "hover": {
-              "wrapper": {
-                "value": {
-                  "horizontalPadding": "none",
-                  "verticalPadding": "none",
-                  "fill": "{sem.color.surface.sub}",
-                  "boxShadow": "{sem.card.base.xs.dropShadow.hover}",
-                  "borderRadiusTopLeft": "{sem.card.base.xs.borderRadiusTopLeft}",
-                  "borderRadiusTopRight": "{sem.card.base.xs.borderRadiusTopRight}",
-                  "borderRadiusBottomRight": "{sem.card.base.xs.borderRadiusBottomRight}",
-                  "borderRadiusBottomLeft": "{sem.card.base.xs.borderRadiusBottomLeft}",
-                  "border": "{sem.border.interactive.hover}",
-                  "itemSpacing": "none"
-                },
-                "type": "composition",
-                "description": "({extends: 'comp.input.base.sm.contrasted.hover.fieldWrapper'})"
-              },
-              "textInput": {
-                "fieldWrapper": {
-                  "value": {
-                    "horizontalPadding": "{sem.card.base.xs.padding}",
-                    "verticalPadding": "{sem.card.base.xs.padding}",
-                    "fill": "{sem.color.surface.sub}",
-                    "boxShadow": "none",
-                    "borderRadiusTopLeft": "none",
-                    "borderRadiusTopRight": "{sem.card.base.xs.borderRadiusTopRight}",
-                    "borderRadiusBottomRight": "{sem.card.base.xs.borderRadiusBottomRight}",
-                    "borderRadiusBottomLeft": "none",
-                    "border": "none",
-                    "itemSpacing": "{sem.input.base.sm.fieldWrapper.spacer}"
-                  },
-                  "type": "composition",
-                  "description": "({extends: 'comp.input.base.sm.contrasted.hover.fieldWrapper'})"
-                }
-              }
-            },
-            "pressed": {
-              "wrapper": {
-                "value": {
-                  "horizontalPadding": "none",
-                  "verticalPadding": "none",
-                  "fill": "{sem.color.surface.sub}",
-                  "boxShadow": "{sem.card.base.xs.dropShadow.pressed}",
-                  "borderRadiusTopLeft": "{sem.card.base.xs.borderRadiusTopLeft}",
-                  "borderRadiusTopRight": "{sem.card.base.xs.borderRadiusTopRight}",
-                  "borderRadiusBottomRight": "{sem.card.base.xs.borderRadiusBottomRight}",
-                  "borderRadiusBottomLeft": "{sem.card.base.xs.borderRadiusBottomLeft}",
-                  "border": "{sem.border.interactive.pressed}",
-                  "itemSpacing": "none"
-                },
-                "type": "composition",
-                "description": "({extends: 'comp.input.base.sm.contrasted.pressed.fieldWrapper'})"
-              },
-              "textInput": {
-                "fieldWrapper": {
-                  "value": {
-                    "horizontalPadding": "{sem.card.base.xs.padding}",
-                    "verticalPadding": "{sem.card.base.xs.padding}",
-                    "fill": "{sem.color.surface.sub}",
-                    "boxShadow": "none",
-                    "borderRadiusTopLeft": "none",
-                    "borderRadiusTopRight": "{sem.card.base.xs.borderRadiusTopRight}",
-                    "borderRadiusBottomRight": "{sem.card.base.xs.borderRadiusBottomRight}",
-                    "borderRadiusBottomLeft": "none",
-                    "border": "none",
-                    "itemSpacing": "{sem.input.base.sm.fieldWrapper.spacer}"
-                  },
-                  "type": "composition",
-                  "description": "({extends: 'comp.input.base.sm.contrasted.pressed.fieldWrapper'})"
-                }
-              }
-            },
-            "active": {
-              "wrapper": {
-                "value": {
-                  "horizontalPadding": "none",
-                  "verticalPadding": "none",
-                  "fill": "{sem.color.surface.sub}",
-                  "boxShadow": "none",
-                  "borderRadiusTopLeft": "{sem.card.base.xs.borderRadiusTopLeft}",
-                  "borderRadiusTopRight": "{sem.card.base.xs.borderRadiusTopRight}",
-                  "borderRadiusBottomRight": "{sem.card.base.xs.borderRadiusBottomRight}",
-                  "borderRadiusBottomLeft": "{sem.card.base.xs.borderRadiusBottomLeft}",
-                  "border": "{sem.border.interactive.active}",
-                  "itemSpacing": "none"
-                },
-                "type": "composition",
-                "description": "({extends: 'comp.input.base.sm.contrasted.active.fieldWrapper'})"
-              },
-              "textInput": {
-                "fieldWrapper": {
-                  "value": {
-                    "horizontalPadding": "{sem.card.base.xs.padding}",
-                    "verticalPadding": "{sem.card.base.xs.padding}",
-                    "fill": "{sem.color.surface.sub}",
-                    "boxShadow": "none",
-                    "borderRadiusTopLeft": "none",
-                    "borderRadiusTopRight": "{sem.card.base.xs.borderRadiusTopRight}",
-                    "borderRadiusBottomRight": "{sem.card.base.xs.borderRadiusBottomRight}",
-                    "borderRadiusBottomLeft": "none",
-                    "border": "none",
-                    "itemSpacing": "{sem.input.base.sm.fieldWrapper.spacer}"
-                  },
-                  "type": "composition",
-                  "description": "({extends: 'comp.input.base.sm.contrasted.active.fieldWrapper'})"
-                }
-              }
-            },
-            "danger": {
-              "wrapper": {
-                "value": {
-                  "horizontalPadding": "none",
-                  "verticalPadding": "none",
-                  "fill": "{sem.color.surface.sub}",
-                  "boxShadow": "none",
-                  "borderRadiusTopLeft": "{sem.card.base.xs.borderRadiusTopLeft}",
-                  "borderRadiusTopRight": "{sem.card.base.xs.borderRadiusTopRight}",
-                  "borderRadiusBottomRight": "{sem.card.base.xs.borderRadiusBottomRight}",
-                  "borderRadiusBottomLeft": "{sem.card.base.xs.borderRadiusBottomLeft}",
-                  "border": "{sem.border.danger}",
-                  "itemSpacing": "none"
-                },
-                "type": "composition",
-                "description": "({extends: 'comp.input.base.sm.contrasted.danger.fieldWrapper'})"
-              },
-              "textInput": {
-                "fieldWrapper": {
-                  "value": {
-                    "horizontalPadding": "{sem.card.base.xs.padding}",
-                    "verticalPadding": "{sem.card.base.xs.padding}",
-                    "fill": "{sem.color.surface.sub}",
-                    "boxShadow": "none",
-                    "borderRadiusTopLeft": "none",
-                    "borderRadiusTopRight": "{sem.card.base.xs.borderRadiusTopRight}",
-                    "borderRadiusBottomRight": "{sem.card.base.xs.borderRadiusBottomRight}",
-                    "borderRadiusBottomLeft": "none",
-                    "border": "none",
-                    "itemSpacing": "{sem.input.base.sm.fieldWrapper.spacer}"
-                  },
-                  "type": "composition",
-                  "description": "({extends: 'comp.input.base.sm.contrasted.danger.fieldWrapper'})"
-                }
-              }
-            },
-            "disabled": {
-              "wrapper": {
-                "value": {
-                  "horizontalPadding": "none",
-                  "verticalPadding": "none",
-                  "fill": "{sem.color.surface.disabled}",
-                  "boxShadow": "none",
-                  "borderRadiusTopLeft": "{sem.card.base.xs.borderRadiusTopLeft}",
-                  "borderRadiusTopRight": "{sem.card.base.xs.borderRadiusTopRight}",
-                  "borderRadiusBottomRight": "{sem.card.base.xs.borderRadiusBottomRight}",
-                  "borderRadiusBottomLeft": "{sem.card.base.xs.borderRadiusBottomLeft}",
-                  "border": "{sem.border.interactive.disabled}",
-                  "itemSpacing": "none"
-                },
-                "type": "composition",
-                "description": "({extends: 'comp.input.base.sm.contrasted.disabled.fieldWrapper'})"
-              },
-              "textInput": {
-                "fieldWrapper": {
-                  "value": {
-                    "horizontalPadding": "{sem.card.base.xs.padding}",
-                    "verticalPadding": "{sem.card.base.xs.padding}",
-                    "fill": "{sem.color.surface.disabled}",
-                    "boxShadow": "none",
-                    "borderRadiusTopLeft": "none",
-                    "borderRadiusTopRight": "{sem.card.base.xs.borderRadiusTopRight}",
-                    "borderRadiusBottomRight": "{sem.card.base.xs.borderRadiusBottomRight}",
-                    "borderRadiusBottomLeft": "none",
-                    "border": "none",
-                    "itemSpacing": "{sem.input.base.sm.fieldWrapper.spacer}"
-                  },
-                  "type": "composition",
-                  "description": "({extends: 'comp.input.base.sm.contrasted.disabled.fieldWrapper'})"
-                }
-              }
-            }
-          }
-        },
-        "md": {
-          "uncontrasted": {
-            "default": {
-              "wrapper": {
-                "value": {
-                  "horizontalPadding": "none",
-                  "verticalPadding": "none",
-                  "fill": "{sem.color.surface.light}",
-                  "boxShadow": "none",
-                  "borderRadiusTopLeft": "{sem.card.base.sm.borderRadiusTopLeft}",
-                  "borderRadiusTopRight": "{sem.card.base.sm.borderRadiusTopRight}",
-                  "borderRadiusBottomRight": "{sem.card.base.sm.borderRadiusBottomRight}",
-                  "borderRadiusBottomLeft": "{sem.card.base.sm.borderRadiusBottomLeft}",
-                  "border": "{sem.border.transparent}",
-                  "itemSpacing": "none"
-                },
-                "type": "composition",
-                "description": "({extends: 'comp.input.base.md.uncontrasted.default.fieldWrapper'})"
-              },
-              "textInput": {
-                "fieldWrapper": {
-                  "value": {
-                    "horizontalPadding": "{sem.card.base.sm.padding}",
-                    "verticalPadding": "{sem.card.base.sm.padding}",
-                    "fill": "{sem.color.surface.light}",
-                    "boxShadow": "none",
-                    "borderRadiusTopLeft": "none",
-                    "borderRadiusTopRight": "{sem.card.base.sm.borderRadiusTopRight}",
-                    "borderRadiusBottomRight": "{sem.card.base.sm.borderRadiusBottomRight}",
-                    "borderRadiusBottomLeft": "none",
-                    "border": "none",
-                    "itemSpacing": "{sem.input.base.md.fieldWrapper.spacer}"
-                  },
-                  "type": "composition",
-                  "description": "({extends: 'comp.input.base.md.uncontrasted.default.fieldWrapper'})"
-                }
-              }
-            },
-            "hover": {
-              "wrapper": {
-                "value": {
-                  "horizontalPadding": "none",
-                  "verticalPadding": "none",
-                  "fill": "{sem.color.surface.light}",
-                  "boxShadow": "{sem.card.base.sm.dropShadow.hover}",
-                  "borderRadiusTopLeft": "{sem.card.base.sm.borderRadiusTopLeft}",
-                  "borderRadiusTopRight": "{sem.card.base.sm.borderRadiusTopRight}",
-                  "borderRadiusBottomRight": "{sem.card.base.sm.borderRadiusBottomRight}",
-                  "borderRadiusBottomLeft": "{sem.card.base.sm.borderRadiusBottomLeft}",
-                  "border": "{sem.border.transparent}",
-                  "itemSpacing": "none"
-                },
-                "type": "composition",
-                "description": "({extends: 'comp.input.base.md.uncontrasted.hover.fieldWrapper'})"
-              },
-              "textInput": {
-                "fieldWrapper": {
-                  "value": {
-                    "horizontalPadding": "{sem.card.base.sm.padding}",
-                    "verticalPadding": "{sem.card.base.sm.padding}",
-                    "fill": "{sem.color.surface.light}",
-                    "boxShadow": "none",
-                    "borderRadiusTopLeft": "none",
-                    "borderRadiusTopRight": "{sem.card.base.sm.borderRadiusTopRight}",
-                    "borderRadiusBottomRight": "{sem.card.base.sm.borderRadiusBottomRight}",
-                    "borderRadiusBottomLeft": "none",
-                    "border": "none",
-                    "itemSpacing": "{sem.input.base.md.fieldWrapper.spacer}"
-                  },
-                  "type": "composition",
-                  "description": "({extends: 'comp.input.base.md.uncontrasted.hover.fieldWrapper'})"
-                }
-              }
-            },
-            "pressed": {
-              "wrapper": {
-                "value": {
-                  "horizontalPadding": "none",
-                  "verticalPadding": "none",
-                  "fill": "{sem.color.surface.light}",
-                  "boxShadow": "{sem.card.base.sm.dropShadow.pressed}",
-                  "borderRadiusTopLeft": "{sem.card.base.sm.borderRadiusTopLeft}",
-                  "borderRadiusTopRight": "{sem.card.base.sm.borderRadiusTopRight}",
-                  "borderRadiusBottomRight": "{sem.card.base.sm.borderRadiusBottomRight}",
-                  "borderRadiusBottomLeft": "{sem.card.base.sm.borderRadiusBottomLeft}",
-                  "border": "{sem.border.transparent}",
-                  "itemSpacing": "none"
-                },
-                "type": "composition",
-                "description": "({extends: 'comp.input.base.md.uncontrasted.pressed.fieldWrapper'})"
-              },
-              "textInput": {
-                "fieldWrapper": {
-                  "value": {
-                    "horizontalPadding": "{sem.card.base.sm.padding}",
-                    "verticalPadding": "{sem.card.base.sm.padding}",
-                    "fill": "{sem.color.surface.light}",
-                    "boxShadow": "none",
-                    "borderRadiusTopLeft": "none",
-                    "borderRadiusTopRight": "{sem.card.base.sm.borderRadiusTopRight}",
-                    "borderRadiusBottomRight": "{sem.card.base.sm.borderRadiusBottomRight}",
-                    "borderRadiusBottomLeft": "none",
-                    "border": "none",
-                    "itemSpacing": "{sem.input.base.md.fieldWrapper.spacer}"
-                  },
-                  "type": "composition",
-                  "description": "({extends: 'comp.input.base.md.uncontrasted.pressed.fieldWrapper'})"
-                }
-              }
-            },
-            "active": {
-              "wrapper": {
-                "value": {
-                  "horizontalPadding": "none",
-                  "verticalPadding": "none",
-                  "fill": "{sem.color.surface.light}",
-                  "boxShadow": "none",
-                  "borderRadiusTopLeft": "{sem.card.base.sm.borderRadiusTopLeft}",
-                  "borderRadiusTopRight": "{sem.card.base.sm.borderRadiusTopRight}",
-                  "borderRadiusBottomRight": "{sem.card.base.sm.borderRadiusBottomRight}",
-                  "borderRadiusBottomLeft": "{sem.card.base.sm.borderRadiusBottomLeft}",
-                  "border": "{sem.border.active}",
-                  "itemSpacing": "none"
-                },
-                "type": "composition",
-                "description": "({extends: 'comp.input.base.md.uncontrasted.active.fieldWrapper'})"
-              },
-              "textInput": {
-                "fieldWrapper": {
-                  "value": {
-                    "horizontalPadding": "{sem.card.base.sm.padding}",
-                    "verticalPadding": "{sem.card.base.sm.padding}",
-                    "fill": "{sem.color.surface.light}",
-                    "boxShadow": "none",
-                    "borderRadiusTopLeft": "none",
-                    "borderRadiusTopRight": "{sem.card.base.sm.borderRadiusTopRight}",
-                    "borderRadiusBottomRight": "{sem.card.base.sm.borderRadiusBottomRight}",
-                    "borderRadiusBottomLeft": "none",
-                    "border": "none",
-                    "itemSpacing": "{sem.input.base.md.fieldWrapper.spacer}"
-                  },
-                  "type": "composition",
-                  "description": "({extends: 'comp.input.base.md.uncontrasted.active.fieldWrapper'})"
-                }
-              }
-            },
-            "danger": {
-              "wrapper": {
-                "value": {
-                  "horizontalPadding": "none",
-                  "verticalPadding": "none",
-                  "fill": "{sem.color.surface.light}",
-                  "boxShadow": "none",
-                  "borderRadiusTopLeft": "{sem.card.base.sm.borderRadiusTopLeft}",
-                  "borderRadiusTopRight": "{sem.card.base.sm.borderRadiusTopRight}",
-                  "borderRadiusBottomRight": "{sem.card.base.sm.borderRadiusBottomRight}",
-                  "borderRadiusBottomLeft": "{sem.card.base.sm.borderRadiusBottomLeft}",
-                  "border": "{sem.border.danger}",
-                  "itemSpacing": "none"
-                },
-                "type": "composition",
-                "description": "({extends: 'comp.input.base.md.uncontrasted.danger.fieldWrapper'})"
-              },
-              "textInput": {
-                "fieldWrapper": {
-                  "value": {
-                    "horizontalPadding": "{sem.card.base.sm.padding}",
-                    "verticalPadding": "{sem.card.base.sm.padding}",
-                    "fill": "{sem.color.surface.light}",
-                    "boxShadow": "none",
-                    "borderRadiusTopLeft": "none",
-                    "borderRadiusTopRight": "{sem.card.base.sm.borderRadiusTopRight}",
-                    "borderRadiusBottomRight": "{sem.card.base.sm.borderRadiusBottomRight}",
-                    "borderRadiusBottomLeft": "none",
-                    "border": "none",
-                    "itemSpacing": "{sem.input.base.md.fieldWrapper.spacer}"
-                  },
-                  "type": "composition",
-                  "description": "({extends: 'comp.input.base.md.uncontrasted.danger.fieldWrapper'})"
-                }
-              }
-            },
-            "disabled": {
-              "wrapper": {
-                "value": {
-                  "horizontalPadding": "none",
-                  "verticalPadding": "none",
-                  "fill": "{sem.color.surface.disabled}",
-                  "boxShadow": "none",
-                  "borderRadiusTopLeft": "{sem.card.base.sm.borderRadiusTopLeft}",
-                  "borderRadiusTopRight": "{sem.card.base.sm.borderRadiusTopRight}",
-                  "borderRadiusBottomRight": "{sem.card.base.sm.borderRadiusBottomRight}",
-                  "borderRadiusBottomLeft": "{sem.card.base.sm.borderRadiusBottomLeft}",
-                  "border": "{sem.border.transparent}",
-                  "itemSpacing": "none"
-                },
-                "type": "composition",
-                "description": "({extends: 'comp.input.base.md.uncontrasted.disabled.fieldWrapper'})"
-              },
-              "textInput": {
-                "fieldWrapper": {
-                  "value": {
-                    "horizontalPadding": "{sem.card.base.sm.padding}",
-                    "verticalPadding": "{sem.card.base.sm.padding}",
-                    "fill": "{sem.color.surface.disabled}",
-                    "boxShadow": "none",
-                    "borderRadiusTopLeft": "none",
-                    "borderRadiusTopRight": "{sem.card.base.sm.borderRadiusTopRight}",
-                    "borderRadiusBottomRight": "{sem.card.base.sm.borderRadiusBottomRight}",
-                    "borderRadiusBottomLeft": "none",
-                    "border": "none",
-                    "itemSpacing": "{sem.input.base.md.fieldWrapper.spacer}"
-                  },
-                  "type": "composition",
-                  "description": "({extends: 'comp.input.base.md.uncontrasted.disabled.fieldWrapper'})"
-                }
-              }
-            }
-          },
-          "contrasted": {
-            "default": {
-              "wrapper": {
-                "value": {
-                  "horizontalPadding": "none",
-                  "verticalPadding": "none",
-                  "fill": "{sem.color.surface.sub}",
-                  "boxShadow": "none",
-                  "borderRadiusTopLeft": "{sem.card.base.sm.borderRadiusTopLeft}",
-                  "borderRadiusTopRight": "{sem.card.base.sm.borderRadiusTopRight}",
-                  "borderRadiusBottomRight": "{sem.card.base.sm.borderRadiusBottomRight}",
-                  "borderRadiusBottomLeft": "{sem.card.base.sm.borderRadiusBottomLeft}",
-                  "border": "{sem.border.interactive.default}",
-                  "itemSpacing": "none"
-                },
-                "type": "composition",
-                "description": "({extends: 'comp.input.base.md.contrasted.default.fieldWrapper'})"
-              },
-              "textInput": {
-                "fieldWrapper": {
-                  "value": {
-                    "horizontalPadding": "{sem.card.base.sm.padding}",
-                    "verticalPadding": "{sem.card.base.sm.padding}",
-                    "fill": "{sem.color.surface.sub}",
-                    "boxShadow": "none",
-                    "borderRadiusTopLeft": "none",
-                    "borderRadiusTopRight": "{sem.card.base.sm.borderRadiusTopRight}",
-                    "borderRadiusBottomRight": "{sem.card.base.sm.borderRadiusBottomRight}",
-                    "borderRadiusBottomLeft": "none",
-                    "border": "none",
-                    "itemSpacing": "{sem.input.base.md.fieldWrapper.spacer}"
-                  },
-                  "type": "composition",
-                  "description": "({extends: 'comp.input.base.md.contrasted.default.fieldWrapper'})"
-                }
-              }
-            },
-            "hover": {
-              "wrapper": {
-                "value": {
-                  "horizontalPadding": "none",
-                  "verticalPadding": "none",
-                  "fill": "{sem.color.surface.sub}",
-                  "boxShadow": "{sem.card.base.sm.dropShadow.hover}",
-                  "borderRadiusTopLeft": "{sem.card.base.sm.borderRadiusTopLeft}",
-                  "borderRadiusTopRight": "{sem.card.base.sm.borderRadiusTopRight}",
-                  "borderRadiusBottomRight": "{sem.card.base.sm.borderRadiusBottomRight}",
-                  "borderRadiusBottomLeft": "{sem.card.base.sm.borderRadiusBottomLeft}",
-                  "border": "{sem.border.interactive.hover}",
-                  "itemSpacing": "none"
-                },
-                "type": "composition",
-                "description": "({extends: 'comp.input.base.md.contrasted.hover.fieldWrapper'})"
-              },
-              "textInput": {
-                "fieldWrapper": {
-                  "value": {
-                    "horizontalPadding": "{sem.card.base.sm.padding}",
-                    "verticalPadding": "{sem.card.base.sm.padding}",
-                    "fill": "{sem.color.surface.sub}",
-                    "boxShadow": "none",
-                    "borderRadiusTopLeft": "none",
-                    "borderRadiusTopRight": "{sem.card.base.sm.borderRadiusTopRight}",
-                    "borderRadiusBottomRight": "{sem.card.base.sm.borderRadiusBottomRight}",
-                    "borderRadiusBottomLeft": "none",
-                    "border": "none",
-                    "itemSpacing": "{sem.input.base.md.fieldWrapper.spacer}"
-                  },
-                  "type": "composition",
-                  "description": "({extends: 'comp.input.base.md.contrasted.hover.fieldWrapper'})"
-                }
-              }
-            },
-            "pressed": {
-              "wrapper": {
-                "value": {
-                  "horizontalPadding": "none",
-                  "verticalPadding": "none",
-                  "fill": "{sem.color.surface.sub}",
-                  "boxShadow": "{sem.card.base.sm.dropShadow.pressed}",
-                  "borderRadiusTopLeft": "{sem.card.base.sm.borderRadiusTopLeft}",
-                  "borderRadiusTopRight": "{sem.card.base.sm.borderRadiusTopRight}",
-                  "borderRadiusBottomRight": "{sem.card.base.sm.borderRadiusBottomRight}",
-                  "borderRadiusBottomLeft": "{sem.card.base.sm.borderRadiusBottomLeft}",
-                  "border": "{sem.border.interactive.pressed}",
-                  "itemSpacing": "none"
-                },
-                "type": "composition",
-                "description": "({extends: 'comp.input.base.md.contrasted.pressed.fieldWrapper'})"
-              },
-              "textInput": {
-                "fieldWrapper": {
-                  "value": {
-                    "horizontalPadding": "{sem.card.base.sm.padding}",
-                    "verticalPadding": "{sem.card.base.sm.padding}",
-                    "fill": "{sem.color.surface.sub}",
-                    "boxShadow": "none",
-                    "borderRadiusTopLeft": "none",
-                    "borderRadiusTopRight": "{sem.card.base.sm.borderRadiusTopRight}",
-                    "borderRadiusBottomRight": "{sem.card.base.sm.borderRadiusBottomRight}",
-                    "borderRadiusBottomLeft": "none",
-                    "border": "none",
-                    "itemSpacing": "{sem.input.base.md.fieldWrapper.spacer}"
-                  },
-                  "type": "composition",
-                  "description": "({extends: 'comp.input.base.md.contrasted.pressed.fieldWrapper'})"
-                }
-              }
-            },
-            "active": {
-              "wrapper": {
-                "value": {
-                  "horizontalPadding": "none",
-                  "verticalPadding": "none",
-                  "fill": "{sem.color.surface.sub}",
-                  "boxShadow": "none",
-                  "borderRadiusTopLeft": "{sem.card.base.sm.borderRadiusTopLeft}",
-                  "borderRadiusTopRight": "{sem.card.base.sm.borderRadiusTopRight}",
-                  "borderRadiusBottomRight": "{sem.card.base.sm.borderRadiusBottomRight}",
-                  "borderRadiusBottomLeft": "{sem.card.base.sm.borderRadiusBottomLeft}",
-                  "border": "{sem.border.interactive.active}",
-                  "itemSpacing": "none"
-                },
-                "type": "composition",
-                "description": "({extends: 'comp.input.base.md.contrasted.active.fieldWrapper'})"
-              },
-              "textInput": {
-                "fieldWrapper": {
-                  "value": {
-                    "horizontalPadding": "{sem.card.base.sm.padding}",
-                    "verticalPadding": "{sem.card.base.sm.padding}",
-                    "fill": "{sem.color.surface.sub}",
-                    "boxShadow": "none",
-                    "borderRadiusTopLeft": "none",
-                    "borderRadiusTopRight": "{sem.card.base.sm.borderRadiusTopRight}",
-                    "borderRadiusBottomRight": "{sem.card.base.sm.borderRadiusBottomRight}",
-                    "borderRadiusBottomLeft": "none",
-                    "border": "none",
-                    "itemSpacing": "{sem.input.base.md.fieldWrapper.spacer}"
-                  },
-                  "type": "composition",
-                  "description": "({extends: 'comp.input.base.md.contrasted.active.fieldWrapper'})"
-                }
-              }
-            },
-            "danger": {
-              "wrapper": {
-                "value": {
-                  "horizontalPadding": "none",
-                  "verticalPadding": "none",
-                  "fill": "{sem.color.surface.sub}",
-                  "boxShadow": "none",
-                  "borderRadiusTopLeft": "{sem.card.base.sm.borderRadiusTopLeft}",
-                  "borderRadiusTopRight": "{sem.card.base.sm.borderRadiusTopRight}",
-                  "borderRadiusBottomRight": "{sem.card.base.sm.borderRadiusBottomRight}",
-                  "borderRadiusBottomLeft": "{sem.card.base.sm.borderRadiusBottomLeft}",
-                  "border": "{sem.border.danger}",
-                  "itemSpacing": "none"
-                },
-                "type": "composition",
-                "description": "({extends: 'comp.input.base.md.contrasted.danger.fieldWrapper'})"
-              },
-              "textInput": {
-                "fieldWrapper": {
-                  "value": {
-                    "horizontalPadding": "{sem.card.base.sm.padding}",
-                    "verticalPadding": "{sem.card.base.sm.padding}",
-                    "fill": "{sem.color.surface.sub}",
-                    "boxShadow": "none",
-                    "borderRadiusTopLeft": "none",
-                    "borderRadiusTopRight": "{sem.card.base.sm.borderRadiusTopRight}",
-                    "borderRadiusBottomRight": "{sem.card.base.sm.borderRadiusBottomRight}",
-                    "borderRadiusBottomLeft": "none",
-                    "border": "none",
-                    "itemSpacing": "{sem.input.base.md.fieldWrapper.spacer}"
-                  },
-                  "type": "composition",
-                  "description": "({extends: 'comp.input.base.md.contrasted.danger.fieldWrapper'})"
-                }
-              }
-            },
-            "disabled": {
-              "wrapper": {
-                "value": {
-                  "horizontalPadding": "none",
-                  "verticalPadding": "none",
-                  "fill": "{sem.color.surface.disabled}",
-                  "boxShadow": "none",
-                  "borderRadiusTopLeft": "{sem.card.base.sm.borderRadiusTopLeft}",
-                  "borderRadiusTopRight": "{sem.card.base.sm.borderRadiusTopRight}",
-                  "borderRadiusBottomRight": "{sem.card.base.sm.borderRadiusBottomRight}",
-                  "borderRadiusBottomLeft": "{sem.card.base.sm.borderRadiusBottomLeft}",
-                  "border": "{sem.border.interactive.disabled}",
-                  "itemSpacing": "none"
-                },
-                "type": "composition",
-                "description": "({extends: 'comp.input.base.md.contrasted.disabled.fieldWrapper'})"
-              },
-              "textInput": {
-                "fieldWrapper": {
-                  "value": {
-                    "horizontalPadding": "{sem.card.base.sm.padding}",
-                    "verticalPadding": "{sem.card.base.sm.padding}",
-                    "fill": "{sem.color.surface.disabled}",
-                    "boxShadow": "none",
-                    "borderRadiusTopLeft": "none",
-                    "borderRadiusTopRight": "{sem.card.base.sm.borderRadiusTopRight}",
-                    "borderRadiusBottomRight": "{sem.card.base.sm.borderRadiusBottomRight}",
-                    "borderRadiusBottomLeft": "none",
-                    "border": "none",
-                    "itemSpacing": "{sem.input.base.md.fieldWrapper.spacer}"
-                  },
-                  "type": "composition",
-                  "description": "({extends: 'comp.input.base.md.contrasted.disabled.fieldWrapper'})"
-                }
-              }
-            }
-          }
-        },
-        "select": {
-          "sm": {
-            "uncontrasted": {
-              "default": {
-                "fieldWrapper": {
-                  "value": {
-                    "horizontalPadding": "{sem.card.base.xs.padding}",
-                    "verticalPadding": "{sem.card.base.xs.padding}",
-                    "fill": "{sem.color.surface.sub}",
-                    "boxShadow": "none",
-                    "borderRadiusTopLeft": "{sem.card.base.xs.borderRadiusTopLeft}",
-                    "borderRadiusTopRight": "none",
-                    "borderRadiusBottomRight": "none",
-                    "borderRadiusBottomLeft": "{sem.card.base.xs.borderRadiusBottomLeft}",
-                    "border": "none",
-                    "itemSpacing": "{sem.input.base.sm.fieldWrapper.spacer}"
-                  },
-                  "type": "composition",
-                  "description": "({extends: 'comp.input.select.sm.contrasted.default.fieldWrapper'})"
-                }
-              },
-              "hover": {
-                "fieldWrapper": {
-                  "value": {
-                    "horizontalPadding": "{sem.card.base.xs.padding}",
-                    "verticalPadding": "{sem.card.base.xs.padding}",
-                    "fill": "{sem.color.surface.sub}",
-                    "boxShadow": "{sem.card.base.xs.dropShadow.hover}",
-                    "borderRadiusTopLeft": "{sem.card.base.xs.borderRadiusTopLeft}",
-                    "borderRadiusTopRight": "none",
-                    "borderRadiusBottomRight": "none",
-                    "borderRadiusBottomLeft": "{sem.card.base.xs.borderRadiusBottomLeft}",
-                    "border": "none",
-                    "itemSpacing": "{sem.input.base.sm.fieldWrapper.spacer}"
-                  },
-                  "type": "composition",
-                  "description": "({extends: 'comp.input.select.sm.contrasted.hover.fieldWrapper'})"
-                }
-              },
-              "pressed": {
-                "fieldWrapper": {
-                  "value": {
-                    "horizontalPadding": "{sem.card.base.xs.padding}",
-                    "verticalPadding": "{sem.card.base.xs.padding}",
-                    "fill": "{sem.color.surface.sub}",
-                    "boxShadow": "{sem.card.base.xs.dropShadow.pressed}",
-                    "borderRadiusTopLeft": "{sem.card.base.xs.borderRadiusTopLeft}",
-                    "borderRadiusTopRight": "none",
-                    "borderRadiusBottomRight": "none",
-                    "borderRadiusBottomLeft": "{sem.card.base.xs.borderRadiusBottomLeft}",
-                    "border": "none",
-                    "itemSpacing": "{sem.input.base.sm.fieldWrapper.spacer}"
-                  },
-                  "type": "composition",
-                  "description": "({extends: 'comp.input.select.sm.contrasted.pressed.fieldWrapper'})"
-                }
-              },
-              "active": {
-                "fieldWrapper": {
-                  "value": {
-                    "horizontalPadding": "{sem.card.base.xs.padding}",
-                    "verticalPadding": "{sem.card.base.xs.padding}",
-                    "fill": "{sem.color.surface.sub}",
-                    "boxShadow": "none",
-                    "borderRadiusTopLeft": "{sem.card.base.xs.borderRadiusTopLeft}",
-                    "borderRadiusTopRight": "none",
-                    "borderRadiusBottomRight": "none",
-                    "borderRadiusBottomLeft": "{sem.card.base.xs.borderRadiusBottomLeft}",
-                    "border": "none",
-                    "itemSpacing": "{sem.input.base.sm.fieldWrapper.spacer}"
-                  },
-                  "type": "composition",
-                  "description": "({extends: 'comp.input.select.sm.contrasted.active.fieldWrapper'})"
-                }
-              },
-              "danger": {
-                "fieldWrapper": {
-                  "value": {
-                    "horizontalPadding": "{sem.card.base.xs.padding}",
-                    "verticalPadding": "{sem.card.base.xs.padding}",
-                    "fill": "{sem.color.surface.sub}",
-                    "boxShadow": "none",
-                    "borderRadiusTopLeft": "{sem.card.base.xs.borderRadiusTopLeft}",
-                    "borderRadiusTopRight": "none",
-                    "borderRadiusBottomRight": "none",
-                    "borderRadiusBottomLeft": "{sem.card.base.xs.borderRadiusBottomLeft}",
-                    "border": "none",
-                    "itemSpacing": "{sem.input.base.sm.fieldWrapper.spacer}"
-                  },
-                  "type": "composition",
-                  "description": "({extends: 'comp.input.select.sm.contrasted.danger.fieldWrapper'})"
-                }
-              },
-              "disabled": {
-                "fieldWrapper": {
-                  "value": {
-                    "horizontalPadding": "{sem.card.base.xs.padding}",
-                    "verticalPadding": "{sem.card.base.xs.padding}",
-                    "fill": "{sem.color.surface.disabled}",
-                    "boxShadow": "none",
-                    "borderRadiusTopLeft": "{sem.card.base.xs.borderRadiusTopLeft}",
-                    "borderRadiusTopRight": "none",
-                    "borderRadiusBottomRight": "none",
-                    "borderRadiusBottomLeft": "{sem.card.base.xs.borderRadiusBottomLeft}",
-                    "border": "none",
-                    "itemSpacing": "{sem.input.base.sm.fieldWrapper.spacer}"
-                  },
-                  "type": "composition",
-                  "description": "({extends: 'comp.input.select.sm.contrasted.disabled.fieldWrapper'})"
-                }
-              }
-            },
-            "contrasted": {
-              "default": {
-                "fieldWrapper": {
-                  "value": {
-                    "horizontalPadding": "{sem.card.base.xs.padding}",
-                    "verticalPadding": "{sem.card.base.xs.padding}",
-                    "fill": "{sem.color.surface.light}",
-                    "boxShadow": "none",
-                    "borderRadiusTopLeft": "{sem.card.base.xs.borderRadiusTopLeft}",
-                    "borderRadiusTopRight": "none",
-                    "borderRadiusBottomRight": "none",
-                    "borderRadiusBottomLeft": "{sem.card.base.xs.borderRadiusBottomLeft}",
-                    "border": "none",
-                    "itemSpacing": "{sem.input.base.sm.fieldWrapper.spacer}"
-                  },
-                  "type": "composition",
-                  "description": "({extends: 'comp.input.select.sm.uncontrasted.default.fieldWrapper'})"
-                }
-              },
-              "hover": {
-                "fieldWrapper": {
-                  "value": {
-                    "horizontalPadding": "{sem.card.base.xs.padding}",
-                    "verticalPadding": "{sem.card.base.xs.padding}",
-                    "fill": "{sem.color.surface.light}",
-                    "boxShadow": "{sem.card.base.xs.dropShadow.hover}",
-                    "borderRadiusTopLeft": "{sem.card.base.xs.borderRadiusTopLeft}",
-                    "borderRadiusTopRight": "none",
-                    "borderRadiusBottomRight": "none",
-                    "borderRadiusBottomLeft": "{sem.card.base.xs.borderRadiusBottomLeft}",
-                    "border": "none",
-                    "itemSpacing": "{sem.input.base.sm.fieldWrapper.spacer}"
-                  },
-                  "type": "composition",
-                  "description": "({extends: 'comp.input.select.sm.uncontrasted.hover.fieldWrapper'})"
-                }
-              },
-              "pressed": {
-                "fieldWrapper": {
-                  "value": {
-                    "horizontalPadding": "{sem.card.base.xs.padding}",
-                    "verticalPadding": "{sem.card.base.xs.padding}",
-                    "fill": "{sem.color.surface.light}",
-                    "boxShadow": "{sem.card.base.xs.dropShadow.pressed}",
-                    "borderRadiusTopLeft": "{sem.card.base.xs.borderRadiusTopLeft}",
-                    "borderRadiusTopRight": "none",
-                    "borderRadiusBottomRight": "none",
-                    "borderRadiusBottomLeft": "{sem.card.base.xs.borderRadiusBottomLeft}",
-                    "border": "none",
-                    "itemSpacing": "{sem.input.base.sm.fieldWrapper.spacer}"
-                  },
-                  "type": "composition",
-                  "description": "({extends: 'comp.input.select.sm.uncontrasted.pressed.fieldWrapper'})"
-                }
-              },
-              "active": {
-                "fieldWrapper": {
-                  "value": {
-                    "horizontalPadding": "{sem.card.base.xs.padding}",
-                    "verticalPadding": "{sem.card.base.xs.padding}",
-                    "fill": "{sem.color.surface.light}",
-                    "boxShadow": "none",
-                    "borderRadiusTopLeft": "{sem.card.base.xs.borderRadiusTopLeft}",
-                    "borderRadiusTopRight": "none",
-                    "borderRadiusBottomRight": "none",
-                    "borderRadiusBottomLeft": "{sem.card.base.xs.borderRadiusBottomLeft}",
-                    "border": "none",
-                    "itemSpacing": "{sem.input.base.sm.fieldWrapper.spacer}"
-                  },
-                  "type": "composition",
-                  "description": "({extends: 'comp.input.select.sm.uncontrasted.active.fieldWrapper'})"
-                }
-              },
-              "danger": {
-                "fieldWrapper": {
-                  "value": {
-                    "horizontalPadding": "{sem.card.base.xs.padding}",
-                    "verticalPadding": "{sem.card.base.xs.padding}",
-                    "fill": "{sem.color.surface.light}",
-                    "boxShadow": "none",
-                    "borderRadiusTopLeft": "{sem.card.base.xs.borderRadiusTopLeft}",
-                    "borderRadiusTopRight": "none",
-                    "borderRadiusBottomRight": "none",
-                    "borderRadiusBottomLeft": "{sem.card.base.xs.borderRadiusBottomLeft}",
-                    "border": "none",
-                    "itemSpacing": "{sem.input.base.sm.fieldWrapper.spacer}"
-                  },
-                  "type": "composition",
-                  "description": "({extends: 'comp.input.select.sm.uncontrasted.danger.fieldWrapper'})"
-                }
-              },
-              "disabled": {
-                "fieldWrapper": {
-                  "value": {
-                    "horizontalPadding": "{sem.card.base.xs.padding}",
-                    "verticalPadding": "{sem.card.base.xs.padding}",
-                    "fill": "{sem.color.surface.disabled}",
-                    "boxShadow": "none",
-                    "borderRadiusTopLeft": "{sem.card.base.xs.borderRadiusTopLeft}",
-                    "borderRadiusTopRight": "none",
-                    "borderRadiusBottomRight": "none",
-                    "borderRadiusBottomLeft": "{sem.card.base.xs.borderRadiusBottomLeft}",
-                    "border": "none",
-                    "itemSpacing": "{sem.input.base.sm.fieldWrapper.spacer}"
-                  },
-                  "type": "composition",
-                  "description": "({extends: 'comp.input.select.sm.uncontrasted.disabled.fieldWrapper'})"
-                }
-              }
-            }
-          },
-          "md": {
-            "uncontrasted": {
-              "default": {
-                "fieldWrapper": {
-                  "value": {
-                    "horizontalPadding": "{sem.card.base.sm.padding}",
-                    "verticalPadding": "{sem.card.base.sm.padding}",
-                    "fill": "{sem.color.surface.sub}",
-                    "boxShadow": "none",
-                    "borderRadiusTopLeft": "{sem.card.base.sm.borderRadiusTopLeft}",
-                    "borderRadiusTopRight": "none",
-                    "borderRadiusBottomRight": "none",
-                    "borderRadiusBottomLeft": "{sem.card.base.sm.borderRadiusBottomLeft}",
-                    "border": "none",
-                    "itemSpacing": "{sem.input.base.md.fieldWrapper.spacer}"
-                  },
-                  "type": "composition",
-                  "description": "({extends: 'comp.input.select.md.contrasted.default.fieldWrapper'})"
-                }
-              },
-              "hover": {
-                "fieldWrapper": {
-                  "value": {
-                    "horizontalPadding": "{sem.card.base.sm.padding}",
-                    "verticalPadding": "{sem.card.base.sm.padding}",
-                    "fill": "{sem.color.surface.sub}",
-                    "boxShadow": "{sem.card.base.sm.dropShadow.hover}",
-                    "borderRadiusTopLeft": "{sem.card.base.sm.borderRadiusTopLeft}",
-                    "borderRadiusTopRight": "none",
-                    "borderRadiusBottomRight": "none",
-                    "borderRadiusBottomLeft": "{sem.card.base.sm.borderRadiusBottomLeft}",
-                    "border": "none",
-                    "itemSpacing": "{sem.input.base.md.fieldWrapper.spacer}"
-                  },
-                  "type": "composition",
-                  "description": "({extends: 'comp.input.select.md.contrasted.hover.fieldWrapper'})"
-                }
-              },
-              "pressed": {
-                "fieldWrapper": {
-                  "value": {
-                    "horizontalPadding": "{sem.card.base.sm.padding}",
-                    "verticalPadding": "{sem.card.base.sm.padding}",
-                    "fill": "{sem.color.surface.sub}",
-                    "boxShadow": "{sem.card.base.sm.dropShadow.pressed}",
-                    "borderRadiusTopLeft": "{sem.card.base.sm.borderRadiusTopLeft}",
-                    "borderRadiusTopRight": "none",
-                    "borderRadiusBottomRight": "none",
-                    "borderRadiusBottomLeft": "{sem.card.base.sm.borderRadiusBottomLeft}",
-                    "border": "none",
-                    "itemSpacing": "{sem.input.base.md.fieldWrapper.spacer}"
-                  },
-                  "type": "composition",
-                  "description": "({extends: 'comp.input.select.md.contrasted.pressed.fieldWrapper'})"
-                }
-              },
-              "active": {
-                "fieldWrapper": {
-                  "value": {
-                    "horizontalPadding": "{sem.card.base.sm.padding}",
-                    "verticalPadding": "{sem.card.base.sm.padding}",
-                    "fill": "{sem.color.surface.sub}",
-                    "boxShadow": "none",
-                    "borderRadiusTopLeft": "{sem.card.base.sm.borderRadiusTopLeft}",
-                    "borderRadiusTopRight": "none",
-                    "borderRadiusBottomRight": "none",
-                    "borderRadiusBottomLeft": "{sem.card.base.sm.borderRadiusBottomLeft}",
-                    "border": "none",
-                    "itemSpacing": "{sem.input.base.md.fieldWrapper.spacer}"
-                  },
-                  "type": "composition",
-                  "description": "({extends: 'comp.input.select.md.contrasted.active.fieldWrapper'})"
-                }
-              },
-              "danger": {
-                "fieldWrapper": {
-                  "value": {
-                    "horizontalPadding": "{sem.card.base.sm.padding}",
-                    "verticalPadding": "{sem.card.base.sm.padding}",
-                    "fill": "{sem.color.surface.sub}",
-                    "boxShadow": "none",
-                    "borderRadiusTopLeft": "{sem.card.base.sm.borderRadiusTopLeft}",
-                    "borderRadiusTopRight": "none",
-                    "borderRadiusBottomRight": "none",
-                    "borderRadiusBottomLeft": "{sem.card.base.sm.borderRadiusBottomLeft}",
-                    "border": "none",
-                    "itemSpacing": "{sem.input.base.md.fieldWrapper.spacer}"
-                  },
-                  "type": "composition",
-                  "description": "({extends: 'comp.input.select.md.contrasted.danger.fieldWrapper'})"
-                }
-              },
-              "disabled": {
-                "fieldWrapper": {
-                  "value": {
-                    "horizontalPadding": "{sem.card.base.sm.padding}",
-                    "verticalPadding": "{sem.card.base.sm.padding}",
-                    "fill": "{sem.color.surface.disabled}",
-                    "boxShadow": "none",
-                    "borderRadiusTopLeft": "{sem.card.base.sm.borderRadiusTopLeft}",
-                    "borderRadiusTopRight": "none",
-                    "borderRadiusBottomRight": "none",
-                    "borderRadiusBottomLeft": "{sem.card.base.sm.borderRadiusBottomLeft}",
-                    "border": "none",
-                    "itemSpacing": "{sem.input.base.md.fieldWrapper.spacer}"
-                  },
-                  "type": "composition",
-                  "description": "({extends: 'comp.input.select.md.contrasted.disabled.fieldWrapper'})"
-                }
-              }
-            },
-            "contrasted": {
-              "default": {
-                "fieldWrapper": {
-                  "value": {
-                    "horizontalPadding": "{sem.card.base.sm.padding}",
-                    "verticalPadding": "{sem.card.base.sm.padding}",
-                    "fill": "{sem.color.surface.light}",
-                    "boxShadow": "none",
-                    "borderRadiusTopLeft": "{sem.card.base.sm.borderRadiusTopLeft}",
-                    "borderRadiusTopRight": "none",
-                    "borderRadiusBottomRight": "none",
-                    "borderRadiusBottomLeft": "{sem.card.base.sm.borderRadiusBottomLeft}",
-                    "border": "none",
-                    "itemSpacing": "{sem.input.base.md.fieldWrapper.spacer}"
-                  },
-                  "type": "composition",
-                  "description": "({extends: 'comp.input.select.md.uncontrasted.default.fieldWrapper'})"
-                }
-              },
-              "hover": {
-                "fieldWrapper": {
-                  "value": {
-                    "horizontalPadding": "{sem.card.base.sm.padding}",
-                    "verticalPadding": "{sem.card.base.sm.padding}",
-                    "fill": "{sem.color.surface.light}",
-                    "boxShadow": "{sem.card.base.sm.dropShadow.hover}",
-                    "borderRadiusTopLeft": "{sem.card.base.sm.borderRadiusTopLeft}",
-                    "borderRadiusTopRight": "none",
-                    "borderRadiusBottomRight": "none",
-                    "borderRadiusBottomLeft": "{sem.card.base.sm.borderRadiusBottomLeft}",
-                    "border": "none",
-                    "itemSpacing": "{sem.input.base.md.fieldWrapper.spacer}"
-                  },
-                  "type": "composition",
-                  "description": "({extends: 'comp.input.select.md.uncontrasted.hover.fieldWrapper'})"
-                }
-              },
-              "pressed": {
-                "fieldWrapper": {
-                  "value": {
-                    "horizontalPadding": "{sem.card.base.sm.padding}",
-                    "verticalPadding": "{sem.card.base.sm.padding}",
-                    "fill": "{sem.color.surface.light}",
-                    "boxShadow": "{sem.card.base.sm.dropShadow.pressed}",
-                    "borderRadiusTopLeft": "{sem.card.base.sm.borderRadiusTopLeft}",
-                    "borderRadiusTopRight": "none",
-                    "borderRadiusBottomRight": "none",
-                    "borderRadiusBottomLeft": "{sem.card.base.sm.borderRadiusBottomLeft}",
-                    "border": "none",
-                    "itemSpacing": "{sem.input.base.md.fieldWrapper.spacer}"
-                  },
-                  "type": "composition",
-                  "description": "({extends: 'comp.input.select.md.uncontrasted.pressed.fieldWrapper'})"
-                }
-              },
-              "active": {
-                "fieldWrapper": {
-                  "value": {
-                    "horizontalPadding": "{sem.card.base.sm.padding}",
-                    "verticalPadding": "{sem.card.base.sm.padding}",
-                    "fill": "{sem.color.surface.light}",
-                    "boxShadow": "none",
-                    "borderRadiusTopLeft": "{sem.card.base.sm.borderRadiusTopLeft}",
-                    "borderRadiusTopRight": "none",
-                    "borderRadiusBottomRight": "none",
-                    "borderRadiusBottomLeft": "{sem.card.base.sm.borderRadiusBottomLeft}",
-                    "border": "none",
-                    "itemSpacing": "{sem.input.base.md.fieldWrapper.spacer}"
-                  },
-                  "type": "composition",
-                  "description": "({extends: 'comp.input.select.md.uncontrasted.active.fieldWrapper'})"
-                }
-              },
-              "danger": {
-                "fieldWrapper": {
-                  "value": {
-                    "horizontalPadding": "{sem.card.base.sm.padding}",
-                    "verticalPadding": "{sem.card.base.sm.padding}",
-                    "fill": "{sem.color.surface.light}",
-                    "boxShadow": "none",
-                    "borderRadiusTopLeft": "{sem.card.base.sm.borderRadiusTopLeft}",
-                    "borderRadiusTopRight": "none",
-                    "borderRadiusBottomRight": "none",
-                    "borderRadiusBottomLeft": "{sem.card.base.sm.borderRadiusBottomLeft}",
-                    "border": "none",
-                    "itemSpacing": "{sem.input.base.md.fieldWrapper.spacer}"
-                  },
-                  "type": "composition",
-                  "description": "({extends: 'comp.input.select.md.uncontrasted.danger.fieldWrapper'})"
-                }
-              },
-              "disabled": {
-                "fieldWrapper": {
-                  "value": {
-                    "horizontalPadding": "{sem.card.base.sm.padding}",
-                    "verticalPadding": "{sem.card.base.sm.padding}",
-                    "fill": "{sem.color.surface.disabled}",
-                    "boxShadow": "none",
-                    "borderRadiusTopLeft": "{sem.card.base.sm.borderRadiusTopLeft}",
-                    "borderRadiusTopRight": "none",
-                    "borderRadiusBottomRight": "none",
-                    "borderRadiusBottomLeft": "{sem.card.base.sm.borderRadiusBottomLeft}",
-                    "border": "none",
-                    "itemSpacing": "{sem.input.base.md.fieldWrapper.spacer}"
-                  },
-                  "type": "composition",
-                  "description": "({extends: 'comp.input.select.md.uncontrasted.disabled.fieldWrapper'})"
-                }
-              }
-            }
-          }
+          "type": "composition"
         }
       },
       "select": {
@@ -22317,19 +21002,104 @@
       }
     },
     "bottomSheet": {
-      "desktop": {
-        "overlay": {
+      "overlay": {
+        "value": {
+          "fill": "#0A0A0A7A",
+          "layoutMode": "vertical",
+          "layoutAlignItems": "center",
+          "horizontalResizing": "fill",
+          "verticalResizing": "fill"
+        },
+        "type": "composition"
+      },
+      "closeBar": {
+        "card": {
           "value": {
-            "fill": "#0A0A0A7A",
-            "layoutMode": "vertical",
-            "layoutAlignItems": "center",
-            "horizontalResizing": "fill",
-            "verticalResizing": "fill"
+            "fill": "#E1DDD8",
+            "borderRadius": "24px",
+            "borderRadiusBottomLeft": "0",
+            "borderRadiusBottomRight": "0",
+            "height": "36px",
+            "layoutMode": "horizontal",
+            "layoutAlignItems": "center"
           },
           "type": "composition"
         },
-        "closeBar": {
-          "card": {
+        "label": {
+          "value": {
+            "typography": "{sem.typography.textStyle.label.body.sm}",
+            "fill": "#6F685D"
+          },
+          "type": "composition"
+        },
+        "notch": {
+          "value": {
+            "fill": "#6F685D",
+            "width": "40px",
+            "height": "4px",
+            "borderRadius": "999px"
+          },
+          "type": "composition"
+        }
+      },
+      "container": {
+        "value": {
+          "height": "85%",
+          "borderRadius": "24px",
+          "borderRadiusBottomLeft": "0",
+          "borderRadiusBottomRight": "0",
+          "fill": "#F7F3ED"
+        },
+        "type": "composition"
+      },
+      "content": {
+        "value": {
+          "horizontalPadding": "16px",
+          "verticalPadding": "24px",
+          "layoutMode": "vertical",
+          "horizontalResizing": "fill",
+          "itemSpacing": "24px"
+        },
+        "type": "composition"
+      },
+      "footer": {
+        "wrapper": {
+          "value": {
+            "layoutMode": "vertical",
+            "itemSpacing": "16px"
+          },
+          "type": "composition"
+        },
+        "content": {
+          "value": {
+            "layoutMode": "horizontal",
+            "itemSpacing": "16px"
+          },
+          "type": "composition"
+        }
+      }
+    },
+    "dialog": {
+      "root": {
+        "value": {
+          "layoutMode": "vertical",
+          "layoutAlignItems": "center",
+          "horizontalResizing": "fill",
+          "verticalResizing": "fill"
+        },
+        "type": "composition"
+      },
+      "overlay": {
+        "value": {
+          "fill": "#0A0A0A7A",
+          "horizontalResizing": "fill",
+          "verticalResizing": "fill"
+        },
+        "type": "composition"
+      },
+      "closeBar": {
+        "card": {
+          "default": {
             "value": {
               "fill": "#E1DDD8",
               "borderRadius": "32px",
@@ -22341,60 +21111,10 @@
             },
             "type": "composition"
           },
-          "label": {
+          "hover": {
             "value": {
-              "typography": "{sem.typography.textStyle.label.body.sm}",
-              "fill": "#6F685D"
-            },
-            "type": "composition"
-          },
-          "notch": {
-            "value": {
-              "fill": "#6F685D",
-              "width": "40px",
-              "height": "4px",
-              "borderRadius": "999px"
-            },
-            "type": "composition"
-          }
-        },
-        "container": {
-          "value": {
-            "maxWidth": "536px",
-            "layoutMode": "vertical",
-            "horizontalResizing": "fill",
-            "itemSpacing": "24px",
-            "borderRadius": "32px",
-            "borderRadiusBottomLeft": "0",
-            "borderRadiusBottomRight": "0",
-            "fill": "#F7F3ED"
-          },
-          "type": "composition"
-        },
-        "content": {
-          "value": {
-            "horizontalPadding": "24px",
-            "verticalPadding": "24px"
-          },
-          "type": "composition"
-        }
-      },
-      "mobile": {
-        "overlay": {
-          "value": {
-            "fill": "#0A0A0A7A",
-            "layoutMode": "vertical",
-            "layoutAlignItems": "center",
-            "horizontalResizing": "fill",
-            "verticalResizing": "fill"
-          },
-          "type": "composition"
-        },
-        "closeBar": {
-          "card": {
-            "value": {
-              "fill": "#E1DDD8",
-              "borderRadius": "24px",
+              "fill": "#EBE8E4",
+              "borderRadius": "32px",
               "borderRadiusBottomLeft": "0",
               "borderRadiusBottomRight": "0",
               "height": "36px",
@@ -22403,40 +21123,57 @@
             },
             "type": "composition"
           },
-          "label": {
+          "pressed": {
             "value": {
-              "typography": "{sem.typography.textStyle.label.body.sm}",
-              "fill": "#6F685D"
-            },
-            "type": "composition"
-          },
-          "notch": {
-            "value": {
-              "fill": "#6F685D",
-              "width": "40px",
-              "height": "4px",
-              "borderRadius": "999px"
+              "fill": "#D1CDC7",
+              "borderRadius": "32px",
+              "borderRadiusBottomLeft": "0",
+              "borderRadiusBottomRight": "0",
+              "height": "36px",
+              "layoutMode": "horizontal",
+              "layoutAlignItems": "center"
             },
             "type": "composition"
           }
         },
-        "container": {
+        "label": {
           "value": {
-            "height": "80%",
+            "typography": "{sem.typography.textStyle.label.body.sm}",
+            "fill": "#6F685D"
+          },
+          "type": "composition"
+        }
+      },
+      "container": {
+        "value": {
+          "maxWidth": "536px",
+          "borderRadius": "32px",
+          "fill": "#F7F3ED"
+        },
+        "type": "composition"
+      },
+      "content": {
+        "value": {
+          "horizontalPadding": "24px",
+          "verticalPadding": "24px",
+          "layoutMode": "vertical",
+          "horizontalResizing": "fill",
+          "itemSpacing": "24px"
+        },
+        "type": "composition"
+      },
+      "footer": {
+        "wrapper": {
+          "value": {
             "layoutMode": "vertical",
-            "horizontalResizing": "fill",
-            "itemSpacing": "24px",
-            "borderRadius": "24px",
-            "borderRadiusBottomLeft": "0",
-            "borderRadiusBottomRight": "0",
-            "fill": "#F7F3ED"
+            "itemSpacing": "16px"
           },
           "type": "composition"
         },
         "content": {
           "value": {
-            "horizontalPadding": "16px",
-            "verticalPadding": "24px"
+            "layoutMode": "horizontal",
+            "itemSpacing": "16px"
           },
           "type": "composition"
         }

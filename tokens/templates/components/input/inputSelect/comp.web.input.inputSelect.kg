@@ -3,31 +3,14 @@
 comp
 .input
 .inputSelect
-[size: 'sm' | 'md']
-[contrast: 'uncontrasted' | 'contrasted']
-[state: 'default' | 'hover' | 'pressed' | 'active' | 'danger' | 'disabled']
 [
   {
     "wrapper": {
       "value": {
-        "itemSpacing": "none",
-        "horizontalPadding": "none",
-        "verticalPadding": "none"
+        "layoutMode": "horizontal",
+        "itemSpacing": "8px"
       },
-      "type": "composition",
-      "description": "({extends: 'comp.input.base.<<size>>.<<contrast>>.<<state>>.fieldWrapper'})"
-    },
-    "textInput": {
-      "fieldWrapper": {
-        "value": {
-          "boxShadow": "none",
-          "border": "none",
-          "borderRadiusTopLeft": "none",
-          "borderRadiusBottomLeft": "none"
-        },
-        "type": "composition",
-        "description": "({extends: 'comp.input.base.<<size>>.<<contrast>>.<<state>>.fieldWrapper'})"
-      }
+      "type": "composition"
     }
   }
 ]
