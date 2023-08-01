@@ -56,8 +56,7 @@ comp
         "horizontalPadding": "24px",
         "verticalPadding": "24px",
         "layoutMode": "vertical",
-        "horizontalResizing": "fill",
-        "itemSpacing": "24px"
+        "horizontalResizing": "fill"
       },
       "type": "composition"
     },
