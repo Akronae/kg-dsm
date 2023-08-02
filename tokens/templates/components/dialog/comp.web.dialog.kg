@@ -45,7 +45,7 @@ comp
     },
     "container": {
       "value": {
-        "maxWidth": "536px",
+        "width": "536px",
         "borderRadius": "32px",
         "fill": "#F7F3ED"
       },
