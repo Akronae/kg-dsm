@@ -244,11 +244,11 @@
       },
       "background": {
         "default": {
-          "value": "{ref.colors.neutral.100}",
+          "value": "{ref.colors.neutral.75}",
           "type": "color"
         },
         "dark": {
-          "value": "{ref.colors.neutral.200}",
+          "value": "{ref.colors.neutral.100}",
           "type": "color"
         },
         "overlay": {
