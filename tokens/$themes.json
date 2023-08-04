@@ -682,9 +682,12 @@
       "ref.sizing.500": "469b18eec0a184bc93567dd985378f48135fb310",
       "ref.sizing.600": "cafb269056a8b4a3759c94d44816614ddecf928d",
       "ref.sizing.650": "61fef25b34eb5263b398988f588a1c7db31844fb",
+      "ref.sizing.675": "531203b606fb1194ea0eac480552f97cf40d14e0",
       "ref.sizing.700": "ae717a76aa41af3acd4ae955dd1fc659b1f7c2e8",
       "ref.sizing.800": "5e4dcc29d5204bacc75659baf2841d0591a47fb2",
-      "ref.sizing.900": "c208e9ef12b7d63df20efde1eb2353a2ffcfa735"
+      "ref.sizing.900": "c208e9ef12b7d63df20efde1eb2353a2ffcfa735",
+      "ref.sizing.950": "54129c7d6d675dd4477dc668c8b49689cd3e85e5",
+      "ref.sizing.1000": "f92ec0c36706dcc424a1a1065c3977f79c0ab808"
     }
   }
 ]
