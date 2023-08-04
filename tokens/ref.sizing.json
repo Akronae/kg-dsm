@@ -94,6 +94,10 @@
         "value": "160px",
         "type": "sizing"
       },
+      "675": {
+        "value": "240px",
+        "type": "sizing"
+      },
       "700": {
         "value": "320px",
         "type": "sizing"
