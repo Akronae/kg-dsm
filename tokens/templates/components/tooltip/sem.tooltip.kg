@@ -1,0 +1,26 @@
+// @replacepath: tokens/comp.web.json
+
+sem
+.tooltip
+[
+  {
+    "container": {
+      "borderRadiusTop": {
+        "value": "{ref.borderRadius.400}",
+        "type": "borderRadius"
+      },
+      "borderRadiusBottom": {
+        "value": "{ref.borderRadius.500}",
+        "type": "borderRadius"
+      },
+        "mawWidth": {
+        "value": "{ref.sizing.800}",
+        "type": "sizing"
+      },
+      "spacing": {
+        "value": "{ref.spacing.200}",
+        "type": "spacing"
+      }
+    }
+  }
+]
