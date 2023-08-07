@@ -6,10 +6,10 @@ comp
   {
     "container": {
       "value": {
-        "borderRadiusTopLeft": "{sem.infobox.container.borderRadiusTop}",
-        "borderRadiusTopRight": "{sem.infobox.container.borderRadiusTop}",
-        "borderRadiusBottomLeft": "{sem.infobox.container.borderRadiusBottom}",
-        "borderRadiusBottomRight": "{sem.infobox.container.borderRadiusBottom}",
+        "borderRadiusTopLeft": "{sem.tooltip.container.borderRadiusTop}",
+        "borderRadiusTopRight": "{sem.tooltip.container.borderRadiusTop}",
+        "borderRadiusBottomLeft": "{sem.tooltip.container.borderRadiusBottom}",
+        "borderRadiusBottomRight": "{sem.tooltip.container.borderRadiusBottom}",
         "itemSpacing": "{sem.tooltip.container.spacing}",
         "maxWidth": "{sem.tooltip.container.maxWidth}",
         "layoutMode": "vertical"
