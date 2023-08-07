@@ -2,6 +2,10 @@
   "ref": {
     "colors": {
       "primary": {
+        "25": {
+          "value": "#F7F3ED",
+          "type": "color"
+        },
         "50": {
           "value": "#ffecc7",
           "type": "color"
@@ -52,8 +56,7 @@
         },
         "75": {
           "value": "#eeedeb",
-          "type": "color",
-          "description": "Classic white"
+          "type": "color"
         },
         "100": {
           "value": "#e6e4e1",
