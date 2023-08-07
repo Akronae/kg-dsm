@@ -306,6 +306,7 @@
       "sem.color.surface.disabled": "279eee74665c6f2a99c91e905e8c529ad9670750",
       "sem.color.surface.dark": "22de96d4c09ede918a304c62f8f58bd5d7acf48b",
       "sem.color.surface.success": "b415c310a139d9da9128637401724084374a4fe6",
+      "sem.color.surface.danger": "67ae9e8ed242a1666789f0643f85de2fb5a5a34c",
       "sem.color.surface.interactive.default": "2a1b784c0b7fa19d79a13d753422db508597487c",
       "sem.color.surface.interactive.hover": "c3377dbf0540f51ca3541f008d6e99bc5103eec6",
       "sem.color.surface.interactive.pressed": "9252b352770a4834c95ca02d191427c590a6fc5d",
