@@ -8,18 +8,18 @@ comp
       "value": {
         "borderRadius": "{sem.infobox.container.borderRadius}",
         "itemSpacing": "{sem.tooltip.container.spacing}",
-        "maxWidth": "{sem.tooltip.container.maxWidth}"
+        "maxWidth": "{sem.tooltip.container.maxWidth}",
         "layoutMode": "vertical"
       },
       "type": "composition",
-      "description": "({extends: 'comp.card.base.<<size>>.uncontrasted.default'})"
+      "description": "({extends: 'comp.card.base.md.uncontrasted.default'})"
     },
     "text": {
       "value": {
         "typography": "{sem.typography.textStyle.paragraph.sm.default}",
         "fill": "{sem.color.text.default}"
       },
-      "composition"
+     "type": "composition"
     }
   }
 ]

@@ -22315,6 +22315,34 @@
           }
         }
       }
+    },
+    "tooltip": {
+      "container": {
+        "value": {
+          "horizontalPadding": "{sem.card.base.md.padding}",
+          "verticalPadding": "{sem.card.base.md.padding}",
+          "fill": "{sem.color.surface.light}",
+          "boxShadow": "none",
+          "borderRadiusTopLeft": "{sem.card.base.md.borderRadiusTopLeft}",
+          "borderRadiusTopRight": "{sem.card.base.md.borderRadiusTopRight}",
+          "borderRadiusBottomRight": "{sem.card.base.md.borderRadiusBottomRight}",
+          "borderRadiusBottomLeft": "{sem.card.base.md.borderRadiusBottomLeft}",
+          "border": "{sem.border.transparent}",
+          "borderRadius": "{sem.infobox.container.borderRadius}",
+          "itemSpacing": "{sem.tooltip.container.spacing}",
+          "maxWidth": "{sem.tooltip.container.maxWidth}",
+          "layoutMode": "vertical"
+        },
+        "type": "composition",
+        "description": "({extends: 'comp.card.base.md.uncontrasted.default'})"
+      },
+      "text": {
+        "value": {
+          "typography": "{sem.typography.textStyle.paragraph.sm.default}",
+          "fill": "{sem.color.text.default}"
+        },
+        "type": "composition"
+      }
     }
   },
   "sem": {
@@ -23235,6 +23263,27 @@
               }
             }
           }
+        },
+        "wrapper": {}
+      }
+    },
+    "tooltip": {
+      "container": {
+        "borderRadiusTop": {
+          "value": "{ref.borderRadius.400}",
+          "type": "borderRadius"
+        },
+        "borderRadiusBottom": {
+          "value": "{ref.borderRadius.500}",
+          "type": "borderRadius"
+        },
+        "mawWidth": {
+          "value": "{ref.sizing.800}",
+          "type": "sizing"
+        },
+        "spacing": {
+          "value": "{ref.spacing.200}",
+          "type": "spacing"
         }
       }
     }
