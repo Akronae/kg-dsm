@@ -13855,7 +13855,7 @@
       "mobile": {
         "container": {
           "value": {
-            "fill": "{sem.color.surface.default}",
+            "fill": "{sem.color.surface.diminished}",
             "borderRadius": "{sem.infobox.container.borderRadius}",
             "verticalPadding": "{sem.infobox.container.padding}",
             "horizontalPadding": "{sem.infobox.container.padding}",
@@ -13908,7 +13908,7 @@
       "desktop": {
         "container": {
           "value": {
-            "fill": "{sem.color.surface.default}",
+            "fill": "{sem.color.surface.diminished}",
             "borderRadius": "{sem.infobox.container.borderRadius}",
             "verticalPadding": "{sem.infobox.container.padding}",
             "horizontalPadding": "{sem.infobox.container.padding}",
@@ -23235,7 +23235,8 @@
               }
             }
           }
-        }
+        },
+        "wrapper": {}
       }
     }
   }
