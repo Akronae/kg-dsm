@@ -13,7 +13,7 @@ sem
         "value": "{ref.borderRadius.500}",
         "type": "borderRadius"
       },
-        "mawWidth": {
+        "maxWidth": {
         "value": "{ref.sizing.800}",
         "type": "sizing"
       },

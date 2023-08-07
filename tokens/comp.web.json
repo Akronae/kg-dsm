@@ -22324,11 +22324,11 @@
           "fill": "{sem.color.surface.light}",
           "boxShadow": "none",
           "borderRadiusTopLeft": "{sem.card.base.md.borderRadiusTopLeft}",
-          "borderRadiusTopRight": "{sem.card.base.md.borderRadiusTopRight}",
-          "borderRadiusBottomRight": "{sem.card.base.md.borderRadiusBottomRight}",
-          "borderRadiusBottomLeft": "{sem.card.base.md.borderRadiusBottomLeft}",
+          "borderRadiusTopRight": "{sem.infobox.container.borderRadiusTop}",
+          "borderRadiusBottomRight": "{sem.infobox.container.borderRadiusBottom}",
+          "borderRadiusBottomLeft": "{sem.infobox.container.borderRadiusBottom}",
           "border": "{sem.border.transparent}",
-          "borderRadius": "{sem.infobox.container.borderRadius}",
+          "borderRadiusTopleft": "{sem.infobox.container.borderRadiusTop}",
           "itemSpacing": "{sem.tooltip.container.spacing}",
           "maxWidth": "{sem.tooltip.container.maxWidth}",
           "layoutMode": "vertical"
@@ -23277,7 +23277,7 @@
           "value": "{ref.borderRadius.500}",
           "type": "borderRadius"
         },
-        "mawWidth": {
+        "maxWidth": {
           "value": "{ref.sizing.800}",
           "type": "sizing"
         },
