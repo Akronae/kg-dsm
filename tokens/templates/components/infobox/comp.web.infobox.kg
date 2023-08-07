@@ -7,7 +7,7 @@ comp
   {
     "container": {
       "value": {
-        "fill": "{sem.color.surface.sub}",
+        "fill": "{sem.color.surface.default}",
         "borderRadius": "{sem.infobox.container.borderRadius}",
         "verticalPadding": "{sem.infobox.container.padding}",
         "horizontalPadding": "{sem.infobox.container.padding}",
