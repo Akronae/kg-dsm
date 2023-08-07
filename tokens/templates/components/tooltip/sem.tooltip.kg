@@ -20,6 +20,10 @@ sem
       "spacing": {
         "value": "{ref.spacing.200}",
         "type": "spacing"
+      },
+      "boxShadow": {
+        "value": "{ref.effects.dropShadow.500}",
+        "type": "boxShadow"
       }
     }
   }
