@@ -289,6 +289,10 @@
           "value": "{ref.colors.green.500}",
           "type": "color"
         },
+        "danger": {
+          "value": "{ref.colors.red.500}",
+          "type": "color"
+        },
         "interactive": {
           "default": {
             "value": "{sem.color.surface.default}",
