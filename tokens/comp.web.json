@@ -22323,12 +22323,11 @@
           "verticalPadding": "{sem.card.base.md.padding}",
           "fill": "{sem.color.surface.light}",
           "boxShadow": "none",
-          "borderRadiusTopLeft": "{sem.card.base.md.borderRadiusTopLeft}",
+          "borderRadiusTopLeft": "{sem.infobox.container.borderRadiusTop}",
           "borderRadiusTopRight": "{sem.infobox.container.borderRadiusTop}",
           "borderRadiusBottomRight": "{sem.infobox.container.borderRadiusBottom}",
           "borderRadiusBottomLeft": "{sem.infobox.container.borderRadiusBottom}",
           "border": "{sem.border.transparent}",
-          "borderRadiusTopleft": "{sem.infobox.container.borderRadiusTop}",
           "itemSpacing": "{sem.tooltip.container.spacing}",
           "maxWidth": "{sem.tooltip.container.maxWidth}",
           "layoutMode": "vertical"

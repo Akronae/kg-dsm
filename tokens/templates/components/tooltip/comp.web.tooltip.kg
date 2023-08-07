@@ -6,7 +6,7 @@ comp
   {
     "container": {
       "value": {
-        "borderRadiusTopleft": "{sem.infobox.container.borderRadiusTop}",
+        "borderRadiusTopLeft": "{sem.infobox.container.borderRadiusTop}",
         "borderRadiusTopRight": "{sem.infobox.container.borderRadiusTop}",
         "borderRadiusBottomLeft": "{sem.infobox.container.borderRadiusBottom}",
         "borderRadiusBottomRight": "{sem.infobox.container.borderRadiusBottom}",
