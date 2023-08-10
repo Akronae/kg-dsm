@@ -16,7 +16,7 @@ sem
     "mobile": {
       "container": {
         "borderRadius": {
-          "value": "{ref.borderRadius.9999}",
+          "value": "{ref.borderRadius.400}",
           "type": "borderRadius"
         }
       },
@@ -28,6 +28,10 @@ sem
         "height": {
           "value": "{ref.sizing.25}",
           "type": "sizing"
+        },
+        "borderRadius": {
+          "value": "{ref.borderRadius.9999}",
+          "type": "borderRadius"
         }
       }
     }
