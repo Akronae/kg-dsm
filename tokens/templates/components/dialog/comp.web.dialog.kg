@@ -43,9 +43,11 @@ comp
         "type": "composition"
       }
     },
+    "wrapper": {
+      "width": "536px"
+    },
     "container": {
       "value": {
-        "width": "536px",
         "borderRadius": "32px",
         "fill": "#F7F3ED"
       },
@@ -56,7 +58,8 @@ comp
         "horizontalPadding": "24px",
         "verticalPadding": "24px",
         "layoutMode": "vertical",
-        "horizontalResizing": "fill"
+        "horizontalResizing": "fill",
+        "maxHeight": "70vh"
       },
       "type": "composition"
     },
@@ -64,7 +67,9 @@ comp
       "wrapper": {
         "value": {
           "layoutMode": "vertical",
-          "itemSpacing": "16px"
+          "itemSpacing": "16px",
+          "horizontalPadding": "24px",
+          "paddingBottom": "24px"
         },
         "type": "composition"
       },
