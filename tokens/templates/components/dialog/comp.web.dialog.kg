@@ -1,0 +1,85 @@
+// @replacepath: tokens/comp.web.json
+
+// TODO: refs
+comp
+.dialog
+[
+  {
+    "root": {
+      "value": {
+        "layoutMode": "vertical",
+        "layoutAlignItems": "center",
+        "horizontalResizing": "fill",
+        "verticalResizing": "fill"
+      },
+      "type": "composition"
+    },
+    "overlay": {
+      "value": {
+        "fill": "#0A0A0A7A",
+        "horizontalResizing": "fill",
+        "verticalResizing": "fill"
+      },
+      "type": "composition"
+    },
+    "closeBar": {
+      "card": {
+        "value": {
+          "fill": "#E1DDD8",
+          "borderRadius": "32px",
+          "borderRadiusBottomLeft": "0",
+          "borderRadiusBottomRight": "0",
+          "height": "36px",
+          "layoutMode": "horizontal",
+          "layoutAlignItems": "center"
+        },
+        "type": "composition"
+      },
+      "label": {
+        "value": {
+          "typography": "{sem.typography.textStyle.label.body.sm}",
+          "fill": "#6F685D"
+        },
+        "type": "composition"
+      }
+    },
+    "wrapper": {
+      "width": "536px"
+    },
+    "container": {
+      "value": {
+        "borderRadius": "32px",
+        "fill": "#F7F3ED"
+      },
+      "type": "composition"
+    },
+    "content": {
+      "value": {
+        "horizontalPadding": "24px",
+        "verticalPadding": "24px",
+        "layoutMode": "vertical",
+        "horizontalResizing": "fill",
+        "maxHeight": "70vh"
+      },
+      "type": "composition"
+    },
+    "footer": {
+      "wrapper": {
+        "value": {
+          "layoutMode": "vertical",
+          "itemSpacing": "16px",
+          "horizontalPadding": "24px",
+          "paddingBottom": "24px"
+        },
+        "type": "composition"
+      },
+      "content": {
+        "value": {
+          "layoutMode": "horizontal",
+          "itemSpacing": "16px"
+        },
+        "type": "composition"
+      }
+    }
+  }
+]

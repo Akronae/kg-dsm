@@ -1,5 +1,82 @@
 {
   "comp": {
+    "bottomSheet": {
+      "overlay": {
+        "value": {
+          "fill": "#0A0A0A7A",
+          "layoutMode": "vertical",
+          "layoutAlignItems": "center",
+          "horizontalResizing": "fill",
+          "verticalResizing": "fill"
+        },
+        "type": "composition"
+      },
+      "closeBar": {
+        "card": {
+          "value": {
+            "fill": "#E1DDD8",
+            "borderRadius": "24px",
+            "borderRadiusBottomLeft": "0",
+            "borderRadiusBottomRight": "0",
+            "height": "36px",
+            "layoutMode": "horizontal",
+            "layoutAlignItems": "center"
+          },
+          "type": "composition"
+        },
+        "label": {
+          "value": {
+            "typography": "{sem.typography.textStyle.label.body.sm}",
+            "fill": "#6F685D"
+          },
+          "type": "composition"
+        },
+        "notch": {
+          "value": {
+            "fill": "#6F685D",
+            "width": "40px",
+            "height": "4px",
+            "borderRadius": "999px"
+          },
+          "type": "composition"
+        }
+      },
+      "container": {
+        "value": {
+          "height": "85%",
+          "borderRadius": "24px",
+          "borderRadiusBottomLeft": "0",
+          "borderRadiusBottomRight": "0",
+          "fill": "#F7F3ED"
+        },
+        "type": "composition"
+      },
+      "content": {
+        "value": {
+          "horizontalPadding": "16px",
+          "verticalPadding": "24px",
+          "layoutMode": "vertical",
+          "horizontalResizing": "fill"
+        },
+        "type": "composition"
+      },
+      "footer": {
+        "wrapper": {
+          "value": {
+            "layoutMode": "vertical",
+            "itemSpacing": "16px"
+          },
+          "type": "composition"
+        },
+        "content": {
+          "value": {
+            "layoutMode": "horizontal",
+            "itemSpacing": "16px"
+          },
+          "type": "composition"
+        }
+      }
+    },
     "button": {
       "primary": {
         "rectangular": {
@@ -12481,6 +12558,110 @@
         }
       }
     },
+    "dialog": {
+      "root": {
+        "value": {
+          "layoutMode": "vertical",
+          "layoutAlignItems": "center",
+          "horizontalResizing": "fill",
+          "verticalResizing": "fill"
+        },
+        "type": "composition"
+      },
+      "overlay": {
+        "value": {
+          "fill": "#0A0A0A7A",
+          "horizontalResizing": "fill",
+          "verticalResizing": "fill"
+        },
+        "type": "composition"
+      },
+      "closeBar": {
+        "card": {
+          "default": {
+            "value": {
+              "fill": "#E1DDD8",
+              "borderRadius": "32px",
+              "borderRadiusBottomLeft": "0",
+              "borderRadiusBottomRight": "0",
+              "height": "36px",
+              "layoutMode": "horizontal",
+              "layoutAlignItems": "center"
+            },
+            "type": "composition"
+          },
+          "hover": {
+            "value": {
+              "fill": "#EBE8E4",
+              "borderRadius": "32px",
+              "borderRadiusBottomLeft": "0",
+              "borderRadiusBottomRight": "0",
+              "height": "36px",
+              "layoutMode": "horizontal",
+              "layoutAlignItems": "center"
+            },
+            "type": "composition"
+          },
+          "pressed": {
+            "value": {
+              "fill": "#D1CDC7",
+              "borderRadius": "32px",
+              "borderRadiusBottomLeft": "0",
+              "borderRadiusBottomRight": "0",
+              "height": "36px",
+              "layoutMode": "horizontal",
+              "layoutAlignItems": "center"
+            },
+            "type": "composition"
+          }
+        },
+        "label": {
+          "value": {
+            "typography": "{sem.typography.textStyle.label.body.sm}",
+            "fill": "#6F685D"
+          },
+          "type": "composition"
+        }
+      },
+      "wrapper": {
+        "width": "536px"
+      },
+      "container": {
+        "value": {
+          "borderRadius": "32px",
+          "fill": "#F7F3ED"
+        },
+        "type": "composition"
+      },
+      "content": {
+        "value": {
+          "horizontalPadding": "24px",
+          "verticalPadding": "24px",
+          "layoutMode": "vertical",
+          "horizontalResizing": "fill",
+          "maxHeight": "70vh"
+        },
+        "type": "composition"
+      },
+      "footer": {
+        "wrapper": {
+          "value": {
+            "layoutMode": "vertical",
+            "itemSpacing": "16px",
+            "horizontalPadding": "24px",
+            "paddingBottom": "24px"
+          },
+          "type": "composition"
+        },
+        "content": {
+          "value": {
+            "layoutMode": "horizontal",
+            "itemSpacing": "16px"
+          },
+          "type": "composition"
+        }
+      }
+    },
     "dropdown": {
       "item": {
         "sm": {
@@ -15606,222 +15787,81 @@
           }
         }
       },
-      "inputSelect": {
+      "inputPinCode": {
         "sm": {
           "uncontrasted": {
             "default": {
               "wrapper": {
                 "value": {
-                  "horizontalPadding": "none",
-                  "verticalPadding": "none",
-                  "fill": "{sem.color.surface.light}",
-                  "boxShadow": "none",
-                  "borderRadiusTopLeft": "{sem.card.base.xs.borderRadiusTopLeft}",
-                  "borderRadiusTopRight": "{sem.card.base.xs.borderRadiusTopRight}",
-                  "borderRadiusBottomRight": "{sem.card.base.xs.borderRadiusBottomRight}",
-                  "borderRadiusBottomLeft": "{sem.card.base.xs.borderRadiusBottomLeft}",
-                  "border": "{sem.border.transparent}",
-                  "itemSpacing": "none"
+                  "layoutMode": "horizontal",
+                  "itemSpacing": "8px"
                 },
-                "type": "composition",
-                "description": "({extends: 'comp.input.base.sm.uncontrasted.default.fieldWrapper'})"
+                "type": "composition"
               },
-              "textInput": {
-                "fieldWrapper": {
+              "pin": {
+                "container": {
                   "value": {
-                    "horizontalPadding": "{sem.card.base.xs.padding}",
-                    "verticalPadding": "{sem.card.base.xs.padding}",
-                    "fill": "{sem.color.surface.light}",
-                    "boxShadow": "none",
-                    "borderRadiusTopLeft": "none",
-                    "borderRadiusTopRight": "{sem.card.base.xs.borderRadiusTopRight}",
-                    "borderRadiusBottomRight": "{sem.card.base.xs.borderRadiusBottomRight}",
-                    "borderRadiusBottomLeft": "none",
-                    "border": "none",
-                    "itemSpacing": "{sem.input.base.sm.fieldWrapper.spacer}"
+                    "width": "48px",
+                    "height": "48px"
                   },
-                  "type": "composition",
-                  "description": "({extends: 'comp.input.base.sm.uncontrasted.default.fieldWrapper'})"
-                }
-              }
-            },
-            "hover": {
-              "wrapper": {
-                "value": {
-                  "horizontalPadding": "none",
-                  "verticalPadding": "none",
-                  "fill": "{sem.color.surface.light}",
-                  "boxShadow": "{sem.card.base.xs.dropShadow.hover}",
-                  "borderRadiusTopLeft": "{sem.card.base.xs.borderRadiusTopLeft}",
-                  "borderRadiusTopRight": "{sem.card.base.xs.borderRadiusTopRight}",
-                  "borderRadiusBottomRight": "{sem.card.base.xs.borderRadiusBottomRight}",
-                  "borderRadiusBottomLeft": "{sem.card.base.xs.borderRadiusBottomLeft}",
-                  "border": "{sem.border.transparent}",
-                  "itemSpacing": "none"
+                  "type": "composition"
                 },
-                "type": "composition",
-                "description": "({extends: 'comp.input.base.sm.uncontrasted.hover.fieldWrapper'})"
-              },
-              "textInput": {
-                "fieldWrapper": {
+                "text": {
                   "value": {
-                    "horizontalPadding": "{sem.card.base.xs.padding}",
-                    "verticalPadding": "{sem.card.base.xs.padding}",
-                    "fill": "{sem.color.surface.light}",
-                    "boxShadow": "none",
-                    "borderRadiusTopLeft": "none",
-                    "borderRadiusTopRight": "{sem.card.base.xs.borderRadiusTopRight}",
-                    "borderRadiusBottomRight": "{sem.card.base.xs.borderRadiusBottomRight}",
-                    "borderRadiusBottomLeft": "none",
-                    "border": "none",
-                    "itemSpacing": "{sem.input.base.sm.fieldWrapper.spacer}"
+                    "fontSize": "18px",
+                    "fontWeight": "bold"
                   },
-                  "type": "composition",
-                  "description": "({extends: 'comp.input.base.sm.uncontrasted.hover.fieldWrapper'})"
-                }
-              }
-            },
-            "pressed": {
-              "wrapper": {
-                "value": {
-                  "horizontalPadding": "none",
-                  "verticalPadding": "none",
-                  "fill": "{sem.color.surface.light}",
-                  "boxShadow": "{sem.card.base.xs.dropShadow.pressed}",
-                  "borderRadiusTopLeft": "{sem.card.base.xs.borderRadiusTopLeft}",
-                  "borderRadiusTopRight": "{sem.card.base.xs.borderRadiusTopRight}",
-                  "borderRadiusBottomRight": "{sem.card.base.xs.borderRadiusBottomRight}",
-                  "borderRadiusBottomLeft": "{sem.card.base.xs.borderRadiusBottomLeft}",
-                  "border": "{sem.border.transparent}",
-                  "itemSpacing": "none"
-                },
-                "type": "composition",
-                "description": "({extends: 'comp.input.base.sm.uncontrasted.pressed.fieldWrapper'})"
-              },
-              "textInput": {
-                "fieldWrapper": {
-                  "value": {
-                    "horizontalPadding": "{sem.card.base.xs.padding}",
-                    "verticalPadding": "{sem.card.base.xs.padding}",
-                    "fill": "{sem.color.surface.light}",
-                    "boxShadow": "none",
-                    "borderRadiusTopLeft": "none",
-                    "borderRadiusTopRight": "{sem.card.base.xs.borderRadiusTopRight}",
-                    "borderRadiusBottomRight": "{sem.card.base.xs.borderRadiusBottomRight}",
-                    "borderRadiusBottomLeft": "none",
-                    "border": "none",
-                    "itemSpacing": "{sem.input.base.sm.fieldWrapper.spacer}"
-                  },
-                  "type": "composition",
-                  "description": "({extends: 'comp.input.base.sm.uncontrasted.pressed.fieldWrapper'})"
-                }
-              }
-            },
-            "active": {
-              "wrapper": {
-                "value": {
-                  "horizontalPadding": "none",
-                  "verticalPadding": "none",
-                  "fill": "{sem.color.surface.light}",
-                  "boxShadow": "none",
-                  "borderRadiusTopLeft": "{sem.card.base.xs.borderRadiusTopLeft}",
-                  "borderRadiusTopRight": "{sem.card.base.xs.borderRadiusTopRight}",
-                  "borderRadiusBottomRight": "{sem.card.base.xs.borderRadiusBottomRight}",
-                  "borderRadiusBottomLeft": "{sem.card.base.xs.borderRadiusBottomLeft}",
-                  "border": "{sem.border.active}",
-                  "itemSpacing": "none"
-                },
-                "type": "composition",
-                "description": "({extends: 'comp.input.base.sm.uncontrasted.active.fieldWrapper'})"
-              },
-              "textInput": {
-                "fieldWrapper": {
-                  "value": {
-                    "horizontalPadding": "{sem.card.base.xs.padding}",
-                    "verticalPadding": "{sem.card.base.xs.padding}",
-                    "fill": "{sem.color.surface.light}",
-                    "boxShadow": "none",
-                    "borderRadiusTopLeft": "none",
-                    "borderRadiusTopRight": "{sem.card.base.xs.borderRadiusTopRight}",
-                    "borderRadiusBottomRight": "{sem.card.base.xs.borderRadiusBottomRight}",
-                    "borderRadiusBottomLeft": "none",
-                    "border": "none",
-                    "itemSpacing": "{sem.input.base.sm.fieldWrapper.spacer}"
-                  },
-                  "type": "composition",
-                  "description": "({extends: 'comp.input.base.sm.uncontrasted.active.fieldWrapper'})"
+                  "type": "composition"
                 }
               }
             },
             "danger": {
               "wrapper": {
                 "value": {
-                  "horizontalPadding": "none",
-                  "verticalPadding": "none",
-                  "fill": "{sem.color.surface.light}",
-                  "boxShadow": "none",
-                  "borderRadiusTopLeft": "{sem.card.base.xs.borderRadiusTopLeft}",
-                  "borderRadiusTopRight": "{sem.card.base.xs.borderRadiusTopRight}",
-                  "borderRadiusBottomRight": "{sem.card.base.xs.borderRadiusBottomRight}",
-                  "borderRadiusBottomLeft": "{sem.card.base.xs.borderRadiusBottomLeft}",
-                  "border": "{sem.border.danger}",
-                  "itemSpacing": "none"
+                  "layoutMode": "horizontal",
+                  "itemSpacing": "8px"
                 },
-                "type": "composition",
-                "description": "({extends: 'comp.input.base.sm.uncontrasted.danger.fieldWrapper'})"
+                "type": "composition"
               },
-              "textInput": {
-                "fieldWrapper": {
+              "pin": {
+                "container": {
                   "value": {
-                    "horizontalPadding": "{sem.card.base.xs.padding}",
-                    "verticalPadding": "{sem.card.base.xs.padding}",
-                    "fill": "{sem.color.surface.light}",
-                    "boxShadow": "none",
-                    "borderRadiusTopLeft": "none",
-                    "borderRadiusTopRight": "{sem.card.base.xs.borderRadiusTopRight}",
-                    "borderRadiusBottomRight": "{sem.card.base.xs.borderRadiusBottomRight}",
-                    "borderRadiusBottomLeft": "none",
-                    "border": "none",
-                    "itemSpacing": "{sem.input.base.sm.fieldWrapper.spacer}"
+                    "width": "48px",
+                    "height": "48px"
                   },
-                  "type": "composition",
-                  "description": "({extends: 'comp.input.base.sm.uncontrasted.danger.fieldWrapper'})"
+                  "type": "composition"
+                },
+                "text": {
+                  "value": {
+                    "fontSize": "18px",
+                    "fontWeight": "bold"
+                  },
+                  "type": "composition"
                 }
               }
             },
             "disabled": {
               "wrapper": {
                 "value": {
-                  "horizontalPadding": "none",
-                  "verticalPadding": "none",
-                  "fill": "{sem.color.surface.disabled}",
-                  "boxShadow": "none",
-                  "borderRadiusTopLeft": "{sem.card.base.xs.borderRadiusTopLeft}",
-                  "borderRadiusTopRight": "{sem.card.base.xs.borderRadiusTopRight}",
-                  "borderRadiusBottomRight": "{sem.card.base.xs.borderRadiusBottomRight}",
-                  "borderRadiusBottomLeft": "{sem.card.base.xs.borderRadiusBottomLeft}",
-                  "border": "{sem.border.transparent}",
-                  "itemSpacing": "none"
+                  "layoutMode": "horizontal",
+                  "itemSpacing": "8px"
                 },
-                "type": "composition",
-                "description": "({extends: 'comp.input.base.sm.uncontrasted.disabled.fieldWrapper'})"
+                "type": "composition"
               },
-              "textInput": {
-                "fieldWrapper": {
+              "pin": {
+                "container": {
                   "value": {
-                    "horizontalPadding": "{sem.card.base.xs.padding}",
-                    "verticalPadding": "{sem.card.base.xs.padding}",
-                    "fill": "{sem.color.surface.disabled}",
-                    "boxShadow": "none",
-                    "borderRadiusTopLeft": "none",
-                    "borderRadiusTopRight": "{sem.card.base.xs.borderRadiusTopRight}",
-                    "borderRadiusBottomRight": "{sem.card.base.xs.borderRadiusBottomRight}",
-                    "borderRadiusBottomLeft": "none",
-                    "border": "none",
-                    "itemSpacing": "{sem.input.base.sm.fieldWrapper.spacer}"
+                    "width": "48px",
+                    "height": "48px"
                   },
-                  "type": "composition",
-                  "description": "({extends: 'comp.input.base.sm.uncontrasted.disabled.fieldWrapper'})"
+                  "type": "composition"
+                },
+                "text": {
+                  "value": {
+                    "fontSize": "18px",
+                    "fontWeight": "bold"
+                  },
+                  "type": "composition"
                 }
               }
             }
@@ -15830,20 +15870,102 @@
             "default": {
               "wrapper": {
                 "value": {
-                  "horizontalPadding": "none",
-                  "verticalPadding": "none",
-                  "fill": "{sem.color.surface.diminished}",
-                  "boxShadow": "none",
-                  "borderRadiusTopLeft": "{sem.card.base.xs.borderRadiusTopLeft}",
-                  "borderRadiusTopRight": "{sem.card.base.xs.borderRadiusTopRight}",
-                  "borderRadiusBottomRight": "{sem.card.base.xs.borderRadiusBottomRight}",
-                  "borderRadiusBottomLeft": "{sem.card.base.xs.borderRadiusBottomLeft}",
-                  "border": "{sem.border.interactive.default}",
-                  "itemSpacing": "none"
+                  "layoutMode": "horizontal",
+                  "itemSpacing": "8px"
                 },
-                "type": "composition",
-                "description": "({extends: 'comp.input.base.sm.contrasted.default.fieldWrapper'})"
+                "type": "composition"
               },
+              "pin": {
+                "container": {
+                  "value": {
+                    "width": "48px",
+                    "height": "48px"
+                  },
+                  "type": "composition"
+                },
+                "text": {
+                  "value": {
+                    "fontSize": "18px",
+                    "fontWeight": "bold"
+                  },
+                  "type": "composition"
+                }
+              }
+            },
+            "danger": {
+              "wrapper": {
+                "value": {
+                  "layoutMode": "horizontal",
+                  "itemSpacing": "8px"
+                },
+                "type": "composition"
+              },
+              "pin": {
+                "container": {
+                  "value": {
+                    "width": "48px",
+                    "height": "48px"
+                  },
+                  "type": "composition"
+                },
+                "text": {
+                  "value": {
+                    "fontSize": "18px",
+                    "fontWeight": "bold"
+                  },
+                  "type": "composition"
+                }
+              }
+            },
+            "disabled": {
+              "wrapper": {
+                "value": {
+                  "layoutMode": "horizontal",
+                  "itemSpacing": "8px"
+                },
+                "type": "composition"
+              },
+              "pin": {
+                "container": {
+                  "value": {
+                    "width": "48px",
+                    "height": "48px"
+                  },
+                  "type": "composition"
+                },
+                "text": {
+                  "value": {
+                    "fontSize": "18px",
+                    "fontWeight": "bold"
+                  },
+                  "type": "composition"
+                }
+              }
+            }
+          }
+        },
+        "md": {
+          "uncontrasted": {
+            "default": {
+              "wrapper": {
+                "value": {
+                  "layoutMode": "horizontal",
+                  "itemSpacing": "8px"
+                },
+                "type": "composition"
+              },
+              "pin": {
+                "container": {
+                  "value": {
+                    "width": "48px",
+                    "height": "48px"
+                  },
+                  "type": "composition"
+                },
+                "text": {
+                  "value": {
+                    "fontSize": "18px",
+                    "fontWeight": "bold"
               "textInput": {
                 "fieldWrapper": {
                   "value": {
@@ -16404,533 +16526,150 @@
                     "border": "none",
                     "itemSpacing": "{sem.input.base.md.fieldWrapper.spacer}"
                   },
-                  "type": "composition",
-                  "description": "({extends: 'comp.input.base.md.contrasted.active.fieldWrapper'})"
+                  "type": "composition"
                 }
               }
             },
             "danger": {
               "wrapper": {
                 "value": {
-                  "horizontalPadding": "none",
-                  "verticalPadding": "none",
-                  "fill": "{sem.color.surface.diminished}",
-                  "boxShadow": "none",
-                  "borderRadiusTopLeft": "{sem.card.base.sm.borderRadiusTopLeft}",
-                  "borderRadiusTopRight": "{sem.card.base.sm.borderRadiusTopRight}",
-                  "borderRadiusBottomRight": "{sem.card.base.sm.borderRadiusBottomRight}",
-                  "borderRadiusBottomLeft": "{sem.card.base.sm.borderRadiusBottomLeft}",
-                  "border": "{sem.border.danger}",
-                  "itemSpacing": "none"
+                  "layoutMode": "horizontal",
+                  "itemSpacing": "8px"
                 },
-                "type": "composition",
-                "description": "({extends: 'comp.input.base.md.contrasted.danger.fieldWrapper'})"
+                "type": "composition"
               },
-              "textInput": {
-                "fieldWrapper": {
+              "pin": {
+                "container": {
                   "value": {
-                    "horizontalPadding": "{sem.card.base.sm.padding}",
-                    "verticalPadding": "{sem.card.base.sm.padding}",
-                    "fill": "{sem.color.surface.diminished}",
-                    "boxShadow": "none",
-                    "borderRadiusTopLeft": "none",
-                    "borderRadiusTopRight": "{sem.card.base.sm.borderRadiusTopRight}",
-                    "borderRadiusBottomRight": "{sem.card.base.sm.borderRadiusBottomRight}",
-                    "borderRadiusBottomLeft": "none",
-                    "border": "none",
-                    "itemSpacing": "{sem.input.base.md.fieldWrapper.spacer}"
+                    "width": "48px",
+                    "height": "48px"
                   },
-                  "type": "composition",
-                  "description": "({extends: 'comp.input.base.md.contrasted.danger.fieldWrapper'})"
+                  "type": "composition"
+                },
+                "text": {
+                  "value": {
+                    "fontSize": "18px",
+                    "fontWeight": "bold"
+                  },
+                  "type": "composition"
                 }
               }
             },
             "disabled": {
               "wrapper": {
                 "value": {
-                  "horizontalPadding": "none",
-                  "verticalPadding": "none",
-                  "fill": "{sem.color.surface.disabled}",
-                  "boxShadow": "none",
-                  "borderRadiusTopLeft": "{sem.card.base.sm.borderRadiusTopLeft}",
-                  "borderRadiusTopRight": "{sem.card.base.sm.borderRadiusTopRight}",
-                  "borderRadiusBottomRight": "{sem.card.base.sm.borderRadiusBottomRight}",
-                  "borderRadiusBottomLeft": "{sem.card.base.sm.borderRadiusBottomLeft}",
-                  "border": "{sem.border.interactive.disabled}",
-                  "itemSpacing": "none"
+                  "layoutMode": "horizontal",
+                  "itemSpacing": "8px"
                 },
-                "type": "composition",
-                "description": "({extends: 'comp.input.base.md.contrasted.disabled.fieldWrapper'})"
+                "type": "composition"
               },
-              "textInput": {
-                "fieldWrapper": {
+              "pin": {
+                "container": {
                   "value": {
-                    "horizontalPadding": "{sem.card.base.sm.padding}",
-                    "verticalPadding": "{sem.card.base.sm.padding}",
-                    "fill": "{sem.color.surface.disabled}",
-                    "boxShadow": "none",
-                    "borderRadiusTopLeft": "none",
-                    "borderRadiusTopRight": "{sem.card.base.sm.borderRadiusTopRight}",
-                    "borderRadiusBottomRight": "{sem.card.base.sm.borderRadiusBottomRight}",
-                    "borderRadiusBottomLeft": "none",
-                    "border": "none",
-                    "itemSpacing": "{sem.input.base.md.fieldWrapper.spacer}"
+                    "width": "48px",
+                    "height": "48px"
                   },
-                  "type": "composition",
-                  "description": "({extends: 'comp.input.base.md.contrasted.disabled.fieldWrapper'})"
-                }
-              }
-            }
-          }
-        },
-        "select": {
-          "sm": {
-            "uncontrasted": {
-              "default": {
-                "fieldWrapper": {
+                  "type": "composition"
+                },
+                "text": {
                   "value": {
-                    "horizontalPadding": "{sem.card.base.xs.padding}",
-                    "verticalPadding": "{sem.card.base.xs.padding}",
-                    "fill": "{sem.color.surface.diminished}",
-                    "boxShadow": "none",
-                    "borderRadiusTopLeft": "{sem.card.base.xs.borderRadiusTopLeft}",
-                    "borderRadiusTopRight": "none",
-                    "borderRadiusBottomRight": "none",
-                    "borderRadiusBottomLeft": "{sem.card.base.xs.borderRadiusBottomLeft}",
-                    "border": "none",
-                    "itemSpacing": "{sem.input.base.sm.fieldWrapper.spacer}"
+                    "fontSize": "18px",
+                    "fontWeight": "bold"
                   },
-                  "type": "composition",
-                  "description": "({extends: 'comp.input.select.sm.contrasted.default.fieldWrapper'})"
-                }
-              },
-              "hover": {
-                "fieldWrapper": {
-                  "value": {
-                    "horizontalPadding": "{sem.card.base.xs.padding}",
-                    "verticalPadding": "{sem.card.base.xs.padding}",
-                    "fill": "{sem.color.surface.diminished}",
-                    "boxShadow": "{sem.card.base.xs.dropShadow.hover}",
-                    "borderRadiusTopLeft": "{sem.card.base.xs.borderRadiusTopLeft}",
-                    "borderRadiusTopRight": "none",
-                    "borderRadiusBottomRight": "none",
-                    "borderRadiusBottomLeft": "{sem.card.base.xs.borderRadiusBottomLeft}",
-                    "border": "none",
-                    "itemSpacing": "{sem.input.base.sm.fieldWrapper.spacer}"
-                  },
-                  "type": "composition",
-                  "description": "({extends: 'comp.input.select.sm.contrasted.hover.fieldWrapper'})"
-                }
-              },
-              "pressed": {
-                "fieldWrapper": {
-                  "value": {
-                    "horizontalPadding": "{sem.card.base.xs.padding}",
-                    "verticalPadding": "{sem.card.base.xs.padding}",
-                    "fill": "{sem.color.surface.diminished}",
-                    "boxShadow": "{sem.card.base.xs.dropShadow.pressed}",
-                    "borderRadiusTopLeft": "{sem.card.base.xs.borderRadiusTopLeft}",
-                    "borderRadiusTopRight": "none",
-                    "borderRadiusBottomRight": "none",
-                    "borderRadiusBottomLeft": "{sem.card.base.xs.borderRadiusBottomLeft}",
-                    "border": "none",
-                    "itemSpacing": "{sem.input.base.sm.fieldWrapper.spacer}"
-                  },
-                  "type": "composition",
-                  "description": "({extends: 'comp.input.select.sm.contrasted.pressed.fieldWrapper'})"
-                }
-              },
-              "active": {
-                "fieldWrapper": {
-                  "value": {
-                    "horizontalPadding": "{sem.card.base.xs.padding}",
-                    "verticalPadding": "{sem.card.base.xs.padding}",
-                    "fill": "{sem.color.surface.diminished}",
-                    "boxShadow": "none",
-                    "borderRadiusTopLeft": "{sem.card.base.xs.borderRadiusTopLeft}",
-                    "borderRadiusTopRight": "none",
-                    "borderRadiusBottomRight": "none",
-                    "borderRadiusBottomLeft": "{sem.card.base.xs.borderRadiusBottomLeft}",
-                    "border": "none",
-                    "itemSpacing": "{sem.input.base.sm.fieldWrapper.spacer}"
-                  },
-                  "type": "composition",
-                  "description": "({extends: 'comp.input.select.sm.contrasted.active.fieldWrapper'})"
-                }
-              },
-              "danger": {
-                "fieldWrapper": {
-                  "value": {
-                    "horizontalPadding": "{sem.card.base.xs.padding}",
-                    "verticalPadding": "{sem.card.base.xs.padding}",
-                    "fill": "{sem.color.surface.diminished}",
-                    "boxShadow": "none",
-                    "borderRadiusTopLeft": "{sem.card.base.xs.borderRadiusTopLeft}",
-                    "borderRadiusTopRight": "none",
-                    "borderRadiusBottomRight": "none",
-                    "borderRadiusBottomLeft": "{sem.card.base.xs.borderRadiusBottomLeft}",
-                    "border": "none",
-                    "itemSpacing": "{sem.input.base.sm.fieldWrapper.spacer}"
-                  },
-                  "type": "composition",
-                  "description": "({extends: 'comp.input.select.sm.contrasted.danger.fieldWrapper'})"
-                }
-              },
-              "disabled": {
-                "fieldWrapper": {
-                  "value": {
-                    "horizontalPadding": "{sem.card.base.xs.padding}",
-                    "verticalPadding": "{sem.card.base.xs.padding}",
-                    "fill": "{sem.color.surface.disabled}",
-                    "boxShadow": "none",
-                    "borderRadiusTopLeft": "{sem.card.base.xs.borderRadiusTopLeft}",
-                    "borderRadiusTopRight": "none",
-                    "borderRadiusBottomRight": "none",
-                    "borderRadiusBottomLeft": "{sem.card.base.xs.borderRadiusBottomLeft}",
-                    "border": "none",
-                    "itemSpacing": "{sem.input.base.sm.fieldWrapper.spacer}"
-                  },
-                  "type": "composition",
-                  "description": "({extends: 'comp.input.select.sm.contrasted.disabled.fieldWrapper'})"
-                }
-              }
-            },
-            "contrasted": {
-              "default": {
-                "fieldWrapper": {
-                  "value": {
-                    "horizontalPadding": "{sem.card.base.xs.padding}",
-                    "verticalPadding": "{sem.card.base.xs.padding}",
-                    "fill": "{sem.color.surface.light}",
-                    "boxShadow": "none",
-                    "borderRadiusTopLeft": "{sem.card.base.xs.borderRadiusTopLeft}",
-                    "borderRadiusTopRight": "none",
-                    "borderRadiusBottomRight": "none",
-                    "borderRadiusBottomLeft": "{sem.card.base.xs.borderRadiusBottomLeft}",
-                    "border": "none",
-                    "itemSpacing": "{sem.input.base.sm.fieldWrapper.spacer}"
-                  },
-                  "type": "composition",
-                  "description": "({extends: 'comp.input.select.sm.uncontrasted.default.fieldWrapper'})"
-                }
-              },
-              "hover": {
-                "fieldWrapper": {
-                  "value": {
-                    "horizontalPadding": "{sem.card.base.xs.padding}",
-                    "verticalPadding": "{sem.card.base.xs.padding}",
-                    "fill": "{sem.color.surface.light}",
-                    "boxShadow": "{sem.card.base.xs.dropShadow.hover}",
-                    "borderRadiusTopLeft": "{sem.card.base.xs.borderRadiusTopLeft}",
-                    "borderRadiusTopRight": "none",
-                    "borderRadiusBottomRight": "none",
-                    "borderRadiusBottomLeft": "{sem.card.base.xs.borderRadiusBottomLeft}",
-                    "border": "none",
-                    "itemSpacing": "{sem.input.base.sm.fieldWrapper.spacer}"
-                  },
-                  "type": "composition",
-                  "description": "({extends: 'comp.input.select.sm.uncontrasted.hover.fieldWrapper'})"
-                }
-              },
-              "pressed": {
-                "fieldWrapper": {
-                  "value": {
-                    "horizontalPadding": "{sem.card.base.xs.padding}",
-                    "verticalPadding": "{sem.card.base.xs.padding}",
-                    "fill": "{sem.color.surface.light}",
-                    "boxShadow": "{sem.card.base.xs.dropShadow.pressed}",
-                    "borderRadiusTopLeft": "{sem.card.base.xs.borderRadiusTopLeft}",
-                    "borderRadiusTopRight": "none",
-                    "borderRadiusBottomRight": "none",
-                    "borderRadiusBottomLeft": "{sem.card.base.xs.borderRadiusBottomLeft}",
-                    "border": "none",
-                    "itemSpacing": "{sem.input.base.sm.fieldWrapper.spacer}"
-                  },
-                  "type": "composition",
-                  "description": "({extends: 'comp.input.select.sm.uncontrasted.pressed.fieldWrapper'})"
-                }
-              },
-              "active": {
-                "fieldWrapper": {
-                  "value": {
-                    "horizontalPadding": "{sem.card.base.xs.padding}",
-                    "verticalPadding": "{sem.card.base.xs.padding}",
-                    "fill": "{sem.color.surface.light}",
-                    "boxShadow": "none",
-                    "borderRadiusTopLeft": "{sem.card.base.xs.borderRadiusTopLeft}",
-                    "borderRadiusTopRight": "none",
-                    "borderRadiusBottomRight": "none",
-                    "borderRadiusBottomLeft": "{sem.card.base.xs.borderRadiusBottomLeft}",
-                    "border": "none",
-                    "itemSpacing": "{sem.input.base.sm.fieldWrapper.spacer}"
-                  },
-                  "type": "composition",
-                  "description": "({extends: 'comp.input.select.sm.uncontrasted.active.fieldWrapper'})"
-                }
-              },
-              "danger": {
-                "fieldWrapper": {
-                  "value": {
-                    "horizontalPadding": "{sem.card.base.xs.padding}",
-                    "verticalPadding": "{sem.card.base.xs.padding}",
-                    "fill": "{sem.color.surface.light}",
-                    "boxShadow": "none",
-                    "borderRadiusTopLeft": "{sem.card.base.xs.borderRadiusTopLeft}",
-                    "borderRadiusTopRight": "none",
-                    "borderRadiusBottomRight": "none",
-                    "borderRadiusBottomLeft": "{sem.card.base.xs.borderRadiusBottomLeft}",
-                    "border": "none",
-                    "itemSpacing": "{sem.input.base.sm.fieldWrapper.spacer}"
-                  },
-                  "type": "composition",
-                  "description": "({extends: 'comp.input.select.sm.uncontrasted.danger.fieldWrapper'})"
-                }
-              },
-              "disabled": {
-                "fieldWrapper": {
-                  "value": {
-                    "horizontalPadding": "{sem.card.base.xs.padding}",
-                    "verticalPadding": "{sem.card.base.xs.padding}",
-                    "fill": "{sem.color.surface.disabled}",
-                    "boxShadow": "none",
-                    "borderRadiusTopLeft": "{sem.card.base.xs.borderRadiusTopLeft}",
-                    "borderRadiusTopRight": "none",
-                    "borderRadiusBottomRight": "none",
-                    "borderRadiusBottomLeft": "{sem.card.base.xs.borderRadiusBottomLeft}",
-                    "border": "none",
-                    "itemSpacing": "{sem.input.base.sm.fieldWrapper.spacer}"
-                  },
-                  "type": "composition",
-                  "description": "({extends: 'comp.input.select.sm.uncontrasted.disabled.fieldWrapper'})"
+                  "type": "composition"
                 }
               }
             }
           },
-          "md": {
-            "uncontrasted": {
-              "default": {
-                "fieldWrapper": {
-                  "value": {
-                    "horizontalPadding": "{sem.card.base.sm.padding}",
-                    "verticalPadding": "{sem.card.base.sm.padding}",
-                    "fill": "{sem.color.surface.diminished}",
-                    "boxShadow": "none",
-                    "borderRadiusTopLeft": "{sem.card.base.sm.borderRadiusTopLeft}",
-                    "borderRadiusTopRight": "none",
-                    "borderRadiusBottomRight": "none",
-                    "borderRadiusBottomLeft": "{sem.card.base.sm.borderRadiusBottomLeft}",
-                    "border": "none",
-                    "itemSpacing": "{sem.input.base.md.fieldWrapper.spacer}"
-                  },
-                  "type": "composition",
-                  "description": "({extends: 'comp.input.select.md.contrasted.default.fieldWrapper'})"
-                }
+          "contrasted": {
+            "default": {
+              "wrapper": {
+                "value": {
+                  "layoutMode": "horizontal",
+                  "itemSpacing": "8px"
+                },
+                "type": "composition"
               },
-              "hover": {
-                "fieldWrapper": {
+              "pin": {
+                "container": {
                   "value": {
-                    "horizontalPadding": "{sem.card.base.sm.padding}",
-                    "verticalPadding": "{sem.card.base.sm.padding}",
-                    "fill": "{sem.color.surface.diminished}",
-                    "boxShadow": "{sem.card.base.sm.dropShadow.hover}",
-                    "borderRadiusTopLeft": "{sem.card.base.sm.borderRadiusTopLeft}",
-                    "borderRadiusTopRight": "none",
-                    "borderRadiusBottomRight": "none",
-                    "borderRadiusBottomLeft": "{sem.card.base.sm.borderRadiusBottomLeft}",
-                    "border": "none",
-                    "itemSpacing": "{sem.input.base.md.fieldWrapper.spacer}"
+                    "width": "48px",
+                    "height": "48px"
                   },
-                  "type": "composition",
-                  "description": "({extends: 'comp.input.select.md.contrasted.hover.fieldWrapper'})"
-                }
-              },
-              "pressed": {
-                "fieldWrapper": {
+                  "type": "composition"
+                },
+                "text": {
                   "value": {
-                    "horizontalPadding": "{sem.card.base.sm.padding}",
-                    "verticalPadding": "{sem.card.base.sm.padding}",
-                    "fill": "{sem.color.surface.diminished}",
-                    "boxShadow": "{sem.card.base.sm.dropShadow.pressed}",
-                    "borderRadiusTopLeft": "{sem.card.base.sm.borderRadiusTopLeft}",
-                    "borderRadiusTopRight": "none",
-                    "borderRadiusBottomRight": "none",
-                    "borderRadiusBottomLeft": "{sem.card.base.sm.borderRadiusBottomLeft}",
-                    "border": "none",
-                    "itemSpacing": "{sem.input.base.md.fieldWrapper.spacer}"
+                    "fontSize": "18px",
+                    "fontWeight": "bold"
                   },
-                  "type": "composition",
-                  "description": "({extends: 'comp.input.select.md.contrasted.pressed.fieldWrapper'})"
-                }
-              },
-              "active": {
-                "fieldWrapper": {
-                  "value": {
-                    "horizontalPadding": "{sem.card.base.sm.padding}",
-                    "verticalPadding": "{sem.card.base.sm.padding}",
-                    "fill": "{sem.color.surface.diminished}",
-                    "boxShadow": "none",
-                    "borderRadiusTopLeft": "{sem.card.base.sm.borderRadiusTopLeft}",
-                    "borderRadiusTopRight": "none",
-                    "borderRadiusBottomRight": "none",
-                    "borderRadiusBottomLeft": "{sem.card.base.sm.borderRadiusBottomLeft}",
-                    "border": "none",
-                    "itemSpacing": "{sem.input.base.md.fieldWrapper.spacer}"
-                  },
-                  "type": "composition",
-                  "description": "({extends: 'comp.input.select.md.contrasted.active.fieldWrapper'})"
-                }
-              },
-              "danger": {
-                "fieldWrapper": {
-                  "value": {
-                    "horizontalPadding": "{sem.card.base.sm.padding}",
-                    "verticalPadding": "{sem.card.base.sm.padding}",
-                    "fill": "{sem.color.surface.diminished}",
-                    "boxShadow": "none",
-                    "borderRadiusTopLeft": "{sem.card.base.sm.borderRadiusTopLeft}",
-                    "borderRadiusTopRight": "none",
-                    "borderRadiusBottomRight": "none",
-                    "borderRadiusBottomLeft": "{sem.card.base.sm.borderRadiusBottomLeft}",
-                    "border": "none",
-                    "itemSpacing": "{sem.input.base.md.fieldWrapper.spacer}"
-                  },
-                  "type": "composition",
-                  "description": "({extends: 'comp.input.select.md.contrasted.danger.fieldWrapper'})"
-                }
-              },
-              "disabled": {
-                "fieldWrapper": {
-                  "value": {
-                    "horizontalPadding": "{sem.card.base.sm.padding}",
-                    "verticalPadding": "{sem.card.base.sm.padding}",
-                    "fill": "{sem.color.surface.disabled}",
-                    "boxShadow": "none",
-                    "borderRadiusTopLeft": "{sem.card.base.sm.borderRadiusTopLeft}",
-                    "borderRadiusTopRight": "none",
-                    "borderRadiusBottomRight": "none",
-                    "borderRadiusBottomLeft": "{sem.card.base.sm.borderRadiusBottomLeft}",
-                    "border": "none",
-                    "itemSpacing": "{sem.input.base.md.fieldWrapper.spacer}"
-                  },
-                  "type": "composition",
-                  "description": "({extends: 'comp.input.select.md.contrasted.disabled.fieldWrapper'})"
+                  "type": "composition"
                 }
               }
             },
-            "contrasted": {
-              "default": {
-                "fieldWrapper": {
-                  "value": {
-                    "horizontalPadding": "{sem.card.base.sm.padding}",
-                    "verticalPadding": "{sem.card.base.sm.padding}",
-                    "fill": "{sem.color.surface.light}",
-                    "boxShadow": "none",
-                    "borderRadiusTopLeft": "{sem.card.base.sm.borderRadiusTopLeft}",
-                    "borderRadiusTopRight": "none",
-                    "borderRadiusBottomRight": "none",
-                    "borderRadiusBottomLeft": "{sem.card.base.sm.borderRadiusBottomLeft}",
-                    "border": "none",
-                    "itemSpacing": "{sem.input.base.md.fieldWrapper.spacer}"
-                  },
-                  "type": "composition",
-                  "description": "({extends: 'comp.input.select.md.uncontrasted.default.fieldWrapper'})"
-                }
+            "danger": {
+              "wrapper": {
+                "value": {
+                  "layoutMode": "horizontal",
+                  "itemSpacing": "8px"
+                },
+                "type": "composition"
               },
-              "hover": {
-                "fieldWrapper": {
+              "pin": {
+                "container": {
                   "value": {
-                    "horizontalPadding": "{sem.card.base.sm.padding}",
-                    "verticalPadding": "{sem.card.base.sm.padding}",
-                    "fill": "{sem.color.surface.light}",
-                    "boxShadow": "{sem.card.base.sm.dropShadow.hover}",
-                    "borderRadiusTopLeft": "{sem.card.base.sm.borderRadiusTopLeft}",
-                    "borderRadiusTopRight": "none",
-                    "borderRadiusBottomRight": "none",
-                    "borderRadiusBottomLeft": "{sem.card.base.sm.borderRadiusBottomLeft}",
-                    "border": "none",
-                    "itemSpacing": "{sem.input.base.md.fieldWrapper.spacer}"
+                    "width": "48px",
+                    "height": "48px"
                   },
-                  "type": "composition",
-                  "description": "({extends: 'comp.input.select.md.uncontrasted.hover.fieldWrapper'})"
+                  "type": "composition"
+                },
+                "text": {
+                  "value": {
+                    "fontSize": "18px",
+                    "fontWeight": "bold"
+                  },
+                  "type": "composition"
                 }
+              }
+            },
+            "disabled": {
+              "wrapper": {
+                "value": {
+                  "layoutMode": "horizontal",
+                  "itemSpacing": "8px"
+                },
+                "type": "composition"
               },
-              "pressed": {
-                "fieldWrapper": {
+              "pin": {
+                "container": {
                   "value": {
-                    "horizontalPadding": "{sem.card.base.sm.padding}",
-                    "verticalPadding": "{sem.card.base.sm.padding}",
-                    "fill": "{sem.color.surface.light}",
-                    "boxShadow": "{sem.card.base.sm.dropShadow.pressed}",
-                    "borderRadiusTopLeft": "{sem.card.base.sm.borderRadiusTopLeft}",
-                    "borderRadiusTopRight": "none",
-                    "borderRadiusBottomRight": "none",
-                    "borderRadiusBottomLeft": "{sem.card.base.sm.borderRadiusBottomLeft}",
-                    "border": "none",
-                    "itemSpacing": "{sem.input.base.md.fieldWrapper.spacer}"
+                    "width": "48px",
+                    "height": "48px"
                   },
-                  "type": "composition",
-                  "description": "({extends: 'comp.input.select.md.uncontrasted.pressed.fieldWrapper'})"
-                }
-              },
-              "active": {
-                "fieldWrapper": {
+                  "type": "composition"
+                },
+                "text": {
                   "value": {
-                    "horizontalPadding": "{sem.card.base.sm.padding}",
-                    "verticalPadding": "{sem.card.base.sm.padding}",
-                    "fill": "{sem.color.surface.light}",
-                    "boxShadow": "none",
-                    "borderRadiusTopLeft": "{sem.card.base.sm.borderRadiusTopLeft}",
-                    "borderRadiusTopRight": "none",
-                    "borderRadiusBottomRight": "none",
-                    "borderRadiusBottomLeft": "{sem.card.base.sm.borderRadiusBottomLeft}",
-                    "border": "none",
-                    "itemSpacing": "{sem.input.base.md.fieldWrapper.spacer}"
+                    "fontSize": "18px",
+                    "fontWeight": "bold"
                   },
-                  "type": "composition",
-                  "description": "({extends: 'comp.input.select.md.uncontrasted.active.fieldWrapper'})"
-                }
-              },
-              "danger": {
-                "fieldWrapper": {
-                  "value": {
-                    "horizontalPadding": "{sem.card.base.sm.padding}",
-                    "verticalPadding": "{sem.card.base.sm.padding}",
-                    "fill": "{sem.color.surface.light}",
-                    "boxShadow": "none",
-                    "borderRadiusTopLeft": "{sem.card.base.sm.borderRadiusTopLeft}",
-                    "borderRadiusTopRight": "none",
-                    "borderRadiusBottomRight": "none",
-                    "borderRadiusBottomLeft": "{sem.card.base.sm.borderRadiusBottomLeft}",
-                    "border": "none",
-                    "itemSpacing": "{sem.input.base.md.fieldWrapper.spacer}"
-                  },
-                  "type": "composition",
-                  "description": "({extends: 'comp.input.select.md.uncontrasted.danger.fieldWrapper'})"
-                }
-              },
-              "disabled": {
-                "fieldWrapper": {
-                  "value": {
-                    "horizontalPadding": "{sem.card.base.sm.padding}",
-                    "verticalPadding": "{sem.card.base.sm.padding}",
-                    "fill": "{sem.color.surface.disabled}",
-                    "boxShadow": "none",
-                    "borderRadiusTopLeft": "{sem.card.base.sm.borderRadiusTopLeft}",
-                    "borderRadiusTopRight": "none",
-                    "borderRadiusBottomRight": "none",
-                    "borderRadiusBottomLeft": "{sem.card.base.sm.borderRadiusBottomLeft}",
-                    "border": "none",
-                    "itemSpacing": "{sem.input.base.md.fieldWrapper.spacer}"
-                  },
-                  "type": "composition",
-                  "description": "({extends: 'comp.input.select.md.uncontrasted.disabled.fieldWrapper'})"
+                  "type": "composition"
                 }
               }
             }
           }
         }
       },
-      "select": {
+      "inputSelect": {
+        "wrapper": {
+          "value": {
+            "layoutMode": "horizontal",
+            "itemSpacing": "{sem.input.inputSelect.wrapper.spacing}"
+          },
+          "type": "composition"
+        }
+      },
+      "inputText": {
         "sm": {
           "uncontrasted": {
             "default": {
@@ -18744,7 +18483,7 @@
           }
         }
       },
-      "inputText": {
+      "select": {
         "sm": {
           "uncontrasted": {
             "default": {
@@ -22073,7 +21812,8 @@
                   "borderRadiusTopRight": "{sem.card.base.md.borderRadiusTopRight}",
                   "borderRadiusBottomRight": "{sem.card.base.md.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.base.md.borderRadiusBottomLeft}",
-                  "border": "{sem.border.transparent}"
+                  "border": "{sem.border.transparent}",
+                  "horizontalResizing": "fill"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.card.base.md.uncontrasted.default'})"
@@ -22090,7 +21830,8 @@
                   "borderRadiusTopRight": "{sem.card.base.md.borderRadiusTopRight}",
                   "borderRadiusBottomRight": "{sem.card.base.md.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.base.md.borderRadiusBottomLeft}",
-                  "border": "{sem.border.interactive.default}"
+                  "border": "{sem.border.interactive.default}",
+                  "horizontalResizing": "fill"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.card.base.md.contrasted.default'})"
@@ -22109,7 +21850,8 @@
                   "borderRadiusTopRight": "{sem.card.base.md.borderRadiusTopRight}",
                   "borderRadiusBottomRight": "{sem.card.base.md.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.base.md.borderRadiusBottomLeft}",
-                  "border": "{sem.border.transparent}"
+                  "border": "{sem.border.transparent}",
+                  "horizontalResizing": "fill"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.card.base.md.uncontrasted.hover'})"
@@ -22126,7 +21868,8 @@
                   "borderRadiusTopRight": "{sem.card.base.md.borderRadiusTopRight}",
                   "borderRadiusBottomRight": "{sem.card.base.md.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.base.md.borderRadiusBottomLeft}",
-                  "border": "{sem.border.interactive.hover}"
+                  "border": "{sem.border.interactive.hover}",
+                  "horizontalResizing": "fill"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.card.base.md.contrasted.hover'})"
@@ -22145,7 +21888,8 @@
                   "borderRadiusTopRight": "{sem.card.base.md.borderRadiusTopRight}",
                   "borderRadiusBottomRight": "{sem.card.base.md.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.base.md.borderRadiusBottomLeft}",
-                  "border": "{sem.border.transparent}"
+                  "border": "{sem.border.transparent}",
+                  "horizontalResizing": "fill"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.card.base.md.uncontrasted.pressed'})"
@@ -22162,7 +21906,8 @@
                   "borderRadiusTopRight": "{sem.card.base.md.borderRadiusTopRight}",
                   "borderRadiusBottomRight": "{sem.card.base.md.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.base.md.borderRadiusBottomLeft}",
-                  "border": "{sem.border.interactive.pressed}"
+                  "border": "{sem.border.interactive.pressed}",
+                  "horizontalResizing": "fill"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.card.base.md.contrasted.pressed'})"
@@ -22181,7 +21926,8 @@
                   "borderRadiusTopRight": "{sem.card.base.md.borderRadiusTopRight}",
                   "borderRadiusBottomRight": "{sem.card.base.md.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.base.md.borderRadiusBottomLeft}",
-                  "border": "{sem.border.active}"
+                  "border": "{sem.border.active}",
+                  "horizontalResizing": "fill"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.card.base.md.uncontrasted.active'})"
@@ -22198,7 +21944,8 @@
                   "borderRadiusTopRight": "{sem.card.base.md.borderRadiusTopRight}",
                   "borderRadiusBottomRight": "{sem.card.base.md.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.base.md.borderRadiusBottomLeft}",
-                  "border": "{sem.border.interactive.active}"
+                  "border": "{sem.border.interactive.active}",
+                  "horizontalResizing": "fill"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.card.base.md.contrasted.active'})"
@@ -22217,7 +21964,8 @@
                   "borderRadiusTopRight": "{sem.card.base.md.borderRadiusTopRight}",
                   "borderRadiusBottomRight": "{sem.card.base.md.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.base.md.borderRadiusBottomLeft}",
-                  "border": "{sem.border.danger}"
+                  "border": "{sem.border.danger}",
+                  "horizontalResizing": "fill"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.card.base.md.uncontrasted.danger'})"
@@ -22234,7 +21982,8 @@
                   "borderRadiusTopRight": "{sem.card.base.md.borderRadiusTopRight}",
                   "borderRadiusBottomRight": "{sem.card.base.md.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.base.md.borderRadiusBottomLeft}",
-                  "border": "{sem.border.danger}"
+                  "border": "{sem.border.danger}",
+                  "horizontalResizing": "fill"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.card.base.md.contrasted.danger'})"
@@ -22253,7 +22002,8 @@
                   "borderRadiusTopRight": "{sem.card.base.md.borderRadiusTopRight}",
                   "borderRadiusBottomRight": "{sem.card.base.md.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.base.md.borderRadiusBottomLeft}",
-                  "border": "{sem.border.transparent}"
+                  "border": "{sem.border.transparent}",
+                  "horizontalResizing": "fill"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.card.base.md.uncontrasted.disabled'})"
@@ -22270,7 +22020,8 @@
                   "borderRadiusTopRight": "{sem.card.base.md.borderRadiusTopRight}",
                   "borderRadiusBottomRight": "{sem.card.base.md.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.base.md.borderRadiusBottomLeft}",
-                  "border": "{sem.border.interactive.disabled}"
+                  "border": "{sem.border.interactive.disabled}",
+                  "horizontalResizing": "fill"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.card.base.md.contrasted.disabled'})"
@@ -22289,7 +22040,8 @@
                   "borderRadiusTopRight": "{sem.card.base.md.borderRadiusTopRight}",
                   "borderRadiusBottomRight": "{sem.card.base.md.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.base.md.borderRadiusBottomLeft}",
-                  "border": "{sem.border.forced}"
+                  "border": "{sem.border.forced}",
+                  "horizontalResizing": "fill"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.card.base.md.uncontrasted.forced'})"
@@ -22306,7 +22058,8 @@
                   "borderRadiusTopRight": "{sem.card.base.md.borderRadiusTopRight}",
                   "borderRadiusBottomRight": "{sem.card.base.md.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.base.md.borderRadiusBottomLeft}",
-                  "border": "{sem.border.forced}"
+                  "border": "{sem.border.forced}",
+                  "horizontalResizing": "fill"
                 },
                 "type": "composition",
                 "description": "({extends: 'comp.card.base.md.contrasted.forced'})"
@@ -23000,6 +22753,14 @@
             "type": "spacing"
           }
         }
+      },
+      "inputSelect": {
+        "wrapper": {
+          "spacing": {
+            "value": "{ref.spacing.100}",
+            "type": "spacing"
+          }
+        }
       }
     },
     "link": {
@@ -23235,7 +22996,8 @@
               }
             }
           }
-        }
+        },
+        "wrapper": {}
       }
     }
   }

@@ -1,0 +1,15 @@
+// @replacepath: tokens/comp.web.json
+
+sem
+.input
+.inputSelect
+[
+  {
+    "wrapper": {
+      "spacing": {
+        "value": "{ref.spacing.100}",
+        "type": "spacing"
+      }
+    }
+  }
+]
