@@ -3,7 +3,7 @@
     "bottomSheet": {
       "overlay": {
         "value": {
-          "fill": "#0A0A0A7A",
+          "fill": "{sem.color.background.overlay}",
           "layoutMode": "vertical",
           "layoutAlignItems": "center",
           "horizontalResizing": "fill",
@@ -11,70 +11,136 @@
         },
         "type": "composition"
       },
-      "closeBar": {
-        "card": {
+      "desktop": {
+        "container": {
           "value": {
-            "fill": "#E1DDD8",
-            "borderRadius": "24px",
+            "height": "85%",
+            "borderRadius": "{sem.bottomSheet.desktop.container.borderRadius}",
             "borderRadiusBottomLeft": "0",
             "borderRadiusBottomRight": "0",
-            "height": "36px",
-            "layoutMode": "horizontal",
-            "layoutAlignItems": "center"
-          },
-          "type": "composition"
-        },
-        "label": {
-          "value": {
-            "typography": "{sem.typography.textStyle.label.body.sm}",
-            "fill": "#6F685D"
-          },
-          "type": "composition"
-        },
-        "notch": {
-          "value": {
-            "fill": "#6F685D",
-            "width": "40px",
-            "height": "4px",
-            "borderRadius": "999px"
-          },
-          "type": "composition"
-        }
-      },
-      "container": {
-        "value": {
-          "height": "85%",
-          "borderRadius": "24px",
-          "borderRadiusBottomLeft": "0",
-          "borderRadiusBottomRight": "0",
-          "fill": "#F7F3ED"
-        },
-        "type": "composition"
-      },
-      "content": {
-        "value": {
-          "horizontalPadding": "16px",
-          "verticalPadding": "24px",
-          "layoutMode": "vertical",
-          "horizontalResizing": "fill"
-        },
-        "type": "composition"
-      },
-      "footer": {
-        "wrapper": {
-          "value": {
-            "layoutMode": "vertical",
-            "itemSpacing": "16px"
+            "fill": "{sem.color.surface.default}"
           },
           "type": "composition"
         },
         "content": {
           "value": {
-            "layoutMode": "horizontal",
-            "itemSpacing": "16px"
+            "horizontalPadding": "{sem.bottomSheet.desktop.content.padding}",
+            "verticalPadding": "{sem.bottomSheet.desktop.content.padding}",
+            "layoutMode": "vertical",
+            "horizontalResizing": "fill"
           },
           "type": "composition"
         }
+      },
+      "mobile": {
+        "container": {
+          "value": {
+            "height": "85%",
+            "borderRadius": "{sem.bottomSheet.mobile.container.borderRadius}",
+            "borderRadiusBottomLeft": "0",
+            "borderRadiusBottomRight": "0",
+            "fill": "{sem.color.surface.default}"
+          },
+          "type": "composition"
+        },
+        "content": {
+          "value": {
+            "horizontalPadding": "{sem.bottomSheet.mobile.content.padding}",
+            "verticalPadding": "{sem.bottomSheet.mobile.content.padding}",
+            "layoutMode": "vertical",
+            "horizontalResizing": "fill"
+          },
+          "type": "composition"
+        }
+      },
+      "closeBar": {
+        "desktop": {
+          "default": {
+            "container": {
+              "value": {
+                "fill": "{sem.color.surface.interactive.sub.default}",
+                "borderRadius": "{sem.bottomSheet.closeBar.desktop.container.borderRadius}",
+                "borderRadiusBottomLeft": "0",
+                "borderRadiusBottomRight": "0",
+                "layoutMode": "horizontal",
+                "layoutAlignItems": "center"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.body.sm}",
+                "fill": "{sem.color.text.default}"
+              },
+              "type": "composition"
+            }
+          },
+          "hover": {
+            "container": {
+              "value": {
+                "fill": "{sem.color.surface.interactive.sub.hover}",
+                "borderRadius": "{sem.bottomSheet.closeBar.desktop.container.borderRadius}",
+                "borderRadiusBottomLeft": "0",
+                "borderRadiusBottomRight": "0",
+                "layoutMode": "horizontal",
+                "layoutAlignItems": "center"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.body.sm}",
+                "fill": "{sem.color.text.default}"
+              },
+              "type": "composition"
+            }
+          },
+          "pressed": {
+            "container": {
+              "value": {
+                "fill": "{sem.color.surface.interactive.sub.pressed}",
+                "borderRadius": "{sem.bottomSheet.closeBar.desktop.container.borderRadius}",
+                "borderRadiusBottomLeft": "0",
+                "borderRadiusBottomRight": "0",
+                "layoutMode": "horizontal",
+                "layoutAlignItems": "center"
+              },
+              "type": "composition"
+            },
+            "label": {
+              "value": {
+                "typography": "{sem.typography.textStyle.label.body.sm}",
+                "fill": "{sem.color.text.default}"
+              },
+              "type": "composition"
+            }
+          }
+        },
+        "mobile": {
+          "container": {
+            "value": {
+              "fill": "{sem.color.surface.interactive.sub.default}",
+              "borderRadius": "{sem.bottomSheet.closeBar.mobile.container.borderRadius}",
+              "borderRadiusBottomLeft": "0",
+              "borderRadiusBottomRight": "0",
+              "layoutMode": "horizontal",
+              "layoutAlignItems": "center"
+            },
+            "type": "composition"
+          },
+          "notch": {
+            "value": {
+              "fill": "{sem.color.surface.dark}",
+              "width": "{sem.bottomSheet.closeBar.mobile.notch.width}",
+              "height": "{sem.bottomSheet.closeBar.mobile.notch.height}",
+              "borderRadius": "{sem.bottomSheet.closeBar.mobile.notch.borderRadius}"
+            },
+            "type": "composition"
+          }
+        }
+      },
+      "footer": {
+        "container: {\n    value: {\n      layoutMode: fill,\n      itemSpacing: {sem.bottomSheet.footer.container.itemSpacing},\n      fill: {sem.color.surface.default}\n    },\n    type: composition\n  },\n  buttonWrapper: {\n    layoutMode: fill,\n    itemSpacing: {sem.bottomSheet.footer.container.itemSpacing}\n  },\n  type: composition": {}
       }
     },
     "button": {
@@ -22439,6 +22505,65 @@
           }
         },
         "wrapper": {}
+      }
+    },
+    "bottomSheet": {
+      "desktop": {
+        "container": {
+          "borderRadius": {
+            "value": "{ref.borderRadius.400}",
+            "type": "borderRadius"
+          }
+        },
+        "content": {
+          "padding": {
+            "value": "{ref.spacing.300}",
+            "type": "spacing"
+          }
+        }
+      },
+      "mobile": {
+        "container": {
+          "borderRadius": {
+            "value": "{ref.borderRadius.400}",
+            "type": "borderRadius"
+          }
+        },
+        "content": {
+          "padding": {
+            "value": "{ref.spacing.200}",
+            "type": "spacing"
+          }
+        }
+      },
+      "closeBar": {
+        "desktop": {
+          "container": {
+            "borderRadius": {
+              "value": "{ref.borderRadius.400}",
+              "type": "borderRadius"
+            }
+          }
+        },
+        "mobile": {
+          "notch": {
+            "width": {
+              "value": "{ref.sizing.400}",
+              "type": "sizing"
+            },
+            "height": {
+              "value": "{ref.sizing.25}",
+              "type": "sizing"
+            },
+            "borderRadius": {
+              "value": "{ref.borderRadius.9999}",
+              "type": "borderRadius"
+            }
+          }
+        }
+      },
+      "footer": {
+        "container: {\n    itemSpacing: {\n      value: {ref.spacing.200},\n      type: spacing\n    }\n  },\n  buttonWrapper: {\n    itemSpacing: {\n      value: {ref.spacing.200},\n      type: spacing\n    }\n  }": {}
       }
     }
   }

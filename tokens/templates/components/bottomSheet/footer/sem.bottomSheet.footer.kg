@@ -1,0 +1,19 @@
+// @replacepath: tokens/comp.web.json
+
+sem
+.bottomSheet
+.footer
+[
+  "container": {
+    "itemSpacing": {
+      "value": "{ref.spacing.200}",
+      "type": "spacing"
+    }
+  },
+  "buttonWrapper": {
+    "itemSpacing": {
+      "value": "{ref.spacing.200}",
+      "type": "spacing"
+    }
+  }
+]

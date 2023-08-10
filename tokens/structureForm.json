@@ -1464,6 +1464,14 @@
                 "type": "spacing"
               }
             },
+            "fileWrapper": {
+              "container": {
+                "spacing": {
+                  "value": "{ref.spacing.100}",
+                  "type": "spacing"
+                }
+              }
+            },
             "dragZone": {
               "md": {
                 "container": {
@@ -1547,14 +1555,6 @@
                       "type": "opacity"
                     }
                   }
-                }
-              }
-            },
-            "fileWrapper": {
-              "container": {
-                "spacing": {
-                  "value": "{ref.spacing.100}",
-                  "type": "spacing"
                 }
               }
             },

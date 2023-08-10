@@ -1,0 +1,20 @@
+// @replacepath: tokens/comp.web.json
+
+comp
+.bottomSheet
+.footer
+[
+  "container": {
+    "value": {
+      "layoutMode": "fill",
+      "itemSpacing": "{sem.bottomSheet.footer.container.itemSpacing}",
+      "fill": "{sem.color.surface.default}"
+    },
+    "type": "composition"
+  },
+  "buttonWrapper": {
+    "layoutMode": "fill",
+    "itemSpacing": "{sem.bottomSheet.footer.container.itemSpacing}"
+  },
+  "type": "composition"
+]

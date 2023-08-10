@@ -1,0 +1,36 @@
+// @replacepath: tokens/comp.web.json
+
+sem
+.bottomSheet
+[
+  {
+    "desktop": {
+      "container": {
+        "borderRadius": {
+          "value": "{ref.borderRadius.400}",
+          "type": "borderRadius"
+        }
+      },
+      "content": {
+        "padding": {
+          "value": "{ref.spacing.300}",
+          "type": "spacing"
+        }
+      }
+    },
+    "mobile": {
+      "container": {
+        "borderRadius": {
+          "value": "{ref.borderRadius.400}",
+          "type": "borderRadius"
+        }
+      },
+      "content": {
+        "padding": {
+          "value": "{ref.spacing.200}",
+          "type": "spacing"
+        }
+      }
+    }
+  }
+]

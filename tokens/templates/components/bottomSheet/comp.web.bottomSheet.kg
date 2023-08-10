@@ -1,13 +1,12 @@
 // @replacepath: tokens/comp.web.json
 
-// TODO: refs
 comp
 .bottomSheet
 [
   {
     "overlay": {
       "value": {
-        "fill": "#0A0A0A7A",
+        "fill": "{sem.color.background.overlay}",
         "layoutMode": "vertical",
         "layoutAlignItems": "center",
         "horizontalResizing": "fill",
@@ -15,67 +14,44 @@ comp
       },
       "type": "composition"
     },
-    "closeBar": {
-      "card": {
+    "desktop": {
+      "container": {
         "value": {
-          "fill": "#E1DDD8",
-          "borderRadius": "24px",
+          "height": "85%",
+          "borderRadius": "{sem.bottomSheet.desktop.container.borderRadius}",
           "borderRadiusBottomLeft": "0",
           "borderRadiusBottomRight": "0",
-          "height": "36px",
-          "layoutMode": "horizontal",
-          "layoutAlignItems": "center"
-        },
-        "type": "composition"
-      },
-      "label": {
-        "value": {
-          "typography": "{sem.typography.textStyle.label.body.sm}",
-          "fill": "#6F685D"
-        },
-        "type": "composition"
-      },
-      "notch": {
-        "value": {
-          "fill": "#6F685D",
-          "width": "40px",
-          "height": "4px",
-          "borderRadius": "999px"
-        },
-        "type": "composition"
-      }
-    },
-    "container": {
-      "value": {
-        "height": "85%",
-        "borderRadius": "24px",
-        "borderRadiusBottomLeft": "0",
-        "borderRadiusBottomRight": "0",
-        "fill": "#F7F3ED"
-      },
-      "type": "composition"
-    },
-    "content": {
-      "value": {
-        "horizontalPadding": "16px",
-        "verticalPadding": "24px",
-        "layoutMode": "vertical",
-        "horizontalResizing": "fill"
-      },
-      "type": "composition"
-    },
-    "footer": {
-      "wrapper": {
-        "value": {
-          "layoutMode": "vertical",
-          "itemSpacing": "16px"
+          "fill": "{sem.color.surface.default}"
         },
         "type": "composition"
       },
       "content": {
         "value": {
-          "layoutMode": "horizontal",
-          "itemSpacing": "16px"
+          "horizontalPadding": "{sem.bottomSheet.desktop.content.padding}",
+          "verticalPadding": "{sem.bottomSheet.desktop.content.padding}",
+          "layoutMode": "vertical",
+          "horizontalResizing": "fill"
+        },
+        "type": "composition"
+      }
+    },
+    "mobile": {
+      "container": {
+        "value": {
+          "height": "85%",
+          "borderRadius": "{sem.bottomSheet.mobile.container.borderRadius}",
+          "borderRadiusBottomLeft": "0",
+          "borderRadiusBottomRight": "0",
+          "fill": "{sem.color.surface.default}"
+        },
+        "type": "composition"
+      },
+      "content": {
+        "value": {
+          "horizontalPadding": "{sem.bottomSheet.mobile.content.padding}",
+          "verticalPadding": "{sem.bottomSheet.mobile.content.padding}",
+          "layoutMode": "vertical",
+          "horizontalResizing": "fill"
         },
         "type": "composition"
       }
