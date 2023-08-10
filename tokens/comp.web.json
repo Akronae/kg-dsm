@@ -15610,7 +15610,7 @@
         "wrapper": {
           "value": {
             "layoutMode": "horizontal",
-            "itemSpacing": "8px"
+            "itemSpacing": "{sem.input.inputSelect.wrapper.spacing}"
           },
           "type": "composition"
         }
@@ -22191,6 +22191,14 @@
           },
           "iconSize": {
             "value": "{ref.sizing.200}",
+            "type": "spacing"
+          }
+        }
+      },
+      "inputSelect": {
+        "wrapper": {
+          "spacing": {
+            "value": "{ref.spacing.100}",
             "type": "spacing"
           }
         }
