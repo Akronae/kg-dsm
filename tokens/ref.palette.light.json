@@ -2,6 +2,10 @@
   "ref": {
     "colors": {
       "primary": {
+        "25": {
+          "value": "#F7F3ED",
+          "type": "color"
+        },
         "50": {
           "value": "#ffecc7",
           "type": "color"
@@ -50,24 +54,28 @@
           "type": "color",
           "description": "Classic white"
         },
+        "75": {
+          "value": "#eeedeb",
+          "type": "color"
+        },
         "100": {
-          "value": "#f7f3ed",
+          "value": "#e6e4e1",
           "type": "color"
         },
         "200": {
-          "value": "#ebe8e4",
+          "value": "#d5d2cd",
           "type": "color"
         },
         "300": {
-          "value": "#e1ddd8",
+          "value": "#c4bfb9",
           "type": "color"
         },
         "400": {
-          "value": "#d1cdc7",
+          "value": "#b3ada5",
           "type": "color"
         },
         "500": {
-          "value": "#aba49b",
+          "value": "#89837c",
           "type": "color",
           "": {
             "1": {

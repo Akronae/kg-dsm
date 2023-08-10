@@ -244,11 +244,11 @@
       },
       "background": {
         "default": {
-          "value": "{ref.colors.neutral.100}",
+          "value": "{ref.colors.primary.25}",
           "type": "color"
         },
         "dark": {
-          "value": "{ref.colors.neutral.200}",
+          "value": "{ref.colors.neutral.100}",
           "type": "color"
         },
         "overlay": {
@@ -258,7 +258,7 @@
       },
       "surface": {
         "default": {
-          "value": "{ref.colors.neutral.100}",
+          "value": "{ref.colors.primary.25}",
           "type": "color"
         },
         "primary": {
@@ -271,6 +271,10 @@
         },
         "light": {
           "value": "{ref.colors.neutral.50}",
+          "type": "color"
+        },
+        "diminished": {
+          "value": "{ref.colors.neutral.100}",
           "type": "color"
         },
         "sub": {
@@ -287,6 +291,10 @@
         },
         "success": {
           "value": "{ref.colors.green.500}",
+          "type": "color"
+        },
+        "danger": {
+          "value": "{ref.colors.red.500}",
           "type": "color"
         },
         "interactive": {
