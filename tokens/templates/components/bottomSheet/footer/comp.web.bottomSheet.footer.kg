@@ -6,14 +6,15 @@ comp
 [
   "container": {
     "value": {
-      "layoutMode": "fill",
+      "layoutMode": "vertical",
       "itemSpacing": "{sem.bottomSheet.footer.container.itemSpacing}",
       "fill": "{sem.color.surface.default}"
     },
     "type": "composition"
   },
   "buttonWrapper": {
-    "layoutMode": "fill",
+    "layoutMode": "horizontal",
+    "horizontalResizing": "fill",
     "itemSpacing": "{sem.bottomSheet.footer.container.itemSpacing}"
   },
   "type": "composition"

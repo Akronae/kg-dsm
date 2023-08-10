@@ -63,7 +63,8 @@
                 "borderRadiusBottomLeft": "0",
                 "borderRadiusBottomRight": "0",
                 "layoutMode": "horizontal",
-                "layoutAlignItems": "center"
+                "layoutAlignItems": "center",
+                "horizontalResizing": "fill"
               },
               "type": "composition"
             },
@@ -83,7 +84,8 @@
                 "borderRadiusBottomLeft": "0",
                 "borderRadiusBottomRight": "0",
                 "layoutMode": "horizontal",
-                "layoutAlignItems": "center"
+                "layoutAlignItems": "center",
+                "horizontalResizing": "fill"
               },
               "type": "composition"
             },
@@ -103,7 +105,8 @@
                 "borderRadiusBottomLeft": "0",
                 "borderRadiusBottomRight": "0",
                 "layoutMode": "horizontal",
-                "layoutAlignItems": "center"
+                "layoutAlignItems": "center",
+                "horizontalResizing": "fill"
               },
               "type": "composition"
             },
@@ -119,12 +122,12 @@
         "mobile": {
           "container": {
             "value": {
-              "fill": "{sem.color.surface.interactive.sub.default}",
               "borderRadius": "{sem.bottomSheet.closeBar.mobile.container.borderRadius}",
               "borderRadiusBottomLeft": "0",
               "borderRadiusBottomRight": "0",
               "layoutMode": "horizontal",
-              "layoutAlignItems": "center"
+              "layoutAlignItems": "center",
+              "horizontalResizing": "fill"
             },
             "type": "composition"
           },
@@ -140,7 +143,7 @@
         }
       },
       "footer": {
-        "container: {\n    value: {\n      layoutMode: fill,\n      itemSpacing: {sem.bottomSheet.footer.container.itemSpacing},\n      fill: {sem.color.surface.default}\n    },\n    type: composition\n  },\n  buttonWrapper: {\n    layoutMode: fill,\n    itemSpacing: {sem.bottomSheet.footer.container.itemSpacing}\n  },\n  type: composition": {}
+        "container: {\n    value: {\n      layoutMode: vertical,\n      itemSpacing: {sem.bottomSheet.footer.container.itemSpacing},\n      fill: {sem.color.surface.default}\n    },\n    type: composition\n  },\n  buttonWrapper: {\n    layoutMode: horizontal,\n    horizontalResizing: fill,\n    itemSpacing: {sem.bottomSheet.footer.container.itemSpacing}\n  },\n  type: composition": {}
       }
     },
     "button": {
