@@ -21509,6 +21509,33 @@
           }
         }
       }
+    },
+    "tooltip": {
+      "container": {
+        "value": {
+          "horizontalPadding": "{sem.card.base.md.padding}",
+          "verticalPadding": "{sem.card.base.md.padding}",
+          "fill": "{sem.color.surface.light}",
+          "boxShadow": "{sem.tooltip.container.boxShadow}",
+          "borderRadiusTopLeft": "{sem.tooltip.container.borderRadiusTop}",
+          "borderRadiusTopRight": "{sem.tooltip.container.borderRadiusTop}",
+          "borderRadiusBottomRight": "{sem.tooltip.container.borderRadiusBottom}",
+          "borderRadiusBottomLeft": "{sem.tooltip.container.borderRadiusBottom}",
+          "border": "{sem.border.transparent}",
+          "itemSpacing": "{sem.tooltip.container.spacing}",
+          "maxWidth": "{sem.tooltip.container.maxWidth}",
+          "layoutMode": "vertical"
+        },
+        "type": "composition",
+        "description": "({extends: 'comp.card.base.md.uncontrasted.default'})"
+      },
+      "text": {
+        "value": {
+          "typography": "{sem.typography.textStyle.paragraph.sm.default}",
+          "fill": "{sem.color.text.default}"
+        },
+        "type": "composition"
+      }
     }
   },
   "sem": {
@@ -22439,6 +22466,30 @@
           }
         },
         "wrapper": {}
+      }
+    },
+    "tooltip": {
+      "container": {
+        "borderRadiusTop": {
+          "value": "{ref.borderRadius.400}",
+          "type": "borderRadius"
+        },
+        "borderRadiusBottom": {
+          "value": "{ref.borderRadius.500}",
+          "type": "borderRadius"
+        },
+        "maxWidth": {
+          "value": "{ref.sizing.800}",
+          "type": "sizing"
+        },
+        "spacing": {
+          "value": "{ref.spacing.200}",
+          "type": "spacing"
+        },
+        "boxShadow": {
+          "value": "{ref.effects.dropShadow.500}",
+          "type": "boxShadow"
+        }
       }
     }
   }

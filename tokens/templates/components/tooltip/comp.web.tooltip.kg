@@ -1,0 +1,29 @@
+// @replacepath: tokens/comp.web.json
+
+comp
+.tooltip
+[
+  {
+    "container": {
+      "value": {
+        "borderRadiusTopLeft": "{sem.tooltip.container.borderRadiusTop}",
+        "borderRadiusTopRight": "{sem.tooltip.container.borderRadiusTop}",
+        "borderRadiusBottomLeft": "{sem.tooltip.container.borderRadiusBottom}",
+        "borderRadiusBottomRight": "{sem.tooltip.container.borderRadiusBottom}",
+        "itemSpacing": "{sem.tooltip.container.spacing}",
+        "maxWidth": "{sem.tooltip.container.maxWidth}",
+        "boxShadow": "{sem.tooltip.container.boxShadow}",
+        "layoutMode": "vertical"
+      },
+      "type": "composition",
+      "description": "({extends: 'comp.card.base.md.uncontrasted.default'})"
+    },
+    "text": {
+      "value": {
+        "typography": "{sem.typography.textStyle.paragraph.sm.default}",
+        "fill": "{sem.color.text.default}"
+      },
+     "type": "composition"
+    }
+  }
+]
