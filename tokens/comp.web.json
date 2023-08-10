@@ -22546,6 +22546,12 @@
           }
         },
         "mobile": {
+          "container": {
+            "borderRadius": {
+              "value": "{ref.borderRadius.9999}",
+              "type": "borderRadius"
+            }
+          },
           "notch": {
             "width": {
               "value": "{ref.sizing.400}",
@@ -22554,10 +22560,6 @@
             "height": {
               "value": "{ref.sizing.25}",
               "type": "sizing"
-            },
-            "borderRadius": {
-              "value": "{ref.borderRadius.9999}",
-              "type": "borderRadius"
             }
           }
         }
