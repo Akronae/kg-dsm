@@ -1,0 +1,28 @@
+// @replacepath: tokens/comp.web.json
+
+comp
+.modals
+.bottomSheet
+[aspectRatio: 'desktop' | 'mobile']
+[
+  {
+    "overlay": {
+      "value": {},
+      "type": "composition",
+      "description": "({extends: 'comp.modals.base.<<aspectRatio>>.overlay'})"
+    },
+    "container": {
+      "value": {
+        "borderRadiusBottomRight": "0",
+        "borderRadiusBottomLeft": "0"
+      },
+      "type": "composition",
+      "description": "({extends: 'comp.modals.base.<<aspectRatio>>.container'})"
+    },
+    "content": {
+      "value": {},
+      "type": "composition",
+      "description": "({extends: 'comp.modals.base.<<aspectRatio>>.content'})"
+    }
+  }
+]

@@ -1,0 +1,37 @@
+// @replacepath: tokens/comp.web.json
+
+comp
+.modals
+.base
+[aspectRatio: 'desktop' | 'mobile']
+[
+  {
+    "overlay": {
+      "value": {
+        "fill": "{sem.color.background.overlay}",
+        "layoutMode": "vertical",
+        "layoutAlignItems": "center",
+        "horizontalResizing": "fill",
+        "verticalResizing": "fill"
+      },
+      "type": "composition"
+    },
+    "container": {
+      "value": {
+        "maxHeight": "85%",
+        "borderRadius": "{sem.modals.base.<<aspectRatio>>.container.borderRadius}",
+        "fill": "{sem.color.surface.default}"
+      },
+      "type": "composition"
+    },
+    "content": {
+      "value": {
+        "horizontalPadding": "{sem.modals.base.<<aspectRatio>>.content.padding}",
+        "verticalPadding": "{sem.modals.base.<<aspectRatio>>.content.padding}",
+        "layoutMode": "vertical",
+        "horizontalResizing": "fill"
+      },
+      "type": "composition"
+    }
+  }
+]

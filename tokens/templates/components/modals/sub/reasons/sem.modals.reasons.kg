@@ -1,0 +1,15 @@
+// @replacepath: tokens/comp.web.json
+
+sem
+.modals
+.reasons
+[
+  {
+    "container": {
+      "spacing": {
+        "value": "{ref.spacing.500}",
+        "type": "spacing"
+      }
+    }
+  }
+]

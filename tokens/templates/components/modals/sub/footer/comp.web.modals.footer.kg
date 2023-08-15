@@ -1,0 +1,27 @@
+// @replacepath: tokens/comp.web.json
+
+comp
+.modals
+.footer
+[aspectRatio: 'desktop' | 'mobile']
+[
+  {
+    "container": {
+      "value": {
+        "fill": "{sem.color.surface.default}",
+        "horizontalPadding": "{sem.modals.base.<<aspectRatio>>.content.padding}",
+        "bottomPadding": "{sem.modals.base.<<aspectRatio>>.content.padding}",
+        "itemSpacing": "{sem.modals.sub.footer.<<aspectRatio>>.container.spacing}",
+        "layoutMode": "vertical",
+        "horizontalResizing": "fill"
+      },
+      "type": "composition"
+    },
+    "buttonWrapper": {
+      "itemSpacing": "{sem.modals.sub.footer.<<aspectRatio>>.buttonWrapper.spacing}",
+      "layoutMode": "vertical",
+      "horizontalResizing": "fill"
+    },
+    "type": "composition"
+  }
+]

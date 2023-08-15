@@ -1,0 +1,47 @@
+// @replacepath: tokens/comp.web.json
+
+comp
+.modals
+.title
+[
+  {
+    "container": {
+      "value": {
+        "itemSpacing": "{sem.modals.sub.title.container.spacing}",
+        "horizontalResizing": "fill"
+      },
+      "type": "composition"
+    },
+    "icon": {
+      "size": {
+        "value": {
+          "height": "{sem.modals.sub.title.icon.size}",
+          "width": "{sem.modals.sub.title.icon.size}"
+        }
+      }
+    },
+    "textWrapper": {
+      "wrapper": {
+        "value": {
+          "itemSpacing": "{sem.modals.sub.title.textWrapper.spacing}",
+          "horizontalResizing": "fill"
+        },
+        "type": "composition"
+      },
+      "title": {
+        "value": {
+          "fill": "{sem.color.text.dark}",
+          "typography": "{sem.typography.textStyle.heading.heading3}",
+          "horizontalResizing": "fill"
+        }
+      },
+      "description": {
+        "value": {
+          "fill": "{sem.color.text.default}",
+          "typography": "{sem.typography.textStyle.paragraph.md.default}",
+          "horizontalResizing": "fill"
+        }
+      }
+    }
+  }
+]

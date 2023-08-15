@@ -1,0 +1,22 @@
+// @replacepath: tokens/comp.web.json
+
+sem
+.modals
+.base
+[aspectRatio: 'desktop' | 'mobile']
+[
+  {
+    "container": {
+      "borderRadius": {
+        "value": "{ref.borderRadius.400}",
+        "type": "borderRadius"
+      }
+    },
+    "content": {
+      "padding": {
+        "value": "{<< ({desktop: 'ref.spacing.300', mobile: 'ref.spacing.200'})[aspectRatio] >>}",
+        "type": "spacing"
+      }
+    }
+  }
+]

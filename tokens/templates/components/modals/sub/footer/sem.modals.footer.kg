@@ -1,0 +1,24 @@
+// @replacepath: tokens/comp.web.json
+
+sem
+.modals
+.footer
+[aspectRatio: 'desktop' | 'mobile']
+[
+  {
+    "container": {
+      "horizontalPadding": {
+        "value": "{<< ({desktop: 'ref.spacing.300', mobile: 'ref.spacing.200'})[aspectRatio] >>}",
+        "type": "spacing"
+      },
+      "itemSpacing": {
+        "value": "{ref.spacing.200}",
+        "type": "spacing"
+      }
+    },
+    "buttonWrapper": {
+      "itemSpacing": "{ref.spacing.200}",
+      "type": "spacing"
+    }
+  }
+]

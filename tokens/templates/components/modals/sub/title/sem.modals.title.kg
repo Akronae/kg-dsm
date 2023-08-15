@@ -1,0 +1,27 @@
+// @replacepath: tokens/comp.web.json
+
+sem
+.modals
+.title
+[
+  {
+    "container": {
+      "spacing": {
+        "value": "{ref.spacing.200}",
+        "type": "spacing"
+      }
+    },
+    "icon": {
+      "size": {
+        "value": "{ref.sizing.400}",
+        "type": "sizing"
+      }
+    },
+    "textWrapper": {
+      "spacing": {
+        "value": "{ref.spacing.50}",
+        "type": "spacing"
+      }
+    }
+  }
+]
