@@ -20106,7 +20106,7 @@
     },
     "modals": {
       "base": {
-        "desktop": {
+        "dialog": {
           "overlay": {
             "value": {
               "fill": "{sem.color.background.overlay}",
@@ -20120,22 +20120,22 @@
           "container": {
             "value": {
               "maxHeight": "85%",
-              "borderRadius": "{sem.modals.base.desktop.container.borderRadius}",
+              "borderRadius": "{sem.modals.base.dialog.container.borderRadius}",
               "fill": "{sem.color.surface.default}"
             },
             "type": "composition"
           },
           "content": {
             "value": {
-              "horizontalPadding": "{sem.modals.base.desktop.content.padding}",
-              "verticalPadding": "{sem.modals.base.desktop.content.padding}",
+              "horizontalPadding": "{sem.modals.base.dialog.content.padding}",
+              "verticalPadding": "{sem.modals.base.dialog.content.padding}",
               "layoutMode": "vertical",
               "horizontalResizing": "fill"
             },
             "type": "composition"
           }
         },
-        "mobile": {
+        "bottomSheet": {
           "overlay": {
             "value": {
               "fill": "{sem.color.background.overlay}",
@@ -20149,15 +20149,15 @@
           "container": {
             "value": {
               "maxHeight": "85%",
-              "borderRadius": "{sem.modals.base.mobile.container.borderRadius}",
+              "borderRadius": "{sem.modals.base.bottomSheet.container.borderRadius}",
               "fill": "{sem.color.surface.default}"
             },
             "type": "composition"
           },
           "content": {
             "value": {
-              "horizontalPadding": "{sem.modals.base.mobile.content.padding}",
-              "verticalPadding": "{sem.modals.base.mobile.content.padding}",
+              "horizontalPadding": "{sem.modals.base.bottomSheet.content.padding}",
+              "verticalPadding": "{sem.modals.base.bottomSheet.content.padding}",
               "layoutMode": "vertical",
               "horizontalResizing": "fill"
             },
@@ -20166,139 +20166,69 @@
         }
       },
       "bottomSheet": {
-        "desktop": {
-          "overlay": {
-            "value": {
-              "fill": "{sem.color.background.overlay}",
-              "layoutMode": "vertical",
-              "layoutAlignItems": "center",
-              "horizontalResizing": "fill",
-              "verticalResizing": "fill"
-            },
-            "type": "composition",
-            "description": "({extends: 'comp.modals.base.desktop.overlay'})"
+        "overlay": {
+          "value": {
+            "fill": "{sem.color.background.overlay}",
+            "layoutMode": "vertical",
+            "layoutAlignItems": "center",
+            "horizontalResizing": "fill",
+            "verticalResizing": "fill"
           },
-          "container": {
-            "value": {
-              "maxHeight": "85%",
-              "borderRadius": "{sem.modals.base.desktop.container.borderRadius}",
-              "fill": "{sem.color.surface.default}",
-              "borderRadiusBottomRight": "0",
-              "borderRadiusBottomLeft": "0"
-            },
-            "type": "composition",
-            "description": "({extends: 'comp.modals.base.desktop.container'})"
-          },
-          "content": {
-            "value": {
-              "horizontalPadding": "{sem.modals.base.desktop.content.padding}",
-              "verticalPadding": "{sem.modals.base.desktop.content.padding}",
-              "layoutMode": "vertical",
-              "horizontalResizing": "fill"
-            },
-            "type": "composition",
-            "description": "({extends: 'comp.modals.base.desktop.content'})"
-          }
+          "type": "composition",
+          "description": "({extends: 'comp.modals.base.bottomSheet.overlay'})"
         },
-        "mobile": {
-          "overlay": {
-            "value": {
-              "fill": "{sem.color.background.overlay}",
-              "layoutMode": "vertical",
-              "layoutAlignItems": "center",
-              "horizontalResizing": "fill",
-              "verticalResizing": "fill"
-            },
-            "type": "composition",
-            "description": "({extends: 'comp.modals.base.mobile.overlay'})"
+        "container": {
+          "value": {
+            "maxHeight": "85%",
+            "borderRadius": "{sem.modals.base.bottomSheet.container.borderRadius}",
+            "fill": "{sem.color.surface.default}",
+            "borderRadiusBottomRight": "0",
+            "borderRadiusBottomLeft": "0"
           },
-          "container": {
-            "value": {
-              "maxHeight": "85%",
-              "borderRadius": "{sem.modals.base.mobile.container.borderRadius}",
-              "fill": "{sem.color.surface.default}",
-              "borderRadiusBottomRight": "0",
-              "borderRadiusBottomLeft": "0"
-            },
-            "type": "composition",
-            "description": "({extends: 'comp.modals.base.mobile.container'})"
+          "type": "composition",
+          "description": "({extends: 'comp.modals.base.bottomSheet.container'})"
+        },
+        "content": {
+          "value": {
+            "horizontalPadding": "{sem.modals.base.bottomSheet.content.padding}",
+            "verticalPadding": "{sem.modals.base.bottomSheet.content.padding}",
+            "layoutMode": "vertical",
+            "horizontalResizing": "fill"
           },
-          "content": {
-            "value": {
-              "horizontalPadding": "{sem.modals.base.mobile.content.padding}",
-              "verticalPadding": "{sem.modals.base.mobile.content.padding}",
-              "layoutMode": "vertical",
-              "horizontalResizing": "fill"
-            },
-            "type": "composition",
-            "description": "({extends: 'comp.modals.base.mobile.content'})"
-          }
+          "type": "composition",
+          "description": "({extends: 'comp.modals.base.bottomSheet.content'})"
         }
       },
       "dialog": {
-        "desktop": {
-          "overlay": {
-            "value": {
-              "fill": "{sem.color.background.overlay}",
-              "layoutMode": "vertical",
-              "layoutAlignItems": "center",
-              "horizontalResizing": "fill",
-              "verticalResizing": "fill"
-            },
-            "type": "composition",
-            "description": "({extends: 'comp.modals.base.desktop.overlay'})"
+        "overlay": {
+          "value": {
+            "fill": "{sem.color.background.overlay}",
+            "layoutMode": "vertical",
+            "layoutAlignItems": "center",
+            "horizontalResizing": "fill",
+            "verticalResizing": "fill"
           },
-          "container": {
-            "value": {
-              "maxHeight": "85%",
-              "borderRadius": "{sem.modals.base.desktop.container.borderRadius}",
-              "fill": "{sem.color.surface.default}"
-            },
-            "type": "composition",
-            "description": "({extends: 'comp.modals.base.desktop.container'})"
-          },
-          "content": {
-            "value": {
-              "horizontalPadding": "{sem.modals.base.desktop.content.padding}",
-              "verticalPadding": "{sem.modals.base.desktop.content.padding}",
-              "layoutMode": "vertical",
-              "horizontalResizing": "fill"
-            },
-            "type": "composition",
-            "description": "({extends: 'comp.modals.base.desktop.content'})"
-          }
+          "type": "composition",
+          "description": "({extends: 'comp.modals.base.dialog.overlay'})"
         },
-        "mobile": {
-          "overlay": {
-            "value": {
-              "fill": "{sem.color.background.overlay}",
-              "layoutMode": "vertical",
-              "layoutAlignItems": "center",
-              "horizontalResizing": "fill",
-              "verticalResizing": "fill"
-            },
-            "type": "composition",
-            "description": "({extends: 'comp.modals.base.mobile.overlay'})"
+        "container": {
+          "value": {
+            "maxHeight": "85%",
+            "borderRadius": "{sem.modals.base.dialog.container.borderRadius}",
+            "fill": "{sem.color.surface.default}"
           },
-          "container": {
-            "value": {
-              "maxHeight": "85%",
-              "borderRadius": "{sem.modals.base.mobile.container.borderRadius}",
-              "fill": "{sem.color.surface.default}"
-            },
-            "type": "composition",
-            "description": "({extends: 'comp.modals.base.mobile.container'})"
+          "type": "composition",
+          "description": "({extends: 'comp.modals.base.dialog.container'})"
+        },
+        "content": {
+          "value": {
+            "horizontalPadding": "{sem.modals.base.dialog.content.padding}",
+            "verticalPadding": "{sem.modals.base.dialog.content.padding}",
+            "layoutMode": "vertical",
+            "horizontalResizing": "fill"
           },
-          "content": {
-            "value": {
-              "horizontalPadding": "{sem.modals.base.mobile.content.padding}",
-              "verticalPadding": "{sem.modals.base.mobile.content.padding}",
-              "layoutMode": "vertical",
-              "horizontalResizing": "fill"
-            },
-            "type": "composition",
-            "description": "({extends: 'comp.modals.base.mobile.content'})"
-          }
+          "type": "composition",
+          "description": "({extends: 'comp.modals.base.dialog.content'})"
         }
       },
       "sub": {
@@ -22783,7 +22713,7 @@
     },
     "modals": {
       "base": {
-        "desktop": {
+        "dialog": {
           "container": {
             "borderRadius": {
               "value": "{ref.borderRadius.400}",
@@ -22797,7 +22727,7 @@
             }
           }
         },
-        "mobile": {
+        "bottomSheet": {
           "container": {
             "borderRadius": {
               "value": "{ref.borderRadius.400}",
@@ -22814,7 +22744,7 @@
       },
       "sub": {
         "closeBar": {
-          "mobile": {
+          "bottomSheet": {
             "notch": {
               "width": {
                 "value": "{ref.sizing.400}",

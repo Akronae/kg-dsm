@@ -3,7 +3,7 @@
 comp
 .modals
 .base
-[aspectRatio: 'desktop' | 'mobile']
+[type: 'dialog' | 'bottomSheet']
 [
   {
     "overlay": {
@@ -19,15 +19,15 @@ comp
     "container": {
       "value": {
         "maxHeight": "85%",
-        "borderRadius": "{sem.modals.base.<<aspectRatio>>.container.borderRadius}",
+        "borderRadius": "{sem.modals.base.<<type>>.container.borderRadius}",
         "fill": "{sem.color.surface.default}"
       },
       "type": "composition"
     },
     "content": {
       "value": {
-        "horizontalPadding": "{sem.modals.base.<<aspectRatio>>.content.padding}",
-        "verticalPadding": "{sem.modals.base.<<aspectRatio>>.content.padding}",
+        "horizontalPadding": "{sem.modals.base.<<type>>.content.padding}",
+        "verticalPadding": "{sem.modals.base.<<type>>.content.padding}",
         "layoutMode": "vertical",
         "horizontalResizing": "fill"
       },

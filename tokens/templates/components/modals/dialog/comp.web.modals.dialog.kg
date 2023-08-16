@@ -3,23 +3,22 @@
 comp
 .modals
 .dialog
-[aspectRatio: 'desktop' | 'mobile']
 [
   {
     "overlay": {
       "value": {},
       "type": "composition",
-      "description": "({extends: 'comp.modals.base.<<aspectRatio>>.overlay'})"
+      "description": "({extends: 'comp.modals.base.dialog.overlay'})"
     },
     "container": {
       "value": {},
       "type": "composition",
-      "description": "({extends: 'comp.modals.base.<<aspectRatio>>.container'})"
+      "description": "({extends: 'comp.modals.base.dialog.container'})"
     },
     "content": {
       "value": {},
       "type": "composition",
-      "description": "({extends: 'comp.modals.base.<<aspectRatio>>.content'})"
+      "description": "({extends: 'comp.modals.base.dialog.content'})"
     }
   }
 ]

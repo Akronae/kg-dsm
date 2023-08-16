@@ -6,7 +6,7 @@ sem
 .closeBar
 [
   {
-    "mobile": {
+    "bottomSheet": {
       "notch": {
         "width": {
           "value": "{ref.sizing.400}",

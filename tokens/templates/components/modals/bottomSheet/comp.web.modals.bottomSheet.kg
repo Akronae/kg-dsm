@@ -3,13 +3,12 @@
 comp
 .modals
 .bottomSheet
-[aspectRatio: 'desktop' | 'mobile']
 [
   {
     "overlay": {
       "value": {},
       "type": "composition",
-      "description": "({extends: 'comp.modals.base.<<aspectRatio>>.overlay'})"
+      "description": "({extends: 'comp.modals.base.bottomSheet.overlay'})"
     },
     "container": {
       "value": {
@@ -17,12 +16,12 @@ comp
         "borderRadiusBottomLeft": "0"
       },
       "type": "composition",
-      "description": "({extends: 'comp.modals.base.<<aspectRatio>>.container'})"
+      "description": "({extends: 'comp.modals.base.bottomSheet.container'})"
     },
     "content": {
       "value": {},
       "type": "composition",
-      "description": "({extends: 'comp.modals.base.<<aspectRatio>>.content'})"
+      "description": "({extends: 'comp.modals.base.bottomSheet.content'})"
     }
   }
 ]

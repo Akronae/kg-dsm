@@ -3,7 +3,7 @@
 sem
 .modals
 .base
-[aspectRatio: 'desktop' | 'mobile']
+[type: 'dialog' | 'bottomSheet']
 [
   {
     "container": {
@@ -14,7 +14,7 @@ sem
     },
     "content": {
       "padding": {
-        "value": "{<< ({desktop: 'ref.spacing.300', mobile: 'ref.spacing.200'})[aspectRatio] >>}",
+        "value": "{<< ({dialog: 'ref.spacing.300', bottomSheet: 'ref.spacing.200'})[type] >>}",
         "type": "spacing"
       }
     }
