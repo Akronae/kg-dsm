@@ -86,8 +86,8 @@ comp
       "notch": {
         "value": {
           "fill": "{sem.color.surface.dark}",
-          "width": "{sem.modals.closeBar.mobile.notch.width}",
-          "height": "{sem.modals.closeBar.mobile.notch.height}",
+          "width": "{sem.modals.sub.closeBar.mobile.notch.width}",
+          "height": "{sem.modals.sub.closeBar.mobile.notch.height}",
           "borderRadius": "{sem.modals.base.mobile.container.borderRadius}"
         },
         "type": "composition"
