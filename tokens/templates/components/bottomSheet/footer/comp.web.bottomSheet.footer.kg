@@ -4,18 +4,22 @@ comp
 .bottomSheet
 .footer
 [
-  "container": {
-    "value": {
-      "layoutMode": "vertical",
-      "itemSpacing": "{sem.bottomSheet.footer.container.itemSpacing}",
-      "fill": "{sem.color.surface.default}"
+  {
+    "container": {
+      "value": {
+        "layoutMode": "vertical",
+        "itemSpacing": "{sem.bottomSheet.footer.container.itemSpacing}",
+        "fill": "{sem.color.surface.default}"
+      },
+      "type": "composition"
     },
-    "type": "composition"
-  },
-  "buttonWrapper": {
-    "layoutMode": "horizontal",
-    "horizontalResizing": "fill",
-    "itemSpacing": "{sem.bottomSheet.footer.container.itemSpacing}"
-  },
-  "type": "composition"
+    "buttonWrapper": {
+      "value": {
+        "layoutMode": "horizontal",
+        "horizontalResizing": "fill",
+        "itemSpacing": "{sem.bottomSheet.footer.container.itemSpacing}"
+      },
+      "type": "composition"
+    }
+  }
 ]

@@ -143,7 +143,22 @@
         }
       },
       "footer": {
-        "container: {\n    value: {\n      layoutMode: vertical,\n      itemSpacing: {sem.bottomSheet.footer.container.itemSpacing},\n      fill: {sem.color.surface.default}\n    },\n    type: composition\n  },\n  buttonWrapper: {\n    layoutMode: horizontal,\n    horizontalResizing: fill,\n    itemSpacing: {sem.bottomSheet.footer.container.itemSpacing}\n  },\n  type: composition": {}
+        "container": {
+          "value": {
+            "layoutMode": "vertical",
+            "itemSpacing": "{sem.bottomSheet.footer.container.itemSpacing}",
+            "fill": "{sem.color.surface.default}"
+          },
+          "type": "composition"
+        },
+        "buttonWrapper": {
+          "value": {
+            "layoutMode": "horizontal",
+            "horizontalResizing": "fill",
+            "itemSpacing": "{sem.bottomSheet.footer.container.itemSpacing}"
+          },
+          "type": "composition"
+        }
       }
     },
     "button": {
@@ -21958,7 +21973,18 @@
         }
       },
       "footer": {
-        "container: {\n    itemSpacing: {\n      value: {ref.spacing.200},\n      type: spacing\n    }\n  },\n  buttonWrapper: {\n    itemSpacing: {\n      value: {ref.spacing.200},\n      type: spacing\n    }\n  }": {}
+        "container": {
+          "itemSpacing": {
+            "value": "{ref.spacing.200}",
+            "type": "spacing"
+          }
+        },
+        "buttonWrapper": {
+          "itemSpacing": {
+            "value": "{ref.spacing.200}",
+            "type": "spacing"
+          }
+        }
       }
     },
     "button": {
