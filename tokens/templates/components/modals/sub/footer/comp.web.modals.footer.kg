@@ -2,6 +2,7 @@
 
 comp
 .modals
+.sub
 .footer
 [aspectRatio: 'desktop' | 'mobile']
 [

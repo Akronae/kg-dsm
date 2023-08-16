@@ -2,6 +2,7 @@
 
 comp
 .modals
+.sub
 .closeBar
 [
   {
@@ -10,7 +11,7 @@ comp
         "container": {
           "value": {
             "fill": "{sem.color.surface.interactive.sub.default}",
-            "borderRadius": "{sem.modals.closeBar.desktop.container.borderRadius}",
+            "borderRadius": "{sem.modals.base.desktop.container.borderRadius}",
             "borderRadiusBottomLeft": "0",
             "borderRadiusBottomRight": "0",
             "layoutMode": "horizontal",
@@ -31,7 +32,7 @@ comp
         "container": {
           "value": {
             "fill": "{sem.color.surface.interactive.sub.hover}",
-            "borderRadius": "{sem.modals.closeBar.desktop.container.borderRadius}",
+            "borderRadius": "{sem.modals.base.desktop.container.borderRadius}",
             "borderRadiusBottomLeft": "0",
             "borderRadiusBottomRight": "0",
             "layoutMode": "horizontal",
@@ -52,7 +53,7 @@ comp
         "container": {
           "value": {
             "fill": "{sem.color.surface.interactive.sub.pressed}",
-            "borderRadius": "{sem.modals.closeBar.desktop.container.borderRadius}",
+            "borderRadius": "{sem.modals.base.desktop.container.borderRadius}",
             "borderRadiusBottomLeft": "0",
             "borderRadiusBottomRight": "0",
             "layoutMode": "horizontal",
@@ -73,7 +74,7 @@ comp
     "mobile": {
       "container": {
         "value": {
-          "borderRadius": "{sem.modals.closeBar.mobile.container.borderRadius}",
+          "borderRadius": "{sem.modals.base.mobile.container.borderRadius}",
           "borderRadiusBottomLeft": "0",
           "borderRadiusBottomRight": "0",
           "layoutMode": "horizontal",
@@ -87,7 +88,7 @@ comp
           "fill": "{sem.color.surface.dark}",
           "width": "{sem.modals.closeBar.mobile.notch.width}",
           "height": "{sem.modals.closeBar.mobile.notch.height}",
-          "borderRadius": "{sem.modals.closeBar.mobile.notch.borderRadius}"
+          "borderRadius": "{sem.modals.base.mobile.container.borderRadius}"
         },
         "type": "composition"
       }

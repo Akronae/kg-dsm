@@ -2,24 +2,11 @@
 
 sem
 .modals
+.sub
 .closeBar
 [
   {
-    "desktop": {
-      "container": {
-        "borderRadius": {
-          "value": "{ref.borderRadius.400}",
-          "type": "borderRadius"
-        }
-      }
-    },
     "mobile": {
-      "container": {
-        "borderRadius": {
-          "value": "{ref.borderRadius.400}",
-          "type": "borderRadius"
-        }
-      },
       "notch": {
         "width": {
           "value": "{ref.sizing.400}",
