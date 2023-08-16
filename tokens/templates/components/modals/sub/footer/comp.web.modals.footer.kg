@@ -12,7 +12,7 @@ comp
         "fill": "{sem.color.surface.default}",
         "horizontalPadding": "{sem.modals.base.<<type>>.content.padding}",
         "bottomPadding": "{sem.modals.base.<<type>>.content.padding}",
-        "itemSpacing": "{sem.modals.sub.footer.<<type>>.container.spacing}",
+        "itemSpacing": "{sem.modals.sub.footer.container.spacing}",
         "layoutMode": "vertical",
         "horizontalResizing": "fill"
       },
@@ -20,7 +20,7 @@ comp
     },
     "buttonWrapper": {
       "value": {
-      "itemSpacing": "{sem.modals.sub.footer.<<type>>.buttonWrapper.spacing}",
+      "itemSpacing": "{sem.modals.sub.footer.buttonWrapper.spacing}",
       "layoutMode": "vertical",
       "horizontalResizing": "fill"
       },

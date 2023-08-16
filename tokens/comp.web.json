@@ -20328,7 +20328,7 @@
                 "fill": "{sem.color.surface.default}",
                 "horizontalPadding": "{sem.modals.base.dialog.content.padding}",
                 "bottomPadding": "{sem.modals.base.dialog.content.padding}",
-                "itemSpacing": "{sem.modals.sub.footer.dialog.container.spacing}",
+                "itemSpacing": "{sem.modals.sub.footer.container.spacing}",
                 "layoutMode": "vertical",
                 "horizontalResizing": "fill"
               },
@@ -20336,7 +20336,7 @@
             },
             "buttonWrapper": {
               "value": {
-                "itemSpacing": "{sem.modals.sub.footer.dialog.buttonWrapper.spacing}",
+                "itemSpacing": "{sem.modals.sub.footer.buttonWrapper.spacing}",
                 "layoutMode": "vertical",
                 "horizontalResizing": "fill"
               },
@@ -20349,7 +20349,7 @@
                 "fill": "{sem.color.surface.default}",
                 "horizontalPadding": "{sem.modals.base.bottom.content.padding}",
                 "bottomPadding": "{sem.modals.base.bottom.content.padding}",
-                "itemSpacing": "{sem.modals.sub.footer.bottom.container.spacing}",
+                "itemSpacing": "{sem.modals.sub.footer.container.spacing}",
                 "layoutMode": "vertical",
                 "horizontalResizing": "fill"
               },
@@ -20357,7 +20357,7 @@
             },
             "buttonWrapper": {
               "value": {
-                "itemSpacing": "{sem.modals.sub.footer.bottom.buttonWrapper.spacing}",
+                "itemSpacing": "{sem.modals.sub.footer.buttonWrapper.spacing}",
                 "layoutMode": "vertical",
                 "horizontalResizing": "fill"
               },
@@ -22762,29 +22762,15 @@
           }
         },
         "footer": {
-          "desktop": {
-            "container": {
-              "spacing": {
-                "value": "{ref.spacing.200}",
-                "type": "spacing"
-              }
-            },
-            "buttonWrapper": {
-              "spacing": "{ref.spacing.200}",
+          "container": {
+            "spacing": {
+              "value": "{ref.spacing.200}",
               "type": "spacing"
             }
           },
-          "mobile": {
-            "container": {
-              "spacing": {
-                "value": "{ref.spacing.200}",
-                "type": "spacing"
-              }
-            },
-            "buttonWrapper": {
-              "spacing": "{ref.spacing.200}",
-              "type": "spacing"
-            }
+          "buttonWrapper": {
+            "spacing": "{ref.spacing.200}",
+            "type": "spacing"
           }
         },
         "reasons": {

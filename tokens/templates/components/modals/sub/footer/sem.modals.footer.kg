@@ -4,7 +4,6 @@ sem
 .modals
 .sub
 .footer
-[aspectRatio: 'desktop' | 'mobile']
 [
   {
     "container": {
