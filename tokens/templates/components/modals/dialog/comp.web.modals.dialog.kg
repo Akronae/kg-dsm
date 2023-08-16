@@ -2,7 +2,7 @@
 
 comp
 .modals
-.bottomSheet
+.dialog
 [aspectRatio: 'desktop' | 'mobile']
 [
   {
