@@ -20405,11 +20405,13 @@
               "type": "composition"
             },
             "buttonWrapper": {
-              "itemSpacing": "{sem.modals.sub.footer.desktop.buttonWrapper.spacing}",
-              "layoutMode": "vertical",
-              "horizontalResizing": "fill"
-            },
-            "type": "composition"
+              "value": {
+                "itemSpacing": "{sem.modals.sub.footer.desktop.buttonWrapper.spacing}",
+                "layoutMode": "vertical",
+                "horizontalResizing": "fill"
+              },
+              "type": "composition"
+            }
           },
           "mobile": {
             "container": {
@@ -20424,11 +20426,13 @@
               "type": "composition"
             },
             "buttonWrapper": {
-              "itemSpacing": "{sem.modals.sub.footer.mobile.buttonWrapper.spacing}",
-              "layoutMode": "vertical",
-              "horizontalResizing": "fill"
-            },
-            "type": "composition"
+              "value": {
+                "itemSpacing": "{sem.modals.sub.footer.mobile.buttonWrapper.spacing}",
+                "layoutMode": "vertical",
+                "horizontalResizing": "fill"
+              },
+              "type": "composition"
+            }
           }
         },
         "reasons": {
@@ -22827,33 +22831,25 @@
         "footer": {
           "desktop": {
             "container": {
-              "horizontalPadding": {
-                "value": "{ref.spacing.300}",
-                "type": "spacing"
-              },
-              "itemSpacing": {
+              "spacing": {
                 "value": "{ref.spacing.200}",
                 "type": "spacing"
               }
             },
             "buttonWrapper": {
-              "itemSpacing": "{ref.spacing.200}",
+              "spacing": "{ref.spacing.200}",
               "type": "spacing"
             }
           },
           "mobile": {
             "container": {
-              "horizontalPadding": {
-                "value": "{ref.spacing.200}",
-                "type": "spacing"
-              },
-              "itemSpacing": {
+              "spacing": {
                 "value": "{ref.spacing.200}",
                 "type": "spacing"
               }
             },
             "buttonWrapper": {
-              "itemSpacing": "{ref.spacing.200}",
+              "spacing": "{ref.spacing.200}",
               "type": "spacing"
             }
           }

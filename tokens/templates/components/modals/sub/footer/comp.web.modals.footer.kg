@@ -19,10 +19,12 @@ comp
       "type": "composition"
     },
     "buttonWrapper": {
+      "value": {
       "itemSpacing": "{sem.modals.sub.footer.<<aspectRatio>>.buttonWrapper.spacing}",
       "layoutMode": "vertical",
       "horizontalResizing": "fill"
-    },
-    "type": "composition"
+      },
+      "type": "composition"
+    }
   }
 ]

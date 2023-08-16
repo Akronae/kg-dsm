@@ -8,17 +8,13 @@ sem
 [
   {
     "container": {
-      "horizontalPadding": {
-        "value": "{<< ({desktop: 'ref.spacing.300', mobile: 'ref.spacing.200'})[aspectRatio] >>}",
-        "type": "spacing"
-      },
-      "itemSpacing": {
+      "spacing": {
         "value": "{ref.spacing.200}",
         "type": "spacing"
       }
     },
     "buttonWrapper": {
-      "itemSpacing": "{ref.spacing.200}",
+      "spacing": "{ref.spacing.200}",
       "type": "spacing"
     }
   }
