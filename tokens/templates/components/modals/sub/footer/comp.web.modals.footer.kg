@@ -4,15 +4,15 @@ comp
 .modals
 .sub
 .footer
-[aspectRatio: 'desktop' | 'mobile']
+[type: 'dialog' | 'bottom']
 [
   {
     "container": {
       "value": {
         "fill": "{sem.color.surface.default}",
-        "horizontalPadding": "{sem.modals.base.<<aspectRatio>>.content.padding}",
-        "bottomPadding": "{sem.modals.base.<<aspectRatio>>.content.padding}",
-        "itemSpacing": "{sem.modals.sub.footer.<<aspectRatio>>.container.spacing}",
+        "horizontalPadding": "{sem.modals.base.<<type>>.content.padding}",
+        "bottomPadding": "{sem.modals.base.<<type>>.content.padding}",
+        "itemSpacing": "{sem.modals.sub.footer.<<type>>.container.spacing}",
         "layoutMode": "vertical",
         "horizontalResizing": "fill"
       },
@@ -20,7 +20,7 @@ comp
     },
     "buttonWrapper": {
       "value": {
-      "itemSpacing": "{sem.modals.sub.footer.<<aspectRatio>>.buttonWrapper.spacing}",
+      "itemSpacing": "{sem.modals.sub.footer.<<type>>.buttonWrapper.spacing}",
       "layoutMode": "vertical",
       "horizontalResizing": "fill"
       },

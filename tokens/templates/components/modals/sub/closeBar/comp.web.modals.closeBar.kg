@@ -6,12 +6,12 @@ comp
 .closeBar
 [
   {
-    "desktop": {
+    "dialog": {
       "default": {
         "container": {
           "value": {
             "fill": "{sem.color.surface.interactive.sub.default}",
-            "borderRadius": "{sem.modals.base.desktop.container.borderRadius}",
+            "borderRadius": "{sem.modals.base.dialog.container.borderRadius}",
             "borderRadiusBottomLeft": "0",
             "borderRadiusBottomRight": "0",
             "layoutMode": "horizontal",
@@ -32,7 +32,7 @@ comp
         "container": {
           "value": {
             "fill": "{sem.color.surface.interactive.sub.hover}",
-            "borderRadius": "{sem.modals.base.desktop.container.borderRadius}",
+            "borderRadius": "{sem.modals.base.dialog.container.borderRadius}",
             "borderRadiusBottomLeft": "0",
             "borderRadiusBottomRight": "0",
             "layoutMode": "horizontal",
@@ -53,7 +53,7 @@ comp
         "container": {
           "value": {
             "fill": "{sem.color.surface.interactive.sub.pressed}",
-            "borderRadius": "{sem.modals.base.desktop.container.borderRadius}",
+            "borderRadius": "{sem.modals.base.dialog.container.borderRadius}",
             "borderRadiusBottomLeft": "0",
             "borderRadiusBottomRight": "0",
             "layoutMode": "horizontal",
@@ -71,10 +71,10 @@ comp
         }
       }
     },
-    "mobile": {
+    "bottomSheet": {
       "container": {
         "value": {
-          "borderRadius": "{sem.modals.base.mobile.container.borderRadius}",
+          "borderRadius": "{sem.modals.base.bottomSheet.container.borderRadius}",
           "borderRadiusBottomLeft": "0",
           "borderRadiusBottomRight": "0",
           "layoutMode": "horizontal",
@@ -86,9 +86,9 @@ comp
       "notch": {
         "value": {
           "fill": "{sem.color.surface.dark}",
-          "width": "{sem.modals.sub.closeBar.mobile.notch.width}",
-          "height": "{sem.modals.sub.closeBar.mobile.notch.height}",
-          "borderRadius": "{sem.modals.base.mobile.container.borderRadius}"
+          "width": "{sem.modals.sub.closeBar.bottomSheet.notch.width}",
+          "height": "{sem.modals.sub.closeBar.bottomSheet.notch.height}",
+          "borderRadius": "{sem.modals.base.bottomSheet.container.borderRadius}"
         },
         "type": "composition"
       }

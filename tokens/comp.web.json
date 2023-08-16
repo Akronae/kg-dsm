@@ -20233,12 +20233,12 @@
       },
       "sub": {
         "closeBar": {
-          "desktop": {
+          "dialog": {
             "default": {
               "container": {
                 "value": {
                   "fill": "{sem.color.surface.interactive.sub.default}",
-                  "borderRadius": "{sem.modals.base.desktop.container.borderRadius}",
+                  "borderRadius": "{sem.modals.base.dialog.container.borderRadius}",
                   "borderRadiusBottomLeft": "0",
                   "borderRadiusBottomRight": "0",
                   "layoutMode": "horizontal",
@@ -20259,7 +20259,7 @@
               "container": {
                 "value": {
                   "fill": "{sem.color.surface.interactive.sub.hover}",
-                  "borderRadius": "{sem.modals.base.desktop.container.borderRadius}",
+                  "borderRadius": "{sem.modals.base.dialog.container.borderRadius}",
                   "borderRadiusBottomLeft": "0",
                   "borderRadiusBottomRight": "0",
                   "layoutMode": "horizontal",
@@ -20280,7 +20280,7 @@
               "container": {
                 "value": {
                   "fill": "{sem.color.surface.interactive.sub.pressed}",
-                  "borderRadius": "{sem.modals.base.desktop.container.borderRadius}",
+                  "borderRadius": "{sem.modals.base.dialog.container.borderRadius}",
                   "borderRadiusBottomLeft": "0",
                   "borderRadiusBottomRight": "0",
                   "layoutMode": "horizontal",
@@ -20298,10 +20298,10 @@
               }
             }
           },
-          "mobile": {
+          "bottomSheet": {
             "container": {
               "value": {
-                "borderRadius": "{sem.modals.base.mobile.container.borderRadius}",
+                "borderRadius": "{sem.modals.base.bottomSheet.container.borderRadius}",
                 "borderRadiusBottomLeft": "0",
                 "borderRadiusBottomRight": "0",
                 "layoutMode": "horizontal",
@@ -20313,22 +20313,22 @@
             "notch": {
               "value": {
                 "fill": "{sem.color.surface.dark}",
-                "width": "{sem.modals.sub.closeBar.mobile.notch.width}",
-                "height": "{sem.modals.sub.closeBar.mobile.notch.height}",
-                "borderRadius": "{sem.modals.base.mobile.container.borderRadius}"
+                "width": "{sem.modals.sub.closeBar.bottomSheet.notch.width}",
+                "height": "{sem.modals.sub.closeBar.bottomSheet.notch.height}",
+                "borderRadius": "{sem.modals.base.bottomSheet.container.borderRadius}"
               },
               "type": "composition"
             }
           }
         },
         "footer": {
-          "desktop": {
+          "dialog": {
             "container": {
               "value": {
                 "fill": "{sem.color.surface.default}",
-                "horizontalPadding": "{sem.modals.base.desktop.content.padding}",
-                "bottomPadding": "{sem.modals.base.desktop.content.padding}",
-                "itemSpacing": "{sem.modals.sub.footer.desktop.container.spacing}",
+                "horizontalPadding": "{sem.modals.base.dialog.content.padding}",
+                "bottomPadding": "{sem.modals.base.dialog.content.padding}",
+                "itemSpacing": "{sem.modals.sub.footer.dialog.container.spacing}",
                 "layoutMode": "vertical",
                 "horizontalResizing": "fill"
               },
@@ -20336,20 +20336,20 @@
             },
             "buttonWrapper": {
               "value": {
-                "itemSpacing": "{sem.modals.sub.footer.desktop.buttonWrapper.spacing}",
+                "itemSpacing": "{sem.modals.sub.footer.dialog.buttonWrapper.spacing}",
                 "layoutMode": "vertical",
                 "horizontalResizing": "fill"
               },
               "type": "composition"
             }
           },
-          "mobile": {
+          "bottom": {
             "container": {
               "value": {
                 "fill": "{sem.color.surface.default}",
-                "horizontalPadding": "{sem.modals.base.mobile.content.padding}",
-                "bottomPadding": "{sem.modals.base.mobile.content.padding}",
-                "itemSpacing": "{sem.modals.sub.footer.mobile.container.spacing}",
+                "horizontalPadding": "{sem.modals.base.bottom.content.padding}",
+                "bottomPadding": "{sem.modals.base.bottom.content.padding}",
+                "itemSpacing": "{sem.modals.sub.footer.bottom.container.spacing}",
                 "layoutMode": "vertical",
                 "horizontalResizing": "fill"
               },
@@ -20357,7 +20357,7 @@
             },
             "buttonWrapper": {
               "value": {
-                "itemSpacing": "{sem.modals.sub.footer.mobile.buttonWrapper.spacing}",
+                "itemSpacing": "{sem.modals.sub.footer.bottom.buttonWrapper.spacing}",
                 "layoutMode": "vertical",
                 "horizontalResizing": "fill"
               },
