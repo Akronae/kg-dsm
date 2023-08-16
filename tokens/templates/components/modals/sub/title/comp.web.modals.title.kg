@@ -18,7 +18,8 @@ comp
         "value": {
           "height": "{sem.modals.sub.title.icon.size}",
           "width": "{sem.modals.sub.title.icon.size}"
-        }
+        },
+        "type": "composition"
       }
     },
     "textWrapper": {
@@ -34,14 +35,16 @@ comp
           "fill": "{sem.color.text.dark}",
           "typography": "{sem.typography.textStyle.heading.heading3}",
           "horizontalResizing": "fill"
-        }
+        },
+        "type": "composition"
       },
       "description": {
         "value": {
           "fill": "{sem.color.text.default}",
           "typography": "{sem.typography.textStyle.paragraph.md.default}",
           "horizontalResizing": "fill"
-        }
+        },
+        "type": "composition"
       }
     }
   }
