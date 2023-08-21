@@ -20095,8 +20095,8 @@
                   "borderRadius": "{sem.modals.base.notCondensed.container.borderRadius}",
                   "borderRadiusBottomLeft": "0",
                   "borderRadiusBottomRight": "0",
-                  "horizontalPadding": "{sem.modals.sub.closedBar.desktop.container.padding}",
-                  "verticalPadding": "{sem.modals.sub.closedBar.desktop.container.padding}",
+                  "horizontalPadding": "{sem.modals.sub.closeBar.desktop.container.padding}",
+                  "verticalPadding": "{sem.modals.sub.closeBar.desktop.container.padding}",
                   "layoutMode": "horizontal",
                   "layoutAlignItems": "center",
                   "horizontalResizing": "fill"
@@ -20118,8 +20118,8 @@
                   "borderRadius": "{sem.modals.base.notCondensed.container.borderRadius}",
                   "borderRadiusBottomLeft": "0",
                   "borderRadiusBottomRight": "0",
-                  "horizontalPadding": "{sem.modals.sub.closedBar.desktop.container.padding}",
-                  "verticalPadding": "{sem.modals.sub.closedBar.desktop.container.padding}",
+                  "horizontalPadding": "{sem.modals.sub.closeBar.desktop.container.padding}",
+                  "verticalPadding": "{sem.modals.sub.closeBar.desktop.container.padding}",
                   "layoutMode": "horizontal",
                   "layoutAlignItems": "center",
                   "horizontalResizing": "fill"
@@ -20141,8 +20141,8 @@
                   "borderRadius": "{sem.modals.base.notCondensed.container.borderRadius}",
                   "borderRadiusBottomLeft": "0",
                   "borderRadiusBottomRight": "0",
-                  "horizontalPadding": "{sem.modals.sub.closedBar.desktop.container.padding}",
-                  "verticalPadding": "{sem.modals.sub.closedBar.desktop.container.padding}",
+                  "horizontalPadding": "{sem.modals.sub.closeBar.desktop.container.padding}",
+                  "verticalPadding": "{sem.modals.sub.closeBar.desktop.container.padding}",
                   "layoutMode": "horizontal",
                   "layoutAlignItems": "center",
                   "horizontalResizing": "fill"
@@ -20164,9 +20164,8 @@
                 "borderRadius": "{sem.modals.base.isCondensed.container.borderRadius}",
                 "borderRadiusBottomLeft": "0",
                 "borderRadiusBottomRight": "0",
-                "horizontalPadding": "{sem.modals.sub.closedBar.mobile.container.horizontalPadding}",
-                "paddingTop": "{sem.modals.sub.closedBar.mobile.container.paddingTop}",
-                "paddingBottom": "{sem.modals.sub.closedBar.mobile.container.paddingBottom}",
+                "horizontalPadding": "{sem.modals.sub.closeBar.mobile.container.horizontalPadding}",
+                "verticalPadding": "{sem.modals.sub.closeBar.mobile.container.verticalPadding}",
                 "layoutMode": "horizontal",
                 "layoutAlignItems": "center",
                 "horizontalResizing": "fill"
@@ -22565,12 +22564,8 @@
                 "type": "spacing",
                 "description": "({extends: 'sem.bottomSheet.closeBar.desktop.container.padding'})"
               },
-              "paddingTop": {
+              "verticalPadding": {
                 "value": "{ref.spacing.100}",
-                "type": "spacing"
-              },
-              "paddingBottom": {
-                "value": "{ref.spacing.150}",
                 "type": "spacing"
               }
             },
@@ -22627,6 +22622,55 @@
             "spacing": {
               "value": "{ref.spacing.50}",
               "type": "spacing"
+            }
+          }
+        },
+        "closedBar": {
+          "desktop": {
+            "container": {
+              "borderRadius": {
+                "value": "{ref.borderRadius.400}",
+                "type": "borderRadius"
+              },
+              "padding": {
+                "value": "{ref.spacing.150}",
+                "type": "spacing"
+              }
+            }
+          },
+          "mobile": {
+            "container": {
+              "borderRadius": {
+                "value": "{ref.borderRadius.400}",
+                "type": "borderRadius"
+              },
+              "horizontalPadding": {
+                "value": "{}",
+                "type": "spacing",
+                "description": "({extends: 'sem.bottomSheet.closeBar.desktop.container.padding'})"
+              },
+              "paddingTop": {
+                "value": "{ref.spacing.100}",
+                "type": "spacing"
+              },
+              "paddingBottom": {
+                "value": "{ref.spacing.150}",
+                "type": "spacing"
+              }
+            },
+            "notch": {
+              "width": {
+                "value": "{ref.sizing.400}",
+                "type": "sizing"
+              },
+              "height": {
+                "value": "{ref.sizing.25}",
+                "type": "sizing"
+              },
+              "borderRadius": {
+                "value": "{ref.borderRadius.9999}",
+                "type": "borderRadius"
+              }
             }
           }
         }

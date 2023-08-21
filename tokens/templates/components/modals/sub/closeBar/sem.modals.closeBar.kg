@@ -29,12 +29,8 @@ sem
           "type": "spacing",
           "description": "({extends: 'sem.bottomSheet.closeBar.desktop.container.padding'})"
         },
-        "paddingTop": {
+        "verticalPadding": {
           "value": "{ref.spacing.100}",
-          "type": "spacing"
-        },
-        "paddingBottom": {
-          "value": "{ref.spacing.150}",
           "type": "spacing"
         }
       },
