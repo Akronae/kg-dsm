@@ -14,7 +14,8 @@ comp
             "borderRadius": "{sem.modals.base.notCondensed.container.borderRadius}",
             "borderRadiusBottomLeft": "0",
             "borderRadiusBottomRight": "0",
-            "padding": "{sem.modals.sub.closedBar.desktop.container.padding}",
+            "horizontalPadding": "{sem.modals.sub.closedBar.desktop.container.padding}",
+            "verticalPadding": "{sem.modals.sub.closedBar.desktop.container.padding}",
             "layoutMode": "horizontal",
             "layoutAlignItems": "center",
             "horizontalResizing": "fill"
@@ -36,7 +37,8 @@ comp
             "borderRadius": "{sem.modals.base.notCondensed.container.borderRadius}",
             "borderRadiusBottomLeft": "0",
             "borderRadiusBottomRight": "0",
-            "padding": "{sem.modals.sub.closedBar.desktop.container.padding}",
+            "horizontalPadding": "{sem.modals.sub.closedBar.desktop.container.padding}",
+            "verticalPadding": "{sem.modals.sub.closedBar.desktop.container.padding}",
             "layoutMode": "horizontal",
             "layoutAlignItems": "center",
             "horizontalResizing": "fill"
@@ -58,7 +60,8 @@ comp
             "borderRadius": "{sem.modals.base.notCondensed.container.borderRadius}",
             "borderRadiusBottomLeft": "0",
             "borderRadiusBottomRight": "0",
-            "padding": "{sem.modals.sub.closedBar.desktop.container.padding}",
+            "horizontalPadding": "{sem.modals.sub.closedBar.desktop.container.padding}",
+            "verticalPadding": "{sem.modals.sub.closedBar.desktop.container.padding}",
             "layoutMode": "horizontal",
             "layoutAlignItems": "center",
             "horizontalResizing": "fill"
