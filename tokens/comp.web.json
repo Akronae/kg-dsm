@@ -22560,9 +22560,8 @@
                 "type": "borderRadius"
               },
               "horizontalPadding": {
-                "value": "",
-                "type": "spacing",
-                "description": "({extends: 'sem.bottomSheet.closeBar.desktop.container.padding'})"
+                "value": "{ref.spacing.150}",
+                "type": "spacing"
               },
               "verticalPadding": {
                 "value": "{ref.spacing.100}",
