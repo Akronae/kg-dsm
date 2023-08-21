@@ -21,7 +21,7 @@ comp
     "buttonWrapper": {
       "value": {
       "itemSpacing": "{sem.modals.sub.footer.buttonWrapper.spacing}",
-      "layoutMode": "vertical",
+      "layoutMode": "horizontal",
       "horizontalResizing": "fill"
       },
       "type": "composition"
