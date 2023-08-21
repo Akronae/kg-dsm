@@ -19973,7 +19973,7 @@
           },
           "container": {
             "value": {
-              "maxHeight": "85%",
+              "maxHeight": "65%",
               "borderRadius": "{sem.modals.base.notCondensed.container.borderRadius}",
               "fill": "{sem.color.surface.default}"
             },
@@ -20002,7 +20002,7 @@
           },
           "container": {
             "value": {
-              "maxHeight": "85%",
+              "maxHeight": "65%",
               "borderRadius": "{sem.modals.base.isCondensed.container.borderRadius}",
               "fill": "{sem.color.surface.default}"
             },
@@ -20033,7 +20033,7 @@
         },
         "container": {
           "value": {
-            "maxHeight": "85%",
+            "maxHeight": "65%",
             "borderRadius": "{sem.modals.base.isCondensed.container.borderRadius}",
             "fill": "{sem.color.surface.default}",
             "borderRadiusBottomRight": "0",
@@ -20067,7 +20067,7 @@
         },
         "container": {
           "value": {
-            "maxHeight": "85%",
+            "maxHeight": "65%",
             "borderRadius": "{sem.modals.base.isCondensed.container.borderRadius}",
             "fill": "{sem.color.surface.default}"
           },

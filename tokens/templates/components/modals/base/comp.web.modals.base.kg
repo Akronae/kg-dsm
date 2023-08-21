@@ -18,7 +18,7 @@ comp
     },
     "container": {
       "value": {
-        "maxHeight": "85%",
+        "maxHeight": "65%",
         "borderRadius": "{sem.modals.base.<<type>>.container.borderRadius}",
         "fill": "{sem.color.surface.default}"
       },
