@@ -94,7 +94,7 @@ comp
           "fill": "{sem.color.surface.dark}",
           "width": "{sem.modals.sub.closeBar.mobile.notch.width}",
           "height": "{sem.modals.sub.closeBar.mobile.notch.height}",
-          "borderRadius": "{sem.modals.base.mobile.container.borderRadius}"
+          "borderRadius": "{sem.modals.sub.closeBar.mobile.notch.borderRadius}"
         },
         "type": "composition"
       }

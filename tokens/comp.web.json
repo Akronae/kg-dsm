@@ -20175,7 +20175,7 @@
                 "fill": "{sem.color.surface.dark}",
                 "width": "{sem.modals.sub.closeBar.mobile.notch.width}",
                 "height": "{sem.modals.sub.closeBar.mobile.notch.height}",
-                "borderRadius": "{sem.modals.base.mobile.container.borderRadius}"
+                "borderRadius": "{sem.modals.sub.closeBar.mobile.notch.borderRadius}"
               },
               "type": "composition"
             }
@@ -22558,7 +22558,7 @@
                 "type": "borderRadius"
               },
               "horizontalPadding": {
-                "value": "",
+                "value": "{}",
                 "type": "spacing",
                 "description": "({extends: 'sem.bottomSheet.closeBar.desktop.container.padding'})"
               },
@@ -22567,9 +22567,8 @@
                 "type": "spacing"
               },
               "paddingBottom": {
-                "value": "",
-                "type": "spacing",
-                "description": "({extends: 'sem.bottomSheet.closeBar.desktop.container.padding'})"
+                "value": "{ref.spacing.150}",
+                "type": "spacing"
               }
             },
             "notch": {

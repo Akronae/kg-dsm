@@ -25,7 +25,7 @@ sem
           "type": "borderRadius"
         },
         "horizontalPadding": {
-          "value": "",
+          "value": "{}",
           "type": "spacing",
           "description": "({extends: 'sem.bottomSheet.closeBar.desktop.container.padding'})"
         },
@@ -34,9 +34,8 @@ sem
           "type": "spacing"
         },
         "paddingBottom": {
-          "value": "",
-          "type": "spacing",
-          "description": "({extends: 'sem.bottomSheet.closeBar.desktop.container.padding'})"
+          "value": "{ref.spacing.150}",
+          "type": "spacing"
         }
       },
       "notch": {
