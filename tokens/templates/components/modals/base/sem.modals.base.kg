@@ -1,0 +1,22 @@
+// @replacepath: tokens/comp.web.json
+
+sem
+.modals
+.base
+[type: 'notCondensed' | 'isCondensed']
+[
+  {
+    "container": {
+      "borderRadius": {
+        "value": "{ref.borderRadius.400}",
+        "type": "borderRadius"
+      }
+    },
+    "content": {
+      "padding": {
+        "value": "{<< ({notCondensed: 'ref.spacing.300', isCondensed: 'ref.spacing.200'})[type] >>}",
+        "type": "spacing"
+      }
+    }
+  }
+]

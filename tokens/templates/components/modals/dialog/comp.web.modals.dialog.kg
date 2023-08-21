@@ -1,0 +1,24 @@
+// @replacepath: tokens/comp.web.json
+
+comp
+.modals
+.dialog
+[
+  {
+    "overlay": {
+      "value": {},
+      "type": "composition",
+      "description": "({extends: 'comp.modals.base.isCondensed.overlay'})"
+    },
+    "container": {
+      "value": {},
+      "type": "composition",
+      "description": "({extends: 'comp.modals.base.isCondensed.container'})"
+    },
+    "content": {
+      "value": {},
+      "type": "composition",
+      "description": "({extends: 'comp.modals.base.isCondensed.content'})"
+    }
+  }
+]

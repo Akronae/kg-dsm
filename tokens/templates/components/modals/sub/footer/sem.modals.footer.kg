@@ -1,0 +1,20 @@
+// @replacepath: tokens/comp.web.json
+
+sem
+.modals
+.sub
+.footer
+[
+  {
+    "container": {
+      "spacing": {
+        "value": "{ref.spacing.200}",
+        "type": "spacing"
+      }
+    },
+    "buttonWrapper": {
+      "spacing": "{ref.spacing.200}",
+      "type": "spacing"
+    }
+  }
+]

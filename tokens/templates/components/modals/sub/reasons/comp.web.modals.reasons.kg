@@ -1,0 +1,17 @@
+// @replacepath: tokens/comp.web.json
+
+comp
+.modals
+.sub
+.reasons
+[
+  {
+    "container": {
+      "value": {
+        "itemSpacing": "{sem.modals.sub.reasons.container.spacing}",
+        "horizontalResizing": "fill"
+      },
+      "type": "composition"
+    }
+  }
+]

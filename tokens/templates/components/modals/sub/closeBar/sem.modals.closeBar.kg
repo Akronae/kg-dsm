@@ -1,0 +1,52 @@
+// @replacepath: tokens/comp.web.json
+
+sem
+.modals
+.sub
+.closeBar
+[
+  {
+    "desktop": {
+      "container": {
+        "borderRadius": {
+          "value": "{ref.borderRadius.400}",
+          "type": "borderRadius"
+        },
+        "padding": {
+          "value": "{ref.spacing.150}",
+          "type": "spacing"
+        }
+      }
+    },
+    "mobile": {
+      "container": {
+        "borderRadius": {
+          "value": "{ref.borderRadius.400}",
+          "type": "borderRadius"
+        },
+        "horizontalPadding": {
+          "value": "{ref.spacing.150}",
+          "type": "spacing"
+        },
+        "verticalPadding": {
+          "value": "{ref.spacing.100}",
+          "type": "spacing"
+        }
+      },
+      "notch": {
+        "width": {
+          "value": "{ref.sizing.400}",
+          "type": "sizing"
+        },
+        "height": {
+          "value": "{ref.sizing.25}",
+          "type": "sizing"
+        },
+        "borderRadius": {
+          "value": "{ref.borderRadius.9999}",
+          "type": "borderRadius"
+        }
+      }
+    }
+  }
+]
