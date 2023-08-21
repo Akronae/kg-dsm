@@ -3,7 +3,7 @@
 comp
 .modals
 .base
-[type: 'dialog' | 'bottomSheet']
+[type: 'notCondensed' | 'isCondensed']
 [
   {
     "overlay": {

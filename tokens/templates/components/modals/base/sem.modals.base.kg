@@ -3,7 +3,7 @@
 sem
 .modals
 .base
-[type: 'dialog' | 'bottomSheet']
+[type: 'notCondensed' | 'isCondensed']
 [
   {
     "container": {
@@ -14,7 +14,7 @@ sem
     },
     "content": {
       "padding": {
-        "value": "{<< ({dialog: 'ref.spacing.300', bottomSheet: 'ref.spacing.200'})[type] >>}",
+        "value": "{<< ({notCondensed: 'ref.spacing.300', isCondensed: 'ref.spacing.200'})[type] >>}",
         "type": "spacing"
       }
     }

@@ -8,7 +8,7 @@ comp
     "overlay": {
       "value": {},
       "type": "composition",
-      "description": "({extends: 'comp.modals.base.bottomSheet.overlay'})"
+      "description": "({extends: 'comp.modals.base.isCondensed.overlay'})"
     },
     "container": {
       "value": {
@@ -16,12 +16,12 @@ comp
         "borderRadiusBottomLeft": "0"
       },
       "type": "composition",
-      "description": "({extends: 'comp.modals.base.bottomSheet.container'})"
+      "description": "({extends: 'comp.modals.base.isCondensed.container'})"
     },
     "content": {
       "value": {},
       "type": "composition",
-      "description": "({extends: 'comp.modals.base.bottomSheet.content'})"
+      "description": "({extends: 'comp.modals.base.isCondensed.content'})"
     }
   }
 ]

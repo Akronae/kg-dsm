@@ -4,7 +4,7 @@ comp
 .modals
 .sub
 .footer
-[type: 'dialog' | 'bottomSheet']
+[type: 'notCondensed' | 'isCondensed']
 [
   {
     "container": {

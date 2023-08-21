@@ -6,14 +6,15 @@ comp
 .closeBar
 [
   {
-    "dialog": {
+    "desktop": {
       "default": {
         "container": {
           "value": {
             "fill": "{sem.color.surface.interactive.sub.default}",
-            "borderRadius": "{sem.modals.base.dialog.container.borderRadius}",
+            "borderRadius": "{sem.modals.base.notCondensed.container.borderRadius}",
             "borderRadiusBottomLeft": "0",
             "borderRadiusBottomRight": "0",
+            "padding": "{sem.modals.sub.closedBar.desktop.container.padding}",
             "layoutMode": "horizontal",
             "layoutAlignItems": "center",
             "horizontalResizing": "fill"
@@ -32,9 +33,10 @@ comp
         "container": {
           "value": {
             "fill": "{sem.color.surface.interactive.sub.hover}",
-            "borderRadius": "{sem.modals.base.dialog.container.borderRadius}",
+            "borderRadius": "{sem.modals.base.notCondensed.container.borderRadius}",
             "borderRadiusBottomLeft": "0",
             "borderRadiusBottomRight": "0",
+            "padding": "{sem.modals.sub.closedBar.desktop.container.padding}",
             "layoutMode": "horizontal",
             "layoutAlignItems": "center",
             "horizontalResizing": "fill"
@@ -53,9 +55,10 @@ comp
         "container": {
           "value": {
             "fill": "{sem.color.surface.interactive.sub.pressed}",
-            "borderRadius": "{sem.modals.base.dialog.container.borderRadius}",
+            "borderRadius": "{sem.modals.base.notCondensed.container.borderRadius}",
             "borderRadiusBottomLeft": "0",
             "borderRadiusBottomRight": "0",
+            "padding": "{sem.modals.sub.closedBar.desktop.container.padding}",
             "layoutMode": "horizontal",
             "layoutAlignItems": "center",
             "horizontalResizing": "fill"
@@ -71,12 +74,15 @@ comp
         }
       }
     },
-    "bottomSheet": {
+    "mobile": {
       "container": {
         "value": {
-          "borderRadius": "{sem.modals.base.bottomSheet.container.borderRadius}",
+          "borderRadius": "{sem.modals.base.isCondensed.container.borderRadius}",
           "borderRadiusBottomLeft": "0",
           "borderRadiusBottomRight": "0",
+          "horizontalPadding": "{sem.modals.sub.closedBar.mobile.container.horizontalPadding}",
+          "paddingTop": "{sem.modals.sub.closedBar.mobile.container.paddingTop}",
+          "paddingBottom": "{sem.modals.sub.closedBar.mobile.container.paddingBottom}",
           "layoutMode": "horizontal",
           "layoutAlignItems": "center",
           "horizontalResizing": "fill"
@@ -86,9 +92,9 @@ comp
       "notch": {
         "value": {
           "fill": "{sem.color.surface.dark}",
-          "width": "{sem.modals.sub.closeBar.bottomSheet.notch.width}",
-          "height": "{sem.modals.sub.closeBar.bottomSheet.notch.height}",
-          "borderRadius": "{sem.modals.base.bottomSheet.container.borderRadius}"
+          "width": "{sem.modals.sub.closeBar.mobile.notch.width}",
+          "height": "{sem.modals.sub.closeBar.mobile.notch.height}",
+          "borderRadius": "{sem.modals.base.mobile.container.borderRadius}"
         },
         "type": "composition"
       }

@@ -6,7 +6,39 @@ sem
 .closeBar
 [
   {
-    "bottomSheet": {
+    "desktop": {
+      "container": {
+        "borderRadius": {
+          "value": "{ref.borderRadius.400}",
+          "type": "borderRadius"
+        },
+        "padding": {
+          "value": "{ref.spacing.150}",
+          "type": "spacing"
+        }
+      }
+    },
+    "mobile": {
+      "container": {
+        "borderRadius": {
+          "value": "{ref.borderRadius.400}",
+          "type": "borderRadius"
+        },
+        "horizontalPadding": {
+          "value": "",
+          "type": "spacing",
+          "description": "({extends: 'sem.bottomSheet.closeBar.desktop.container.padding'})"
+        },
+        "paddingTop": {
+          "value": "{ref.spacing.100}",
+          "type": "spacing"
+        },
+        "paddingBottom": {
+          "value": "",
+          "type": "spacing",
+          "description": "({extends: 'sem.bottomSheet.closeBar.desktop.container.padding'})"
+        }
+      },
       "notch": {
         "width": {
           "value": "{ref.sizing.400}",
