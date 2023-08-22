@@ -396,10 +396,10 @@
           "type": "color"
         },
         "greyLight": {
-          "value": "{ref.colors.neutral.400}",
+          "value": "{ref.colors.neutral.100}",
           "type": "color"
         },
-        "grey": {
+        "greyDark": {
           "value": "{ref.colors.neutral.600}",
           "type": "color"
         },

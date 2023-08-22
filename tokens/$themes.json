@@ -330,8 +330,6 @@
       "sem.color.tag.redDark": "42ce06be50ca955217d9c780103dea0d3d810169",
       "sem.color.tag.primary": "5550881898158cd4ab0da7e27bcbbf9ad5f0f236",
       "sem.color.tag.white": "41245332a0070ba280b22fc9763b72863624cf2d",
-      "sem.color.tag.greyLight": "61f7688bac645d600fd04a6c50f067b823f997c8",
-      "sem.color.tag.grey": "ff281f832c0c5ff1cd83f6b0b97efb1c8a6f7ea1",
       "sem.color.tag.black": "3a8c39437dcf21cdc8974989104c0fafe25443d6",
       "sem.color.tag.green": "4092ffdbf93c18c5549902dc11d6806ddb953e03",
       "sem.color.tag.greenDark": "27c11a4edae06312e2b311308cb873865b2440a5",
@@ -691,7 +689,9 @@
       "ref.sizing.800": "5e4dcc29d5204bacc75659baf2841d0591a47fb2",
       "ref.sizing.900": "c208e9ef12b7d63df20efde1eb2353a2ffcfa735",
       "ref.sizing.950": "54129c7d6d675dd4477dc668c8b49689cd3e85e5",
-      "ref.sizing.1000": "f92ec0c36706dcc424a1a1065c3977f79c0ab808"
+      "ref.sizing.1000": "f92ec0c36706dcc424a1a1065c3977f79c0ab808",
+      "sem.color.tag.greyDark": "ff281f832c0c5ff1cd83f6b0b97efb1c8a6f7ea1",
+      "sem.color.tag.greyLight": "61f7688bac645d600fd04a6c50f067b823f997c8"
     }
   }
 ]
