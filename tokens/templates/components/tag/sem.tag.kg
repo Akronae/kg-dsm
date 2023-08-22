@@ -2,19 +2,20 @@
 
 sem
 .tag
+[size: 'sm' | 'md' ]
 [
   {
     "container": {
       "borderRadius": {
-        "value": "{ref.borderRadius.250}",
+        "value": "{ref.borderRadius.<< ({sm: '200', md: '250'})[size] >>}",
         "type": "borderRadius"
       },
       "padding": {
-        "value": "{ref.spacing.100}",
+        "value": "{ref.spacing.<< ({sm: '50', md: '100'})[size] >>}",
         "type": "spacing"
       },
       "spacing": {
-        "value": "{ref.spacing.100}",
+        "value": "{ref.spacing.<< ({sm: '50', md: '100'})[size] >>}",
         "type": "spacing"
       }
     }
