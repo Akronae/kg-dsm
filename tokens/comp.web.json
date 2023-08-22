@@ -12547,7 +12547,10 @@
         }
       },
       "wrapper": {
-        "width": "536px"
+        "width": {
+          "value": "536px",
+          "type": "other"
+        }
       },
       "container": {
         "value": {
@@ -20329,7 +20332,7 @@
           "container": {
             "value": {
               "borderRadius": "{sem.tag.sm.container.borderRadius}",
-              "fill": "{sem.color.tag.grey}",
+              "fill": "{sem.color.tag.greyDark}",
               "verticalPadding": "{sem.tag.sm.container.padding}",
               "horizontalPadding": "{sem.tag.sm.container.padding}",
               "itemSpacing": "{sem.tag.sm.container.spacing}"
@@ -20349,7 +20352,7 @@
           "container": {
             "value": {
               "borderRadius": "{sem.tag.md.container.borderRadius}",
-              "fill": "{sem.color.tag.grey}",
+              "fill": "{sem.color.tag.greyDark}",
               "verticalPadding": "{sem.tag.md.container.padding}",
               "horizontalPadding": "{sem.tag.md.container.padding}",
               "itemSpacing": "{sem.tag.md.container.spacing}"
@@ -22790,8 +22793,10 @@
             }
           },
           "buttonWrapper": {
-            "spacing": "{ref.spacing.200}",
-            "type": "spacing"
+            "spacing": {
+              "value": "{ref.spacing.200}",
+              "type": "other"
+            }
           }
         },
         "reasons": {
@@ -23017,8 +23022,7 @@
               }
             }
           }
-        },
-        "wrapper": {}
+        }
       }
     }
   }
