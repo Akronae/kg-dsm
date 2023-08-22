@@ -399,6 +399,10 @@
           "value": "{ref.colors.neutral.100}",
           "type": "color"
         },
+        "grey": {
+          "value": "{ref.colors.neutral.300}",
+          "type": "color"
+        },
         "greyDark": {
           "value": "{ref.colors.neutral.600}",
           "type": "color"
