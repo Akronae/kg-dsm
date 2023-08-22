@@ -2,24 +2,25 @@
 
 comp
 .tag
-[color: 'primary' | 'grey' | 'greyLight' | 'blue' | 'green' | 'greenDark' | 'red' | 'redDark' | 'redLight' | 'blue' ]
+[color: 'primary' | 'greyDark' | 'grey' | 'greyLight' | 'blue' | 'green' | 'greenDark' | 'red' | 'redDark' | 'redLight' | 'blue' ]
+[size: 'sm' | 'md' ]
 [
   {
     "container": {
       "value": {
-        "borderRadius": "{sem.tag.container.borderRadius}",
+        "borderRadius": "{sem.tag.<<size>>.container.borderRadius}",
         "fill": "{sem.color.tag.<<color>>}",
-        "verticalPadding": "{sem.tag.container.padding}",
-        "horizontalPadding": "{sem.tag.container.padding}",
-        "itemSpacing": "{sem.tag.container.spacing}"
+        "verticalPadding": "{sem.tag.<<size>>.container.padding}",
+        "horizontalPadding": "{sem.tag.<<size>>.container.padding}",
+        "itemSpacing": "{sem.tag.<<size>>.container.spacing}"
       },
       "type": "composition"
     },
     "text": {
       "value": {
-        "typography": "{sem.typography.textStyle.label.button.sm}",
+        "typography": "{sem.typography.textStyle.label.body.<< ({sm: 'xs', md: 'sm'})[size] >>}",
         "fontWeight": "{ref.typography.fontWeight.700}",
-        "fill": "{sem.color.text.<< ({white: 'dark', greyLight: 'dark', redLight: 'danger'})[color] || 'light' >>}"
+        "fill": "{sem.color.text.<< ({white: 'dark', greyLight: 'diminish', grey: 'dark', redLight: 'danger'})[color] || 'light' >>}"
       },
       "type": "composition"
     }
