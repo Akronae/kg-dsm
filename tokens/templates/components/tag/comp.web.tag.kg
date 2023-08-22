@@ -2,7 +2,7 @@
 
 comp
 .tag
-[color: 'primary' | 'grey' | 'greyLight' | 'blue' | 'green' | 'greenDark' | 'red' | 'redDark' | 'redLight' | 'blue' ]
+[color: 'primary' | 'greyDark' | 'grey' | 'greyLight' | 'blue' | 'green' | 'greenDark' | 'red' | 'redDark' | 'redLight' | 'blue' ]
 [size: 'sm' | 'md' ]
 [
   {
@@ -20,7 +20,7 @@ comp
       "value": {
         "typography": "{sem.typography.textStyle.label.body.<< ({sm: 'xs', md: 'sm'})[size] >>}",
         "fontWeight": "{ref.typography.fontWeight.700}",
-        "fill": "{sem.color.text.<< ({white: 'dark', greyLight: 'dark', redLight: 'danger'})[color] || 'light' >>}"
+        "fill": "{sem.color.text.<< ({white: 'dark', greyLight: 'diminish', grey: 'dark', redLight: 'danger'})[color] || 'light' >>}"
       },
       "type": "composition"
     }
