@@ -12547,10 +12547,7 @@
         }
       },
       "wrapper": {
-        "width": {
-          "value": "536px",
-          "type": "other"
-        }
+        "width": "536px"
       },
       "container": {
         "value": {
@@ -22313,7 +22310,7 @@
             },
             "textWrapper": {
               "itemSpacing": {
-                "value": "{ref.spacing.50}",
+                "value": "ref.spacing.25",
                 "type": "spacing"
               }
             }
@@ -22339,7 +22336,7 @@
             },
             "textWrapper": {
               "itemSpacing": {
-                "value": "{ref.spacing.50}",
+                "value": "ref.spacing.50",
                 "type": "spacing"
               }
             }
@@ -22365,7 +22362,7 @@
             },
             "textWrapper": {
               "itemSpacing": {
-                "value": "{ref.spacing.50}",
+                "value": "ref.spacing.50",
                 "type": "spacing"
               }
             }
@@ -22835,10 +22832,8 @@
             }
           },
           "buttonWrapper": {
-            "spacing": {
-              "value": "{ref.spacing.200}",
-              "type": "other"
-            }
+            "spacing": "{ref.spacing.200}",
+            "type": "spacing"
           }
         },
         "reasons": {
@@ -23064,7 +23059,8 @@
               }
             }
           }
-        }
+        },
+        "wrapper": {}
       }
     }
   }

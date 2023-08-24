@@ -18,7 +18,7 @@ sem
       },
       "textWrapper": {
         "itemSpacing": {
-          "value": "{ref.spacing.50}",
+          "value": "<< ({xs: 'ref.spacing.25', sm:'ref.spacing.50', md: 'ref.spacing.50'})[size] >>",
           "type": "spacing"
         }
       }
