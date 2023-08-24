@@ -3,6 +3,7 @@
 sem
 .cardContent.card
 [size: 'xs' | 'sm' | 'md']
+[aspectRatio: 'desktop' | 'mobile']
 [
   {
     "container": {
@@ -18,7 +19,7 @@ sem
       },
       "textWrapper": {
         "itemSpacing": {
-          "value": "<< ({xs: 'ref.spacing.25', sm:'ref.spacing.50', md: 'ref.spacing.50'})[size] >>",
+          "value": "{<< ({xs: 'ref.spacing.25', sm:'ref.spacing.50', md: 'ref.spacing.50'})[size] >>}",
           "type": "spacing"
         }
       }

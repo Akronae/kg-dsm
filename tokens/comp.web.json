@@ -22297,80 +22297,164 @@
     "cardContent": {
       "card": {
         "xs": {
-          "container": {
-            "itemSpacing": {
-              "value": "{ref.spacing.100}",
-              "type": "spacing"
-            }
-          },
-          "contentWrapper": {
-            "itemSpacing": {
-              "value": "{ref.spacing.100}",
-              "type": "spacing"
-            },
-            "textWrapper": {
+          "desktop": {
+            "container": {
               "itemSpacing": {
-                "value": "ref.spacing.25",
+                "value": "{ref.spacing.100}",
+                "type": "spacing"
+              }
+            },
+            "contentWrapper": {
+              "itemSpacing": {
+                "value": "{ref.spacing.100}",
+                "type": "spacing"
+              },
+              "textWrapper": {
+                "itemSpacing": {
+                  "value": "{ref.spacing.25}",
+                  "type": "spacing"
+                }
+              }
+            },
+            "buttonWrapper": {
+              "itemSpacing": {
+                "value": "{ref.spacing.100}",
                 "type": "spacing"
               }
             }
           },
-          "buttonWrapper": {
-            "itemSpacing": {
-              "value": "{ref.spacing.100}",
-              "type": "spacing"
+          "mobile": {
+            "container": {
+              "itemSpacing": {
+                "value": "{ref.spacing.100}",
+                "type": "spacing"
+              }
+            },
+            "contentWrapper": {
+              "itemSpacing": {
+                "value": "{ref.spacing.100}",
+                "type": "spacing"
+              },
+              "textWrapper": {
+                "itemSpacing": {
+                  "value": "{ref.spacing.25}",
+                  "type": "spacing"
+                }
+              }
+            },
+            "buttonWrapper": {
+              "itemSpacing": {
+                "value": "{ref.spacing.100}",
+                "type": "spacing"
+              }
             }
           }
         },
         "sm": {
-          "container": {
-            "itemSpacing": {
-              "value": "{ref.spacing.150}",
-              "type": "spacing"
-            }
-          },
-          "contentWrapper": {
-            "itemSpacing": {
-              "value": "{ref.spacing.150}",
-              "type": "spacing"
-            },
-            "textWrapper": {
+          "desktop": {
+            "container": {
               "itemSpacing": {
-                "value": "ref.spacing.50",
+                "value": "{ref.spacing.150}",
+                "type": "spacing"
+              }
+            },
+            "contentWrapper": {
+              "itemSpacing": {
+                "value": "{ref.spacing.150}",
+                "type": "spacing"
+              },
+              "textWrapper": {
+                "itemSpacing": {
+                  "value": "{ref.spacing.50}",
+                  "type": "spacing"
+                }
+              }
+            },
+            "buttonWrapper": {
+              "itemSpacing": {
+                "value": "{ref.spacing.100}",
                 "type": "spacing"
               }
             }
           },
-          "buttonWrapper": {
-            "itemSpacing": {
-              "value": "{ref.spacing.100}",
-              "type": "spacing"
+          "mobile": {
+            "container": {
+              "itemSpacing": {
+                "value": "{ref.spacing.150}",
+                "type": "spacing"
+              }
+            },
+            "contentWrapper": {
+              "itemSpacing": {
+                "value": "{ref.spacing.150}",
+                "type": "spacing"
+              },
+              "textWrapper": {
+                "itemSpacing": {
+                  "value": "{ref.spacing.50}",
+                  "type": "spacing"
+                }
+              }
+            },
+            "buttonWrapper": {
+              "itemSpacing": {
+                "value": "{ref.spacing.100}",
+                "type": "spacing"
+              }
             }
           }
         },
         "md": {
-          "container": {
-            "itemSpacing": {
-              "value": "{ref.spacing.200}",
-              "type": "spacing"
-            }
-          },
-          "contentWrapper": {
-            "itemSpacing": {
-              "value": "{ref.spacing.150}",
-              "type": "spacing"
-            },
-            "textWrapper": {
+          "desktop": {
+            "container": {
               "itemSpacing": {
-                "value": "ref.spacing.50",
+                "value": "{ref.spacing.200}",
+                "type": "spacing"
+              }
+            },
+            "contentWrapper": {
+              "itemSpacing": {
+                "value": "{ref.spacing.150}",
+                "type": "spacing"
+              },
+              "textWrapper": {
+                "itemSpacing": {
+                  "value": "{ref.spacing.50}",
+                  "type": "spacing"
+                }
+              }
+            },
+            "buttonWrapper": {
+              "itemSpacing": {
+                "value": "{ref.spacing.100}",
                 "type": "spacing"
               }
             }
           },
-          "buttonWrapper": {
-            "itemSpacing": {
-              "value": "{ref.spacing.100}",
-              "type": "spacing"
+          "mobile": {
+            "container": {
+              "itemSpacing": {
+                "value": "{ref.spacing.200}",
+                "type": "spacing"
+              }
+            },
+            "contentWrapper": {
+              "itemSpacing": {
+                "value": "{ref.spacing.150}",
+                "type": "spacing"
+              },
+              "textWrapper": {
+                "itemSpacing": {
+                  "value": "{ref.spacing.50}",
+                  "type": "spacing"
+                }
+              }
+            },
+            "buttonWrapper": {
+              "itemSpacing": {
+                "value": "{ref.spacing.100}",
+                "type": "spacing"
+              }
             }
           }
         }
