@@ -20063,26 +20063,26 @@
             "verticalResizing": "fill"
           },
           "type": "composition",
-          "description": "({extends: 'comp.modals.base.isCondensed.overlay'})"
+          "description": "({extends: 'comp.modals.base.notCondensed.overlay'})"
         },
         "container": {
           "value": {
             "maxHeight": "65%",
-            "borderRadius": "{sem.modals.base.isCondensed.container.borderRadius}",
+            "borderRadius": "{sem.modals.base.notCondensed.container.borderRadius}",
             "fill": "{sem.color.surface.default}"
           },
           "type": "composition",
-          "description": "({extends: 'comp.modals.base.isCondensed.container'})"
+          "description": "({extends: 'comp.modals.base.notCondensed.container'})"
         },
         "content": {
           "value": {
-            "horizontalPadding": "{sem.modals.base.isCondensed.content.padding}",
-            "verticalPadding": "{sem.modals.base.isCondensed.content.padding}",
+            "horizontalPadding": "{sem.modals.base.notCondensed.content.padding}",
+            "verticalPadding": "{sem.modals.base.notCondensed.content.padding}",
             "layoutMode": "vertical",
             "horizontalResizing": "fill"
           },
           "type": "composition",
-          "description": "({extends: 'comp.modals.base.isCondensed.content'})"
+          "description": "({extends: 'comp.modals.base.notCondensed.content'})"
         }
       },
       "sub": {

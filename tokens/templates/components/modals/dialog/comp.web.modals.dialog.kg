@@ -8,17 +8,17 @@ comp
     "overlay": {
       "value": {},
       "type": "composition",
-      "description": "({extends: 'comp.modals.base.isCondensed.overlay'})"
+      "description": "({extends: 'comp.modals.base.notCondensed.overlay'})"
     },
     "container": {
       "value": {},
       "type": "composition",
-      "description": "({extends: 'comp.modals.base.isCondensed.container'})"
+      "description": "({extends: 'comp.modals.base.notCondensed.container'})"
     },
     "content": {
       "value": {},
       "type": "composition",
-      "description": "({extends: 'comp.modals.base.isCondensed.content'})"
+      "description": "({extends: 'comp.modals.base.notCondensed.content'})"
     }
   }
 ]
