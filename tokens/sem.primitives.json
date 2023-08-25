@@ -314,9 +314,9 @@
             "value": "{ref.colors.neutral.200}",
             "type": "color"
           },
-          "sub": {
+          "diminished": {
             "default": {
-              "value": "{sem.color.surface.sub}",
+              "value": "{sem.color.surface.diminished}",
               "type": "color"
             },
             "hover": {
