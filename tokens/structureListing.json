@@ -109,7 +109,7 @@
                       "itemSpacing": "{sem.structure.listing.components.filterButton.sm.container.itemSpacing}",
                       "horizontalPadding": "{sem.structure.listing.components.filterButton.sm.container.padding}",
                       "verticalPadding": "{sem.structure.listing.components.filterButton.sm.container.padding}",
-                      "fill": "{sem.color.surface.interactive.diminished.default}",
+                      "fill": "{sem.color.surface.interactive.sub.default}",
                       "border": "{sem.border.interactive.default}",
                       "layoutMode": "horizontal",
                       "layoutAlignItems": "center left"
@@ -192,7 +192,7 @@
                       "itemSpacing": "{sem.structure.listing.components.filterButton.sm.container.itemSpacing}",
                       "horizontalPadding": "{sem.structure.listing.components.filterButton.sm.container.padding}",
                       "verticalPadding": "{sem.structure.listing.components.filterButton.sm.container.padding}",
-                      "fill": "{sem.color.surface.interactive.diminished.hover}",
+                      "fill": "{sem.color.surface.interactive.sub.hover}",
                       "border": "{sem.border.interactive.hover}",
                       "layoutMode": "horizontal",
                       "layoutAlignItems": "center left"
@@ -275,7 +275,7 @@
                       "itemSpacing": "{sem.structure.listing.components.filterButton.sm.container.itemSpacing}",
                       "horizontalPadding": "{sem.structure.listing.components.filterButton.sm.container.padding}",
                       "verticalPadding": "{sem.structure.listing.components.filterButton.sm.container.padding}",
-                      "fill": "{sem.color.surface.interactive.diminished.pressed}",
+                      "fill": "{sem.color.surface.interactive.sub.pressed}",
                       "border": "{sem.border.interactive.pressed}",
                       "layoutMode": "horizontal",
                       "layoutAlignItems": "center left"
@@ -358,7 +358,7 @@
                       "itemSpacing": "{sem.structure.listing.components.filterButton.sm.container.itemSpacing}",
                       "horizontalPadding": "{sem.structure.listing.components.filterButton.sm.container.padding}",
                       "verticalPadding": "{sem.structure.listing.components.filterButton.sm.container.padding}",
-                      "fill": "{sem.color.surface.interactive.diminished.default}",
+                      "fill": "{sem.color.surface.interactive.sub.default}",
                       "border": "{sem.border.interactive.active}",
                       "layoutMode": "horizontal",
                       "layoutAlignItems": "center left"
@@ -443,7 +443,7 @@
                       "itemSpacing": "{sem.structure.listing.components.filterButton.md.container.itemSpacing}",
                       "horizontalPadding": "{sem.structure.listing.components.filterButton.md.container.padding}",
                       "verticalPadding": "{sem.structure.listing.components.filterButton.md.container.padding}",
-                      "fill": "{sem.color.surface.interactive.diminished.default}",
+                      "fill": "{sem.color.surface.interactive.sub.default}",
                       "border": "{sem.border.interactive.default}",
                       "layoutMode": "horizontal",
                       "layoutAlignItems": "center left"
@@ -526,7 +526,7 @@
                       "itemSpacing": "{sem.structure.listing.components.filterButton.md.container.itemSpacing}",
                       "horizontalPadding": "{sem.structure.listing.components.filterButton.md.container.padding}",
                       "verticalPadding": "{sem.structure.listing.components.filterButton.md.container.padding}",
-                      "fill": "{sem.color.surface.interactive.diminished.hover}",
+                      "fill": "{sem.color.surface.interactive.sub.hover}",
                       "border": "{sem.border.interactive.hover}",
                       "layoutMode": "horizontal",
                       "layoutAlignItems": "center left"
@@ -609,7 +609,7 @@
                       "itemSpacing": "{sem.structure.listing.components.filterButton.md.container.itemSpacing}",
                       "horizontalPadding": "{sem.structure.listing.components.filterButton.md.container.padding}",
                       "verticalPadding": "{sem.structure.listing.components.filterButton.md.container.padding}",
-                      "fill": "{sem.color.surface.interactive.diminished.pressed}",
+                      "fill": "{sem.color.surface.interactive.sub.pressed}",
                       "border": "{sem.border.interactive.pressed}",
                       "layoutMode": "horizontal",
                       "layoutAlignItems": "center left"
@@ -692,7 +692,7 @@
                       "itemSpacing": "{sem.structure.listing.components.filterButton.md.container.itemSpacing}",
                       "horizontalPadding": "{sem.structure.listing.components.filterButton.md.container.padding}",
                       "verticalPadding": "{sem.structure.listing.components.filterButton.md.container.padding}",
-                      "fill": "{sem.color.surface.interactive.diminished.default}",
+                      "fill": "{sem.color.surface.interactive.sub.default}",
                       "border": "{sem.border.interactive.active}",
                       "layoutMode": "horizontal",
                       "layoutAlignItems": "center left"

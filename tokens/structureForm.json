@@ -62,40 +62,79 @@
           },
           "documentViewer": {
             "unfilled": {
-              "container": {
-                "value": {
-                  "itemSpacing": "{sem.structure.form.components.documentViewer.container.itemSpacing}",
-                  "layoutMode": "vertical"
-                },
-                "type": "composition"
-              },
-              "cardContent": {
+              "wrapper": {
                 "value": {
                   "horizontalPadding": "{sem.card.base.md.padding}",
                   "verticalPadding": "{sem.card.base.md.padding}",
-                  "fill": "{sem.color.surface.sub}",
+                  "fill": "{sem.color.surface.light}",
                   "boxShadow": "none",
                   "borderRadiusTopLeft": "{sem.card.base.md.borderRadiusTopLeft}",
                   "borderRadiusTopRight": "{sem.card.base.md.borderRadiusTopRight}",
                   "borderRadiusBottomRight": "{sem.card.base.md.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.base.md.borderRadiusBottomLeft}",
                   "border": "{sem.border.transparent}",
-                  "layoutMode": "vertical",
-                  "itemSpacing": "{sem.cardContent.card.md.container.itemSpacing}"
+                  "itemSpacing": "{sem.structure.form.components.documentViewer.container.itemSpacing}",
+                  "layoutMode": "vertical"
                 },
                 "type": "composition",
-                "description": "({extends: 'comp.cardContent.card.md.desktop.container'})"
+                "description": "({extends: 'comp.card.base.md.uncontrasted.default'})"
+              },
+              "cardContent": {
+                "default": {
+                  "value": {
+                    "horizontalPadding": "{sem.card.base.md.padding}",
+                    "verticalPadding": "{sem.card.base.md.padding}",
+                    "fill": "{sem.color.surface.interactive.diminished.default}",
+                    "boxShadow": "none",
+                    "borderRadiusTopLeft": "{sem.card.base.md.borderRadiusTopLeft}",
+                    "borderRadiusTopRight": "{sem.card.base.md.borderRadiusTopRight}",
+                    "borderRadiusBottomRight": "{sem.card.base.md.borderRadiusBottomRight}",
+                    "borderRadiusBottomLeft": "{sem.card.base.md.borderRadiusBottomLeft}",
+                    "border": "{sem.border.transparent}",
+                    "layoutMode": "vertical",
+                    "itemSpacing": "{sem.cardContent.card.md.container.itemSpacing}"
+                  },
+                  "type": "composition",
+                  "description": "({extends: 'comp.cardContent.card.md.desktop.container'})"
+                },
+                "hover": {
+                  "value": {
+                    "horizontalPadding": "{sem.card.base.md.padding}",
+                    "verticalPadding": "{sem.card.base.md.padding}",
+                    "fill": "{sem.color.surface.interactive.diminished.hover}",
+                    "boxShadow": "none",
+                    "borderRadiusTopLeft": "{sem.card.base.md.borderRadiusTopLeft}",
+                    "borderRadiusTopRight": "{sem.card.base.md.borderRadiusTopRight}",
+                    "borderRadiusBottomRight": "{sem.card.base.md.borderRadiusBottomRight}",
+                    "borderRadiusBottomLeft": "{sem.card.base.md.borderRadiusBottomLeft}",
+                    "border": "{sem.border.transparent}",
+                    "layoutMode": "vertical",
+                    "itemSpacing": "{sem.cardContent.card.md.container.itemSpacing}"
+                  },
+                  "type": "composition",
+                  "description": "({extends: 'comp.cardContent.card.md.desktop.container'})"
+                },
+                "pressed": {
+                  "value": {
+                    "horizontalPadding": "{sem.card.base.md.padding}",
+                    "verticalPadding": "{sem.card.base.md.padding}",
+                    "fill": "{sem.color.surface.interactive.diminished.pressed}",
+                    "boxShadow": "none",
+                    "borderRadiusTopLeft": "{sem.card.base.md.borderRadiusTopLeft}",
+                    "borderRadiusTopRight": "{sem.card.base.md.borderRadiusTopRight}",
+                    "borderRadiusBottomRight": "{sem.card.base.md.borderRadiusBottomRight}",
+                    "borderRadiusBottomLeft": "{sem.card.base.md.borderRadiusBottomLeft}",
+                    "border": "{sem.border.transparent}",
+                    "layoutMode": "vertical",
+                    "itemSpacing": "{sem.cardContent.card.md.container.itemSpacing}"
+                  },
+                  "type": "composition",
+                  "description": "({extends: 'comp.cardContent.card.md.desktop.container'})"
+                }
               }
             },
             "inModeration": {
-              "container": {
-                "value": {
-                  "itemSpacing": "{sem.structure.form.components.documentViewer.container.itemSpacing}",
-                  "layoutMode": "vertical"
-                },
-                "type": "composition"
-              },
-              "cardContent": {
+              "wrapper": {
                 "value": {
                   "horizontalPadding": "{sem.card.base.md.padding}",
                   "verticalPadding": "{sem.card.base.md.padding}",
@@ -106,22 +145,68 @@
                   "borderRadiusBottomRight": "{sem.card.base.md.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.base.md.borderRadiusBottomLeft}",
                   "border": "{sem.border.transparent}",
-                  "layoutMode": "vertical",
-                  "itemSpacing": "{sem.cardContent.card.md.container.itemSpacing}"
+                  "itemSpacing": "{sem.structure.form.components.documentViewer.container.itemSpacing}",
+                  "layoutMode": "vertical"
                 },
                 "type": "composition",
-                "description": "({extends: 'comp.cardContent.card.md.desktop.container'})"
+                "description": "({extends: 'comp.card.base.md.uncontrasted.default'})"
+              },
+              "cardContent": {
+                "default": {
+                  "value": {
+                    "horizontalPadding": "{sem.card.base.md.padding}",
+                    "verticalPadding": "{sem.card.base.md.padding}",
+                    "fill": "{sem.color.surface.light}",
+                    "boxShadow": "none",
+                    "borderRadiusTopLeft": "{sem.card.base.md.borderRadiusTopLeft}",
+                    "borderRadiusTopRight": "{sem.card.base.md.borderRadiusTopRight}",
+                    "borderRadiusBottomRight": "{sem.card.base.md.borderRadiusBottomRight}",
+                    "borderRadiusBottomLeft": "{sem.card.base.md.borderRadiusBottomLeft}",
+                    "border": "{sem.border.transparent}",
+                    "layoutMode": "vertical",
+                    "itemSpacing": "{sem.cardContent.card.md.container.itemSpacing}"
+                  },
+                  "type": "composition",
+                  "description": "({extends: 'comp.cardContent.card.md.desktop.container'})"
+                },
+                "hover": {
+                  "value": {
+                    "horizontalPadding": "{sem.card.base.md.padding}",
+                    "verticalPadding": "{sem.card.base.md.padding}",
+                    "fill": "{sem.color.surface.light}",
+                    "boxShadow": "{sem.structure.form.components.documentViewer.cardContent.boxShadow.hover}",
+                    "borderRadiusTopLeft": "{sem.card.base.md.borderRadiusTopLeft}",
+                    "borderRadiusTopRight": "{sem.card.base.md.borderRadiusTopRight}",
+                    "borderRadiusBottomRight": "{sem.card.base.md.borderRadiusBottomRight}",
+                    "borderRadiusBottomLeft": "{sem.card.base.md.borderRadiusBottomLeft}",
+                    "border": "{sem.border.transparent}",
+                    "layoutMode": "vertical",
+                    "itemSpacing": "{sem.cardContent.card.md.container.itemSpacing}"
+                  },
+                  "type": "composition",
+                  "description": "({extends: 'comp.cardContent.card.md.desktop.container'})"
+                },
+                "pressed": {
+                  "value": {
+                    "horizontalPadding": "{sem.card.base.md.padding}",
+                    "verticalPadding": "{sem.card.base.md.padding}",
+                    "fill": "{sem.color.surface.light}",
+                    "boxShadow": "{sem.structure.form.components.documentViewer.cardContent.boxShadow.pressed}",
+                    "borderRadiusTopLeft": "{sem.card.base.md.borderRadiusTopLeft}",
+                    "borderRadiusTopRight": "{sem.card.base.md.borderRadiusTopRight}",
+                    "borderRadiusBottomRight": "{sem.card.base.md.borderRadiusBottomRight}",
+                    "borderRadiusBottomLeft": "{sem.card.base.md.borderRadiusBottomLeft}",
+                    "border": "{sem.border.transparent}",
+                    "layoutMode": "vertical",
+                    "itemSpacing": "{sem.cardContent.card.md.container.itemSpacing}"
+                  },
+                  "type": "composition",
+                  "description": "({extends: 'comp.cardContent.card.md.desktop.container'})"
+                }
               }
             },
             "valide": {
-              "container": {
-                "value": {
-                  "itemSpacing": "{sem.structure.form.components.documentViewer.container.itemSpacing}",
-                  "layoutMode": "vertical"
-                },
-                "type": "composition"
-              },
-              "cardContent": {
+              "wrapper": {
                 "value": {
                   "horizontalPadding": "{sem.card.base.md.padding}",
                   "verticalPadding": "{sem.card.base.md.padding}",
@@ -132,22 +217,68 @@
                   "borderRadiusBottomRight": "{sem.card.base.md.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.base.md.borderRadiusBottomLeft}",
                   "border": "{sem.border.transparent}",
-                  "layoutMode": "vertical",
-                  "itemSpacing": "{sem.cardContent.card.md.container.itemSpacing}"
+                  "itemSpacing": "{sem.structure.form.components.documentViewer.container.itemSpacing}",
+                  "layoutMode": "vertical"
                 },
                 "type": "composition",
-                "description": "({extends: 'comp.cardContent.card.md.desktop.container'})"
+                "description": "({extends: 'comp.card.base.md.uncontrasted.default'})"
+              },
+              "cardContent": {
+                "default": {
+                  "value": {
+                    "horizontalPadding": "{sem.card.base.md.padding}",
+                    "verticalPadding": "{sem.card.base.md.padding}",
+                    "fill": "{sem.color.surface.light}",
+                    "boxShadow": "none",
+                    "borderRadiusTopLeft": "{sem.card.base.md.borderRadiusTopLeft}",
+                    "borderRadiusTopRight": "{sem.card.base.md.borderRadiusTopRight}",
+                    "borderRadiusBottomRight": "{sem.card.base.md.borderRadiusBottomRight}",
+                    "borderRadiusBottomLeft": "{sem.card.base.md.borderRadiusBottomLeft}",
+                    "border": "{sem.border.transparent}",
+                    "layoutMode": "vertical",
+                    "itemSpacing": "{sem.cardContent.card.md.container.itemSpacing}"
+                  },
+                  "type": "composition",
+                  "description": "({extends: 'comp.cardContent.card.md.desktop.container'})"
+                },
+                "hover": {
+                  "value": {
+                    "horizontalPadding": "{sem.card.base.md.padding}",
+                    "verticalPadding": "{sem.card.base.md.padding}",
+                    "fill": "{sem.color.surface.light}",
+                    "boxShadow": "{sem.structure.form.components.documentViewer.cardContent.boxShadow.hover}",
+                    "borderRadiusTopLeft": "{sem.card.base.md.borderRadiusTopLeft}",
+                    "borderRadiusTopRight": "{sem.card.base.md.borderRadiusTopRight}",
+                    "borderRadiusBottomRight": "{sem.card.base.md.borderRadiusBottomRight}",
+                    "borderRadiusBottomLeft": "{sem.card.base.md.borderRadiusBottomLeft}",
+                    "border": "{sem.border.transparent}",
+                    "layoutMode": "vertical",
+                    "itemSpacing": "{sem.cardContent.card.md.container.itemSpacing}"
+                  },
+                  "type": "composition",
+                  "description": "({extends: 'comp.cardContent.card.md.desktop.container'})"
+                },
+                "pressed": {
+                  "value": {
+                    "horizontalPadding": "{sem.card.base.md.padding}",
+                    "verticalPadding": "{sem.card.base.md.padding}",
+                    "fill": "{sem.color.surface.light}",
+                    "boxShadow": "{sem.structure.form.components.documentViewer.cardContent.boxShadow.pressed}",
+                    "borderRadiusTopLeft": "{sem.card.base.md.borderRadiusTopLeft}",
+                    "borderRadiusTopRight": "{sem.card.base.md.borderRadiusTopRight}",
+                    "borderRadiusBottomRight": "{sem.card.base.md.borderRadiusBottomRight}",
+                    "borderRadiusBottomLeft": "{sem.card.base.md.borderRadiusBottomLeft}",
+                    "border": "{sem.border.transparent}",
+                    "layoutMode": "vertical",
+                    "itemSpacing": "{sem.cardContent.card.md.container.itemSpacing}"
+                  },
+                  "type": "composition",
+                  "description": "({extends: 'comp.cardContent.card.md.desktop.container'})"
+                }
               }
             },
             "declined": {
-              "container": {
-                "value": {
-                  "itemSpacing": "{sem.structure.form.components.documentViewer.container.itemSpacing}",
-                  "layoutMode": "vertical"
-                },
-                "type": "composition"
-              },
-              "cardContent": {
+              "wrapper": {
                 "value": {
                   "horizontalPadding": "{sem.card.base.md.padding}",
                   "verticalPadding": "{sem.card.base.md.padding}",
@@ -158,11 +289,64 @@
                   "borderRadiusBottomRight": "{sem.card.base.md.borderRadiusBottomRight}",
                   "borderRadiusBottomLeft": "{sem.card.base.md.borderRadiusBottomLeft}",
                   "border": "{sem.border.transparent}",
-                  "layoutMode": "vertical",
-                  "itemSpacing": "{sem.cardContent.card.md.container.itemSpacing}"
+                  "itemSpacing": "{sem.structure.form.components.documentViewer.container.itemSpacing}",
+                  "layoutMode": "vertical"
                 },
                 "type": "composition",
-                "description": "({extends: 'comp.cardContent.card.md.desktop.container'})"
+                "description": "({extends: 'comp.card.base.md.uncontrasted.default'})"
+              },
+              "cardContent": {
+                "default": {
+                  "value": {
+                    "horizontalPadding": "{sem.card.base.md.padding}",
+                    "verticalPadding": "{sem.card.base.md.padding}",
+                    "fill": "{sem.color.surface.light}",
+                    "boxShadow": "none",
+                    "borderRadiusTopLeft": "{sem.card.base.md.borderRadiusTopLeft}",
+                    "borderRadiusTopRight": "{sem.card.base.md.borderRadiusTopRight}",
+                    "borderRadiusBottomRight": "{sem.card.base.md.borderRadiusBottomRight}",
+                    "borderRadiusBottomLeft": "{sem.card.base.md.borderRadiusBottomLeft}",
+                    "border": "{sem.border.transparent}",
+                    "layoutMode": "vertical",
+                    "itemSpacing": "{sem.cardContent.card.md.container.itemSpacing}"
+                  },
+                  "type": "composition",
+                  "description": "({extends: 'comp.cardContent.card.md.desktop.container'})"
+                },
+                "hover": {
+                  "value": {
+                    "horizontalPadding": "{sem.card.base.md.padding}",
+                    "verticalPadding": "{sem.card.base.md.padding}",
+                    "fill": "{sem.color.surface.light}",
+                    "boxShadow": "{sem.structure.form.components.documentViewer.cardContent.boxShadow.hover}",
+                    "borderRadiusTopLeft": "{sem.card.base.md.borderRadiusTopLeft}",
+                    "borderRadiusTopRight": "{sem.card.base.md.borderRadiusTopRight}",
+                    "borderRadiusBottomRight": "{sem.card.base.md.borderRadiusBottomRight}",
+                    "borderRadiusBottomLeft": "{sem.card.base.md.borderRadiusBottomLeft}",
+                    "border": "{sem.border.transparent}",
+                    "layoutMode": "vertical",
+                    "itemSpacing": "{sem.cardContent.card.md.container.itemSpacing}"
+                  },
+                  "type": "composition",
+                  "description": "({extends: 'comp.cardContent.card.md.desktop.container'})"
+                },
+                "pressed": {
+                  "value": {
+                    "horizontalPadding": "{sem.card.base.md.padding}",
+                    "verticalPadding": "{sem.card.base.md.padding}",
+                    "fill": "{sem.color.surface.light}",
+                    "boxShadow": "{sem.structure.form.components.documentViewer.cardContent.boxShadow.pressed}",
+                    "borderRadiusTopLeft": "{sem.card.base.md.borderRadiusTopLeft}",
+                    "borderRadiusTopRight": "{sem.card.base.md.borderRadiusTopRight}",
+                    "borderRadiusBottomRight": "{sem.card.base.md.borderRadiusBottomRight}",
+                    "borderRadiusBottomLeft": "{sem.card.base.md.borderRadiusBottomLeft}",
+                    "border": "{sem.border.transparent}",
+                    "layoutMode": "vertical",
+                    "itemSpacing": "{sem.cardContent.card.md.container.itemSpacing}"
+                  },
+                  "type": "composition",
+                  "description": "({extends: 'comp.cardContent.card.md.desktop.container'})"
+                }
               }
             }
           },
@@ -1454,6 +1638,18 @@
               "itemSpacing": {
                 "value": "{ref.spacing.100}",
                 "type": "spacing"
+              }
+            },
+            "cardContent": {
+              "boxShaodw": {
+                "hover": {
+                  "value": "{ref.effects.dropShadow.200}",
+                  "type": "boxShadow"
+                },
+                "pressed": {
+                  "value": "{ref.effects.dropShadow.100}",
+                  "type": "boxShadow"
+                }
               }
             }
           },
