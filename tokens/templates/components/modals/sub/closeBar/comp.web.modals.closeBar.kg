@@ -10,7 +10,7 @@ comp
       "default": {
         "container": {
           "value": {
-            "fill": "{sem.color.surface.interactive.sub.default}",
+            "fill": "{sem.color.surface.interactive.diminished.default}",
             "borderRadius": "{sem.modals.base.notCondensed.container.borderRadius}",
             "borderRadiusBottomLeft": "0",
             "borderRadiusBottomRight": "0",
@@ -33,7 +33,7 @@ comp
       "hover": {
         "container": {
           "value": {
-            "fill": "{sem.color.surface.interactive.sub.hover}",
+            "fill": "{sem.color.surface.interactive.diminished.hover}",
             "borderRadius": "{sem.modals.base.notCondensed.container.borderRadius}",
             "borderRadiusBottomLeft": "0",
             "borderRadiusBottomRight": "0",
@@ -56,7 +56,7 @@ comp
       "pressed": {
         "container": {
           "value": {
-            "fill": "{sem.color.surface.interactive.sub.pressed}",
+            "fill": "{sem.color.surface.interactive.diminished.pressed}",
             "borderRadius": "{sem.modals.base.notCondensed.container.borderRadius}",
             "borderRadiusBottomLeft": "0",
             "borderRadiusBottomRight": "0",

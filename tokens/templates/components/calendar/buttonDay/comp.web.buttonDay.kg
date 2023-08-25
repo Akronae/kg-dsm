@@ -26,7 +26,7 @@ comp
       "default": {
         "container": {
           "value": {
-            "fill": "{sem.color.surface.interactive.sub.default}"
+            "fill": "{sem.color.surface.interactive.diminished.default}"
           },
           "type": "composition",
           "description": "({extends: 'comp.calendar.buttonDay.weekday.container'})"
@@ -42,7 +42,7 @@ comp
       "hover": {
         "container": {
           "value": {
-            "fill": "{sem.color.surface.interactive.sub.hover}"
+            "fill": "{sem.color.surface.interactive.diminished.hover}"
           },
           "type": "composition",
           "description": "({extends: 'comp.calendar.buttonDay.weekday.container'})"
@@ -58,7 +58,7 @@ comp
       "pressed": {
         "container": {
           "value": {
-            "fill": "{sem.color.surface.interactive.sub.pressed}"
+            "fill": "{sem.color.surface.interactive.diminished.pressed}"
           },
           "type": "composition",
           "description": "({extends: 'comp.calendar.buttonDay.weekday.container'})"
@@ -74,7 +74,7 @@ comp
       "active": {
         "container": {
           "value": {
-            "fill": "{sem.color.surface.interactive.sub.active}"
+            "fill": "{sem.color.surface.interactive.diminished.active}"
           },
           "type": "composition",
           "description": "({extends: 'comp.calendar.buttonDay.weekday.container'})"

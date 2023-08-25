@@ -2,10 +2,10 @@
 
 comp
 .structure.form.components.documentViewer
-[state : 'unfilled' | 'inModeration' | 'valide' | 'declined' ]
+[fileStatus : 'unfilled' | 'inModeration' | 'valide' | 'declined' ]
 [
   {
-    "container": {
+    "wrapper": {
       "value": {
         "itemSpacing": "{sem.structure.form.components.documentViewer.container.itemSpacing}",
         "layoutMode": "vertical"
@@ -13,11 +13,29 @@ comp
       "type": "composition"
     },
     "cardContent": {
-      "value": {
-        "fill": "<< state == 'unfilled' ? '{sem.color.surface.sub}' : undefined >>"
+      "default": {
+        "value": {
+          "fill": "<< fileStatus == 'unfilled' ? '{sem.color.surface.interactive.diminished.default}' : undefined >>"
+        },
+        "type": "composition",
+        "description": "({extends: 'comp.cardContent.card.md.desktop.container'})"
       },
-      "type": "composition",
-      "description": "({extends: 'comp.cardContent.card.md.desktop.container'})"
+      "hover": {
+        "value": {
+          "fill": "<< fileStatus == 'unfilled' ? '{sem.color.surface.interactive.diminished.hover}' : undefined >>",
+          "boxShadow": "<< fileStatus == 'unfilled' ? undefined : '{sem.structure.form.components.documentViewer.cardContent.boxShadow.hover}' >>"
+        },
+        "type": "composition",
+        "description": "({extends: 'comp.cardContent.card.md.desktop.container'})"
+      },
+      "pressed": {
+        "value": {
+          "fill": "<< fileStatus == 'unfilled' ? '{sem.color.surface.interactive.diminished.pressed}' : undefined >>",
+          "boxShadow": "<< fileStatus == 'unfilled' ? undefined : '{sem.structure.form.components.documentViewer.cardContent.boxShadow.pressed}' >>"
+        },
+        "type": "composition",
+        "description": "({extends: 'comp.cardContent.card.md.desktop.container'})"
+      }
     }
   }
 ]

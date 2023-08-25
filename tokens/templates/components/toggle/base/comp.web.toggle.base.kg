@@ -9,7 +9,7 @@ comp
     "container": {
       "value": {
         "itemSpacing": "{sem.toggle.base.container.spacing}",
-        "fill": "<< ({hover: '{sem.color.surface.interactive.sub.hover}',pressed: '{sem.color.surface.interactive.sub.pressed}'})[state] || 'none'>>",
+        "fill": "<< ({hover: '{sem.color.surface.interactive.diminished.hover}',pressed: '{sem.color.surface.interactive.diminished.pressed}'})[state] || 'none'>>",
         "borderRadius": "{sem.toggle.base.container.borderRadius}",
         "layoutAlignItems": "top left"
       },

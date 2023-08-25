@@ -9,6 +9,18 @@ sem
         "value": "{ref.spacing.100}",
         "type": "spacing"
       }
+    },
+    "cardContent": {
+      "boxShadow":{
+        "hover": {
+          "value": "{ref.effects.dropShadow.200}",
+          "type": "boxShadow"
+        },
+        "pressed": {
+          "value": "{ref.effects.dropShadow.100}",
+          "type": "boxShadow"
+        }
+      }
     }
   }
 ]
