@@ -11,7 +11,7 @@ sem
       }
     },
     "cardContent": {
-      "boxShaodw":{
+      "boxShadow":{
         "hover": {
           "value": "{ref.effects.dropShadow.200}",
           "type": "boxShadow"
