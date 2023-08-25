@@ -7,7 +7,7 @@ comp
   {
     "container": {
       "value": {
-        "fill": "{sem.color.surface.interactive.sub.<<state>>}",
+        "fill": "{sem.color.surface.interactive.diminished.<<state>>}",
         "border": "<< ({ default: '{sem.border.interactive.default}', hover: '{sem.border.interactive.hover}', pressed: '{sem.border.interactive.pressed}' })[state] || 'none' >>",
         "itemSpacing": "{sem.chip.container.spacing}",
         "borderRadius": "{sem.chip.container.borderRadius}",

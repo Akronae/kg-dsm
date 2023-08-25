@@ -13,7 +13,7 @@ comp
           "itemSpacing": "{sem.structure.listing.components.filterButton.<<size>>.container.itemSpacing}",
           "horizontalPadding": "{sem.structure.listing.components.filterButton.<<size>>.container.padding}",
           "verticalPadding": "{sem.structure.listing.components.filterButton.<<size>>.container.padding}",
-          "fill": "{sem.color.surface.interactive.sub.<< ({ default: 'default', hover: 'hover', pressed: 'pressed', 'active': 'default' })[state]>>}",
+          "fill": "{sem.color.surface.interactive.diminished.<< ({ default: 'default', hover: 'hover', pressed: 'pressed', 'active': 'default' })[state]>>}",
           "border": "{sem.border.interactive.<<state>>}",
           "layoutMode": "horizontal",
           "layoutAlignItems": "center left"

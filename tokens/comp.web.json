@@ -9934,7 +9934,7 @@
                 "verticalPadding": "{sem.calendar.buttonDay.container.verticalPadding}",
                 "horizontalPadding": "{sem.calendar.buttonDay.container.horizontalPadding}",
                 "borderRadius": "{sem.calendar.buttonDay.container.borderRadius}",
-                "fill": "{sem.color.surface.interactive.sub.default}"
+                "fill": "{sem.color.surface.interactive.diminished.default}"
               },
               "type": "composition",
               "description": "({extends: 'comp.calendar.buttonDay.weekday.container'})"
@@ -9954,7 +9954,7 @@
                 "verticalPadding": "{sem.calendar.buttonDay.container.verticalPadding}",
                 "horizontalPadding": "{sem.calendar.buttonDay.container.horizontalPadding}",
                 "borderRadius": "{sem.calendar.buttonDay.container.borderRadius}",
-                "fill": "{sem.color.surface.interactive.sub.hover}"
+                "fill": "{sem.color.surface.interactive.diminished.hover}"
               },
               "type": "composition",
               "description": "({extends: 'comp.calendar.buttonDay.weekday.container'})"
@@ -9974,7 +9974,7 @@
                 "verticalPadding": "{sem.calendar.buttonDay.container.verticalPadding}",
                 "horizontalPadding": "{sem.calendar.buttonDay.container.horizontalPadding}",
                 "borderRadius": "{sem.calendar.buttonDay.container.borderRadius}",
-                "fill": "{sem.color.surface.interactive.sub.pressed}"
+                "fill": "{sem.color.surface.interactive.diminished.pressed}"
               },
               "type": "composition",
               "description": "({extends: 'comp.calendar.buttonDay.weekday.container'})"
@@ -9994,7 +9994,7 @@
                 "verticalPadding": "{sem.calendar.buttonDay.container.verticalPadding}",
                 "horizontalPadding": "{sem.calendar.buttonDay.container.horizontalPadding}",
                 "borderRadius": "{sem.calendar.buttonDay.container.borderRadius}",
-                "fill": "{sem.color.surface.interactive.sub.active}"
+                "fill": "{sem.color.surface.interactive.diminished.active}"
               },
               "type": "composition",
               "description": "({extends: 'comp.calendar.buttonDay.weekday.container'})"
@@ -10037,7 +10037,7 @@
               "verticalPadding": "{sem.calendar.buttonDay.container.verticalPadding}",
               "horizontalPadding": "{sem.calendar.buttonDay.container.horizontalPadding}",
               "borderRadius": "{sem.calendar.buttonDay.container.borderRadius}",
-              "fill": "{sem.color.surface.interactive.sub.default}"
+              "fill": "{sem.color.surface.interactive.diminished.default}"
             },
             "type": "composition",
             "description": "({extends: 'comp.calendar.buttonDay.day.default.container'})"
@@ -10058,7 +10058,7 @@
               "verticalPadding": "{sem.calendar.buttonDay.container.verticalPadding}",
               "horizontalPadding": "{sem.calendar.buttonDay.container.horizontalPadding}",
               "borderRadius": "{sem.calendar.buttonDay.container.borderRadius}",
-              "fill": "{sem.color.surface.interactive.sub.hover}"
+              "fill": "{sem.color.surface.interactive.diminished.hover}"
             },
             "type": "composition",
             "description": "({extends: 'comp.calendar.buttonDay.day.hover.container'})"
@@ -10079,7 +10079,7 @@
               "verticalPadding": "{sem.calendar.buttonDay.container.verticalPadding}",
               "horizontalPadding": "{sem.calendar.buttonDay.container.horizontalPadding}",
               "borderRadius": "{sem.calendar.buttonDay.container.borderRadius}",
-              "fill": "{sem.color.surface.interactive.sub.pressed}"
+              "fill": "{sem.color.surface.interactive.diminished.pressed}"
             },
             "type": "composition",
             "description": "({extends: 'comp.calendar.buttonDay.day.pressed.container'})"
@@ -10100,7 +10100,7 @@
               "verticalPadding": "{sem.calendar.buttonDay.container.verticalPadding}",
               "horizontalPadding": "{sem.calendar.buttonDay.container.horizontalPadding}",
               "borderRadius": "{sem.calendar.buttonDay.container.borderRadius}",
-              "fill": "{sem.color.surface.interactive.sub.active}"
+              "fill": "{sem.color.surface.interactive.diminished.active}"
             },
             "type": "composition",
             "description": "({extends: 'comp.calendar.buttonDay.day.active.container'})"
@@ -11279,7 +11279,7 @@
       "default": {
         "container": {
           "value": {
-            "fill": "{sem.color.surface.interactive.sub.default}",
+            "fill": "{sem.color.surface.interactive.diminished.default}",
             "border": "{sem.border.interactive.default}",
             "itemSpacing": "{sem.chip.container.spacing}",
             "borderRadius": "{sem.chip.container.borderRadius}",
@@ -11315,7 +11315,7 @@
       "hover": {
         "container": {
           "value": {
-            "fill": "{sem.color.surface.interactive.sub.hover}",
+            "fill": "{sem.color.surface.interactive.diminished.hover}",
             "border": "{sem.border.interactive.hover}",
             "itemSpacing": "{sem.chip.container.spacing}",
             "borderRadius": "{sem.chip.container.borderRadius}",
@@ -11351,7 +11351,7 @@
       "pressed": {
         "container": {
           "value": {
-            "fill": "{sem.color.surface.interactive.sub.pressed}",
+            "fill": "{sem.color.surface.interactive.diminished.pressed}",
             "border": "{sem.border.interactive.pressed}",
             "itemSpacing": "{sem.chip.container.spacing}",
             "borderRadius": "{sem.chip.container.borderRadius}",
@@ -11387,7 +11387,7 @@
       "active": {
         "container": {
           "value": {
-            "fill": "{sem.color.surface.interactive.sub.active}",
+            "fill": "{sem.color.surface.interactive.diminished.active}",
             "border": "none",
             "itemSpacing": "{sem.chip.container.spacing}",
             "borderRadius": "{sem.chip.container.borderRadius}",
@@ -11428,7 +11428,7 @@
             "DPE": {
               "A": {
                 "value": {
-                  "fill": "{sem.color.surface.interactive.sub.default}",
+                  "fill": "{sem.color.surface.interactive.diminished.default}",
                   "border": "{sem.border.interactive.default}",
                   "itemSpacing": "{sem.chip.container.spacing}",
                   "borderRadius": "{sem.chip.container.borderRadius}",
@@ -11443,7 +11443,7 @@
               },
               "B": {
                 "value": {
-                  "fill": "{sem.color.surface.interactive.sub.default}",
+                  "fill": "{sem.color.surface.interactive.diminished.default}",
                   "border": "{sem.border.interactive.default}",
                   "itemSpacing": "{sem.chip.container.spacing}",
                   "borderRadius": "{sem.chip.container.borderRadius}",
@@ -11458,7 +11458,7 @@
               },
               "C": {
                 "value": {
-                  "fill": "{sem.color.surface.interactive.sub.default}",
+                  "fill": "{sem.color.surface.interactive.diminished.default}",
                   "border": "{sem.border.interactive.default}",
                   "itemSpacing": "{sem.chip.container.spacing}",
                   "borderRadius": "{sem.chip.container.borderRadius}",
@@ -11473,7 +11473,7 @@
               },
               "D": {
                 "value": {
-                  "fill": "{sem.color.surface.interactive.sub.default}",
+                  "fill": "{sem.color.surface.interactive.diminished.default}",
                   "border": "{sem.border.interactive.default}",
                   "itemSpacing": "{sem.chip.container.spacing}",
                   "borderRadius": "{sem.chip.container.borderRadius}",
@@ -11488,7 +11488,7 @@
               },
               "E": {
                 "value": {
-                  "fill": "{sem.color.surface.interactive.sub.default}",
+                  "fill": "{sem.color.surface.interactive.diminished.default}",
                   "border": "{sem.border.interactive.default}",
                   "itemSpacing": "{sem.chip.container.spacing}",
                   "borderRadius": "{sem.chip.container.borderRadius}",
@@ -11503,7 +11503,7 @@
               },
               "F": {
                 "value": {
-                  "fill": "{sem.color.surface.interactive.sub.default}",
+                  "fill": "{sem.color.surface.interactive.diminished.default}",
                   "border": "{sem.border.interactive.default}",
                   "itemSpacing": "{sem.chip.container.spacing}",
                   "borderRadius": "{sem.chip.container.borderRadius}",
@@ -11518,7 +11518,7 @@
               },
               "G": {
                 "value": {
-                  "fill": "{sem.color.surface.interactive.sub.default}",
+                  "fill": "{sem.color.surface.interactive.diminished.default}",
                   "border": "{sem.border.interactive.default}",
                   "itemSpacing": "{sem.chip.container.spacing}",
                   "borderRadius": "{sem.chip.container.borderRadius}",
@@ -11533,7 +11533,7 @@
               },
               "empty": {
                 "value": {
-                  "fill": "{sem.color.surface.interactive.sub.default}",
+                  "fill": "{sem.color.surface.interactive.diminished.default}",
                   "border": "{sem.border.interactive.default}",
                   "itemSpacing": "{sem.chip.container.spacing}",
                   "borderRadius": "{sem.chip.container.borderRadius}",
@@ -11550,7 +11550,7 @@
             "GES": {
               "A": {
                 "value": {
-                  "fill": "{sem.color.surface.interactive.sub.default}",
+                  "fill": "{sem.color.surface.interactive.diminished.default}",
                   "border": "{sem.border.interactive.default}",
                   "itemSpacing": "{sem.chip.container.spacing}",
                   "borderRadius": "{sem.chip.container.borderRadius}",
@@ -11565,7 +11565,7 @@
               },
               "B": {
                 "value": {
-                  "fill": "{sem.color.surface.interactive.sub.default}",
+                  "fill": "{sem.color.surface.interactive.diminished.default}",
                   "border": "{sem.border.interactive.default}",
                   "itemSpacing": "{sem.chip.container.spacing}",
                   "borderRadius": "{sem.chip.container.borderRadius}",
@@ -11580,7 +11580,7 @@
               },
               "C": {
                 "value": {
-                  "fill": "{sem.color.surface.interactive.sub.default}",
+                  "fill": "{sem.color.surface.interactive.diminished.default}",
                   "border": "{sem.border.interactive.default}",
                   "itemSpacing": "{sem.chip.container.spacing}",
                   "borderRadius": "{sem.chip.container.borderRadius}",
@@ -11595,7 +11595,7 @@
               },
               "D": {
                 "value": {
-                  "fill": "{sem.color.surface.interactive.sub.default}",
+                  "fill": "{sem.color.surface.interactive.diminished.default}",
                   "border": "{sem.border.interactive.default}",
                   "itemSpacing": "{sem.chip.container.spacing}",
                   "borderRadius": "{sem.chip.container.borderRadius}",
@@ -11610,7 +11610,7 @@
               },
               "E": {
                 "value": {
-                  "fill": "{sem.color.surface.interactive.sub.default}",
+                  "fill": "{sem.color.surface.interactive.diminished.default}",
                   "border": "{sem.border.interactive.default}",
                   "itemSpacing": "{sem.chip.container.spacing}",
                   "borderRadius": "{sem.chip.container.borderRadius}",
@@ -11625,7 +11625,7 @@
               },
               "F": {
                 "value": {
-                  "fill": "{sem.color.surface.interactive.sub.default}",
+                  "fill": "{sem.color.surface.interactive.diminished.default}",
                   "border": "{sem.border.interactive.default}",
                   "itemSpacing": "{sem.chip.container.spacing}",
                   "borderRadius": "{sem.chip.container.borderRadius}",
@@ -11640,7 +11640,7 @@
               },
               "G": {
                 "value": {
-                  "fill": "{sem.color.surface.interactive.sub.default}",
+                  "fill": "{sem.color.surface.interactive.diminished.default}",
                   "border": "{sem.border.interactive.default}",
                   "itemSpacing": "{sem.chip.container.spacing}",
                   "borderRadius": "{sem.chip.container.borderRadius}",
@@ -11655,7 +11655,7 @@
               },
               "empty": {
                 "value": {
-                  "fill": "{sem.color.surface.interactive.sub.default}",
+                  "fill": "{sem.color.surface.interactive.diminished.default}",
                   "border": "{sem.border.interactive.default}",
                   "itemSpacing": "{sem.chip.container.spacing}",
                   "borderRadius": "{sem.chip.container.borderRadius}",
@@ -11674,7 +11674,7 @@
             "DPE": {
               "A": {
                 "value": {
-                  "fill": "{sem.color.surface.interactive.sub.hover}",
+                  "fill": "{sem.color.surface.interactive.diminished.hover}",
                   "border": "{sem.border.interactive.hover}",
                   "itemSpacing": "{sem.chip.container.spacing}",
                   "borderRadius": "{sem.chip.container.borderRadius}",
@@ -11689,7 +11689,7 @@
               },
               "B": {
                 "value": {
-                  "fill": "{sem.color.surface.interactive.sub.hover}",
+                  "fill": "{sem.color.surface.interactive.diminished.hover}",
                   "border": "{sem.border.interactive.hover}",
                   "itemSpacing": "{sem.chip.container.spacing}",
                   "borderRadius": "{sem.chip.container.borderRadius}",
@@ -11704,7 +11704,7 @@
               },
               "C": {
                 "value": {
-                  "fill": "{sem.color.surface.interactive.sub.hover}",
+                  "fill": "{sem.color.surface.interactive.diminished.hover}",
                   "border": "{sem.border.interactive.hover}",
                   "itemSpacing": "{sem.chip.container.spacing}",
                   "borderRadius": "{sem.chip.container.borderRadius}",
@@ -11719,7 +11719,7 @@
               },
               "D": {
                 "value": {
-                  "fill": "{sem.color.surface.interactive.sub.hover}",
+                  "fill": "{sem.color.surface.interactive.diminished.hover}",
                   "border": "{sem.border.interactive.hover}",
                   "itemSpacing": "{sem.chip.container.spacing}",
                   "borderRadius": "{sem.chip.container.borderRadius}",
@@ -11734,7 +11734,7 @@
               },
               "E": {
                 "value": {
-                  "fill": "{sem.color.surface.interactive.sub.hover}",
+                  "fill": "{sem.color.surface.interactive.diminished.hover}",
                   "border": "{sem.border.interactive.hover}",
                   "itemSpacing": "{sem.chip.container.spacing}",
                   "borderRadius": "{sem.chip.container.borderRadius}",
@@ -11749,7 +11749,7 @@
               },
               "F": {
                 "value": {
-                  "fill": "{sem.color.surface.interactive.sub.hover}",
+                  "fill": "{sem.color.surface.interactive.diminished.hover}",
                   "border": "{sem.border.interactive.hover}",
                   "itemSpacing": "{sem.chip.container.spacing}",
                   "borderRadius": "{sem.chip.container.borderRadius}",
@@ -11764,7 +11764,7 @@
               },
               "G": {
                 "value": {
-                  "fill": "{sem.color.surface.interactive.sub.hover}",
+                  "fill": "{sem.color.surface.interactive.diminished.hover}",
                   "border": "{sem.border.interactive.hover}",
                   "itemSpacing": "{sem.chip.container.spacing}",
                   "borderRadius": "{sem.chip.container.borderRadius}",
@@ -11779,7 +11779,7 @@
               },
               "empty": {
                 "value": {
-                  "fill": "{sem.color.surface.interactive.sub.hover}",
+                  "fill": "{sem.color.surface.interactive.diminished.hover}",
                   "border": "{sem.border.interactive.hover}",
                   "itemSpacing": "{sem.chip.container.spacing}",
                   "borderRadius": "{sem.chip.container.borderRadius}",
@@ -11796,7 +11796,7 @@
             "GES": {
               "A": {
                 "value": {
-                  "fill": "{sem.color.surface.interactive.sub.hover}",
+                  "fill": "{sem.color.surface.interactive.diminished.hover}",
                   "border": "{sem.border.interactive.hover}",
                   "itemSpacing": "{sem.chip.container.spacing}",
                   "borderRadius": "{sem.chip.container.borderRadius}",
@@ -11811,7 +11811,7 @@
               },
               "B": {
                 "value": {
-                  "fill": "{sem.color.surface.interactive.sub.hover}",
+                  "fill": "{sem.color.surface.interactive.diminished.hover}",
                   "border": "{sem.border.interactive.hover}",
                   "itemSpacing": "{sem.chip.container.spacing}",
                   "borderRadius": "{sem.chip.container.borderRadius}",
@@ -11826,7 +11826,7 @@
               },
               "C": {
                 "value": {
-                  "fill": "{sem.color.surface.interactive.sub.hover}",
+                  "fill": "{sem.color.surface.interactive.diminished.hover}",
                   "border": "{sem.border.interactive.hover}",
                   "itemSpacing": "{sem.chip.container.spacing}",
                   "borderRadius": "{sem.chip.container.borderRadius}",
@@ -11841,7 +11841,7 @@
               },
               "D": {
                 "value": {
-                  "fill": "{sem.color.surface.interactive.sub.hover}",
+                  "fill": "{sem.color.surface.interactive.diminished.hover}",
                   "border": "{sem.border.interactive.hover}",
                   "itemSpacing": "{sem.chip.container.spacing}",
                   "borderRadius": "{sem.chip.container.borderRadius}",
@@ -11856,7 +11856,7 @@
               },
               "E": {
                 "value": {
-                  "fill": "{sem.color.surface.interactive.sub.hover}",
+                  "fill": "{sem.color.surface.interactive.diminished.hover}",
                   "border": "{sem.border.interactive.hover}",
                   "itemSpacing": "{sem.chip.container.spacing}",
                   "borderRadius": "{sem.chip.container.borderRadius}",
@@ -11871,7 +11871,7 @@
               },
               "F": {
                 "value": {
-                  "fill": "{sem.color.surface.interactive.sub.hover}",
+                  "fill": "{sem.color.surface.interactive.diminished.hover}",
                   "border": "{sem.border.interactive.hover}",
                   "itemSpacing": "{sem.chip.container.spacing}",
                   "borderRadius": "{sem.chip.container.borderRadius}",
@@ -11886,7 +11886,7 @@
               },
               "G": {
                 "value": {
-                  "fill": "{sem.color.surface.interactive.sub.hover}",
+                  "fill": "{sem.color.surface.interactive.diminished.hover}",
                   "border": "{sem.border.interactive.hover}",
                   "itemSpacing": "{sem.chip.container.spacing}",
                   "borderRadius": "{sem.chip.container.borderRadius}",
@@ -11901,7 +11901,7 @@
               },
               "empty": {
                 "value": {
-                  "fill": "{sem.color.surface.interactive.sub.hover}",
+                  "fill": "{sem.color.surface.interactive.diminished.hover}",
                   "border": "{sem.border.interactive.hover}",
                   "itemSpacing": "{sem.chip.container.spacing}",
                   "borderRadius": "{sem.chip.container.borderRadius}",
@@ -11920,7 +11920,7 @@
             "DPE": {
               "A": {
                 "value": {
-                  "fill": "{sem.color.surface.interactive.sub.pressed}",
+                  "fill": "{sem.color.surface.interactive.diminished.pressed}",
                   "border": "{sem.border.interactive.pressed}",
                   "itemSpacing": "{sem.chip.container.spacing}",
                   "borderRadius": "{sem.chip.container.borderRadius}",
@@ -11935,7 +11935,7 @@
               },
               "B": {
                 "value": {
-                  "fill": "{sem.color.surface.interactive.sub.pressed}",
+                  "fill": "{sem.color.surface.interactive.diminished.pressed}",
                   "border": "{sem.border.interactive.pressed}",
                   "itemSpacing": "{sem.chip.container.spacing}",
                   "borderRadius": "{sem.chip.container.borderRadius}",
@@ -11950,7 +11950,7 @@
               },
               "C": {
                 "value": {
-                  "fill": "{sem.color.surface.interactive.sub.pressed}",
+                  "fill": "{sem.color.surface.interactive.diminished.pressed}",
                   "border": "{sem.border.interactive.pressed}",
                   "itemSpacing": "{sem.chip.container.spacing}",
                   "borderRadius": "{sem.chip.container.borderRadius}",
@@ -11965,7 +11965,7 @@
               },
               "D": {
                 "value": {
-                  "fill": "{sem.color.surface.interactive.sub.pressed}",
+                  "fill": "{sem.color.surface.interactive.diminished.pressed}",
                   "border": "{sem.border.interactive.pressed}",
                   "itemSpacing": "{sem.chip.container.spacing}",
                   "borderRadius": "{sem.chip.container.borderRadius}",
@@ -11980,7 +11980,7 @@
               },
               "E": {
                 "value": {
-                  "fill": "{sem.color.surface.interactive.sub.pressed}",
+                  "fill": "{sem.color.surface.interactive.diminished.pressed}",
                   "border": "{sem.border.interactive.pressed}",
                   "itemSpacing": "{sem.chip.container.spacing}",
                   "borderRadius": "{sem.chip.container.borderRadius}",
@@ -11995,7 +11995,7 @@
               },
               "F": {
                 "value": {
-                  "fill": "{sem.color.surface.interactive.sub.pressed}",
+                  "fill": "{sem.color.surface.interactive.diminished.pressed}",
                   "border": "{sem.border.interactive.pressed}",
                   "itemSpacing": "{sem.chip.container.spacing}",
                   "borderRadius": "{sem.chip.container.borderRadius}",
@@ -12010,7 +12010,7 @@
               },
               "G": {
                 "value": {
-                  "fill": "{sem.color.surface.interactive.sub.pressed}",
+                  "fill": "{sem.color.surface.interactive.diminished.pressed}",
                   "border": "{sem.border.interactive.pressed}",
                   "itemSpacing": "{sem.chip.container.spacing}",
                   "borderRadius": "{sem.chip.container.borderRadius}",
@@ -12025,7 +12025,7 @@
               },
               "empty": {
                 "value": {
-                  "fill": "{sem.color.surface.interactive.sub.pressed}",
+                  "fill": "{sem.color.surface.interactive.diminished.pressed}",
                   "border": "{sem.border.interactive.pressed}",
                   "itemSpacing": "{sem.chip.container.spacing}",
                   "borderRadius": "{sem.chip.container.borderRadius}",
@@ -12042,7 +12042,7 @@
             "GES": {
               "A": {
                 "value": {
-                  "fill": "{sem.color.surface.interactive.sub.pressed}",
+                  "fill": "{sem.color.surface.interactive.diminished.pressed}",
                   "border": "{sem.border.interactive.pressed}",
                   "itemSpacing": "{sem.chip.container.spacing}",
                   "borderRadius": "{sem.chip.container.borderRadius}",
@@ -12057,7 +12057,7 @@
               },
               "B": {
                 "value": {
-                  "fill": "{sem.color.surface.interactive.sub.pressed}",
+                  "fill": "{sem.color.surface.interactive.diminished.pressed}",
                   "border": "{sem.border.interactive.pressed}",
                   "itemSpacing": "{sem.chip.container.spacing}",
                   "borderRadius": "{sem.chip.container.borderRadius}",
@@ -12072,7 +12072,7 @@
               },
               "C": {
                 "value": {
-                  "fill": "{sem.color.surface.interactive.sub.pressed}",
+                  "fill": "{sem.color.surface.interactive.diminished.pressed}",
                   "border": "{sem.border.interactive.pressed}",
                   "itemSpacing": "{sem.chip.container.spacing}",
                   "borderRadius": "{sem.chip.container.borderRadius}",
@@ -12087,7 +12087,7 @@
               },
               "D": {
                 "value": {
-                  "fill": "{sem.color.surface.interactive.sub.pressed}",
+                  "fill": "{sem.color.surface.interactive.diminished.pressed}",
                   "border": "{sem.border.interactive.pressed}",
                   "itemSpacing": "{sem.chip.container.spacing}",
                   "borderRadius": "{sem.chip.container.borderRadius}",
@@ -12102,7 +12102,7 @@
               },
               "E": {
                 "value": {
-                  "fill": "{sem.color.surface.interactive.sub.pressed}",
+                  "fill": "{sem.color.surface.interactive.diminished.pressed}",
                   "border": "{sem.border.interactive.pressed}",
                   "itemSpacing": "{sem.chip.container.spacing}",
                   "borderRadius": "{sem.chip.container.borderRadius}",
@@ -12117,7 +12117,7 @@
               },
               "F": {
                 "value": {
-                  "fill": "{sem.color.surface.interactive.sub.pressed}",
+                  "fill": "{sem.color.surface.interactive.diminished.pressed}",
                   "border": "{sem.border.interactive.pressed}",
                   "itemSpacing": "{sem.chip.container.spacing}",
                   "borderRadius": "{sem.chip.container.borderRadius}",
@@ -12132,7 +12132,7 @@
               },
               "G": {
                 "value": {
-                  "fill": "{sem.color.surface.interactive.sub.pressed}",
+                  "fill": "{sem.color.surface.interactive.diminished.pressed}",
                   "border": "{sem.border.interactive.pressed}",
                   "itemSpacing": "{sem.chip.container.spacing}",
                   "borderRadius": "{sem.chip.container.borderRadius}",
@@ -12147,7 +12147,7 @@
               },
               "empty": {
                 "value": {
-                  "fill": "{sem.color.surface.interactive.sub.pressed}",
+                  "fill": "{sem.color.surface.interactive.diminished.pressed}",
                   "border": "{sem.border.interactive.pressed}",
                   "itemSpacing": "{sem.chip.container.spacing}",
                   "borderRadius": "{sem.chip.container.borderRadius}",
@@ -12271,7 +12271,7 @@
               },
               "empty": {
                 "value": {
-                  "fill": "{sem.color.surface.interactive.sub.active}",
+                  "fill": "{sem.color.surface.interactive.diminished.active}",
                   "border": "none",
                   "itemSpacing": "{sem.chip.container.spacing}",
                   "borderRadius": "{sem.chip.container.borderRadius}",
@@ -12393,7 +12393,7 @@
               },
               "empty": {
                 "value": {
-                  "fill": "{sem.color.surface.interactive.sub.active}",
+                  "fill": "{sem.color.surface.interactive.diminished.active}",
                   "border": "none",
                   "itemSpacing": "{sem.chip.container.spacing}",
                   "borderRadius": "{sem.chip.container.borderRadius}",
@@ -20091,7 +20091,7 @@
             "default": {
               "container": {
                 "value": {
-                  "fill": "{sem.color.surface.interactive.sub.default}",
+                  "fill": "{sem.color.surface.interactive.diminished.default}",
                   "borderRadius": "{sem.modals.base.notCondensed.container.borderRadius}",
                   "borderRadiusBottomLeft": "0",
                   "borderRadiusBottomRight": "0",
@@ -20114,7 +20114,7 @@
             "hover": {
               "container": {
                 "value": {
-                  "fill": "{sem.color.surface.interactive.sub.hover}",
+                  "fill": "{sem.color.surface.interactive.diminished.hover}",
                   "borderRadius": "{sem.modals.base.notCondensed.container.borderRadius}",
                   "borderRadiusBottomLeft": "0",
                   "borderRadiusBottomRight": "0",
@@ -20137,7 +20137,7 @@
             "pressed": {
               "container": {
                 "value": {
-                  "fill": "{sem.color.surface.interactive.sub.pressed}",
+                  "fill": "{sem.color.surface.interactive.diminished.pressed}",
                   "borderRadius": "{sem.modals.base.notCondensed.container.borderRadius}",
                   "borderRadiusBottomLeft": "0",
                   "borderRadiusBottomRight": "0",
@@ -20766,7 +20766,7 @@
           "container": {
             "value": {
               "itemSpacing": "{sem.toggle.base.container.spacing}",
-              "fill": "{sem.color.surface.interactive.sub.hover}",
+              "fill": "{sem.color.surface.interactive.diminished.hover}",
               "borderRadius": "{sem.toggle.base.container.borderRadius}",
               "layoutAlignItems": "top left"
             },
@@ -20823,7 +20823,7 @@
           "container": {
             "value": {
               "itemSpacing": "{sem.toggle.base.container.spacing}",
-              "fill": "{sem.color.surface.interactive.sub.pressed}",
+              "fill": "{sem.color.surface.interactive.diminished.pressed}",
               "borderRadius": "{sem.toggle.base.container.borderRadius}",
               "layoutAlignItems": "top left"
             },
