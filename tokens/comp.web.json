@@ -10847,7 +10847,7 @@
                 "borderRadiusBottomLeft": "{sem.card.base.xs.borderRadiusBottomLeft}",
                 "border": "{sem.border.transparent}",
                 "layoutMode": "vertical",
-                "itemSpacing": "{sem.cardContent.card.xs.container.itemSpacing}"
+                "itemSpacing": "{sem.cardContent.card.xs.desktop.container.itemSpacing}"
               },
               "type": "composition",
               "description": "({extends: 'comp.card.base.xs.uncontrasted.default'})"
@@ -10856,14 +10856,14 @@
               "value": {
                 "horizontalResizing": "fill",
                 "layoutMode": "horizontal",
-                "itemSpacing": "{sem.cardContent.card.xs.contentWrapper.itemSpacing}"
+                "itemSpacing": "{sem.cardContent.card.xs.desktop.contentWrapper.itemSpacing}"
               },
               "type": "composition"
             },
             "textWrapper": {
               "value": {
                 "horizontalResizing": "fill",
-                "itemSpacing": "{sem.cardContent.card.xs.contentWrapper.textWrapper.itemSpacing}"
+                "itemSpacing": "{sem.cardContent.card.xs.desktop.contentWrapper.textWrapper.itemSpacing}"
               },
               "type": "composition"
             },
@@ -10886,7 +10886,7 @@
             "buttonWrapper": {
               "value": {
                 "layoutMode": "horizontal",
-                "itemSpacing": "{sem.cardContent.card.xs.buttonWrapper.itemSpacing}",
+                "itemSpacing": "{sem.cardContent.card.xs.desktop.buttonWrapper.itemSpacing}",
                 "horizontalResizing": "hug"
               },
               "type": "composition"
@@ -10905,7 +10905,7 @@
                 "borderRadiusBottomLeft": "{sem.card.base.xs.borderRadiusBottomLeft}",
                 "border": "{sem.border.transparent}",
                 "layoutMode": "vertical",
-                "itemSpacing": "{sem.cardContent.card.xs.container.itemSpacing}"
+                "itemSpacing": "{sem.cardContent.card.xs.mobile.container.itemSpacing}"
               },
               "type": "composition",
               "description": "({extends: 'comp.card.base.xs.uncontrasted.default'})"
@@ -10914,14 +10914,14 @@
               "value": {
                 "horizontalResizing": "fill",
                 "layoutMode": "vertical",
-                "itemSpacing": "{sem.cardContent.card.xs.contentWrapper.itemSpacing}"
+                "itemSpacing": "{sem.cardContent.card.xs.mobile.contentWrapper.itemSpacing}"
               },
               "type": "composition"
             },
             "textWrapper": {
               "value": {
                 "horizontalResizing": "fill",
-                "itemSpacing": "{sem.cardContent.card.xs.contentWrapper.textWrapper.itemSpacing}"
+                "itemSpacing": "{sem.cardContent.card.xs.mobile.contentWrapper.textWrapper.itemSpacing}"
               },
               "type": "composition"
             },
@@ -10944,7 +10944,7 @@
             "buttonWrapper": {
               "value": {
                 "layoutMode": "horizontal",
-                "itemSpacing": "{sem.cardContent.card.xs.buttonWrapper.itemSpacing}",
+                "itemSpacing": "{sem.cardContent.card.xs.mobile.buttonWrapper.itemSpacing}",
                 "horizontalResizing": "fill"
               },
               "type": "composition"
@@ -10965,7 +10965,7 @@
                 "borderRadiusBottomLeft": "{sem.card.base.sm.borderRadiusBottomLeft}",
                 "border": "{sem.border.transparent}",
                 "layoutMode": "vertical",
-                "itemSpacing": "{sem.cardContent.card.sm.container.itemSpacing}"
+                "itemSpacing": "{sem.cardContent.card.sm.desktop.container.itemSpacing}"
               },
               "type": "composition",
               "description": "({extends: 'comp.card.base.sm.uncontrasted.default'})"
@@ -10974,14 +10974,14 @@
               "value": {
                 "horizontalResizing": "fill",
                 "layoutMode": "horizontal",
-                "itemSpacing": "{sem.cardContent.card.sm.contentWrapper.itemSpacing}"
+                "itemSpacing": "{sem.cardContent.card.sm.desktop.contentWrapper.itemSpacing}"
               },
               "type": "composition"
             },
             "textWrapper": {
               "value": {
                 "horizontalResizing": "fill",
-                "itemSpacing": "{sem.cardContent.card.sm.contentWrapper.textWrapper.itemSpacing}"
+                "itemSpacing": "{sem.cardContent.card.sm.desktop.contentWrapper.textWrapper.itemSpacing}"
               },
               "type": "composition"
             },
@@ -11004,7 +11004,7 @@
             "buttonWrapper": {
               "value": {
                 "layoutMode": "horizontal",
-                "itemSpacing": "{sem.cardContent.card.sm.buttonWrapper.itemSpacing}",
+                "itemSpacing": "{sem.cardContent.card.sm.desktop.buttonWrapper.itemSpacing}",
                 "horizontalResizing": "hug"
               },
               "type": "composition"
@@ -11023,7 +11023,7 @@
                 "borderRadiusBottomLeft": "{sem.card.base.sm.borderRadiusBottomLeft}",
                 "border": "{sem.border.transparent}",
                 "layoutMode": "vertical",
-                "itemSpacing": "{sem.cardContent.card.sm.container.itemSpacing}"
+                "itemSpacing": "{sem.cardContent.card.sm.mobile.container.itemSpacing}"
               },
               "type": "composition",
               "description": "({extends: 'comp.card.base.sm.uncontrasted.default'})"
@@ -11032,14 +11032,14 @@
               "value": {
                 "horizontalResizing": "fill",
                 "layoutMode": "vertical",
-                "itemSpacing": "{sem.cardContent.card.sm.contentWrapper.itemSpacing}"
+                "itemSpacing": "{sem.cardContent.card.sm.mobile.contentWrapper.itemSpacing}"
               },
               "type": "composition"
             },
             "textWrapper": {
               "value": {
                 "horizontalResizing": "fill",
-                "itemSpacing": "{sem.cardContent.card.sm.contentWrapper.textWrapper.itemSpacing}"
+                "itemSpacing": "{sem.cardContent.card.sm.mobile.contentWrapper.textWrapper.itemSpacing}"
               },
               "type": "composition"
             },
@@ -11062,7 +11062,7 @@
             "buttonWrapper": {
               "value": {
                 "layoutMode": "horizontal",
-                "itemSpacing": "{sem.cardContent.card.sm.buttonWrapper.itemSpacing}",
+                "itemSpacing": "{sem.cardContent.card.sm.mobile.buttonWrapper.itemSpacing}",
                 "horizontalResizing": "fill"
               },
               "type": "composition"
@@ -11083,7 +11083,7 @@
                 "borderRadiusBottomLeft": "{sem.card.base.md.borderRadiusBottomLeft}",
                 "border": "{sem.border.transparent}",
                 "layoutMode": "vertical",
-                "itemSpacing": "{sem.cardContent.card.md.container.itemSpacing}"
+                "itemSpacing": "{sem.cardContent.card.md.desktop.container.itemSpacing}"
               },
               "type": "composition",
               "description": "({extends: 'comp.card.base.md.uncontrasted.default'})"
@@ -11092,14 +11092,14 @@
               "value": {
                 "horizontalResizing": "fill",
                 "layoutMode": "horizontal",
-                "itemSpacing": "{sem.cardContent.card.md.contentWrapper.itemSpacing}"
+                "itemSpacing": "{sem.cardContent.card.md.desktop.contentWrapper.itemSpacing}"
               },
               "type": "composition"
             },
             "textWrapper": {
               "value": {
                 "horizontalResizing": "fill",
-                "itemSpacing": "{sem.cardContent.card.md.contentWrapper.textWrapper.itemSpacing}"
+                "itemSpacing": "{sem.cardContent.card.md.desktop.contentWrapper.textWrapper.itemSpacing}"
               },
               "type": "composition"
             },
@@ -11122,7 +11122,7 @@
             "buttonWrapper": {
               "value": {
                 "layoutMode": "horizontal",
-                "itemSpacing": "{sem.cardContent.card.md.buttonWrapper.itemSpacing}",
+                "itemSpacing": "{sem.cardContent.card.md.desktop.buttonWrapper.itemSpacing}",
                 "horizontalResizing": "hug"
               },
               "type": "composition"
@@ -11141,7 +11141,7 @@
                 "borderRadiusBottomLeft": "{sem.card.base.md.borderRadiusBottomLeft}",
                 "border": "{sem.border.transparent}",
                 "layoutMode": "vertical",
-                "itemSpacing": "{sem.cardContent.card.md.container.itemSpacing}"
+                "itemSpacing": "{sem.cardContent.card.md.mobile.container.itemSpacing}"
               },
               "type": "composition",
               "description": "({extends: 'comp.card.base.md.uncontrasted.default'})"
@@ -11150,14 +11150,14 @@
               "value": {
                 "horizontalResizing": "fill",
                 "layoutMode": "vertical",
-                "itemSpacing": "{sem.cardContent.card.md.contentWrapper.itemSpacing}"
+                "itemSpacing": "{sem.cardContent.card.md.mobile.contentWrapper.itemSpacing}"
               },
               "type": "composition"
             },
             "textWrapper": {
               "value": {
                 "horizontalResizing": "fill",
-                "itemSpacing": "{sem.cardContent.card.md.contentWrapper.textWrapper.itemSpacing}"
+                "itemSpacing": "{sem.cardContent.card.md.mobile.contentWrapper.textWrapper.itemSpacing}"
               },
               "type": "composition"
             },
@@ -11180,7 +11180,7 @@
             "buttonWrapper": {
               "value": {
                 "layoutMode": "horizontal",
-                "itemSpacing": "{sem.cardContent.card.md.buttonWrapper.itemSpacing}",
+                "itemSpacing": "{sem.cardContent.card.md.mobile.buttonWrapper.itemSpacing}",
                 "horizontalResizing": "fill"
               },
               "type": "composition"
