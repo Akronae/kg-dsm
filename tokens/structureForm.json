@@ -64,20 +64,10 @@
             "unfilled": {
               "wrapper": {
                 "value": {
-                  "horizontalPadding": "{sem.card.base.md.padding}",
-                  "verticalPadding": "{sem.card.base.md.padding}",
-                  "fill": "{sem.color.surface.light}",
-                  "boxShadow": "none",
-                  "borderRadiusTopLeft": "{sem.card.base.md.borderRadiusTopLeft}",
-                  "borderRadiusTopRight": "{sem.card.base.md.borderRadiusTopRight}",
-                  "borderRadiusBottomRight": "{sem.card.base.md.borderRadiusBottomRight}",
-                  "borderRadiusBottomLeft": "{sem.card.base.md.borderRadiusBottomLeft}",
-                  "border": "{sem.border.transparent}",
                   "itemSpacing": "{sem.structure.form.components.documentViewer.container.itemSpacing}",
                   "layoutMode": "vertical"
                 },
-                "type": "composition",
-                "description": "({extends: 'comp.card.base.md.uncontrasted.default'})"
+                "type": "composition"
               },
               "cardContent": {
                 "default": {
@@ -136,20 +126,10 @@
             "inModeration": {
               "wrapper": {
                 "value": {
-                  "horizontalPadding": "{sem.card.base.md.padding}",
-                  "verticalPadding": "{sem.card.base.md.padding}",
-                  "fill": "{sem.color.surface.light}",
-                  "boxShadow": "none",
-                  "borderRadiusTopLeft": "{sem.card.base.md.borderRadiusTopLeft}",
-                  "borderRadiusTopRight": "{sem.card.base.md.borderRadiusTopRight}",
-                  "borderRadiusBottomRight": "{sem.card.base.md.borderRadiusBottomRight}",
-                  "borderRadiusBottomLeft": "{sem.card.base.md.borderRadiusBottomLeft}",
-                  "border": "{sem.border.transparent}",
                   "itemSpacing": "{sem.structure.form.components.documentViewer.container.itemSpacing}",
                   "layoutMode": "vertical"
                 },
-                "type": "composition",
-                "description": "({extends: 'comp.card.base.md.uncontrasted.default'})"
+                "type": "composition"
               },
               "cardContent": {
                 "default": {
@@ -208,20 +188,10 @@
             "valide": {
               "wrapper": {
                 "value": {
-                  "horizontalPadding": "{sem.card.base.md.padding}",
-                  "verticalPadding": "{sem.card.base.md.padding}",
-                  "fill": "{sem.color.surface.light}",
-                  "boxShadow": "none",
-                  "borderRadiusTopLeft": "{sem.card.base.md.borderRadiusTopLeft}",
-                  "borderRadiusTopRight": "{sem.card.base.md.borderRadiusTopRight}",
-                  "borderRadiusBottomRight": "{sem.card.base.md.borderRadiusBottomRight}",
-                  "borderRadiusBottomLeft": "{sem.card.base.md.borderRadiusBottomLeft}",
-                  "border": "{sem.border.transparent}",
                   "itemSpacing": "{sem.structure.form.components.documentViewer.container.itemSpacing}",
                   "layoutMode": "vertical"
                 },
-                "type": "composition",
-                "description": "({extends: 'comp.card.base.md.uncontrasted.default'})"
+                "type": "composition"
               },
               "cardContent": {
                 "default": {
@@ -280,20 +250,10 @@
             "declined": {
               "wrapper": {
                 "value": {
-                  "horizontalPadding": "{sem.card.base.md.padding}",
-                  "verticalPadding": "{sem.card.base.md.padding}",
-                  "fill": "{sem.color.surface.light}",
-                  "boxShadow": "none",
-                  "borderRadiusTopLeft": "{sem.card.base.md.borderRadiusTopLeft}",
-                  "borderRadiusTopRight": "{sem.card.base.md.borderRadiusTopRight}",
-                  "borderRadiusBottomRight": "{sem.card.base.md.borderRadiusBottomRight}",
-                  "borderRadiusBottomLeft": "{sem.card.base.md.borderRadiusBottomLeft}",
-                  "border": "{sem.border.transparent}",
                   "itemSpacing": "{sem.structure.form.components.documentViewer.container.itemSpacing}",
                   "layoutMode": "vertical"
                 },
-                "type": "composition",
-                "description": "({extends: 'comp.card.base.md.uncontrasted.default'})"
+                "type": "composition"
               },
               "cardContent": {
                 "default": {

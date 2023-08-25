@@ -10,8 +10,7 @@ comp
         "itemSpacing": "{sem.structure.form.components.documentViewer.container.itemSpacing}",
         "layoutMode": "vertical"
       },
-      "type": "composition",
-      "description": "({extends: 'comp.card.base.md.uncontrasted.default'})"
+      "type": "composition"
     },
     "cardContent": {
       "default": {
