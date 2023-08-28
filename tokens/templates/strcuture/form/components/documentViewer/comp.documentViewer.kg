@@ -2,7 +2,7 @@
 
 comp
 .structure.form.components.documentViewer
-[fileStatus : 'unfilled' | 'inModeration' | 'valide' | 'declined' ]
+[fileStatus : 'unfilled' | 'inModeration' | 'valide' | 'declined' | 'error' ]
 [
   {
     "wrapper": {
@@ -15,23 +15,26 @@ comp
     "cardContent": {
       "default": {
         "value": {
-          "fill": "<< fileStatus == 'unfilled' ? '{sem.color.surface.interactive.diminished.default}' : undefined >>"
+          "fill": "<< ({ unfilled: '{sem.color.surface.interactive.diminished.default}', error: '{sem.color.surface.interactive.diminished.default}' })[fileStatus] >>",
+          "border": "<< fileStatus == 'error' ? '{sem.border.danger}' : undefined >>"
         },
         "type": "composition",
         "description": "({extends: 'comp.cardContent.card.md.desktop.container'})"
       },
       "hover": {
         "value": {
-          "fill": "<< fileStatus == 'unfilled' ? '{sem.color.surface.interactive.diminished.hover}' : undefined >>",
-          "boxShadow": "<< fileStatus == 'unfilled' ? undefined : '{sem.structure.form.components.documentViewer.cardContent.boxShadow.hover}' >>"
+          "fill": "<< ({ unfilled: '{sem.color.surface.interactive.diminished.hover}', error: '{sem.color.surface.interactive.diminished.hover}' })[fileStatus] >>",
+          "boxShadow": "<< fileStatus == 'unfilled' ? undefined : '{sem.structure.form.components.documentViewer.cardContent.boxShadow.hover}' >>",
+          "border": "<< fileStatus == 'error' ? '{sem.border.danger}' : undefined >>"
         },
         "type": "composition",
         "description": "({extends: 'comp.cardContent.card.md.desktop.container'})"
       },
       "pressed": {
         "value": {
-          "fill": "<< fileStatus == 'unfilled' ? '{sem.color.surface.interactive.diminished.pressed}' : undefined >>",
-          "boxShadow": "<< fileStatus == 'unfilled' ? undefined : '{sem.structure.form.components.documentViewer.cardContent.boxShadow.pressed}' >>"
+          "fill":  "<< ({ unfilled: '{sem.color.surface.interactive.diminished.pressed}', error: '{sem.color.surface.interactive.diminished.pressed}' })[fileStatus] >>",
+          "boxShadow": "<< fileStatus == 'unfilled' ? undefined : '{sem.structure.form.components.documentViewer.cardContent.boxShadow.pressed}' >>",
+          "border": "<< fileStatus == 'error' ? '{sem.border.danger}' : undefined >>"
         },
         "type": "composition",
         "description": "({extends: 'comp.cardContent.card.md.desktop.container'})"
