@@ -829,7 +829,7 @@
             "lg": {
               "value": {
                 "fontFamily": "{ref.typography.fontFamily.mazzard}",
-                "fontWeight": "{sem.typography.fontWeight.bold}",
+                "fontWeight": "{sem.typography.fontWeight.semibold}",
                 "lineHeight": "{ref.typography.lineHeight.multiple.100}",
                 "fontSize": "{sem.typography.fontSize.body.lg}",
                 "letterSpacing": "{ref.typography.letterSpacing.default}",
