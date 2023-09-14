@@ -11231,6 +11231,48 @@
             "type": "composition"
           }
         },
+        "sm": {
+          "container": {
+            "value": {
+              "width": "{sem.cardContent.leftSlot.sm.container.sizing}",
+              "height": "{sem.cardContent.leftSlot.sm.container.sizing}",
+              "fill": "{sem.color.surface.sub}",
+              "border": "{sem.border.diminished}",
+              "borderRadius": "{sem.cardContent.leftSlot.sm.container.borderRadius}",
+              "layoutAlignItems": "center"
+            },
+            "type": "composition"
+          },
+          "icon": {
+            "size": {
+              "value": {
+                "width": "{sem.cardContent.leftSlot.sm.icon.sizing}",
+                "height": "{sem.cardContent.leftSlot.sm.icon.sizing}"
+              },
+              "type": "composition"
+            },
+            "color": {
+              "value": {
+                "fill": "{sem.borderIcon.sm.dark}"
+              },
+              "type": "composition"
+            }
+          },
+          "text": {
+            "value": {
+              "typography": "{sem.typography.textStyle.label.body.sm}",
+              "fill": "{sem.color.text.default}"
+            },
+            "type": "composition"
+          },
+          "avatar": {
+            "value": {
+              "horizontalResizing": "fill",
+              "verticalResizing": "fill"
+            },
+            "type": "composition"
+          }
+        },
         "md": {
           "container": {
             "value": {
@@ -12547,10 +12589,7 @@
         }
       },
       "wrapper": {
-        "width": {
-          "value": "536px",
-          "type": "other"
-        }
+        "width": "536px"
       },
       "container": {
         "value": {
@@ -22466,7 +22505,25 @@
               "type": "sizing"
             },
             "borderRadius": {
-              "value": "ref.borderRadius.200",
+              "value": "{ref.borderRadius.200}",
+              "type": "borderRadius"
+            }
+          },
+          "icon": {
+            "sizing": {
+              "value": "{ref.sizing.200}",
+              "type": "sizing"
+            }
+          }
+        },
+        "sm": {
+          "container": {
+            "sizing": {
+              "value": "{ref.sizing.600}",
+              "type": "sizing"
+            },
+            "borderRadius": {
+              "value": "{ref.borderRadius.300}",
               "type": "borderRadius"
             }
           },
@@ -22484,7 +22541,7 @@
               "type": "sizing"
             },
             "borderRadius": {
-              "value": "ref.borderRadius.300",
+              "value": "{ref.borderRadius.300}",
               "type": "borderRadius"
             }
           },
@@ -22915,10 +22972,8 @@
             }
           },
           "buttonWrapper": {
-            "spacing": {
-              "value": "{ref.spacing.200}",
-              "type": "other"
-            }
+            "spacing": "{ref.spacing.200}",
+            "type": "spacing"
           }
         },
         "reasons": {
@@ -23144,7 +23199,8 @@
               }
             }
           }
-        }
+        },
+        "wrapper": {}
       }
     }
   }
