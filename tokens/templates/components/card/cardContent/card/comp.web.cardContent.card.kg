@@ -25,7 +25,9 @@ comp
     "textWrapper": {
       "value": {
         "horizontalResizing": "fill",
-        "itemSpacing": "{sem.cardContent.card.<<size>>.<<aspectRatio>>.contentWrapper.textWrapper.itemSpacing}"
+        "itemSpacing": "{sem.cardContent.card.<<size>>.<<aspectRatio>>.contentWrapper.textWrapper.itemSpacing}",
+        "layoutMode": "vertical",
+        "layoutAlignItems": "center left"
       },
       "type": "composition"
     },

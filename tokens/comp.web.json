@@ -10863,7 +10863,9 @@
             "textWrapper": {
               "value": {
                 "horizontalResizing": "fill",
-                "itemSpacing": "{sem.cardContent.card.xs.desktop.contentWrapper.textWrapper.itemSpacing}"
+                "itemSpacing": "{sem.cardContent.card.xs.desktop.contentWrapper.textWrapper.itemSpacing}",
+                "layoutMode": "vertical",
+                "layoutAlignItems": "center left"
               },
               "type": "composition"
             },
@@ -10921,7 +10923,9 @@
             "textWrapper": {
               "value": {
                 "horizontalResizing": "fill",
-                "itemSpacing": "{sem.cardContent.card.xs.mobile.contentWrapper.textWrapper.itemSpacing}"
+                "itemSpacing": "{sem.cardContent.card.xs.mobile.contentWrapper.textWrapper.itemSpacing}",
+                "layoutMode": "vertical",
+                "layoutAlignItems": "center left"
               },
               "type": "composition"
             },
@@ -10981,7 +10985,9 @@
             "textWrapper": {
               "value": {
                 "horizontalResizing": "fill",
-                "itemSpacing": "{sem.cardContent.card.sm.desktop.contentWrapper.textWrapper.itemSpacing}"
+                "itemSpacing": "{sem.cardContent.card.sm.desktop.contentWrapper.textWrapper.itemSpacing}",
+                "layoutMode": "vertical",
+                "layoutAlignItems": "center left"
               },
               "type": "composition"
             },
@@ -11039,7 +11045,9 @@
             "textWrapper": {
               "value": {
                 "horizontalResizing": "fill",
-                "itemSpacing": "{sem.cardContent.card.sm.mobile.contentWrapper.textWrapper.itemSpacing}"
+                "itemSpacing": "{sem.cardContent.card.sm.mobile.contentWrapper.textWrapper.itemSpacing}",
+                "layoutMode": "vertical",
+                "layoutAlignItems": "center left"
               },
               "type": "composition"
             },
@@ -11099,7 +11107,9 @@
             "textWrapper": {
               "value": {
                 "horizontalResizing": "fill",
-                "itemSpacing": "{sem.cardContent.card.md.desktop.contentWrapper.textWrapper.itemSpacing}"
+                "itemSpacing": "{sem.cardContent.card.md.desktop.contentWrapper.textWrapper.itemSpacing}",
+                "layoutMode": "vertical",
+                "layoutAlignItems": "center left"
               },
               "type": "composition"
             },
@@ -11157,7 +11167,9 @@
             "textWrapper": {
               "value": {
                 "horizontalResizing": "fill",
-                "itemSpacing": "{sem.cardContent.card.md.mobile.contentWrapper.textWrapper.itemSpacing}"
+                "itemSpacing": "{sem.cardContent.card.md.mobile.contentWrapper.textWrapper.itemSpacing}",
+                "layoutMode": "vertical",
+                "layoutAlignItems": "center left"
               },
               "type": "composition"
             },
