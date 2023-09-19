@@ -2,16 +2,16 @@
 
 sem
 .cardContent.leftSlot
-[size: 'xs' | 'md']
+[size: 'xs' | 'sm' | 'md']
 [
   {
     "container": {
       "sizing": {
-        "value": "<< ({ xs: '{ref.sizing.300}', md: '{ref.sizing.600}' })[size] >>",
+        "value": "<< ({ xs: '{ref.sizing.300}', sm: '{ref.sizing.600}', md: '{ref.sizing.600}' })[size] >>",
         "type": "sizing"
       },
       "borderRadius": {
-        "value": "<< ({ xs: 'ref.borderRadius.200', md: 'ref.borderRadius.300' })[size] >>",
+        "value": "<< ({ xs: '{ref.borderRadius.200}', sm: '{ref.borderRadius.300}',  md: '{ref.borderRadius.300}' })[size] >>",
         "type": "borderRadius"
       }
     },
