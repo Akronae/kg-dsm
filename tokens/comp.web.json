@@ -12712,9 +12712,10 @@
               "rightWrapper": {
                 "wrapper": {
                   "value": {
-                    "spacing": "{}",
+                    "spacing": "{sem.dropdown.item.sm.rightWrapper.wrapper.spacing}",
                     "layoutAlignItems": "right center"
-                  }
+                  },
+                  "type": "composition"
                 },
                 "text": {
                   "value": {
@@ -12809,9 +12810,10 @@
               "rightWrapper": {
                 "wrapper": {
                   "value": {
-                    "spacing": "{}",
+                    "spacing": "{sem.dropdown.item.sm.rightWrapper.wrapper.spacing}",
                     "layoutAlignItems": "right center"
-                  }
+                  },
+                  "type": "composition"
                 },
                 "text": {
                   "value": {
@@ -12906,9 +12908,10 @@
               "rightWrapper": {
                 "wrapper": {
                   "value": {
-                    "spacing": "{}",
+                    "spacing": "{sem.dropdown.item.sm.rightWrapper.wrapper.spacing}",
                     "layoutAlignItems": "right center"
-                  }
+                  },
+                  "type": "composition"
                 },
                 "text": {
                   "value": {
@@ -13003,9 +13006,10 @@
               "rightWrapper": {
                 "wrapper": {
                   "value": {
-                    "spacing": "{}",
+                    "spacing": "{sem.dropdown.item.sm.rightWrapper.wrapper.spacing}",
                     "layoutAlignItems": "right center"
-                  }
+                  },
+                  "type": "composition"
                 },
                 "text": {
                   "value": {
@@ -13102,9 +13106,10 @@
               "rightWrapper": {
                 "wrapper": {
                   "value": {
-                    "spacing": "{}",
+                    "spacing": "{sem.dropdown.item.sm.rightWrapper.wrapper.spacing}",
                     "layoutAlignItems": "right center"
-                  }
+                  },
+                  "type": "composition"
                 },
                 "text": {
                   "value": {
@@ -13199,9 +13204,10 @@
               "rightWrapper": {
                 "wrapper": {
                   "value": {
-                    "spacing": "{}",
+                    "spacing": "{sem.dropdown.item.sm.rightWrapper.wrapper.spacing}",
                     "layoutAlignItems": "right center"
-                  }
+                  },
+                  "type": "composition"
                 },
                 "text": {
                   "value": {
@@ -13296,9 +13302,10 @@
               "rightWrapper": {
                 "wrapper": {
                   "value": {
-                    "spacing": "{}",
+                    "spacing": "{sem.dropdown.item.sm.rightWrapper.wrapper.spacing}",
                     "layoutAlignItems": "right center"
-                  }
+                  },
+                  "type": "composition"
                 },
                 "text": {
                   "value": {
@@ -13393,9 +13400,10 @@
               "rightWrapper": {
                 "wrapper": {
                   "value": {
-                    "spacing": "{}",
+                    "spacing": "{sem.dropdown.item.sm.rightWrapper.wrapper.spacing}",
                     "layoutAlignItems": "right center"
-                  }
+                  },
+                  "type": "composition"
                 },
                 "text": {
                   "value": {
@@ -13492,9 +13500,10 @@
               "rightWrapper": {
                 "wrapper": {
                   "value": {
-                    "spacing": "{}",
+                    "spacing": "{sem.dropdown.item.sm.rightWrapper.wrapper.spacing}",
                     "layoutAlignItems": "right center"
-                  }
+                  },
+                  "type": "composition"
                 },
                 "text": {
                   "value": {
@@ -13589,9 +13598,10 @@
               "rightWrapper": {
                 "wrapper": {
                   "value": {
-                    "spacing": "{}",
+                    "spacing": "{sem.dropdown.item.sm.rightWrapper.wrapper.spacing}",
                     "layoutAlignItems": "right center"
-                  }
+                  },
+                  "type": "composition"
                 },
                 "text": {
                   "value": {
@@ -13686,9 +13696,10 @@
               "rightWrapper": {
                 "wrapper": {
                   "value": {
-                    "spacing": "{}",
+                    "spacing": "{sem.dropdown.item.sm.rightWrapper.wrapper.spacing}",
                     "layoutAlignItems": "right center"
-                  }
+                  },
+                  "type": "composition"
                 },
                 "text": {
                   "value": {
@@ -13783,9 +13794,10 @@
               "rightWrapper": {
                 "wrapper": {
                   "value": {
-                    "spacing": "{}",
+                    "spacing": "{sem.dropdown.item.sm.rightWrapper.wrapper.spacing}",
                     "layoutAlignItems": "right center"
-                  }
+                  },
+                  "type": "composition"
                 },
                 "text": {
                   "value": {
@@ -13884,9 +13896,10 @@
               "rightWrapper": {
                 "wrapper": {
                   "value": {
-                    "spacing": "{}",
+                    "spacing": "{sem.dropdown.item.md.rightWrapper.wrapper.spacing}",
                     "layoutAlignItems": "right center"
-                  }
+                  },
+                  "type": "composition"
                 },
                 "text": {
                   "value": {
@@ -13981,9 +13994,10 @@
               "rightWrapper": {
                 "wrapper": {
                   "value": {
-                    "spacing": "{}",
+                    "spacing": "{sem.dropdown.item.md.rightWrapper.wrapper.spacing}",
                     "layoutAlignItems": "right center"
-                  }
+                  },
+                  "type": "composition"
                 },
                 "text": {
                   "value": {
@@ -14078,9 +14092,10 @@
               "rightWrapper": {
                 "wrapper": {
                   "value": {
-                    "spacing": "{}",
+                    "spacing": "{sem.dropdown.item.md.rightWrapper.wrapper.spacing}",
                     "layoutAlignItems": "right center"
-                  }
+                  },
+                  "type": "composition"
                 },
                 "text": {
                   "value": {
@@ -14175,9 +14190,10 @@
               "rightWrapper": {
                 "wrapper": {
                   "value": {
-                    "spacing": "{}",
+                    "spacing": "{sem.dropdown.item.md.rightWrapper.wrapper.spacing}",
                     "layoutAlignItems": "right center"
-                  }
+                  },
+                  "type": "composition"
                 },
                 "text": {
                   "value": {
@@ -14274,9 +14290,10 @@
               "rightWrapper": {
                 "wrapper": {
                   "value": {
-                    "spacing": "{}",
+                    "spacing": "{sem.dropdown.item.md.rightWrapper.wrapper.spacing}",
                     "layoutAlignItems": "right center"
-                  }
+                  },
+                  "type": "composition"
                 },
                 "text": {
                   "value": {
@@ -14371,9 +14388,10 @@
               "rightWrapper": {
                 "wrapper": {
                   "value": {
-                    "spacing": "{}",
+                    "spacing": "{sem.dropdown.item.md.rightWrapper.wrapper.spacing}",
                     "layoutAlignItems": "right center"
-                  }
+                  },
+                  "type": "composition"
                 },
                 "text": {
                   "value": {
@@ -14468,9 +14486,10 @@
               "rightWrapper": {
                 "wrapper": {
                   "value": {
-                    "spacing": "{}",
+                    "spacing": "{sem.dropdown.item.md.rightWrapper.wrapper.spacing}",
                     "layoutAlignItems": "right center"
-                  }
+                  },
+                  "type": "composition"
                 },
                 "text": {
                   "value": {
@@ -14565,9 +14584,10 @@
               "rightWrapper": {
                 "wrapper": {
                   "value": {
-                    "spacing": "{}",
+                    "spacing": "{sem.dropdown.item.md.rightWrapper.wrapper.spacing}",
                     "layoutAlignItems": "right center"
-                  }
+                  },
+                  "type": "composition"
                 },
                 "text": {
                   "value": {
@@ -14664,9 +14684,10 @@
               "rightWrapper": {
                 "wrapper": {
                   "value": {
-                    "spacing": "{}",
+                    "spacing": "{sem.dropdown.item.md.rightWrapper.wrapper.spacing}",
                     "layoutAlignItems": "right center"
-                  }
+                  },
+                  "type": "composition"
                 },
                 "text": {
                   "value": {
@@ -14761,9 +14782,10 @@
               "rightWrapper": {
                 "wrapper": {
                   "value": {
-                    "spacing": "{}",
+                    "spacing": "{sem.dropdown.item.md.rightWrapper.wrapper.spacing}",
                     "layoutAlignItems": "right center"
-                  }
+                  },
+                  "type": "composition"
                 },
                 "text": {
                   "value": {
@@ -14858,9 +14880,10 @@
               "rightWrapper": {
                 "wrapper": {
                   "value": {
-                    "spacing": "{}",
+                    "spacing": "{sem.dropdown.item.md.rightWrapper.wrapper.spacing}",
                     "layoutAlignItems": "right center"
-                  }
+                  },
+                  "type": "composition"
                 },
                 "text": {
                   "value": {
@@ -14955,9 +14978,10 @@
               "rightWrapper": {
                 "wrapper": {
                   "value": {
-                    "spacing": "{}",
+                    "spacing": "{sem.dropdown.item.md.rightWrapper.wrapper.spacing}",
                     "layoutAlignItems": "right center"
-                  }
+                  },
+                  "type": "composition"
                 },
                 "text": {
                   "value": {
