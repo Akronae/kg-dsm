@@ -12719,7 +12719,7 @@
                 "text": {
                   "value": {
                     "typography": "{sem.typography.textStyle.label.body.sm}",
-                    "fill": "{sem.color.text.diminished}"
+                    "fill": "{sem.color.text.diminish}"
                   },
                   "type": "composition"
                 },
@@ -12816,7 +12816,7 @@
                 "text": {
                   "value": {
                     "typography": "{sem.typography.textStyle.label.body.sm}",
-                    "fill": "{sem.color.text.diminished}"
+                    "fill": "{sem.color.text.diminish}"
                   },
                   "type": "composition"
                 },
@@ -12913,7 +12913,7 @@
                 "text": {
                   "value": {
                     "typography": "{sem.typography.textStyle.label.body.sm}",
-                    "fill": "{sem.color.text.diminished}"
+                    "fill": "{sem.color.text.diminish}"
                   },
                   "type": "composition"
                 },
@@ -13010,7 +13010,7 @@
                 "text": {
                   "value": {
                     "typography": "{sem.typography.textStyle.label.body.sm}",
-                    "fill": "{sem.color.text.diminished}"
+                    "fill": "{sem.color.text.diminish}"
                   },
                   "type": "composition"
                 },
@@ -13109,7 +13109,7 @@
                 "text": {
                   "value": {
                     "typography": "{sem.typography.textStyle.label.body.sm}",
-                    "fill": "{sem.color.text.diminished}"
+                    "fill": "{sem.color.text.diminish}"
                   },
                   "type": "composition"
                 },
@@ -13206,7 +13206,7 @@
                 "text": {
                   "value": {
                     "typography": "{sem.typography.textStyle.label.body.sm}",
-                    "fill": "{sem.color.text.diminished}"
+                    "fill": "{sem.color.text.diminish}"
                   },
                   "type": "composition"
                 },
@@ -13303,7 +13303,7 @@
                 "text": {
                   "value": {
                     "typography": "{sem.typography.textStyle.label.body.sm}",
-                    "fill": "{sem.color.text.diminished}"
+                    "fill": "{sem.color.text.diminish}"
                   },
                   "type": "composition"
                 },
@@ -13400,7 +13400,7 @@
                 "text": {
                   "value": {
                     "typography": "{sem.typography.textStyle.label.body.sm}",
-                    "fill": "{sem.color.text.diminished}"
+                    "fill": "{sem.color.text.diminish}"
                   },
                   "type": "composition"
                 },
@@ -13499,7 +13499,7 @@
                 "text": {
                   "value": {
                     "typography": "{sem.typography.textStyle.label.body.sm}",
-                    "fill": "{sem.color.text.diminished}"
+                    "fill": "{sem.color.text.diminish}"
                   },
                   "type": "composition"
                 },
@@ -13596,7 +13596,7 @@
                 "text": {
                   "value": {
                     "typography": "{sem.typography.textStyle.label.body.sm}",
-                    "fill": "{sem.color.text.diminished}"
+                    "fill": "{sem.color.text.diminish}"
                   },
                   "type": "composition"
                 },
@@ -13693,7 +13693,7 @@
                 "text": {
                   "value": {
                     "typography": "{sem.typography.textStyle.label.body.sm}",
-                    "fill": "{sem.color.text.diminished}"
+                    "fill": "{sem.color.text.diminish}"
                   },
                   "type": "composition"
                 },
@@ -13790,7 +13790,7 @@
                 "text": {
                   "value": {
                     "typography": "{sem.typography.textStyle.label.body.sm}",
-                    "fill": "{sem.color.text.diminished}"
+                    "fill": "{sem.color.text.diminish}"
                   },
                   "type": "composition"
                 },
@@ -13891,7 +13891,7 @@
                 "text": {
                   "value": {
                     "typography": "{sem.typography.textStyle.label.body.sm}",
-                    "fill": "{sem.color.text.diminished}"
+                    "fill": "{sem.color.text.diminish}"
                   },
                   "type": "composition"
                 },
@@ -13988,7 +13988,7 @@
                 "text": {
                   "value": {
                     "typography": "{sem.typography.textStyle.label.body.sm}",
-                    "fill": "{sem.color.text.diminished}"
+                    "fill": "{sem.color.text.diminish}"
                   },
                   "type": "composition"
                 },
@@ -14085,7 +14085,7 @@
                 "text": {
                   "value": {
                     "typography": "{sem.typography.textStyle.label.body.sm}",
-                    "fill": "{sem.color.text.diminished}"
+                    "fill": "{sem.color.text.diminish}"
                   },
                   "type": "composition"
                 },
@@ -14182,7 +14182,7 @@
                 "text": {
                   "value": {
                     "typography": "{sem.typography.textStyle.label.body.sm}",
-                    "fill": "{sem.color.text.diminished}"
+                    "fill": "{sem.color.text.diminish}"
                   },
                   "type": "composition"
                 },
@@ -14281,7 +14281,7 @@
                 "text": {
                   "value": {
                     "typography": "{sem.typography.textStyle.label.body.sm}",
-                    "fill": "{sem.color.text.diminished}"
+                    "fill": "{sem.color.text.diminish}"
                   },
                   "type": "composition"
                 },
@@ -14378,7 +14378,7 @@
                 "text": {
                   "value": {
                     "typography": "{sem.typography.textStyle.label.body.sm}",
-                    "fill": "{sem.color.text.diminished}"
+                    "fill": "{sem.color.text.diminish}"
                   },
                   "type": "composition"
                 },
@@ -14475,7 +14475,7 @@
                 "text": {
                   "value": {
                     "typography": "{sem.typography.textStyle.label.body.sm}",
-                    "fill": "{sem.color.text.diminished}"
+                    "fill": "{sem.color.text.diminish}"
                   },
                   "type": "composition"
                 },
@@ -14572,7 +14572,7 @@
                 "text": {
                   "value": {
                     "typography": "{sem.typography.textStyle.label.body.sm}",
-                    "fill": "{sem.color.text.diminished}"
+                    "fill": "{sem.color.text.diminish}"
                   },
                   "type": "composition"
                 },
@@ -14671,7 +14671,7 @@
                 "text": {
                   "value": {
                     "typography": "{sem.typography.textStyle.label.body.sm}",
-                    "fill": "{sem.color.text.diminished}"
+                    "fill": "{sem.color.text.diminish}"
                   },
                   "type": "composition"
                 },
@@ -14768,7 +14768,7 @@
                 "text": {
                   "value": {
                     "typography": "{sem.typography.textStyle.label.body.sm}",
-                    "fill": "{sem.color.text.diminished}"
+                    "fill": "{sem.color.text.diminish}"
                   },
                   "type": "composition"
                 },
@@ -14865,7 +14865,7 @@
                 "text": {
                   "value": {
                     "typography": "{sem.typography.textStyle.label.body.sm}",
-                    "fill": "{sem.color.text.diminished}"
+                    "fill": "{sem.color.text.diminish}"
                   },
                   "type": "composition"
                 },
@@ -14962,7 +14962,7 @@
                 "text": {
                   "value": {
                     "typography": "{sem.typography.textStyle.label.body.sm}",
-                    "fill": "{sem.color.text.diminished}"
+                    "fill": "{sem.color.text.diminish}"
                   },
                   "type": "composition"
                 },
