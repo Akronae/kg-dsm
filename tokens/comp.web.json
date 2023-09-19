@@ -12652,6 +12652,7 @@
                   "borderRadius": "{sem.dropdown.item.sm.container.borderRadius}",
                   "itemSpacing": "{sem.dropdown.item.sm.container.spacing}",
                   "layoutMode": "horizontal",
+                  "horizontalResizing": "fill",
                   "opacity": "1"
                 },
                 "type": "composition"
@@ -12660,7 +12661,8 @@
                 "wrapper": {
                   "value": {
                     "itemSpacing": "{sem.dropdown.item.sm.leftWrapper.wrapper.spacing}",
-                    "layoutMode": "vertical"
+                    "layoutMode": "vertical",
+                    "horizontalResizing": "fill"
                   },
                   "type": "composition"
                 },
@@ -12668,7 +12670,9 @@
                   "wrapper": {
                     "value": {
                       "itemSpacing": "{sem.dropdown.item.sm.leftWrapper.labelWrapper.wrapper.spacing}",
-                      "layoutMode": "horizontal"
+                      "layoutMode": "horizontal",
+                      "horizontalResizing": "fill",
+                      "layoutAlignItems": "bottom center"
                     },
                     "type": "composition"
                   },
@@ -12690,7 +12694,8 @@
                   "label": {
                     "value": {
                       "typography": "{sem.typography.textStyle.label.body.sm}",
-                      "fill": "{sem.color.text.dark}"
+                      "fill": "{sem.color.text.dark}",
+                      "horizontalResizing": "fill"
                     },
                     "type": "composition"
                   }
@@ -12698,15 +12703,22 @@
                 "description": {
                   "value": {
                     "typography": "{sem.typography.textStyle.paragraph.sm.default}",
-                    "fill": "{sem.color.text.default}"
+                    "fill": "{sem.color.text.default}",
+                    "horizontalResizing": "fill"
                   },
                   "type": "composition"
                 }
               },
               "rightWrapper": {
+                "wrapper": {
+                  "value": {
+                    "spacing": "{}",
+                    "layoutAlignItems": "right center"
+                  }
+                },
                 "text": {
                   "value": {
-                    "typography": "sem.typography.textStyle.label.body.sm",
+                    "typography": "{sem.typography.textStyle.label.body.sm}",
                     "fill": "{sem.color.text.diminished}"
                   },
                   "type": "composition"
@@ -12737,6 +12749,7 @@
                   "borderRadius": "{sem.dropdown.item.sm.container.borderRadius}",
                   "itemSpacing": "{sem.dropdown.item.sm.container.spacing}",
                   "layoutMode": "horizontal",
+                  "horizontalResizing": "fill",
                   "opacity": "1"
                 },
                 "type": "composition"
@@ -12745,7 +12758,8 @@
                 "wrapper": {
                   "value": {
                     "itemSpacing": "{sem.dropdown.item.sm.leftWrapper.wrapper.spacing}",
-                    "layoutMode": "vertical"
+                    "layoutMode": "vertical",
+                    "horizontalResizing": "fill"
                   },
                   "type": "composition"
                 },
@@ -12753,7 +12767,9 @@
                   "wrapper": {
                     "value": {
                       "itemSpacing": "{sem.dropdown.item.sm.leftWrapper.labelWrapper.wrapper.spacing}",
-                      "layoutMode": "horizontal"
+                      "layoutMode": "horizontal",
+                      "horizontalResizing": "fill",
+                      "layoutAlignItems": "bottom center"
                     },
                     "type": "composition"
                   },
@@ -12775,7 +12791,8 @@
                   "label": {
                     "value": {
                       "typography": "{sem.typography.textStyle.label.body.sm}",
-                      "fill": "{sem.color.text.dark}"
+                      "fill": "{sem.color.text.dark}",
+                      "horizontalResizing": "fill"
                     },
                     "type": "composition"
                   }
@@ -12783,15 +12800,22 @@
                 "description": {
                   "value": {
                     "typography": "{sem.typography.textStyle.paragraph.sm.default}",
-                    "fill": "{sem.color.text.default}"
+                    "fill": "{sem.color.text.default}",
+                    "horizontalResizing": "fill"
                   },
                   "type": "composition"
                 }
               },
               "rightWrapper": {
+                "wrapper": {
+                  "value": {
+                    "spacing": "{}",
+                    "layoutAlignItems": "right center"
+                  }
+                },
                 "text": {
                   "value": {
-                    "typography": "sem.typography.textStyle.label.body.sm",
+                    "typography": "{sem.typography.textStyle.label.body.sm}",
                     "fill": "{sem.color.text.diminished}"
                   },
                   "type": "composition"
@@ -12822,6 +12846,7 @@
                   "borderRadius": "{sem.dropdown.item.sm.container.borderRadius}",
                   "itemSpacing": "{sem.dropdown.item.sm.container.spacing}",
                   "layoutMode": "horizontal",
+                  "horizontalResizing": "fill",
                   "opacity": "1"
                 },
                 "type": "composition"
@@ -12830,7 +12855,8 @@
                 "wrapper": {
                   "value": {
                     "itemSpacing": "{sem.dropdown.item.sm.leftWrapper.wrapper.spacing}",
-                    "layoutMode": "vertical"
+                    "layoutMode": "vertical",
+                    "horizontalResizing": "fill"
                   },
                   "type": "composition"
                 },
@@ -12838,7 +12864,9 @@
                   "wrapper": {
                     "value": {
                       "itemSpacing": "{sem.dropdown.item.sm.leftWrapper.labelWrapper.wrapper.spacing}",
-                      "layoutMode": "horizontal"
+                      "layoutMode": "horizontal",
+                      "horizontalResizing": "fill",
+                      "layoutAlignItems": "bottom center"
                     },
                     "type": "composition"
                   },
@@ -12860,7 +12888,8 @@
                   "label": {
                     "value": {
                       "typography": "{sem.typography.textStyle.label.body.sm}",
-                      "fill": "{sem.color.text.dark}"
+                      "fill": "{sem.color.text.dark}",
+                      "horizontalResizing": "fill"
                     },
                     "type": "composition"
                   }
@@ -12868,15 +12897,22 @@
                 "description": {
                   "value": {
                     "typography": "{sem.typography.textStyle.paragraph.sm.default}",
-                    "fill": "{sem.color.text.default}"
+                    "fill": "{sem.color.text.default}",
+                    "horizontalResizing": "fill"
                   },
                   "type": "composition"
                 }
               },
               "rightWrapper": {
+                "wrapper": {
+                  "value": {
+                    "spacing": "{}",
+                    "layoutAlignItems": "right center"
+                  }
+                },
                 "text": {
                   "value": {
-                    "typography": "sem.typography.textStyle.label.body.sm",
+                    "typography": "{sem.typography.textStyle.label.body.sm}",
                     "fill": "{sem.color.text.diminished}"
                   },
                   "type": "composition"
@@ -12907,6 +12943,7 @@
                   "borderRadius": "{sem.dropdown.item.sm.container.borderRadius}",
                   "itemSpacing": "{sem.dropdown.item.sm.container.spacing}",
                   "layoutMode": "horizontal",
+                  "horizontalResizing": "fill",
                   "opacity": "{sem.dropdown.item.sm.container.opacity}"
                 },
                 "type": "composition"
@@ -12915,7 +12952,8 @@
                 "wrapper": {
                   "value": {
                     "itemSpacing": "{sem.dropdown.item.sm.leftWrapper.wrapper.spacing}",
-                    "layoutMode": "vertical"
+                    "layoutMode": "vertical",
+                    "horizontalResizing": "fill"
                   },
                   "type": "composition"
                 },
@@ -12923,7 +12961,9 @@
                   "wrapper": {
                     "value": {
                       "itemSpacing": "{sem.dropdown.item.sm.leftWrapper.labelWrapper.wrapper.spacing}",
-                      "layoutMode": "horizontal"
+                      "layoutMode": "horizontal",
+                      "horizontalResizing": "fill",
+                      "layoutAlignItems": "bottom center"
                     },
                     "type": "composition"
                   },
@@ -12945,7 +12985,8 @@
                   "label": {
                     "value": {
                       "typography": "{sem.typography.textStyle.label.body.sm}",
-                      "fill": "{sem.color.text.dark}"
+                      "fill": "{sem.color.text.dark}",
+                      "horizontalResizing": "fill"
                     },
                     "type": "composition"
                   }
@@ -12953,15 +12994,22 @@
                 "description": {
                   "value": {
                     "typography": "{sem.typography.textStyle.paragraph.sm.default}",
-                    "fill": "{sem.color.text.default}"
+                    "fill": "{sem.color.text.default}",
+                    "horizontalResizing": "fill"
                   },
                   "type": "composition"
                 }
               },
               "rightWrapper": {
+                "wrapper": {
+                  "value": {
+                    "spacing": "{}",
+                    "layoutAlignItems": "right center"
+                  }
+                },
                 "text": {
                   "value": {
-                    "typography": "sem.typography.textStyle.label.body.sm",
+                    "typography": "{sem.typography.textStyle.label.body.sm}",
                     "fill": "{sem.color.text.diminished}"
                   },
                   "type": "composition"
@@ -12994,6 +13042,7 @@
                   "borderRadius": "{sem.dropdown.item.sm.container.borderRadius}",
                   "itemSpacing": "{sem.dropdown.item.sm.container.spacing}",
                   "layoutMode": "horizontal",
+                  "horizontalResizing": "fill",
                   "opacity": "1"
                 },
                 "type": "composition"
@@ -13002,7 +13051,8 @@
                 "wrapper": {
                   "value": {
                     "itemSpacing": "{sem.dropdown.item.sm.leftWrapper.wrapper.spacing}",
-                    "layoutMode": "vertical"
+                    "layoutMode": "vertical",
+                    "horizontalResizing": "fill"
                   },
                   "type": "composition"
                 },
@@ -13010,7 +13060,9 @@
                   "wrapper": {
                     "value": {
                       "itemSpacing": "{sem.dropdown.item.sm.leftWrapper.labelWrapper.wrapper.spacing}",
-                      "layoutMode": "horizontal"
+                      "layoutMode": "horizontal",
+                      "horizontalResizing": "fill",
+                      "layoutAlignItems": "bottom center"
                     },
                     "type": "composition"
                   },
@@ -13032,7 +13084,8 @@
                   "label": {
                     "value": {
                       "typography": "{sem.typography.textStyle.label.body.sm}",
-                      "fill": "{sem.color.text.dark}"
+                      "fill": "{sem.color.text.dark}",
+                      "horizontalResizing": "fill"
                     },
                     "type": "composition"
                   }
@@ -13040,15 +13093,22 @@
                 "description": {
                   "value": {
                     "typography": "{sem.typography.textStyle.paragraph.sm.default}",
-                    "fill": "{sem.color.text.default}"
+                    "fill": "{sem.color.text.default}",
+                    "horizontalResizing": "fill"
                   },
                   "type": "composition"
                 }
               },
               "rightWrapper": {
+                "wrapper": {
+                  "value": {
+                    "spacing": "{}",
+                    "layoutAlignItems": "right center"
+                  }
+                },
                 "text": {
                   "value": {
-                    "typography": "sem.typography.textStyle.label.body.sm",
+                    "typography": "{sem.typography.textStyle.label.body.sm}",
                     "fill": "{sem.color.text.diminished}"
                   },
                   "type": "composition"
@@ -13079,6 +13139,7 @@
                   "borderRadius": "{sem.dropdown.item.sm.container.borderRadius}",
                   "itemSpacing": "{sem.dropdown.item.sm.container.spacing}",
                   "layoutMode": "horizontal",
+                  "horizontalResizing": "fill",
                   "opacity": "1"
                 },
                 "type": "composition"
@@ -13087,7 +13148,8 @@
                 "wrapper": {
                   "value": {
                     "itemSpacing": "{sem.dropdown.item.sm.leftWrapper.wrapper.spacing}",
-                    "layoutMode": "vertical"
+                    "layoutMode": "vertical",
+                    "horizontalResizing": "fill"
                   },
                   "type": "composition"
                 },
@@ -13095,7 +13157,9 @@
                   "wrapper": {
                     "value": {
                       "itemSpacing": "{sem.dropdown.item.sm.leftWrapper.labelWrapper.wrapper.spacing}",
-                      "layoutMode": "horizontal"
+                      "layoutMode": "horizontal",
+                      "horizontalResizing": "fill",
+                      "layoutAlignItems": "bottom center"
                     },
                     "type": "composition"
                   },
@@ -13117,7 +13181,8 @@
                   "label": {
                     "value": {
                       "typography": "{sem.typography.textStyle.label.body.sm}",
-                      "fill": "{sem.color.text.dark}"
+                      "fill": "{sem.color.text.dark}",
+                      "horizontalResizing": "fill"
                     },
                     "type": "composition"
                   }
@@ -13125,15 +13190,22 @@
                 "description": {
                   "value": {
                     "typography": "{sem.typography.textStyle.paragraph.sm.default}",
-                    "fill": "{sem.color.text.default}"
+                    "fill": "{sem.color.text.default}",
+                    "horizontalResizing": "fill"
                   },
                   "type": "composition"
                 }
               },
               "rightWrapper": {
+                "wrapper": {
+                  "value": {
+                    "spacing": "{}",
+                    "layoutAlignItems": "right center"
+                  }
+                },
                 "text": {
                   "value": {
-                    "typography": "sem.typography.textStyle.label.body.sm",
+                    "typography": "{sem.typography.textStyle.label.body.sm}",
                     "fill": "{sem.color.text.diminished}"
                   },
                   "type": "composition"
@@ -13164,6 +13236,7 @@
                   "borderRadius": "{sem.dropdown.item.sm.container.borderRadius}",
                   "itemSpacing": "{sem.dropdown.item.sm.container.spacing}",
                   "layoutMode": "horizontal",
+                  "horizontalResizing": "fill",
                   "opacity": "1"
                 },
                 "type": "composition"
@@ -13172,7 +13245,8 @@
                 "wrapper": {
                   "value": {
                     "itemSpacing": "{sem.dropdown.item.sm.leftWrapper.wrapper.spacing}",
-                    "layoutMode": "vertical"
+                    "layoutMode": "vertical",
+                    "horizontalResizing": "fill"
                   },
                   "type": "composition"
                 },
@@ -13180,7 +13254,9 @@
                   "wrapper": {
                     "value": {
                       "itemSpacing": "{sem.dropdown.item.sm.leftWrapper.labelWrapper.wrapper.spacing}",
-                      "layoutMode": "horizontal"
+                      "layoutMode": "horizontal",
+                      "horizontalResizing": "fill",
+                      "layoutAlignItems": "bottom center"
                     },
                     "type": "composition"
                   },
@@ -13202,7 +13278,8 @@
                   "label": {
                     "value": {
                       "typography": "{sem.typography.textStyle.label.body.sm}",
-                      "fill": "{sem.color.text.dark}"
+                      "fill": "{sem.color.text.dark}",
+                      "horizontalResizing": "fill"
                     },
                     "type": "composition"
                   }
@@ -13210,15 +13287,22 @@
                 "description": {
                   "value": {
                     "typography": "{sem.typography.textStyle.paragraph.sm.default}",
-                    "fill": "{sem.color.text.default}"
+                    "fill": "{sem.color.text.default}",
+                    "horizontalResizing": "fill"
                   },
                   "type": "composition"
                 }
               },
               "rightWrapper": {
+                "wrapper": {
+                  "value": {
+                    "spacing": "{}",
+                    "layoutAlignItems": "right center"
+                  }
+                },
                 "text": {
                   "value": {
-                    "typography": "sem.typography.textStyle.label.body.sm",
+                    "typography": "{sem.typography.textStyle.label.body.sm}",
                     "fill": "{sem.color.text.diminished}"
                   },
                   "type": "composition"
@@ -13249,6 +13333,7 @@
                   "borderRadius": "{sem.dropdown.item.sm.container.borderRadius}",
                   "itemSpacing": "{sem.dropdown.item.sm.container.spacing}",
                   "layoutMode": "horizontal",
+                  "horizontalResizing": "fill",
                   "opacity": "{sem.dropdown.item.sm.container.opacity}"
                 },
                 "type": "composition"
@@ -13257,7 +13342,8 @@
                 "wrapper": {
                   "value": {
                     "itemSpacing": "{sem.dropdown.item.sm.leftWrapper.wrapper.spacing}",
-                    "layoutMode": "vertical"
+                    "layoutMode": "vertical",
+                    "horizontalResizing": "fill"
                   },
                   "type": "composition"
                 },
@@ -13265,7 +13351,9 @@
                   "wrapper": {
                     "value": {
                       "itemSpacing": "{sem.dropdown.item.sm.leftWrapper.labelWrapper.wrapper.spacing}",
-                      "layoutMode": "horizontal"
+                      "layoutMode": "horizontal",
+                      "horizontalResizing": "fill",
+                      "layoutAlignItems": "bottom center"
                     },
                     "type": "composition"
                   },
@@ -13287,7 +13375,8 @@
                   "label": {
                     "value": {
                       "typography": "{sem.typography.textStyle.label.body.sm}",
-                      "fill": "{sem.color.text.dark}"
+                      "fill": "{sem.color.text.dark}",
+                      "horizontalResizing": "fill"
                     },
                     "type": "composition"
                   }
@@ -13295,15 +13384,22 @@
                 "description": {
                   "value": {
                     "typography": "{sem.typography.textStyle.paragraph.sm.default}",
-                    "fill": "{sem.color.text.default}"
+                    "fill": "{sem.color.text.default}",
+                    "horizontalResizing": "fill"
                   },
                   "type": "composition"
                 }
               },
               "rightWrapper": {
+                "wrapper": {
+                  "value": {
+                    "spacing": "{}",
+                    "layoutAlignItems": "right center"
+                  }
+                },
                 "text": {
                   "value": {
-                    "typography": "sem.typography.textStyle.label.body.sm",
+                    "typography": "{sem.typography.textStyle.label.body.sm}",
                     "fill": "{sem.color.text.diminished}"
                   },
                   "type": "composition"
@@ -13336,6 +13432,7 @@
                   "borderRadius": "{sem.dropdown.item.sm.container.borderRadius}",
                   "itemSpacing": "{sem.dropdown.item.sm.container.spacing}",
                   "layoutMode": "horizontal",
+                  "horizontalResizing": "fill",
                   "opacity": "1"
                 },
                 "type": "composition"
@@ -13344,7 +13441,8 @@
                 "wrapper": {
                   "value": {
                     "itemSpacing": "{sem.dropdown.item.sm.leftWrapper.wrapper.spacing}",
-                    "layoutMode": "vertical"
+                    "layoutMode": "vertical",
+                    "horizontalResizing": "fill"
                   },
                   "type": "composition"
                 },
@@ -13352,7 +13450,9 @@
                   "wrapper": {
                     "value": {
                       "itemSpacing": "{sem.dropdown.item.sm.leftWrapper.labelWrapper.wrapper.spacing}",
-                      "layoutMode": "horizontal"
+                      "layoutMode": "horizontal",
+                      "horizontalResizing": "fill",
+                      "layoutAlignItems": "bottom center"
                     },
                     "type": "composition"
                   },
@@ -13374,7 +13474,8 @@
                   "label": {
                     "value": {
                       "typography": "{sem.typography.textStyle.label.body.sm}",
-                      "fill": "{sem.color.text.danger}"
+                      "fill": "{sem.color.text.danger}",
+                      "horizontalResizing": "fill"
                     },
                     "type": "composition"
                   }
@@ -13382,15 +13483,22 @@
                 "description": {
                   "value": {
                     "typography": "{sem.typography.textStyle.paragraph.sm.default}",
-                    "fill": "{sem.color.text.default}"
+                    "fill": "{sem.color.text.default}",
+                    "horizontalResizing": "fill"
                   },
                   "type": "composition"
                 }
               },
               "rightWrapper": {
+                "wrapper": {
+                  "value": {
+                    "spacing": "{}",
+                    "layoutAlignItems": "right center"
+                  }
+                },
                 "text": {
                   "value": {
-                    "typography": "sem.typography.textStyle.label.body.sm",
+                    "typography": "{sem.typography.textStyle.label.body.sm}",
                     "fill": "{sem.color.text.diminished}"
                   },
                   "type": "composition"
@@ -13421,6 +13529,7 @@
                   "borderRadius": "{sem.dropdown.item.sm.container.borderRadius}",
                   "itemSpacing": "{sem.dropdown.item.sm.container.spacing}",
                   "layoutMode": "horizontal",
+                  "horizontalResizing": "fill",
                   "opacity": "1"
                 },
                 "type": "composition"
@@ -13429,7 +13538,8 @@
                 "wrapper": {
                   "value": {
                     "itemSpacing": "{sem.dropdown.item.sm.leftWrapper.wrapper.spacing}",
-                    "layoutMode": "vertical"
+                    "layoutMode": "vertical",
+                    "horizontalResizing": "fill"
                   },
                   "type": "composition"
                 },
@@ -13437,7 +13547,9 @@
                   "wrapper": {
                     "value": {
                       "itemSpacing": "{sem.dropdown.item.sm.leftWrapper.labelWrapper.wrapper.spacing}",
-                      "layoutMode": "horizontal"
+                      "layoutMode": "horizontal",
+                      "horizontalResizing": "fill",
+                      "layoutAlignItems": "bottom center"
                     },
                     "type": "composition"
                   },
@@ -13459,7 +13571,8 @@
                   "label": {
                     "value": {
                       "typography": "{sem.typography.textStyle.label.body.sm}",
-                      "fill": "{sem.color.text.danger}"
+                      "fill": "{sem.color.text.danger}",
+                      "horizontalResizing": "fill"
                     },
                     "type": "composition"
                   }
@@ -13467,15 +13580,22 @@
                 "description": {
                   "value": {
                     "typography": "{sem.typography.textStyle.paragraph.sm.default}",
-                    "fill": "{sem.color.text.default}"
+                    "fill": "{sem.color.text.default}",
+                    "horizontalResizing": "fill"
                   },
                   "type": "composition"
                 }
               },
               "rightWrapper": {
+                "wrapper": {
+                  "value": {
+                    "spacing": "{}",
+                    "layoutAlignItems": "right center"
+                  }
+                },
                 "text": {
                   "value": {
-                    "typography": "sem.typography.textStyle.label.body.sm",
+                    "typography": "{sem.typography.textStyle.label.body.sm}",
                     "fill": "{sem.color.text.diminished}"
                   },
                   "type": "composition"
@@ -13506,6 +13626,7 @@
                   "borderRadius": "{sem.dropdown.item.sm.container.borderRadius}",
                   "itemSpacing": "{sem.dropdown.item.sm.container.spacing}",
                   "layoutMode": "horizontal",
+                  "horizontalResizing": "fill",
                   "opacity": "1"
                 },
                 "type": "composition"
@@ -13514,7 +13635,8 @@
                 "wrapper": {
                   "value": {
                     "itemSpacing": "{sem.dropdown.item.sm.leftWrapper.wrapper.spacing}",
-                    "layoutMode": "vertical"
+                    "layoutMode": "vertical",
+                    "horizontalResizing": "fill"
                   },
                   "type": "composition"
                 },
@@ -13522,7 +13644,9 @@
                   "wrapper": {
                     "value": {
                       "itemSpacing": "{sem.dropdown.item.sm.leftWrapper.labelWrapper.wrapper.spacing}",
-                      "layoutMode": "horizontal"
+                      "layoutMode": "horizontal",
+                      "horizontalResizing": "fill",
+                      "layoutAlignItems": "bottom center"
                     },
                     "type": "composition"
                   },
@@ -13544,7 +13668,8 @@
                   "label": {
                     "value": {
                       "typography": "{sem.typography.textStyle.label.body.sm}",
-                      "fill": "{sem.color.text.danger}"
+                      "fill": "{sem.color.text.danger}",
+                      "horizontalResizing": "fill"
                     },
                     "type": "composition"
                   }
@@ -13552,15 +13677,22 @@
                 "description": {
                   "value": {
                     "typography": "{sem.typography.textStyle.paragraph.sm.default}",
-                    "fill": "{sem.color.text.default}"
+                    "fill": "{sem.color.text.default}",
+                    "horizontalResizing": "fill"
                   },
                   "type": "composition"
                 }
               },
               "rightWrapper": {
+                "wrapper": {
+                  "value": {
+                    "spacing": "{}",
+                    "layoutAlignItems": "right center"
+                  }
+                },
                 "text": {
                   "value": {
-                    "typography": "sem.typography.textStyle.label.body.sm",
+                    "typography": "{sem.typography.textStyle.label.body.sm}",
                     "fill": "{sem.color.text.diminished}"
                   },
                   "type": "composition"
@@ -13591,6 +13723,7 @@
                   "borderRadius": "{sem.dropdown.item.sm.container.borderRadius}",
                   "itemSpacing": "{sem.dropdown.item.sm.container.spacing}",
                   "layoutMode": "horizontal",
+                  "horizontalResizing": "fill",
                   "opacity": "{sem.dropdown.item.sm.container.opacity}"
                 },
                 "type": "composition"
@@ -13599,7 +13732,8 @@
                 "wrapper": {
                   "value": {
                     "itemSpacing": "{sem.dropdown.item.sm.leftWrapper.wrapper.spacing}",
-                    "layoutMode": "vertical"
+                    "layoutMode": "vertical",
+                    "horizontalResizing": "fill"
                   },
                   "type": "composition"
                 },
@@ -13607,7 +13741,9 @@
                   "wrapper": {
                     "value": {
                       "itemSpacing": "{sem.dropdown.item.sm.leftWrapper.labelWrapper.wrapper.spacing}",
-                      "layoutMode": "horizontal"
+                      "layoutMode": "horizontal",
+                      "horizontalResizing": "fill",
+                      "layoutAlignItems": "bottom center"
                     },
                     "type": "composition"
                   },
@@ -13629,7 +13765,8 @@
                   "label": {
                     "value": {
                       "typography": "{sem.typography.textStyle.label.body.sm}",
-                      "fill": "{sem.color.text.danger}"
+                      "fill": "{sem.color.text.danger}",
+                      "horizontalResizing": "fill"
                     },
                     "type": "composition"
                   }
@@ -13637,15 +13774,22 @@
                 "description": {
                   "value": {
                     "typography": "{sem.typography.textStyle.paragraph.sm.default}",
-                    "fill": "{sem.color.text.default}"
+                    "fill": "{sem.color.text.default}",
+                    "horizontalResizing": "fill"
                   },
                   "type": "composition"
                 }
               },
               "rightWrapper": {
+                "wrapper": {
+                  "value": {
+                    "spacing": "{}",
+                    "layoutAlignItems": "right center"
+                  }
+                },
                 "text": {
                   "value": {
-                    "typography": "sem.typography.textStyle.label.body.sm",
+                    "typography": "{sem.typography.textStyle.label.body.sm}",
                     "fill": "{sem.color.text.diminished}"
                   },
                   "type": "composition"
@@ -13680,6 +13824,7 @@
                   "borderRadius": "{sem.dropdown.item.md.container.borderRadius}",
                   "itemSpacing": "{sem.dropdown.item.md.container.spacing}",
                   "layoutMode": "horizontal",
+                  "horizontalResizing": "fill",
                   "opacity": "1"
                 },
                 "type": "composition"
@@ -13688,7 +13833,8 @@
                 "wrapper": {
                   "value": {
                     "itemSpacing": "{sem.dropdown.item.md.leftWrapper.wrapper.spacing}",
-                    "layoutMode": "vertical"
+                    "layoutMode": "vertical",
+                    "horizontalResizing": "fill"
                   },
                   "type": "composition"
                 },
@@ -13696,7 +13842,9 @@
                   "wrapper": {
                     "value": {
                       "itemSpacing": "{sem.dropdown.item.md.leftWrapper.labelWrapper.wrapper.spacing}",
-                      "layoutMode": "horizontal"
+                      "layoutMode": "horizontal",
+                      "horizontalResizing": "fill",
+                      "layoutAlignItems": "bottom center"
                     },
                     "type": "composition"
                   },
@@ -13718,7 +13866,8 @@
                   "label": {
                     "value": {
                       "typography": "{sem.typography.textStyle.label.body.md}",
-                      "fill": "{sem.color.text.dark}"
+                      "fill": "{sem.color.text.dark}",
+                      "horizontalResizing": "fill"
                     },
                     "type": "composition"
                   }
@@ -13726,15 +13875,22 @@
                 "description": {
                   "value": {
                     "typography": "{sem.typography.textStyle.paragraph.md.default}",
-                    "fill": "{sem.color.text.default}"
+                    "fill": "{sem.color.text.default}",
+                    "horizontalResizing": "fill"
                   },
                   "type": "composition"
                 }
               },
               "rightWrapper": {
+                "wrapper": {
+                  "value": {
+                    "spacing": "{}",
+                    "layoutAlignItems": "right center"
+                  }
+                },
                 "text": {
                   "value": {
-                    "typography": "sem.typography.textStyle.label.body.sm",
+                    "typography": "{sem.typography.textStyle.label.body.sm}",
                     "fill": "{sem.color.text.diminished}"
                   },
                   "type": "composition"
@@ -13765,6 +13921,7 @@
                   "borderRadius": "{sem.dropdown.item.md.container.borderRadius}",
                   "itemSpacing": "{sem.dropdown.item.md.container.spacing}",
                   "layoutMode": "horizontal",
+                  "horizontalResizing": "fill",
                   "opacity": "1"
                 },
                 "type": "composition"
@@ -13773,7 +13930,8 @@
                 "wrapper": {
                   "value": {
                     "itemSpacing": "{sem.dropdown.item.md.leftWrapper.wrapper.spacing}",
-                    "layoutMode": "vertical"
+                    "layoutMode": "vertical",
+                    "horizontalResizing": "fill"
                   },
                   "type": "composition"
                 },
@@ -13781,7 +13939,9 @@
                   "wrapper": {
                     "value": {
                       "itemSpacing": "{sem.dropdown.item.md.leftWrapper.labelWrapper.wrapper.spacing}",
-                      "layoutMode": "horizontal"
+                      "layoutMode": "horizontal",
+                      "horizontalResizing": "fill",
+                      "layoutAlignItems": "bottom center"
                     },
                     "type": "composition"
                   },
@@ -13803,7 +13963,8 @@
                   "label": {
                     "value": {
                       "typography": "{sem.typography.textStyle.label.body.md}",
-                      "fill": "{sem.color.text.dark}"
+                      "fill": "{sem.color.text.dark}",
+                      "horizontalResizing": "fill"
                     },
                     "type": "composition"
                   }
@@ -13811,15 +13972,22 @@
                 "description": {
                   "value": {
                     "typography": "{sem.typography.textStyle.paragraph.md.default}",
-                    "fill": "{sem.color.text.default}"
+                    "fill": "{sem.color.text.default}",
+                    "horizontalResizing": "fill"
                   },
                   "type": "composition"
                 }
               },
               "rightWrapper": {
+                "wrapper": {
+                  "value": {
+                    "spacing": "{}",
+                    "layoutAlignItems": "right center"
+                  }
+                },
                 "text": {
                   "value": {
-                    "typography": "sem.typography.textStyle.label.body.sm",
+                    "typography": "{sem.typography.textStyle.label.body.sm}",
                     "fill": "{sem.color.text.diminished}"
                   },
                   "type": "composition"
@@ -13850,6 +14018,7 @@
                   "borderRadius": "{sem.dropdown.item.md.container.borderRadius}",
                   "itemSpacing": "{sem.dropdown.item.md.container.spacing}",
                   "layoutMode": "horizontal",
+                  "horizontalResizing": "fill",
                   "opacity": "1"
                 },
                 "type": "composition"
@@ -13858,7 +14027,8 @@
                 "wrapper": {
                   "value": {
                     "itemSpacing": "{sem.dropdown.item.md.leftWrapper.wrapper.spacing}",
-                    "layoutMode": "vertical"
+                    "layoutMode": "vertical",
+                    "horizontalResizing": "fill"
                   },
                   "type": "composition"
                 },
@@ -13866,7 +14036,9 @@
                   "wrapper": {
                     "value": {
                       "itemSpacing": "{sem.dropdown.item.md.leftWrapper.labelWrapper.wrapper.spacing}",
-                      "layoutMode": "horizontal"
+                      "layoutMode": "horizontal",
+                      "horizontalResizing": "fill",
+                      "layoutAlignItems": "bottom center"
                     },
                     "type": "composition"
                   },
@@ -13888,7 +14060,8 @@
                   "label": {
                     "value": {
                       "typography": "{sem.typography.textStyle.label.body.md}",
-                      "fill": "{sem.color.text.dark}"
+                      "fill": "{sem.color.text.dark}",
+                      "horizontalResizing": "fill"
                     },
                     "type": "composition"
                   }
@@ -13896,15 +14069,22 @@
                 "description": {
                   "value": {
                     "typography": "{sem.typography.textStyle.paragraph.md.default}",
-                    "fill": "{sem.color.text.default}"
+                    "fill": "{sem.color.text.default}",
+                    "horizontalResizing": "fill"
                   },
                   "type": "composition"
                 }
               },
               "rightWrapper": {
+                "wrapper": {
+                  "value": {
+                    "spacing": "{}",
+                    "layoutAlignItems": "right center"
+                  }
+                },
                 "text": {
                   "value": {
-                    "typography": "sem.typography.textStyle.label.body.sm",
+                    "typography": "{sem.typography.textStyle.label.body.sm}",
                     "fill": "{sem.color.text.diminished}"
                   },
                   "type": "composition"
@@ -13935,6 +14115,7 @@
                   "borderRadius": "{sem.dropdown.item.md.container.borderRadius}",
                   "itemSpacing": "{sem.dropdown.item.md.container.spacing}",
                   "layoutMode": "horizontal",
+                  "horizontalResizing": "fill",
                   "opacity": "{sem.dropdown.item.md.container.opacity}"
                 },
                 "type": "composition"
@@ -13943,7 +14124,8 @@
                 "wrapper": {
                   "value": {
                     "itemSpacing": "{sem.dropdown.item.md.leftWrapper.wrapper.spacing}",
-                    "layoutMode": "vertical"
+                    "layoutMode": "vertical",
+                    "horizontalResizing": "fill"
                   },
                   "type": "composition"
                 },
@@ -13951,7 +14133,9 @@
                   "wrapper": {
                     "value": {
                       "itemSpacing": "{sem.dropdown.item.md.leftWrapper.labelWrapper.wrapper.spacing}",
-                      "layoutMode": "horizontal"
+                      "layoutMode": "horizontal",
+                      "horizontalResizing": "fill",
+                      "layoutAlignItems": "bottom center"
                     },
                     "type": "composition"
                   },
@@ -13973,7 +14157,8 @@
                   "label": {
                     "value": {
                       "typography": "{sem.typography.textStyle.label.body.md}",
-                      "fill": "{sem.color.text.dark}"
+                      "fill": "{sem.color.text.dark}",
+                      "horizontalResizing": "fill"
                     },
                     "type": "composition"
                   }
@@ -13981,15 +14166,22 @@
                 "description": {
                   "value": {
                     "typography": "{sem.typography.textStyle.paragraph.md.default}",
-                    "fill": "{sem.color.text.default}"
+                    "fill": "{sem.color.text.default}",
+                    "horizontalResizing": "fill"
                   },
                   "type": "composition"
                 }
               },
               "rightWrapper": {
+                "wrapper": {
+                  "value": {
+                    "spacing": "{}",
+                    "layoutAlignItems": "right center"
+                  }
+                },
                 "text": {
                   "value": {
-                    "typography": "sem.typography.textStyle.label.body.sm",
+                    "typography": "{sem.typography.textStyle.label.body.sm}",
                     "fill": "{sem.color.text.diminished}"
                   },
                   "type": "composition"
@@ -14022,6 +14214,7 @@
                   "borderRadius": "{sem.dropdown.item.md.container.borderRadius}",
                   "itemSpacing": "{sem.dropdown.item.md.container.spacing}",
                   "layoutMode": "horizontal",
+                  "horizontalResizing": "fill",
                   "opacity": "1"
                 },
                 "type": "composition"
@@ -14030,7 +14223,8 @@
                 "wrapper": {
                   "value": {
                     "itemSpacing": "{sem.dropdown.item.md.leftWrapper.wrapper.spacing}",
-                    "layoutMode": "vertical"
+                    "layoutMode": "vertical",
+                    "horizontalResizing": "fill"
                   },
                   "type": "composition"
                 },
@@ -14038,7 +14232,9 @@
                   "wrapper": {
                     "value": {
                       "itemSpacing": "{sem.dropdown.item.md.leftWrapper.labelWrapper.wrapper.spacing}",
-                      "layoutMode": "horizontal"
+                      "layoutMode": "horizontal",
+                      "horizontalResizing": "fill",
+                      "layoutAlignItems": "bottom center"
                     },
                     "type": "composition"
                   },
@@ -14060,7 +14256,8 @@
                   "label": {
                     "value": {
                       "typography": "{sem.typography.textStyle.label.body.md}",
-                      "fill": "{sem.color.text.dark}"
+                      "fill": "{sem.color.text.dark}",
+                      "horizontalResizing": "fill"
                     },
                     "type": "composition"
                   }
@@ -14068,15 +14265,22 @@
                 "description": {
                   "value": {
                     "typography": "{sem.typography.textStyle.paragraph.md.default}",
-                    "fill": "{sem.color.text.default}"
+                    "fill": "{sem.color.text.default}",
+                    "horizontalResizing": "fill"
                   },
                   "type": "composition"
                 }
               },
               "rightWrapper": {
+                "wrapper": {
+                  "value": {
+                    "spacing": "{}",
+                    "layoutAlignItems": "right center"
+                  }
+                },
                 "text": {
                   "value": {
-                    "typography": "sem.typography.textStyle.label.body.sm",
+                    "typography": "{sem.typography.textStyle.label.body.sm}",
                     "fill": "{sem.color.text.diminished}"
                   },
                   "type": "composition"
@@ -14107,6 +14311,7 @@
                   "borderRadius": "{sem.dropdown.item.md.container.borderRadius}",
                   "itemSpacing": "{sem.dropdown.item.md.container.spacing}",
                   "layoutMode": "horizontal",
+                  "horizontalResizing": "fill",
                   "opacity": "1"
                 },
                 "type": "composition"
@@ -14115,7 +14320,8 @@
                 "wrapper": {
                   "value": {
                     "itemSpacing": "{sem.dropdown.item.md.leftWrapper.wrapper.spacing}",
-                    "layoutMode": "vertical"
+                    "layoutMode": "vertical",
+                    "horizontalResizing": "fill"
                   },
                   "type": "composition"
                 },
@@ -14123,7 +14329,9 @@
                   "wrapper": {
                     "value": {
                       "itemSpacing": "{sem.dropdown.item.md.leftWrapper.labelWrapper.wrapper.spacing}",
-                      "layoutMode": "horizontal"
+                      "layoutMode": "horizontal",
+                      "horizontalResizing": "fill",
+                      "layoutAlignItems": "bottom center"
                     },
                     "type": "composition"
                   },
@@ -14145,7 +14353,8 @@
                   "label": {
                     "value": {
                       "typography": "{sem.typography.textStyle.label.body.md}",
-                      "fill": "{sem.color.text.dark}"
+                      "fill": "{sem.color.text.dark}",
+                      "horizontalResizing": "fill"
                     },
                     "type": "composition"
                   }
@@ -14153,15 +14362,22 @@
                 "description": {
                   "value": {
                     "typography": "{sem.typography.textStyle.paragraph.md.default}",
-                    "fill": "{sem.color.text.default}"
+                    "fill": "{sem.color.text.default}",
+                    "horizontalResizing": "fill"
                   },
                   "type": "composition"
                 }
               },
               "rightWrapper": {
+                "wrapper": {
+                  "value": {
+                    "spacing": "{}",
+                    "layoutAlignItems": "right center"
+                  }
+                },
                 "text": {
                   "value": {
-                    "typography": "sem.typography.textStyle.label.body.sm",
+                    "typography": "{sem.typography.textStyle.label.body.sm}",
                     "fill": "{sem.color.text.diminished}"
                   },
                   "type": "composition"
@@ -14192,6 +14408,7 @@
                   "borderRadius": "{sem.dropdown.item.md.container.borderRadius}",
                   "itemSpacing": "{sem.dropdown.item.md.container.spacing}",
                   "layoutMode": "horizontal",
+                  "horizontalResizing": "fill",
                   "opacity": "1"
                 },
                 "type": "composition"
@@ -14200,7 +14417,8 @@
                 "wrapper": {
                   "value": {
                     "itemSpacing": "{sem.dropdown.item.md.leftWrapper.wrapper.spacing}",
-                    "layoutMode": "vertical"
+                    "layoutMode": "vertical",
+                    "horizontalResizing": "fill"
                   },
                   "type": "composition"
                 },
@@ -14208,7 +14426,9 @@
                   "wrapper": {
                     "value": {
                       "itemSpacing": "{sem.dropdown.item.md.leftWrapper.labelWrapper.wrapper.spacing}",
-                      "layoutMode": "horizontal"
+                      "layoutMode": "horizontal",
+                      "horizontalResizing": "fill",
+                      "layoutAlignItems": "bottom center"
                     },
                     "type": "composition"
                   },
@@ -14230,7 +14450,8 @@
                   "label": {
                     "value": {
                       "typography": "{sem.typography.textStyle.label.body.md}",
-                      "fill": "{sem.color.text.dark}"
+                      "fill": "{sem.color.text.dark}",
+                      "horizontalResizing": "fill"
                     },
                     "type": "composition"
                   }
@@ -14238,15 +14459,22 @@
                 "description": {
                   "value": {
                     "typography": "{sem.typography.textStyle.paragraph.md.default}",
-                    "fill": "{sem.color.text.default}"
+                    "fill": "{sem.color.text.default}",
+                    "horizontalResizing": "fill"
                   },
                   "type": "composition"
                 }
               },
               "rightWrapper": {
+                "wrapper": {
+                  "value": {
+                    "spacing": "{}",
+                    "layoutAlignItems": "right center"
+                  }
+                },
                 "text": {
                   "value": {
-                    "typography": "sem.typography.textStyle.label.body.sm",
+                    "typography": "{sem.typography.textStyle.label.body.sm}",
                     "fill": "{sem.color.text.diminished}"
                   },
                   "type": "composition"
@@ -14277,6 +14505,7 @@
                   "borderRadius": "{sem.dropdown.item.md.container.borderRadius}",
                   "itemSpacing": "{sem.dropdown.item.md.container.spacing}",
                   "layoutMode": "horizontal",
+                  "horizontalResizing": "fill",
                   "opacity": "{sem.dropdown.item.md.container.opacity}"
                 },
                 "type": "composition"
@@ -14285,7 +14514,8 @@
                 "wrapper": {
                   "value": {
                     "itemSpacing": "{sem.dropdown.item.md.leftWrapper.wrapper.spacing}",
-                    "layoutMode": "vertical"
+                    "layoutMode": "vertical",
+                    "horizontalResizing": "fill"
                   },
                   "type": "composition"
                 },
@@ -14293,7 +14523,9 @@
                   "wrapper": {
                     "value": {
                       "itemSpacing": "{sem.dropdown.item.md.leftWrapper.labelWrapper.wrapper.spacing}",
-                      "layoutMode": "horizontal"
+                      "layoutMode": "horizontal",
+                      "horizontalResizing": "fill",
+                      "layoutAlignItems": "bottom center"
                     },
                     "type": "composition"
                   },
@@ -14315,7 +14547,8 @@
                   "label": {
                     "value": {
                       "typography": "{sem.typography.textStyle.label.body.md}",
-                      "fill": "{sem.color.text.dark}"
+                      "fill": "{sem.color.text.dark}",
+                      "horizontalResizing": "fill"
                     },
                     "type": "composition"
                   }
@@ -14323,15 +14556,22 @@
                 "description": {
                   "value": {
                     "typography": "{sem.typography.textStyle.paragraph.md.default}",
-                    "fill": "{sem.color.text.default}"
+                    "fill": "{sem.color.text.default}",
+                    "horizontalResizing": "fill"
                   },
                   "type": "composition"
                 }
               },
               "rightWrapper": {
+                "wrapper": {
+                  "value": {
+                    "spacing": "{}",
+                    "layoutAlignItems": "right center"
+                  }
+                },
                 "text": {
                   "value": {
-                    "typography": "sem.typography.textStyle.label.body.sm",
+                    "typography": "{sem.typography.textStyle.label.body.sm}",
                     "fill": "{sem.color.text.diminished}"
                   },
                   "type": "composition"
@@ -14364,6 +14604,7 @@
                   "borderRadius": "{sem.dropdown.item.md.container.borderRadius}",
                   "itemSpacing": "{sem.dropdown.item.md.container.spacing}",
                   "layoutMode": "horizontal",
+                  "horizontalResizing": "fill",
                   "opacity": "1"
                 },
                 "type": "composition"
@@ -14372,7 +14613,8 @@
                 "wrapper": {
                   "value": {
                     "itemSpacing": "{sem.dropdown.item.md.leftWrapper.wrapper.spacing}",
-                    "layoutMode": "vertical"
+                    "layoutMode": "vertical",
+                    "horizontalResizing": "fill"
                   },
                   "type": "composition"
                 },
@@ -14380,7 +14622,9 @@
                   "wrapper": {
                     "value": {
                       "itemSpacing": "{sem.dropdown.item.md.leftWrapper.labelWrapper.wrapper.spacing}",
-                      "layoutMode": "horizontal"
+                      "layoutMode": "horizontal",
+                      "horizontalResizing": "fill",
+                      "layoutAlignItems": "bottom center"
                     },
                     "type": "composition"
                   },
@@ -14402,7 +14646,8 @@
                   "label": {
                     "value": {
                       "typography": "{sem.typography.textStyle.label.body.md}",
-                      "fill": "{sem.color.text.danger}"
+                      "fill": "{sem.color.text.danger}",
+                      "horizontalResizing": "fill"
                     },
                     "type": "composition"
                   }
@@ -14410,15 +14655,22 @@
                 "description": {
                   "value": {
                     "typography": "{sem.typography.textStyle.paragraph.md.default}",
-                    "fill": "{sem.color.text.default}"
+                    "fill": "{sem.color.text.default}",
+                    "horizontalResizing": "fill"
                   },
                   "type": "composition"
                 }
               },
               "rightWrapper": {
+                "wrapper": {
+                  "value": {
+                    "spacing": "{}",
+                    "layoutAlignItems": "right center"
+                  }
+                },
                 "text": {
                   "value": {
-                    "typography": "sem.typography.textStyle.label.body.sm",
+                    "typography": "{sem.typography.textStyle.label.body.sm}",
                     "fill": "{sem.color.text.diminished}"
                   },
                   "type": "composition"
@@ -14449,6 +14701,7 @@
                   "borderRadius": "{sem.dropdown.item.md.container.borderRadius}",
                   "itemSpacing": "{sem.dropdown.item.md.container.spacing}",
                   "layoutMode": "horizontal",
+                  "horizontalResizing": "fill",
                   "opacity": "1"
                 },
                 "type": "composition"
@@ -14457,7 +14710,8 @@
                 "wrapper": {
                   "value": {
                     "itemSpacing": "{sem.dropdown.item.md.leftWrapper.wrapper.spacing}",
-                    "layoutMode": "vertical"
+                    "layoutMode": "vertical",
+                    "horizontalResizing": "fill"
                   },
                   "type": "composition"
                 },
@@ -14465,7 +14719,9 @@
                   "wrapper": {
                     "value": {
                       "itemSpacing": "{sem.dropdown.item.md.leftWrapper.labelWrapper.wrapper.spacing}",
-                      "layoutMode": "horizontal"
+                      "layoutMode": "horizontal",
+                      "horizontalResizing": "fill",
+                      "layoutAlignItems": "bottom center"
                     },
                     "type": "composition"
                   },
@@ -14487,7 +14743,8 @@
                   "label": {
                     "value": {
                       "typography": "{sem.typography.textStyle.label.body.md}",
-                      "fill": "{sem.color.text.danger}"
+                      "fill": "{sem.color.text.danger}",
+                      "horizontalResizing": "fill"
                     },
                     "type": "composition"
                   }
@@ -14495,15 +14752,22 @@
                 "description": {
                   "value": {
                     "typography": "{sem.typography.textStyle.paragraph.md.default}",
-                    "fill": "{sem.color.text.default}"
+                    "fill": "{sem.color.text.default}",
+                    "horizontalResizing": "fill"
                   },
                   "type": "composition"
                 }
               },
               "rightWrapper": {
+                "wrapper": {
+                  "value": {
+                    "spacing": "{}",
+                    "layoutAlignItems": "right center"
+                  }
+                },
                 "text": {
                   "value": {
-                    "typography": "sem.typography.textStyle.label.body.sm",
+                    "typography": "{sem.typography.textStyle.label.body.sm}",
                     "fill": "{sem.color.text.diminished}"
                   },
                   "type": "composition"
@@ -14534,6 +14798,7 @@
                   "borderRadius": "{sem.dropdown.item.md.container.borderRadius}",
                   "itemSpacing": "{sem.dropdown.item.md.container.spacing}",
                   "layoutMode": "horizontal",
+                  "horizontalResizing": "fill",
                   "opacity": "1"
                 },
                 "type": "composition"
@@ -14542,7 +14807,8 @@
                 "wrapper": {
                   "value": {
                     "itemSpacing": "{sem.dropdown.item.md.leftWrapper.wrapper.spacing}",
-                    "layoutMode": "vertical"
+                    "layoutMode": "vertical",
+                    "horizontalResizing": "fill"
                   },
                   "type": "composition"
                 },
@@ -14550,7 +14816,9 @@
                   "wrapper": {
                     "value": {
                       "itemSpacing": "{sem.dropdown.item.md.leftWrapper.labelWrapper.wrapper.spacing}",
-                      "layoutMode": "horizontal"
+                      "layoutMode": "horizontal",
+                      "horizontalResizing": "fill",
+                      "layoutAlignItems": "bottom center"
                     },
                     "type": "composition"
                   },
@@ -14572,7 +14840,8 @@
                   "label": {
                     "value": {
                       "typography": "{sem.typography.textStyle.label.body.md}",
-                      "fill": "{sem.color.text.danger}"
+                      "fill": "{sem.color.text.danger}",
+                      "horizontalResizing": "fill"
                     },
                     "type": "composition"
                   }
@@ -14580,15 +14849,22 @@
                 "description": {
                   "value": {
                     "typography": "{sem.typography.textStyle.paragraph.md.default}",
-                    "fill": "{sem.color.text.default}"
+                    "fill": "{sem.color.text.default}",
+                    "horizontalResizing": "fill"
                   },
                   "type": "composition"
                 }
               },
               "rightWrapper": {
+                "wrapper": {
+                  "value": {
+                    "spacing": "{}",
+                    "layoutAlignItems": "right center"
+                  }
+                },
                 "text": {
                   "value": {
-                    "typography": "sem.typography.textStyle.label.body.sm",
+                    "typography": "{sem.typography.textStyle.label.body.sm}",
                     "fill": "{sem.color.text.diminished}"
                   },
                   "type": "composition"
@@ -14619,6 +14895,7 @@
                   "borderRadius": "{sem.dropdown.item.md.container.borderRadius}",
                   "itemSpacing": "{sem.dropdown.item.md.container.spacing}",
                   "layoutMode": "horizontal",
+                  "horizontalResizing": "fill",
                   "opacity": "{sem.dropdown.item.md.container.opacity}"
                 },
                 "type": "composition"
@@ -14627,7 +14904,8 @@
                 "wrapper": {
                   "value": {
                     "itemSpacing": "{sem.dropdown.item.md.leftWrapper.wrapper.spacing}",
-                    "layoutMode": "vertical"
+                    "layoutMode": "vertical",
+                    "horizontalResizing": "fill"
                   },
                   "type": "composition"
                 },
@@ -14635,7 +14913,9 @@
                   "wrapper": {
                     "value": {
                       "itemSpacing": "{sem.dropdown.item.md.leftWrapper.labelWrapper.wrapper.spacing}",
-                      "layoutMode": "horizontal"
+                      "layoutMode": "horizontal",
+                      "horizontalResizing": "fill",
+                      "layoutAlignItems": "bottom center"
                     },
                     "type": "composition"
                   },
@@ -14657,7 +14937,8 @@
                   "label": {
                     "value": {
                       "typography": "{sem.typography.textStyle.label.body.md}",
-                      "fill": "{sem.color.text.danger}"
+                      "fill": "{sem.color.text.danger}",
+                      "horizontalResizing": "fill"
                     },
                     "type": "composition"
                   }
@@ -14665,15 +14946,22 @@
                 "description": {
                   "value": {
                     "typography": "{sem.typography.textStyle.paragraph.md.default}",
-                    "fill": "{sem.color.text.default}"
+                    "fill": "{sem.color.text.default}",
+                    "horizontalResizing": "fill"
                   },
                   "type": "composition"
                 }
               },
               "rightWrapper": {
+                "wrapper": {
+                  "value": {
+                    "spacing": "{}",
+                    "layoutAlignItems": "right center"
+                  }
+                },
                 "text": {
                   "value": {
-                    "typography": "sem.typography.textStyle.label.body.sm",
+                    "typography": "{sem.typography.textStyle.label.body.sm}",
                     "fill": "{sem.color.text.diminished}"
                   },
                   "type": "composition"
@@ -23502,6 +23790,12 @@
             }
           },
           "rightWrapper": {
+            "wrapper": {
+              "spacing": {
+                "value": "{ref.spacing.50}",
+                "type": "spacing"
+              }
+            },
             "icon": {
               "size": {
                 "value": "{ref.sizing.100}",
@@ -23556,6 +23850,12 @@
             }
           },
           "rightWrapper": {
+            "wrapper": {
+              "spacing": {
+                "value": "{ref.spacing.50}",
+                "type": "spacing"
+              }
+            },
             "icon": {
               "size": {
                 "value": "{ref.sizing.200}",

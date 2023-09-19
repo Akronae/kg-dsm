@@ -50,6 +50,12 @@ sem
       }
     },
     "rightWrapper": {
+      "wrapper": {
+        "spacing" : {
+          "value": "{ref.spacing.50}",
+          "type": "spacing"
+        }
+      },
       "icon": {
         "size": {
           "value": "{ref.sizing.<< ({ sm: '100', md: '200' })[size] >>}",

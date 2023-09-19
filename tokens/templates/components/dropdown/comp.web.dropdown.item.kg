@@ -16,6 +16,7 @@ comp
         "borderRadius": "{sem.dropdown.item.<<size>>.container.borderRadius}",
         "itemSpacing": "{sem.dropdown.item.<<size>>.container.spacing}",
         "layoutMode": "horizontal",
+        "horizontalResizing": "fill",
         "opacity": "<< state == 'disabled' ? ('{sem.dropdown.item.' + size + '.container.opacity}') : 1 >>"
       },
       "type": "composition"
@@ -24,7 +25,8 @@ comp
       "wrapper": {
         "value": {
           "itemSpacing": "{sem.dropdown.item.<<size>>.leftWrapper.wrapper.spacing}",
-          "layoutMode": "vertical"
+          "layoutMode": "vertical",
+          "horizontalResizing": "fill"
         },
         "type": "composition"
       },
@@ -32,7 +34,9 @@ comp
         "wrapper": {
           "value": {
             "itemSpacing": "{sem.dropdown.item.<<size>>.leftWrapper.labelWrapper.wrapper.spacing}",
-            "layoutMode": "horizontal"
+            "layoutMode": "horizontal",
+            "horizontalResizing": "fill",
+            "layoutAlignItems": "bottom center"
           },
           "type": "composition"
         },
@@ -54,7 +58,8 @@ comp
         "label": {
           "value": {
             "typography": "{sem.typography.textStyle.label.body.<<size>>}",
-            "fill": "{sem.color.text.<< type == 'danger' ? 'danger' : 'dark'>>}"
+            "fill": "{sem.color.text.<< type == 'danger' ? 'danger' : 'dark'>>}",
+            "horizontalResizing": "fill"
           },
           "type": "composition"
         }
@@ -62,15 +67,22 @@ comp
       "description": {
         "value": {
           "typography": "{sem.typography.textStyle.paragraph.<<size>>.default}",
-          "fill": "{sem.color.text.default}"
+          "fill": "{sem.color.text.default}",
+          "horizontalResizing": "fill"
         },
         "type": "composition"
       } 
     },
     "rightWrapper": {
+      "wrapper": {
+        "value": {
+          "spacing": "{}",
+          "layoutAlignItems": "right center"
+        }
+      },
       "text": {
         "value": {
-        "typography": "sem.typography.textStyle.label.body.sm",
+        "typography": "{sem.typography.textStyle.label.body.sm}",
         "fill": "{sem.color.text.diminished}"
         },
         "type": "composition"
