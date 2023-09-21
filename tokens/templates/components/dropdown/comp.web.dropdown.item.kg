@@ -36,7 +36,7 @@ comp
             "itemSpacing": "{sem.dropdown.item.<<size>>.leftWrapper.labelWrapper.wrapper.spacing}",
             "layoutMode": "horizontal",
             "horizontalResizing": "fill",
-            "layoutAlignItems": "bottom center"
+            "layoutAlignItems": "left center"
           },
           "type": "composition"
         },

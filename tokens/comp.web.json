@@ -12672,7 +12672,7 @@
                       "itemSpacing": "{sem.dropdown.item.sm.leftWrapper.labelWrapper.wrapper.spacing}",
                       "layoutMode": "horizontal",
                       "horizontalResizing": "fill",
-                      "layoutAlignItems": "bottom center"
+                      "layoutAlignItems": "left center"
                     },
                     "type": "composition"
                   },
@@ -12770,7 +12770,7 @@
                       "itemSpacing": "{sem.dropdown.item.sm.leftWrapper.labelWrapper.wrapper.spacing}",
                       "layoutMode": "horizontal",
                       "horizontalResizing": "fill",
-                      "layoutAlignItems": "bottom center"
+                      "layoutAlignItems": "left center"
                     },
                     "type": "composition"
                   },
@@ -12868,7 +12868,7 @@
                       "itemSpacing": "{sem.dropdown.item.sm.leftWrapper.labelWrapper.wrapper.spacing}",
                       "layoutMode": "horizontal",
                       "horizontalResizing": "fill",
-                      "layoutAlignItems": "bottom center"
+                      "layoutAlignItems": "left center"
                     },
                     "type": "composition"
                   },
@@ -12966,7 +12966,7 @@
                       "itemSpacing": "{sem.dropdown.item.sm.leftWrapper.labelWrapper.wrapper.spacing}",
                       "layoutMode": "horizontal",
                       "horizontalResizing": "fill",
-                      "layoutAlignItems": "bottom center"
+                      "layoutAlignItems": "left center"
                     },
                     "type": "composition"
                   },
@@ -13066,7 +13066,7 @@
                       "itemSpacing": "{sem.dropdown.item.sm.leftWrapper.labelWrapper.wrapper.spacing}",
                       "layoutMode": "horizontal",
                       "horizontalResizing": "fill",
-                      "layoutAlignItems": "bottom center"
+                      "layoutAlignItems": "left center"
                     },
                     "type": "composition"
                   },
@@ -13164,7 +13164,7 @@
                       "itemSpacing": "{sem.dropdown.item.sm.leftWrapper.labelWrapper.wrapper.spacing}",
                       "layoutMode": "horizontal",
                       "horizontalResizing": "fill",
-                      "layoutAlignItems": "bottom center"
+                      "layoutAlignItems": "left center"
                     },
                     "type": "composition"
                   },
@@ -13262,7 +13262,7 @@
                       "itemSpacing": "{sem.dropdown.item.sm.leftWrapper.labelWrapper.wrapper.spacing}",
                       "layoutMode": "horizontal",
                       "horizontalResizing": "fill",
-                      "layoutAlignItems": "bottom center"
+                      "layoutAlignItems": "left center"
                     },
                     "type": "composition"
                   },
@@ -13360,7 +13360,7 @@
                       "itemSpacing": "{sem.dropdown.item.sm.leftWrapper.labelWrapper.wrapper.spacing}",
                       "layoutMode": "horizontal",
                       "horizontalResizing": "fill",
-                      "layoutAlignItems": "bottom center"
+                      "layoutAlignItems": "left center"
                     },
                     "type": "composition"
                   },
@@ -13460,7 +13460,7 @@
                       "itemSpacing": "{sem.dropdown.item.sm.leftWrapper.labelWrapper.wrapper.spacing}",
                       "layoutMode": "horizontal",
                       "horizontalResizing": "fill",
-                      "layoutAlignItems": "bottom center"
+                      "layoutAlignItems": "left center"
                     },
                     "type": "composition"
                   },
@@ -13558,7 +13558,7 @@
                       "itemSpacing": "{sem.dropdown.item.sm.leftWrapper.labelWrapper.wrapper.spacing}",
                       "layoutMode": "horizontal",
                       "horizontalResizing": "fill",
-                      "layoutAlignItems": "bottom center"
+                      "layoutAlignItems": "left center"
                     },
                     "type": "composition"
                   },
@@ -13656,7 +13656,7 @@
                       "itemSpacing": "{sem.dropdown.item.sm.leftWrapper.labelWrapper.wrapper.spacing}",
                       "layoutMode": "horizontal",
                       "horizontalResizing": "fill",
-                      "layoutAlignItems": "bottom center"
+                      "layoutAlignItems": "left center"
                     },
                     "type": "composition"
                   },
@@ -13754,7 +13754,7 @@
                       "itemSpacing": "{sem.dropdown.item.sm.leftWrapper.labelWrapper.wrapper.spacing}",
                       "layoutMode": "horizontal",
                       "horizontalResizing": "fill",
-                      "layoutAlignItems": "bottom center"
+                      "layoutAlignItems": "left center"
                     },
                     "type": "composition"
                   },
@@ -13856,7 +13856,7 @@
                       "itemSpacing": "{sem.dropdown.item.md.leftWrapper.labelWrapper.wrapper.spacing}",
                       "layoutMode": "horizontal",
                       "horizontalResizing": "fill",
-                      "layoutAlignItems": "bottom center"
+                      "layoutAlignItems": "left center"
                     },
                     "type": "composition"
                   },
@@ -13954,7 +13954,7 @@
                       "itemSpacing": "{sem.dropdown.item.md.leftWrapper.labelWrapper.wrapper.spacing}",
                       "layoutMode": "horizontal",
                       "horizontalResizing": "fill",
-                      "layoutAlignItems": "bottom center"
+                      "layoutAlignItems": "left center"
                     },
                     "type": "composition"
                   },
@@ -14052,7 +14052,7 @@
                       "itemSpacing": "{sem.dropdown.item.md.leftWrapper.labelWrapper.wrapper.spacing}",
                       "layoutMode": "horizontal",
                       "horizontalResizing": "fill",
-                      "layoutAlignItems": "bottom center"
+                      "layoutAlignItems": "left center"
                     },
                     "type": "composition"
                   },
@@ -14150,7 +14150,7 @@
                       "itemSpacing": "{sem.dropdown.item.md.leftWrapper.labelWrapper.wrapper.spacing}",
                       "layoutMode": "horizontal",
                       "horizontalResizing": "fill",
-                      "layoutAlignItems": "bottom center"
+                      "layoutAlignItems": "left center"
                     },
                     "type": "composition"
                   },
@@ -14250,7 +14250,7 @@
                       "itemSpacing": "{sem.dropdown.item.md.leftWrapper.labelWrapper.wrapper.spacing}",
                       "layoutMode": "horizontal",
                       "horizontalResizing": "fill",
-                      "layoutAlignItems": "bottom center"
+                      "layoutAlignItems": "left center"
                     },
                     "type": "composition"
                   },
@@ -14348,7 +14348,7 @@
                       "itemSpacing": "{sem.dropdown.item.md.leftWrapper.labelWrapper.wrapper.spacing}",
                       "layoutMode": "horizontal",
                       "horizontalResizing": "fill",
-                      "layoutAlignItems": "bottom center"
+                      "layoutAlignItems": "left center"
                     },
                     "type": "composition"
                   },
@@ -14446,7 +14446,7 @@
                       "itemSpacing": "{sem.dropdown.item.md.leftWrapper.labelWrapper.wrapper.spacing}",
                       "layoutMode": "horizontal",
                       "horizontalResizing": "fill",
-                      "layoutAlignItems": "bottom center"
+                      "layoutAlignItems": "left center"
                     },
                     "type": "composition"
                   },
@@ -14544,7 +14544,7 @@
                       "itemSpacing": "{sem.dropdown.item.md.leftWrapper.labelWrapper.wrapper.spacing}",
                       "layoutMode": "horizontal",
                       "horizontalResizing": "fill",
-                      "layoutAlignItems": "bottom center"
+                      "layoutAlignItems": "left center"
                     },
                     "type": "composition"
                   },
@@ -14644,7 +14644,7 @@
                       "itemSpacing": "{sem.dropdown.item.md.leftWrapper.labelWrapper.wrapper.spacing}",
                       "layoutMode": "horizontal",
                       "horizontalResizing": "fill",
-                      "layoutAlignItems": "bottom center"
+                      "layoutAlignItems": "left center"
                     },
                     "type": "composition"
                   },
@@ -14742,7 +14742,7 @@
                       "itemSpacing": "{sem.dropdown.item.md.leftWrapper.labelWrapper.wrapper.spacing}",
                       "layoutMode": "horizontal",
                       "horizontalResizing": "fill",
-                      "layoutAlignItems": "bottom center"
+                      "layoutAlignItems": "left center"
                     },
                     "type": "composition"
                   },
@@ -14840,7 +14840,7 @@
                       "itemSpacing": "{sem.dropdown.item.md.leftWrapper.labelWrapper.wrapper.spacing}",
                       "layoutMode": "horizontal",
                       "horizontalResizing": "fill",
-                      "layoutAlignItems": "bottom center"
+                      "layoutAlignItems": "left center"
                     },
                     "type": "composition"
                   },
@@ -14938,7 +14938,7 @@
                       "itemSpacing": "{sem.dropdown.item.md.leftWrapper.labelWrapper.wrapper.spacing}",
                       "layoutMode": "horizontal",
                       "horizontalResizing": "fill",
-                      "layoutAlignItems": "bottom center"
+                      "layoutAlignItems": "left center"
                     },
                     "type": "composition"
                   },
