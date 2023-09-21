@@ -76,7 +76,7 @@ comp
     "rightWrapper": {
       "wrapper": {
         "value": {
-          "spacing": "{sem.dropdown.item.<<size>>.rightWrapper.wrapper.spacing}",
+          "itemSpacing": "{sem.dropdown.item.<<size>>.rightWrapper.wrapper.spacing}",
           "layoutAlignItems": "center right"
         },
         "type": "composition"

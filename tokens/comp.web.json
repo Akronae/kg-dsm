@@ -12712,7 +12712,7 @@
               "rightWrapper": {
                 "wrapper": {
                   "value": {
-                    "spacing": "{sem.dropdown.item.sm.rightWrapper.wrapper.spacing}",
+                    "itemSpacing": "{sem.dropdown.item.sm.rightWrapper.wrapper.spacing}",
                     "layoutAlignItems": "center right"
                   },
                   "type": "composition"
@@ -12810,7 +12810,7 @@
               "rightWrapper": {
                 "wrapper": {
                   "value": {
-                    "spacing": "{sem.dropdown.item.sm.rightWrapper.wrapper.spacing}",
+                    "itemSpacing": "{sem.dropdown.item.sm.rightWrapper.wrapper.spacing}",
                     "layoutAlignItems": "center right"
                   },
                   "type": "composition"
@@ -12908,7 +12908,7 @@
               "rightWrapper": {
                 "wrapper": {
                   "value": {
-                    "spacing": "{sem.dropdown.item.sm.rightWrapper.wrapper.spacing}",
+                    "itemSpacing": "{sem.dropdown.item.sm.rightWrapper.wrapper.spacing}",
                     "layoutAlignItems": "center right"
                   },
                   "type": "composition"
@@ -13006,7 +13006,7 @@
               "rightWrapper": {
                 "wrapper": {
                   "value": {
-                    "spacing": "{sem.dropdown.item.sm.rightWrapper.wrapper.spacing}",
+                    "itemSpacing": "{sem.dropdown.item.sm.rightWrapper.wrapper.spacing}",
                     "layoutAlignItems": "center right"
                   },
                   "type": "composition"
@@ -13106,7 +13106,7 @@
               "rightWrapper": {
                 "wrapper": {
                   "value": {
-                    "spacing": "{sem.dropdown.item.sm.rightWrapper.wrapper.spacing}",
+                    "itemSpacing": "{sem.dropdown.item.sm.rightWrapper.wrapper.spacing}",
                     "layoutAlignItems": "center right"
                   },
                   "type": "composition"
@@ -13204,7 +13204,7 @@
               "rightWrapper": {
                 "wrapper": {
                   "value": {
-                    "spacing": "{sem.dropdown.item.sm.rightWrapper.wrapper.spacing}",
+                    "itemSpacing": "{sem.dropdown.item.sm.rightWrapper.wrapper.spacing}",
                     "layoutAlignItems": "center right"
                   },
                   "type": "composition"
@@ -13302,7 +13302,7 @@
               "rightWrapper": {
                 "wrapper": {
                   "value": {
-                    "spacing": "{sem.dropdown.item.sm.rightWrapper.wrapper.spacing}",
+                    "itemSpacing": "{sem.dropdown.item.sm.rightWrapper.wrapper.spacing}",
                     "layoutAlignItems": "center right"
                   },
                   "type": "composition"
@@ -13400,7 +13400,7 @@
               "rightWrapper": {
                 "wrapper": {
                   "value": {
-                    "spacing": "{sem.dropdown.item.sm.rightWrapper.wrapper.spacing}",
+                    "itemSpacing": "{sem.dropdown.item.sm.rightWrapper.wrapper.spacing}",
                     "layoutAlignItems": "center right"
                   },
                   "type": "composition"
@@ -13500,7 +13500,7 @@
               "rightWrapper": {
                 "wrapper": {
                   "value": {
-                    "spacing": "{sem.dropdown.item.sm.rightWrapper.wrapper.spacing}",
+                    "itemSpacing": "{sem.dropdown.item.sm.rightWrapper.wrapper.spacing}",
                     "layoutAlignItems": "center right"
                   },
                   "type": "composition"
@@ -13598,7 +13598,7 @@
               "rightWrapper": {
                 "wrapper": {
                   "value": {
-                    "spacing": "{sem.dropdown.item.sm.rightWrapper.wrapper.spacing}",
+                    "itemSpacing": "{sem.dropdown.item.sm.rightWrapper.wrapper.spacing}",
                     "layoutAlignItems": "center right"
                   },
                   "type": "composition"
@@ -13696,7 +13696,7 @@
               "rightWrapper": {
                 "wrapper": {
                   "value": {
-                    "spacing": "{sem.dropdown.item.sm.rightWrapper.wrapper.spacing}",
+                    "itemSpacing": "{sem.dropdown.item.sm.rightWrapper.wrapper.spacing}",
                     "layoutAlignItems": "center right"
                   },
                   "type": "composition"
@@ -13794,7 +13794,7 @@
               "rightWrapper": {
                 "wrapper": {
                   "value": {
-                    "spacing": "{sem.dropdown.item.sm.rightWrapper.wrapper.spacing}",
+                    "itemSpacing": "{sem.dropdown.item.sm.rightWrapper.wrapper.spacing}",
                     "layoutAlignItems": "center right"
                   },
                   "type": "composition"
@@ -13896,7 +13896,7 @@
               "rightWrapper": {
                 "wrapper": {
                   "value": {
-                    "spacing": "{sem.dropdown.item.md.rightWrapper.wrapper.spacing}",
+                    "itemSpacing": "{sem.dropdown.item.md.rightWrapper.wrapper.spacing}",
                     "layoutAlignItems": "center right"
                   },
                   "type": "composition"
@@ -13994,7 +13994,7 @@
               "rightWrapper": {
                 "wrapper": {
                   "value": {
-                    "spacing": "{sem.dropdown.item.md.rightWrapper.wrapper.spacing}",
+                    "itemSpacing": "{sem.dropdown.item.md.rightWrapper.wrapper.spacing}",
                     "layoutAlignItems": "center right"
                   },
                   "type": "composition"
@@ -14092,7 +14092,7 @@
               "rightWrapper": {
                 "wrapper": {
                   "value": {
-                    "spacing": "{sem.dropdown.item.md.rightWrapper.wrapper.spacing}",
+                    "itemSpacing": "{sem.dropdown.item.md.rightWrapper.wrapper.spacing}",
                     "layoutAlignItems": "center right"
                   },
                   "type": "composition"
@@ -14190,7 +14190,7 @@
               "rightWrapper": {
                 "wrapper": {
                   "value": {
-                    "spacing": "{sem.dropdown.item.md.rightWrapper.wrapper.spacing}",
+                    "itemSpacing": "{sem.dropdown.item.md.rightWrapper.wrapper.spacing}",
                     "layoutAlignItems": "center right"
                   },
                   "type": "composition"
@@ -14290,7 +14290,7 @@
               "rightWrapper": {
                 "wrapper": {
                   "value": {
-                    "spacing": "{sem.dropdown.item.md.rightWrapper.wrapper.spacing}",
+                    "itemSpacing": "{sem.dropdown.item.md.rightWrapper.wrapper.spacing}",
                     "layoutAlignItems": "center right"
                   },
                   "type": "composition"
@@ -14388,7 +14388,7 @@
               "rightWrapper": {
                 "wrapper": {
                   "value": {
-                    "spacing": "{sem.dropdown.item.md.rightWrapper.wrapper.spacing}",
+                    "itemSpacing": "{sem.dropdown.item.md.rightWrapper.wrapper.spacing}",
                     "layoutAlignItems": "center right"
                   },
                   "type": "composition"
@@ -14486,7 +14486,7 @@
               "rightWrapper": {
                 "wrapper": {
                   "value": {
-                    "spacing": "{sem.dropdown.item.md.rightWrapper.wrapper.spacing}",
+                    "itemSpacing": "{sem.dropdown.item.md.rightWrapper.wrapper.spacing}",
                     "layoutAlignItems": "center right"
                   },
                   "type": "composition"
@@ -14584,7 +14584,7 @@
               "rightWrapper": {
                 "wrapper": {
                   "value": {
-                    "spacing": "{sem.dropdown.item.md.rightWrapper.wrapper.spacing}",
+                    "itemSpacing": "{sem.dropdown.item.md.rightWrapper.wrapper.spacing}",
                     "layoutAlignItems": "center right"
                   },
                   "type": "composition"
@@ -14684,7 +14684,7 @@
               "rightWrapper": {
                 "wrapper": {
                   "value": {
-                    "spacing": "{sem.dropdown.item.md.rightWrapper.wrapper.spacing}",
+                    "itemSpacing": "{sem.dropdown.item.md.rightWrapper.wrapper.spacing}",
                     "layoutAlignItems": "center right"
                   },
                   "type": "composition"
@@ -14782,7 +14782,7 @@
               "rightWrapper": {
                 "wrapper": {
                   "value": {
-                    "spacing": "{sem.dropdown.item.md.rightWrapper.wrapper.spacing}",
+                    "itemSpacing": "{sem.dropdown.item.md.rightWrapper.wrapper.spacing}",
                     "layoutAlignItems": "center right"
                   },
                   "type": "composition"
@@ -14880,7 +14880,7 @@
               "rightWrapper": {
                 "wrapper": {
                   "value": {
-                    "spacing": "{sem.dropdown.item.md.rightWrapper.wrapper.spacing}",
+                    "itemSpacing": "{sem.dropdown.item.md.rightWrapper.wrapper.spacing}",
                     "layoutAlignItems": "center right"
                   },
                   "type": "composition"
@@ -14978,7 +14978,7 @@
               "rightWrapper": {
                 "wrapper": {
                   "value": {
-                    "spacing": "{sem.dropdown.item.md.rightWrapper.wrapper.spacing}",
+                    "itemSpacing": "{sem.dropdown.item.md.rightWrapper.wrapper.spacing}",
                     "layoutAlignItems": "center right"
                   },
                   "type": "composition"
