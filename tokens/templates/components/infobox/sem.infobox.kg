@@ -14,7 +14,7 @@ sem
         "type": "spacing"
       },
       "spacing": {
-        "value": "{ref.spacing.200}",
+        "value": "{ref.spacing.150}",
         "type": "spacing"
       }
     },
