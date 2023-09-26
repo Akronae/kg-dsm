@@ -12601,7 +12601,10 @@
         }
       },
       "wrapper": {
-        "width": "536px"
+        "width": {
+          "value": "536px",
+          "type": "other"
+        }
       },
       "container": {
         "value": {
@@ -22984,8 +22987,10 @@
             }
           },
           "buttonWrapper": {
-            "spacing": "{ref.spacing.200}",
-            "type": "spacing"
+            "spacing": {
+              "value": "{ref.spacing.200}",
+              "type": "other"
+            }
           }
         },
         "reasons": {
@@ -23211,8 +23216,7 @@
               }
             }
           }
-        },
-        "wrapper": {}
+        }
       }
     }
   }
