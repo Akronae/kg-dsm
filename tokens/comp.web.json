@@ -12654,46 +12654,94 @@
                   "horizontalPadding": "{sem.dropdown.item.sm.container.horizontalPadding}",
                   "borderRadius": "{sem.dropdown.item.sm.container.borderRadius}",
                   "itemSpacing": "{sem.dropdown.item.sm.container.spacing}",
+                  "layoutMode": "horizontal",
+                  "horizontalResizing": "fill",
                   "opacity": "1"
                 },
                 "type": "composition"
               },
-              "labelWrapper": {
-                "container": {
+              "leftWrapper": {
+                "wrapper": {
                   "value": {
-                    "itemSpacing": "{sem.dropdown.item.sm.labelWrapper.container.spacing}"
+                    "itemSpacing": "{sem.dropdown.item.sm.leftWrapper.wrapper.spacing}",
+                    "layoutMode": "vertical",
+                    "horizontalResizing": "fill"
+                  },
+                  "type": "composition"
+                },
+                "labelWrapper": {
+                  "wrapper": {
+                    "value": {
+                      "itemSpacing": "{sem.dropdown.item.sm.leftWrapper.labelWrapper.wrapper.spacing}",
+                      "layoutMode": "horizontal",
+                      "horizontalResizing": "fill",
+                      "layoutAlignItems": "center left"
+                    },
+                    "type": "composition"
+                  },
+                  "icon": {
+                    "size": {
+                      "value": {
+                        "width": "{sem.dropdown.item.sm.leftWrapper.labelWrapper.icon.size}",
+                        "height": "{sem.dropdown.item.sm.leftWrapper.labelWrapper.icon.size}"
+                      },
+                      "type": "composition"
+                    },
+                    "color": {
+                      "value": {
+                        "border": "{sem.borderIcon.sm.default}"
+                      },
+                      "type": "composition"
+                    }
+                  },
+                  "label": {
+                    "value": {
+                      "typography": "{sem.typography.textStyle.label.body.sm}",
+                      "fill": "{sem.color.text.dark}",
+                      "horizontalResizing": "fill"
+                    },
+                    "type": "composition"
+                  }
+                },
+                "description": {
+                  "value": {
+                    "typography": "{sem.typography.textStyle.paragraph.sm.default}",
+                    "fill": "{sem.color.text.default}",
+                    "horizontalResizing": "fill"
+                  },
+                  "type": "composition"
+                }
+              },
+              "rightWrapper": {
+                "wrapper": {
+                  "value": {
+                    "itemSpacing": "{sem.dropdown.item.sm.rightWrapper.wrapper.spacing}",
+                    "layoutAlignItems": "center right"
+                  },
+                  "type": "composition"
+                },
+                "text": {
+                  "value": {
+                    "typography": "{sem.typography.textStyle.label.body.sm}",
+                    "fill": "{sem.color.text.diminish}"
                   },
                   "type": "composition"
                 },
                 "icon": {
                   "size": {
                     "value": {
-                      "width": "{sem.dropdown.item.sm.labelWrapper.icon.size}",
-                      "height": "{sem.dropdown.item.sm.labelWrapper.icon.size}"
+                      "width": "{sem.dropdown.item.sm.rightWrapper.icon.size}",
+                      "height": "{sem.dropdown.item.sm.rightWrapper.icon.size}"
                     },
                     "type": "composition"
                   },
                   "color": {
                     "value": {
-                      "border": "{sem.borderIcon.sm.default}"
+                      "border": "{sem.borderIcon.sm.dark}"
                     },
                     "type": "composition"
                   }
-                },
-                "label": {
-                  "value": {
-                    "typography": "{sem.typography.textStyle.label.body.sm}",
-                    "fill": "{sem.color.text.dark}"
-                  },
-                  "type": "composition"
                 }
-              },
-              "description": {
-                "value": {
-                  "typography": "{sem.typography.textStyle.paragraph.sm.default}",
-                  "fill": "{sem.color.text.default}"
-                },
-                "type": "composition"
               }
             },
             "hover": {
@@ -12704,46 +12752,94 @@
                   "horizontalPadding": "{sem.dropdown.item.sm.container.horizontalPadding}",
                   "borderRadius": "{sem.dropdown.item.sm.container.borderRadius}",
                   "itemSpacing": "{sem.dropdown.item.sm.container.spacing}",
+                  "layoutMode": "horizontal",
+                  "horizontalResizing": "fill",
                   "opacity": "1"
                 },
                 "type": "composition"
               },
-              "labelWrapper": {
-                "container": {
+              "leftWrapper": {
+                "wrapper": {
                   "value": {
-                    "itemSpacing": "{sem.dropdown.item.sm.labelWrapper.container.spacing}"
+                    "itemSpacing": "{sem.dropdown.item.sm.leftWrapper.wrapper.spacing}",
+                    "layoutMode": "vertical",
+                    "horizontalResizing": "fill"
+                  },
+                  "type": "composition"
+                },
+                "labelWrapper": {
+                  "wrapper": {
+                    "value": {
+                      "itemSpacing": "{sem.dropdown.item.sm.leftWrapper.labelWrapper.wrapper.spacing}",
+                      "layoutMode": "horizontal",
+                      "horizontalResizing": "fill",
+                      "layoutAlignItems": "center left"
+                    },
+                    "type": "composition"
+                  },
+                  "icon": {
+                    "size": {
+                      "value": {
+                        "width": "{sem.dropdown.item.sm.leftWrapper.labelWrapper.icon.size}",
+                        "height": "{sem.dropdown.item.sm.leftWrapper.labelWrapper.icon.size}"
+                      },
+                      "type": "composition"
+                    },
+                    "color": {
+                      "value": {
+                        "border": "{sem.borderIcon.sm.default}"
+                      },
+                      "type": "composition"
+                    }
+                  },
+                  "label": {
+                    "value": {
+                      "typography": "{sem.typography.textStyle.label.body.sm}",
+                      "fill": "{sem.color.text.dark}",
+                      "horizontalResizing": "fill"
+                    },
+                    "type": "composition"
+                  }
+                },
+                "description": {
+                  "value": {
+                    "typography": "{sem.typography.textStyle.paragraph.sm.default}",
+                    "fill": "{sem.color.text.default}",
+                    "horizontalResizing": "fill"
+                  },
+                  "type": "composition"
+                }
+              },
+              "rightWrapper": {
+                "wrapper": {
+                  "value": {
+                    "itemSpacing": "{sem.dropdown.item.sm.rightWrapper.wrapper.spacing}",
+                    "layoutAlignItems": "center right"
+                  },
+                  "type": "composition"
+                },
+                "text": {
+                  "value": {
+                    "typography": "{sem.typography.textStyle.label.body.sm}",
+                    "fill": "{sem.color.text.diminish}"
                   },
                   "type": "composition"
                 },
                 "icon": {
                   "size": {
                     "value": {
-                      "width": "{sem.dropdown.item.sm.labelWrapper.icon.size}",
-                      "height": "{sem.dropdown.item.sm.labelWrapper.icon.size}"
+                      "width": "{sem.dropdown.item.sm.rightWrapper.icon.size}",
+                      "height": "{sem.dropdown.item.sm.rightWrapper.icon.size}"
                     },
                     "type": "composition"
                   },
                   "color": {
                     "value": {
-                      "border": "{sem.borderIcon.sm.default}"
+                      "border": "{sem.borderIcon.sm.dark}"
                     },
                     "type": "composition"
                   }
-                },
-                "label": {
-                  "value": {
-                    "typography": "{sem.typography.textStyle.label.body.sm}",
-                    "fill": "{sem.color.text.dark}"
-                  },
-                  "type": "composition"
                 }
-              },
-              "description": {
-                "value": {
-                  "typography": "{sem.typography.textStyle.paragraph.sm.default}",
-                  "fill": "{sem.color.text.default}"
-                },
-                "type": "composition"
               }
             },
             "pressed": {
@@ -12754,46 +12850,94 @@
                   "horizontalPadding": "{sem.dropdown.item.sm.container.horizontalPadding}",
                   "borderRadius": "{sem.dropdown.item.sm.container.borderRadius}",
                   "itemSpacing": "{sem.dropdown.item.sm.container.spacing}",
+                  "layoutMode": "horizontal",
+                  "horizontalResizing": "fill",
                   "opacity": "1"
                 },
                 "type": "composition"
               },
-              "labelWrapper": {
-                "container": {
+              "leftWrapper": {
+                "wrapper": {
                   "value": {
-                    "itemSpacing": "{sem.dropdown.item.sm.labelWrapper.container.spacing}"
+                    "itemSpacing": "{sem.dropdown.item.sm.leftWrapper.wrapper.spacing}",
+                    "layoutMode": "vertical",
+                    "horizontalResizing": "fill"
+                  },
+                  "type": "composition"
+                },
+                "labelWrapper": {
+                  "wrapper": {
+                    "value": {
+                      "itemSpacing": "{sem.dropdown.item.sm.leftWrapper.labelWrapper.wrapper.spacing}",
+                      "layoutMode": "horizontal",
+                      "horizontalResizing": "fill",
+                      "layoutAlignItems": "center left"
+                    },
+                    "type": "composition"
+                  },
+                  "icon": {
+                    "size": {
+                      "value": {
+                        "width": "{sem.dropdown.item.sm.leftWrapper.labelWrapper.icon.size}",
+                        "height": "{sem.dropdown.item.sm.leftWrapper.labelWrapper.icon.size}"
+                      },
+                      "type": "composition"
+                    },
+                    "color": {
+                      "value": {
+                        "border": "{sem.borderIcon.sm.default}"
+                      },
+                      "type": "composition"
+                    }
+                  },
+                  "label": {
+                    "value": {
+                      "typography": "{sem.typography.textStyle.label.body.sm}",
+                      "fill": "{sem.color.text.dark}",
+                      "horizontalResizing": "fill"
+                    },
+                    "type": "composition"
+                  }
+                },
+                "description": {
+                  "value": {
+                    "typography": "{sem.typography.textStyle.paragraph.sm.default}",
+                    "fill": "{sem.color.text.default}",
+                    "horizontalResizing": "fill"
+                  },
+                  "type": "composition"
+                }
+              },
+              "rightWrapper": {
+                "wrapper": {
+                  "value": {
+                    "itemSpacing": "{sem.dropdown.item.sm.rightWrapper.wrapper.spacing}",
+                    "layoutAlignItems": "center right"
+                  },
+                  "type": "composition"
+                },
+                "text": {
+                  "value": {
+                    "typography": "{sem.typography.textStyle.label.body.sm}",
+                    "fill": "{sem.color.text.diminish}"
                   },
                   "type": "composition"
                 },
                 "icon": {
                   "size": {
                     "value": {
-                      "width": "{sem.dropdown.item.sm.labelWrapper.icon.size}",
-                      "height": "{sem.dropdown.item.sm.labelWrapper.icon.size}"
+                      "width": "{sem.dropdown.item.sm.rightWrapper.icon.size}",
+                      "height": "{sem.dropdown.item.sm.rightWrapper.icon.size}"
                     },
                     "type": "composition"
                   },
                   "color": {
                     "value": {
-                      "border": "{sem.borderIcon.sm.default}"
+                      "border": "{sem.borderIcon.sm.dark}"
                     },
                     "type": "composition"
                   }
-                },
-                "label": {
-                  "value": {
-                    "typography": "{sem.typography.textStyle.label.body.sm}",
-                    "fill": "{sem.color.text.dark}"
-                  },
-                  "type": "composition"
                 }
-              },
-              "description": {
-                "value": {
-                  "typography": "{sem.typography.textStyle.paragraph.sm.default}",
-                  "fill": "{sem.color.text.default}"
-                },
-                "type": "composition"
               }
             },
             "disabled": {
@@ -12804,46 +12948,94 @@
                   "horizontalPadding": "{sem.dropdown.item.sm.container.horizontalPadding}",
                   "borderRadius": "{sem.dropdown.item.sm.container.borderRadius}",
                   "itemSpacing": "{sem.dropdown.item.sm.container.spacing}",
+                  "layoutMode": "horizontal",
+                  "horizontalResizing": "fill",
                   "opacity": "{sem.dropdown.item.sm.container.opacity}"
                 },
                 "type": "composition"
               },
-              "labelWrapper": {
-                "container": {
+              "leftWrapper": {
+                "wrapper": {
                   "value": {
-                    "itemSpacing": "{sem.dropdown.item.sm.labelWrapper.container.spacing}"
+                    "itemSpacing": "{sem.dropdown.item.sm.leftWrapper.wrapper.spacing}",
+                    "layoutMode": "vertical",
+                    "horizontalResizing": "fill"
+                  },
+                  "type": "composition"
+                },
+                "labelWrapper": {
+                  "wrapper": {
+                    "value": {
+                      "itemSpacing": "{sem.dropdown.item.sm.leftWrapper.labelWrapper.wrapper.spacing}",
+                      "layoutMode": "horizontal",
+                      "horizontalResizing": "fill",
+                      "layoutAlignItems": "center left"
+                    },
+                    "type": "composition"
+                  },
+                  "icon": {
+                    "size": {
+                      "value": {
+                        "width": "{sem.dropdown.item.sm.leftWrapper.labelWrapper.icon.size}",
+                        "height": "{sem.dropdown.item.sm.leftWrapper.labelWrapper.icon.size}"
+                      },
+                      "type": "composition"
+                    },
+                    "color": {
+                      "value": {
+                        "border": "{sem.borderIcon.sm.default}"
+                      },
+                      "type": "composition"
+                    }
+                  },
+                  "label": {
+                    "value": {
+                      "typography": "{sem.typography.textStyle.label.body.sm}",
+                      "fill": "{sem.color.text.dark}",
+                      "horizontalResizing": "fill"
+                    },
+                    "type": "composition"
+                  }
+                },
+                "description": {
+                  "value": {
+                    "typography": "{sem.typography.textStyle.paragraph.sm.default}",
+                    "fill": "{sem.color.text.default}",
+                    "horizontalResizing": "fill"
+                  },
+                  "type": "composition"
+                }
+              },
+              "rightWrapper": {
+                "wrapper": {
+                  "value": {
+                    "itemSpacing": "{sem.dropdown.item.sm.rightWrapper.wrapper.spacing}",
+                    "layoutAlignItems": "center right"
+                  },
+                  "type": "composition"
+                },
+                "text": {
+                  "value": {
+                    "typography": "{sem.typography.textStyle.label.body.sm}",
+                    "fill": "{sem.color.text.diminish}"
                   },
                   "type": "composition"
                 },
                 "icon": {
                   "size": {
                     "value": {
-                      "width": "{sem.dropdown.item.sm.labelWrapper.icon.size}",
-                      "height": "{sem.dropdown.item.sm.labelWrapper.icon.size}"
+                      "width": "{sem.dropdown.item.sm.rightWrapper.icon.size}",
+                      "height": "{sem.dropdown.item.sm.rightWrapper.icon.size}"
                     },
                     "type": "composition"
                   },
                   "color": {
                     "value": {
-                      "border": "{sem.borderIcon.sm.default}"
+                      "border": "{sem.borderIcon.sm.dark}"
                     },
                     "type": "composition"
                   }
-                },
-                "label": {
-                  "value": {
-                    "typography": "{sem.typography.textStyle.label.body.sm}",
-                    "fill": "{sem.color.text.dark}"
-                  },
-                  "type": "composition"
                 }
-              },
-              "description": {
-                "value": {
-                  "typography": "{sem.typography.textStyle.paragraph.sm.default}",
-                  "fill": "{sem.color.text.default}"
-                },
-                "type": "composition"
               }
             }
           },
@@ -12856,46 +13048,94 @@
                   "horizontalPadding": "{sem.dropdown.item.sm.container.horizontalPadding}",
                   "borderRadius": "{sem.dropdown.item.sm.container.borderRadius}",
                   "itemSpacing": "{sem.dropdown.item.sm.container.spacing}",
+                  "layoutMode": "horizontal",
+                  "horizontalResizing": "fill",
                   "opacity": "1"
                 },
                 "type": "composition"
               },
-              "labelWrapper": {
-                "container": {
+              "leftWrapper": {
+                "wrapper": {
                   "value": {
-                    "itemSpacing": "{sem.dropdown.item.sm.labelWrapper.container.spacing}"
+                    "itemSpacing": "{sem.dropdown.item.sm.leftWrapper.wrapper.spacing}",
+                    "layoutMode": "vertical",
+                    "horizontalResizing": "fill"
+                  },
+                  "type": "composition"
+                },
+                "labelWrapper": {
+                  "wrapper": {
+                    "value": {
+                      "itemSpacing": "{sem.dropdown.item.sm.leftWrapper.labelWrapper.wrapper.spacing}",
+                      "layoutMode": "horizontal",
+                      "horizontalResizing": "fill",
+                      "layoutAlignItems": "center left"
+                    },
+                    "type": "composition"
+                  },
+                  "icon": {
+                    "size": {
+                      "value": {
+                        "width": "{sem.dropdown.item.sm.leftWrapper.labelWrapper.icon.size}",
+                        "height": "{sem.dropdown.item.sm.leftWrapper.labelWrapper.icon.size}"
+                      },
+                      "type": "composition"
+                    },
+                    "color": {
+                      "value": {
+                        "border": "{sem.borderIcon.sm.default}"
+                      },
+                      "type": "composition"
+                    }
+                  },
+                  "label": {
+                    "value": {
+                      "typography": "{sem.typography.textStyle.label.body.sm}",
+                      "fill": "{sem.color.text.dark}",
+                      "horizontalResizing": "fill"
+                    },
+                    "type": "composition"
+                  }
+                },
+                "description": {
+                  "value": {
+                    "typography": "{sem.typography.textStyle.paragraph.sm.default}",
+                    "fill": "{sem.color.text.default}",
+                    "horizontalResizing": "fill"
+                  },
+                  "type": "composition"
+                }
+              },
+              "rightWrapper": {
+                "wrapper": {
+                  "value": {
+                    "itemSpacing": "{sem.dropdown.item.sm.rightWrapper.wrapper.spacing}",
+                    "layoutAlignItems": "center right"
+                  },
+                  "type": "composition"
+                },
+                "text": {
+                  "value": {
+                    "typography": "{sem.typography.textStyle.label.body.sm}",
+                    "fill": "{sem.color.text.diminish}"
                   },
                   "type": "composition"
                 },
                 "icon": {
                   "size": {
                     "value": {
-                      "width": "{sem.dropdown.item.sm.labelWrapper.icon.size}",
-                      "height": "{sem.dropdown.item.sm.labelWrapper.icon.size}"
+                      "width": "{sem.dropdown.item.sm.rightWrapper.icon.size}",
+                      "height": "{sem.dropdown.item.sm.rightWrapper.icon.size}"
                     },
                     "type": "composition"
                   },
                   "color": {
                     "value": {
-                      "border": "{sem.borderIcon.sm.default}"
+                      "border": "{sem.borderIcon.sm.dark}"
                     },
                     "type": "composition"
                   }
-                },
-                "label": {
-                  "value": {
-                    "typography": "{sem.typography.textStyle.label.body.sm}",
-                    "fill": "{sem.color.text.dark}"
-                  },
-                  "type": "composition"
                 }
-              },
-              "description": {
-                "value": {
-                  "typography": "{sem.typography.textStyle.paragraph.sm.default}",
-                  "fill": "{sem.color.text.default}"
-                },
-                "type": "composition"
               }
             },
             "hover": {
@@ -12906,46 +13146,94 @@
                   "horizontalPadding": "{sem.dropdown.item.sm.container.horizontalPadding}",
                   "borderRadius": "{sem.dropdown.item.sm.container.borderRadius}",
                   "itemSpacing": "{sem.dropdown.item.sm.container.spacing}",
+                  "layoutMode": "horizontal",
+                  "horizontalResizing": "fill",
                   "opacity": "1"
                 },
                 "type": "composition"
               },
-              "labelWrapper": {
-                "container": {
+              "leftWrapper": {
+                "wrapper": {
                   "value": {
-                    "itemSpacing": "{sem.dropdown.item.sm.labelWrapper.container.spacing}"
+                    "itemSpacing": "{sem.dropdown.item.sm.leftWrapper.wrapper.spacing}",
+                    "layoutMode": "vertical",
+                    "horizontalResizing": "fill"
+                  },
+                  "type": "composition"
+                },
+                "labelWrapper": {
+                  "wrapper": {
+                    "value": {
+                      "itemSpacing": "{sem.dropdown.item.sm.leftWrapper.labelWrapper.wrapper.spacing}",
+                      "layoutMode": "horizontal",
+                      "horizontalResizing": "fill",
+                      "layoutAlignItems": "center left"
+                    },
+                    "type": "composition"
+                  },
+                  "icon": {
+                    "size": {
+                      "value": {
+                        "width": "{sem.dropdown.item.sm.leftWrapper.labelWrapper.icon.size}",
+                        "height": "{sem.dropdown.item.sm.leftWrapper.labelWrapper.icon.size}"
+                      },
+                      "type": "composition"
+                    },
+                    "color": {
+                      "value": {
+                        "border": "{sem.borderIcon.sm.default}"
+                      },
+                      "type": "composition"
+                    }
+                  },
+                  "label": {
+                    "value": {
+                      "typography": "{sem.typography.textStyle.label.body.sm}",
+                      "fill": "{sem.color.text.dark}",
+                      "horizontalResizing": "fill"
+                    },
+                    "type": "composition"
+                  }
+                },
+                "description": {
+                  "value": {
+                    "typography": "{sem.typography.textStyle.paragraph.sm.default}",
+                    "fill": "{sem.color.text.default}",
+                    "horizontalResizing": "fill"
+                  },
+                  "type": "composition"
+                }
+              },
+              "rightWrapper": {
+                "wrapper": {
+                  "value": {
+                    "itemSpacing": "{sem.dropdown.item.sm.rightWrapper.wrapper.spacing}",
+                    "layoutAlignItems": "center right"
+                  },
+                  "type": "composition"
+                },
+                "text": {
+                  "value": {
+                    "typography": "{sem.typography.textStyle.label.body.sm}",
+                    "fill": "{sem.color.text.diminish}"
                   },
                   "type": "composition"
                 },
                 "icon": {
                   "size": {
                     "value": {
-                      "width": "{sem.dropdown.item.sm.labelWrapper.icon.size}",
-                      "height": "{sem.dropdown.item.sm.labelWrapper.icon.size}"
+                      "width": "{sem.dropdown.item.sm.rightWrapper.icon.size}",
+                      "height": "{sem.dropdown.item.sm.rightWrapper.icon.size}"
                     },
                     "type": "composition"
                   },
                   "color": {
                     "value": {
-                      "border": "{sem.borderIcon.sm.default}"
+                      "border": "{sem.borderIcon.sm.dark}"
                     },
                     "type": "composition"
                   }
-                },
-                "label": {
-                  "value": {
-                    "typography": "{sem.typography.textStyle.label.body.sm}",
-                    "fill": "{sem.color.text.dark}"
-                  },
-                  "type": "composition"
                 }
-              },
-              "description": {
-                "value": {
-                  "typography": "{sem.typography.textStyle.paragraph.sm.default}",
-                  "fill": "{sem.color.text.default}"
-                },
-                "type": "composition"
               }
             },
             "pressed": {
@@ -12956,46 +13244,94 @@
                   "horizontalPadding": "{sem.dropdown.item.sm.container.horizontalPadding}",
                   "borderRadius": "{sem.dropdown.item.sm.container.borderRadius}",
                   "itemSpacing": "{sem.dropdown.item.sm.container.spacing}",
+                  "layoutMode": "horizontal",
+                  "horizontalResizing": "fill",
                   "opacity": "1"
                 },
                 "type": "composition"
               },
-              "labelWrapper": {
-                "container": {
+              "leftWrapper": {
+                "wrapper": {
                   "value": {
-                    "itemSpacing": "{sem.dropdown.item.sm.labelWrapper.container.spacing}"
+                    "itemSpacing": "{sem.dropdown.item.sm.leftWrapper.wrapper.spacing}",
+                    "layoutMode": "vertical",
+                    "horizontalResizing": "fill"
+                  },
+                  "type": "composition"
+                },
+                "labelWrapper": {
+                  "wrapper": {
+                    "value": {
+                      "itemSpacing": "{sem.dropdown.item.sm.leftWrapper.labelWrapper.wrapper.spacing}",
+                      "layoutMode": "horizontal",
+                      "horizontalResizing": "fill",
+                      "layoutAlignItems": "center left"
+                    },
+                    "type": "composition"
+                  },
+                  "icon": {
+                    "size": {
+                      "value": {
+                        "width": "{sem.dropdown.item.sm.leftWrapper.labelWrapper.icon.size}",
+                        "height": "{sem.dropdown.item.sm.leftWrapper.labelWrapper.icon.size}"
+                      },
+                      "type": "composition"
+                    },
+                    "color": {
+                      "value": {
+                        "border": "{sem.borderIcon.sm.default}"
+                      },
+                      "type": "composition"
+                    }
+                  },
+                  "label": {
+                    "value": {
+                      "typography": "{sem.typography.textStyle.label.body.sm}",
+                      "fill": "{sem.color.text.dark}",
+                      "horizontalResizing": "fill"
+                    },
+                    "type": "composition"
+                  }
+                },
+                "description": {
+                  "value": {
+                    "typography": "{sem.typography.textStyle.paragraph.sm.default}",
+                    "fill": "{sem.color.text.default}",
+                    "horizontalResizing": "fill"
+                  },
+                  "type": "composition"
+                }
+              },
+              "rightWrapper": {
+                "wrapper": {
+                  "value": {
+                    "itemSpacing": "{sem.dropdown.item.sm.rightWrapper.wrapper.spacing}",
+                    "layoutAlignItems": "center right"
+                  },
+                  "type": "composition"
+                },
+                "text": {
+                  "value": {
+                    "typography": "{sem.typography.textStyle.label.body.sm}",
+                    "fill": "{sem.color.text.diminish}"
                   },
                   "type": "composition"
                 },
                 "icon": {
                   "size": {
                     "value": {
-                      "width": "{sem.dropdown.item.sm.labelWrapper.icon.size}",
-                      "height": "{sem.dropdown.item.sm.labelWrapper.icon.size}"
+                      "width": "{sem.dropdown.item.sm.rightWrapper.icon.size}",
+                      "height": "{sem.dropdown.item.sm.rightWrapper.icon.size}"
                     },
                     "type": "composition"
                   },
                   "color": {
                     "value": {
-                      "border": "{sem.borderIcon.sm.default}"
+                      "border": "{sem.borderIcon.sm.dark}"
                     },
                     "type": "composition"
                   }
-                },
-                "label": {
-                  "value": {
-                    "typography": "{sem.typography.textStyle.label.body.sm}",
-                    "fill": "{sem.color.text.dark}"
-                  },
-                  "type": "composition"
                 }
-              },
-              "description": {
-                "value": {
-                  "typography": "{sem.typography.textStyle.paragraph.sm.default}",
-                  "fill": "{sem.color.text.default}"
-                },
-                "type": "composition"
               }
             },
             "disabled": {
@@ -13006,46 +13342,94 @@
                   "horizontalPadding": "{sem.dropdown.item.sm.container.horizontalPadding}",
                   "borderRadius": "{sem.dropdown.item.sm.container.borderRadius}",
                   "itemSpacing": "{sem.dropdown.item.sm.container.spacing}",
+                  "layoutMode": "horizontal",
+                  "horizontalResizing": "fill",
                   "opacity": "{sem.dropdown.item.sm.container.opacity}"
                 },
                 "type": "composition"
               },
-              "labelWrapper": {
-                "container": {
+              "leftWrapper": {
+                "wrapper": {
                   "value": {
-                    "itemSpacing": "{sem.dropdown.item.sm.labelWrapper.container.spacing}"
+                    "itemSpacing": "{sem.dropdown.item.sm.leftWrapper.wrapper.spacing}",
+                    "layoutMode": "vertical",
+                    "horizontalResizing": "fill"
+                  },
+                  "type": "composition"
+                },
+                "labelWrapper": {
+                  "wrapper": {
+                    "value": {
+                      "itemSpacing": "{sem.dropdown.item.sm.leftWrapper.labelWrapper.wrapper.spacing}",
+                      "layoutMode": "horizontal",
+                      "horizontalResizing": "fill",
+                      "layoutAlignItems": "center left"
+                    },
+                    "type": "composition"
+                  },
+                  "icon": {
+                    "size": {
+                      "value": {
+                        "width": "{sem.dropdown.item.sm.leftWrapper.labelWrapper.icon.size}",
+                        "height": "{sem.dropdown.item.sm.leftWrapper.labelWrapper.icon.size}"
+                      },
+                      "type": "composition"
+                    },
+                    "color": {
+                      "value": {
+                        "border": "{sem.borderIcon.sm.default}"
+                      },
+                      "type": "composition"
+                    }
+                  },
+                  "label": {
+                    "value": {
+                      "typography": "{sem.typography.textStyle.label.body.sm}",
+                      "fill": "{sem.color.text.dark}",
+                      "horizontalResizing": "fill"
+                    },
+                    "type": "composition"
+                  }
+                },
+                "description": {
+                  "value": {
+                    "typography": "{sem.typography.textStyle.paragraph.sm.default}",
+                    "fill": "{sem.color.text.default}",
+                    "horizontalResizing": "fill"
+                  },
+                  "type": "composition"
+                }
+              },
+              "rightWrapper": {
+                "wrapper": {
+                  "value": {
+                    "itemSpacing": "{sem.dropdown.item.sm.rightWrapper.wrapper.spacing}",
+                    "layoutAlignItems": "center right"
+                  },
+                  "type": "composition"
+                },
+                "text": {
+                  "value": {
+                    "typography": "{sem.typography.textStyle.label.body.sm}",
+                    "fill": "{sem.color.text.diminish}"
                   },
                   "type": "composition"
                 },
                 "icon": {
                   "size": {
                     "value": {
-                      "width": "{sem.dropdown.item.sm.labelWrapper.icon.size}",
-                      "height": "{sem.dropdown.item.sm.labelWrapper.icon.size}"
+                      "width": "{sem.dropdown.item.sm.rightWrapper.icon.size}",
+                      "height": "{sem.dropdown.item.sm.rightWrapper.icon.size}"
                     },
                     "type": "composition"
                   },
                   "color": {
                     "value": {
-                      "border": "{sem.borderIcon.sm.default}"
+                      "border": "{sem.borderIcon.sm.dark}"
                     },
                     "type": "composition"
                   }
-                },
-                "label": {
-                  "value": {
-                    "typography": "{sem.typography.textStyle.label.body.sm}",
-                    "fill": "{sem.color.text.dark}"
-                  },
-                  "type": "composition"
                 }
-              },
-              "description": {
-                "value": {
-                  "typography": "{sem.typography.textStyle.paragraph.sm.default}",
-                  "fill": "{sem.color.text.default}"
-                },
-                "type": "composition"
               }
             }
           },
@@ -13058,46 +13442,94 @@
                   "horizontalPadding": "{sem.dropdown.item.sm.container.horizontalPadding}",
                   "borderRadius": "{sem.dropdown.item.sm.container.borderRadius}",
                   "itemSpacing": "{sem.dropdown.item.sm.container.spacing}",
+                  "layoutMode": "horizontal",
+                  "horizontalResizing": "fill",
                   "opacity": "1"
                 },
                 "type": "composition"
               },
-              "labelWrapper": {
-                "container": {
+              "leftWrapper": {
+                "wrapper": {
                   "value": {
-                    "itemSpacing": "{sem.dropdown.item.sm.labelWrapper.container.spacing}"
+                    "itemSpacing": "{sem.dropdown.item.sm.leftWrapper.wrapper.spacing}",
+                    "layoutMode": "vertical",
+                    "horizontalResizing": "fill"
+                  },
+                  "type": "composition"
+                },
+                "labelWrapper": {
+                  "wrapper": {
+                    "value": {
+                      "itemSpacing": "{sem.dropdown.item.sm.leftWrapper.labelWrapper.wrapper.spacing}",
+                      "layoutMode": "horizontal",
+                      "horizontalResizing": "fill",
+                      "layoutAlignItems": "center left"
+                    },
+                    "type": "composition"
+                  },
+                  "icon": {
+                    "size": {
+                      "value": {
+                        "width": "{sem.dropdown.item.sm.leftWrapper.labelWrapper.icon.size}",
+                        "height": "{sem.dropdown.item.sm.leftWrapper.labelWrapper.icon.size}"
+                      },
+                      "type": "composition"
+                    },
+                    "color": {
+                      "value": {
+                        "border": "{sem.borderIcon.sm.danger}"
+                      },
+                      "type": "composition"
+                    }
+                  },
+                  "label": {
+                    "value": {
+                      "typography": "{sem.typography.textStyle.label.body.sm}",
+                      "fill": "{sem.color.text.danger}",
+                      "horizontalResizing": "fill"
+                    },
+                    "type": "composition"
+                  }
+                },
+                "description": {
+                  "value": {
+                    "typography": "{sem.typography.textStyle.paragraph.sm.default}",
+                    "fill": "{sem.color.text.default}",
+                    "horizontalResizing": "fill"
+                  },
+                  "type": "composition"
+                }
+              },
+              "rightWrapper": {
+                "wrapper": {
+                  "value": {
+                    "itemSpacing": "{sem.dropdown.item.sm.rightWrapper.wrapper.spacing}",
+                    "layoutAlignItems": "center right"
+                  },
+                  "type": "composition"
+                },
+                "text": {
+                  "value": {
+                    "typography": "{sem.typography.textStyle.label.body.sm}",
+                    "fill": "{sem.color.text.diminish}"
                   },
                   "type": "composition"
                 },
                 "icon": {
                   "size": {
                     "value": {
-                      "width": "{sem.dropdown.item.sm.labelWrapper.icon.size}",
-                      "height": "{sem.dropdown.item.sm.labelWrapper.icon.size}"
+                      "width": "{sem.dropdown.item.sm.rightWrapper.icon.size}",
+                      "height": "{sem.dropdown.item.sm.rightWrapper.icon.size}"
                     },
                     "type": "composition"
                   },
                   "color": {
                     "value": {
-                      "border": "{sem.borderIcon.sm.danger}"
+                      "border": "{sem.borderIcon.sm.dark}"
                     },
                     "type": "composition"
                   }
-                },
-                "label": {
-                  "value": {
-                    "typography": "{sem.typography.textStyle.label.body.sm}",
-                    "fill": "{sem.color.text.danger}"
-                  },
-                  "type": "composition"
                 }
-              },
-              "description": {
-                "value": {
-                  "typography": "{sem.typography.textStyle.paragraph.sm.default}",
-                  "fill": "{sem.color.text.default}"
-                },
-                "type": "composition"
               }
             },
             "hover": {
@@ -13108,46 +13540,94 @@
                   "horizontalPadding": "{sem.dropdown.item.sm.container.horizontalPadding}",
                   "borderRadius": "{sem.dropdown.item.sm.container.borderRadius}",
                   "itemSpacing": "{sem.dropdown.item.sm.container.spacing}",
+                  "layoutMode": "horizontal",
+                  "horizontalResizing": "fill",
                   "opacity": "1"
                 },
                 "type": "composition"
               },
-              "labelWrapper": {
-                "container": {
+              "leftWrapper": {
+                "wrapper": {
                   "value": {
-                    "itemSpacing": "{sem.dropdown.item.sm.labelWrapper.container.spacing}"
+                    "itemSpacing": "{sem.dropdown.item.sm.leftWrapper.wrapper.spacing}",
+                    "layoutMode": "vertical",
+                    "horizontalResizing": "fill"
+                  },
+                  "type": "composition"
+                },
+                "labelWrapper": {
+                  "wrapper": {
+                    "value": {
+                      "itemSpacing": "{sem.dropdown.item.sm.leftWrapper.labelWrapper.wrapper.spacing}",
+                      "layoutMode": "horizontal",
+                      "horizontalResizing": "fill",
+                      "layoutAlignItems": "center left"
+                    },
+                    "type": "composition"
+                  },
+                  "icon": {
+                    "size": {
+                      "value": {
+                        "width": "{sem.dropdown.item.sm.leftWrapper.labelWrapper.icon.size}",
+                        "height": "{sem.dropdown.item.sm.leftWrapper.labelWrapper.icon.size}"
+                      },
+                      "type": "composition"
+                    },
+                    "color": {
+                      "value": {
+                        "border": "{sem.borderIcon.sm.danger}"
+                      },
+                      "type": "composition"
+                    }
+                  },
+                  "label": {
+                    "value": {
+                      "typography": "{sem.typography.textStyle.label.body.sm}",
+                      "fill": "{sem.color.text.danger}",
+                      "horizontalResizing": "fill"
+                    },
+                    "type": "composition"
+                  }
+                },
+                "description": {
+                  "value": {
+                    "typography": "{sem.typography.textStyle.paragraph.sm.default}",
+                    "fill": "{sem.color.text.default}",
+                    "horizontalResizing": "fill"
+                  },
+                  "type": "composition"
+                }
+              },
+              "rightWrapper": {
+                "wrapper": {
+                  "value": {
+                    "itemSpacing": "{sem.dropdown.item.sm.rightWrapper.wrapper.spacing}",
+                    "layoutAlignItems": "center right"
+                  },
+                  "type": "composition"
+                },
+                "text": {
+                  "value": {
+                    "typography": "{sem.typography.textStyle.label.body.sm}",
+                    "fill": "{sem.color.text.diminish}"
                   },
                   "type": "composition"
                 },
                 "icon": {
                   "size": {
                     "value": {
-                      "width": "{sem.dropdown.item.sm.labelWrapper.icon.size}",
-                      "height": "{sem.dropdown.item.sm.labelWrapper.icon.size}"
+                      "width": "{sem.dropdown.item.sm.rightWrapper.icon.size}",
+                      "height": "{sem.dropdown.item.sm.rightWrapper.icon.size}"
                     },
                     "type": "composition"
                   },
                   "color": {
                     "value": {
-                      "border": "{sem.borderIcon.sm.danger}"
+                      "border": "{sem.borderIcon.sm.dark}"
                     },
                     "type": "composition"
                   }
-                },
-                "label": {
-                  "value": {
-                    "typography": "{sem.typography.textStyle.label.body.sm}",
-                    "fill": "{sem.color.text.danger}"
-                  },
-                  "type": "composition"
                 }
-              },
-              "description": {
-                "value": {
-                  "typography": "{sem.typography.textStyle.paragraph.sm.default}",
-                  "fill": "{sem.color.text.default}"
-                },
-                "type": "composition"
               }
             },
             "pressed": {
@@ -13158,46 +13638,94 @@
                   "horizontalPadding": "{sem.dropdown.item.sm.container.horizontalPadding}",
                   "borderRadius": "{sem.dropdown.item.sm.container.borderRadius}",
                   "itemSpacing": "{sem.dropdown.item.sm.container.spacing}",
+                  "layoutMode": "horizontal",
+                  "horizontalResizing": "fill",
                   "opacity": "1"
                 },
                 "type": "composition"
               },
-              "labelWrapper": {
-                "container": {
+              "leftWrapper": {
+                "wrapper": {
                   "value": {
-                    "itemSpacing": "{sem.dropdown.item.sm.labelWrapper.container.spacing}"
+                    "itemSpacing": "{sem.dropdown.item.sm.leftWrapper.wrapper.spacing}",
+                    "layoutMode": "vertical",
+                    "horizontalResizing": "fill"
+                  },
+                  "type": "composition"
+                },
+                "labelWrapper": {
+                  "wrapper": {
+                    "value": {
+                      "itemSpacing": "{sem.dropdown.item.sm.leftWrapper.labelWrapper.wrapper.spacing}",
+                      "layoutMode": "horizontal",
+                      "horizontalResizing": "fill",
+                      "layoutAlignItems": "center left"
+                    },
+                    "type": "composition"
+                  },
+                  "icon": {
+                    "size": {
+                      "value": {
+                        "width": "{sem.dropdown.item.sm.leftWrapper.labelWrapper.icon.size}",
+                        "height": "{sem.dropdown.item.sm.leftWrapper.labelWrapper.icon.size}"
+                      },
+                      "type": "composition"
+                    },
+                    "color": {
+                      "value": {
+                        "border": "{sem.borderIcon.sm.danger}"
+                      },
+                      "type": "composition"
+                    }
+                  },
+                  "label": {
+                    "value": {
+                      "typography": "{sem.typography.textStyle.label.body.sm}",
+                      "fill": "{sem.color.text.danger}",
+                      "horizontalResizing": "fill"
+                    },
+                    "type": "composition"
+                  }
+                },
+                "description": {
+                  "value": {
+                    "typography": "{sem.typography.textStyle.paragraph.sm.default}",
+                    "fill": "{sem.color.text.default}",
+                    "horizontalResizing": "fill"
+                  },
+                  "type": "composition"
+                }
+              },
+              "rightWrapper": {
+                "wrapper": {
+                  "value": {
+                    "itemSpacing": "{sem.dropdown.item.sm.rightWrapper.wrapper.spacing}",
+                    "layoutAlignItems": "center right"
+                  },
+                  "type": "composition"
+                },
+                "text": {
+                  "value": {
+                    "typography": "{sem.typography.textStyle.label.body.sm}",
+                    "fill": "{sem.color.text.diminish}"
                   },
                   "type": "composition"
                 },
                 "icon": {
                   "size": {
                     "value": {
-                      "width": "{sem.dropdown.item.sm.labelWrapper.icon.size}",
-                      "height": "{sem.dropdown.item.sm.labelWrapper.icon.size}"
+                      "width": "{sem.dropdown.item.sm.rightWrapper.icon.size}",
+                      "height": "{sem.dropdown.item.sm.rightWrapper.icon.size}"
                     },
                     "type": "composition"
                   },
                   "color": {
                     "value": {
-                      "border": "{sem.borderIcon.sm.danger}"
+                      "border": "{sem.borderIcon.sm.dark}"
                     },
                     "type": "composition"
                   }
-                },
-                "label": {
-                  "value": {
-                    "typography": "{sem.typography.textStyle.label.body.sm}",
-                    "fill": "{sem.color.text.danger}"
-                  },
-                  "type": "composition"
                 }
-              },
-              "description": {
-                "value": {
-                  "typography": "{sem.typography.textStyle.paragraph.sm.default}",
-                  "fill": "{sem.color.text.default}"
-                },
-                "type": "composition"
               }
             },
             "disabled": {
@@ -13208,46 +13736,94 @@
                   "horizontalPadding": "{sem.dropdown.item.sm.container.horizontalPadding}",
                   "borderRadius": "{sem.dropdown.item.sm.container.borderRadius}",
                   "itemSpacing": "{sem.dropdown.item.sm.container.spacing}",
+                  "layoutMode": "horizontal",
+                  "horizontalResizing": "fill",
                   "opacity": "{sem.dropdown.item.sm.container.opacity}"
                 },
                 "type": "composition"
               },
-              "labelWrapper": {
-                "container": {
+              "leftWrapper": {
+                "wrapper": {
                   "value": {
-                    "itemSpacing": "{sem.dropdown.item.sm.labelWrapper.container.spacing}"
+                    "itemSpacing": "{sem.dropdown.item.sm.leftWrapper.wrapper.spacing}",
+                    "layoutMode": "vertical",
+                    "horizontalResizing": "fill"
+                  },
+                  "type": "composition"
+                },
+                "labelWrapper": {
+                  "wrapper": {
+                    "value": {
+                      "itemSpacing": "{sem.dropdown.item.sm.leftWrapper.labelWrapper.wrapper.spacing}",
+                      "layoutMode": "horizontal",
+                      "horizontalResizing": "fill",
+                      "layoutAlignItems": "center left"
+                    },
+                    "type": "composition"
+                  },
+                  "icon": {
+                    "size": {
+                      "value": {
+                        "width": "{sem.dropdown.item.sm.leftWrapper.labelWrapper.icon.size}",
+                        "height": "{sem.dropdown.item.sm.leftWrapper.labelWrapper.icon.size}"
+                      },
+                      "type": "composition"
+                    },
+                    "color": {
+                      "value": {
+                        "border": "{sem.borderIcon.sm.danger}"
+                      },
+                      "type": "composition"
+                    }
+                  },
+                  "label": {
+                    "value": {
+                      "typography": "{sem.typography.textStyle.label.body.sm}",
+                      "fill": "{sem.color.text.danger}",
+                      "horizontalResizing": "fill"
+                    },
+                    "type": "composition"
+                  }
+                },
+                "description": {
+                  "value": {
+                    "typography": "{sem.typography.textStyle.paragraph.sm.default}",
+                    "fill": "{sem.color.text.default}",
+                    "horizontalResizing": "fill"
+                  },
+                  "type": "composition"
+                }
+              },
+              "rightWrapper": {
+                "wrapper": {
+                  "value": {
+                    "itemSpacing": "{sem.dropdown.item.sm.rightWrapper.wrapper.spacing}",
+                    "layoutAlignItems": "center right"
+                  },
+                  "type": "composition"
+                },
+                "text": {
+                  "value": {
+                    "typography": "{sem.typography.textStyle.label.body.sm}",
+                    "fill": "{sem.color.text.diminish}"
                   },
                   "type": "composition"
                 },
                 "icon": {
                   "size": {
                     "value": {
-                      "width": "{sem.dropdown.item.sm.labelWrapper.icon.size}",
-                      "height": "{sem.dropdown.item.sm.labelWrapper.icon.size}"
+                      "width": "{sem.dropdown.item.sm.rightWrapper.icon.size}",
+                      "height": "{sem.dropdown.item.sm.rightWrapper.icon.size}"
                     },
                     "type": "composition"
                   },
                   "color": {
                     "value": {
-                      "border": "{sem.borderIcon.sm.danger}"
+                      "border": "{sem.borderIcon.sm.dark}"
                     },
                     "type": "composition"
                   }
-                },
-                "label": {
-                  "value": {
-                    "typography": "{sem.typography.textStyle.label.body.sm}",
-                    "fill": "{sem.color.text.danger}"
-                  },
-                  "type": "composition"
                 }
-              },
-              "description": {
-                "value": {
-                  "typography": "{sem.typography.textStyle.paragraph.sm.default}",
-                  "fill": "{sem.color.text.default}"
-                },
-                "type": "composition"
               }
             }
           }
@@ -13262,46 +13838,94 @@
                   "horizontalPadding": "{sem.dropdown.item.md.container.horizontalPadding}",
                   "borderRadius": "{sem.dropdown.item.md.container.borderRadius}",
                   "itemSpacing": "{sem.dropdown.item.md.container.spacing}",
+                  "layoutMode": "horizontal",
+                  "horizontalResizing": "fill",
                   "opacity": "1"
                 },
                 "type": "composition"
               },
-              "labelWrapper": {
-                "container": {
+              "leftWrapper": {
+                "wrapper": {
                   "value": {
-                    "itemSpacing": "{sem.dropdown.item.md.labelWrapper.container.spacing}"
+                    "itemSpacing": "{sem.dropdown.item.md.leftWrapper.wrapper.spacing}",
+                    "layoutMode": "vertical",
+                    "horizontalResizing": "fill"
+                  },
+                  "type": "composition"
+                },
+                "labelWrapper": {
+                  "wrapper": {
+                    "value": {
+                      "itemSpacing": "{sem.dropdown.item.md.leftWrapper.labelWrapper.wrapper.spacing}",
+                      "layoutMode": "horizontal",
+                      "horizontalResizing": "fill",
+                      "layoutAlignItems": "center left"
+                    },
+                    "type": "composition"
+                  },
+                  "icon": {
+                    "size": {
+                      "value": {
+                        "width": "{sem.dropdown.item.md.leftWrapper.labelWrapper.icon.size}",
+                        "height": "{sem.dropdown.item.md.leftWrapper.labelWrapper.icon.size}"
+                      },
+                      "type": "composition"
+                    },
+                    "color": {
+                      "value": {
+                        "border": "{sem.borderIcon.sm.default}"
+                      },
+                      "type": "composition"
+                    }
+                  },
+                  "label": {
+                    "value": {
+                      "typography": "{sem.typography.textStyle.label.body.md}",
+                      "fill": "{sem.color.text.dark}",
+                      "horizontalResizing": "fill"
+                    },
+                    "type": "composition"
+                  }
+                },
+                "description": {
+                  "value": {
+                    "typography": "{sem.typography.textStyle.paragraph.md.default}",
+                    "fill": "{sem.color.text.default}",
+                    "horizontalResizing": "fill"
+                  },
+                  "type": "composition"
+                }
+              },
+              "rightWrapper": {
+                "wrapper": {
+                  "value": {
+                    "itemSpacing": "{sem.dropdown.item.md.rightWrapper.wrapper.spacing}",
+                    "layoutAlignItems": "center right"
+                  },
+                  "type": "composition"
+                },
+                "text": {
+                  "value": {
+                    "typography": "{sem.typography.textStyle.label.body.sm}",
+                    "fill": "{sem.color.text.diminish}"
                   },
                   "type": "composition"
                 },
                 "icon": {
                   "size": {
                     "value": {
-                      "width": "{sem.dropdown.item.md.labelWrapper.icon.size}",
-                      "height": "{sem.dropdown.item.md.labelWrapper.icon.size}"
+                      "width": "{sem.dropdown.item.md.rightWrapper.icon.size}",
+                      "height": "{sem.dropdown.item.md.rightWrapper.icon.size}"
                     },
                     "type": "composition"
                   },
                   "color": {
                     "value": {
-                      "border": "{sem.borderIcon.sm.default}"
+                      "border": "{sem.borderIcon.sm.dark}"
                     },
                     "type": "composition"
                   }
-                },
-                "label": {
-                  "value": {
-                    "typography": "{sem.typography.textStyle.label.body.md}",
-                    "fill": "{sem.color.text.dark}"
-                  },
-                  "type": "composition"
                 }
-              },
-              "description": {
-                "value": {
-                  "typography": "{sem.typography.textStyle.paragraph.md.default}",
-                  "fill": "{sem.color.text.default}"
-                },
-                "type": "composition"
               }
             },
             "hover": {
@@ -13312,46 +13936,94 @@
                   "horizontalPadding": "{sem.dropdown.item.md.container.horizontalPadding}",
                   "borderRadius": "{sem.dropdown.item.md.container.borderRadius}",
                   "itemSpacing": "{sem.dropdown.item.md.container.spacing}",
+                  "layoutMode": "horizontal",
+                  "horizontalResizing": "fill",
                   "opacity": "1"
                 },
                 "type": "composition"
               },
-              "labelWrapper": {
-                "container": {
+              "leftWrapper": {
+                "wrapper": {
                   "value": {
-                    "itemSpacing": "{sem.dropdown.item.md.labelWrapper.container.spacing}"
+                    "itemSpacing": "{sem.dropdown.item.md.leftWrapper.wrapper.spacing}",
+                    "layoutMode": "vertical",
+                    "horizontalResizing": "fill"
+                  },
+                  "type": "composition"
+                },
+                "labelWrapper": {
+                  "wrapper": {
+                    "value": {
+                      "itemSpacing": "{sem.dropdown.item.md.leftWrapper.labelWrapper.wrapper.spacing}",
+                      "layoutMode": "horizontal",
+                      "horizontalResizing": "fill",
+                      "layoutAlignItems": "center left"
+                    },
+                    "type": "composition"
+                  },
+                  "icon": {
+                    "size": {
+                      "value": {
+                        "width": "{sem.dropdown.item.md.leftWrapper.labelWrapper.icon.size}",
+                        "height": "{sem.dropdown.item.md.leftWrapper.labelWrapper.icon.size}"
+                      },
+                      "type": "composition"
+                    },
+                    "color": {
+                      "value": {
+                        "border": "{sem.borderIcon.sm.default}"
+                      },
+                      "type": "composition"
+                    }
+                  },
+                  "label": {
+                    "value": {
+                      "typography": "{sem.typography.textStyle.label.body.md}",
+                      "fill": "{sem.color.text.dark}",
+                      "horizontalResizing": "fill"
+                    },
+                    "type": "composition"
+                  }
+                },
+                "description": {
+                  "value": {
+                    "typography": "{sem.typography.textStyle.paragraph.md.default}",
+                    "fill": "{sem.color.text.default}",
+                    "horizontalResizing": "fill"
+                  },
+                  "type": "composition"
+                }
+              },
+              "rightWrapper": {
+                "wrapper": {
+                  "value": {
+                    "itemSpacing": "{sem.dropdown.item.md.rightWrapper.wrapper.spacing}",
+                    "layoutAlignItems": "center right"
+                  },
+                  "type": "composition"
+                },
+                "text": {
+                  "value": {
+                    "typography": "{sem.typography.textStyle.label.body.sm}",
+                    "fill": "{sem.color.text.diminish}"
                   },
                   "type": "composition"
                 },
                 "icon": {
                   "size": {
                     "value": {
-                      "width": "{sem.dropdown.item.md.labelWrapper.icon.size}",
-                      "height": "{sem.dropdown.item.md.labelWrapper.icon.size}"
+                      "width": "{sem.dropdown.item.md.rightWrapper.icon.size}",
+                      "height": "{sem.dropdown.item.md.rightWrapper.icon.size}"
                     },
                     "type": "composition"
                   },
                   "color": {
                     "value": {
-                      "border": "{sem.borderIcon.sm.default}"
+                      "border": "{sem.borderIcon.sm.dark}"
                     },
                     "type": "composition"
                   }
-                },
-                "label": {
-                  "value": {
-                    "typography": "{sem.typography.textStyle.label.body.md}",
-                    "fill": "{sem.color.text.dark}"
-                  },
-                  "type": "composition"
                 }
-              },
-              "description": {
-                "value": {
-                  "typography": "{sem.typography.textStyle.paragraph.md.default}",
-                  "fill": "{sem.color.text.default}"
-                },
-                "type": "composition"
               }
             },
             "pressed": {
@@ -13362,46 +14034,94 @@
                   "horizontalPadding": "{sem.dropdown.item.md.container.horizontalPadding}",
                   "borderRadius": "{sem.dropdown.item.md.container.borderRadius}",
                   "itemSpacing": "{sem.dropdown.item.md.container.spacing}",
+                  "layoutMode": "horizontal",
+                  "horizontalResizing": "fill",
                   "opacity": "1"
                 },
                 "type": "composition"
               },
-              "labelWrapper": {
-                "container": {
+              "leftWrapper": {
+                "wrapper": {
                   "value": {
-                    "itemSpacing": "{sem.dropdown.item.md.labelWrapper.container.spacing}"
+                    "itemSpacing": "{sem.dropdown.item.md.leftWrapper.wrapper.spacing}",
+                    "layoutMode": "vertical",
+                    "horizontalResizing": "fill"
+                  },
+                  "type": "composition"
+                },
+                "labelWrapper": {
+                  "wrapper": {
+                    "value": {
+                      "itemSpacing": "{sem.dropdown.item.md.leftWrapper.labelWrapper.wrapper.spacing}",
+                      "layoutMode": "horizontal",
+                      "horizontalResizing": "fill",
+                      "layoutAlignItems": "center left"
+                    },
+                    "type": "composition"
+                  },
+                  "icon": {
+                    "size": {
+                      "value": {
+                        "width": "{sem.dropdown.item.md.leftWrapper.labelWrapper.icon.size}",
+                        "height": "{sem.dropdown.item.md.leftWrapper.labelWrapper.icon.size}"
+                      },
+                      "type": "composition"
+                    },
+                    "color": {
+                      "value": {
+                        "border": "{sem.borderIcon.sm.default}"
+                      },
+                      "type": "composition"
+                    }
+                  },
+                  "label": {
+                    "value": {
+                      "typography": "{sem.typography.textStyle.label.body.md}",
+                      "fill": "{sem.color.text.dark}",
+                      "horizontalResizing": "fill"
+                    },
+                    "type": "composition"
+                  }
+                },
+                "description": {
+                  "value": {
+                    "typography": "{sem.typography.textStyle.paragraph.md.default}",
+                    "fill": "{sem.color.text.default}",
+                    "horizontalResizing": "fill"
+                  },
+                  "type": "composition"
+                }
+              },
+              "rightWrapper": {
+                "wrapper": {
+                  "value": {
+                    "itemSpacing": "{sem.dropdown.item.md.rightWrapper.wrapper.spacing}",
+                    "layoutAlignItems": "center right"
+                  },
+                  "type": "composition"
+                },
+                "text": {
+                  "value": {
+                    "typography": "{sem.typography.textStyle.label.body.sm}",
+                    "fill": "{sem.color.text.diminish}"
                   },
                   "type": "composition"
                 },
                 "icon": {
                   "size": {
                     "value": {
-                      "width": "{sem.dropdown.item.md.labelWrapper.icon.size}",
-                      "height": "{sem.dropdown.item.md.labelWrapper.icon.size}"
+                      "width": "{sem.dropdown.item.md.rightWrapper.icon.size}",
+                      "height": "{sem.dropdown.item.md.rightWrapper.icon.size}"
                     },
                     "type": "composition"
                   },
                   "color": {
                     "value": {
-                      "border": "{sem.borderIcon.sm.default}"
+                      "border": "{sem.borderIcon.sm.dark}"
                     },
                     "type": "composition"
                   }
-                },
-                "label": {
-                  "value": {
-                    "typography": "{sem.typography.textStyle.label.body.md}",
-                    "fill": "{sem.color.text.dark}"
-                  },
-                  "type": "composition"
                 }
-              },
-              "description": {
-                "value": {
-                  "typography": "{sem.typography.textStyle.paragraph.md.default}",
-                  "fill": "{sem.color.text.default}"
-                },
-                "type": "composition"
               }
             },
             "disabled": {
@@ -13412,46 +14132,94 @@
                   "horizontalPadding": "{sem.dropdown.item.md.container.horizontalPadding}",
                   "borderRadius": "{sem.dropdown.item.md.container.borderRadius}",
                   "itemSpacing": "{sem.dropdown.item.md.container.spacing}",
+                  "layoutMode": "horizontal",
+                  "horizontalResizing": "fill",
                   "opacity": "{sem.dropdown.item.md.container.opacity}"
                 },
                 "type": "composition"
               },
-              "labelWrapper": {
-                "container": {
+              "leftWrapper": {
+                "wrapper": {
                   "value": {
-                    "itemSpacing": "{sem.dropdown.item.md.labelWrapper.container.spacing}"
+                    "itemSpacing": "{sem.dropdown.item.md.leftWrapper.wrapper.spacing}",
+                    "layoutMode": "vertical",
+                    "horizontalResizing": "fill"
+                  },
+                  "type": "composition"
+                },
+                "labelWrapper": {
+                  "wrapper": {
+                    "value": {
+                      "itemSpacing": "{sem.dropdown.item.md.leftWrapper.labelWrapper.wrapper.spacing}",
+                      "layoutMode": "horizontal",
+                      "horizontalResizing": "fill",
+                      "layoutAlignItems": "center left"
+                    },
+                    "type": "composition"
+                  },
+                  "icon": {
+                    "size": {
+                      "value": {
+                        "width": "{sem.dropdown.item.md.leftWrapper.labelWrapper.icon.size}",
+                        "height": "{sem.dropdown.item.md.leftWrapper.labelWrapper.icon.size}"
+                      },
+                      "type": "composition"
+                    },
+                    "color": {
+                      "value": {
+                        "border": "{sem.borderIcon.sm.default}"
+                      },
+                      "type": "composition"
+                    }
+                  },
+                  "label": {
+                    "value": {
+                      "typography": "{sem.typography.textStyle.label.body.md}",
+                      "fill": "{sem.color.text.dark}",
+                      "horizontalResizing": "fill"
+                    },
+                    "type": "composition"
+                  }
+                },
+                "description": {
+                  "value": {
+                    "typography": "{sem.typography.textStyle.paragraph.md.default}",
+                    "fill": "{sem.color.text.default}",
+                    "horizontalResizing": "fill"
+                  },
+                  "type": "composition"
+                }
+              },
+              "rightWrapper": {
+                "wrapper": {
+                  "value": {
+                    "itemSpacing": "{sem.dropdown.item.md.rightWrapper.wrapper.spacing}",
+                    "layoutAlignItems": "center right"
+                  },
+                  "type": "composition"
+                },
+                "text": {
+                  "value": {
+                    "typography": "{sem.typography.textStyle.label.body.sm}",
+                    "fill": "{sem.color.text.diminish}"
                   },
                   "type": "composition"
                 },
                 "icon": {
                   "size": {
                     "value": {
-                      "width": "{sem.dropdown.item.md.labelWrapper.icon.size}",
-                      "height": "{sem.dropdown.item.md.labelWrapper.icon.size}"
+                      "width": "{sem.dropdown.item.md.rightWrapper.icon.size}",
+                      "height": "{sem.dropdown.item.md.rightWrapper.icon.size}"
                     },
                     "type": "composition"
                   },
                   "color": {
                     "value": {
-                      "border": "{sem.borderIcon.sm.default}"
+                      "border": "{sem.borderIcon.sm.dark}"
                     },
                     "type": "composition"
                   }
-                },
-                "label": {
-                  "value": {
-                    "typography": "{sem.typography.textStyle.label.body.md}",
-                    "fill": "{sem.color.text.dark}"
-                  },
-                  "type": "composition"
                 }
-              },
-              "description": {
-                "value": {
-                  "typography": "{sem.typography.textStyle.paragraph.md.default}",
-                  "fill": "{sem.color.text.default}"
-                },
-                "type": "composition"
               }
             }
           },
@@ -13464,46 +14232,94 @@
                   "horizontalPadding": "{sem.dropdown.item.md.container.horizontalPadding}",
                   "borderRadius": "{sem.dropdown.item.md.container.borderRadius}",
                   "itemSpacing": "{sem.dropdown.item.md.container.spacing}",
+                  "layoutMode": "horizontal",
+                  "horizontalResizing": "fill",
                   "opacity": "1"
                 },
                 "type": "composition"
               },
-              "labelWrapper": {
-                "container": {
+              "leftWrapper": {
+                "wrapper": {
                   "value": {
-                    "itemSpacing": "{sem.dropdown.item.md.labelWrapper.container.spacing}"
+                    "itemSpacing": "{sem.dropdown.item.md.leftWrapper.wrapper.spacing}",
+                    "layoutMode": "vertical",
+                    "horizontalResizing": "fill"
+                  },
+                  "type": "composition"
+                },
+                "labelWrapper": {
+                  "wrapper": {
+                    "value": {
+                      "itemSpacing": "{sem.dropdown.item.md.leftWrapper.labelWrapper.wrapper.spacing}",
+                      "layoutMode": "horizontal",
+                      "horizontalResizing": "fill",
+                      "layoutAlignItems": "center left"
+                    },
+                    "type": "composition"
+                  },
+                  "icon": {
+                    "size": {
+                      "value": {
+                        "width": "{sem.dropdown.item.md.leftWrapper.labelWrapper.icon.size}",
+                        "height": "{sem.dropdown.item.md.leftWrapper.labelWrapper.icon.size}"
+                      },
+                      "type": "composition"
+                    },
+                    "color": {
+                      "value": {
+                        "border": "{sem.borderIcon.sm.default}"
+                      },
+                      "type": "composition"
+                    }
+                  },
+                  "label": {
+                    "value": {
+                      "typography": "{sem.typography.textStyle.label.body.md}",
+                      "fill": "{sem.color.text.dark}",
+                      "horizontalResizing": "fill"
+                    },
+                    "type": "composition"
+                  }
+                },
+                "description": {
+                  "value": {
+                    "typography": "{sem.typography.textStyle.paragraph.md.default}",
+                    "fill": "{sem.color.text.default}",
+                    "horizontalResizing": "fill"
+                  },
+                  "type": "composition"
+                }
+              },
+              "rightWrapper": {
+                "wrapper": {
+                  "value": {
+                    "itemSpacing": "{sem.dropdown.item.md.rightWrapper.wrapper.spacing}",
+                    "layoutAlignItems": "center right"
+                  },
+                  "type": "composition"
+                },
+                "text": {
+                  "value": {
+                    "typography": "{sem.typography.textStyle.label.body.sm}",
+                    "fill": "{sem.color.text.diminish}"
                   },
                   "type": "composition"
                 },
                 "icon": {
                   "size": {
                     "value": {
-                      "width": "{sem.dropdown.item.md.labelWrapper.icon.size}",
-                      "height": "{sem.dropdown.item.md.labelWrapper.icon.size}"
+                      "width": "{sem.dropdown.item.md.rightWrapper.icon.size}",
+                      "height": "{sem.dropdown.item.md.rightWrapper.icon.size}"
                     },
                     "type": "composition"
                   },
                   "color": {
                     "value": {
-                      "border": "{sem.borderIcon.sm.default}"
+                      "border": "{sem.borderIcon.sm.dark}"
                     },
                     "type": "composition"
                   }
-                },
-                "label": {
-                  "value": {
-                    "typography": "{sem.typography.textStyle.label.body.md}",
-                    "fill": "{sem.color.text.dark}"
-                  },
-                  "type": "composition"
                 }
-              },
-              "description": {
-                "value": {
-                  "typography": "{sem.typography.textStyle.paragraph.md.default}",
-                  "fill": "{sem.color.text.default}"
-                },
-                "type": "composition"
               }
             },
             "hover": {
@@ -13514,46 +14330,94 @@
                   "horizontalPadding": "{sem.dropdown.item.md.container.horizontalPadding}",
                   "borderRadius": "{sem.dropdown.item.md.container.borderRadius}",
                   "itemSpacing": "{sem.dropdown.item.md.container.spacing}",
+                  "layoutMode": "horizontal",
+                  "horizontalResizing": "fill",
                   "opacity": "1"
                 },
                 "type": "composition"
               },
-              "labelWrapper": {
-                "container": {
+              "leftWrapper": {
+                "wrapper": {
                   "value": {
-                    "itemSpacing": "{sem.dropdown.item.md.labelWrapper.container.spacing}"
+                    "itemSpacing": "{sem.dropdown.item.md.leftWrapper.wrapper.spacing}",
+                    "layoutMode": "vertical",
+                    "horizontalResizing": "fill"
+                  },
+                  "type": "composition"
+                },
+                "labelWrapper": {
+                  "wrapper": {
+                    "value": {
+                      "itemSpacing": "{sem.dropdown.item.md.leftWrapper.labelWrapper.wrapper.spacing}",
+                      "layoutMode": "horizontal",
+                      "horizontalResizing": "fill",
+                      "layoutAlignItems": "center left"
+                    },
+                    "type": "composition"
+                  },
+                  "icon": {
+                    "size": {
+                      "value": {
+                        "width": "{sem.dropdown.item.md.leftWrapper.labelWrapper.icon.size}",
+                        "height": "{sem.dropdown.item.md.leftWrapper.labelWrapper.icon.size}"
+                      },
+                      "type": "composition"
+                    },
+                    "color": {
+                      "value": {
+                        "border": "{sem.borderIcon.sm.default}"
+                      },
+                      "type": "composition"
+                    }
+                  },
+                  "label": {
+                    "value": {
+                      "typography": "{sem.typography.textStyle.label.body.md}",
+                      "fill": "{sem.color.text.dark}",
+                      "horizontalResizing": "fill"
+                    },
+                    "type": "composition"
+                  }
+                },
+                "description": {
+                  "value": {
+                    "typography": "{sem.typography.textStyle.paragraph.md.default}",
+                    "fill": "{sem.color.text.default}",
+                    "horizontalResizing": "fill"
+                  },
+                  "type": "composition"
+                }
+              },
+              "rightWrapper": {
+                "wrapper": {
+                  "value": {
+                    "itemSpacing": "{sem.dropdown.item.md.rightWrapper.wrapper.spacing}",
+                    "layoutAlignItems": "center right"
+                  },
+                  "type": "composition"
+                },
+                "text": {
+                  "value": {
+                    "typography": "{sem.typography.textStyle.label.body.sm}",
+                    "fill": "{sem.color.text.diminish}"
                   },
                   "type": "composition"
                 },
                 "icon": {
                   "size": {
                     "value": {
-                      "width": "{sem.dropdown.item.md.labelWrapper.icon.size}",
-                      "height": "{sem.dropdown.item.md.labelWrapper.icon.size}"
+                      "width": "{sem.dropdown.item.md.rightWrapper.icon.size}",
+                      "height": "{sem.dropdown.item.md.rightWrapper.icon.size}"
                     },
                     "type": "composition"
                   },
                   "color": {
                     "value": {
-                      "border": "{sem.borderIcon.sm.default}"
+                      "border": "{sem.borderIcon.sm.dark}"
                     },
                     "type": "composition"
                   }
-                },
-                "label": {
-                  "value": {
-                    "typography": "{sem.typography.textStyle.label.body.md}",
-                    "fill": "{sem.color.text.dark}"
-                  },
-                  "type": "composition"
                 }
-              },
-              "description": {
-                "value": {
-                  "typography": "{sem.typography.textStyle.paragraph.md.default}",
-                  "fill": "{sem.color.text.default}"
-                },
-                "type": "composition"
               }
             },
             "pressed": {
@@ -13564,46 +14428,94 @@
                   "horizontalPadding": "{sem.dropdown.item.md.container.horizontalPadding}",
                   "borderRadius": "{sem.dropdown.item.md.container.borderRadius}",
                   "itemSpacing": "{sem.dropdown.item.md.container.spacing}",
+                  "layoutMode": "horizontal",
+                  "horizontalResizing": "fill",
                   "opacity": "1"
                 },
                 "type": "composition"
               },
-              "labelWrapper": {
-                "container": {
+              "leftWrapper": {
+                "wrapper": {
                   "value": {
-                    "itemSpacing": "{sem.dropdown.item.md.labelWrapper.container.spacing}"
+                    "itemSpacing": "{sem.dropdown.item.md.leftWrapper.wrapper.spacing}",
+                    "layoutMode": "vertical",
+                    "horizontalResizing": "fill"
+                  },
+                  "type": "composition"
+                },
+                "labelWrapper": {
+                  "wrapper": {
+                    "value": {
+                      "itemSpacing": "{sem.dropdown.item.md.leftWrapper.labelWrapper.wrapper.spacing}",
+                      "layoutMode": "horizontal",
+                      "horizontalResizing": "fill",
+                      "layoutAlignItems": "center left"
+                    },
+                    "type": "composition"
+                  },
+                  "icon": {
+                    "size": {
+                      "value": {
+                        "width": "{sem.dropdown.item.md.leftWrapper.labelWrapper.icon.size}",
+                        "height": "{sem.dropdown.item.md.leftWrapper.labelWrapper.icon.size}"
+                      },
+                      "type": "composition"
+                    },
+                    "color": {
+                      "value": {
+                        "border": "{sem.borderIcon.sm.default}"
+                      },
+                      "type": "composition"
+                    }
+                  },
+                  "label": {
+                    "value": {
+                      "typography": "{sem.typography.textStyle.label.body.md}",
+                      "fill": "{sem.color.text.dark}",
+                      "horizontalResizing": "fill"
+                    },
+                    "type": "composition"
+                  }
+                },
+                "description": {
+                  "value": {
+                    "typography": "{sem.typography.textStyle.paragraph.md.default}",
+                    "fill": "{sem.color.text.default}",
+                    "horizontalResizing": "fill"
+                  },
+                  "type": "composition"
+                }
+              },
+              "rightWrapper": {
+                "wrapper": {
+                  "value": {
+                    "itemSpacing": "{sem.dropdown.item.md.rightWrapper.wrapper.spacing}",
+                    "layoutAlignItems": "center right"
+                  },
+                  "type": "composition"
+                },
+                "text": {
+                  "value": {
+                    "typography": "{sem.typography.textStyle.label.body.sm}",
+                    "fill": "{sem.color.text.diminish}"
                   },
                   "type": "composition"
                 },
                 "icon": {
                   "size": {
                     "value": {
-                      "width": "{sem.dropdown.item.md.labelWrapper.icon.size}",
-                      "height": "{sem.dropdown.item.md.labelWrapper.icon.size}"
+                      "width": "{sem.dropdown.item.md.rightWrapper.icon.size}",
+                      "height": "{sem.dropdown.item.md.rightWrapper.icon.size}"
                     },
                     "type": "composition"
                   },
                   "color": {
                     "value": {
-                      "border": "{sem.borderIcon.sm.default}"
+                      "border": "{sem.borderIcon.sm.dark}"
                     },
                     "type": "composition"
                   }
-                },
-                "label": {
-                  "value": {
-                    "typography": "{sem.typography.textStyle.label.body.md}",
-                    "fill": "{sem.color.text.dark}"
-                  },
-                  "type": "composition"
                 }
-              },
-              "description": {
-                "value": {
-                  "typography": "{sem.typography.textStyle.paragraph.md.default}",
-                  "fill": "{sem.color.text.default}"
-                },
-                "type": "composition"
               }
             },
             "disabled": {
@@ -13614,46 +14526,94 @@
                   "horizontalPadding": "{sem.dropdown.item.md.container.horizontalPadding}",
                   "borderRadius": "{sem.dropdown.item.md.container.borderRadius}",
                   "itemSpacing": "{sem.dropdown.item.md.container.spacing}",
+                  "layoutMode": "horizontal",
+                  "horizontalResizing": "fill",
                   "opacity": "{sem.dropdown.item.md.container.opacity}"
                 },
                 "type": "composition"
               },
-              "labelWrapper": {
-                "container": {
+              "leftWrapper": {
+                "wrapper": {
                   "value": {
-                    "itemSpacing": "{sem.dropdown.item.md.labelWrapper.container.spacing}"
+                    "itemSpacing": "{sem.dropdown.item.md.leftWrapper.wrapper.spacing}",
+                    "layoutMode": "vertical",
+                    "horizontalResizing": "fill"
+                  },
+                  "type": "composition"
+                },
+                "labelWrapper": {
+                  "wrapper": {
+                    "value": {
+                      "itemSpacing": "{sem.dropdown.item.md.leftWrapper.labelWrapper.wrapper.spacing}",
+                      "layoutMode": "horizontal",
+                      "horizontalResizing": "fill",
+                      "layoutAlignItems": "center left"
+                    },
+                    "type": "composition"
+                  },
+                  "icon": {
+                    "size": {
+                      "value": {
+                        "width": "{sem.dropdown.item.md.leftWrapper.labelWrapper.icon.size}",
+                        "height": "{sem.dropdown.item.md.leftWrapper.labelWrapper.icon.size}"
+                      },
+                      "type": "composition"
+                    },
+                    "color": {
+                      "value": {
+                        "border": "{sem.borderIcon.sm.default}"
+                      },
+                      "type": "composition"
+                    }
+                  },
+                  "label": {
+                    "value": {
+                      "typography": "{sem.typography.textStyle.label.body.md}",
+                      "fill": "{sem.color.text.dark}",
+                      "horizontalResizing": "fill"
+                    },
+                    "type": "composition"
+                  }
+                },
+                "description": {
+                  "value": {
+                    "typography": "{sem.typography.textStyle.paragraph.md.default}",
+                    "fill": "{sem.color.text.default}",
+                    "horizontalResizing": "fill"
+                  },
+                  "type": "composition"
+                }
+              },
+              "rightWrapper": {
+                "wrapper": {
+                  "value": {
+                    "itemSpacing": "{sem.dropdown.item.md.rightWrapper.wrapper.spacing}",
+                    "layoutAlignItems": "center right"
+                  },
+                  "type": "composition"
+                },
+                "text": {
+                  "value": {
+                    "typography": "{sem.typography.textStyle.label.body.sm}",
+                    "fill": "{sem.color.text.diminish}"
                   },
                   "type": "composition"
                 },
                 "icon": {
                   "size": {
                     "value": {
-                      "width": "{sem.dropdown.item.md.labelWrapper.icon.size}",
-                      "height": "{sem.dropdown.item.md.labelWrapper.icon.size}"
+                      "width": "{sem.dropdown.item.md.rightWrapper.icon.size}",
+                      "height": "{sem.dropdown.item.md.rightWrapper.icon.size}"
                     },
                     "type": "composition"
                   },
                   "color": {
                     "value": {
-                      "border": "{sem.borderIcon.sm.default}"
+                      "border": "{sem.borderIcon.sm.dark}"
                     },
                     "type": "composition"
                   }
-                },
-                "label": {
-                  "value": {
-                    "typography": "{sem.typography.textStyle.label.body.md}",
-                    "fill": "{sem.color.text.dark}"
-                  },
-                  "type": "composition"
                 }
-              },
-              "description": {
-                "value": {
-                  "typography": "{sem.typography.textStyle.paragraph.md.default}",
-                  "fill": "{sem.color.text.default}"
-                },
-                "type": "composition"
               }
             }
           },
@@ -13666,46 +14626,94 @@
                   "horizontalPadding": "{sem.dropdown.item.md.container.horizontalPadding}",
                   "borderRadius": "{sem.dropdown.item.md.container.borderRadius}",
                   "itemSpacing": "{sem.dropdown.item.md.container.spacing}",
+                  "layoutMode": "horizontal",
+                  "horizontalResizing": "fill",
                   "opacity": "1"
                 },
                 "type": "composition"
               },
-              "labelWrapper": {
-                "container": {
+              "leftWrapper": {
+                "wrapper": {
                   "value": {
-                    "itemSpacing": "{sem.dropdown.item.md.labelWrapper.container.spacing}"
+                    "itemSpacing": "{sem.dropdown.item.md.leftWrapper.wrapper.spacing}",
+                    "layoutMode": "vertical",
+                    "horizontalResizing": "fill"
+                  },
+                  "type": "composition"
+                },
+                "labelWrapper": {
+                  "wrapper": {
+                    "value": {
+                      "itemSpacing": "{sem.dropdown.item.md.leftWrapper.labelWrapper.wrapper.spacing}",
+                      "layoutMode": "horizontal",
+                      "horizontalResizing": "fill",
+                      "layoutAlignItems": "center left"
+                    },
+                    "type": "composition"
+                  },
+                  "icon": {
+                    "size": {
+                      "value": {
+                        "width": "{sem.dropdown.item.md.leftWrapper.labelWrapper.icon.size}",
+                        "height": "{sem.dropdown.item.md.leftWrapper.labelWrapper.icon.size}"
+                      },
+                      "type": "composition"
+                    },
+                    "color": {
+                      "value": {
+                        "border": "{sem.borderIcon.sm.danger}"
+                      },
+                      "type": "composition"
+                    }
+                  },
+                  "label": {
+                    "value": {
+                      "typography": "{sem.typography.textStyle.label.body.md}",
+                      "fill": "{sem.color.text.danger}",
+                      "horizontalResizing": "fill"
+                    },
+                    "type": "composition"
+                  }
+                },
+                "description": {
+                  "value": {
+                    "typography": "{sem.typography.textStyle.paragraph.md.default}",
+                    "fill": "{sem.color.text.default}",
+                    "horizontalResizing": "fill"
+                  },
+                  "type": "composition"
+                }
+              },
+              "rightWrapper": {
+                "wrapper": {
+                  "value": {
+                    "itemSpacing": "{sem.dropdown.item.md.rightWrapper.wrapper.spacing}",
+                    "layoutAlignItems": "center right"
+                  },
+                  "type": "composition"
+                },
+                "text": {
+                  "value": {
+                    "typography": "{sem.typography.textStyle.label.body.sm}",
+                    "fill": "{sem.color.text.diminish}"
                   },
                   "type": "composition"
                 },
                 "icon": {
                   "size": {
                     "value": {
-                      "width": "{sem.dropdown.item.md.labelWrapper.icon.size}",
-                      "height": "{sem.dropdown.item.md.labelWrapper.icon.size}"
+                      "width": "{sem.dropdown.item.md.rightWrapper.icon.size}",
+                      "height": "{sem.dropdown.item.md.rightWrapper.icon.size}"
                     },
                     "type": "composition"
                   },
                   "color": {
                     "value": {
-                      "border": "{sem.borderIcon.sm.danger}"
+                      "border": "{sem.borderIcon.sm.dark}"
                     },
                     "type": "composition"
                   }
-                },
-                "label": {
-                  "value": {
-                    "typography": "{sem.typography.textStyle.label.body.md}",
-                    "fill": "{sem.color.text.danger}"
-                  },
-                  "type": "composition"
                 }
-              },
-              "description": {
-                "value": {
-                  "typography": "{sem.typography.textStyle.paragraph.md.default}",
-                  "fill": "{sem.color.text.default}"
-                },
-                "type": "composition"
               }
             },
             "hover": {
@@ -13716,46 +14724,94 @@
                   "horizontalPadding": "{sem.dropdown.item.md.container.horizontalPadding}",
                   "borderRadius": "{sem.dropdown.item.md.container.borderRadius}",
                   "itemSpacing": "{sem.dropdown.item.md.container.spacing}",
+                  "layoutMode": "horizontal",
+                  "horizontalResizing": "fill",
                   "opacity": "1"
                 },
                 "type": "composition"
               },
-              "labelWrapper": {
-                "container": {
+              "leftWrapper": {
+                "wrapper": {
                   "value": {
-                    "itemSpacing": "{sem.dropdown.item.md.labelWrapper.container.spacing}"
+                    "itemSpacing": "{sem.dropdown.item.md.leftWrapper.wrapper.spacing}",
+                    "layoutMode": "vertical",
+                    "horizontalResizing": "fill"
+                  },
+                  "type": "composition"
+                },
+                "labelWrapper": {
+                  "wrapper": {
+                    "value": {
+                      "itemSpacing": "{sem.dropdown.item.md.leftWrapper.labelWrapper.wrapper.spacing}",
+                      "layoutMode": "horizontal",
+                      "horizontalResizing": "fill",
+                      "layoutAlignItems": "center left"
+                    },
+                    "type": "composition"
+                  },
+                  "icon": {
+                    "size": {
+                      "value": {
+                        "width": "{sem.dropdown.item.md.leftWrapper.labelWrapper.icon.size}",
+                        "height": "{sem.dropdown.item.md.leftWrapper.labelWrapper.icon.size}"
+                      },
+                      "type": "composition"
+                    },
+                    "color": {
+                      "value": {
+                        "border": "{sem.borderIcon.sm.danger}"
+                      },
+                      "type": "composition"
+                    }
+                  },
+                  "label": {
+                    "value": {
+                      "typography": "{sem.typography.textStyle.label.body.md}",
+                      "fill": "{sem.color.text.danger}",
+                      "horizontalResizing": "fill"
+                    },
+                    "type": "composition"
+                  }
+                },
+                "description": {
+                  "value": {
+                    "typography": "{sem.typography.textStyle.paragraph.md.default}",
+                    "fill": "{sem.color.text.default}",
+                    "horizontalResizing": "fill"
+                  },
+                  "type": "composition"
+                }
+              },
+              "rightWrapper": {
+                "wrapper": {
+                  "value": {
+                    "itemSpacing": "{sem.dropdown.item.md.rightWrapper.wrapper.spacing}",
+                    "layoutAlignItems": "center right"
+                  },
+                  "type": "composition"
+                },
+                "text": {
+                  "value": {
+                    "typography": "{sem.typography.textStyle.label.body.sm}",
+                    "fill": "{sem.color.text.diminish}"
                   },
                   "type": "composition"
                 },
                 "icon": {
                   "size": {
                     "value": {
-                      "width": "{sem.dropdown.item.md.labelWrapper.icon.size}",
-                      "height": "{sem.dropdown.item.md.labelWrapper.icon.size}"
+                      "width": "{sem.dropdown.item.md.rightWrapper.icon.size}",
+                      "height": "{sem.dropdown.item.md.rightWrapper.icon.size}"
                     },
                     "type": "composition"
                   },
                   "color": {
                     "value": {
-                      "border": "{sem.borderIcon.sm.danger}"
+                      "border": "{sem.borderIcon.sm.dark}"
                     },
                     "type": "composition"
                   }
-                },
-                "label": {
-                  "value": {
-                    "typography": "{sem.typography.textStyle.label.body.md}",
-                    "fill": "{sem.color.text.danger}"
-                  },
-                  "type": "composition"
                 }
-              },
-              "description": {
-                "value": {
-                  "typography": "{sem.typography.textStyle.paragraph.md.default}",
-                  "fill": "{sem.color.text.default}"
-                },
-                "type": "composition"
               }
             },
             "pressed": {
@@ -13766,46 +14822,94 @@
                   "horizontalPadding": "{sem.dropdown.item.md.container.horizontalPadding}",
                   "borderRadius": "{sem.dropdown.item.md.container.borderRadius}",
                   "itemSpacing": "{sem.dropdown.item.md.container.spacing}",
+                  "layoutMode": "horizontal",
+                  "horizontalResizing": "fill",
                   "opacity": "1"
                 },
                 "type": "composition"
               },
-              "labelWrapper": {
-                "container": {
+              "leftWrapper": {
+                "wrapper": {
                   "value": {
-                    "itemSpacing": "{sem.dropdown.item.md.labelWrapper.container.spacing}"
+                    "itemSpacing": "{sem.dropdown.item.md.leftWrapper.wrapper.spacing}",
+                    "layoutMode": "vertical",
+                    "horizontalResizing": "fill"
+                  },
+                  "type": "composition"
+                },
+                "labelWrapper": {
+                  "wrapper": {
+                    "value": {
+                      "itemSpacing": "{sem.dropdown.item.md.leftWrapper.labelWrapper.wrapper.spacing}",
+                      "layoutMode": "horizontal",
+                      "horizontalResizing": "fill",
+                      "layoutAlignItems": "center left"
+                    },
+                    "type": "composition"
+                  },
+                  "icon": {
+                    "size": {
+                      "value": {
+                        "width": "{sem.dropdown.item.md.leftWrapper.labelWrapper.icon.size}",
+                        "height": "{sem.dropdown.item.md.leftWrapper.labelWrapper.icon.size}"
+                      },
+                      "type": "composition"
+                    },
+                    "color": {
+                      "value": {
+                        "border": "{sem.borderIcon.sm.danger}"
+                      },
+                      "type": "composition"
+                    }
+                  },
+                  "label": {
+                    "value": {
+                      "typography": "{sem.typography.textStyle.label.body.md}",
+                      "fill": "{sem.color.text.danger}",
+                      "horizontalResizing": "fill"
+                    },
+                    "type": "composition"
+                  }
+                },
+                "description": {
+                  "value": {
+                    "typography": "{sem.typography.textStyle.paragraph.md.default}",
+                    "fill": "{sem.color.text.default}",
+                    "horizontalResizing": "fill"
+                  },
+                  "type": "composition"
+                }
+              },
+              "rightWrapper": {
+                "wrapper": {
+                  "value": {
+                    "itemSpacing": "{sem.dropdown.item.md.rightWrapper.wrapper.spacing}",
+                    "layoutAlignItems": "center right"
+                  },
+                  "type": "composition"
+                },
+                "text": {
+                  "value": {
+                    "typography": "{sem.typography.textStyle.label.body.sm}",
+                    "fill": "{sem.color.text.diminish}"
                   },
                   "type": "composition"
                 },
                 "icon": {
                   "size": {
                     "value": {
-                      "width": "{sem.dropdown.item.md.labelWrapper.icon.size}",
-                      "height": "{sem.dropdown.item.md.labelWrapper.icon.size}"
+                      "width": "{sem.dropdown.item.md.rightWrapper.icon.size}",
+                      "height": "{sem.dropdown.item.md.rightWrapper.icon.size}"
                     },
                     "type": "composition"
                   },
                   "color": {
                     "value": {
-                      "border": "{sem.borderIcon.sm.danger}"
+                      "border": "{sem.borderIcon.sm.dark}"
                     },
                     "type": "composition"
                   }
-                },
-                "label": {
-                  "value": {
-                    "typography": "{sem.typography.textStyle.label.body.md}",
-                    "fill": "{sem.color.text.danger}"
-                  },
-                  "type": "composition"
                 }
-              },
-              "description": {
-                "value": {
-                  "typography": "{sem.typography.textStyle.paragraph.md.default}",
-                  "fill": "{sem.color.text.default}"
-                },
-                "type": "composition"
               }
             },
             "disabled": {
@@ -13816,46 +14920,94 @@
                   "horizontalPadding": "{sem.dropdown.item.md.container.horizontalPadding}",
                   "borderRadius": "{sem.dropdown.item.md.container.borderRadius}",
                   "itemSpacing": "{sem.dropdown.item.md.container.spacing}",
+                  "layoutMode": "horizontal",
+                  "horizontalResizing": "fill",
                   "opacity": "{sem.dropdown.item.md.container.opacity}"
                 },
                 "type": "composition"
               },
-              "labelWrapper": {
-                "container": {
+              "leftWrapper": {
+                "wrapper": {
                   "value": {
-                    "itemSpacing": "{sem.dropdown.item.md.labelWrapper.container.spacing}"
+                    "itemSpacing": "{sem.dropdown.item.md.leftWrapper.wrapper.spacing}",
+                    "layoutMode": "vertical",
+                    "horizontalResizing": "fill"
+                  },
+                  "type": "composition"
+                },
+                "labelWrapper": {
+                  "wrapper": {
+                    "value": {
+                      "itemSpacing": "{sem.dropdown.item.md.leftWrapper.labelWrapper.wrapper.spacing}",
+                      "layoutMode": "horizontal",
+                      "horizontalResizing": "fill",
+                      "layoutAlignItems": "center left"
+                    },
+                    "type": "composition"
+                  },
+                  "icon": {
+                    "size": {
+                      "value": {
+                        "width": "{sem.dropdown.item.md.leftWrapper.labelWrapper.icon.size}",
+                        "height": "{sem.dropdown.item.md.leftWrapper.labelWrapper.icon.size}"
+                      },
+                      "type": "composition"
+                    },
+                    "color": {
+                      "value": {
+                        "border": "{sem.borderIcon.sm.danger}"
+                      },
+                      "type": "composition"
+                    }
+                  },
+                  "label": {
+                    "value": {
+                      "typography": "{sem.typography.textStyle.label.body.md}",
+                      "fill": "{sem.color.text.danger}",
+                      "horizontalResizing": "fill"
+                    },
+                    "type": "composition"
+                  }
+                },
+                "description": {
+                  "value": {
+                    "typography": "{sem.typography.textStyle.paragraph.md.default}",
+                    "fill": "{sem.color.text.default}",
+                    "horizontalResizing": "fill"
+                  },
+                  "type": "composition"
+                }
+              },
+              "rightWrapper": {
+                "wrapper": {
+                  "value": {
+                    "itemSpacing": "{sem.dropdown.item.md.rightWrapper.wrapper.spacing}",
+                    "layoutAlignItems": "center right"
+                  },
+                  "type": "composition"
+                },
+                "text": {
+                  "value": {
+                    "typography": "{sem.typography.textStyle.label.body.sm}",
+                    "fill": "{sem.color.text.diminish}"
                   },
                   "type": "composition"
                 },
                 "icon": {
                   "size": {
                     "value": {
-                      "width": "{sem.dropdown.item.md.labelWrapper.icon.size}",
-                      "height": "{sem.dropdown.item.md.labelWrapper.icon.size}"
+                      "width": "{sem.dropdown.item.md.rightWrapper.icon.size}",
+                      "height": "{sem.dropdown.item.md.rightWrapper.icon.size}"
                     },
                     "type": "composition"
                   },
                   "color": {
                     "value": {
-                      "border": "{sem.borderIcon.sm.danger}"
+                      "border": "{sem.borderIcon.sm.dark}"
                     },
                     "type": "composition"
                   }
-                },
-                "label": {
-                  "value": {
-                    "typography": "{sem.typography.textStyle.label.body.md}",
-                    "fill": "{sem.color.text.danger}"
-                  },
-                  "type": "composition"
                 }
-              },
-              "description": {
-                "value": {
-                  "typography": "{sem.typography.textStyle.paragraph.md.default}",
-                  "fill": "{sem.color.text.default}"
-                },
-                "type": "composition"
               }
             }
           }
@@ -22642,17 +23794,39 @@
               "type": "opacity"
             }
           },
-          "labelWrapper": {
-            "container": {
+          "leftWrapper": {
+            "wrapper": {
               "spacing": {
                 "value": "{ref.spacing.100}",
-                "type": "composition"
+                "type": "spacing"
+              }
+            },
+            "labelWrapper": {
+              "wrapper": {
+                "spacing": {
+                  "value": "{ref.spacing.100}",
+                  "type": "spacing"
+                }
+              },
+              "icon": {
+                "size": {
+                  "value": "{ref.sizing.100}",
+                  "type": "spacing"
+                }
+              }
+            }
+          },
+          "rightWrapper": {
+            "wrapper": {
+              "spacing": {
+                "value": "{ref.spacing.50}",
+                "type": "spacing"
               }
             },
             "icon": {
               "size": {
                 "value": "{ref.sizing.100}",
-                "type": "composition"
+                "type": "spacing"
               }
             }
           }
@@ -22680,17 +23854,39 @@
               "type": "opacity"
             }
           },
-          "labelWrapper": {
-            "container": {
+          "leftWrapper": {
+            "wrapper": {
               "spacing": {
                 "value": "{ref.spacing.100}",
-                "type": "composition"
+                "type": "spacing"
+              }
+            },
+            "labelWrapper": {
+              "wrapper": {
+                "spacing": {
+                  "value": "{ref.spacing.100}",
+                  "type": "spacing"
+                }
+              },
+              "icon": {
+                "size": {
+                  "value": "{ref.sizing.200}",
+                  "type": "spacing"
+                }
+              }
+            }
+          },
+          "rightWrapper": {
+            "wrapper": {
+              "spacing": {
+                "value": "{ref.spacing.50}",
+                "type": "spacing"
               }
             },
             "icon": {
               "size": {
                 "value": "{ref.sizing.200}",
-                "type": "composition"
+                "type": "spacing"
               }
             }
           }

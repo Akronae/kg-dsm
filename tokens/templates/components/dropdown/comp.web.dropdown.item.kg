@@ -15,46 +15,94 @@ comp
         "horizontalPadding": "{sem.dropdown.item.<<size>>.container.horizontalPadding}",
         "borderRadius": "{sem.dropdown.item.<<size>>.container.borderRadius}",
         "itemSpacing": "{sem.dropdown.item.<<size>>.container.spacing}",
+        "layoutMode": "horizontal",
+        "horizontalResizing": "fill",
         "opacity": "<< state == 'disabled' ? ('{sem.dropdown.item.' + size + '.container.opacity}') : 1 >>"
       },
       "type": "composition"
     },
-    "labelWrapper": {
-      "container": {
+    "leftWrapper": {
+      "wrapper": {
         "value": {
-          "itemSpacing": "{sem.dropdown.item.<<size>>.labelWrapper.container.spacing}"
+          "itemSpacing": "{sem.dropdown.item.<<size>>.leftWrapper.wrapper.spacing}",
+          "layoutMode": "vertical",
+          "horizontalResizing": "fill"
+        },
+        "type": "composition"
+      },
+      "labelWrapper": {
+        "wrapper": {
+          "value": {
+            "itemSpacing": "{sem.dropdown.item.<<size>>.leftWrapper.labelWrapper.wrapper.spacing}",
+            "layoutMode": "horizontal",
+            "horizontalResizing": "fill",
+            "layoutAlignItems": "center left"
+          },
+          "type": "composition"
+        },
+        "icon": {
+          "size": {
+            "value": {
+              "width": "{sem.dropdown.item.<<size>>.leftWrapper.labelWrapper.icon.size}",
+              "height": "{sem.dropdown.item.<<size>>.leftWrapper.labelWrapper.icon.size}"
+            },
+            "type": "composition"
+          },
+          "color": {
+            "value": {
+              "border": "{sem.borderIcon.sm.<< type == 'danger' ? 'danger' : 'default'>>}"
+            },
+            "type": "composition"
+          }
+        },
+        "label": {
+          "value": {
+            "typography": "{sem.typography.textStyle.label.body.<<size>>}",
+            "fill": "{sem.color.text.<< type == 'danger' ? 'danger' : 'dark'>>}",
+            "horizontalResizing": "fill"
+          },
+          "type": "composition"
+        }
+      },
+      "description": {
+        "value": {
+          "typography": "{sem.typography.textStyle.paragraph.<<size>>.default}",
+          "fill": "{sem.color.text.default}",
+          "horizontalResizing": "fill"
+        },
+        "type": "composition"
+      } 
+    },
+    "rightWrapper": {
+      "wrapper": {
+        "value": {
+          "itemSpacing": "{sem.dropdown.item.<<size>>.rightWrapper.wrapper.spacing}",
+          "layoutAlignItems": "center right"
+        },
+        "type": "composition"
+      },
+      "text": {
+        "value": {
+        "typography": "{sem.typography.textStyle.label.body.sm}",
+        "fill": "{sem.color.text.diminish}"
         },
         "type": "composition"
       },
       "icon": {
         "size": {
           "value": {
-            "width": "{sem.dropdown.item.<<size>>.labelWrapper.icon.size}",
-            "height": "{sem.dropdown.item.<<size>>.labelWrapper.icon.size}"
+            "width": "{sem.dropdown.item.<<size>>.rightWrapper.icon.size}",
+            "height": "{sem.dropdown.item.<<size>>.rightWrapper.icon.size}"
           },
           "type": "composition"
         },
         "color": {
           "value": {
-            "border": "{sem.borderIcon.sm.<< type == 'danger' ? 'danger' : 'default'>>}"
+            "border": "{sem.borderIcon.sm.dark}"
           },
           "type": "composition"
         }
-      },
-      "label": {
-        "value": {
-          "typography": "{sem.typography.textStyle.label.body.<<size>>}",
-          "fill": "{sem.color.text.<< type == 'danger' ? 'danger' : 'dark'>>}"
-        },
-        "type": "composition"
-      }
-    },
-    "description": {
-      "value": {
-        "typography": "{sem.typography.textStyle.paragraph.<<size>>.default}",
-        "fill": "{sem.color.text.default}"
-      },
-      "type": "composition"
+      } 
     }
   }
 ]
